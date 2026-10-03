@@ -1,0 +1,681 @@
+{
+  "id": "kaishi-1-80",
+  "label": "Words 1–80",
+  "wordCount": 80,
+  "words": [
+    [
+      "私",
+      "わたし",
+      "I (polite, general)"
+    ],
+    [
+      "あなた",
+      "あなた",
+      "you (usually when one doesn't know the person)"
+    ],
+    [
+      "さん",
+      "さん",
+      "san"
+    ],
+    [
+      "彼",
+      "かれ",
+      "he, him"
+    ],
+    [
+      "好き",
+      "すき",
+      "like, fond of"
+    ],
+    [
+      "人",
+      "ひと",
+      "person"
+    ],
+    [
+      "いい",
+      "いい",
+      "good"
+    ],
+    [
+      "人",
+      "じん",
+      "person from (nationality)"
+    ],
+    [
+      "日本語",
+      "にほんご",
+      "Japanese language"
+    ],
+    [
+      "勉強",
+      "べんきょう",
+      "study"
+    ],
+    [
+      "本",
+      "ほん",
+      "book"
+    ],
+    [
+      "これ",
+      "これ",
+      "this"
+    ],
+    [
+      "何",
+      "なに・なん",
+      "what"
+    ],
+    [
+      "それ",
+      "それ",
+      "that"
+    ],
+    [
+      "あれ",
+      "あれ",
+      "that over there"
+    ],
+    [
+      "どれ",
+      "どれ",
+      "which, what"
+    ],
+    [
+      "毎日",
+      "まいにち",
+      "every day"
+    ],
+    [
+      "兄",
+      "あに",
+      "older brother"
+    ],
+    [
+      "いる",
+      "いる",
+      "have, exist (animate)"
+    ],
+    [
+      "ある",
+      "ある",
+      "have, exist (inanimate)"
+    ],
+    [
+      "あまり",
+      "あまり",
+      "(not) very, (not) much"
+    ],
+    [
+      "今",
+      "いま",
+      "now"
+    ],
+    [
+      "時間",
+      "じかん",
+      "time, hour"
+    ],
+    [
+      "無い",
+      "ない",
+      "to not be"
+    ],
+    [
+      "この",
+      "この",
+      "this one"
+    ],
+    [
+      "その",
+      "その",
+      "that one"
+    ],
+    [
+      "あの",
+      "あの",
+      "that one there"
+    ],
+    [
+      "どの",
+      "どの",
+      "which one"
+    ],
+    [
+      "見る",
+      "みる",
+      "see, look at"
+    ],
+    [
+      "全然",
+      "ぜんぜん",
+      "(not) at all"
+    ],
+    [
+      "面白い",
+      "おもしろい",
+      "interesting, amusing"
+    ],
+    [
+      "する",
+      "する",
+      "do, make"
+    ],
+    [
+      "なる",
+      "なる",
+      "become, result in, come (to do)"
+    ],
+    [
+      "先生",
+      "せんせい",
+      "teacher"
+    ],
+    [
+      "ください",
+      "ください",
+      "please give..., please do..."
+    ],
+    [
+      "名前",
+      "なまえ",
+      "name"
+    ],
+    [
+      "教える",
+      "おしえる",
+      "teach, tell"
+    ],
+    [
+      "ここ",
+      "ここ",
+      "here"
+    ],
+    [
+      "そこ",
+      "そこ",
+      "there"
+    ],
+    [
+      "あそこ",
+      "あそこ",
+      "over there"
+    ],
+    [
+      "どこ",
+      "どこ",
+      "where"
+    ],
+    [
+      "置く",
+      "おく",
+      "put, place"
+    ],
+    [
+      "家",
+      "いえ",
+      "house, home"
+    ],
+    [
+      "帰る",
+      "かえる",
+      "return, go back"
+    ],
+    [
+      "話",
+      "はなし",
+      "talk, story"
+    ],
+    [
+      "知る",
+      "しる",
+      "know"
+    ],
+    [
+      "彼女",
+      "かのじょ",
+      "she, her, girlfriend"
+    ],
+    [
+      "ちゃん",
+      "ちゃん",
+      "chan"
+    ],
+    [
+      "はい",
+      "はい",
+      "yes (polite)"
+    ],
+    [
+      "いいえ",
+      "いいえ",
+      "no (polite)"
+    ],
+    [
+      "日本",
+      "にほん",
+      "Japan"
+    ],
+    [
+      "学校",
+      "がっこう",
+      "school"
+    ],
+    [
+      "行く",
+      "いく",
+      "go"
+    ],
+    [
+      "明日",
+      "あした",
+      "tomorrow"
+    ],
+    [
+      "来る",
+      "くる",
+      "come"
+    ],
+    [
+      "また",
+      "また",
+      "again, also"
+    ],
+    [
+      "いつ",
+      "いつ",
+      "when"
+    ],
+    [
+      "思う",
+      "おもう",
+      "think"
+    ],
+    [
+      "こう",
+      "こう",
+      "like this, this kind of"
+    ],
+    [
+      "そう",
+      "そう",
+      "in such manner, that way"
+    ],
+    [
+      "どう",
+      "どう",
+      "how, what"
+    ],
+    [
+      "会う",
+      "あう",
+      "meet"
+    ],
+    [
+      "次",
+      "つぎ",
+      "next, subsequent"
+    ],
+    [
+      "方",
+      "ほう",
+      "direction, side"
+    ],
+    [
+      "方",
+      "かた",
+      "person (polite form)"
+    ],
+    [
+      "聞く",
+      "きく",
+      "hear"
+    ],
+    [
+      "聞く",
+      "きく",
+      "ask"
+    ],
+    [
+      "お願いします",
+      "おねがいします",
+      "please"
+    ],
+    [
+      "分かる",
+      "わかる",
+      "understand"
+    ],
+    [
+      "よく",
+      "よく",
+      "well"
+    ],
+    [
+      "よく",
+      "よく",
+      "often"
+    ],
+    [
+      "考える",
+      "かんがえる",
+      "think, consider"
+    ],
+    [
+      "ありがとうございます",
+      "ありがとうございます",
+      "thank you (formal)"
+    ],
+    [
+      "話す",
+      "はなす",
+      "talk, speak"
+    ],
+    [
+      "もっと",
+      "もっと",
+      "more, a bit more"
+    ],
+    [
+      "ゆっくり",
+      "ゆっくり",
+      "slowly"
+    ],
+    [
+      "言う",
+      "いう",
+      "say"
+    ],
+    [
+      "友達",
+      "ともだち",
+      "friend, companion"
+    ],
+    [
+      "待つ",
+      "まつ",
+      "wait"
+    ],
+    [
+      "昨日",
+      "きのう",
+      "yesterday"
+    ]
+  ],
+  "questions": [
+    {
+      "situation": "Understanding a teacher · Two classmates",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "先生の話はどうですか。分かりますか。",
+          "translation": "How is the teacher’s talk? Do you understand it?"
+        },
+        {
+          "speaker": "B",
+          "text": "いいえ、よく分かりません。",
+          "translation": "No, I don’t understand it well."
+        },
+        {
+          "speaker": "A",
+          "text": "先生に、もっとゆっくり話してくださいと言いましょう。",
+          "translation": "Let’s tell the teacher, ‘Please speak more slowly.’"
+        },
+        {
+          "speaker": "B",
+          "text": "はい、お願いします。",
+          "translation": "Yes, please."
+        }
+      ],
+      "question": "What does A suggest asking the teacher to do?",
+      "choices": [
+        "Speak more slowly",
+        "Talk about a different book",
+        "Come again tomorrow",
+        "Wait for a friend"
+      ],
+      "answer": 0,
+      "explanation": "もっとゆっくり話してください means please speak more slowly. よく分かりません means I don’t understand well. と marks the quoted request; 言いましょう means let’s say/tell."
+    },
+    {
+      "situation": "Meeting again · Two friends",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "次はいつ会いますか。",
+          "translation": "When shall we meet next?"
+        },
+        {
+          "speaker": "B",
+          "text": "明日はどうですか。",
+          "translation": "How about tomorrow?"
+        },
+        {
+          "speaker": "A",
+          "text": "いいですね。どこで会いますか。",
+          "translation": "Sounds good. Where shall we meet?"
+        },
+        {
+          "speaker": "B",
+          "text": "学校で会いましょう。",
+          "translation": "Let’s meet at school."
+        }
+      ],
+      "question": "When and where will they meet next?",
+      "choices": [
+        "Tomorrow at home",
+        "Today at school",
+        "Tomorrow at school",
+        "They have not chosen a place"
+      ],
+      "answer": 2,
+      "explanation": "次 means next. B proposes 明日 (tomorrow), then 学校で (at school). 会いましょう is the polite let’s-form of 会う (meet)."
+    },
+    {
+      "situation": "Choosing something to read · Two friends",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "この本とその本、どちらがいいと思いますか。",
+          "translation": "Which do you think is better, this book or that book?"
+        },
+        {
+          "speaker": "B",
+          "text": "この本の方が面白いと思います。",
+          "translation": "I think this book is more interesting."
+        },
+        {
+          "speaker": "A",
+          "text": "そうですか。この本をください。",
+          "translation": "I see. Please give me this book."
+        },
+        {
+          "speaker": "B",
+          "text": "はい。",
+          "translation": "Okay."
+        }
+      ],
+      "question": "Which book does B think is more interesting?",
+      "choices": [
+        "Neither book",
+        "The book described as ‘this book’",
+        "Both books equally",
+        "B does not know"
+      ],
+      "answer": 1,
+      "explanation": "この本の方が面白い uses 方 (ほう) in a comparison: this book is more interesting. Extra expression: どちら means which of two. と思います means I think."
+    },
+    {
+      "situation": "Someone at school · Two classmates",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "あの方は先生ですか。",
+          "translation": "Is that person over there a teacher?"
+        },
+        {
+          "speaker": "B",
+          "text": "いいえ、私の友達です。",
+          "translation": "No, that’s my friend."
+        },
+        {
+          "speaker": "A",
+          "text": "よく会いますか。",
+          "translation": "Do you meet often?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい、よく会います。昨日も会いました。",
+          "translation": "Yes, we meet often. We met yesterday too."
+        }
+      ],
+      "question": "Who is the person they are talking about?",
+      "choices": [
+        "A’s teacher",
+        "B’s older brother",
+        "A’s girlfriend",
+        "B’s friend"
+      ],
+      "answer": 3,
+      "explanation": "方 is read かた here and means person politely. B says 私の友達 (my friend). よく means often in よく会います; 昨日 means yesterday."
+    },
+    {
+      "situation": "Asking for help · Two classmates",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "先生の名前を知っていますか。",
+          "translation": "Do you know the teacher’s name?"
+        },
+        {
+          "speaker": "B",
+          "text": "いいえ。友達に聞きます。",
+          "translation": "No. I’ll ask a friend."
+        },
+        {
+          "speaker": "A",
+          "text": "お願いします。",
+          "translation": "Please do."
+        },
+        {
+          "speaker": "B",
+          "text": "ここで待ってください。",
+          "translation": "Please wait here."
+        }
+      ],
+      "question": "What will B do to find out the teacher’s name?",
+      "choices": [
+        "Ask a friend",
+        "Ask A’s older brother",
+        "Read a Japanese book",
+        "Go home"
+      ],
+      "answer": 0,
+      "explanation": "友達に聞きます means I’ll ask a friend. 聞く means ask here. 待ってください means please wait, using the て-form of 待つ."
+    },
+    {
+      "situation": "Listening practice · Two friends",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "毎日、日本語を聞きますか。",
+          "translation": "Do you listen to Japanese every day?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい。でも、よく分かりません。",
+          "translation": "Yes. But I don’t understand it well."
+        },
+        {
+          "speaker": "A",
+          "text": "私がゆっくり話します。聞いてください。",
+          "translation": "I’ll speak slowly. Please listen."
+        },
+        {
+          "speaker": "B",
+          "text": "ありがとうございます。お願いします。",
+          "translation": "Thank you. Please do."
+        }
+      ],
+      "question": "How will A help B?",
+      "choices": [
+        "By introducing a teacher",
+        "By giving B a book",
+        "By speaking Japanese slowly",
+        "By asking B to go home"
+      ],
+      "answer": 2,
+      "explanation": "聞く means listen/hear here. A offers ゆっくり話します (I’ll speak slowly). Extra connector: でも means but. ありがとうございます is a polite thank you."
+    },
+    {
+      "situation": "Thinking about a plan · Two friends",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "明日、私の家で勉強しませんか。",
+          "translation": "Would you like to study at my house tomorrow?"
+        },
+        {
+          "speaker": "B",
+          "text": "明日ですか。もっと考えます。",
+          "translation": "Tomorrow? I’ll think about it some more."
+        },
+        {
+          "speaker": "A",
+          "text": "分かりました。",
+          "translation": "Understood."
+        },
+        {
+          "speaker": "B",
+          "text": "ありがとうございます。",
+          "translation": "Thank you."
+        }
+      ],
+      "question": "Has B agreed to study at A’s house tomorrow?",
+      "choices": [
+        "Yes, B agreed immediately",
+        "Not yet; B will think about it more",
+        "No, B will go to school instead",
+        "Yes, but only today"
+      ],
+      "answer": 1,
+      "explanation": "もっと考えます means I’ll think about it more, so B has not agreed yet. 勉強しませんか is a polite invitation; 分かりました means understood."
+    },
+    {
+      "situation": "Yesterday’s conversation · Two friends",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "昨日、学校で何をしましたか。",
+          "translation": "What did you do at school yesterday?"
+        },
+        {
+          "speaker": "B",
+          "text": "友達と話しました。",
+          "translation": "I talked with a friend."
+        },
+        {
+          "speaker": "A",
+          "text": "何の話をしましたか。",
+          "translation": "What did you talk about?"
+        },
+        {
+          "speaker": "B",
+          "text": "日本語の本の話をしました。面白い本だと言っていました。",
+          "translation": "We talked about a Japanese-language book. My friend said it was an interesting book."
+        }
+      ],
+      "question": "What did B and the friend talk about yesterday?",
+      "choices": [
+        "The teacher’s name",
+        "When to go home",
+        "Where to meet tomorrow",
+        "A Japanese-language book"
+      ],
+      "answer": 3,
+      "explanation": "日本語の本の話 means a conversation about a Japanese-language book. 話しました is the polite past form of 話す. と言っていました reports what someone said."
+    }
+  ]
+}

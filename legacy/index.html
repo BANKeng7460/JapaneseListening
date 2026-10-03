@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#176b57">
+  <title>Kiku · Japanese Listening Practice</title>
+  <style>
+    :root { color-scheme: light; --ink:#203b34; --muted:#65756e; --green:#176b57; --line:#dce5dc; --paper:#fffef9; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:#f3f5ed; color:var(--ink); font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    button, select { font:inherit; }
+    button { cursor:pointer; }
+    button:disabled { cursor:default; opacity:.65; }
+    button:focus-visible, select:focus-visible, summary:focus-visible { outline:3px solid #c48a26; outline-offset:4px; }
+    [hidden] { display:none !important; }
+    .shell { max-width:1000px; margin:auto; padding:30px 28px 40px; }
+    header { display:flex; justify-content:space-between; align-items:center; gap:16px; padding-bottom:36px; }
+    .brand { display:flex; align-items:center; gap:12px; font-size:23px; font-weight:750; letter-spacing:-1px; }
+    .brand-mark { display:grid; place-items:center; width:43px; height:43px; background:var(--green); color:white; border-radius:14px; font-size:24px; }
+    .header-note { font-size:13px; color:var(--muted); }
+    .eyebrow { text-transform:uppercase; letter-spacing:2px; font-size:11px; font-weight:750; color:var(--green); }
+    h1 { font-size:clamp(30px,5vw,45px); letter-spacing:-1.7px; line-height:1.15; margin:12px 0; }
+    .intro { color:var(--muted); margin:0 0 30px; }
+    .layout { display:grid; grid-template-columns:minmax(0,1fr) 240px; gap:24px; align-items:start; }
+    .card { background:var(--paper); border:1px solid var(--line); border-radius:23px; overflow:hidden; box-shadow:0 8px 30px #254b3410; }
+    .card-top { display:flex; justify-content:space-between; align-items:center; padding:22px 28px 16px; gap:12px; }
+    .small { font-size:13px; color:var(--muted); }
+    .badge { border-radius:30px; padding:5px 12px; font-size:12px; font-weight:650; background:#eef2e8; }
+    progress { appearance:none; display:block; border:0; width:calc(100% - 56px); height:5px; margin:0 28px; background:#e9eee5; border-radius:10px; overflow:hidden; }
+    progress::-webkit-progress-bar { background:#e9eee5; }
+    progress::-webkit-progress-value { background:var(--green); border-radius:10px; }
+    progress::-moz-progress-bar { background:var(--green); }
+    .content { padding:24px 28px 28px; }
+    .audio-box { background:#eaf1e7; border:1px solid #dce7d6; border-radius:17px; padding:25px 20px 18px; text-align:center; }
+    .wave { height:38px; display:flex; align-items:center; justify-content:center; gap:5px; margin-bottom:15px; }
+    .wave span { width:5px; height:var(--h); background:#6b967b; border-radius:8px; }
+    .playing .wave span { animation:pulse .75s ease-in-out infinite alternate; animation-delay:var(--d); }
+    @keyframes pulse { to { transform:scaleY(.35); opacity:.5; } }
+    .primary { border:0; background:var(--green); color:white; border-radius:10px; padding:12px 22px; font-weight:650; }
+    .primary:hover:not(:disabled) { background:#105441; }
+    #play { min-width:180px; }
+    .audio-controls { margin-top:13px; display:flex; justify-content:center; align-items:center; gap:8px; font-size:12px; }
+    select { border:1px solid #c9d8c7; background:#f7faf3; color:var(--ink); border-radius:6px; padding:3px 7px; font-size:12px; }
+    .voice-controls { flex-wrap:wrap; }
+    .voice-controls select { max-width:100%; min-width:0; padding:7px; }
+    #situation { margin:0 0 16px; font-weight:650; }
+    .voice-help { font-size:12px; color:var(--muted); margin:10px auto 0; max-width:390px; }
+    #audio-status { font-size:12px; margin:10px 0 0; color:#52634f; }
+    fieldset { border:0; padding:0; margin:24px 0 20px; min-width:0; }
+    legend { padding:0; font-size:20px; line-height:1.4; font-weight:700; margin-bottom:16px; letter-spacing:-.35px; }
+    .choices { display:grid; gap:10px; }
+    .choice { position:relative; }
+    .choice input { position:absolute; width:1px; height:1px; opacity:0; }
+    .choice label { display:flex; align-items:center; gap:13px; border:1px solid var(--line); border-radius:11px; padding:13px 15px; cursor:pointer; transition:background .15s,border-color .15s; }
+    .choice label:hover { background:#f4f6ef; }
+    .letter { display:grid; place-items:center; flex-shrink:0; border:1px solid #dce3d9; background:white; border-radius:7px; width:29px; height:29px; font-size:12px; font-weight:700; color:var(--muted); }
+    input:checked + label { border-color:var(--green); background:#edf5ed; box-shadow:0 0 0 1px var(--green); }
+    input:checked + label .letter { color:white; background:var(--green); border-color:var(--green); }
+    input:focus-visible + label { outline:3px solid #c48a26; outline-offset:3px; }
+    input:disabled + label { cursor:default; }
+    .choice label.correct { border-color:#398756; background:#e8f3e7; }
+    .choice label.incorrect { border-color:#be7061; background:#fcf0e9; }
+    .answer-mark { margin-left:auto; font-size:12px; font-weight:650; }
+    .actions { display:flex; justify-content:space-between; align-items:center; gap:15px; }
+    .feedback { background:#eef5e9; border:1px solid #d6e5ce; padding:16px; border-radius:12px; margin:0 0 20px; }
+    .feedback.wrong { background:#fff3e7; border-color:#ecd5bd; }
+    .feedback p { margin:5px 0; font-size:14px; }
+    summary { cursor:pointer; font-size:13px; font-weight:650; margin-top:12px; }
+    .transcript { font-size:17px !important; }
+    aside { padding-top:4px; }
+    .tip { border-top:1px solid #d7e1d4; padding:21px 0; }
+    .tip h2 { margin:0 0 8px; font-size:14px; }
+    .tip p { margin:0; font-size:13px; color:var(--muted); }
+    .topic { display:flex; gap:12px; align-items:center; margin-bottom:23px; }
+    .topic-icon { width:46px; height:46px; display:grid; place-items:center; background:#e4eacd; border-radius:13px; font-size:23px; }
+    .topic strong { font-size:14px; }
+    .topic p { font-size:12px; color:var(--muted); margin:0; }
+    .score-row { display:flex; align-items:baseline; gap:7px; }
+    #live-score { font-size:32px; font-weight:750; letter-spacing:-1px; }
+    footer { margin-top:25px; color:var(--muted); font-size:12px; text-align:center; }
+    .results { padding:40px 28px; }
+    .results h2 { margin:8px 0; font-size:30px; letter-spacing:-1px; }
+    .result-score { font-size:60px; font-weight:750; color:var(--green); letter-spacing:-3px; }
+    .review { padding:0; list-style:none; margin:24px 0; }
+    .review li { padding:15px 0; border-top:1px solid var(--line); }
+    .review p { font-size:14px; margin:4px 0; }
+    @media(max-width:760px) { .layout { grid-template-columns:1fr; } aside { display:grid; grid-template-columns:1fr 1fr; gap:18px; } .topic { display:none; } .tip { padding:16px 0; } .tip:last-child { grid-column:1/-1; } header { padding-bottom:28px; } }
+    @media(max-width:420px) { .shell { padding:20px 16px; } .header-note { font-size:11px; } .content { padding:20px; } .card-top { padding:20px; } .actions { align-items:stretch; flex-direction:column; } .actions .small { text-align:center; } }
+    @media(prefers-reduced-motion:reduce) { *, *::before, *::after { animation:none !important; transition:none !important; } }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header><div class="brand"><span class="brand-mark" lang="ja">き</span> kiku<span style="color:#819078">.</span></div><span class="header-note">A little listening, every day.</span></header>
+    <main>
+      <div class="eyebrow">Japanese listening · Kaishi 1.5k</div>
+      <h1>Listen closely. Learn naturally.</h1>
+      <p class="intro">Choose a listening test for the words you’ve learned. Earlier tests stay available as your vocabulary grows.</p>
+      <div class="tip">
+        <label for="test-set"><strong>Listening test</strong></label>
+        <select id="test-set" aria-describedby="test-help"></select>
+        <p id="test-help">Each test is separate and cumulative: 1–80 includes vocabulary from words 1 through 80. Planned tests will be added when you learn those words.</p>
+      </div>
+      <div class="layout">
+        <section class="card" aria-label="Listening exercise">
+          <div id="exercise">
+            <div class="card-top"><span id="question-count" class="small"></span><span class="badge" id="test-badge">Kaishi · Words 1–60</span></div>
+            <progress id="progress" value="0" max="8" aria-label="Questions completed"></progress>
+            <div class="content">
+              <div class="audio-box" id="audio-box">
+                <p id="situation"></p>
+                <div class="wave" aria-hidden="true"><span style="--h:12px;--d:0s"></span><span style="--h:23px;--d:.1s"></span><span style="--h:32px;--d:.2s"></span><span style="--h:19px;--d:.3s"></span><span style="--h:38px;--d:.4s"></span><span style="--h:27px;--d:.2s"></span><span style="--h:16px;--d:.1s"></span><span style="--h:30px;--d:.3s"></span><span style="--h:21px;--d:.2s"></span><span style="--h:11px;--d:.4s"></span></div>
+                <button class="primary" id="play" type="button">▶ Play audio</button>
+                <div class="audio-controls"><label for="speed">Playback speed</label><select id="speed"><option value="0.8">Slow</option><option value="1" selected>Normal</option></select></div>
+                <div class="audio-controls voice-controls"><label for="voice-A">Speaker A</label><select id="voice-A" aria-describedby="voice-help" disabled><option>Loading voices…</option></select></div>
+                <div class="audio-controls voice-controls"><label for="voice-B">Speaker B</label><select id="voice-B" aria-describedby="voice-help" disabled><option>Loading voices…</option></select></div>
+                <p class="voice-help" id="voice-help">For Microsoft voices, open this page in Edge. Available voices depend on your browser and device; Edge’s Read Aloud voice list may differ.</p>
+                <p id="audio-status" role="status">You can listen as many times as you like.</p>
+              </div>
+              <form id="answer-form">
+                <fieldset id="answers"><legend id="question" tabindex="-1"></legend><div class="choices" id="choices"></div></fieldset>
+                <div id="feedback" class="feedback" role="status" hidden></div>
+                <div class="actions"><span class="small" id="action-hint">Choose one answer.</span><button class="primary" id="check" type="submit" disabled>Check answer →</button><button class="primary" id="next" type="button" hidden>Next question →</button></div>
+              </form>
+            </div>
+          </div>
+          <div id="results" class="results" hidden></div>
+        </section>
+        <aside aria-label="Practice tips and score">
+          <div class="tip"><h2>Vocabulary for this test</h2><p id="vocabulary-note"></p><details><summary id="vocabulary-title">See this test’s word list</summary><ol id="study-words" class="small"></ol></details></div>
+          <div class="topic"><span class="topic-icon" aria-hidden="true">☕</span><div><strong id="collection-title"></strong><p id="collection-count"></p></div></div>
+          <div class="tip"><h2>Your session</h2><div class="score-row"><span id="live-score">0 / 0</span><span class="small">correct</span></div><p>One small step toward better listening.</p></div>
+          <div class="tip"><h2>Make the most of each clip</h2><p>Listen once for the main idea. Replay to catch details, or switch to slow playback.</p></div>
+          <div class="tip"><h2>A little help, when you need it</h2><p>After answering, open the transcript to see the Japanese text and English translation.</p></div>
+        </aside>
+      </div>
+    </main>
+    <footer>Audio is generated by your browser. A Japanese text-to-speech voice is required.</footer>
+  </div>
+  <script src="kaishi-conversations.js"></script>
+  <script src="listening-tests.js"></script>
+  <script>
+    // Add your own exercises here. answer is the zero-based index of the correct choice.
+    let activeTest = listeningTests[0];
+    let questions = activeTest.questions;
+    const $ = id => document.getElementById(id);
+    let studyWords = activeTest.words;
+    const synth = window.speechSynthesis;
+    let current = 0, score = 0, checked = false, playing = false, utterance = null, playbackId = 0;
+    const responses = [];
+    const speakerVoices = { A:null, B:null };
+    let japaneseVoices = [];
+    const preferredVoices = { A:'', B:'' };
+    for (const speaker of ['A','B']) {
+      try { preferredVoices[speaker] = localStorage.getItem(`kiku-voice-${speaker}`) || (speaker === 'A' ? localStorage.getItem('kiku-japanese-voice') : '') || ''; } catch { /* Storage may be unavailable for local files. */ }
+    }
+    const voiceKey = voice => JSON.stringify([voice.voiceURI, voice.name, voice.lang]);
+
+    function loadVoices() {
+      japaneseVoices = synth ? synth.getVoices().filter(voice => /^ja(?:[-_]|$)/i.test(voice.lang)) : [];
+      const rank = voice => /Microsoft/i.test(voice.name) ? (/Natural|Neural/i.test(voice.name) ? 3 : 2) : (voice.default ? 1 : 0);
+      japaneseVoices.sort((a,b) => rank(b) - rank(a));
+      for (const speaker of ['A','B']) {
+        speakerVoices[speaker] = japaneseVoices.find(voice => voiceKey(voice) === preferredVoices[speaker])
+          || (speaker === 'B' ? japaneseVoices.find(voice => voiceKey(voice) !== voiceKey(speakerVoices.A)) : null)
+          || japaneseVoices[0] || null;
+        const select = $(`voice-${speaker}`);
+        select.replaceChildren();
+        japaneseVoices.forEach(voice => {
+          const option = document.createElement('option');
+          option.value = voiceKey(voice);
+          option.textContent = `${voice.name}${voice.localService ? '' : ' · Online'}`;
+          select.append(option);
+        });
+        if (speakerVoices[speaker]) select.value = voiceKey(speakerVoices[speaker]);
+        else {
+          const option = document.createElement('option');
+          option.textContent = 'No Japanese voices available';
+          select.append(option);
+        }
+        select.disabled = !speakerVoices[speaker];
+      }
+      $('play').disabled = !speakerVoices.A || !speakerVoices.B;
+      if (!playing) $('audio-status').textContent = speakerVoices.A
+        ? (japaneseVoices.length === 1 ? 'Only one Japanese voice is available. Both speakers will use it.' : 'Choose a voice for each speaker, then play the conversation.')
+        : 'No Japanese voice is available. Enable a Japanese text-to-speech voice on your device, then reopen this page.';
+      if (!synth) $('audio-status').textContent = 'This browser does not support speech playback. Try a browser with text-to-speech support.';
+    }
+    function stopAudio() {
+      playbackId++;
+      if (synth) synth.cancel();
+      playing = false;
+      utterance = null;
+      $('audio-box').classList.remove('playing');
+      $('play').textContent = '▶ Play audio';
+    }
+    function playAudio() {
+      if (playing) { stopAudio(); $('audio-status').textContent = 'Playback stopped. Press play to listen again.'; return; }
+      if (!synth || !speakerVoices.A || !speakerVoices.B) { loadVoices(); return; }
+      stopAudio();
+      const id = playbackId;
+      const lines = questions[current].lines;
+      playing = true;
+      $('audio-box').classList.add('playing');
+      $('play').textContent = '■ Stop audio';
+      function speakLine(index) {
+        if (id !== playbackId) return;
+        if (index === lines.length) {
+          stopAudio();
+          $('audio-status').textContent = 'Conversation complete. Press play to listen again.';
+          return;
+        }
+        const line = lines[index];
+        utterance = new SpeechSynthesisUtterance(line.text);
+        utterance.lang = 'ja-JP';
+        utterance.voice = speakerVoices[line.speaker];
+        utterance.rate = Number($('speed').value);
+        utterance.onstart = () => {
+          if (id === playbackId) $('audio-status').textContent = `Speaker ${line.speaker} speaking · Line ${index + 1} of ${lines.length}`;
+        };
+        utterance.onend = () => speakLine(index + 1);
+        utterance.onerror = () => {
+          if (id !== playbackId) return;
+          stopAudio();
+          $('audio-status').textContent = 'Audio could not play. Try another voice or check your connection for online voices.';
+        };
+        $('audio-status').textContent = `Loading Speaker ${line.speaker}…`;
+        synth.speak(utterance);
+      }
+      speakLine(0);
+    }
+    function renderQuestion(focus = false) {
+      stopAudio();
+      checked = false;
+      const q = questions[current];
+      $('situation').textContent = q.situation;
+      $('question-count').textContent = `Question ${current + 1} of ${questions.length}`;
+      $('progress').max = questions.length;
+      $('progress').value = current;
+      $('question').textContent = q.question;
+      $('choices').replaceChildren();
+      q.choices.forEach((text, i) => {
+        const row = document.createElement('div');
+        row.className = 'choice';
+        const input = document.createElement('input');
+        input.type = 'radio'; input.name = 'answer'; input.id = `answer-${i}`; input.value = i;
+        const label = document.createElement('label');
+        label.htmlFor = input.id;
+        const letter = document.createElement('span');
+        letter.className = 'letter'; letter.textContent = 'ABCD'[i]; letter.setAttribute('aria-hidden','true');
+        const copy = document.createElement('span'); copy.textContent = text;
+        label.append(letter,copy); row.append(input,label); $('choices').append(row);
+      });
+      $('feedback').hidden = true;
+      $('feedback').replaceChildren();
+      $('check').hidden = false; $('check').disabled = true;
+      $('next').hidden = true;
+      $('action-hint').textContent = 'Choose one answer.';
+      loadVoices();
+      if (focus) $('question').focus();
+    }
+    $('choices').addEventListener('change', () => { if (!checked) $('check').disabled = false; });
+    $('answer-form').addEventListener('submit', event => {
+      event.preventDefault();
+      const selected = document.querySelector('input[name="answer"]:checked');
+      if (!selected || checked) return;
+      checked = true;
+      const q = questions[current], answer = Number(selected.value), correct = answer === q.answer;
+      responses.push(answer);
+      if (correct) score++;
+      document.querySelectorAll('input[name="answer"]').forEach(input => {
+        input.disabled = true;
+        const i = Number(input.value), label = input.nextElementSibling;
+        if (i === q.answer || (i === answer && !correct)) {
+          label.classList.add(i === q.answer ? 'correct' : 'incorrect');
+          const mark = document.createElement('span'); mark.className = 'answer-mark';
+          mark.textContent = i === q.answer ? '✓ Correct' : '✕ Your answer'; label.append(mark);
+        }
+      });
+      const title = document.createElement('strong'); title.textContent = correct ? 'Well done — that’s right!' : 'Keep going — here’s the answer.';
+      const explanation = document.createElement('p'); explanation.textContent = q.explanation;
+      const details = document.createElement('details'), summary = document.createElement('summary'); summary.textContent = 'Show transcript & translation';
+      details.append(summary);
+      q.lines.forEach(line => {
+        const speaker = document.createElement('strong'); speaker.textContent = `Speaker ${line.speaker}`;
+        const japanese = document.createElement('p'); japanese.lang = 'ja'; japanese.className = 'transcript'; japanese.textContent = line.text;
+        const english = document.createElement('p'); english.textContent = line.translation;
+        details.append(speaker,japanese,english);
+      });
+      $('feedback').className = `feedback${correct ? '' : ' wrong'}`;
+      $('feedback').append(title,explanation,details); $('feedback').hidden = false;
+      $('live-score').textContent = `${score} / ${responses.length}`;
+      $('progress').value = responses.length;
+      $('action-hint').textContent = correct ? 'A little progress, every time.' : 'Replay the clip to hear the answer.';
+      $('check').hidden = true;
+      $('next').hidden = false;
+      $('next').textContent = current === questions.length - 1 ? 'See results →' : 'Next question →';
+      $('next').focus();
+    });
+    $('next').addEventListener('click', () => {
+      if (!checked) return;
+      if (current < questions.length - 1) { current++; renderQuestion(true); } else showResults();
+    });
+    function showResults() {
+      stopAudio();
+      $('exercise').hidden = true;
+      const results = $('results'); results.replaceChildren(); results.hidden = false;
+      const eyebrow = document.createElement('div'); eyebrow.className = 'eyebrow'; eyebrow.textContent = `${activeTest.label} · Practice complete`;
+      const heading = document.createElement('h2'); heading.textContent = 'Nice work showing up.'; heading.tabIndex = -1;
+      const total = document.createElement('div'); total.className = 'result-score'; total.textContent = `${score} / ${questions.length}`;
+      const message = document.createElement('p'); message.textContent = score === questions.length ? 'You caught every detail. Keep listening!' : 'Review your answers below, then try again to build your confidence.';
+      const review = document.createElement('ol'); review.className = 'review';
+      questions.forEach((q,i) => {
+        const li = document.createElement('li'), title = document.createElement('strong'), answer = document.createElement('p'), explanation = document.createElement('p');
+        title.textContent = `${i + 1}. ${responses[i] === q.answer ? '✓' : '✕'} ${q.question}`;
+        answer.textContent = `Your answer: ${q.choices[responses[i]]} · Correct answer: ${q.choices[q.answer]}`;
+        explanation.textContent = q.explanation;
+        li.append(title,answer,explanation); review.append(li);
+      });
+      const restart = document.createElement('button'); restart.className = 'primary'; restart.textContent = 'Practice again ↻';
+      restart.addEventListener('click', () => {
+        current = 0; score = 0; responses.length = 0;
+        $('live-score').textContent = '0 / 0'; results.hidden = true; $('exercise').hidden = false; renderQuestion(true);
+      });
+      results.append(eyebrow,heading,total,message,review,restart); heading.focus();
+    }
+    $('play').addEventListener('click', playAudio);
+    for (const speaker of ['A','B']) $(`voice-${speaker}`).addEventListener('change', () => {
+      const selected = japaneseVoices.find(voice => voiceKey(voice) === $(`voice-${speaker}`).value);
+      if (!selected) return;
+      const wasPlaying = playing;
+      stopAudio();
+      speakerVoices[speaker] = selected;
+      preferredVoices[speaker] = voiceKey(selected);
+      try { localStorage.setItem(`kiku-voice-${speaker}`, preferredVoices[speaker]); } catch { /* Keep the selection for this session. */ }
+      $('audio-status').textContent = `Speaker ${speaker}: ${selected.name}. Press play to listen.`;
+      if (wasPlaying) playAudio();
+    });
+    $('speed').addEventListener('change', () => { if (playing) { stopAudio(); playAudio(); } });
+    window.addEventListener('pagehide', stopAudio);
+    if (synth) synth.addEventListener('voiceschanged', loadVoices);
+    function selectTest(id, focus = false) {
+      const test = listeningTests.find(test => test.id === id && test.questions?.length);
+      if (!test) return;
+      stopAudio();
+      activeTest = test;
+      questions = test.questions;
+      studyWords = test.words;
+      current = 0; score = 0; responses.length = 0;
+      $('test-set').value = test.id;
+      $('live-score').textContent = '0 / 0';
+      $('results').hidden = true;
+      $('exercise').hidden = false;
+      $('test-badge').textContent = `Kaishi · ${test.label}`;
+      $('collection-title').textContent = test.label;
+      $('collection-count').textContent = `${questions.length} dialogues · 4 choices each`;
+      $('vocabulary-title').textContent = `See the ${test.wordCount}-word study set`;
+      $('vocabulary-note').textContent = `Based on the first ${test.wordCount} vocabulary entries in your Kaishi export, excluding the welcome card. Dialogues reuse a selection of these words, plus basic particles and verb forms.`;
+      $('study-words').replaceChildren();
+      studyWords.forEach(([word, reading, meaning]) => {
+        const item = document.createElement('li');
+        item.textContent = `${word} (${reading}) — ${meaning}`;
+        $('study-words').append(item);
+      });
+      renderQuestion(focus);
+    }
+    listeningTests.forEach(test => {
+      const option = document.createElement('option');
+      option.value = test.id;
+      option.disabled = !test.questions?.length;
+      option.textContent = `${test.label} · ${option.disabled ? 'Planned' : `${test.questions.length} conversations`}`;
+      $('test-set').append(option);
+    });
+    $('test-set').addEventListener('change', () => selectTest($('test-set').value, true));
+    selectTest(activeTest.id);
+  </script>
+</body>
+</html>
