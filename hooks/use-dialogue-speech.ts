@@ -10,6 +10,9 @@ export function useDialogueSpeech() {
   const [selected, setSelected] = useState<Record<Speaker, string>>({ A: '', B: '' });
   const [rate, setRate] = useState(1);
   const [playing, setPlaying] = useState(false);
+  const [paused, setPaused] = useState(false);
+  const pausedRef = useRef(false);
+  const pendingLine = useRef<(() => void) | null>(null);
   const [status, setStatus] = useState('Loading Japanese voices…');
   const generation = useRef(0);
   const utterance = useRef<SpeechSynthesisUtterance | null>(null);
@@ -18,6 +21,10 @@ export function useDialogueSpeech() {
   const stop = useCallback(() => {
     generation.current++;
     window.speechSynthesis?.cancel();
+    if (window.speechSynthesis?.paused) window.speechSynthesis.resume();
+    pausedRef.current = false;
+    pendingLine.current = null;
+    setPaused(false);
     utterance.current = null;
     setPlaying(false);
   }, []);
@@ -40,24 +47,41 @@ export function useDialogueSpeech() {
     load();
     synth.addEventListener('voiceschanged', load);
     window.addEventListener('pagehide', stop);
-    return () => { synth.removeEventListener('voiceschanged', load); window.removeEventListener('pagehide', stop); generation.current++; synth.cancel(); };
+    return () => { synth.removeEventListener('voiceschanged', load); window.removeEventListener('pagehide', stop); generation.current++; synth.cancel(); if (synth.paused) synth.resume(); };
   }, [stop]);
 
   const play = (lines: DialogueLine[]) => {
-    if (playing) { stop(); setStatus('Playback stopped. Press play to listen again.'); return; }
+    if (playing) {
+      if (pausedRef.current) {
+        pausedRef.current = false;
+        setPaused(false);
+        window.speechSynthesis.resume();
+        setStatus('Resuming conversation…');
+        const next = pendingLine.current;
+        pendingLine.current = null;
+        next?.();
+      } else {
+        pausedRef.current = true;
+        setPaused(true);
+        window.speechSynthesis.pause();
+        setStatus('Paused. Press Resume to continue.');
+      }
+      return;
+    }
     if (!selected.A || !selected.B) return;
     stop();
     const id = generation.current;
     setPlaying(true);
     const speakLine = (index: number) => {
       if (id !== generation.current) return;
+      if (pausedRef.current) { pendingLine.current = () => speakLine(index); return; }
       if (index === lines.length) { stop(); setStatus('Conversation complete. Press play to listen again.'); return; }
       const line = lines[index];
       const speech = new SpeechSynthesisUtterance(line.text);
       utterance.current = speech;
       speech.lang = 'ja-JP'; speech.rate = rate;
       speech.voice = voices.find(v => voiceKey(v) === selected[line.speaker]) || null;
-      speech.onstart = () => { if (id === generation.current) setStatus(`Speaker ${line.speaker} speaking · Line ${index + 1} of ${lines.length}`); };
+      speech.onstart = () => { if (id === generation.current && !pausedRef.current) setStatus(`Speaker ${line.speaker} speaking · Line ${index + 1} of ${lines.length}`); };
       speech.onend = () => speakLine(index + 1);
       speech.onerror = () => { if (id === generation.current) { stop(); setStatus('Audio could not play. Try another voice or check your connection for online voices.'); } };
       setStatus(`Loading Speaker ${line.speaker}…`);
@@ -73,5 +97,6 @@ export function useDialogueSpeech() {
   };
   const changeRate = (value: number) => { stop(); setRate(value); setStatus('Speed updated. Press play to restart the conversation.'); };
   const reset = () => { stop(); setStatus(voices.length ? 'Press play to listen to the conversation.' : 'No Japanese voices available.'); };
-  return { voices, selected, rate, playing, status, play, reset, chooseVoice, changeRate, voiceKey };
+  const stopPlayback = () => { stop(); setStatus('Playback stopped. Press play to restart.'); };
+  return { voices, selected, rate, playing, paused, status, play, stopPlayback, reset, chooseVoice, changeRate, voiceKey };
 }

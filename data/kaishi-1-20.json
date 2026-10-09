@@ -1,0 +1,469 @@
+{
+  "id": "kaishi-1-20",
+  "label": "Level 1 · Words 1–20",
+  "wordCount": 20,
+  "words": [
+    [
+      "私",
+      "わたし",
+      "I (polite, general)"
+    ],
+    [
+      "あなた",
+      "あなた",
+      "you (usually when one doesn't know the person)"
+    ],
+    [
+      "さん",
+      "さん",
+      "san"
+    ],
+    [
+      "彼",
+      "かれ",
+      "he, him"
+    ],
+    [
+      "好き",
+      "すき",
+      "like, fond of"
+    ],
+    [
+      "人",
+      "ひと",
+      "person"
+    ],
+    [
+      "いい",
+      "いい",
+      "good"
+    ],
+    [
+      "人",
+      "じん",
+      "person from (nationality)"
+    ],
+    [
+      "日本語",
+      "にほんご",
+      "Japanese language"
+    ],
+    [
+      "勉強",
+      "べんきょう",
+      "study"
+    ],
+    [
+      "本",
+      "ほん",
+      "book"
+    ],
+    [
+      "これ",
+      "これ",
+      "this"
+    ],
+    [
+      "何",
+      "なに・なん",
+      "what"
+    ],
+    [
+      "それ",
+      "それ",
+      "that"
+    ],
+    [
+      "あれ",
+      "あれ",
+      "that over there"
+    ],
+    [
+      "どれ",
+      "どれ",
+      "which, what"
+    ],
+    [
+      "毎日",
+      "まいにち",
+      "every day"
+    ],
+    [
+      "兄",
+      "あに",
+      "older brother"
+    ],
+    [
+      "いる",
+      "いる",
+      "have, exist (animate)"
+    ],
+    [
+      "ある",
+      "ある",
+      "have, exist (inanimate)"
+    ]
+  ],
+  "questions": [
+    {
+      "situation": "A book",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "これは何ですか。",
+          "translation": "What is this?"
+        },
+        {
+          "speaker": "B",
+          "text": "日本語の本です。",
+          "translation": "It’s a Japanese-language book."
+        },
+        {
+          "speaker": "A",
+          "text": "それも日本語の本ですか。",
+          "translation": "Is that also a Japanese-language book?"
+        },
+        {
+          "speaker": "B",
+          "text": "それは違います。",
+          "translation": "That one is different."
+        }
+      ],
+      "question": "What is the first item?",
+      "choices": [
+        "A Japanese-language book",
+        "A pen",
+        "A phone",
+        "A bag"
+      ],
+      "answer": 0,
+      "explanation": "日本語の本 means a Japanese-language book. Extra expression: 違います (ちがいます) means is different / is not the case."
+    },
+    {
+      "situation": "Preferences",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "どれが好きですか。",
+          "translation": "Which do you like?"
+        },
+        {
+          "speaker": "B",
+          "text": "これが好きです。",
+          "translation": "I like this one."
+        },
+        {
+          "speaker": "A",
+          "text": "あれも好きですか。",
+          "translation": "Do you like that one over there too?"
+        },
+        {
+          "speaker": "B",
+          "text": "これだけです。",
+          "translation": "Only this one."
+        }
+      ],
+      "question": "Which item does B like?",
+      "choices": [
+        "Only the distant one",
+        "Only this one",
+        "All the items",
+        "None of them"
+      ],
+      "answer": 1,
+      "explanation": "これ means this one; あれ means that one over there. Extra word: だけ means only."
+    },
+    {
+      "situation": "Studying",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "毎日、日本語を勉強しますか。",
+          "translation": "Do you study Japanese every day?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい、毎日勉強します。",
+          "translation": "Yes, I study every day."
+        },
+        {
+          "speaker": "A",
+          "text": "日本語が好きですか。",
+          "translation": "Do you like Japanese?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい、好きです。",
+          "translation": "Yes, I do."
+        }
+      ],
+      "question": "How often does B study Japanese?",
+      "choices": [
+        "Once a week",
+        "Only on weekends",
+        "Every day",
+        "Never"
+      ],
+      "answer": 2,
+      "explanation": "毎日 (まいにち) means every day. 勉強します is the polite verb form for studying. Extra response: はい means yes."
+    },
+    {
+      "situation": "Family",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "兄がいます。",
+          "translation": "I have an older brother."
+        },
+        {
+          "speaker": "B",
+          "text": "あの人ですか。",
+          "translation": "Is it that person over there?"
+        },
+        {
+          "speaker": "A",
+          "text": "はい、兄です。",
+          "translation": "Yes, he is my older brother."
+        },
+        {
+          "speaker": "B",
+          "text": "いい人ですね。",
+          "translation": "He seems like a nice person."
+        }
+      ],
+      "question": "Who is the person over there?",
+      "choices": [
+        "A’s teacher",
+        "B’s father",
+        "B’s friend",
+        "A’s older brother"
+      ],
+      "answer": 3,
+      "explanation": "兄 (あに) means my older brother; います expresses the existence of a person. Extra phrase: あの人 means that person over there."
+    },
+    {
+      "situation": "Books for study",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "日本語の本はありますか。",
+          "translation": "Do you have a Japanese-language book?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい、あります。これです。",
+          "translation": "Yes, I do. This is it."
+        },
+        {
+          "speaker": "A",
+          "text": "いいですね。毎日、勉強しますか。",
+          "translation": "That’s nice. Do you study every day?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい、毎日勉強します。",
+          "translation": "Yes, I study every day."
+        }
+      ],
+      "question": "What does B have?",
+      "choices": [
+        "A Japanese-language book",
+        "A Japanese teacher",
+        "An older sister",
+        "A computer"
+      ],
+      "answer": 0,
+      "explanation": "あります is the polite form of ある, used for things. これです identifies the book. Extra response: はい means yes."
+    },
+    {
+      "situation": "Meeting someone new",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "あなたはアンさんですか。",
+          "translation": "Are you Ann?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい、私はアンです。",
+          "translation": "Yes, I’m Ann."
+        },
+        {
+          "speaker": "A",
+          "text": "彼はトムさんですか。",
+          "translation": "Is he Tom?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい、トムさんです。",
+          "translation": "Yes, he’s Tom."
+        }
+      ],
+      "question": "Who is Speaker B?",
+      "choices": [
+        "Tom",
+        "Ann",
+        "Ann’s brother",
+        "Tom’s brother"
+      ],
+      "answer": 1,
+      "explanation": "Focus: あなた (you), 私 (I), 彼 (he), さん (polite name suffix). アン and トム are names. あなた is used here to check an unfamiliar person’s identity, not as a default way to address everyone."
+    },
+    {
+      "situation": "Talking about nationality",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "私はイギリス人です。",
+          "translation": "I’m British."
+        },
+        {
+          "speaker": "B",
+          "text": "彼もイギリス人ですか。",
+          "translation": "Is he British too?"
+        },
+        {
+          "speaker": "A",
+          "text": "はい。彼は兄です。",
+          "translation": "Yes. He is my older brother."
+        },
+        {
+          "speaker": "B",
+          "text": "いいですね。",
+          "translation": "That’s nice."
+        }
+      ],
+      "question": "Who is also British?",
+      "choices": [
+        "B’s teacher",
+        "A’s friend",
+        "A’s older brother",
+        "B’s older brother"
+      ],
+      "answer": 2,
+      "explanation": "Focus: 人 read じん marks nationality; 人 read ひと means a person. Extra country name: イギリス (Britain). 私 means I; 彼 means he; 兄 means my older brother."
+    }
+  ],
+  "focusCoverage": [
+    {
+      "wordIndex": 1,
+      "questionIndex": 5,
+      "lineIndex": 1,
+      "form": "私"
+    },
+    {
+      "wordIndex": 2,
+      "questionIndex": 5,
+      "lineIndex": 0,
+      "form": "あなた"
+    },
+    {
+      "wordIndex": 3,
+      "questionIndex": 5,
+      "lineIndex": 0,
+      "form": "さん"
+    },
+    {
+      "wordIndex": 4,
+      "questionIndex": 5,
+      "lineIndex": 2,
+      "form": "彼"
+    },
+    {
+      "wordIndex": 5,
+      "questionIndex": 1,
+      "lineIndex": 1,
+      "form": "好き"
+    },
+    {
+      "wordIndex": 6,
+      "questionIndex": 3,
+      "lineIndex": 1,
+      "form": "人"
+    },
+    {
+      "wordIndex": 7,
+      "questionIndex": 3,
+      "lineIndex": 3,
+      "form": "いい"
+    },
+    {
+      "wordIndex": 8,
+      "questionIndex": 6,
+      "lineIndex": 0,
+      "form": "イギリス人"
+    },
+    {
+      "wordIndex": 9,
+      "questionIndex": 0,
+      "lineIndex": 1,
+      "form": "日本語"
+    },
+    {
+      "wordIndex": 10,
+      "questionIndex": 2,
+      "lineIndex": 0,
+      "form": "勉強"
+    },
+    {
+      "wordIndex": 11,
+      "questionIndex": 0,
+      "lineIndex": 1,
+      "form": "本"
+    },
+    {
+      "wordIndex": 12,
+      "questionIndex": 0,
+      "lineIndex": 0,
+      "form": "これ"
+    },
+    {
+      "wordIndex": 13,
+      "questionIndex": 0,
+      "lineIndex": 0,
+      "form": "何"
+    },
+    {
+      "wordIndex": 14,
+      "questionIndex": 0,
+      "lineIndex": 2,
+      "form": "それ"
+    },
+    {
+      "wordIndex": 15,
+      "questionIndex": 1,
+      "lineIndex": 2,
+      "form": "あれ"
+    },
+    {
+      "wordIndex": 16,
+      "questionIndex": 1,
+      "lineIndex": 0,
+      "form": "どれ"
+    },
+    {
+      "wordIndex": 17,
+      "questionIndex": 2,
+      "lineIndex": 0,
+      "form": "毎日"
+    },
+    {
+      "wordIndex": 18,
+      "questionIndex": 3,
+      "lineIndex": 0,
+      "form": "兄"
+    },
+    {
+      "wordIndex": 19,
+      "questionIndex": 3,
+      "lineIndex": 0,
+      "form": "います"
+    },
+    {
+      "wordIndex": 20,
+      "questionIndex": 4,
+      "lineIndex": 0,
+      "form": "あります"
+    }
+  ]
+}

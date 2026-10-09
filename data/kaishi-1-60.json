@@ -4,38 +4,38 @@
   "wordCount": 60,
   "questions": [
     {
-      "situation": "Choosing a book · Two friends",
+      "situation": "A classmate",
       "lines": [
         {
           "speaker": "A",
-          "text": "これは何ですか。",
-          "translation": "What is this?"
+          "text": "彼女の名前を知っていますか。",
+          "translation": "Do you know her name?"
         },
         {
           "speaker": "B",
-          "text": "日本語の本です。",
-          "translation": "It’s a Japanese-language book."
+          "text": "はい、アンちゃんです。",
+          "translation": "Yes, it’s Ann."
         },
         {
           "speaker": "A",
-          "text": "その本は面白いですか。",
-          "translation": "Is that book interesting?"
+          "text": "アンちゃんは学校に来ますか。",
+          "translation": "Will Ann come to school?"
         },
         {
           "speaker": "B",
-          "text": "はい、面白いです。私はこの本が好きです。",
-          "translation": "Yes, it’s interesting. I like this book."
+          "text": "はい、明日来ます。",
+          "translation": "Yes, she’ll come tomorrow."
         }
       ],
-      "question": "What does B think of the book?",
+      "question": "When will Ann come to school?",
       "choices": [
-        "It is not interesting at all.",
-        "It is interesting, and B likes it.",
-        "B does not know the book.",
-        "B does not like it very much."
+        "Today",
+        "Tomorrow",
+        "Next week",
+        "She will not come"
       ],
       "answer": 1,
-      "explanation": "B says 面白い (interesting) and この本が好きです (I like this book)."
+      "explanation": "Focus: 彼女 (she), 知る (know), ちゃん (familiar name suffix), 学校, 来る, 明日. アン is a name. ちゃん is affectionate/familiar, not a default suffix for strangers."
     },
     {
       "situation": "Time to study · Two friends",
@@ -72,72 +72,72 @@
       "explanation": "明日 means tomorrow; また means again. B has no time now: 今は時間がありません."
     },
     {
-      "situation": "Talking about family · Two friends",
+      "situation": "Going to Japan",
       "lines": [
         {
           "speaker": "A",
-          "text": "あの人は先生ですか。",
-          "translation": "Is that person over there a teacher?"
+          "text": "いつ日本に行きますか。",
+          "translation": "When will you go to Japan?"
         },
         {
           "speaker": "B",
-          "text": "はい、私の兄です。",
-          "translation": "Yes, he’s my older brother."
+          "text": "明日行きます。",
+          "translation": "I’ll go tomorrow."
         },
         {
           "speaker": "A",
-          "text": "何を教えていますか。",
-          "translation": "What does he teach?"
+          "text": "日本の学校で勉強しますか。",
+          "translation": "Will you study at a school in Japan?"
         },
         {
           "speaker": "B",
-          "text": "日本語を教えています。",
-          "translation": "He teaches Japanese."
+          "text": "はい、そうです。",
+          "translation": "Yes, that’s right."
         }
       ],
-      "question": "Who teaches Japanese?",
+      "question": "Where will B study?",
       "choices": [
-        "Speaker A",
-        "Speaker B",
-        "B’s girlfriend",
-        "B’s older brother"
-      ],
-      "answer": 3,
-      "explanation": "私の兄 means my older brother. 教えています is a form of 教える (teach), used here for his ongoing work."
-    },
-    {
-      "situation": "Finding a book · At home",
-      "lines": [
-        {
-          "speaker": "A",
-          "text": "私の本はどこですか。",
-          "translation": "Where is my book?"
-        },
-        {
-          "speaker": "B",
-          "text": "ここにあります。この本ですか。",
-          "translation": "It’s here. Is it this book?"
-        },
-        {
-          "speaker": "A",
-          "text": "はい、その本です。ここに置いてください。",
-          "translation": "Yes, that’s the book. Please put it here."
-        },
-        {
-          "speaker": "B",
-          "text": "はい。",
-          "translation": "Okay."
-        }
-      ],
-      "question": "What does A ask B to do?",
-      "choices": [
-        "Put the book here",
-        "Go to school",
-        "Tell A a name",
-        "Look at a person"
+        "At a school in Japan",
+        "At A’s home",
+        "At a library",
+        "At B’s home"
       ],
       "answer": 0,
-      "explanation": "ここ means here. 置いてください means please put/place it, using the て-form of 置く plus ください."
+      "explanation": "Focus: 日本 (Japan), 行く (go), いつ (when), 明日 (tomorrow), 学校 (school), そう (that way / that is so). 日本 is the country; 日本語 is the language."
+    },
+    {
+      "situation": "Putting a book down",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "この本はどこに置きますか。",
+          "translation": "Where should I put this book?"
+        },
+        {
+          "speaker": "B",
+          "text": "ここに置いてください。",
+          "translation": "Please put it here."
+        },
+        {
+          "speaker": "A",
+          "text": "こうですか。",
+          "translation": "Like this?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい、そうです。",
+          "translation": "Yes, like that."
+        }
+      ],
+      "question": "Does B accept the way A puts the book down?",
+      "choices": [
+        "No, B wants it elsewhere",
+        "B asks A to take it home",
+        "Yes, that is the right way",
+        "B does not answer"
+      ],
+      "answer": 2,
+      "explanation": "Focus: どこ (where), 置く (put), こう (like this), そう (like that). A checks the way of placing the book with こうですか; B confirms with そうです."
     },
     {
       "situation": "Plans for tomorrow · Two classmates",
@@ -577,5 +577,127 @@
       "そう",
       "in such manner, that way"
     ]
+  ],
+  "focusCoverage": [
+    {
+      "wordIndex": 41,
+      "questionIndex": 3,
+      "lineIndex": 0,
+      "form": "どこ"
+    },
+    {
+      "wordIndex": 42,
+      "questionIndex": 3,
+      "lineIndex": 1,
+      "form": "置いて"
+    },
+    {
+      "wordIndex": 43,
+      "questionIndex": 7,
+      "lineIndex": 0,
+      "form": "家"
+    },
+    {
+      "wordIndex": 44,
+      "questionIndex": 7,
+      "lineIndex": 0,
+      "form": "帰ります"
+    },
+    {
+      "wordIndex": 45,
+      "questionIndex": 5,
+      "lineIndex": 0,
+      "form": "話"
+    },
+    {
+      "wordIndex": 46,
+      "questionIndex": 0,
+      "lineIndex": 0,
+      "form": "知っています"
+    },
+    {
+      "wordIndex": 47,
+      "questionIndex": 0,
+      "lineIndex": 0,
+      "form": "彼女"
+    },
+    {
+      "wordIndex": 48,
+      "questionIndex": 0,
+      "lineIndex": 1,
+      "form": "ちゃん"
+    },
+    {
+      "wordIndex": 49,
+      "questionIndex": 3,
+      "lineIndex": 3,
+      "form": "はい"
+    },
+    {
+      "wordIndex": 50,
+      "questionIndex": 4,
+      "lineIndex": 3,
+      "form": "いいえ"
+    },
+    {
+      "wordIndex": 51,
+      "questionIndex": 2,
+      "lineIndex": 0,
+      "form": "日本"
+    },
+    {
+      "wordIndex": 52,
+      "questionIndex": 2,
+      "lineIndex": 2,
+      "form": "学校"
+    },
+    {
+      "wordIndex": 53,
+      "questionIndex": 2,
+      "lineIndex": 0,
+      "form": "行きます"
+    },
+    {
+      "wordIndex": 54,
+      "questionIndex": 2,
+      "lineIndex": 1,
+      "form": "明日"
+    },
+    {
+      "wordIndex": 55,
+      "questionIndex": 0,
+      "lineIndex": 2,
+      "form": "来ます"
+    },
+    {
+      "wordIndex": 56,
+      "questionIndex": 7,
+      "lineIndex": 2,
+      "form": "また"
+    },
+    {
+      "wordIndex": 57,
+      "questionIndex": 2,
+      "lineIndex": 0,
+      "form": "いつ"
+    },
+    {
+      "wordIndex": 58,
+      "questionIndex": 5,
+      "lineIndex": 2,
+      "form": "思います"
+    },
+    {
+      "wordIndex": 59,
+      "questionIndex": 3,
+      "lineIndex": 2,
+      "form": "こう"
+    },
+    {
+      "wordIndex": 60,
+      "questionIndex": 3,
+      "lineIndex": 3,
+      "form": "そう"
+    }
   ]
 }

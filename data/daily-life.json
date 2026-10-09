@@ -1,0 +1,714 @@
+[
+  {
+    "id": "daily-food",
+    "label": "Food and cafés",
+    "wordCount": 0,
+    "words": [],
+    "questions": [
+      {
+        "situation": "Ordering coffee · A: Staff / B: Customer",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "いらっしゃいませ。ご注文はお決まりですか。",
+            "translation": "Welcome. Are you ready to order?"
+          },
+          {
+            "speaker": "B",
+            "text": "アイスコーヒーを一つお願いします。",
+            "translation": "One iced coffee, please."
+          },
+          {
+            "speaker": "A",
+            "text": "店内でお飲みですか。",
+            "translation": "Will you have it here?"
+          },
+          {
+            "speaker": "B",
+            "text": "いいえ、持ち帰りでお願いします。",
+            "translation": "No, to take away, please."
+          }
+        ],
+        "question": "How does B want the coffee?",
+        "choices": [
+          "Hot, to take away",
+          "Iced, to take away",
+          "Iced, to drink here",
+          "Hot, to drink here"
+        ],
+        "answer": 1,
+        "explanation": "持ち帰り means takeaway; 店内 means inside the shop. B orders アイスコーヒー, iced coffee."
+      },
+      {
+        "situation": "Finding a table · A: Customer / B: Staff",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "二人ですが、入れますか。",
+            "translation": "There are two of us. Do you have room?"
+          },
+          {
+            "speaker": "B",
+            "text": "はい。窓のそばの席でよろしいですか。",
+            "translation": "Yes. Would a table by the window be all right?"
+          },
+          {
+            "speaker": "A",
+            "text": "はい、お願いします。",
+            "translation": "Yes, please."
+          },
+          {
+            "speaker": "B",
+            "text": "こちらへどうぞ。",
+            "translation": "This way, please."
+          }
+        ],
+        "question": "Where will the customers sit?",
+        "choices": [
+          "Near the kitchen",
+          "Outside",
+          "By the window",
+          "At the counter"
+        ],
+        "answer": 2,
+        "explanation": "窓のそば means by the window. 二人 (ふたり) means two people; こちらへどうぞ is a polite invitation to follow."
+      },
+      {
+        "situation": "Ordering lunch · A: Customer / B: Staff",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "このセットには飲み物がついていますか。",
+            "translation": "Does this set meal include a drink?"
+          },
+          {
+            "speaker": "B",
+            "text": "はい。お茶かコーヒーを選べます。",
+            "translation": "Yes. You can choose tea or coffee."
+          },
+          {
+            "speaker": "A",
+            "text": "では、お茶をお願いします。",
+            "translation": "Then tea, please."
+          },
+          {
+            "speaker": "B",
+            "text": "はい、かしこまりました。",
+            "translation": "Certainly."
+          }
+        ],
+        "question": "Which drink does A choose?",
+        "choices": [
+          "Tea",
+          "Coffee",
+          "Juice",
+          "Water"
+        ],
+        "answer": 0,
+        "explanation": "お茶かコーヒー means tea or coffee. A chooses お茶. ついています asks whether something is included."
+      },
+      {
+        "situation": "At the convenience store · A: Staff / B: Customer",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "お弁当は温めますか。",
+            "translation": "Would you like your boxed meal heated?"
+          },
+          {
+            "speaker": "B",
+            "text": "はい、お願いします。",
+            "translation": "Yes, please."
+          },
+          {
+            "speaker": "A",
+            "text": "袋はいりますか。",
+            "translation": "Do you need a bag?"
+          },
+          {
+            "speaker": "B",
+            "text": "いいえ、大丈夫です。",
+            "translation": "No, I’m fine, thank you."
+          }
+        ],
+        "question": "What does B want?",
+        "choices": [
+          "A bag, without heating",
+          "Both heating and a bag",
+          "Neither heating nor a bag",
+          "Heating, without a bag"
+        ],
+        "answer": 3,
+        "explanation": "温めますか asks whether to heat it. B accepts heating but declines the bag with いいえ、大丈夫です."
+      },
+      {
+        "situation": "A missing item · A: Customer / B: Staff",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "すみません、注文したスープがまだ来ていません。",
+            "translation": "Excuse me, the soup I ordered hasn’t arrived yet."
+          },
+          {
+            "speaker": "B",
+            "text": "申し訳ありません。すぐにお持ちします。",
+            "translation": "I’m sorry. I’ll bring it right away."
+          },
+          {
+            "speaker": "A",
+            "text": "ありがとうございます。",
+            "translation": "Thank you."
+          },
+          {
+            "speaker": "B",
+            "text": "少々お待ちください。",
+            "translation": "Please wait a moment."
+          }
+        ],
+        "question": "What is A waiting for?",
+        "choices": [
+          "The bill",
+          "Soup",
+          "Coffee",
+          "A menu"
+        ],
+        "answer": 1,
+        "explanation": "まだ来ていません means it has not arrived yet. すぐに means right away; 少々お待ちください is a polite request to wait briefly."
+      }
+    ]
+  },
+  {
+    "id": "daily-shopping",
+    "label": "Shopping and services",
+    "wordCount": 0,
+    "words": [],
+    "questions": [
+      {
+        "situation": "Trying on clothes · A: Customer / B: Staff",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "このシャツを試着してもいいですか。",
+            "translation": "May I try on this shirt?"
+          },
+          {
+            "speaker": "B",
+            "text": "はい。サイズは大丈夫ですか。",
+            "translation": "Yes. Is the size all right?"
+          },
+          {
+            "speaker": "A",
+            "text": "少し小さいです。もう少し大きいのはありますか。",
+            "translation": "It’s a little small. Do you have a slightly larger one?"
+          },
+          {
+            "speaker": "B",
+            "text": "はい、お持ちします。",
+            "translation": "Yes, I’ll bring one."
+          }
+        ],
+        "question": "What does A ask for?",
+        "choices": [
+          "A smaller shirt",
+          "A different color",
+          "A larger shirt",
+          "A refund"
+        ],
+        "answer": 2,
+        "explanation": "小さい means small; 大きい means large. 試着 (しちゃく) means trying on clothes. A asks for a larger size."
+      },
+      {
+        "situation": "Paying at a shop · A: Customer / B: Staff",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "カードで払えますか。",
+            "translation": "Can I pay by card?"
+          },
+          {
+            "speaker": "B",
+            "text": "すみません、現金だけです。",
+            "translation": "Sorry, cash only."
+          },
+          {
+            "speaker": "A",
+            "text": "分かりました。千円でお願いします。",
+            "translation": "Understood. Here is one thousand yen."
+          },
+          {
+            "speaker": "B",
+            "text": "ありがとうございます。",
+            "translation": "Thank you."
+          }
+        ],
+        "question": "How must A pay?",
+        "choices": [
+          "In cash",
+          "By credit card",
+          "By phone",
+          "By bank transfer"
+        ],
+        "answer": 0,
+        "explanation": "現金だけ means cash only. 払えますか is can I pay? 千円 (せんえん) means one thousand yen."
+      },
+      {
+        "situation": "Finding milk · A: Customer / B: Staff",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "すみません、牛乳はどこですか。",
+            "translation": "Excuse me, where is the milk?"
+          },
+          {
+            "speaker": "B",
+            "text": "奥の冷蔵庫にあります。",
+            "translation": "It’s in the refrigerator at the back."
+          },
+          {
+            "speaker": "A",
+            "text": "パンの近くですか。",
+            "translation": "Is it near the bread?"
+          },
+          {
+            "speaker": "B",
+            "text": "いいえ、卵の隣です。",
+            "translation": "No, it’s next to the eggs."
+          }
+        ],
+        "question": "What is the milk next to?",
+        "choices": [
+          "Bread",
+          "Fruit",
+          "Rice",
+          "Eggs"
+        ],
+        "answer": 3,
+        "explanation": "卵の隣 means next to the eggs. 奥 means the back, and 冷蔵庫 (れいぞうこ) means refrigerator."
+      },
+      {
+        "situation": "At the post office · A: Customer / B: Staff",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "この荷物を送りたいです。",
+            "translation": "I’d like to send this parcel."
+          },
+          {
+            "speaker": "B",
+            "text": "普通で送りますか。速達にしますか。",
+            "translation": "Would you like regular or express delivery?"
+          },
+          {
+            "speaker": "A",
+            "text": "急いでいないので、普通でお願いします。",
+            "translation": "I’m not in a hurry, so regular delivery, please."
+          },
+          {
+            "speaker": "B",
+            "text": "分かりました。",
+            "translation": "Understood."
+          }
+        ],
+        "question": "Which delivery does A choose?",
+        "choices": [
+          "Express delivery",
+          "Regular delivery",
+          "Same-day delivery",
+          "A does not send it"
+        ],
+        "answer": 1,
+        "explanation": "普通 (ふつう) means regular here; 速達 (そくたつ) means express mail. 急いでいない means not in a hurry."
+      },
+      {
+        "situation": "Booking a haircut · A: Customer / B: Staff",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "明日、予約できますか。",
+            "translation": "Can I book an appointment for tomorrow?"
+          },
+          {
+            "speaker": "B",
+            "text": "午前十時か午後三時はいかがですか。",
+            "translation": "How about ten in the morning or three in the afternoon?"
+          },
+          {
+            "speaker": "A",
+            "text": "午後三時でお願いします。",
+            "translation": "Three in the afternoon, please."
+          },
+          {
+            "speaker": "B",
+            "text": "はい、お待ちしております。",
+            "translation": "Certainly. We look forward to seeing you."
+          }
+        ],
+        "question": "When is the appointment?",
+        "choices": [
+          "Today at three",
+          "Tomorrow at ten",
+          "Tomorrow at three",
+          "Today at ten"
+        ],
+        "answer": 2,
+        "explanation": "午後三時 means 3 p.m. A chooses that time for 明日, tomorrow. 予約 (よやく) means a reservation or appointment."
+      }
+    ]
+  },
+  {
+    "id": "daily-travel",
+    "label": "Getting around",
+    "wordCount": 0,
+    "words": [],
+    "questions": [
+      {
+        "situation": "Asking for directions · A: Visitor / B: Passerby",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "すみません、駅はどこですか。",
+            "translation": "Excuse me, where is the station?"
+          },
+          {
+            "speaker": "B",
+            "text": "まっすぐ行って、次の角を右に曲がってください。",
+            "translation": "Go straight and turn right at the next corner."
+          },
+          {
+            "speaker": "A",
+            "text": "右ですね。ありがとうございます。",
+            "translation": "Right, got it. Thank you."
+          },
+          {
+            "speaker": "B",
+            "text": "歩いて五分くらいです。",
+            "translation": "It’s about five minutes on foot."
+          }
+        ],
+        "question": "Which way should A turn at the next corner?",
+        "choices": [
+          "Right",
+          "Left",
+          "Back",
+          "No turn is needed"
+        ],
+        "answer": 0,
+        "explanation": "右 (みぎ) means right. まっすぐ means straight ahead; 角 (かど) means corner."
+      },
+      {
+        "situation": "Checking a train · A: Passenger / B: Station staff",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "この電車は東京駅に行きますか。",
+            "translation": "Does this train go to Tokyo Station?"
+          },
+          {
+            "speaker": "B",
+            "text": "いいえ、次の電車に乗ってください。",
+            "translation": "No, please take the next train."
+          },
+          {
+            "speaker": "A",
+            "text": "次は何時ですか。",
+            "translation": "What time is the next one?"
+          },
+          {
+            "speaker": "B",
+            "text": "十時十五分です。",
+            "translation": "At ten fifteen."
+          }
+        ],
+        "question": "Which train should A take?",
+        "choices": [
+          "The train here now",
+          "The last train tonight",
+          "A train at eleven",
+          "The next train"
+        ],
+        "answer": 3,
+        "explanation": "次の電車 means the next train. 乗ってください means please board it. 十時十五分 is 10:15."
+      },
+      {
+        "situation": "On the bus · A: Passenger / B: Driver",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "市役所に行きたいんですが。",
+            "translation": "I’d like to go to city hall."
+          },
+          {
+            "speaker": "B",
+            "text": "次のバス停で降りてください。",
+            "translation": "Please get off at the next stop."
+          },
+          {
+            "speaker": "A",
+            "text": "ここではないんですね。",
+            "translation": "So it’s not this stop?"
+          },
+          {
+            "speaker": "B",
+            "text": "はい、次です。",
+            "translation": "That’s right, the next one."
+          }
+        ],
+        "question": "Where should A get off?",
+        "choices": [
+          "At this stop",
+          "At the next stop",
+          "At the last stop",
+          "At the station"
+        ],
+        "answer": 1,
+        "explanation": "次のバス停 means the next bus stop. 降りる (おりる) means to get off. 市役所 (しやくしょ) means city hall."
+      },
+      {
+        "situation": "Taking a taxi · A: Passenger / B: Driver",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "このホテルまでお願いします。",
+            "translation": "Please take me to this hotel."
+          },
+          {
+            "speaker": "B",
+            "text": "駅の前のホテルですね。",
+            "translation": "The hotel in front of the station, right?"
+          },
+          {
+            "speaker": "A",
+            "text": "はい。どのくらいかかりますか。",
+            "translation": "Yes. About how long will it take?"
+          },
+          {
+            "speaker": "B",
+            "text": "十分くらいです。",
+            "translation": "About ten minutes."
+          }
+        ],
+        "question": "How long will the ride take?",
+        "choices": [
+          "Five minutes",
+          "Thirty minutes",
+          "About ten minutes",
+          "About an hour"
+        ],
+        "answer": 2,
+        "explanation": "どのくらいかかりますか asks how long it takes. 十分 is read じゅっぷん or じっぷん here: ten minutes."
+      },
+      {
+        "situation": "Checking in · A: Guest / B: Receptionist",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "予約した田中です。",
+            "translation": "I’m Tanaka. I have a reservation."
+          },
+          {
+            "speaker": "B",
+            "text": "田中様ですね。一泊でよろしいですか。",
+            "translation": "Mr./Ms. Tanaka, correct? One night?"
+          },
+          {
+            "speaker": "A",
+            "text": "いいえ、二泊です。",
+            "translation": "No, two nights."
+          },
+          {
+            "speaker": "B",
+            "text": "失礼しました。二泊ですね。",
+            "translation": "My apologies. Two nights."
+          }
+        ],
+        "question": "How many nights will A stay?",
+        "choices": [
+          "One",
+          "Three",
+          "Four",
+          "Two"
+        ],
+        "answer": 3,
+        "explanation": "二泊 (にはく) means two nights. A corrects the receptionist’s 一泊 (いっぱく), one night. 田中 is a common surname."
+      }
+    ]
+  },
+  {
+    "id": "daily-home",
+    "label": "Friends and home",
+    "wordCount": 0,
+    "words": [],
+    "questions": [
+      {
+        "situation": "Introducing yourself · A: New neighbor / B: Neighbor",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "はじめまして。隣に引っ越してきた田中です。",
+            "translation": "Nice to meet you. I’m Tanaka; I just moved in next door."
+          },
+          {
+            "speaker": "B",
+            "text": "はじめまして。山田です。よろしくお願いします。",
+            "translation": "Nice to meet you. I’m Yamada. I look forward to being neighbors."
+          },
+          {
+            "speaker": "A",
+            "text": "こちらこそ、よろしくお願いします。",
+            "translation": "Likewise, it’s nice to meet you."
+          },
+          {
+            "speaker": "B",
+            "text": "何かあったら、声をかけてください。",
+            "translation": "If you need anything, please let me know."
+          }
+        ],
+        "question": "Who is A?",
+        "choices": [
+          "A new neighbor",
+          "A delivery driver",
+          "A teacher",
+          "A shop assistant"
+        ],
+        "answer": 0,
+        "explanation": "隣 means next door; 引っ越してきた means moved here. よろしくお願いします is a customary greeting when beginning a relationship."
+      },
+      {
+        "situation": "Making weekend plans · A and B: Friends",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "土曜日、一緒に映画を見ない？",
+            "translation": "Want to see a movie together on Saturday?"
+          },
+          {
+            "speaker": "B",
+            "text": "土曜日は仕事なんだ。日曜日はどう？",
+            "translation": "I’m working Saturday. How about Sunday?"
+          },
+          {
+            "speaker": "A",
+            "text": "いいよ。午後に会おう。",
+            "translation": "Sure. Let’s meet in the afternoon."
+          },
+          {
+            "speaker": "B",
+            "text": "じゃあ、日曜日の午後ね。",
+            "translation": "Then Sunday afternoon it is."
+          }
+        ],
+        "question": "When will they meet?",
+        "choices": [
+          "Saturday morning",
+          "Sunday morning",
+          "Saturday afternoon",
+          "Sunday afternoon"
+        ],
+        "answer": 3,
+        "explanation": "B is working on 土曜日 (Saturday), so they agree on 日曜日の午後 (Sunday afternoon). 見ない？ is a casual invitation."
+      },
+      {
+        "situation": "Running late · A and B: Friends on the phone",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "ごめん、電車が遅れてる。十分くらい遅れる。",
+            "translation": "Sorry, the train is delayed. I’ll be about ten minutes late."
+          },
+          {
+            "speaker": "B",
+            "text": "分かった。駅の前のカフェで待ってるね。",
+            "translation": "Okay. I’ll wait at the café in front of the station."
+          },
+          {
+            "speaker": "A",
+            "text": "ありがとう。着いたら連絡する。",
+            "translation": "Thanks. I’ll contact you when I arrive."
+          },
+          {
+            "speaker": "B",
+            "text": "気をつけてね。",
+            "translation": "Take care."
+          }
+        ],
+        "question": "Where will B wait?",
+        "choices": [
+          "On the platform",
+          "At the café in front of the station",
+          "At home",
+          "Inside the train"
+        ],
+        "answer": 1,
+        "explanation": "駅の前のカフェ identifies the meeting place. 遅れる means to be late; 着いたら means when I arrive."
+      },
+      {
+        "situation": "Sharing housework · A and B: Housemates",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "今日は私が料理するね。",
+            "translation": "I’ll cook today."
+          },
+          {
+            "speaker": "B",
+            "text": "ありがとう。じゃあ、私はお皿を洗うよ。",
+            "translation": "Thanks. Then I’ll wash the dishes."
+          },
+          {
+            "speaker": "A",
+            "text": "助かる。ご飯は七時でいい？",
+            "translation": "That helps. Is seven okay for dinner?"
+          },
+          {
+            "speaker": "B",
+            "text": "うん、大丈夫。",
+            "translation": "Yeah, that’s fine."
+          }
+        ],
+        "question": "What will B do?",
+        "choices": [
+          "Cook dinner",
+          "Buy groceries",
+          "Wash the dishes",
+          "Clean the bathroom"
+        ],
+        "answer": 2,
+        "explanation": "お皿を洗う means wash the dishes. A will cook; B offers to wash up. 助かる expresses that someone’s help is appreciated."
+      },
+      {
+        "situation": "Borrowing an umbrella · A and B: Friends",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "雨が降ってきた。傘、持ってないんだ。",
+            "translation": "It’s started raining. I don’t have an umbrella."
+          },
+          {
+            "speaker": "B",
+            "text": "これ、使っていいよ。私はもう一本あるから。",
+            "translation": "You can use this one. I have another umbrella."
+          },
+          {
+            "speaker": "A",
+            "text": "ありがとう。明日返すね。",
+            "translation": "Thanks. I’ll give it back tomorrow."
+          },
+          {
+            "speaker": "B",
+            "text": "うん、いいよ。",
+            "translation": "Sure."
+          }
+        ],
+        "question": "When will A return the umbrella?",
+        "choices": [
+          "Tomorrow",
+          "Tonight",
+          "Next week",
+          "A will keep it"
+        ],
+        "answer": 0,
+        "explanation": "明日返す means return it tomorrow. もう一本 means another long, thin object—here an umbrella. 使っていいよ gives permission to use it."
+      }
+    ]
+  }
+]

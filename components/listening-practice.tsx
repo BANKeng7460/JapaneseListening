@@ -1,11 +1,12 @@
 'use client';
 
 import { useRef, useState } from 'react';
-import { listeningTests, type ListeningTest } from '../data/tests';
+import { listeningTests, type ListeningTest, type TestEntry } from '../data/tests';
 import { useDialogueSpeech } from '../hooks/use-dialogue-speech';
 
-export default function ListeningPractice() {
-  const [test, setTest] = useState<ListeningTest>(listeningTests[0] as ListeningTest);
+export default function ListeningPractice({ tests = listeningTests, genre = 'kaishi' }: { tests?: TestEntry[]; genre?: 'kaishi' | 'daily' }) {
+  const daily = genre === 'daily';
+  const [test, setTest] = useState<ListeningTest>(tests[0] as ListeningTest);
   const [current, setCurrent] = useState(0);
   const [selected, setSelected] = useState<number | null>(null);
   const [responses, setResponses] = useState<number[]>([]);
@@ -26,15 +27,15 @@ export default function ListeningPractice() {
   return <div className="shell">
     <header><div className="brand"><span className="brand-mark" lang="ja">き</span> kiku.</div><span className="header-note">A little listening, every day.</span></header>
     <main>
-      <div className="eyebrow">Japanese listening · Kaishi 1.5k</div>
-      <h1>Listen closely. Learn naturally.</h1>
-      <p className="intro">Choose a listening test for the words you’ve learned. Earlier tests stay available as your vocabulary grows.</p>
+      <div className="eyebrow">Japanese listening · {daily ? 'Daily life' : 'Kaishi 1.5k'}</div>
+      <h1>{daily ? 'Everyday moments. Everyday Japanese.' : 'Listen closely. Learn naturally.'}</h1>
+      <p className="intro">{daily ? '20 everyday conversations in four practice sets. Learn useful phrases for shops, travel, friends, and home.' : 'Choose a listening test for the words you’ve learned. Earlier tests stay available as your vocabulary grows.'}</p>
       <div className="tip"><label htmlFor="test-set"><strong>Listening test </strong></label>
         <select id="test-set" value={test.id} aria-describedby="test-help" onChange={event => {
-          const entry = listeningTests.find(item => item.id === event.target.value);
+          const entry = tests.find(item => item.id === event.target.value);
           if (entry?.questions) restart(entry);
-        }}>{listeningTests.map(entry => <option key={entry.id} value={entry.id} disabled={!entry.questions}>{entry.label} · {entry.questions ? `${entry.questions.length} conversations` : 'Planned'}</option>)}</select>
-        <p id="test-help">Each test is separate and cumulative: 1–80 includes vocabulary from words 1 through 80. Changing tests starts a fresh attempt.</p>
+        }}>{tests.map(entry => <option key={entry.id} value={entry.id} disabled={!entry.questions}>{entry.label} · {entry.questions ? `${entry.questions.length} conversations` : 'Planned'}</option>)}</select>
+        <p id="test-help">{daily ? 'Choose a situation set. These original practice scripts use browser voices and vocabulary beyond your Kaishi list. Changing sets starts a fresh attempt.' : 'Each test is separate and cumulative: 1–80 includes vocabulary from words 1 through 80. Changing tests starts a fresh attempt.'}</p>
       </div>
       <div className="layout">
         <section className="card" aria-label="Listening exercise">
@@ -47,13 +48,14 @@ export default function ListeningPractice() {
               <p>Your answer: {question.choices[responses[i]]} · Correct answer: {question.choices[question.answer]}</p><p>{question.explanation}</p>
             </li>)}</ol><button className="primary" onClick={() => restart()}>Practice again ↻</button>
           </div> : <>
-            <div className="card-top"><span className="small">Question {current + 1} of {test.questions.length}</span><span className="badge">Kaishi · {test.label}</span></div>
+            <div className="card-top"><span className="small">Question {current + 1} of {test.questions.length}</span><span className="badge">{daily ? 'Daily life' : 'Kaishi'} · {test.label}</span></div>
             <progress value={responses.length} max={test.questions.length} aria-label="Questions completed" />
             <div className="content">
-              <div className={`audio-box${speech.playing ? ' playing' : ''}`}>
+              <div className={`audio-box${speech.playing && !speech.paused ? ' playing' : ''}`}>
                 <p id="situation">{q.situation}</p>
                 <div className="wave" aria-hidden="true">{[12,23,32,19,38,27,16,30,21,11].map((height,i) => <span key={i} style={{height, animationDelay:`${i * .08}s`}} />)}</div>
-                <button className="primary" id="play" disabled={!speech.selected.A || !speech.selected.B} onClick={() => speech.play(q.lines)}>{speech.playing ? '■ Stop audio' : '▶ Play audio'}</button>
+                <button className="primary" id="play" disabled={!speech.selected.A || !speech.selected.B} onClick={() => speech.play(q.lines)}>{speech.playing ? (speech.paused ? '▶ Resume audio' : 'Ⅱ Pause audio') : '▶ Play audio'}</button>
+                {speech.playing && <button type="button" className="primary" style={{ marginLeft: 8 }} onClick={speech.stopPlayback}>■ Stop</button>}
                 <div className="audio-controls"><label htmlFor="speed">Playback speed</label><select id="speed" value={speech.rate} onChange={e => speech.changeRate(Number(e.target.value))}><option value={.8}>Slow</option><option value={1}>Normal</option></select></div>
                 {(['A','B'] as const).map(speaker => <div className="audio-controls voice-controls" key={speaker}>
                   <label htmlFor={`voice-${speaker}`}>Speaker {speaker}</label>
@@ -87,8 +89,9 @@ export default function ListeningPractice() {
           </>}
         </section>
         <aside aria-label="Practice tips and score">
-          <div className="tip"><h2>Vocabulary for this test</h2><p>Based on the first {test.wordCount} vocabulary entries in your Kaishi export, excluding the welcome card. Dialogues reuse a selection of these words, plus basic particles and verb forms.</p>
-            <details key={test.id}><summary>See the {test.wordCount}-word study set</summary><ol className="small">{test.words.map(([word,reading,meaning],i) => <li key={i}>{word} ({reading}) — {meaning}</li>)}</ol></details>
+          <div className="tip">{daily ? <><h2>Practice for everyday life</h2><p>Listen for what each person wants and how the other person responds. Shop conversations use polite Japanese; friends sometimes speak casually. After answering, use the transcript to repeat each role aloud.</p></> : <><h2>Vocabulary for this test</h2><p>Based on the first {test.wordCount} vocabulary entries in your Kaishi export, excluding the welcome card. Dialogues reuse a selection of these words, plus basic particles and verb forms.</p>
+            <details key={test.id + '-latest'}><summary>Latest 20 words · {Math.max(1, test.wordCount - 19)}–{test.wordCount}</summary><p className="small">All 20 new entries are practiced in this level. Each word shows a conversation where you can hear it.</p><ol className="small" start={Math.max(1, test.wordCount - 19)}>{test.words.slice(-20).map(([word,reading,meaning],i) => { const example = test.focusCoverage?.find(entry => entry.wordIndex === test.wordCount - 19 + i); return <li key={i}><span lang="ja">{word} ({reading})</span> — {meaning}{example && <span className="small"> · Conversation {example.questionIndex + 1}: <span lang="ja">{example.form}</span></span>}</li>; })}</ol></details>
+            <details key={test.id}><summary>See the {test.wordCount}-word study set</summary><ol className="small">{test.words.map(([word,reading,meaning],i) => <li key={i}>{word} ({reading}) — {meaning}</li>)}</ol></details></>}
           </div>
           <div className="topic"><span className="topic-icon" aria-hidden="true">☕</span><div><strong>{test.label}</strong><p>{test.questions.length} dialogues · 4 choices each</p></div></div>
           <div className="tip"><h2>Your session</h2><div className="score-row"><span id="live-score">{score} / {responses.length}</span><span className="small">correct</span></div><p>One small step toward better listening.</p></div>

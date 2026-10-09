@@ -1,0 +1,569 @@
+{
+  "id": "kaishi-1-40",
+  "label": "Level 2 · Words 1–40",
+  "wordCount": 40,
+  "words": [
+    [
+      "私",
+      "わたし",
+      "I (polite, general)"
+    ],
+    [
+      "あなた",
+      "あなた",
+      "you (usually when one doesn't know the person)"
+    ],
+    [
+      "さん",
+      "さん",
+      "san"
+    ],
+    [
+      "彼",
+      "かれ",
+      "he, him"
+    ],
+    [
+      "好き",
+      "すき",
+      "like, fond of"
+    ],
+    [
+      "人",
+      "ひと",
+      "person"
+    ],
+    [
+      "いい",
+      "いい",
+      "good"
+    ],
+    [
+      "人",
+      "じん",
+      "person from (nationality)"
+    ],
+    [
+      "日本語",
+      "にほんご",
+      "Japanese language"
+    ],
+    [
+      "勉強",
+      "べんきょう",
+      "study"
+    ],
+    [
+      "本",
+      "ほん",
+      "book"
+    ],
+    [
+      "これ",
+      "これ",
+      "this"
+    ],
+    [
+      "何",
+      "なに・なん",
+      "what"
+    ],
+    [
+      "それ",
+      "それ",
+      "that"
+    ],
+    [
+      "あれ",
+      "あれ",
+      "that over there"
+    ],
+    [
+      "どれ",
+      "どれ",
+      "which, what"
+    ],
+    [
+      "毎日",
+      "まいにち",
+      "every day"
+    ],
+    [
+      "兄",
+      "あに",
+      "older brother"
+    ],
+    [
+      "いる",
+      "いる",
+      "have, exist (animate)"
+    ],
+    [
+      "ある",
+      "ある",
+      "have, exist (inanimate)"
+    ],
+    [
+      "あまり",
+      "あまり",
+      "(not) very, (not) much"
+    ],
+    [
+      "今",
+      "いま",
+      "now"
+    ],
+    [
+      "時間",
+      "じかん",
+      "time, hour"
+    ],
+    [
+      "無い",
+      "ない",
+      "to not be"
+    ],
+    [
+      "この",
+      "この",
+      "this one"
+    ],
+    [
+      "その",
+      "その",
+      "that one"
+    ],
+    [
+      "あの",
+      "あの",
+      "that one there"
+    ],
+    [
+      "どの",
+      "どの",
+      "which one"
+    ],
+    [
+      "見る",
+      "みる",
+      "see, look at"
+    ],
+    [
+      "全然",
+      "ぜんぜん",
+      "(not) at all"
+    ],
+    [
+      "面白い",
+      "おもしろい",
+      "interesting, amusing"
+    ],
+    [
+      "する",
+      "する",
+      "do, make"
+    ],
+    [
+      "なる",
+      "なる",
+      "become, result in, come (to do)"
+    ],
+    [
+      "先生",
+      "せんせい",
+      "teacher"
+    ],
+    [
+      "ください",
+      "ください",
+      "please give..., please do..."
+    ],
+    [
+      "名前",
+      "なまえ",
+      "name"
+    ],
+    [
+      "教える",
+      "おしえる",
+      "teach, tell"
+    ],
+    [
+      "ここ",
+      "ここ",
+      "here"
+    ],
+    [
+      "そこ",
+      "そこ",
+      "there"
+    ],
+    [
+      "あそこ",
+      "あそこ",
+      "over there"
+    ]
+  ],
+  "questions": [
+    {
+      "situation": "Time to study",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "今、時間はありますか。",
+          "translation": "Do you have time now?"
+        },
+        {
+          "speaker": "B",
+          "text": "いいえ、今は時間がないです。",
+          "translation": "No, I don’t have time now."
+        },
+        {
+          "speaker": "A",
+          "text": "日本語の勉強はしますか。",
+          "translation": "Will you study Japanese?"
+        },
+        {
+          "speaker": "B",
+          "text": "今はしません。",
+          "translation": "Not now."
+        }
+      ],
+      "question": "What does B say?",
+      "choices": [
+        "B has plenty of time",
+        "B has no time and won’t study now",
+        "B will teach Japanese now",
+        "B studies all day"
+      ],
+      "answer": 1,
+      "explanation": "Focus: 今 (now), 時間 (time), 無い／ない (not exist). 時間がないです means I have no time. 今はしません means I won’t do it now."
+    },
+    {
+      "situation": "An uninteresting book",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "その本は面白いですか。",
+          "translation": "Is that book interesting?"
+        },
+        {
+          "speaker": "B",
+          "text": "いいえ、全然面白くないです。",
+          "translation": "No, it’s not interesting at all."
+        },
+        {
+          "speaker": "A",
+          "text": "この本はどうですか。",
+          "translation": "How about this book?"
+        },
+        {
+          "speaker": "B",
+          "text": "この本も、あまり好きではありません。",
+          "translation": "I don’t like this book very much either."
+        }
+      ],
+      "question": "What does B think of the first book?",
+      "choices": [
+        "Very interesting",
+        "A little interesting",
+        "Not interesting at all",
+        "B has not seen it"
+      ],
+      "answer": 2,
+      "explanation": "全然 with a negative means not at all. 面白くない is the negative of 面白い. Extra phrase: どうですか means how about it?"
+    },
+    {
+      "situation": "A teacher’s name",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "あの人は先生ですか。",
+          "translation": "Is that person a teacher?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい、日本語の先生です。",
+          "translation": "Yes, a Japanese teacher."
+        },
+        {
+          "speaker": "A",
+          "text": "名前を教えてください。",
+          "translation": "Please tell me their name."
+        },
+        {
+          "speaker": "B",
+          "text": "田中先生です。",
+          "translation": "It’s Teacher Tanaka."
+        }
+      ],
+      "question": "What does A ask B to tell them?",
+      "choices": [
+        "The time",
+        "The title of a book",
+        "The place to study",
+        "The teacher’s name"
+      ],
+      "answer": 3,
+      "explanation": "名前 means name. 教えてください means please tell me / teach me. 田中 (たなか) is a surname."
+    },
+    {
+      "situation": "Which book?",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "どの本が好きですか。",
+          "translation": "Which book do you like?"
+        },
+        {
+          "speaker": "B",
+          "text": "その本が好きです。",
+          "translation": "I like that book."
+        },
+        {
+          "speaker": "A",
+          "text": "この本ですか。",
+          "translation": "This book?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい。その本をください。",
+          "translation": "Yes. Please give me that book."
+        }
+      ],
+      "question": "What does B request?",
+      "choices": [
+        "The book A is indicating",
+        "A different teacher",
+        "More time",
+        "A name"
+      ],
+      "answer": 0,
+      "explanation": "どの本 asks which book. その本をください means please give me that book. この and その depend on each speaker’s position."
+    },
+    {
+      "situation": "Where to look",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "ここを見てください。",
+          "translation": "Please look here."
+        },
+        {
+          "speaker": "B",
+          "text": "ここですか。",
+          "translation": "Here?"
+        },
+        {
+          "speaker": "A",
+          "text": "はい。先生の名前があります。",
+          "translation": "Yes. The teacher’s name is here."
+        },
+        {
+          "speaker": "B",
+          "text": "分かりました。",
+          "translation": "Understood."
+        }
+      ],
+      "question": "What is in the place A points to?",
+      "choices": [
+        "A friend’s address",
+        "The teacher’s name",
+        "A train time",
+        "A book price"
+      ],
+      "answer": 1,
+      "explanation": "ここ means here; 見てください means please look. Extra expression: 分かりました (わかりました) means understood."
+    },
+    {
+      "situation": "A future teacher",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "日本語の勉強が好きですか。",
+          "translation": "Do you like studying Japanese?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい、毎日勉強します。",
+          "translation": "Yes, I study every day."
+        },
+        {
+          "speaker": "A",
+          "text": "先生になりたいですか。",
+          "translation": "Do you want to become a teacher?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい、日本語を教えたいです。",
+          "translation": "Yes, I want to teach Japanese."
+        }
+      ],
+      "question": "What does B want to do?",
+      "choices": [
+        "Stop studying",
+        "Write a novel",
+        "Become a teacher of Japanese",
+        "Learn only at weekends"
+      ],
+      "answer": 2,
+      "explanation": "なる means become. なりたい means want to become; 教えたい means want to teach. The たい ending expresses a wish."
+    },
+    {
+      "situation": "Pointing out a teacher",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "先生はここにいますか。",
+          "translation": "Is the teacher here?"
+        },
+        {
+          "speaker": "B",
+          "text": "いいえ、あそこにいます。",
+          "translation": "No, the teacher is over there."
+        },
+        {
+          "speaker": "A",
+          "text": "そこですか。",
+          "translation": "There?"
+        },
+        {
+          "speaker": "B",
+          "text": "いいえ、あそこです。あの人です。",
+          "translation": "No, over there. That person."
+        }
+      ],
+      "question": "Where does B say the teacher is?",
+      "choices": [
+        "Here beside A",
+        "At home",
+        "In another town",
+        "Over there"
+      ],
+      "answer": 3,
+      "explanation": "Focus: ここ (here), そこ (there, near the other person), あそこ (over there, away from both). B corrects A’s guess by repeating あそこ."
+    }
+  ],
+  "focusCoverage": [
+    {
+      "wordIndex": 21,
+      "questionIndex": 1,
+      "lineIndex": 3,
+      "form": "あまり"
+    },
+    {
+      "wordIndex": 22,
+      "questionIndex": 0,
+      "lineIndex": 0,
+      "form": "今"
+    },
+    {
+      "wordIndex": 23,
+      "questionIndex": 0,
+      "lineIndex": 0,
+      "form": "時間"
+    },
+    {
+      "wordIndex": 24,
+      "questionIndex": 0,
+      "lineIndex": 1,
+      "form": "ない"
+    },
+    {
+      "wordIndex": 25,
+      "questionIndex": 1,
+      "lineIndex": 2,
+      "form": "この"
+    },
+    {
+      "wordIndex": 26,
+      "questionIndex": 1,
+      "lineIndex": 0,
+      "form": "その"
+    },
+    {
+      "wordIndex": 27,
+      "questionIndex": 2,
+      "lineIndex": 0,
+      "form": "あの"
+    },
+    {
+      "wordIndex": 28,
+      "questionIndex": 3,
+      "lineIndex": 0,
+      "form": "どの"
+    },
+    {
+      "wordIndex": 29,
+      "questionIndex": 4,
+      "lineIndex": 0,
+      "form": "見て"
+    },
+    {
+      "wordIndex": 30,
+      "questionIndex": 1,
+      "lineIndex": 1,
+      "form": "全然"
+    },
+    {
+      "wordIndex": 31,
+      "questionIndex": 1,
+      "lineIndex": 0,
+      "form": "面白い"
+    },
+    {
+      "wordIndex": 32,
+      "questionIndex": 0,
+      "lineIndex": 2,
+      "form": "します"
+    },
+    {
+      "wordIndex": 33,
+      "questionIndex": 5,
+      "lineIndex": 2,
+      "form": "なりたい"
+    },
+    {
+      "wordIndex": 34,
+      "questionIndex": 2,
+      "lineIndex": 0,
+      "form": "先生"
+    },
+    {
+      "wordIndex": 35,
+      "questionIndex": 2,
+      "lineIndex": 2,
+      "form": "ください"
+    },
+    {
+      "wordIndex": 36,
+      "questionIndex": 2,
+      "lineIndex": 2,
+      "form": "名前"
+    },
+    {
+      "wordIndex": 37,
+      "questionIndex": 2,
+      "lineIndex": 2,
+      "form": "教えて"
+    },
+    {
+      "wordIndex": 38,
+      "questionIndex": 6,
+      "lineIndex": 0,
+      "form": "ここ"
+    },
+    {
+      "wordIndex": 39,
+      "questionIndex": 6,
+      "lineIndex": 2,
+      "form": "そこ"
+    },
+    {
+      "wordIndex": 40,
+      "questionIndex": 6,
+      "lineIndex": 1,
+      "form": "あそこ"
+    }
+  ]
+}

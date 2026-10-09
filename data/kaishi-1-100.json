@@ -1,0 +1,971 @@
+{
+  "id": "kaishi-1-100",
+  "label": "Words 1–100",
+  "wordCount": 100,
+  "words": [
+    [
+      "私",
+      "わたし",
+      "I (polite, general)"
+    ],
+    [
+      "あなた",
+      "あなた",
+      "you (usually when one doesn't know the person)"
+    ],
+    [
+      "さん",
+      "さん",
+      "san"
+    ],
+    [
+      "彼",
+      "かれ",
+      "he, him"
+    ],
+    [
+      "好き",
+      "すき",
+      "like, fond of"
+    ],
+    [
+      "人",
+      "ひと",
+      "person"
+    ],
+    [
+      "いい",
+      "いい",
+      "good"
+    ],
+    [
+      "人",
+      "じん",
+      "person from (nationality)"
+    ],
+    [
+      "日本語",
+      "にほんご",
+      "Japanese language"
+    ],
+    [
+      "勉強",
+      "べんきょう",
+      "study"
+    ],
+    [
+      "本",
+      "ほん",
+      "book"
+    ],
+    [
+      "これ",
+      "これ",
+      "this"
+    ],
+    [
+      "何",
+      "なに・なん",
+      "what"
+    ],
+    [
+      "それ",
+      "それ",
+      "that"
+    ],
+    [
+      "あれ",
+      "あれ",
+      "that over there"
+    ],
+    [
+      "どれ",
+      "どれ",
+      "which, what"
+    ],
+    [
+      "毎日",
+      "まいにち",
+      "every day"
+    ],
+    [
+      "兄",
+      "あに",
+      "older brother"
+    ],
+    [
+      "いる",
+      "いる",
+      "have, exist (animate)"
+    ],
+    [
+      "ある",
+      "ある",
+      "have, exist (inanimate)"
+    ],
+    [
+      "あまり",
+      "あまり",
+      "(not) very, (not) much"
+    ],
+    [
+      "今",
+      "いま",
+      "now"
+    ],
+    [
+      "時間",
+      "じかん",
+      "time, hour"
+    ],
+    [
+      "無い",
+      "ない",
+      "to not be"
+    ],
+    [
+      "この",
+      "この",
+      "this one"
+    ],
+    [
+      "その",
+      "その",
+      "that one"
+    ],
+    [
+      "あの",
+      "あの",
+      "that one there"
+    ],
+    [
+      "どの",
+      "どの",
+      "which one"
+    ],
+    [
+      "見る",
+      "みる",
+      "see, look at"
+    ],
+    [
+      "全然",
+      "ぜんぜん",
+      "(not) at all"
+    ],
+    [
+      "面白い",
+      "おもしろい",
+      "interesting, amusing"
+    ],
+    [
+      "する",
+      "する",
+      "do, make"
+    ],
+    [
+      "なる",
+      "なる",
+      "become, result in, come (to do)"
+    ],
+    [
+      "先生",
+      "せんせい",
+      "teacher"
+    ],
+    [
+      "ください",
+      "ください",
+      "please give..., please do..."
+    ],
+    [
+      "名前",
+      "なまえ",
+      "name"
+    ],
+    [
+      "教える",
+      "おしえる",
+      "teach, tell"
+    ],
+    [
+      "ここ",
+      "ここ",
+      "here"
+    ],
+    [
+      "そこ",
+      "そこ",
+      "there"
+    ],
+    [
+      "あそこ",
+      "あそこ",
+      "over there"
+    ],
+    [
+      "どこ",
+      "どこ",
+      "where"
+    ],
+    [
+      "置く",
+      "おく",
+      "put, place"
+    ],
+    [
+      "家",
+      "いえ",
+      "house, home"
+    ],
+    [
+      "帰る",
+      "かえる",
+      "return, go back"
+    ],
+    [
+      "話",
+      "はなし",
+      "talk, story"
+    ],
+    [
+      "知る",
+      "しる",
+      "know"
+    ],
+    [
+      "彼女",
+      "かのじょ",
+      "she, her, girlfriend"
+    ],
+    [
+      "ちゃん",
+      "ちゃん",
+      "chan"
+    ],
+    [
+      "はい",
+      "はい",
+      "yes (polite)"
+    ],
+    [
+      "いいえ",
+      "いいえ",
+      "no (polite)"
+    ],
+    [
+      "日本",
+      "にほん",
+      "Japan"
+    ],
+    [
+      "学校",
+      "がっこう",
+      "school"
+    ],
+    [
+      "行く",
+      "いく",
+      "go"
+    ],
+    [
+      "明日",
+      "あした",
+      "tomorrow"
+    ],
+    [
+      "来る",
+      "くる",
+      "come"
+    ],
+    [
+      "また",
+      "また",
+      "again, also"
+    ],
+    [
+      "いつ",
+      "いつ",
+      "when"
+    ],
+    [
+      "思う",
+      "おもう",
+      "think"
+    ],
+    [
+      "こう",
+      "こう",
+      "like this, this kind of"
+    ],
+    [
+      "そう",
+      "そう",
+      "in such manner, that way"
+    ],
+    [
+      "どう",
+      "どう",
+      "how, what"
+    ],
+    [
+      "会う",
+      "あう",
+      "meet"
+    ],
+    [
+      "次",
+      "つぎ",
+      "next, subsequent"
+    ],
+    [
+      "方",
+      "ほう",
+      "direction, side"
+    ],
+    [
+      "方",
+      "かた",
+      "person (polite form)"
+    ],
+    [
+      "聞く",
+      "きく",
+      "hear"
+    ],
+    [
+      "聞く",
+      "きく",
+      "ask"
+    ],
+    [
+      "お願いします",
+      "おねがいします",
+      "please"
+    ],
+    [
+      "分かる",
+      "わかる",
+      "understand"
+    ],
+    [
+      "よく",
+      "よく",
+      "well"
+    ],
+    [
+      "よく",
+      "よく",
+      "often"
+    ],
+    [
+      "考える",
+      "かんがえる",
+      "think, consider"
+    ],
+    [
+      "ありがとうございます",
+      "ありがとうございます",
+      "thank you (formal)"
+    ],
+    [
+      "話す",
+      "はなす",
+      "talk, speak"
+    ],
+    [
+      "もっと",
+      "もっと",
+      "more, a bit more"
+    ],
+    [
+      "ゆっくり",
+      "ゆっくり",
+      "slowly"
+    ],
+    [
+      "言う",
+      "いう",
+      "say"
+    ],
+    [
+      "友達",
+      "ともだち",
+      "friend, companion"
+    ],
+    [
+      "待つ",
+      "まつ",
+      "wait"
+    ],
+    [
+      "昨日",
+      "きのう",
+      "yesterday"
+    ],
+    [
+      "町",
+      "まち",
+      "town, city"
+    ],
+    [
+      "高い",
+      "たかい",
+      "expensive"
+    ],
+    [
+      "高い",
+      "たかい",
+      "high, tall"
+    ],
+    [
+      "一番",
+      "いちばん",
+      "(the) most"
+    ],
+    [
+      "ちょっと",
+      "ちょっと",
+      "a little"
+    ],
+    [
+      "もう",
+      "もう",
+      "already, yet"
+    ],
+    [
+      "もう",
+      "もう",
+      "another, again"
+    ],
+    [
+      "父",
+      "ちち",
+      "(speaker's) father"
+    ],
+    [
+      "大好き",
+      "だいすき",
+      "love"
+    ],
+    [
+      "母",
+      "はは",
+      "(speaker's) mother"
+    ],
+    [
+      "あげる",
+      "あげる",
+      "give (receiver is not in the speaker's group)"
+    ],
+    [
+      "くれる",
+      "くれる",
+      "give (receiver is in the speaker's group)"
+    ],
+    [
+      "もらう",
+      "もらう",
+      "receive"
+    ],
+    [
+      "物",
+      "もの",
+      "thing, object"
+    ],
+    [
+      "君",
+      "きみ",
+      "you (to someone of equal or lower status)"
+    ],
+    [
+      "中",
+      "なか",
+      "inside, middle"
+    ],
+    [
+      "出来る",
+      "できる",
+      "can do, be good at"
+    ],
+    [
+      "本当",
+      "ほんとう",
+      "truth, reality"
+    ],
+    [
+      "立つ",
+      "たつ",
+      "stand, rise"
+    ],
+    [
+      "前",
+      "まえ",
+      "front, before"
+    ]
+  ],
+  "questions": [
+    {
+      "situation": "Choosing a book · Two friends",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "この本、どう思いますか。",
+          "translation": "What do you think of this book?"
+        },
+        {
+          "speaker": "B",
+          "text": "面白いと思います。でも、ちょっと高いですね。",
+          "translation": "I think it’s interesting. But it’s a little expensive."
+        },
+        {
+          "speaker": "A",
+          "text": "そうですね。あの本はどうですか。",
+          "translation": "That’s true. How about that book over there?"
+        },
+        {
+          "speaker": "B",
+          "text": "あの本の方がいいと思います。",
+          "translation": "I think that book would be better."
+        }
+      ],
+      "question": "What concern does B have about the first book?",
+      "choices": [
+        "It costs a little too much",
+        "It is not interesting at all",
+        "It belongs to the teacher",
+        "B has already received it"
+      ],
+      "answer": 0,
+      "explanation": "Focus: 高い (expensive), ちょっと (a little). B finds the book interesting but a little expensive. Extra connector: でも means but."
+    },
+    {
+      "situation": "Looking at a tall building · Two friends",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "あの高い建物は何ですか。",
+          "translation": "What is that tall building over there?"
+        },
+        {
+          "speaker": "B",
+          "text": "学校です。この町で一番高い建物です。",
+          "translation": "It’s a school. It’s the tallest building in this town."
+        },
+        {
+          "speaker": "A",
+          "text": "本当ですか。前に行って、見たいです。",
+          "translation": "Really? I want to go in front of it and have a look."
+        },
+        {
+          "speaker": "B",
+          "text": "いいですね。行きましょう。",
+          "translation": "Sounds good. Let’s go."
+        }
+      ],
+      "question": "What is the tallest building in the town?",
+      "choices": [
+        "A friend’s home",
+        "The school",
+        "The father’s home",
+        "A bookshop"
+      ],
+      "answer": 1,
+      "explanation": "Focus: 町 (town), 高い (tall), 一番 (most), 本当 (really), 前 (front). Extra word: 建物 (たてもの) means building. 一番高い means tallest here; 見たい means want to see."
+    },
+    {
+      "situation": "Finished studying · Two classmates",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "もう日本語の勉強をしましたか。",
+          "translation": "Have you already studied Japanese?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい、もうしました。",
+          "translation": "Yes, I already have."
+        },
+        {
+          "speaker": "A",
+          "text": "もう家に帰りますか。",
+          "translation": "Are you going home already?"
+        },
+        {
+          "speaker": "B",
+          "text": "いいえ、ここで友達を待ちます。",
+          "translation": "No, I’ll wait here for a friend."
+        }
+      ],
+      "question": "What will B do now?",
+      "choices": [
+        "Go home immediately",
+        "Ask the teacher a question",
+        "Wait for a friend",
+        "Start studying for the first time today"
+      ],
+      "answer": 2,
+      "explanation": "Focus: もう (already). B has already studied, but will wait here for a friend rather than go home."
+    },
+    {
+      "situation": "Listening again · A learner and a teacher",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "ちょっと分かりません。もう一度言ってください。",
+          "translation": "I don’t quite understand. Please say it once more."
+        },
+        {
+          "speaker": "B",
+          "text": "はい、ゆっくり言います。ここに立ってください。",
+          "translation": "Yes, I’ll say it slowly. Please stand here."
+        },
+        {
+          "speaker": "A",
+          "text": "ここですか。",
+          "translation": "Here?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい、そうです。",
+          "translation": "Yes, that’s right."
+        }
+      ],
+      "question": "What instruction does B repeat?",
+      "choices": [
+        "Wait outside",
+        "Go home",
+        "Give me the book",
+        "Stand here"
+      ],
+      "answer": 3,
+      "explanation": "Focus: もう (again), ちょっと (a little), 立つ (stand). Extra expression: もう一度 (もういちど) means once more. 立ってください is the polite request form of 立つ."
+    },
+    {
+      "situation": "Family favorites · Two friends",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "お父さんはこの町が好きですか。",
+          "translation": "Does your father like this town?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい、父はこの町が大好きです。",
+          "translation": "Yes, my father loves this town."
+        },
+        {
+          "speaker": "A",
+          "text": "お母さんも好きですか。",
+          "translation": "Does your mother like it too?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい、母も大好きです。",
+          "translation": "Yes, my mother loves it too."
+        }
+      ],
+      "question": "Who loves the town?",
+      "choices": [
+        "Only B’s mother",
+        "Both of B’s parents",
+        "Only B’s father",
+        "Neither parent"
+      ],
+      "answer": 1,
+      "explanation": "Focus: 父 (my father), 母 (my mother), 大好き (love), 町 (town). Extra polite family terms: お父さん and お母さん are used here for someone else’s parents."
+    },
+    {
+      "situation": "Giving a book · Two friends",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "その本、どうしますか。",
+          "translation": "What will you do with that book?"
+        },
+        {
+          "speaker": "B",
+          "text": "友達にあげます。",
+          "translation": "I’ll give it to a friend."
+        },
+        {
+          "speaker": "A",
+          "text": "お父さんにあげますか。",
+          "translation": "Will you give it to your father?"
+        },
+        {
+          "speaker": "B",
+          "text": "いいえ、父ではありません。友達にあげます。",
+          "translation": "No, not my father. I’ll give it to a friend."
+        }
+      ],
+      "question": "Who will receive B’s book?",
+      "choices": [
+        "B’s father",
+        "B’s teacher",
+        "B’s friend",
+        "Speaker A"
+      ],
+      "answer": 2,
+      "explanation": "Focus: あげる (give to someone), 父 (my father). 友達にあげます identifies the friend as the recipient. お父さん is a polite term used here for B’s father."
+    },
+    {
+      "situation": "A book from a friend · Two classmates",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "その本は面白いですか。",
+          "translation": "Is that book interesting?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい。友達がくれました。",
+          "translation": "Yes. A friend gave it to me."
+        },
+        {
+          "speaker": "A",
+          "text": "いいですね。日本語の本ですか。",
+          "translation": "That’s nice. Is it a Japanese-language book?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい。この本が大好きです。",
+          "translation": "Yes. I love this book."
+        }
+      ],
+      "question": "Who gave the book to whom?",
+      "choices": [
+        "B gave it to a friend",
+        "A gave it to B",
+        "The teacher gave it to A",
+        "A friend gave it to B"
+      ],
+      "answer": 3,
+      "explanation": "Focus: くれる (someone gives to me/us), 大好き (love). 友達がくれました means a friend gave it to the speaker, B. Listen for the direction of giving."
+    },
+    {
+      "situation": "Yesterday’s gift · Two friends",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "昨日、先生に何をもらいましたか。",
+          "translation": "What did you receive from the teacher yesterday?"
+        },
+        {
+          "speaker": "B",
+          "text": "本をもらいました。",
+          "translation": "I received a book."
+        },
+        {
+          "speaker": "A",
+          "text": "もう見ましたか。",
+          "translation": "Have you looked at it already?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい、もう見ました。面白い本です。",
+          "translation": "Yes, I already have. It’s an interesting book."
+        }
+      ],
+      "question": "What did B receive from the teacher?",
+      "choices": [
+        "A book",
+        "A bag",
+        "A letter",
+        "A photograph"
+      ],
+      "answer": 0,
+      "explanation": "Focus: もらう (receive), もう (already). 先生にもらいました means received from the teacher; B received a book and has already looked at it."
+    },
+    {
+      "situation": "Something in a bag · Two friends",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "その中の物は何ですか。",
+          "translation": "What is the object inside that?"
+        },
+        {
+          "speaker": "B",
+          "text": "本です。母にもらいました。",
+          "translation": "It’s a book. I received it from my mother."
+        },
+        {
+          "speaker": "A",
+          "text": "ちょっと見てもいいですか。",
+          "translation": "May I take a quick look?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい、いいですよ。",
+          "translation": "Yes, of course."
+        }
+      ],
+      "question": "Where did B get the object inside?",
+      "choices": [
+        "From a teacher",
+        "From a friend",
+        "From B’s mother",
+        "From B’s father"
+      ],
+      "answer": 2,
+      "explanation": "Focus: 中 (inside), 物 (object), 母 (my mother), もらう (receive). B received the book from their mother. 見てもいいですか is a request for permission to look."
+    },
+    {
+      "situation": "Speaking Japanese · Two close friends",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "君は日本語ができる？",
+          "translation": "Can you speak Japanese?"
+        },
+        {
+          "speaker": "B",
+          "text": "うん、ちょっとできるよ。",
+          "translation": "Yeah, a little."
+        },
+        {
+          "speaker": "A",
+          "text": "本当？みんなの前で話せる？",
+          "translation": "Really? Can you speak in front of everyone?"
+        },
+        {
+          "speaker": "B",
+          "text": "うん、ゆっくり話すよ。",
+          "translation": "Yeah, I’ll speak slowly."
+        }
+      ],
+      "question": "What does B say about their Japanese?",
+      "choices": [
+        "B cannot use any Japanese",
+        "B can use a little and will speak slowly",
+        "B only understands written Japanese",
+        "B refuses to speak to anyone"
+      ],
+      "answer": 1,
+      "explanation": "Focus: 君 (you, familiar), 出来る／できる (can), 本当 (really), 前 (in front). Extra words: うん is casual yes; みんな means everyone. 話せる is the potential form of 話す. 君 suits some familiar relationships; avoid using it as a default polite you."
+    }
+  ],
+  "focusCoverage": [
+    {
+      "wordIndex": 81,
+      "questionIndex": 1,
+      "lineIndex": 1,
+      "form": "町"
+    },
+    {
+      "wordIndex": 82,
+      "questionIndex": 0,
+      "lineIndex": 1,
+      "form": "高い"
+    },
+    {
+      "wordIndex": 83,
+      "questionIndex": 1,
+      "lineIndex": 0,
+      "form": "高い"
+    },
+    {
+      "wordIndex": 84,
+      "questionIndex": 1,
+      "lineIndex": 1,
+      "form": "一番"
+    },
+    {
+      "wordIndex": 85,
+      "questionIndex": 0,
+      "lineIndex": 1,
+      "form": "ちょっと"
+    },
+    {
+      "wordIndex": 86,
+      "questionIndex": 2,
+      "lineIndex": 0,
+      "form": "もう"
+    },
+    {
+      "wordIndex": 87,
+      "questionIndex": 3,
+      "lineIndex": 0,
+      "form": "もう一度"
+    },
+    {
+      "wordIndex": 88,
+      "questionIndex": 4,
+      "lineIndex": 1,
+      "form": "父"
+    },
+    {
+      "wordIndex": 89,
+      "questionIndex": 4,
+      "lineIndex": 1,
+      "form": "大好き"
+    },
+    {
+      "wordIndex": 90,
+      "questionIndex": 4,
+      "lineIndex": 3,
+      "form": "母"
+    },
+    {
+      "wordIndex": 91,
+      "questionIndex": 5,
+      "lineIndex": 1,
+      "form": "あげます"
+    },
+    {
+      "wordIndex": 92,
+      "questionIndex": 6,
+      "lineIndex": 1,
+      "form": "くれました"
+    },
+    {
+      "wordIndex": 93,
+      "questionIndex": 7,
+      "lineIndex": 1,
+      "form": "もらいました"
+    },
+    {
+      "wordIndex": 94,
+      "questionIndex": 8,
+      "lineIndex": 0,
+      "form": "物"
+    },
+    {
+      "wordIndex": 95,
+      "questionIndex": 9,
+      "lineIndex": 0,
+      "form": "君"
+    },
+    {
+      "wordIndex": 96,
+      "questionIndex": 8,
+      "lineIndex": 0,
+      "form": "中"
+    },
+    {
+      "wordIndex": 97,
+      "questionIndex": 9,
+      "lineIndex": 1,
+      "form": "できる"
+    },
+    {
+      "wordIndex": 98,
+      "questionIndex": 9,
+      "lineIndex": 2,
+      "form": "本当"
+    },
+    {
+      "wordIndex": 99,
+      "questionIndex": 3,
+      "lineIndex": 1,
+      "form": "立って"
+    },
+    {
+      "wordIndex": 100,
+      "questionIndex": 9,
+      "lineIndex": 2,
+      "form": "前"
+    }
+  ]
+}

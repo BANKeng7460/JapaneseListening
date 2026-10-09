@@ -29,7 +29,8 @@ npm.cmd start
 - hooks/use-dialogue-speech.ts: browser voice discovery, saved preferences, and cancellable A/B playback.
 - data/kaishi-1-60.json: preserved eight conversations and 60-word list.
 - data/kaishi-1-80.json: eight additional conversations and cumulative 80-word list.
-- data/tests.ts: typed test registry with 1-60 and 1-80 available; 1-100 planned.
+- data/kaishi-1-100.json: ten conversations focused on entries 81-100, with the cumulative 100-word list.
+- data/tests.ts: typed test registry with separate 1-60, 1-80, and 1-100 tests.
 - tests/: migration preservation and exercise data checks.
 - legacy/: standalone snapshot. Root HTML/JS files are also retained for compatibility; Next.js does not use them.
 - Kaishi 1.5k.txt: original vocabulary source, not a public asset.
@@ -45,3 +46,13 @@ Milestones are cumulative: 1-80 draws from the first 80 vocabulary entries, excl
 Switching tests starts a fresh attempt. Scores are session-only. Voice preferences persist per browser origin when storage is available: choose voices once again after moving from the old file page to localhost.
 
 Changing a voice or speed stops playback; press Play to restart. Japanese voices depend on the browser/device. Online voices need a network connection. No API key or paid speech service is required.
+
+## Daily-life conversations
+
+Visit /daily-life for 20 original practice conversations across four five-question sets: food and cafes, shopping and services, getting around, and friends and home. Data is in data/daily-life.json. These use the shared A/B browser voice player and are separate from the Kaishi milestones and recorded Real-life stories. Vocabulary is not limited to the Kaishi list.
+
+Kaishi levels: Level 1 (1-20), Level 2 (1-40), Level 3 (1-60), Level 4 (1-80), Level 5 (1-100). The side panel has a collapsed latest-20 vocabulary list for the selected level, plus the complete cumulative list. Existing 1-60/80/100 data files are preserved.
+
+Every Kaishi level covers all 20 new vocabulary entries. focusCoverage maps each entry to a spoken line and inflected form; repeated spellings are checked by their intended meaning. The sidebar shows example conversation numbers. When revising lessons, keep these anchors accurate and run npm.cmd test. Original standalone lessons remain in legacy.
+
+Levels 6-10 add six conversations each: 1-120 (focus 101-120), 1-140 (121-140), 1-160 (141-160), 1-180 (161-180), and 1-200 (181-200). Each new entry has an explicit spoken example in focusCoverage. Notes explain extra vocabulary, grammar, and casual or potentially rude forms. Earlier levels remain unchanged.

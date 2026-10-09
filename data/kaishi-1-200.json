@@ -1,0 +1,1335 @@
+{
+  "id": "kaishi-1-200",
+  "label": "Level 10 · Words 1–200",
+  "wordCount": 200,
+  "words": [
+    [
+      "私",
+      "わたし",
+      "I (polite, general)"
+    ],
+    [
+      "あなた",
+      "あなた",
+      "you (usually when one doesn't know the person)"
+    ],
+    [
+      "さん",
+      "さん",
+      "san"
+    ],
+    [
+      "彼",
+      "かれ",
+      "he, him"
+    ],
+    [
+      "好き",
+      "すき",
+      "like, fond of"
+    ],
+    [
+      "人",
+      "ひと",
+      "person"
+    ],
+    [
+      "いい",
+      "いい",
+      "good"
+    ],
+    [
+      "人",
+      "じん",
+      "person from (nationality)"
+    ],
+    [
+      "日本語",
+      "にほんご",
+      "Japanese language"
+    ],
+    [
+      "勉強",
+      "べんきょう",
+      "study"
+    ],
+    [
+      "本",
+      "ほん",
+      "book"
+    ],
+    [
+      "これ",
+      "これ",
+      "this"
+    ],
+    [
+      "何",
+      "なに・なん",
+      "what"
+    ],
+    [
+      "それ",
+      "それ",
+      "that"
+    ],
+    [
+      "あれ",
+      "あれ",
+      "that over there"
+    ],
+    [
+      "どれ",
+      "どれ",
+      "which, what"
+    ],
+    [
+      "毎日",
+      "まいにち",
+      "every day"
+    ],
+    [
+      "兄",
+      "あに",
+      "older brother"
+    ],
+    [
+      "いる",
+      "いる",
+      "have, exist (animate)"
+    ],
+    [
+      "ある",
+      "ある",
+      "have, exist (inanimate)"
+    ],
+    [
+      "あまり",
+      "あまり",
+      "(not) very, (not) much"
+    ],
+    [
+      "今",
+      "いま",
+      "now"
+    ],
+    [
+      "時間",
+      "じかん",
+      "time, hour"
+    ],
+    [
+      "無い",
+      "ない",
+      "to not be"
+    ],
+    [
+      "この",
+      "この",
+      "this one"
+    ],
+    [
+      "その",
+      "その",
+      "that one"
+    ],
+    [
+      "あの",
+      "あの",
+      "that one there"
+    ],
+    [
+      "どの",
+      "どの",
+      "which one"
+    ],
+    [
+      "見る",
+      "みる",
+      "see, look at"
+    ],
+    [
+      "全然",
+      "ぜんぜん",
+      "(not) at all"
+    ],
+    [
+      "面白い",
+      "おもしろい",
+      "interesting, amusing"
+    ],
+    [
+      "する",
+      "する",
+      "do, make"
+    ],
+    [
+      "なる",
+      "なる",
+      "become, result in, come (to do)"
+    ],
+    [
+      "先生",
+      "せんせい",
+      "teacher"
+    ],
+    [
+      "ください",
+      "ください",
+      "please give..., please do..."
+    ],
+    [
+      "名前",
+      "なまえ",
+      "name"
+    ],
+    [
+      "教える",
+      "おしえる",
+      "teach, tell"
+    ],
+    [
+      "ここ",
+      "ここ",
+      "here"
+    ],
+    [
+      "そこ",
+      "そこ",
+      "there"
+    ],
+    [
+      "あそこ",
+      "あそこ",
+      "over there"
+    ],
+    [
+      "どこ",
+      "どこ",
+      "where"
+    ],
+    [
+      "置く",
+      "おく",
+      "put, place"
+    ],
+    [
+      "家",
+      "いえ",
+      "house, home"
+    ],
+    [
+      "帰る",
+      "かえる",
+      "return, go back"
+    ],
+    [
+      "話",
+      "はなし",
+      "talk, story"
+    ],
+    [
+      "知る",
+      "しる",
+      "know"
+    ],
+    [
+      "彼女",
+      "かのじょ",
+      "she, her, girlfriend"
+    ],
+    [
+      "ちゃん",
+      "ちゃん",
+      "chan"
+    ],
+    [
+      "はい",
+      "はい",
+      "yes (polite)"
+    ],
+    [
+      "いいえ",
+      "いいえ",
+      "no (polite)"
+    ],
+    [
+      "日本",
+      "にほん",
+      "Japan"
+    ],
+    [
+      "学校",
+      "がっこう",
+      "school"
+    ],
+    [
+      "行く",
+      "いく",
+      "go"
+    ],
+    [
+      "明日",
+      "あした",
+      "tomorrow"
+    ],
+    [
+      "来る",
+      "くる",
+      "come"
+    ],
+    [
+      "また",
+      "また",
+      "again, also"
+    ],
+    [
+      "いつ",
+      "いつ",
+      "when"
+    ],
+    [
+      "思う",
+      "おもう",
+      "think"
+    ],
+    [
+      "こう",
+      "こう",
+      "like this, this kind of"
+    ],
+    [
+      "そう",
+      "そう",
+      "in such manner, that way"
+    ],
+    [
+      "どう",
+      "どう",
+      "how, what"
+    ],
+    [
+      "会う",
+      "あう",
+      "meet"
+    ],
+    [
+      "次",
+      "つぎ",
+      "next, subsequent"
+    ],
+    [
+      "方",
+      "ほう",
+      "direction, side"
+    ],
+    [
+      "方",
+      "かた",
+      "person (polite form)"
+    ],
+    [
+      "聞く",
+      "きく",
+      "hear"
+    ],
+    [
+      "聞く",
+      "きく",
+      "ask"
+    ],
+    [
+      "お願いします",
+      "おねがいします",
+      "please"
+    ],
+    [
+      "分かる",
+      "わかる",
+      "understand"
+    ],
+    [
+      "よく",
+      "よく",
+      "well"
+    ],
+    [
+      "よく",
+      "よく",
+      "often"
+    ],
+    [
+      "考える",
+      "かんがえる",
+      "think, consider"
+    ],
+    [
+      "ありがとうございます",
+      "ありがとうございます",
+      "thank you (formal)"
+    ],
+    [
+      "話す",
+      "はなす",
+      "talk, speak"
+    ],
+    [
+      "もっと",
+      "もっと",
+      "more, a bit more"
+    ],
+    [
+      "ゆっくり",
+      "ゆっくり",
+      "slowly"
+    ],
+    [
+      "言う",
+      "いう",
+      "say"
+    ],
+    [
+      "友達",
+      "ともだち",
+      "friend, companion"
+    ],
+    [
+      "待つ",
+      "まつ",
+      "wait"
+    ],
+    [
+      "昨日",
+      "きのう",
+      "yesterday"
+    ],
+    [
+      "町",
+      "まち",
+      "town, city"
+    ],
+    [
+      "高い",
+      "たかい",
+      "expensive"
+    ],
+    [
+      "高い",
+      "たかい",
+      "high, tall"
+    ],
+    [
+      "一番",
+      "いちばん",
+      "(the) most"
+    ],
+    [
+      "ちょっと",
+      "ちょっと",
+      "a little"
+    ],
+    [
+      "もう",
+      "もう",
+      "already, yet"
+    ],
+    [
+      "もう",
+      "もう",
+      "another, again"
+    ],
+    [
+      "父",
+      "ちち",
+      "(speaker's) father"
+    ],
+    [
+      "大好き",
+      "だいすき",
+      "love"
+    ],
+    [
+      "母",
+      "はは",
+      "(speaker's) mother"
+    ],
+    [
+      "あげる",
+      "あげる",
+      "give (receiver is not in the speaker's group)"
+    ],
+    [
+      "くれる",
+      "くれる",
+      "give (receiver is in the speaker's group)"
+    ],
+    [
+      "もらう",
+      "もらう",
+      "receive"
+    ],
+    [
+      "物",
+      "もの",
+      "thing, object"
+    ],
+    [
+      "君",
+      "きみ",
+      "you (to someone of equal or lower status)"
+    ],
+    [
+      "中",
+      "なか",
+      "inside, middle"
+    ],
+    [
+      "出来る",
+      "できる",
+      "can do, be good at"
+    ],
+    [
+      "本当",
+      "ほんとう",
+      "truth, reality"
+    ],
+    [
+      "立つ",
+      "たつ",
+      "stand, rise"
+    ],
+    [
+      "前",
+      "まえ",
+      "front, before"
+    ],
+    [
+      "入る",
+      "はいる",
+      "enter"
+    ],
+    [
+      "家族",
+      "かぞく",
+      "family"
+    ],
+    [
+      "住む",
+      "すむ",
+      "live, reside"
+    ],
+    [
+      "大きな",
+      "おおきな",
+      "big, large"
+    ],
+    [
+      "大きい",
+      "おおきい",
+      "big, large"
+    ],
+    [
+      "声",
+      "こえ",
+      "voice, sound"
+    ],
+    [
+      "目",
+      "め",
+      "eye"
+    ],
+    [
+      "手",
+      "て",
+      "hand"
+    ],
+    [
+      "上げる",
+      "あげる",
+      "raise, increase"
+    ],
+    [
+      "嫌い",
+      "きらい",
+      "dislike"
+    ],
+    [
+      "おじいさん",
+      "おじいさん",
+      "grandfather"
+    ],
+    [
+      "おばあさん",
+      "おばあさん",
+      "grandmother"
+    ],
+    [
+      "元気",
+      "げんき",
+      "energetic, healthy"
+    ],
+    [
+      "いつも",
+      "いつも",
+      "always, usually"
+    ],
+    [
+      "持つ",
+      "もつ",
+      "have, hold"
+    ],
+    [
+      "みんな",
+      "みんな",
+      "all, everybody"
+    ],
+    [
+      "使う",
+      "つかう",
+      "use"
+    ],
+    [
+      "大丈夫",
+      "だいじょうぶ",
+      "alright, OK"
+    ],
+    [
+      "始める",
+      "はじめる",
+      "start"
+    ],
+    [
+      "今日",
+      "きょう",
+      "today"
+    ],
+    [
+      "部屋",
+      "へや",
+      "room"
+    ],
+    [
+      "悪い",
+      "わるい",
+      "bad"
+    ],
+    [
+      "まあ",
+      "まあ",
+      "well..."
+    ],
+    [
+      "食べる",
+      "たべる",
+      "eat"
+    ],
+    [
+      "沢山",
+      "たくさん",
+      "a lot, plenty"
+    ],
+    [
+      "場所",
+      "ばしょ",
+      "place, location"
+    ],
+    [
+      "呼ぶ",
+      "よぶ",
+      "call, name"
+    ],
+    [
+      "動く",
+      "うごく",
+      "move"
+    ],
+    [
+      "気持ち",
+      "きもち",
+      "feeling, sensation"
+    ],
+    [
+      "誰",
+      "だれ",
+      "who"
+    ],
+    [
+      "子",
+      "こ",
+      "child, kid"
+    ],
+    [
+      "どんな",
+      "どんな",
+      "what kind of..."
+    ],
+    [
+      "意味",
+      "いみ",
+      "meaning, significance"
+    ],
+    [
+      "言葉",
+      "ことば",
+      "word, language"
+    ],
+    [
+      "心配",
+      "しんぱい",
+      "worry"
+    ],
+    [
+      "様子",
+      "ようす",
+      "appearance, state"
+    ],
+    [
+      "信じる",
+      "しんじる",
+      "to believe, to trust"
+    ],
+    [
+      "自分",
+      "じぶん",
+      "self, oneself"
+    ],
+    [
+      "調べる",
+      "しらべる",
+      "look up, search"
+    ],
+    [
+      "事",
+      "こと",
+      "thing, incident"
+    ],
+    [
+      "同じ",
+      "おなじ",
+      "same, identical"
+    ],
+    [
+      "申し訳ない",
+      "もうしわけない",
+      "sorry, inexcusable"
+    ],
+    [
+      "もちろん",
+      "もちろん",
+      "of course, no doubt"
+    ],
+    [
+      "とても",
+      "とても",
+      "very"
+    ],
+    [
+      "楽しい",
+      "たのしい",
+      "fun, enjoyable"
+    ],
+    [
+      "失礼します",
+      "しつれいします",
+      "pardon me, excuse me (e.g. when leaving)"
+    ],
+    [
+      "手伝う",
+      "てつだう",
+      "to help"
+    ],
+    [
+      "忙しい",
+      "いそがしい",
+      "busy, occupied"
+    ],
+    [
+      "仕事",
+      "しごと",
+      "work, job"
+    ],
+    [
+      "続ける",
+      "つづける",
+      "to continue, to keep up"
+    ],
+    [
+      "見せる",
+      "みせる",
+      "to show"
+    ],
+    [
+      "うち",
+      "うち",
+      "one's household"
+    ],
+    [
+      "約束",
+      "やくそく",
+      "promise, appointment"
+    ],
+    [
+      "忘れる",
+      "わすれる",
+      "to forget"
+    ],
+    [
+      "守る",
+      "まもる",
+      "to protect, to observe"
+    ],
+    [
+      "変える",
+      "かえる",
+      "to change, to alter"
+    ],
+    [
+      "さっき",
+      "さっき",
+      "(only) a moment ago"
+    ],
+    [
+      "今度",
+      "こんど",
+      "next time"
+    ],
+    [
+      "これから",
+      "これから",
+      "from now on, after this"
+    ],
+    [
+      "止める",
+      "とめる",
+      "to stop (at some place)"
+    ],
+    [
+      "止める",
+      "やめる",
+      "to stop (doing something)"
+    ],
+    [
+      "頼む",
+      "たのむ",
+      "to ask, to request"
+    ],
+    [
+      "許す",
+      "ゆるす",
+      "to forgive, to permit"
+    ],
+    [
+      "嬉しい",
+      "うれしい",
+      "happy, glad"
+    ],
+    [
+      "頑張る",
+      "がんばる",
+      "to persevere, to do one's best"
+    ],
+    [
+      "なるほど",
+      "なるほど",
+      "I see, really"
+    ],
+    [
+      "つまり",
+      "つまり",
+      "in short, basically"
+    ],
+    [
+      "国",
+      "くに",
+      "country"
+    ],
+    [
+      "優しい",
+      "やさしい",
+      "gentle, kind"
+    ],
+    [
+      "嫌",
+      "いや",
+      "disliking, unwilling (to do)"
+    ],
+    [
+      "そんなに",
+      "そんなに",
+      "that much"
+    ],
+    [
+      "今回",
+      "こんかい",
+      "this time"
+    ],
+    [
+      "夜",
+      "よる",
+      "evening, night"
+    ],
+    [
+      "買う",
+      "かう",
+      "to buy"
+    ],
+    [
+      "今まで",
+      "いままで",
+      "until now"
+    ],
+    [
+      "奴",
+      "やつ",
+      "that guy, (s)he (usu. derogatory)"
+    ],
+    [
+      "あいつ",
+      "あいつ",
+      "that guy"
+    ],
+    [
+      "もし",
+      "もし",
+      "if, in the event of..."
+    ],
+    [
+      "理解",
+      "りかい",
+      "understanding, comprehension"
+    ],
+    [
+      "夢",
+      "ゆめ",
+      "dream"
+    ],
+    [
+      "俺",
+      "おれ",
+      "I (male)"
+    ],
+    [
+      "難しい",
+      "むずかしい",
+      "difficult"
+    ],
+    [
+      "今度",
+      "こんど",
+      "this time"
+    ],
+    [
+      "おかしい",
+      "おかしい",
+      "strange, suspicious"
+    ],
+    [
+      "男の子",
+      "おとこのこ",
+      "boy"
+    ],
+    [
+      "女の子",
+      "おんなのこ",
+      "girl"
+    ],
+    [
+      "寝る",
+      "ねる",
+      "sleep"
+    ],
+    [
+      "伝える",
+      "つたえる",
+      "to convey, to transmit"
+    ],
+    [
+      "小さい",
+      "ちいさい",
+      "small"
+    ],
+    [
+      "選ぶ",
+      "えらぶ",
+      "to choose, to elect"
+    ],
+    [
+      "座る",
+      "すわる",
+      "to sit"
+    ],
+    [
+      "簡単",
+      "かんたん",
+      "simple, easy"
+    ],
+    [
+      "お願い",
+      "おねがい",
+      "favor"
+    ],
+    [
+      "進む",
+      "すすむ",
+      "to move forward"
+    ],
+    [
+      "全く",
+      "まったく",
+      "entirely, truly"
+    ],
+    [
+      "なぜ",
+      "なぜ",
+      "why"
+    ],
+    [
+      "僕",
+      "ぼく",
+      "I (male)"
+    ],
+    [
+      "水",
+      "みず",
+      "water"
+    ],
+    [
+      "飲む",
+      "のむ",
+      "drink"
+    ],
+    [
+      "暇",
+      "ひま",
+      "free, not busy"
+    ]
+  ],
+  "questions": [
+    {
+      "situation": "A new task · Casual conversation",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "俺、今度の仕事は難しいと思う。今日始めたんだけど、全く分からない。",
+          "translation": "I think this current job is difficult. I started today, but I don’t understand it at all."
+        },
+        {
+          "speaker": "B",
+          "text": "どこが分からない？",
+          "translation": "Which part don’t you understand?"
+        },
+        {
+          "speaker": "A",
+          "text": "この言葉の意味だよ。",
+          "translation": "The meaning of this word."
+        },
+        {
+          "speaker": "B",
+          "text": "じゃあ、一緒に調べよう。",
+          "translation": "Then let’s look it up together."
+        }
+      ],
+      "question": "What part does A need help with?",
+      "choices": [
+        "The meaning of a word",
+        "Finding the room",
+        "Choosing a job",
+        "Remembering a name"
+      ],
+      "answer": 0,
+      "explanation": "俺 is a very casual, typically masculine I. 難しい means difficult. 今度 refers here to this current occasion/job, explicitly already started today. 全く with a negative means not at all. Extra forms: どこが, which part; 一緒に, together."
+    },
+    {
+      "situation": "An unexpected absence",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "あの男の子と女の子は、まだ来ていませんか。",
+          "translation": "Have that boy and girl not arrived yet?"
+        },
+        {
+          "speaker": "B",
+          "text": "はい。いつもここにいるのに、今日はおかしいですね。",
+          "translation": "That’s right. They are always here, so it’s unusual today."
+        },
+        {
+          "speaker": "A",
+          "text": "なぜ来ないのでしょう。先生に聞いてみます。",
+          "translation": "I wonder why they aren’t coming. I’ll ask the teacher."
+        },
+        {
+          "speaker": "B",
+          "text": "お願いします。",
+          "translation": "Please do."
+        }
+      ],
+      "question": "What seems unusual to B?",
+      "choices": [
+        "The room is crowded",
+        "The two children are absent today",
+        "The teacher is speaking loudly",
+        "The children have new books"
+      ],
+      "answer": 1,
+      "explanation": "男の子 means boy; 女の子 means girl. おかしい means strange/unusual here; なぜ means why. いるのに expresses although they are usually here."
+    },
+    {
+      "situation": "Passing on a message",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "兄はもう寝ています。",
+          "translation": "My older brother is already asleep."
+        },
+        {
+          "speaker": "B",
+          "text": "そうですか。では、明日また来ると伝えてください。",
+          "translation": "I see. Then please tell him I’ll come again tomorrow."
+        },
+        {
+          "speaker": "A",
+          "text": "はい、伝えます。",
+          "translation": "Yes, I will."
+        },
+        {
+          "speaker": "B",
+          "text": "ありがとうございます。",
+          "translation": "Thank you."
+        }
+      ],
+      "question": "What message should A pass on?",
+      "choices": [
+        "B is moving away",
+        "B is asleep",
+        "B will come again tomorrow",
+        "B needs the book tonight"
+      ],
+      "answer": 2,
+      "explanation": "寝ています means is sleeping; 伝える means convey a message. と marks the content to pass on. 明日また来る means will come again tomorrow."
+    },
+    {
+      "situation": "Choosing a book for practice",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "どの本を選びますか。",
+          "translation": "Which book will you choose?"
+        },
+        {
+          "speaker": "B",
+          "text": "この小さい本です。言葉が簡単ですから。",
+          "translation": "This small book, because its words are simple."
+        },
+        {
+          "speaker": "A",
+          "text": "大きい本はどうですか。",
+          "translation": "How about the big book?"
+        },
+        {
+          "speaker": "B",
+          "text": "難しいので、今は選びません。",
+          "translation": "It’s difficult, so I won’t choose it now."
+        }
+      ],
+      "question": "Why does B choose the small book?",
+      "choices": [
+        "It is expensive",
+        "It has no words",
+        "It belongs to a friend",
+        "Its vocabulary is simple"
+      ],
+      "answer": 3,
+      "explanation": "小さい means small; 選ぶ means choose; 簡単 means easy/simple. から and ので introduce reasons. B chooses a manageable book."
+    },
+    {
+      "situation": "Moving forward to a seat",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "お願いがあります。もう少し前に進んでください。",
+          "translation": "I have a request. Please move a little farther forward."
+        },
+        {
+          "speaker": "B",
+          "text": "ここでいいですか。",
+          "translation": "Is here okay?"
+        },
+        {
+          "speaker": "A",
+          "text": "はい、そこで座ってください。",
+          "translation": "Yes, please sit there."
+        },
+        {
+          "speaker": "B",
+          "text": "分かりました。",
+          "translation": "Understood."
+        }
+      ],
+      "question": "What should B do after moving forward?",
+      "choices": [
+        "Sit down there",
+        "Go home",
+        "Raise a hand",
+        "Stand at the back"
+      ],
+      "answer": 0,
+      "explanation": "お願い means a request/favor. 進む means move forward; 座る means sit. Extra expression: もう少し, a little more."
+    },
+    {
+      "situation": "A drink after studying · Casual conversation",
+      "lines": [
+        {
+          "speaker": "A",
+          "text": "今、暇？一緒に何か飲まない？",
+          "translation": "Are you free now? Want to have something to drink together?"
+        },
+        {
+          "speaker": "B",
+          "text": "うん。僕は水がいいな。",
+          "translation": "Yeah. I’d like water."
+        },
+        {
+          "speaker": "A",
+          "text": "じゃあ、うちに来て。",
+          "translation": "Then come over to my place."
+        },
+        {
+          "speaker": "B",
+          "text": "ありがとう。",
+          "translation": "Thanks."
+        }
+      ],
+      "question": "What would B like to drink?",
+      "choices": [
+        "Coffee",
+        "Water",
+        "Tea",
+        "Juice"
+      ],
+      "answer": 1,
+      "explanation": "暇 means free/not busy; 飲む means drink; 水 means water. 僕 is a typically masculine I, often softer than 俺. Extra expressions: 一緒に (いっしょに), together; 何か (なにか), something. 飲まない？ is a casual invitation."
+    }
+  ],
+  "focusCoverage": [
+    {
+      "wordIndex": 181,
+      "questionIndex": 0,
+      "lineIndex": 0,
+      "form": "俺"
+    },
+    {
+      "wordIndex": 182,
+      "questionIndex": 0,
+      "lineIndex": 0,
+      "form": "難しい"
+    },
+    {
+      "wordIndex": 183,
+      "questionIndex": 0,
+      "lineIndex": 0,
+      "form": "今度"
+    },
+    {
+      "wordIndex": 184,
+      "questionIndex": 1,
+      "lineIndex": 1,
+      "form": "おかしい"
+    },
+    {
+      "wordIndex": 185,
+      "questionIndex": 1,
+      "lineIndex": 0,
+      "form": "男の子"
+    },
+    {
+      "wordIndex": 186,
+      "questionIndex": 1,
+      "lineIndex": 0,
+      "form": "女の子"
+    },
+    {
+      "wordIndex": 187,
+      "questionIndex": 2,
+      "lineIndex": 0,
+      "form": "寝ています"
+    },
+    {
+      "wordIndex": 188,
+      "questionIndex": 2,
+      "lineIndex": 1,
+      "form": "伝えて"
+    },
+    {
+      "wordIndex": 189,
+      "questionIndex": 3,
+      "lineIndex": 1,
+      "form": "小さい"
+    },
+    {
+      "wordIndex": 190,
+      "questionIndex": 3,
+      "lineIndex": 0,
+      "form": "選びます"
+    },
+    {
+      "wordIndex": 191,
+      "questionIndex": 4,
+      "lineIndex": 2,
+      "form": "座って"
+    },
+    {
+      "wordIndex": 192,
+      "questionIndex": 3,
+      "lineIndex": 1,
+      "form": "簡単"
+    },
+    {
+      "wordIndex": 193,
+      "questionIndex": 4,
+      "lineIndex": 0,
+      "form": "お願い"
+    },
+    {
+      "wordIndex": 194,
+      "questionIndex": 4,
+      "lineIndex": 0,
+      "form": "進んで"
+    },
+    {
+      "wordIndex": 195,
+      "questionIndex": 0,
+      "lineIndex": 0,
+      "form": "全く"
+    },
+    {
+      "wordIndex": 196,
+      "questionIndex": 1,
+      "lineIndex": 2,
+      "form": "なぜ"
+    },
+    {
+      "wordIndex": 197,
+      "questionIndex": 5,
+      "lineIndex": 1,
+      "form": "僕"
+    },
+    {
+      "wordIndex": 198,
+      "questionIndex": 5,
+      "lineIndex": 1,
+      "form": "水"
+    },
+    {
+      "wordIndex": 199,
+      "questionIndex": 5,
+      "lineIndex": 0,
+      "form": "飲まない"
+    },
+    {
+      "wordIndex": 200,
+      "questionIndex": 5,
+      "lineIndex": 0,
+      "form": "暇"
+    }
+  ]
+}

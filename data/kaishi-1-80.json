@@ -677,5 +677,127 @@
       "answer": 3,
       "explanation": "日本語の本の話 means a conversation about a Japanese-language book. 話しました is the polite past form of 話す. と言っていました reports what someone said."
     }
+  ],
+  "focusCoverage": [
+    {
+      "wordIndex": 61,
+      "questionIndex": 0,
+      "lineIndex": 0,
+      "form": "どう"
+    },
+    {
+      "wordIndex": 62,
+      "questionIndex": 1,
+      "lineIndex": 0,
+      "form": "会います"
+    },
+    {
+      "wordIndex": 63,
+      "questionIndex": 1,
+      "lineIndex": 0,
+      "form": "次"
+    },
+    {
+      "wordIndex": 64,
+      "questionIndex": 2,
+      "lineIndex": 1,
+      "form": "方"
+    },
+    {
+      "wordIndex": 65,
+      "questionIndex": 3,
+      "lineIndex": 0,
+      "form": "方"
+    },
+    {
+      "wordIndex": 66,
+      "questionIndex": 5,
+      "lineIndex": 0,
+      "form": "聞きます"
+    },
+    {
+      "wordIndex": 67,
+      "questionIndex": 4,
+      "lineIndex": 1,
+      "form": "聞きます"
+    },
+    {
+      "wordIndex": 68,
+      "questionIndex": 0,
+      "lineIndex": 3,
+      "form": "お願いします"
+    },
+    {
+      "wordIndex": 69,
+      "questionIndex": 0,
+      "lineIndex": 0,
+      "form": "分かります"
+    },
+    {
+      "wordIndex": 70,
+      "questionIndex": 0,
+      "lineIndex": 1,
+      "form": "よく"
+    },
+    {
+      "wordIndex": 71,
+      "questionIndex": 3,
+      "lineIndex": 2,
+      "form": "よく"
+    },
+    {
+      "wordIndex": 72,
+      "questionIndex": 6,
+      "lineIndex": 1,
+      "form": "考えます"
+    },
+    {
+      "wordIndex": 73,
+      "questionIndex": 5,
+      "lineIndex": 3,
+      "form": "ありがとうございます"
+    },
+    {
+      "wordIndex": 74,
+      "questionIndex": 0,
+      "lineIndex": 2,
+      "form": "話して"
+    },
+    {
+      "wordIndex": 75,
+      "questionIndex": 0,
+      "lineIndex": 2,
+      "form": "もっと"
+    },
+    {
+      "wordIndex": 76,
+      "questionIndex": 0,
+      "lineIndex": 2,
+      "form": "ゆっくり"
+    },
+    {
+      "wordIndex": 77,
+      "questionIndex": 0,
+      "lineIndex": 2,
+      "form": "言いましょう"
+    },
+    {
+      "wordIndex": 78,
+      "questionIndex": 3,
+      "lineIndex": 1,
+      "form": "友達"
+    },
+    {
+      "wordIndex": 79,
+      "questionIndex": 4,
+      "lineIndex": 3,
+      "form": "待って"
+    },
+    {
+      "wordIndex": 80,
+      "questionIndex": 3,
+      "lineIndex": 3,
+      "form": "昨日"
+    }
   ]
 }
