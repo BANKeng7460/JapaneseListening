@@ -9483,5 +9483,480 @@
       "reading": "のむ",
       "meaning": "drink"
     }
+  ],
+  "面白くなかった": [
+    {
+      "word": "面白い",
+      "reading": "おもしろい",
+      "meaning": "interesting, amusing"
+    }
+  ],
+  "見ました": [
+    {
+      "word": "見る",
+      "reading": "みる",
+      "meaning": "see, look at"
+    }
+  ],
+  "来ました": [
+    {
+      "word": "来る",
+      "reading": "くる",
+      "meaning": "come"
+    }
+  ],
+  "帰りました": [
+    {
+      "word": "帰る",
+      "reading": "かえる",
+      "meaning": "return, go back"
+    }
+  ],
+  "帰って": [
+    {
+      "word": "帰る",
+      "reading": "かえる",
+      "meaning": "return, go back"
+    }
+  ],
+  "帰ったら": [
+    {
+      "word": "帰る",
+      "reading": "かえる",
+      "meaning": "return, go back"
+    }
+  ],
+  "聞きたい": [
+    {
+      "word": "聞く",
+      "reading": "きく",
+      "meaning": "hear"
+    },
+    {
+      "word": "聞く",
+      "reading": "きく",
+      "meaning": "ask"
+    }
+  ],
+  "聞きました": [
+    {
+      "word": "聞く",
+      "reading": "きく",
+      "meaning": "hear"
+    },
+    {
+      "word": "聞く",
+      "reading": "きく",
+      "meaning": "ask"
+    }
+  ],
+  "聞かれて": [
+    {
+      "word": "聞く",
+      "reading": "きく",
+      "meaning": "hear"
+    },
+    {
+      "word": "聞く",
+      "reading": "きく",
+      "meaning": "ask"
+    }
+  ],
+  "思って": [
+    {
+      "word": "思う",
+      "reading": "おもう",
+      "meaning": "think"
+    }
+  ],
+  "思いました": [
+    {
+      "word": "思う",
+      "reading": "おもう",
+      "meaning": "think"
+    }
+  ],
+  "早く": [
+    {
+      "word": "早い",
+      "reading": "はやい",
+      "meaning": "early"
+    },
+    {
+      "word": "早い",
+      "reading": "はやい",
+      "meaning": "fast (in terms of time)"
+    }
+  ],
+  "分かりませんでした": [
+    {
+      "word": "分かる",
+      "reading": "わかる",
+      "meaning": "understand"
+    }
+  ],
+  "分かりません": [
+    {
+      "word": "分かる",
+      "reading": "わかる",
+      "meaning": "understand"
+    }
+  ],
+  "分からなかった": [
+    {
+      "word": "分かる",
+      "reading": "わかる",
+      "meaning": "understand"
+    }
+  ],
+  "分からなければ": [
+    {
+      "word": "分かる",
+      "reading": "わかる",
+      "meaning": "understand"
+    }
+  ],
+  "分からない": [
+    {
+      "word": "分かる",
+      "reading": "わかる",
+      "meaning": "understand"
+    }
+  ],
+  "分かった": [
+    {
+      "word": "分かる",
+      "reading": "わかる",
+      "meaning": "understand"
+    }
+  ],
+  "返し": [
+    {
+      "word": "返す",
+      "reading": "かえす",
+      "meaning": "to return, to repay"
+    }
+  ],
+  "行きました": [
+    {
+      "word": "行く",
+      "reading": "いく",
+      "meaning": "go"
+    }
+  ],
+  "行って": [
+    {
+      "word": "行く",
+      "reading": "いく",
+      "meaning": "go"
+    }
+  ],
+  "言いました": [
+    {
+      "word": "言う",
+      "reading": "いう",
+      "meaning": "say"
+    }
+  ],
+  "言って": [
+    {
+      "word": "言う",
+      "reading": "いう",
+      "meaning": "say"
+    }
+  ],
+  "待ちました": [
+    {
+      "word": "待つ",
+      "reading": "まつ",
+      "meaning": "wait"
+    }
+  ],
+  "速くて": [
+    {
+      "word": "速い",
+      "reading": "はやい",
+      "meaning": "fast (in terms of speed)"
+    }
+  ],
+  "知らない": [
+    {
+      "word": "知る",
+      "reading": "しる",
+      "meaning": "know"
+    }
+  ],
+  "見つけて": [
+    {
+      "word": "見つける",
+      "reading": "みつける",
+      "meaning": "to find"
+    }
+  ],
+  "買って": [
+    {
+      "word": "買う",
+      "reading": "かう",
+      "meaning": "to buy"
+    }
+  ],
+  "持って": [
+    {
+      "word": "持つ",
+      "reading": "もつ",
+      "meaning": "have, hold"
+    }
+  ],
+  "読んだら": [
+    {
+      "word": "読む",
+      "reading": "よむ",
+      "meaning": "to read"
+    }
+  ],
+  "読んで": [
+    {
+      "word": "読む",
+      "reading": "よむ",
+      "meaning": "to read"
+    }
+  ],
+  "集まります": [
+    {
+      "word": "集まる",
+      "reading": "あつまる",
+      "meaning": "to gather, to be collected"
+    }
+  ],
+  "聞こえます": [
+    {
+      "word": "聞こえる",
+      "reading": "きこえる",
+      "meaning": "can hear"
+    }
+  ],
+  "楽しそう": [
+    {
+      "word": "楽しい",
+      "reading": "たのしい",
+      "meaning": "fun, enjoyable"
+    }
+  ],
+  "楽しかった": [
+    {
+      "word": "楽しい",
+      "reading": "たのしい",
+      "meaning": "fun, enjoyable"
+    }
+  ],
+  "休ませ": [
+    {
+      "word": "休む",
+      "reading": "やすむ",
+      "meaning": "to rest, to take time off"
+    }
+  ],
+  "動いて": [
+    {
+      "word": "動く",
+      "reading": "うごく",
+      "meaning": "move"
+    }
+  ],
+  "動きません": [
+    {
+      "word": "動く",
+      "reading": "うごく",
+      "meaning": "move"
+    }
+  ],
+  "食べませんでした": [
+    {
+      "word": "食べる",
+      "reading": "たべる",
+      "meaning": "eat"
+    }
+  ],
+  "呼んで": [
+    {
+      "word": "呼ぶ",
+      "reading": "よぶ",
+      "meaning": "call, name"
+    }
+  ],
+  "信じない": [
+    {
+      "word": "信じる",
+      "reading": "しんじる",
+      "meaning": "to believe, to trust"
+    }
+  ],
+  "変えません": [
+    {
+      "word": "変える",
+      "reading": "かえる",
+      "meaning": "to change, to alter"
+    }
+  ],
+  "思い出しました": [
+    {
+      "word": "思い出す",
+      "reading": "おもいだす",
+      "meaning": "to recollect, to recall"
+    }
+  ],
+  "忘れて": [
+    {
+      "word": "忘れる",
+      "reading": "わすれる",
+      "meaning": "to forget"
+    }
+  ],
+  "頑張って": [
+    {
+      "word": "頑張る",
+      "reading": "がんばる",
+      "meaning": "to persevere, to do one's best"
+    }
+  ],
+  "笑って": [
+    {
+      "word": "笑う",
+      "reading": "わらう",
+      "meaning": "laugh, smile"
+    }
+  ],
+  "謝って": [
+    {
+      "word": "謝る",
+      "reading": "あやまる",
+      "meaning": "to apologize"
+    }
+  ],
+  "手伝って": [
+    {
+      "word": "手伝う",
+      "reading": "てつだう",
+      "meaning": "to help"
+    }
+  ],
+  "頼んで": [
+    {
+      "word": "頼む",
+      "reading": "たのむ",
+      "meaning": "to ask, to request"
+    }
+  ],
+  "伝えた": [
+    {
+      "word": "伝える",
+      "reading": "つたえる",
+      "meaning": "to convey, to transmit"
+    }
+  ],
+  "遊んで": [
+    {
+      "word": "遊ぶ",
+      "reading": "あそぶ",
+      "meaning": "to play"
+    }
+  ],
+  "飲んで": [
+    {
+      "word": "飲む",
+      "reading": "のむ",
+      "meaning": "drink"
+    }
+  ],
+  "飲んだ": [
+    {
+      "word": "飲む",
+      "reading": "のむ",
+      "meaning": "drink"
+    }
+  ],
+  "走って": [
+    {
+      "word": "走る",
+      "reading": "はしる",
+      "meaning": "to run"
+    }
+  ],
+  "始めた": [
+    {
+      "word": "始める",
+      "reading": "はじめる",
+      "meaning": "start"
+    }
+  ],
+  "始めました": [
+    {
+      "word": "始める",
+      "reading": "はじめる",
+      "meaning": "start"
+    }
+  ],
+  "上司": [
+    {
+      "word": "上司",
+      "reading": "じょうし",
+      "meaning": "boss, superior"
+    }
+  ],
+  "誕生日": [
+    {
+      "word": "誕生日",
+      "reading": "たんじょうび",
+      "meaning": "birthday"
+    }
+  ],
+  "二人": [
+    {
+      "word": "二人",
+      "reading": "ふたり",
+      "meaning": "two people"
+    }
+  ],
+  "一人": [
+    {
+      "word": "一人",
+      "reading": "ひとり",
+      "meaning": "one person, alone"
+    }
+  ],
+  "図書館": [
+    {
+      "word": "図書館",
+      "reading": "としょかん",
+      "meaning": "library"
+    }
+  ],
+  "公園": [
+    {
+      "word": "公園",
+      "reading": "こうえん",
+      "meaning": "park"
+    }
+  ],
+  "辞書": [
+    {
+      "word": "辞書",
+      "reading": "じしょ",
+      "meaning": "dictionary"
+    }
+  ],
+  "部品": [
+    {
+      "word": "部品",
+      "reading": "ぶひん",
+      "meaning": "part, component"
+    }
+  ],
+  "本屋": [
+    {
+      "word": "本屋",
+      "reading": "ほんや",
+      "meaning": "bookstore"
+    }
   ]
 }

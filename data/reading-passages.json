@@ -4,8 +4,8 @@
     "passages": [
       {
         "title": "アンの本",
-        "text": "私はアンです。イギリス人です。これは日本語の本です。それも日本語の本です。私は日本語が好きです。毎日、勉強します。あなたは何が好きですか。",
-        "translation": "I’m Ann. I’m British. This is a Japanese-language book. That is also a Japanese-language book. I like Japanese. I study every day. What do you like?",
+        "text": "はじめまして。私はアンです。イギリス人です。日本語が好きで、毎日勉強しています。これは私の日本語の本です。それも日本語の本ですよ。あなたは何が好きですか。",
+        "translation": "Nice to meet you. I’m Ann. I’m British. I like Japanese, and I study it every day. This is my Japanese book. That one is a Japanese book too. What do you like?",
         "question": "What does Ann do every day?",
         "choices": [
           "Study Japanese",
@@ -14,21 +14,21 @@
           "Buy a book"
         ],
         "answer": 0,
-        "explanation": "毎日、勉強します gives the answer. 人 is read じん in イギリス人. Extra words: アン is a name; イギリス means Britain."
+        "explanation": "毎日勉強しています means “I study every day.” 人 is read じん in イギリス人. Extra words: はじめまして, nice to meet you; アン is a name; イギリス means Britain; 好きで links “I like it” to the next idea; よ adds friendly emphasis."
       },
       {
-        "title": "兄と本",
-        "text": "兄がいます。彼はトムさんです。いい人です。本があります。これも、それも、あれも、兄の本です。どれが好きですか。私はこれが好きです。",
-        "translation": "I have an older brother. He is Tom. He is a good person. There are books. This one, that one, and that one over there are my brother’s books. Which do you like? I like this one.",
+        "title": "兄の本",
+        "text": "私には兄がいます。トムです。いい人ですよ。彼は本が好きです。家には本がたくさんあります。でも、これも、それも、あれも、兄の本です。私の本はどれですか。……ありません！",
+        "translation": "I have an older brother. His name is Tom. He’s a good guy. He likes books. There are lots of books at home. But this one, that one, and that one over there are all my brother’s. Which ones are mine? …None!",
         "question": "Whose books are they?",
         "choices": [
           "The teacher’s",
           "The older brother’s",
           "Ann’s friend’s",
-          "The reader’s"
+          "The writer’s"
         ],
         "answer": 1,
-        "explanation": "兄の本 means my older brother’s books. 人 is read ひと in いい人. います is for people; あります is for things. トム is a name."
+        "explanation": "兄の本 means my older brother’s books, and the joke is that none are the writer’s. 人 is read ひと in いい人. います is for people; あります is for things. Extra words: トム is a name; たくさん, a lot; 家, home; でも, but."
       }
     ]
   },
@@ -37,31 +37,31 @@
     "passages": [
       {
         "title": "本の名前",
-        "text": "この本は面白いです。その本はあまり面白くないです。あの本は全然面白くないです。どの本を見るか、考えます。私はこの本が好きです。先生に、この本の名前を教えてくださいと言います。",
-        "translation": "This book is interesting. That book is not very interesting. That book over there is not interesting at all. I think about which book to look at. I like this book. I ask the teacher to tell me its name.",
+        "text": "先生、この本は面白いですね。その本も見ましたが、あまり面白くなかったです。あの本は、全然面白くなかったです。私はこの本が好きです。この本の名前を教えてください。",
+        "translation": "Teacher, this book is interesting, isn’t it? I looked at that book too, but it wasn’t very interesting. That book over there wasn’t interesting at all. I like this book. Please tell me its name.",
         "question": "Which book does the writer like?",
         "choices": [
-          "The distant book",
-          "All three equally",
-          "The book called この本",
+          "The one near the writer (この本)",
+          "The one near the teacher (その本)",
+          "The one over there (あの本)",
           "None of them"
         ],
-        "answer": 2,
-        "explanation": "この本 is the interesting book. あまり with a negative means not very; 全然 with a negative means not at all. Extra verbs: 考える (かんがえる), think; 言う (いう), say."
+        "answer": 0,
+        "explanation": "私はこの本が好きです gives the answer. この = this (near me), その = that (near you), あの = that over there. あまり with a negative means not very; 全然 with a negative means not at all. 面白くなかった is the past negative of 面白い. Extra words: ね, isn’t it; も, too; が, but."
       },
       {
         "title": "ここで勉強",
-        "text": "今は時間がないです。でも、先生になりたいです。毎日、少し勉強します。ここには本があります。そこには兄がいます。あそこには先生がいます。私はここで勉強をします。",
-        "translation": "I don’t have time now. But I want to become a teacher. I study a little every day. There are books here. My older brother is there. The teacher is over there. I study here.",
+        "text": "私は先生になりたいです。でも、今はあまり時間がないです。だから、毎日少しだけ勉強します。今日は図書館に来ました。私はここが好きです。そこには本があって、あそこには先生がいます。あの先生は日本語を教えています。",
+        "translation": "I want to become a teacher. But I don’t have much time right now, so I study just a little every day. Today I came to the library. I like it here. There are books right there, and over there is a teacher. That teacher teaches Japanese.",
         "question": "What does the writer want to become?",
         "choices": [
-          "An author",
-          "A doctor",
-          "A shopkeeper",
-          "A teacher"
+          "A librarian",
+          "A teacher",
+          "A student in Japan",
+          "A writer"
         ],
-        "answer": 3,
-        "explanation": "先生になりたい means want to become a teacher. ない is the common kana spelling of 無い. Extra words: でも, but; 少し (すこし), a little."
+        "answer": 1,
+        "explanation": "先生になりたいです means “I want to become a teacher.” ここ = here, そこ = there (near), あそこ = over there. Extra words: だから, so; 少しだけ, just a little; 図書館 (としょかん), library; 来ました, came."
       }
     ]
   },
@@ -70,31 +70,31 @@
     "passages": [
       {
         "title": "アンちゃんの明日",
-        "text": "アンちゃんは日本の学校で勉強しています。彼女の家は学校の前にあります。今日は家に帰ります。明日、また学校に行きます。先生も来ます。私はいつ先生が来るか知っています。明日、先生の話を聞きます。",
-        "translation": "Ann studies at a school in Japan. Her home is in front of the school. Today she goes home. Tomorrow she will go to school again. The teacher will come too. I know when the teacher will come. Tomorrow I will listen to the teacher’s talk.",
+        "text": "アンちゃんは日本の学校で勉強しています。彼女の家は学校の前にあります。今日はもう家に帰りました。明日、また学校に行きます。明日は新しい先生が来ます。アンちゃんは、先生の話を早く聞きたいと思っています。",
+        "translation": "Ann is studying at a school in Japan. Her house is in front of the school. Today she has already gone home. Tomorrow she will go to school again. A new teacher is coming tomorrow. Ann is looking forward to hearing the teacher talk.",
         "question": "What will Ann do tomorrow?",
         "choices": [
+          "Move to a new house",
+          "Become a teacher",
           "Go to school again",
-          "Leave Japan",
-          "Stay home all day",
-          "Visit her brother"
+          "Stay at home"
         ],
-        "answer": 0,
-        "explanation": "明日、また学校に行きます states her plan. ちゃん is a familiar name suffix. Extra words: 今日 (きょう), today; 前 (まえ), front; 聞く (きく), listen."
+        "answer": 2,
+        "explanation": "明日、また学校に行きます means she will go to school again tomorrow. ちゃん is a friendly name ending. 聞きたいと思っています means she wants to hear. Extra words: 前, in front of; もう, already; 新しい (あたらしい), new; 早く, soon."
       },
       {
         "title": "本の置き方",
-        "text": "先生の本を見ます。どこに置くか分かりません。先生が本を置きます。私は、こうですかと聞いて、同じように置きます。先生は、はい、そうですと言います。私は、いいえ、まだよく分かりませんとは言いません。今は分かったと思います。",
-        "translation": "I look at the teacher’s book. I don’t know where to put it. The teacher puts a book down. I ask, “Like this?” and put mine down in the same way. The teacher says, “Yes, like that.” I don’t say, “No, I still don’t really understand.” I think I understand now.",
+        "text": "先生に本を返しに行きました。でも、どこに置くか分かりません。先生は「そこに置いてください」と言いました。私は本を置いて、「こうですか」と聞きました。先生は「はい、そうです。ありがとう」と言いました。",
+        "translation": "I went to return a book to my teacher. But I didn’t know where to put it. The teacher said, “Please put it there.” I put the book down and asked, “Like this?” The teacher said, “Yes, that’s right. Thank you.”",
         "question": "Does the teacher approve of how the writer places the book?",
         "choices": [
           "No, the teacher moves it",
           "Yes, the teacher confirms it",
-          "The teacher gives no response",
-          "The teacher takes it home"
+          "The teacher does not answer",
+          "The teacher asks for a different book"
         ],
         "answer": 1,
-        "explanation": "はい、そうです confirms the placement. こう refers to this way; そう to that way. Extra forms: 置き方 (おきかた), way of placing; 分かる, understand; 聞く, ask; 同じように (おなじように), in the same way; まだ, still; よく, well; 言う, say."
+        "explanation": "はい、そうです means “Yes, that’s right.” こう = like this; そう = like that, so. 置いて is the て-form of 置く. Extra words: 返しに行く, go to return; 分かりません, I don’t know; 聞きました, asked."
       }
     ]
   },
@@ -103,31 +103,31 @@
     "passages": [
       {
         "title": "次に会う日",
-        "text": "昨日、友達に会いました。私たちはよく図書館で会います。あの方は図書館の先生です。優しい方です。私はこの本の方が好きだと話しました。次はいつ会うか、友達に聞きました。明日もここで会います。",
-        "translation": "I met a friend yesterday. We often meet at the library. That person is a teacher at the library. They are kind. I said I preferred this book. I asked my friend when we would meet next. We will meet here again tomorrow.",
+        "text": "昨日、図書館の前で友達を待ちました。友達はすぐに来ました。私たちはよくここで会います。図書館の先生は優しい方で、いつも面白い本を教えてくれます。友達と本を見て、私は「この本の方が好きです」と話しました。帰る前に、「次はいつ会う？」と聞きました。友達は「明日はどう？」と言いました。だから、明日もまたここで会います。",
+        "translation": "Yesterday I waited for my friend in front of the library. My friend came right away. We often meet here. The librarian is a kind person and always tells us about interesting books. Looking at books with my friend, I said, “I like this book better.” Before going home, I asked, “When shall we meet next?” My friend said, “How about tomorrow?” So we will meet here again tomorrow.",
         "question": "When will they meet next?",
         "choices": [
-          "Tonight",
           "Next week",
-          "Tomorrow",
-          "They have no plan"
+          "Yesterday",
+          "They did not decide",
+          "Tomorrow"
         ],
-        "answer": 2,
-        "explanation": "明日もここで会います gives the plan. 方 is かた for a person and ほう in the comparison. 聞きました means asked here; よく means often. Extra words: 私たち, we; 図書館 (としょかん), library; 優しい (やさしい), kind."
+        "answer": 3,
+        "explanation": "明日はどう？ means “How about tomorrow?” and 明日もまたここで会います confirms it. 方 is read かた in 優しい方 (a polite word for person) and ほう in この本の方が好き (I like this one better). Extra words: すぐに, right away; 優しい (やさしい), kind; くれる, do for us."
       },
       {
         "title": "ゆっくり聞く",
-        "text": "日本語の話を聞きます。どう考えても、よく分かりません。先生に、もっとゆっくりお願いしますと言います。先生は待ってくれます。そして、ゆっくり話します。今は分かります。ありがとうございますと言って、言葉の意味をまた考えます。",
-        "translation": "I listen to a Japanese talk. However I think about it, I don’t understand it well. I ask the teacher to go more slowly. The teacher waits for me. Then the teacher speaks slowly. Now I understand. I say thank you and think about the meaning of the words again.",
+        "text": "先生の話を聞きました。でも、先生は話すのが速くて、よく分かりませんでした。私は「すみません、もっとゆっくりお願いします」と言いました。先生はもう一度、ゆっくり話してくれました。今はよく分かります。私は「ありがとうございます」と言って、知らない言葉の意味を考えました。",
+        "translation": "I listened to my teacher talk. But the teacher spoke fast, and I didn’t understand well. I said, “Excuse me, slower please.” The teacher said it again, slowly. Now I understand well. I said, “Thank you very much,” and thought about the meanings of the words I didn’t know.",
         "question": "What helps the writer understand?",
         "choices": [
-          "A new book",
-          "A translation app",
-          "Leaving the room",
-          "The teacher speaking more slowly"
+          "A dictionary",
+          "The teacher speaking more slowly",
+          "A friend translating",
+          "Reading the text"
         ],
-        "answer": 3,
-        "explanation": "もっとゆっくり means more slowly. 聞く means listen here; よく means well. Extra words: そして, then; 言葉 (ことば), word; 意味 (いみ), meaning. どう考えても means however I think about it."
+        "answer": 1,
+        "explanation": "もっとゆっくりお願いします means “More slowly, please,” and then 今はよく分かります. よく here means well. Extra words: 速い (はやい), fast; すみません, excuse me; もう一度, once more; 知らない, unknown; 言葉 (ことば), word; 意味 (いみ), meaning."
       }
     ]
   },
@@ -136,31 +136,31 @@
     "passages": [
       {
         "title": "町の高い建物",
-        "text": "この町で一番高い建物の前に立ちます。中には本が沢山あります。私は小さい本を選びます。でも、ちょっと高いです。父は、君はもう同じ本を持っているよと言います。本当でした。私はもう一度、自分の本を見ます。",
-        "translation": "I stand in front of the tallest building in town. Inside are many books. I choose a small book, but it is a little expensive. My father says I already have the same book. He was right. I look at my own book again.",
-        "question": "Why does the writer look at their own book again?",
+        "text": "この町で一番高い建物の前に、父と立っていました。中には大きな本屋があります。私はちょっと高い本を見つけて、「これ、買ってもいい？」と聞きました。父は「君はもうその本を持っているよ」と言いました。家に帰って見ると、本当に同じ本がありました。",
+        "translation": "I was standing with my father in front of the tallest building in this town. Inside there is a big bookstore. I found a slightly expensive book and asked, “Can I buy this?” My father said, “You already have that book.” When I got home and looked, I really did have the same book.",
+        "question": "Why didn’t the writer need the book?",
         "choices": [
-          "They already own the same book",
-          "Their father lost it",
-          "They want to give it away",
-          "They cannot read its title"
+          "It was too expensive",
+          "The bookstore was closed",
+          "They already had the same book",
+          "Their mother bought it"
         ],
-        "answer": 0,
-        "explanation": "もう first means already; もう一度 means once more. 高い describes height first and price later. Extra words: 建物, building; 沢山, many; 小さい, small; 選ぶ, choose; 同じ, same; 持つ, possess; 自分, oneself."
+        "answer": 2,
+        "explanation": "君はもうその本を持っているよ means “You already have that book.” 高い means tall in 一番高い建物 and expensive in ちょっと高い本. Extra words: 建物 (たてもの), building; 本屋, bookstore; 見つける, find; 買う, buy; 同じ, same."
       },
       {
         "title": "母からの贈り物",
-        "text": "母が本をくれました。母にもらった物は、いつも大切にします。この本が大好きです。日本語は少しできます。だから、この本で勉強します。勉強が終わったら、友達に本をあげます。友達も日本語が好きです。",
-        "translation": "My mother gave me a book. I always treasure the things I receive from her. I love this book. I know a little Japanese, so I study with it. When I finish studying, I will give the book to a friend. My friend likes Japanese too.",
+        "text": "誕生日に、母が本をくれました。母からもらった物は、いつも大切にしています。この本も大好きです。私は日本語がちょっと出来るので、この本で勉強しています。全部読んだら、友達にあげるつもりです。友達も日本語が大好きなんです。",
+        "translation": "For my birthday, my mother gave me a book. I always take good care of things I get from my mother. I love this book too. I can speak a little Japanese, so I study with this book. When I’ve read it all, I plan to give it to a friend. My friend loves Japanese too.",
         "question": "Who will receive the book after the writer finishes?",
         "choices": [
-          "The mother",
-          "A friend",
-          "The father",
-          "A teacher"
+          "Their mother",
+          "Their father",
+          "A teacher",
+          "A friend"
         ],
-        "answer": 1,
-        "explanation": "母がくれました describes a gift to the writer; もらう is receive; あげる is give to another person. Extra words: 贈り物 (おくりもの), gift; いつも, always; 大切にする, treasure; 少し, a little; だから, so; 終わる, finish."
+        "answer": 3,
+        "explanation": "友達にあげるつもりです means “I plan to give it to a friend.” くれる = someone gives to me; もらう = I receive; あげる = I give to someone. Extra words: 誕生日 (たんじょうび), birthday; 大切にする, treasure; 全部, all; 読む, read; つもり, plan."
       }
     ]
   },
@@ -168,32 +168,32 @@
     "id": "kaishi-1-120",
     "passages": [
       {
-        "title": "家族の家",
-        "text": "家族は大きな家に住んでいます。家に入ると、いつも大きい声が聞こえます。おじいさんとおばあさんが、みんなと話しています。二人とも元気です。今日も私は本を持って、この家に来ました。",
-        "translation": "My family lives in a large house. When I enter, I always hear loud voices. Grandfather and grandmother are talking with everyone. Both are well. Today I have come to this house with a book again.",
+        "title": "大きな家",
+        "text": "おじいさんとおばあさんは、大きな家に住んでいます。日曜日には、家族みんながそこに集まります。家に入ると、いつも大きい声が聞こえます。おじいさんとおばあさんが、みんなと楽しそうに話しているんです。二人とも、本当に元気です。今日も私は本を持って、この家に来ました。",
+        "translation": "My grandfather and grandmother live in a big house. On Sundays, the whole family gathers there. When you go inside, you always hear loud voices. Grandpa and Grandma are happily talking with everyone. They are both really full of energy. Today, too, I came to this house with a book.",
         "question": "Who is talking with everyone?",
         "choices": [
-          "Only the writer",
-          "Only the father",
+          "The writer’s friends",
           "The grandparents",
-          "The teacher"
+          "A teacher",
+          "The neighbors"
         ],
-        "answer": 2,
-        "explanation": "おじいさんとおばあさん are the grandparents. 大きな modifies a noun directly; 大きい声 means a loud voice. Extra expressions: 聞こえる, be audible; 二人とも, both people."
+        "answer": 1,
+        "explanation": "おじいさんとおばあさんが、みんなと楽しそうに話している gives the answer. 大きな and 大きい both mean big. Extra words: 日曜日 (にちようび), Sunday; 集まる (あつまる), gather; 聞こえる, can be heard; 楽しそうに, happily; 二人とも, both."
       },
       {
         "title": "目を休ませる時間",
-        "text": "今日、みんなで本を使って勉強を始めます。先生が手を上げます。私は先生を見ます。先生は目を休ませましょうと言います。私は休むのが嫌いでした。でも、少し休むと、目が楽になります。もう大丈夫です。",
-        "translation": "Today everyone starts studying with books. The teacher raises a hand. I look at the teacher. The teacher says to rest our eyes. I used to dislike taking breaks. But after a short rest, my eyes feel more comfortable. I’m okay now.",
+        "text": "今日は、みんなでパソコンを使って勉強を始めました。一時間後、先生が手を上げて、「ちょっと目を休ませましょう」と言いました。前は、休むのが嫌いでした。でも、少し目を閉じると、目がとても楽になりました。先生に「大丈夫？」と聞かれて、「はい、もう大丈夫です」と答えました。",
+        "translation": "Today we all started studying using computers. An hour later, the teacher raised a hand and said, “Let’s rest our eyes for a bit.” I used to hate taking breaks. But when I closed my eyes for a little while, they felt much better. The teacher asked, “Are you okay?” and I answered, “Yes, I’m fine now.”",
         "question": "What does the teacher suggest?",
         "choices": [
-          "Buying a book",
-          "Going home",
-          "Speaking louder",
-          "Resting their eyes"
+          "Going home early",
+          "Using a bigger screen",
+          "Resting their eyes",
+          "Reading a book"
         ],
-        "answer": 3,
-        "explanation": "目 means eyes; 手を上げる means raise a hand. Extra words: 休む (やすむ), rest; 休ませる, let rest; 楽 (らく), comfortable/easier; 少し, a little."
+        "answer": 2,
+        "explanation": "目を休ませましょう means “Let’s rest our eyes.” 手を上げる means raise a hand. Extra words: パソコン, computer; 一時間後, an hour later; 閉じる (とじる), close; 楽 (らく), comfortable; 聞かれて, being asked; 答える, answer."
       }
     ]
   },
@@ -202,31 +202,31 @@
     "passages": [
       {
         "title": "部屋の小さな子",
-        "text": "この部屋は子どもが遊ぶ場所です。今日は一人の子が、あまり動きません。誰の子か先生に聞きます。先生はその子を呼びます。様子を見ると、気持ちが悪いようです。私は心配になりました。先生が家族に連絡します。",
-        "translation": "This room is a place for children to play. Today one child hardly moves. I ask the teacher whose child it is. The teacher calls the child over. Judging by how the child looks, they seem to feel sick. I become worried. The teacher contacts the family.",
+        "text": "この部屋は、子どもたちが遊ぶ場所です。いつもはみんな元気に動いていますが、今日は一人の子があまり動きません。お昼ご飯も、あまり食べませんでした。「あの子は誰の子ですか」と先生に聞きました。先生がその子を呼んで、様子を見ました。気持ちが悪いようです。私は心配になりました。先生はすぐに家族に連絡しました。",
+        "translation": "This room is a place where children play. Usually everyone moves around energetically, but today one child is barely moving. The child didn’t eat much lunch either. I asked the teacher, “Whose child is that?” The teacher called the child over and checked how they were. The child seems to feel sick. I got worried. The teacher contacted the family right away.",
         "question": "Why is the writer worried?",
         "choices": [
-          "A child seems unwell",
-          "A child lost a book",
-          "The room is too small",
-          "The teacher is absent"
+          "A child is missing",
+          "The room is too noisy",
+          "The teacher is late",
+          "A child seems unwell"
         ],
-        "answer": 0,
-        "explanation": "気持ちが悪い means feel sick. 様子 refers to someone’s state. Extra words: 子ども, child; 遊ぶ (あそぶ), play; 一人 (ひとり), one person; 連絡する (れんらくする), contact."
+        "answer": 3,
+        "explanation": "気持ちが悪いようです means the child seems to feel sick, so 私は心配になりました. 様子を見る means check how someone is doing. Extra words: 遊ぶ, play; お昼ご飯, lunch; 連絡 (れんらく), contact."
       },
       {
         "title": "自分で調べた言葉",
-        "text": "知らない言葉があります。どんな意味か、自分で調べます。本には沢山の説明があります。まあ、全部は分かりません。でも、一つの事は分かりました。友達の話をすぐに信じる前に、自分でも調べることが大切です。",
-        "translation": "There is a word I don’t know. I look up its meaning myself. The book has many explanations. Well, I don’t understand everything. But I learned one thing: before immediately believing a friend’s story, it is important to check for myself too.",
+        "text": "本を読んでいて、知らない言葉がありました。どんな意味か分からなかったので、友達に聞きました。でも、自分で辞書で調べると、ちょっと違う意味でした。まあ、友達の説明も全部間違いではありません。でも、人の話をすぐに信じないで、自分でも調べる事が大切だと思いました。",
+        "translation": "While reading a book, I came across a word I didn’t know. I didn’t know what it meant, so I asked a friend. But when I looked it up in a dictionary myself, it had a slightly different meaning. Well, my friend’s explanation wasn’t completely wrong. Still, I realized it’s important not to believe what people say right away, and to check for myself too.",
         "question": "What lesson does the writer learn?",
         "choices": [
-          "Never speak with friends",
-          "Check things independently too",
-          "Believe every story immediately",
-          "Avoid looking up words"
+          "Check things yourself too",
+          "Never ask friends for help",
+          "Dictionaries are often wrong",
+          "Stop reading difficult books"
         ],
-        "answer": 1,
-        "explanation": "自分で調べる means look it up independently. Extra words: 説明 (せつめい), explanation; 全部 (ぜんぶ), everything; 一つ (ひとつ), one thing; すぐに, immediately; 大切, important."
+        "answer": 0,
+        "explanation": "自分でも調べる事が大切だ means it’s important to check for yourself too. まあ softens the sentence: well…. Extra words: 辞書 (じしょ), dictionary; 違う, different; 説明 (せつめい), explanation; 間違い, mistake; 大切, important."
       }
     ]
   },
@@ -235,31 +235,31 @@
     "passages": [
       {
         "title": "忙しい日の手伝い",
-        "text": "今日は仕事が忙しいです。友達も同じ仕事をしています。私は手伝いましょうかと聞きました。友達はもちろんと言いました。二人で仕事を続けると、とても楽しいです。帰る前に、失礼しますと言って、先生に本を見せました。",
-        "translation": "Work is busy today. My friend is doing the same work. I asked if I could help. My friend said of course. Continuing the work together is very enjoyable. Before leaving, I said excuse me and showed the teacher a book.",
+        "text": "今日は仕事がとても忙しいです。隣の友達も同じ仕事をしていて、大変そうでした。「手伝いましょうか」と聞くと、友達は「もちろん、お願い！」と言いました。二人で仕事を続けると、とても楽しかったです。帰る前に、できた物を上司に見せて、「お先に失礼します」と言いました。",
+        "translation": "Work is very busy today. My friend next to me is doing the same work and looked like they were struggling. When I asked, “Shall I help?” my friend said, “Of course, please!” Working on it together was a lot of fun. Before going home, I showed what we finished to my boss and said, “Excuse me for leaving first.”",
         "question": "How does working together feel to the writer?",
         "choices": [
-          "Boring",
-          "Frightening",
+          "Tiring and boring",
           "Very enjoyable",
-          "Impossible"
+          "Stressful",
+          "Embarrassing"
         ],
-        "answer": 2,
-        "explanation": "同じ means same; 続ける means continue. とても楽しい describes how enjoyable it feels. 二人 (ふたり) means two people."
+        "answer": 1,
+        "explanation": "二人で仕事を続けると、とても楽しかったです gives the answer. お先に失礼します is the polite phrase for leaving work before others. Extra words: 隣 (となり), next to; 大変そう, looks hard; できた物, finished work; 上司 (じょうし), boss."
       },
       {
         "title": "忘れていた約束",
-        "text": "さっき、友達との約束を思い出しました。うちにある本を持っていく約束です。私は忘れていました。申し訳ないと伝えました。今度は忘れません。これから友達の家に行きます。家の前で車を止めます。場所は変えません。約束を守ります。",
-        "translation": "A moment ago I remembered a promise to my friend: to bring a book from home. I had forgotten. I apologized. I won’t forget next time. I’m going to my friend’s home now. I’ll stop the car in front of the house. I won’t change the location. I will keep my promise.",
+        "text": "さっき、友達との約束を思い出しました。うちにある本を、今日持っていく約束でした。すっかり忘れていました。すぐに電話して、「申し訳ない！」と言いました。友達は「大丈夫だよ」と言ってくれました。約束の日は変えません。これから車で友達の家に行って、家の前に車を止めます。今度こそ、約束を守ります。",
+        "translation": "A moment ago, I remembered a promise to my friend. I had promised to bring a book from my home today. I had completely forgotten. I called right away and said, “I’m so sorry!” My friend said, “It’s okay.” I won’t change the day we agreed on. I’m going to drive to my friend’s house now and stop the car in front of it. This time, I’ll keep my promise.",
         "question": "What promise will the writer fulfill?",
         "choices": [
-          "Buy a new car",
-          "Change the meeting place",
-          "Teach the friend Japanese",
-          "Bring a book from home"
+          "Drive the friend to work",
+          "Call the friend tomorrow",
+          "Bring a book from home",
+          "Buy a new book"
         ],
-        "answer": 3,
-        "explanation": "約束を守る means keep a promise. 止めます is とめます for stopping a vehicle. Extra words: 思い出す, remember/recall; 伝える, convey; 車 (くるま), car."
+        "answer": 2,
+        "explanation": "うちにある本を、今日持っていく約束 means the promise to bring a book from home today. 止める is read とめる here: stop a car. Extra words: 思い出す, remember; すっかり, completely; 電話する, phone; 今度こそ, this time for sure."
       }
     ]
   },
@@ -268,31 +268,31 @@
     "passages": [
       {
         "title": "夜の勉強",
-        "text": "今までは夜に一人で勉強していました。今回は友達に手伝ってほしいと頼みました。友達は優しい人です。私の国の言葉も少し理解できます。もし分からなければ、ゆっくり説明してくれます。なるほど、つまりこういうことかと思うと、嬉しくなります。",
-        "translation": "Until now I studied alone at night. This time I asked a friend to help. My friend is kind and understands a little of my country’s language. If I don’t understand, my friend explains slowly. When I think, “I see, so that’s what it means,” I feel happy.",
+        "text": "今までは、夜に一人で勉強していました。でも、今回は友達に手伝ってほしいと頼みました。友達はとても優しい人で、私の国の言葉も少し理解できます。もし私が分からなければ、ゆっくり説明してくれます。「なるほど、つまりこういう事か」と分かった時は、本当に嬉しいです。",
+        "translation": "Until now, I studied alone at night. But this time, I asked a friend to help me. My friend is a very kind person and can understand a little of my country’s language. If I don’t understand, my friend explains slowly. When I get it — “I see, so that’s what it means” — I’m really happy.",
         "question": "What does the friend do when the writer does not understand?",
         "choices": [
-          "Explain slowly",
-          "Stop speaking forever",
-          "Buy another book",
-          "Send the writer home"
+          "Give up",
+          "Study alone",
+          "Speak in English",
+          "Explain slowly"
         ],
-        "answer": 0,
-        "explanation": "今までは means until now; 今回 means this time. なるほど acknowledges understanding; つまり restates the point. Extra forms: 一人で, alone; 手伝ってほしい, want someone to help; 説明する, explain."
+        "answer": 3,
+        "explanation": "もし私が分からなければ、ゆっくり説明してくれます gives the answer. 手伝ってほしいと頼みました means I asked them to help. なるほど = I see; つまり = in other words. Extra words: 一人で, alone; 説明 (せつめい), explanation."
       },
       {
         "title": "友達の夢",
-        "text": "あいつはいい奴です。高い物を買うのは、そんなに好きではありません。人を手伝うのが好きです。夢のために毎日頑張っています。昨日、私は約束を忘れましたが、彼は許してくれました。私は自分が嫌になりました。でも、友達にあやまって、同じ事をするのはやめようと思いました。",
-        "translation": "That guy is a good person. He doesn’t particularly like buying expensive things. He likes helping people. He works hard every day toward his dream. Yesterday I forgot a promise, but he forgave me. I felt unhappy with myself. But I apologized to my friend and decided to stop doing the same thing again.",
+        "text": "あいつは本当にいい奴です。高い物を買うのはそんなに好きじゃないけど、人を手伝うのは大好きです。自分の夢のために、毎日頑張っています。昨日、私はあいつとの約束を忘れてしまいました。でも、あいつは笑って許してくれました。そんな自分が嫌になりました。だから、ちゃんと謝って、同じ事をするのはもうやめようと思いました。",
+        "translation": "That guy is a really good person. He doesn’t care that much about buying expensive things, but he loves helping people. He works hard every day for his dream. Yesterday I forgot a promise I made with him. But he laughed and forgave me. I felt disgusted with myself. So I apologized properly and decided to stop doing the same thing.",
         "question": "What does the writer decide?",
         "choices": [
-          "Stop seeing the friend",
-          "Avoid repeating the same mistake",
-          "Buy more expensive things",
-          "Forget the friend’s dream"
+          "Buy the friend a gift",
+          "Stop repeating the same mistake",
+          "Find a new friend",
+          "Forget about the promise"
         ],
         "answer": 1,
-        "explanation": "奴 and あいつ are very casual and can sound rude; here they refer affectionately to a friend. やめる is stop doing an activity. Extra word: あやまる, apologize; ために means for the sake of."
+        "explanation": "同じ事をするのはもうやめようと思いました means “I decided not to do the same thing again.” あいつ and 奴 are casual words for a guy—friendly here, but rude about strangers. Extra words: 笑う, laugh; ちゃんと, properly; 謝る (あやまる), apologize."
       }
     ]
   },
@@ -301,31 +301,31 @@
     "passages": [
       {
         "title": "今度の仕事",
-        "text": "俺は今日、新しい仕事を始めました。今度の仕事は難しいです。小さい物を選ぶだけだと思っていました。でも、全く簡単ではありません。なぜこんなに時間がかかるのか、自分でもおかしいと思います。先生にお願いして、分からない事を伝えました。少しずつ前に進みます。",
-        "translation": "I started a new job today. This current job is difficult. I thought I only had to choose small objects. But it is not easy at all. I find it strange myself that it takes so much time. I asked the teacher for help and explained what I didn’t understand. I am moving forward little by little.",
+        "text": "俺は今日から新しい仕事を始めた。今度の仕事は、小さい部品を選ぶだけだと思っていた。でも、全く簡単じゃない。なぜこんなに時間がかかるのか、自分でもおかしいと思う。だから、先輩に「お願いします、教えてください」と頼んで、分からない事を伝えた。難しいけど、少しずつ前に進んでいる。",
+        "translation": "I started a new job today. I thought this job was just picking out small parts. But it’s not easy at all. Even I think it’s strange how long it takes me. So I asked a senior coworker, “Please teach me,” and told them what I didn’t understand. It’s hard, but I’m moving forward little by little.",
         "question": "What did the writer wrongly expect?",
         "choices": [
-          "The teacher would do everything",
-          "The job would take a year",
-          "Choosing small objects would be easy",
-          "The job involved buying books"
+          "The boss would be strict",
+          "The job would pay well",
+          "Choosing small parts would be easy",
+          "Nobody would help"
         ],
         "answer": 2,
-        "explanation": "俺 is a very casual, typically masculine I. 今度 refers to this current job. Extra forms: 新しい (あたらしい), new; だけ, only; こんなに, this much; 時間がかかる, take time; 少しずつ, little by little."
+        "explanation": "小さい部品を選ぶだけだと思っていた。でも、全く簡単じゃない gives the answer. 全く with a negative means not at all. This passage uses plain style (始めた, 思う), which is natural with 俺. Extra words: 部品 (ぶひん), part; 先輩 (せんぱい), senior coworker; 少しずつ, little by little."
       },
       {
         "title": "水を飲む時間",
-        "text": "僕は今日、暇です。公園で座って、本を見ています。男の子と女の子が遊んでいます。二人は水を飲んで、また遊びます。僕も水を飲みます。家に帰ったら、少し寝るつもりです。何もしない時間も好きです。",
-        "translation": "I’m free today. I’m sitting in a park looking at a book. A boy and a girl are playing. They drink water and play again. I drink water too. When I get home, I plan to sleep a little. I also like time spent doing nothing.",
+        "text": "今日は暇だ。公園のベンチに座って、本を読んでいる。近くで男の子と女の子が遊んでいる。二人はときどき水を飲んで、また走っていく。僕も水を飲んだ。家に帰ったら、少し寝るつもりだ。何もしない時間も、けっこう好きだ。",
+        "translation": "I’m free today. I’m sitting on a park bench, reading a book. A boy and a girl are playing nearby. Now and then they drink some water and run off again. I drank some water too. When I get home, I plan to sleep a little. I actually like time when I do nothing, too.",
         "question": "What does the writer plan to do after returning home?",
         "choices": [
-          "Go to work",
-          "Meet the teacher",
-          "Buy water",
-          "Sleep for a little while"
+          "Sleep for a little while",
+          "Go back to the park",
+          "Read with the children",
+          "Start a new job"
         ],
-        "answer": 3,
-        "explanation": "僕 is a typically masculine I. 暇 means free/not busy; 寝る means sleep. Extra words: 公園 (こうえん), park; 遊ぶ, play; 二人, two people; つもり, intention."
+        "answer": 0,
+        "explanation": "家に帰ったら、少し寝るつもりだ means “When I get home, I plan to sleep a little.” Plain style (暇だ, 飲んだ) is natural with 僕 in a diary. Extra words: 公園, park; ベンチ, bench; ときどき, sometimes; 走る, run; けっこう, quite."
       }
     ]
   }

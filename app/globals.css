@@ -105,3 +105,37 @@
 .kanji-tooltip { position:fixed; z-index:1000; width:280px; max-width:calc(100vw - 16px); max-height:232px; overflow:auto; background:var(--paper); color:var(--ink); border:1px solid var(--line); border-radius:12px; padding:14px; box-shadow:0 8px 28px #203b3433; font:14px/1.6 system-ui,sans-serif; }
 .kanji-definition { padding:7px 0; border-bottom:1px solid var(--line); }
 .kanji-tooltip p { margin-bottom:0; }
+
+.secondary, .secondary[aria-pressed="false"] { background:#e3ebdf; color:var(--ink); }
+.primary.secondary:hover:not(:disabled) { background:#d4e1cf; }
+.secondary[aria-pressed="true"] { background:#e8f3e7; color:var(--green); box-shadow:inset 0 0 0 1px var(--green); }
+.grammar-toolbar { display:flex; flex-wrap:wrap; align-items:center; gap:10px; margin-bottom:12px; }
+.grammar-toolbar input[type="search"] { flex:1 1 180px; min-width:0; font:inherit; padding:9px 12px; border:1px solid var(--line); border-radius:10px; background:white; color:var(--ink); }
+.grammar-toolbar select { padding:9px; border:1px solid var(--line); border-radius:10px; }
+.grammar-list { list-style:none; margin:0; padding:0; }
+.grammar-item { border-bottom:1px solid var(--line); padding:4px 0 12px; }
+.grammar-item summary { display:flex; flex-wrap:wrap; align-items:baseline; gap:4px 14px; font-size:15px; font-weight:400; margin-top:10px; }
+.grammar-item[open] summary { margin-bottom:6px; }
+.grammar-pattern { font-size:19px; font-weight:650; }
+.grammar-meaning { color:var(--muted); font-size:14px; }
+.grammar-learned { margin-left:auto; color:var(--green); font-weight:750; }
+.grammar-item p { margin:6px 0; font-size:14px; overflow-wrap:anywhere; }
+.grammar-examples { list-style:none; padding:0; margin:12px 0; }
+.grammar-examples li { display:flex; gap:12px; align-items:flex-start; padding:8px 0; }
+.grammar-examples p { margin:0 !important; }
+.grammar-ja { font-size:18px !important; line-height:1.7; }
+.play-small { flex-shrink:0; width:34px; height:34px; border:0; border-radius:50%; background:var(--green); color:white; font-size:12px; }
+.play-small:hover { background:#105441; }
+.grammar-quiz-pattern { font-size:clamp(30px,6vw,44px); text-align:center; margin:18px 0 24px; overflow-wrap:anywhere; }
+.choice-button { display:flex; align-items:center; gap:13px; width:100%; text-align:left; font:inherit; color:var(--ink); background:white; border:1px solid var(--line); border-radius:11px; padding:13px 15px; transition:background .15s,border-color .15s; }
+.choice-button:hover:not(:disabled) { background:#f4f6ef; }
+.choice-button:disabled { opacity:1; }
+.choice-button.correct { border-color:#398756; background:#e8f3e7; }
+.choice-button.incorrect { border-color:#be7061; background:#fcf0e9; }
+.grammar-ja { white-space:pre-line; }
+.grammar-source-label { margin:14px 0 0 !important; font-size:12px !important; font-weight:650; color:#8a5a12; text-transform:uppercase; letter-spacing:.04em; }
+.play-small.recorded { background:#b7791f; }
+.play-small.recorded:hover { background:#8a5a12; }
+.grammar-kaishi-badge { font-size:11px; padding:2px 9px; background:#f6ead2; color:#7a4f10; }
+.tip .voice-controls { justify-content:flex-start; margin-top:16px; font-size:13px; font-weight:650; }
+#grammar-voice-help { margin-top:6px; }

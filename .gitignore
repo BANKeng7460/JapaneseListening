@@ -5,3 +5,6 @@ out/
 *.tsbuildinfo
 .env*
 !.env.example
+
+# Extracted from Kaishi.1.5k.apkg (110 MB of audio/images)
+/kaishi-1.5k/

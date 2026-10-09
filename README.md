@@ -61,8 +61,14 @@ Levels 6-10 add six conversations each: 1-120 (focus 101-120), 1-140 (121-140), 
 
 /reading provides all ten Kaishi levels: dialogue reading reuses the verified listening scripts and comprehension questions; a separate latest-20 word-card mode hides kana and meaning until revealed. The sidebar has individually expandable vocabulary hints. Reading attempts have independent session-only scores. Level changes reset reading progress and word-card reveal state. Full-sentence furigana is not provided; word readings come from the Anki export.
 
-Reading update: /reading now uses data/reading-passages.json, with two independently written prose passages and new questions per level. It no longer reads listening dialogue scripts or uses their questions/examples. Word cards still use the shared Anki vocabulary.
+Reading update: /reading now uses data/reading-passages.json, with two independently written prose passages and new questions per level, written as natural Japanese (later levels use plain style for 俺/僕 narrators). Conjugated forms in passages need their own entries in data/word-hints.json for tap hints. It no longer reads listening dialogue scripts or uses their questions/examples. Word cards still use the shared Anki vocabulary.
 
 ## Solo stories
 
 /solo-stories adds ten original fictional monologues across two sets. Each uses one narrator, a separate saved narrator voice, Pause/Resume/Stop, question selection, scoring, and a transcript after answering. Data: data/solo-stories.json. Browser speech is used; the human-recorded Real-life stories genre remains separate. Vocabulary is not limited to a Kaishi level.
+
+## Grammar (N5 · N4)
+
+/grammar lists 84 N5 and 132 N4 grammar points from data/grammar.json. Each point has an original meaning, formation, note and two example sentences (playable with the saved browser voice), plus a link to its JLPT Sensei lesson. Points can be marked as learned (saved in localStorage); "Quiz me" asks the meaning of unlearned points first. The JLPT publishes no official grammar list: only point names, levels and lesson URLs were taken from JLPT Sensei's N5/N4 lists, because its terms forbid republishing its explanations. Point ids (n5-1, n4-62…) follow that list's numbering.
+
+Kaishi examples: data/grammar-kaishi.json adds up to three sentences from the Kaishi 1.5k deck to 128 grammar points, with the deck's own recordings copied to public/kaishi-audio/ (260 MP3s, ~11 MB). Sentences were matched automatically with a morphological tokenizer (kuromoji) and per-point rules, then spot-checked; the audio comes from the deck's sources (JLPT Tango and others), so keep it for personal use and don't publish it.

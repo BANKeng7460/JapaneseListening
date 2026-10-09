@@ -1,0 +1,4322 @@
+[
+  {
+    "id": "n5-1",
+    "level": "N5",
+    "pattern": "ちゃいけない・じゃいけない",
+    "romaji": "cha ikenai / ja ikenai",
+    "meaning": "must not (casual)",
+    "formation": "Verb て-form → ちゃ／じゃ + いけない",
+    "note": "Spoken contraction of てはいけない / ではいけない.",
+    "examples": [
+      {
+        "ja": "ここで寝ちゃいけないよ。",
+        "en": "Don’t sleep here."
+      },
+      {
+        "ja": "このお菓子は食べちゃいけない。",
+        "en": "You mustn’t eat these sweets."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a1%e3%82%83%e3%81%84%e3%81%91%e3%81%aa%e3%81%84-%e3%81%98%e3%82%83%e3%81%84%e3%81%91%e3%81%aa%e3%81%84-cha-ikenai-ja-dame/"
+  },
+  {
+    "id": "n5-2",
+    "level": "N5",
+    "pattern": "だ / です",
+    "romaji": "da / desu",
+    "meaning": "is, am, are (copula)",
+    "formation": "Noun / な-adj + だ (plain) or です (polite)",
+    "note": "だ is plain; です is polite.",
+    "examples": [
+      {
+        "ja": "私は学生です。",
+        "en": "I am a student."
+      },
+      {
+        "ja": "今日は日曜日だ。",
+        "en": "Today is Sunday."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a0-da-%e3%81%a7%e3%81%99-desu-meaning/"
+  },
+  {
+    "id": "n5-3",
+    "level": "N5",
+    "pattern": "だけ",
+    "romaji": "dake",
+    "meaning": "only, just",
+    "formation": "Noun / Verb (plain) + だけ",
+    "note": "",
+    "examples": [
+      {
+        "ja": "水だけください。",
+        "en": "Just water, please."
+      },
+      {
+        "ja": "少しだけ食べました。",
+        "en": "I ate only a little."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a0%e3%81%91-dake-meaning/"
+  },
+  {
+    "id": "n5-4",
+    "level": "N5",
+    "pattern": "だろう",
+    "romaji": "darou",
+    "meaning": "probably (plain)",
+    "formation": "Plain form + だろう (noun / な-adj: drop だ)",
+    "note": "Plain version of でしょう.",
+    "examples": [
+      {
+        "ja": "明日は雨だろう。",
+        "en": "It will probably rain tomorrow."
+      },
+      {
+        "ja": "彼はもう家に帰っただろう。",
+        "en": "He has probably gone home already."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a0%e3%82%8d%e3%81%86-darou-meaning/"
+  },
+  {
+    "id": "n5-5",
+    "level": "N5",
+    "pattern": "で",
+    "romaji": "de",
+    "meaning": "at, in, by, with (place of action / means)",
+    "formation": "Noun + で",
+    "note": "Marks where an action happens, or the tool or means used.",
+    "examples": [
+      {
+        "ja": "図書館で勉強します。",
+        "en": "I study at the library."
+      },
+      {
+        "ja": "バスで学校に行きます。",
+        "en": "I go to school by bus."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a7-de-particle-meaning/"
+  },
+  {
+    "id": "n5-6",
+    "level": "N5",
+    "pattern": "でも",
+    "romaji": "demo",
+    "meaning": "but, however (at the start of a sentence)",
+    "formation": "Sentence。でも、sentence",
+    "note": "Casual “but” that begins a new sentence.",
+    "examples": [
+      {
+        "ja": "日本語は難しいです。でも、楽しいです。",
+        "en": "Japanese is hard. But it’s fun."
+      },
+      {
+        "ja": "行きたいです。でも、時間がありません。",
+        "en": "I want to go. But I don’t have time."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a7%e3%82%82-demo-meaning/"
+  },
+  {
+    "id": "n5-7",
+    "level": "N5",
+    "pattern": "でしょう",
+    "romaji": "deshou",
+    "meaning": "probably; right?",
+    "formation": "Plain form + でしょう (noun / な-adj: drop だ)",
+    "note": "With a rising tone it asks the listener to agree.",
+    "examples": [
+      {
+        "ja": "明日は晴れるでしょう。",
+        "en": "It will probably be sunny tomorrow."
+      },
+      {
+        "ja": "このケーキ、おいしいでしょう？",
+        "en": "This cake is tasty, right?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a7%e3%81%97%e3%82%87%e3%81%86-deshou-meaning/"
+  },
+  {
+    "id": "n5-8",
+    "level": "N5",
+    "pattern": "どんな",
+    "romaji": "donna",
+    "meaning": "what kind of",
+    "formation": "どんな + Noun",
+    "note": "",
+    "examples": [
+      {
+        "ja": "どんな音楽が好きですか。",
+        "en": "What kind of music do you like?"
+      },
+      {
+        "ja": "田中さんはどんな人ですか。",
+        "en": "What kind of person is Tanaka?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a9%e3%82%93%e3%81%aa-donna-meaning/"
+  },
+  {
+    "id": "n5-9",
+    "level": "N5",
+    "pattern": "どうして",
+    "romaji": "doushite",
+    "meaning": "why",
+    "formation": "どうして + question",
+    "note": "Same as なぜ; the answer often ends in から.",
+    "examples": [
+      {
+        "ja": "どうして遅れたんですか。",
+        "en": "Why were you late?"
+      },
+      {
+        "ja": "どうして日本語を勉強していますか。",
+        "en": "Why are you studying Japanese?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a9%e3%81%86%e3%81%97%e3%81%a6-doushite-meaning/"
+  },
+  {
+    "id": "n5-10",
+    "level": "N5",
+    "pattern": "どうやって",
+    "romaji": "douyatte",
+    "meaning": "how, by what method",
+    "formation": "どうやって + Verb",
+    "note": "Asks for the way or method.",
+    "examples": [
+      {
+        "ja": "駅までどうやって行きますか。",
+        "en": "How do I get to the station?"
+      },
+      {
+        "ja": "これはどうやって食べますか。",
+        "en": "How do you eat this?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a9%e3%81%86%e3%82%84%e3%81%a3%e3%81%a6-douyatte-meaning/"
+  },
+  {
+    "id": "n5-11",
+    "level": "N5",
+    "pattern": "が",
+    "romaji": "ga",
+    "meaning": "subject marker; but",
+    "formation": "Noun + が / Sentence + が、sentence",
+    "note": "Marks the subject, especially new information. Between two clauses it means “but”.",
+    "examples": [
+      {
+        "ja": "雨が降っています。",
+        "en": "It’s raining."
+      },
+      {
+        "ja": "高いですが、買います。",
+        "en": "It’s expensive, but I’ll buy it."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8c-ga-subject-marker-particle/"
+  },
+  {
+    "id": "n5-12",
+    "level": "N5",
+    "pattern": "があります",
+    "romaji": "ga arimasu",
+    "meaning": "there is, to have (things)",
+    "formation": "Noun + があります",
+    "note": "For non-living things and events.",
+    "examples": [
+      {
+        "ja": "机の上に本があります。",
+        "en": "There is a book on the desk."
+      },
+      {
+        "ja": "明日、テストがあります。",
+        "en": "There’s a test tomorrow."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8c%e3%81%82%e3%82%8a%e3%81%be%e3%81%99-ga-arimasu-%e3%81%8c%e3%81%82%e3%82%8b-ga-aru-meaning/"
+  },
+  {
+    "id": "n5-13",
+    "level": "N5",
+    "pattern": "がほしい",
+    "romaji": "ga hoshii",
+    "meaning": "want (a thing)",
+    "formation": "Noun + がほしい",
+    "note": "For wanting things. For wanting to do something, use たい.",
+    "examples": [
+      {
+        "ja": "新しいかばんがほしいです。",
+        "en": "I want a new bag."
+      },
+      {
+        "ja": "誕生日に何がほしいですか。",
+        "en": "What do you want for your birthday?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8c%e3%81%bb%e3%81%97%e3%81%84-ga-hoshii-%e3%81%8c%e6%ac%b2%e3%81%97%e3%81%84-meaning/"
+  },
+  {
+    "id": "n5-14",
+    "level": "N5",
+    "pattern": "がいます",
+    "romaji": "ga imasu",
+    "meaning": "there is, to have (people, animals)",
+    "formation": "Noun + がいます",
+    "note": "For living things.",
+    "examples": [
+      {
+        "ja": "公園に子どもがいます。",
+        "en": "There are children in the park."
+      },
+      {
+        "ja": "私には妹がいます。",
+        "en": "I have a younger sister."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8c%e3%81%84%e3%81%be%e3%81%99-ga-imasu-%e3%81%8c%e3%81%84%e3%82%8b-ga-iru-meaning/"
+  },
+  {
+    "id": "n5-15",
+    "level": "N5",
+    "pattern": "ほうがいい",
+    "romaji": "hou ga ii",
+    "meaning": "had better, should",
+    "formation": "Verb た-form + ほうがいい / Verb ない-form + ほうがいい",
+    "note": "Used to give advice.",
+    "examples": [
+      {
+        "ja": "早く寝たほうがいいですよ。",
+        "en": "You should go to bed early."
+      },
+      {
+        "ja": "無理しないほうがいい。",
+        "en": "You’d better not overdo it."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e6%96%b9%e3%81%8c%e3%81%84%e3%81%84-%e3%81%bb%e3%81%86%e3%81%8c%e3%81%84%e3%81%84-hou-ga-ii-meaning/"
+  },
+  {
+    "id": "n5-16",
+    "level": "N5",
+    "pattern": "い-adjectives",
+    "romaji": "i-adjectives",
+    "meaning": "い-adjectives",
+    "formation": "Adjective + Noun / Adjective + です",
+    "note": "Negative: い → くない. Past: い → かった. いい becomes よくない / よかった.",
+    "examples": [
+      {
+        "ja": "高い山ですね。",
+        "en": "It’s a tall mountain, isn’t it?"
+      },
+      {
+        "ja": "昨日は寒かったです。",
+        "en": "It was cold yesterday."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/japanese-%e3%81%84-adjectives-%e3%81%84%e5%bd%a2%e5%ae%b9%e8%a9%9e-meaning/"
+  },
+  {
+    "id": "n5-17",
+    "level": "N5",
+    "pattern": "一番（いちばん）",
+    "romaji": "ichiban",
+    "meaning": "the most, number one",
+    "formation": "一番 + adjective",
+    "note": "",
+    "examples": [
+      {
+        "ja": "一年で八月が一番暑いです。",
+        "en": "August is the hottest month of the year."
+      },
+      {
+        "ja": "クラスで一番背が高いのは誰ですか。",
+        "en": "Who is the tallest in the class?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e4%b8%80%e7%95%aa-%e3%81%84%e3%81%a1%e3%81%b0%e3%82%93-ichiban-meaning/"
+  },
+  {
+    "id": "n5-18",
+    "level": "N5",
+    "pattern": "一緒に（いっしょに）",
+    "romaji": "issho ni",
+    "meaning": "together",
+    "formation": "一緒に + Verb",
+    "note": "",
+    "examples": [
+      {
+        "ja": "一緒に昼ご飯を食べましょう。",
+        "en": "Let’s have lunch together."
+      },
+      {
+        "ja": "友達と一緒に映画を見ました。",
+        "en": "I watched a movie with a friend."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e4%b8%80%e7%b7%92%e3%81%ab-%e3%81%84%e3%81%a3%e3%81%97%e3%82%87%e3%81%ab-issho-ni-meaning/"
+  },
+  {
+    "id": "n5-19",
+    "level": "N5",
+    "pattern": "いつも",
+    "romaji": "itsumo",
+    "meaning": "always, usually",
+    "formation": "いつも + Verb",
+    "note": "",
+    "examples": [
+      {
+        "ja": "朝はいつもコーヒーを飲みます。",
+        "en": "I always drink coffee in the morning."
+      },
+      {
+        "ja": "彼はいつも元気です。",
+        "en": "He is always cheerful."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%84%e3%81%a4%e3%82%82-itsumo-meaning/"
+  },
+  {
+    "id": "n5-20",
+    "level": "N5",
+    "pattern": "じゃない・ではない",
+    "romaji": "janai / dewa nai",
+    "meaning": "is not",
+    "formation": "Noun / な-adj + じゃない (casual) or ではない",
+    "note": "Polite: じゃありません / ではありません.",
+    "examples": [
+      {
+        "ja": "これは私の傘じゃない。",
+        "en": "This isn’t my umbrella."
+      },
+      {
+        "ja": "彼は先生ではありません。",
+        "en": "He is not a teacher."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%98%e3%82%83%e3%81%aa%e3%81%84-janai-%e3%81%a7%e3%81%af%e3%81%aa%e3%81%84-dewa-nai-meaning/"
+  },
+  {
+    "id": "n5-21",
+    "level": "N5",
+    "pattern": "か",
+    "romaji": "ka",
+    "meaning": "question marker",
+    "formation": "Sentence + か",
+    "note": "Turns a sentence into a question.",
+    "examples": [
+      {
+        "ja": "これは何ですか。",
+        "en": "What is this?"
+      },
+      {
+        "ja": "明日、来ますか。",
+        "en": "Are you coming tomorrow?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8b-ka-question-particle-meaning/"
+  },
+  {
+    "id": "n5-22",
+    "level": "N5",
+    "pattern": "か～か",
+    "romaji": "ka~ka",
+    "meaning": "either … or; whether … or",
+    "formation": "A か B か",
+    "note": "Presents a choice between options.",
+    "examples": [
+      {
+        "ja": "コーヒーか紅茶か、どちらがいいですか。",
+        "en": "Coffee or tea — which would you like?"
+      },
+      {
+        "ja": "行くか行かないか、まだ決めていません。",
+        "en": "I haven’t decided yet whether to go or not."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8b%ef%bd%9e%e3%81%8b-ka-ka-or-meaning/"
+  },
+  {
+    "id": "n5-23",
+    "level": "N5",
+    "pattern": "から",
+    "romaji": "kara",
+    "meaning": "from; because",
+    "formation": "Noun + から (from) / Sentence + から (because)",
+    "note": "",
+    "examples": [
+      {
+        "ja": "九時から授業があります。",
+        "en": "I have class from nine."
+      },
+      {
+        "ja": "暑いから、窓を開けます。",
+        "en": "It’s hot, so I’ll open the window."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8b%e3%82%89-kara-meaning/"
+  },
+  {
+    "id": "n5-24",
+    "level": "N5",
+    "pattern": "方（かた）",
+    "romaji": "kata",
+    "meaning": "how to, way of doing",
+    "formation": "Verb ます-stem + 方",
+    "note": "",
+    "examples": [
+      {
+        "ja": "この漢字の読み方を教えてください。",
+        "en": "Please tell me how to read this kanji."
+      },
+      {
+        "ja": "箸の使い方が分かりません。",
+        "en": "I don’t know how to use chopsticks."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e6%96%b9-%e3%81%8b%e3%81%9f-kata-meaning/"
+  },
+  {
+    "id": "n5-25",
+    "level": "N5",
+    "pattern": "けど",
+    "romaji": "kedo",
+    "meaning": "but, although (casual)",
+    "formation": "Sentence + けど",
+    "note": "Short, casual form of けれども. Also softens a request.",
+    "examples": [
+      {
+        "ja": "行きたいけど、忙しい。",
+        "en": "I want to go, but I’m busy."
+      },
+      {
+        "ja": "すみません、ちょっと聞きたいんですけど…。",
+        "en": "Excuse me, I’d like to ask something…"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%91%e3%81%a9-kedo-meaning/"
+  },
+  {
+    "id": "n5-26",
+    "level": "N5",
+    "pattern": "けれども",
+    "romaji": "keredo mo",
+    "meaning": "but, although (more formal)",
+    "formation": "Sentence + けれども",
+    "note": "More formal than けど.",
+    "examples": [
+      {
+        "ja": "雨が降っていますけれども、出かけます。",
+        "en": "It’s raining, but I’m going out."
+      },
+      {
+        "ja": "漢字は難しいけれども、面白いです。",
+        "en": "Kanji are difficult, but interesting."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%91%e3%82%8c%e3%81%a9%e3%82%82-keredo-mo-meaning/"
+  },
+  {
+    "id": "n5-27",
+    "level": "N5",
+    "pattern": "まだ",
+    "romaji": "mada",
+    "meaning": "still; not yet",
+    "formation": "まだ + affirmative (still) / まだ + negative (not yet)",
+    "note": "",
+    "examples": [
+      {
+        "ja": "まだ雨が降っています。",
+        "en": "It’s still raining."
+      },
+      {
+        "ja": "宿題はまだです。",
+        "en": "I haven’t done my homework yet."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%be%e3%81%a0-mada-meaning/"
+  },
+  {
+    "id": "n5-28",
+    "level": "N5",
+    "pattern": "まだ～ていません",
+    "romaji": "mada ~te imasen",
+    "meaning": "have not done yet",
+    "formation": "まだ + Verb て-form + いません",
+    "note": "",
+    "examples": [
+      {
+        "ja": "まだ昼ご飯を食べていません。",
+        "en": "I haven’t eaten lunch yet."
+      },
+      {
+        "ja": "その映画はまだ見ていません。",
+        "en": "I haven’t seen that movie yet."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%be%e3%81%a0%ef%bd%9e%e3%81%a6%e3%81%84%e3%81%be%e3%81%9b%e3%82%93-mada-te-imasen-meaning/"
+  },
+  {
+    "id": "n5-29",
+    "level": "N5",
+    "pattern": "まで",
+    "romaji": "made",
+    "meaning": "until; as far as",
+    "formation": "Noun / Verb (dictionary) + まで",
+    "note": "Marks an end point in time or place.",
+    "examples": [
+      {
+        "ja": "五時まで働きます。",
+        "en": "I work until five."
+      },
+      {
+        "ja": "駅まで歩きましょう。",
+        "en": "Let’s walk to the station."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%be%e3%81%a7-made-meaning/"
+  },
+  {
+    "id": "n5-30",
+    "level": "N5",
+    "pattern": "前に（まえに）",
+    "romaji": "mae ni",
+    "meaning": "before",
+    "formation": "Verb (dictionary) + 前に / Noun + の前に",
+    "note": "",
+    "examples": [
+      {
+        "ja": "寝る前に歯を磨きます。",
+        "en": "I brush my teeth before bed."
+      },
+      {
+        "ja": "食事の前に手を洗ってください。",
+        "en": "Please wash your hands before the meal."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e5%89%8d%e3%81%ab-%e3%81%be%e3%81%88%e3%81%ab-mae-ni-meaning/"
+  },
+  {
+    "id": "n5-31",
+    "level": "N5",
+    "pattern": "ませんか",
+    "romaji": "masen ka",
+    "meaning": "won’t you …? (invitation)",
+    "formation": "Verb ます-stem + ませんか",
+    "note": "A polite invitation.",
+    "examples": [
+      {
+        "ja": "一緒に帰りませんか。",
+        "en": "Shall we go home together?"
+      },
+      {
+        "ja": "週末、映画を見に行きませんか。",
+        "en": "Would you like to see a movie this weekend?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%be%e3%81%9b%e3%82%93%e3%81%8b-masen-ka-meaning/"
+  },
+  {
+    "id": "n5-32",
+    "level": "N5",
+    "pattern": "ましょう",
+    "romaji": "mashou",
+    "meaning": "let’s",
+    "formation": "Verb ます-stem + ましょう",
+    "note": "",
+    "examples": [
+      {
+        "ja": "さあ、始めましょう。",
+        "en": "Okay, let’s begin."
+      },
+      {
+        "ja": "ちょっと休みましょう。",
+        "en": "Let’s take a short break."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%be%e3%81%97%e3%82%87%e3%81%86-mashou-meaning/"
+  },
+  {
+    "id": "n5-33",
+    "level": "N5",
+    "pattern": "ましょうか",
+    "romaji": "mashouka",
+    "meaning": "shall I …? / shall we …?",
+    "formation": "Verb ます-stem + ましょうか",
+    "note": "Offers help or suggests something.",
+    "examples": [
+      {
+        "ja": "荷物を持ちましょうか。",
+        "en": "Shall I carry your bag?"
+      },
+      {
+        "ja": "何時に会いましょうか。",
+        "en": "What time shall we meet?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%be%e3%81%97%e3%82%87%e3%81%86%e3%81%8b-mashouka-meaning/"
+  },
+  {
+    "id": "n5-34",
+    "level": "N5",
+    "pattern": "も",
+    "romaji": "mo",
+    "meaning": "also, too",
+    "formation": "Noun + も",
+    "note": "Replaces は, が or を.",
+    "examples": [
+      {
+        "ja": "私も行きます。",
+        "en": "I’ll go too."
+      },
+      {
+        "ja": "猫も犬も好きです。",
+        "en": "I like both cats and dogs."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%82-mo-particle-meaning/"
+  },
+  {
+    "id": "n5-35",
+    "level": "N5",
+    "pattern": "もう",
+    "romaji": "mou",
+    "meaning": "already; (not) anymore",
+    "formation": "もう + affirmative (already) / もう + negative (no longer)",
+    "note": "",
+    "examples": [
+      {
+        "ja": "もう宿題が終わりました。",
+        "en": "I’ve already finished my homework."
+      },
+      {
+        "ja": "もうお金がありません。",
+        "en": "I don’t have any money left."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%82%e3%81%86-mou-meaning/"
+  },
+  {
+    "id": "n5-36",
+    "level": "N5",
+    "pattern": "な-adjectives",
+    "romaji": "na-adjectives",
+    "meaning": "な-adjectives",
+    "formation": "Adjective + な + Noun / Adjective + です",
+    "note": "Negative: じゃない. Past: だった / でした.",
+    "examples": [
+      {
+        "ja": "静かな部屋です。",
+        "en": "It’s a quiet room."
+      },
+      {
+        "ja": "この町はきれいです。",
+        "en": "This town is pretty."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/japanese-%e3%81%aa-adjectives-%e3%81%aa%e5%bd%a2%e5%ae%b9%e8%a9%9e-meaning/"
+  },
+  {
+    "id": "n5-37",
+    "level": "N5",
+    "pattern": "なあ",
+    "romaji": "naa",
+    "meaning": "wow; I wish (exclamation)",
+    "formation": "Plain form + なあ",
+    "note": "Casual; shows strong feeling, often said to yourself.",
+    "examples": [
+      {
+        "ja": "いい天気だなあ。",
+        "en": "What nice weather!"
+      },
+      {
+        "ja": "日本に行きたいなあ。",
+        "en": "I really want to go to Japan."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%82-naa-sentence-ending-particle-meaning/"
+  },
+  {
+    "id": "n5-38",
+    "level": "N5",
+    "pattern": "ないで",
+    "romaji": "naide",
+    "meaning": "without doing",
+    "formation": "Verb ない-form + で",
+    "note": "",
+    "examples": [
+      {
+        "ja": "朝ご飯を食べないで学校に行きました。",
+        "en": "I went to school without eating breakfast."
+      },
+      {
+        "ja": "傘を持たないで出かけた。",
+        "en": "I went out without an umbrella."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%84%e3%81%a7-naide-meaning/"
+  },
+  {
+    "id": "n5-39",
+    "level": "N5",
+    "pattern": "ないでください",
+    "romaji": "naide kudasai",
+    "meaning": "please don’t",
+    "formation": "Verb ない-form + でください",
+    "note": "",
+    "examples": [
+      {
+        "ja": "ここで写真を撮らないでください。",
+        "en": "Please don’t take photos here."
+      },
+      {
+        "ja": "心配しないでください。",
+        "en": "Please don’t worry."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%84%e3%81%a7%e3%81%8f%e3%81%a0%e3%81%95%e3%81%84-naide-kudasai-meaning/"
+  },
+  {
+    "id": "n5-40",
+    "level": "N5",
+    "pattern": "ないといけない",
+    "romaji": "naito ikenai",
+    "meaning": "must, have to (spoken)",
+    "formation": "Verb ない-form + といけない",
+    "note": "Common in conversation.",
+    "examples": [
+      {
+        "ja": "もう帰らないといけない。",
+        "en": "I have to go home now."
+      },
+      {
+        "ja": "明日までにレポートを出さないといけません。",
+        "en": "I have to hand in the report by tomorrow."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%84%e3%81%a8%e3%81%84%e3%81%91%e3%81%aa%e3%81%84-naito-ikenai-meaning/"
+  },
+  {
+    "id": "n5-41",
+    "level": "N5",
+    "pattern": "なくてもいい",
+    "romaji": "naku temo ii",
+    "meaning": "don’t have to",
+    "formation": "Verb ない-form (drop い) + くてもいい",
+    "note": "",
+    "examples": [
+      {
+        "ja": "明日は来なくてもいいです。",
+        "en": "You don’t have to come tomorrow."
+      },
+      {
+        "ja": "全部食べなくてもいいよ。",
+        "en": "You don’t have to eat it all."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%8f%e3%81%a6%e3%82%82%e3%81%84%e3%81%84-naku-temo-ii-meaning/"
+  },
+  {
+    "id": "n5-42",
+    "level": "N5",
+    "pattern": "なくちゃ",
+    "romaji": "nakucha",
+    "meaning": "must, gotta (casual)",
+    "formation": "Verb ない-form (drop い) + くちゃ",
+    "note": "Short for なくては(いけない).",
+    "examples": [
+      {
+        "ja": "もう行かなくちゃ。",
+        "en": "I’ve got to go now."
+      },
+      {
+        "ja": "薬を飲まなくちゃ。",
+        "en": "I need to take my medicine."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%8f%e3%81%a1%e3%82%83-%e3%83%80%e3%83%a1-nakucha-dame-meaning/"
+  },
+  {
+    "id": "n5-43",
+    "level": "N5",
+    "pattern": "なくてはいけない",
+    "romaji": "nakute wa ikenai",
+    "meaning": "must, have to",
+    "formation": "Verb ない-form (drop い) + くてはいけない",
+    "note": "",
+    "examples": [
+      {
+        "ja": "毎日練習しなくてはいけません。",
+        "en": "You must practice every day."
+      },
+      {
+        "ja": "九時までに着かなくてはいけない。",
+        "en": "I have to arrive by nine."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%8f%e3%81%a6%e3%81%af%e3%81%84%e3%81%91%e3%81%aa%e3%81%84-nakute-wa-ikenai-meaning/"
+  },
+  {
+    "id": "n5-44",
+    "level": "N5",
+    "pattern": "なくてはならない",
+    "romaji": "nakute wa naranai",
+    "meaning": "must (duty, rule)",
+    "formation": "Verb ない-form (drop い) + くてはならない",
+    "note": "Sounds like a rule or general obligation.",
+    "examples": [
+      {
+        "ja": "図書館の本は返さなくてはならない。",
+        "en": "Library books must be returned."
+      },
+      {
+        "ja": "学生は毎日学校に来なくてはなりません。",
+        "en": "Students must come to school every day."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%8f%e3%81%a6%e3%81%af%e3%81%aa%e3%82%89%e3%81%aa%e3%81%84-nakute-wa-naranai-meaning/"
+  },
+  {
+    "id": "n5-45",
+    "level": "N5",
+    "pattern": "なる",
+    "romaji": "naru",
+    "meaning": "become",
+    "formation": "Noun / な-adj + になる; い-adj (い → く) + なる",
+    "note": "",
+    "examples": [
+      {
+        "ja": "暖かくなりました。",
+        "en": "It has gotten warm."
+      },
+      {
+        "ja": "医者になりたいです。",
+        "en": "I want to become a doctor."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%82%8b-naru-meaning/"
+  },
+  {
+    "id": "n5-46",
+    "level": "N5",
+    "pattern": "んです",
+    "romaji": "ndesu",
+    "meaning": "explaining; asking for an explanation",
+    "formation": "Plain form + んです (noun / な-adj + な + んです)",
+    "note": "Adds the feeling “the thing is…”. Spoken form of のです.",
+    "examples": [
+      {
+        "ja": "頭が痛いんです。",
+        "en": "The thing is, I have a headache."
+      },
+      {
+        "ja": "どうしたんですか。",
+        "en": "What’s wrong?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%93%e3%81%a7%e3%81%99-ndesu-%e3%82%93%e3%81%a0-nda-meaning/"
+  },
+  {
+    "id": "n5-47",
+    "level": "N5",
+    "pattern": "ね",
+    "romaji": "ne",
+    "meaning": "right?, isn’t it?",
+    "formation": "Sentence + ね",
+    "note": "Asks for agreement or makes a remark softer.",
+    "examples": [
+      {
+        "ja": "今日は暑いですね。",
+        "en": "It’s hot today, isn’t it?"
+      },
+      {
+        "ja": "いい名前ですね。",
+        "en": "That’s a nice name."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%ad-ne-particle-meaning/"
+  },
+  {
+    "id": "n5-48",
+    "level": "N5",
+    "pattern": "に",
+    "romaji": "ni",
+    "meaning": "at, in, to (time, destination, location)",
+    "formation": "Noun + に",
+    "note": "Marks a point in time, a destination, or where something exists.",
+    "examples": [
+      {
+        "ja": "七時に起きます。",
+        "en": "I get up at seven."
+      },
+      {
+        "ja": "部屋に猫がいます。",
+        "en": "There is a cat in the room."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%ab-ni-destination-particle-meaning/"
+  },
+  {
+    "id": "n5-49",
+    "level": "N5",
+    "pattern": "に行く（にいく）",
+    "romaji": "ni iku",
+    "meaning": "go to do",
+    "formation": "Verb ます-stem + に行く / Noun + に行く",
+    "note": "Gives the purpose of going.",
+    "examples": [
+      {
+        "ja": "友達に会いに行きます。",
+        "en": "I’m going to meet a friend."
+      },
+      {
+        "ja": "デパートへ買い物に行きました。",
+        "en": "I went shopping at the department store."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%97%e3%81%ab%e3%81%84%e3%81%8f-ni-iku-meaning/"
+  },
+  {
+    "id": "n5-50",
+    "level": "N5",
+    "pattern": "にする",
+    "romaji": "ni suru",
+    "meaning": "decide on, choose",
+    "formation": "Noun + にする",
+    "note": "Often used when ordering.",
+    "examples": [
+      {
+        "ja": "私はカレーにします。",
+        "en": "I’ll have the curry."
+      },
+      {
+        "ja": "プレゼントは本にしました。",
+        "en": "I decided on a book for the present."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%ab%e3%81%99%e3%82%8b-ni-suru-meaning/"
+  },
+  {
+    "id": "n5-51",
+    "level": "N5",
+    "pattern": "に/へ",
+    "romaji": "ni/e",
+    "meaning": "to, toward (direction)",
+    "formation": "Place + に / へ",
+    "note": "へ is read え and stresses direction.",
+    "examples": [
+      {
+        "ja": "来週、京都へ行きます。",
+        "en": "I’m going to Kyoto next week."
+      },
+      {
+        "ja": "毎朝、会社に行きます。",
+        "en": "I go to the office every morning."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%ab-%e3%81%b8-ni-e-directional-particle-meaning/"
+  },
+  {
+    "id": "n5-52",
+    "level": "N5",
+    "pattern": "の",
+    "romaji": "no",
+    "meaning": "’s, of; the one",
+    "formation": "Noun + の + Noun",
+    "note": "Shows possession or description. Can also stand for a noun: “the one”.",
+    "examples": [
+      {
+        "ja": "これは兄の車です。",
+        "en": "This is my older brother’s car."
+      },
+      {
+        "ja": "赤いのがほしいです。",
+        "en": "I want the red one."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%ae-no-possessive-particle-meaning/"
+  },
+  {
+    "id": "n5-53",
+    "level": "N5",
+    "pattern": "のです",
+    "romaji": "no desu",
+    "meaning": "explanatory (formal)",
+    "formation": "Plain form + のです (noun / な-adj + な + のです)",
+    "note": "Written or formal version of んです.",
+    "examples": [
+      {
+        "ja": "実は、今日は私の誕生日なのです。",
+        "en": "Actually, today is my birthday."
+      },
+      {
+        "ja": "彼は来ません。病気なのです。",
+        "en": "He isn’t coming. He is sick."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%ae%e3%81%a7%e3%81%99-no-desu-%e3%81%ae%e3%81%a0-noda-meaning/"
+  },
+  {
+    "id": "n5-54",
+    "level": "N5",
+    "pattern": "のが下手（のがへた）",
+    "romaji": "no ga heta",
+    "meaning": "bad at doing",
+    "formation": "Verb (dictionary) + のが下手",
+    "note": "",
+    "examples": [
+      {
+        "ja": "私は歌うのが下手です。",
+        "en": "I’m bad at singing."
+      },
+      {
+        "ja": "兄は料理するのが下手だ。",
+        "en": "My older brother is bad at cooking."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%ae%e3%81%8c%e4%b8%8b%e6%89%8b-%e3%81%ae%e3%81%8c%e3%81%b8%e3%81%9f-no-ga-heta-meaning/"
+  },
+  {
+    "id": "n5-55",
+    "level": "N5",
+    "pattern": "のが上手（のがじょうず）",
+    "romaji": "no ga jouzu",
+    "meaning": "good at doing",
+    "formation": "Verb (dictionary) + のが上手",
+    "note": "Usually about other people; about yourself, 得意 sounds more modest.",
+    "examples": [
+      {
+        "ja": "妹は絵をかくのが上手です。",
+        "en": "My younger sister is good at drawing."
+      },
+      {
+        "ja": "田中さんは話すのが上手ですね。",
+        "en": "Tanaka is good at talking, isn’t she?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%ae%e3%81%8c%e4%b8%8a%e6%89%8b-no-ga-jouzu-%e3%81%ae%e3%81%8c%e3%81%98%e3%82%87%e3%81%86%e3%81%9a%e3%81%a7%e3%81%99-meaning/"
+  },
+  {
+    "id": "n5-56",
+    "level": "N5",
+    "pattern": "のが好き（のがすき）",
+    "romaji": "no ga suki",
+    "meaning": "like doing",
+    "formation": "Verb (dictionary) + のが好き",
+    "note": "",
+    "examples": [
+      {
+        "ja": "本を読むのが好きです。",
+        "en": "I like reading books."
+      },
+      {
+        "ja": "走るのはあまり好きじゃない。",
+        "en": "I don’t really like running."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%ae%e3%81%8c%e5%a5%bd%e3%81%8d-no-ga-suki-%e3%81%ae%e3%81%8c%e3%81%99%e3%81%8d%e3%81%a7%e3%81%99-meaning/"
+  },
+  {
+    "id": "n5-57",
+    "level": "N5",
+    "pattern": "の中で[A]が一番（のなかで[A]がいちばん）",
+    "romaji": "no naka de [A] ga ichiban",
+    "meaning": "among …, A is the most",
+    "formation": "Group + の中で + A + が一番 + adjective",
+    "note": "",
+    "examples": [
+      {
+        "ja": "果物の中でりんごが一番好きです。",
+        "en": "Of all fruit, I like apples the most."
+      },
+      {
+        "ja": "クラスの中で田中さんが一番速いです。",
+        "en": "Tanaka is the fastest in the class."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%ae%e4%b8%ad%e3%81%a7%e3%81%8c%e4%b8%80%e7%95%aa-%e3%81%ae%e3%81%aa%e3%81%8b%e3%81%a7%e3%81%8c%e3%81%84%e3%81%a1%e3%81%b0%e3%82%93-no-naka-de-ga-ichiban-meaning/"
+  },
+  {
+    "id": "n5-58",
+    "level": "N5",
+    "pattern": "ので",
+    "romaji": "node",
+    "meaning": "because, so (soft)",
+    "formation": "Plain form + ので (noun / な-adj + な + ので)",
+    "note": "Softer and more polite than から.",
+    "examples": [
+      {
+        "ja": "雨なので、家にいます。",
+        "en": "It’s raining, so I’ll stay home."
+      },
+      {
+        "ja": "疲れたので、早く寝ます。",
+        "en": "I’m tired, so I’ll go to bed early."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%ae%e3%81%a7-node-meaning/"
+  },
+  {
+    "id": "n5-59",
+    "level": "N5",
+    "pattern": "お / ご",
+    "romaji": "o / go",
+    "meaning": "polite prefix",
+    "formation": "お + native word / ご + Chinese-origin word",
+    "note": "Adds politeness or respect.",
+    "examples": [
+      {
+        "ja": "お茶をどうぞ。",
+        "en": "Please have some tea."
+      },
+      {
+        "ja": "ご家族はお元気ですか。",
+        "en": "Is your family well?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e5%be%a1-%e3%81%8a-%e3%81%94-o-go-polite-marker-particle-meaning/"
+  },
+  {
+    "id": "n5-60",
+    "level": "N5",
+    "pattern": "を",
+    "romaji": "o / wo",
+    "meaning": "object marker",
+    "formation": "Noun + を + Verb",
+    "note": "Also marks a place you move through.",
+    "examples": [
+      {
+        "ja": "パンを食べます。",
+        "en": "I eat bread."
+      },
+      {
+        "ja": "公園を散歩しました。",
+        "en": "I took a walk through the park."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%92-wo-object-marker-meaning/"
+  },
+  {
+    "id": "n5-61",
+    "level": "N5",
+    "pattern": "をください",
+    "romaji": "o kudasai",
+    "meaning": "please give me",
+    "formation": "Noun + をください",
+    "note": "",
+    "examples": [
+      {
+        "ja": "水をください。",
+        "en": "Water, please."
+      },
+      {
+        "ja": "このりんごを三つください。",
+        "en": "Three of these apples, please."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%92%e3%81%8f%e3%81%a0%e3%81%95%e3%81%84-o-kudasai-meaning/"
+  },
+  {
+    "id": "n5-62",
+    "level": "N5",
+    "pattern": "しかし",
+    "romaji": "shikashi",
+    "meaning": "however (formal)",
+    "formation": "Sentence。しかし、sentence",
+    "note": "Written or formal “but”.",
+    "examples": [
+      {
+        "ja": "一生懸命勉強した。しかし、試験に落ちた。",
+        "en": "I studied hard. However, I failed the exam."
+      },
+      {
+        "ja": "値段は高い。しかし、品質はとてもいい。",
+        "en": "The price is high. However, the quality is very good."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%97%e3%81%8b%e3%81%97-shikashi-meaning/"
+  },
+  {
+    "id": "n5-63",
+    "level": "N5",
+    "pattern": "それから",
+    "romaji": "sore kara",
+    "meaning": "and then, after that; also",
+    "formation": "Sentence。それから、sentence",
+    "note": "The next thing in a sequence, or one more item.",
+    "examples": [
+      {
+        "ja": "宿題をしました。それから、テレビを見ました。",
+        "en": "I did my homework. After that, I watched TV."
+      },
+      {
+        "ja": "パンと牛乳と、それから卵を買ってきて。",
+        "en": "Buy bread and milk, and also eggs."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9d%e3%82%8c%e3%81%8b%e3%82%89-sore-kara-meaning/"
+  },
+  {
+    "id": "n5-64",
+    "level": "N5",
+    "pattern": "そして",
+    "romaji": "soshite",
+    "meaning": "and, and then",
+    "formation": "Sentence。そして、sentence",
+    "note": "Joins sentences and adds information.",
+    "examples": [
+      {
+        "ja": "部屋は広いです。そして、明るいです。",
+        "en": "The room is spacious. And it’s bright."
+      },
+      {
+        "ja": "駅に着きました。そして、電車に乗りました。",
+        "en": "I arrived at the station. Then I got on the train."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9d%e3%81%97%e3%81%a6-soshite-meaning/"
+  },
+  {
+    "id": "n5-65",
+    "level": "N5",
+    "pattern": "すぎる",
+    "romaji": "sugiru",
+    "meaning": "too much",
+    "formation": "Verb ます-stem / adjective (drop い or な) + すぎる",
+    "note": "",
+    "examples": [
+      {
+        "ja": "食べすぎました。",
+        "en": "I ate too much."
+      },
+      {
+        "ja": "この靴は大きすぎます。",
+        "en": "These shoes are too big."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%99%e3%81%8e%e3%82%8b-sugiru-%e9%81%8e%e3%81%8e%e3%82%8b-meaning/"
+  },
+  {
+    "id": "n5-66",
+    "level": "N5",
+    "pattern": "たことがある",
+    "romaji": "ta koto ga aru",
+    "meaning": "have done before (experience)",
+    "formation": "Verb た-form + ことがある",
+    "note": "",
+    "examples": [
+      {
+        "ja": "富士山に登ったことがあります。",
+        "en": "I have climbed Mt. Fuji."
+      },
+      {
+        "ja": "すしを食べたことがありますか。",
+        "en": "Have you ever eaten sushi?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9f%e3%81%93%e3%81%a8%e3%81%8c%e3%81%82%e3%82%8b-ta-koto-ga-aru-meaning/"
+  },
+  {
+    "id": "n5-67",
+    "level": "N5",
+    "pattern": "たい",
+    "romaji": "tai",
+    "meaning": "want to do",
+    "formation": "Verb ます-stem + たい",
+    "note": "Changes like an い-adjective (たくない, たかった).",
+    "examples": [
+      {
+        "ja": "水が飲みたいです。",
+        "en": "I want to drink water."
+      },
+      {
+        "ja": "今日はどこにも行きたくない。",
+        "en": "I don’t want to go anywhere today."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9f%e3%81%84-tai-meaning/"
+  },
+  {
+    "id": "n5-68",
+    "level": "N5",
+    "pattern": "たり～たり",
+    "romaji": "tari~tari",
+    "meaning": "do things like A and B",
+    "formation": "Verb た-form + り、Verb た-form + り + する",
+    "note": "Lists example actions.",
+    "examples": [
+      {
+        "ja": "週末は掃除したり、洗濯したりします。",
+        "en": "On weekends I do things like cleaning and laundry."
+      },
+      {
+        "ja": "休みの日は本を読んだり、映画を見たりします。",
+        "en": "On days off I read books, watch movies, and so on."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9f%e3%82%8a%ef%bd%9e%e3%81%9f%e3%82%8a%e3%81%99%e3%82%8b-tari-tari-suru-meaning/"
+  },
+  {
+    "id": "n5-69",
+    "level": "N5",
+    "pattern": "てある",
+    "romaji": "te aru",
+    "meaning": "has been done (and left that way)",
+    "formation": "Transitive verb て-form + ある",
+    "note": "Focuses on a state someone deliberately left.",
+    "examples": [
+      {
+        "ja": "窓が開けてあります。",
+        "en": "The window has been left open."
+      },
+      {
+        "ja": "壁に絵がかけてある。",
+        "en": "A picture has been hung on the wall."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%81%82%e3%82%8b-te-aru-meaning/"
+  },
+  {
+    "id": "n5-70",
+    "level": "N5",
+    "pattern": "ている",
+    "romaji": "te iru",
+    "meaning": "is doing; state",
+    "formation": "Verb て-form + いる",
+    "note": "An action in progress, or a state that continues.",
+    "examples": [
+      {
+        "ja": "今、ご飯を食べています。",
+        "en": "I’m eating now."
+      },
+      {
+        "ja": "姉は結婚しています。",
+        "en": "My older sister is married."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%81%84%e3%82%8b-te-iru-meaning/"
+  },
+  {
+    "id": "n5-71",
+    "level": "N5",
+    "pattern": "てから",
+    "romaji": "te kara",
+    "meaning": "after doing",
+    "formation": "Verb て-form + から",
+    "note": "",
+    "examples": [
+      {
+        "ja": "手を洗ってから食べましょう。",
+        "en": "Let’s wash our hands before we eat."
+      },
+      {
+        "ja": "日本に来てから、日本語を勉強し始めました。",
+        "en": "I started studying Japanese after coming to Japan."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%81%8b%e3%82%89-te-kara-meaning/"
+  },
+  {
+    "id": "n5-72",
+    "level": "N5",
+    "pattern": "てください",
+    "romaji": "te kudasai",
+    "meaning": "please do",
+    "formation": "Verb て-form + ください",
+    "note": "",
+    "examples": [
+      {
+        "ja": "ちょっと待ってください。",
+        "en": "Please wait a moment."
+      },
+      {
+        "ja": "もう一度言ってください。",
+        "en": "Please say it once more."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%81%8f%e3%81%a0%e3%81%95%e3%81%84-te-kudasai-meaning/"
+  },
+  {
+    "id": "n5-73",
+    "level": "N5",
+    "pattern": "てはいけない",
+    "romaji": "te wa ikenai",
+    "meaning": "must not",
+    "formation": "Verb て-form + はいけない",
+    "note": "",
+    "examples": [
+      {
+        "ja": "ここでたばこを吸ってはいけません。",
+        "en": "You must not smoke here."
+      },
+      {
+        "ja": "授業中に寝てはいけない。",
+        "en": "You mustn’t sleep during class."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%81%af%e3%81%84%e3%81%91%e3%81%aa%e3%81%84-te-wa-ikenai-meaning/"
+  },
+  {
+    "id": "n5-74",
+    "level": "N5",
+    "pattern": "てもいいです",
+    "romaji": "temo ii desu",
+    "meaning": "may, it’s okay to",
+    "formation": "Verb て-form + もいいです",
+    "note": "As a question, it asks for permission.",
+    "examples": [
+      {
+        "ja": "窓を開けてもいいですか。",
+        "en": "May I open the window?"
+      },
+      {
+        "ja": "もう帰ってもいいですよ。",
+        "en": "You may go home now."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%82%82%e3%81%84%e3%81%84%e3%81%a7%e3%81%99%e3%81%8b-temo-ii-desu-ka-meaning/"
+  },
+  {
+    "id": "n5-75",
+    "level": "N5",
+    "pattern": "と",
+    "romaji": "to",
+    "meaning": "and; with",
+    "formation": "Noun + と + Noun / Person + と",
+    "note": "Lists everything (a complete list), or marks who you do something with.",
+    "examples": [
+      {
+        "ja": "パンと卵を買いました。",
+        "en": "I bought bread and eggs."
+      },
+      {
+        "ja": "友達と旅行しました。",
+        "en": "I traveled with a friend."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a8-to-particle-meaning/"
+  },
+  {
+    "id": "n5-76",
+    "level": "N5",
+    "pattern": "とき",
+    "romaji": "toki",
+    "meaning": "when, at the time",
+    "formation": "Plain form + とき (noun + の + とき; な-adj + な + とき)",
+    "note": "",
+    "examples": [
+      {
+        "ja": "子どものとき、よく海で泳ぎました。",
+        "en": "When I was a child, I often swam in the sea."
+      },
+      {
+        "ja": "暇なとき、何をしますか。",
+        "en": "What do you do in your free time?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e6%99%82-%e3%81%a8%e3%81%8d-toki-meaning/"
+  },
+  {
+    "id": "n5-77",
+    "level": "N5",
+    "pattern": "とても",
+    "romaji": "totemo",
+    "meaning": "very",
+    "formation": "とても + adjective",
+    "note": "",
+    "examples": [
+      {
+        "ja": "このケーキはとてもおいしいです。",
+        "en": "This cake is very tasty."
+      },
+      {
+        "ja": "今日はとても疲れました。",
+        "en": "I’m very tired today."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a8%e3%81%a6%e3%82%82-totemo-meaning/"
+  },
+  {
+    "id": "n5-78",
+    "level": "N5",
+    "pattern": "つもり",
+    "romaji": "tsumori",
+    "meaning": "intend to, plan to",
+    "formation": "Verb (dictionary or ない-form) + つもり",
+    "note": "",
+    "examples": [
+      {
+        "ja": "夏休みに国へ帰るつもりです。",
+        "en": "I plan to go home to my country over summer break."
+      },
+      {
+        "ja": "もうお酒は飲まないつもりです。",
+        "en": "I intend not to drink alcohol anymore."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a4%e3%82%82%e3%82%8a-tsumori-meaning/"
+  },
+  {
+    "id": "n5-79",
+    "level": "N5",
+    "pattern": "は",
+    "romaji": "wa - topic marker",
+    "meaning": "topic marker",
+    "formation": "Noun + は",
+    "note": "Read わ. Sets the topic, and can show contrast.",
+    "examples": [
+      {
+        "ja": "私は田中です。",
+        "en": "I’m Tanaka."
+      },
+      {
+        "ja": "肉は食べますが、魚は食べません。",
+        "en": "I eat meat, but I don’t eat fish."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%af-wa-topic-marker-meaning/"
+  },
+  {
+    "id": "n5-80",
+    "level": "N5",
+    "pattern": "は〜より・・・です",
+    "romaji": "wa ~yori... desu",
+    "meaning": "A is more … than B",
+    "formation": "A は B より + adjective + です",
+    "note": "",
+    "examples": [
+      {
+        "ja": "東京は大阪より大きいです。",
+        "en": "Tokyo is bigger than Osaka."
+      },
+      {
+        "ja": "今日は昨日より寒いです。",
+        "en": "Today is colder than yesterday."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%af%e3%80%9c%e3%82%88%e3%82%8a-%e3%81%a7%e3%81%99-wa-yori-desu-meaning/"
+  },
+  {
+    "id": "n5-81",
+    "level": "N5",
+    "pattern": "はどうですか",
+    "romaji": "wa dou desu ka",
+    "meaning": "how about …?; how is …?",
+    "formation": "Noun + はどうですか",
+    "note": "Makes a suggestion or asks for an opinion.",
+    "examples": [
+      {
+        "ja": "明日はどうですか。",
+        "en": "How about tomorrow?"
+      },
+      {
+        "ja": "新しい仕事はどうですか。",
+        "en": "How is your new job?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%af%e3%81%a9%e3%81%86%e3%81%a7%e3%81%99%e3%81%8b-wa-dou-desu-ka-meaning/"
+  },
+  {
+    "id": "n5-82",
+    "level": "N5",
+    "pattern": "や",
+    "romaji": "ya",
+    "meaning": "and (among others)",
+    "formation": "Noun + や + Noun (+ など)",
+    "note": "An incomplete list: just examples.",
+    "examples": [
+      {
+        "ja": "机の上に本やペンがあります。",
+        "en": "There are books, pens and so on on the desk."
+      },
+      {
+        "ja": "りんごやバナナなどを買いました。",
+        "en": "I bought apples, bananas and other things."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%84-ya-particle-meaning/"
+  },
+  {
+    "id": "n5-83",
+    "level": "N5",
+    "pattern": "よ",
+    "romaji": "yo",
+    "meaning": "you know; I tell you",
+    "formation": "Sentence + よ",
+    "note": "Gives the listener new information or emphasis.",
+    "examples": [
+      {
+        "ja": "この映画、面白いですよ。",
+        "en": "This movie is good, you know."
+      },
+      {
+        "ja": "もう九時だよ。",
+        "en": "It’s already nine!"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%88-yo-ending-particle-meaning/"
+  },
+  {
+    "id": "n5-84",
+    "level": "N5",
+    "pattern": "より～ほうが",
+    "romaji": "yori ~hou ga",
+    "meaning": "B is more … than A",
+    "formation": "A より B のほうが + adjective",
+    "note": "",
+    "examples": [
+      {
+        "ja": "バスより電車のほうが速いです。",
+        "en": "The train is faster than the bus."
+      },
+      {
+        "ja": "夏より冬のほうが好きです。",
+        "en": "I like winter more than summer."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%88%e3%82%8a%ef%bd%9e%e3%81%ae%e3%81%bb%e3%81%86%e3%81%8c-yori-no-hou-ga-meaning/"
+  },
+  {
+    "id": "n4-1",
+    "level": "N4",
+    "pattern": "間（あいだ）",
+    "romaji": "aida",
+    "meaning": "while, during (the whole time)",
+    "formation": "Verb (dictionary / ている) or Noun + の + 間",
+    "note": "The other action continues for the whole period.",
+    "examples": [
+      {
+        "ja": "夏休みの間、ずっと国にいました。",
+        "en": "I was in my home country for the whole summer break."
+      },
+      {
+        "ja": "母が料理している間、私は掃除をしました。",
+        "en": "While my mother was cooking, I cleaned."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e9%96%93-aida-meaning/"
+  },
+  {
+    "id": "n4-2",
+    "level": "N4",
+    "pattern": "間に（あいだに）",
+    "romaji": "aida ni",
+    "meaning": "while, during (at some point)",
+    "formation": "Verb (dictionary / ている) or Noun + の + 間に",
+    "note": "Something happens once within the period.",
+    "examples": [
+      {
+        "ja": "寝ている間に雨が降りました。",
+        "en": "It rained while I was asleep."
+      },
+      {
+        "ja": "若い間に、いろいろな国へ行きたい。",
+        "en": "I want to visit many countries while I’m young."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e9%96%93%e3%81%ab-aida-ni-meaning/"
+  },
+  {
+    "id": "n4-3",
+    "level": "N4",
+    "pattern": "あまり～ない",
+    "romaji": "amari~nai",
+    "meaning": "not very, not much",
+    "formation": "あまり + negative",
+    "note": "",
+    "examples": [
+      {
+        "ja": "この映画はあまり面白くない。",
+        "en": "This movie isn’t very interesting."
+      },
+      {
+        "ja": "最近あまり寝ていません。",
+        "en": "I haven’t been sleeping much lately."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%82%e3%81%be%e3%82%8a%ef%bd%9e%e3%81%aa%e3%81%84-amarinai-meaning/"
+  },
+  {
+    "id": "n4-4",
+    "level": "N4",
+    "pattern": "後で（あとで）",
+    "romaji": "ato de",
+    "meaning": "after; later",
+    "formation": "Verb た-form + 後で / Noun + の + 後で",
+    "note": "後で on its own means “later”.",
+    "examples": [
+      {
+        "ja": "授業の後で、図書館に行きます。",
+        "en": "I’ll go to the library after class."
+      },
+      {
+        "ja": "後で電話しますね。",
+        "en": "I’ll call you later."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e5%be%8c%e3%81%a7-%e3%81%82%e3%81%a8%e3%81%a7-ato-de-meaning/"
+  },
+  {
+    "id": "n4-5",
+    "level": "N4",
+    "pattern": "ば",
+    "romaji": "ba",
+    "meaning": "if (conditional)",
+    "formation": "Verb ば-form (書けば) / い-adj (い → ければ)",
+    "note": "Focuses on the condition needed for the result.",
+    "examples": [
+      {
+        "ja": "急げば間に合います。",
+        "en": "If you hurry, you’ll make it."
+      },
+      {
+        "ja": "安ければ買います。",
+        "en": "If it’s cheap, I’ll buy it."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%b0-ba-conditional-form-meaning/"
+  },
+  {
+    "id": "n4-6",
+    "level": "N4",
+    "pattern": "場合は（ばあいは）",
+    "romaji": "baai wa",
+    "meaning": "in the case of, if",
+    "formation": "Plain form / Noun + の + 場合は",
+    "note": "Common in instructions and rules.",
+    "examples": [
+      {
+        "ja": "雨の場合は、試合は中止です。",
+        "en": "In case of rain, the game is canceled."
+      },
+      {
+        "ja": "遅れる場合は、連絡してください。",
+        "en": "If you’ll be late, please let us know."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e5%a0%b4%e5%90%88%e3%81%af-baai-wa-meaning/"
+  },
+  {
+    "id": "n4-7",
+    "level": "N4",
+    "pattern": "ばかり",
+    "romaji": "bakari",
+    "meaning": "only, nothing but",
+    "formation": "Noun + ばかり / Verb て-form + ばかり",
+    "note": "Often sounds critical.",
+    "examples": [
+      {
+        "ja": "弟はゲームばかりしている。",
+        "en": "My little brother does nothing but play games."
+      },
+      {
+        "ja": "甘い物ばかり食べてはいけません。",
+        "en": "You shouldn’t eat only sweets."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%b0%e3%81%8b%e3%82%8a-bakari-meaning/"
+  },
+  {
+    "id": "n4-8",
+    "level": "N4",
+    "pattern": "だけで",
+    "romaji": "dake de",
+    "meaning": "just by, only with",
+    "formation": "Noun / Verb (dictionary) + だけで",
+    "note": "",
+    "examples": [
+      {
+        "ja": "この曲を聞くだけで、元気になります。",
+        "en": "Just listening to this song cheers me up."
+      },
+      {
+        "ja": "一人だけで行くのは心配です。",
+        "en": "I’m worried about going all by myself."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a0%e3%81%91%e3%81%a7-dake-de-meaning/"
+  },
+  {
+    "id": "n4-9",
+    "level": "N4",
+    "pattern": "出す（だす）",
+    "romaji": "dasu",
+    "meaning": "suddenly start to",
+    "formation": "Verb ます-stem + 出す",
+    "note": "A sudden, often uncontrolled start.",
+    "examples": [
+      {
+        "ja": "急に雨が降り出した。",
+        "en": "It suddenly started raining."
+      },
+      {
+        "ja": "赤ちゃんが泣き出しました。",
+        "en": "The baby burst into tears."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e5%87%ba%e3%81%99-dasu-meaning/"
+  },
+  {
+    "id": "n4-10",
+    "level": "N4",
+    "pattern": "でございます",
+    "romaji": "de gozaimasu",
+    "meaning": "is (very polite)",
+    "formation": "Noun + でございます",
+    "note": "Extra-polite です, used by staff to customers.",
+    "examples": [
+      {
+        "ja": "こちらが会議室でございます。",
+        "en": "This is the meeting room."
+      },
+      {
+        "ja": "お手洗いは二階でございます。",
+        "en": "The restroom is on the second floor."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a7%e3%81%94%e3%81%96%e3%81%84%e3%81%be%e3%81%99-de-gozaimasu-meaning/"
+  },
+  {
+    "id": "n4-11",
+    "level": "N4",
+    "pattern": "でも",
+    "romaji": "demo",
+    "meaning": "… or something (soft suggestion)",
+    "formation": "Noun + でも",
+    "note": "Softens a suggestion: “maybe X or so”.",
+    "examples": [
+      {
+        "ja": "お茶でも飲みませんか。",
+        "en": "Would you like some tea or something?"
+      },
+      {
+        "ja": "週末、映画でも見に行こう。",
+        "en": "Let’s go see a movie or something this weekend."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a7%e3%82%82-demo-meaning-something/"
+  },
+  {
+    "id": "n4-12",
+    "level": "N4",
+    "pattern": "ではないか",
+    "romaji": "dewa nai ka",
+    "meaning": "isn’t it? (strong assertion)",
+    "formation": "Plain form + ではないか (noun / な-adj: drop だ)",
+    "note": "Strong or written. Casual: じゃないか.",
+    "examples": [
+      {
+        "ja": "これは大きな問題ではないか。",
+        "en": "Isn’t this a serious problem?"
+      },
+      {
+        "ja": "約束したではないか。",
+        "en": "You promised, didn’t you?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a7%e3%81%af%e3%81%aa%e3%81%84%e3%81%8b-dewa-nai-ka-meaning/"
+  },
+  {
+    "id": "n4-13",
+    "level": "N4",
+    "pattern": "が必要（がひつよう）",
+    "romaji": "ga hitsuyou",
+    "meaning": "need",
+    "formation": "Noun + が必要だ",
+    "note": "",
+    "examples": [
+      {
+        "ja": "旅行にはパスポートが必要です。",
+        "en": "You need a passport to travel."
+      },
+      {
+        "ja": "もう少し時間が必要だ。",
+        "en": "I need a bit more time."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8c%e5%bf%85%e8%a6%81-ga-hitsuyou-meaning/"
+  },
+  {
+    "id": "n4-14",
+    "level": "N4",
+    "pattern": "がする",
+    "romaji": "ga suru",
+    "meaning": "smell, sound, taste (a sensation)",
+    "formation": "Noun (音・におい・味・声・気) + がする",
+    "note": "For something you perceive with your senses.",
+    "examples": [
+      {
+        "ja": "いいにおいがしますね。",
+        "en": "Something smells good."
+      },
+      {
+        "ja": "外で変な音がした。",
+        "en": "There was a strange noise outside."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8c%e3%81%99%e3%82%8b-ga-suru-meaning/"
+  },
+  {
+    "id": "n4-15",
+    "level": "N4",
+    "pattern": "がり",
+    "romaji": "gari",
+    "meaning": "someone who easily feels …",
+    "formation": "い/な-adj stem + がり (+ や)",
+    "note": "Describes a person’s tendency: 寒がり, 怖がり.",
+    "examples": [
+      {
+        "ja": "私は寒がりなので、冬が苦手です。",
+        "en": "I feel the cold easily, so I don’t like winter."
+      },
+      {
+        "ja": "弟は怖がりで、暗い所が嫌いだ。",
+        "en": "My little brother scares easily and hates the dark."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8c%e3%82%8a-gari-meaning/"
+  },
+  {
+    "id": "n4-16",
+    "level": "N4",
+    "pattern": "がる / がっている",
+    "romaji": "garu / gatteiru",
+    "meaning": "(someone else) shows signs of feeling / wanting",
+    "formation": "Adjective stem + がる; たい → たがる",
+    "note": "For other people’s feelings, not your own.",
+    "examples": [
+      {
+        "ja": "妹は犬を怖がっています。",
+        "en": "My sister is afraid of dogs."
+      },
+      {
+        "ja": "子どもが外で遊びたがっています。",
+        "en": "The kids want to play outside."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8c%e3%82%8b-garu-%e3%81%8c%e3%81%a3%e3%81%a6%e3%81%84%e3%82%8b-gatteiru-meaning/"
+  },
+  {
+    "id": "n4-17",
+    "level": "N4",
+    "pattern": "ございます",
+    "romaji": "gozaimasu",
+    "meaning": "have, there is (very polite)",
+    "formation": "Noun + がございます",
+    "note": "Extra-polite あります.",
+    "examples": [
+      {
+        "ja": "ご質問がございましたら、どうぞ。",
+        "en": "If you have any questions, please go ahead."
+      },
+      {
+        "ja": "赤いシャツもございます。",
+        "en": "We also have red shirts."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%94%e3%81%96%e3%81%84%e3%81%be%e3%81%99-gozaimasu-meaning/"
+  },
+  {
+    "id": "n4-18",
+    "level": "N4",
+    "pattern": "始める（はじめる）",
+    "romaji": "hajimeru",
+    "meaning": "begin to do",
+    "formation": "Verb ます-stem + 始める",
+    "note": "",
+    "examples": [
+      {
+        "ja": "去年からピアノを習い始めました。",
+        "en": "I started learning piano last year."
+      },
+      {
+        "ja": "雨が降り始めた。",
+        "en": "It began to rain."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e5%a7%8b%e3%82%81%e3%82%8b-hajimeru-%e5%a7%8b%e3%82%81%e3%81%9f-meaning/"
+  },
+  {
+    "id": "n4-19",
+    "level": "N4",
+    "pattern": "はずだ",
+    "romaji": "hazu da",
+    "meaning": "should be, is expected to",
+    "formation": "Plain form + はずだ (noun + の; な-adj + な)",
+    "note": "A conclusion based on reasoning or information.",
+    "examples": [
+      {
+        "ja": "彼はもう着いたはずです。",
+        "en": "He should have arrived by now."
+      },
+      {
+        "ja": "会議は三時からのはずだ。",
+        "en": "The meeting is supposed to start at three."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%af%e3%81%9a%e3%81%a0-hazu-da-meaning/"
+  },
+  {
+    "id": "n4-20",
+    "level": "N4",
+    "pattern": "はずがない",
+    "romaji": "hazu ga nai",
+    "meaning": "there’s no way that",
+    "formation": "Plain form + はずがない",
+    "note": "Strong denial based on reasoning.",
+    "examples": [
+      {
+        "ja": "彼がうそをつくはずがない。",
+        "en": "There’s no way he would lie."
+      },
+      {
+        "ja": "こんなに簡単なはずがない。",
+        "en": "It can’t be this easy."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%af%e3%81%9a%e3%81%8c%e3%81%aa%e3%81%84-hazu-ga-nai-meaning/"
+  },
+  {
+    "id": "n4-21",
+    "level": "N4",
+    "pattern": "必要がある（ひつようがある）",
+    "romaji": "hitsuyou ga aru",
+    "meaning": "it is necessary to",
+    "formation": "Verb (dictionary) + 必要がある",
+    "note": "",
+    "examples": [
+      {
+        "ja": "予約する必要があります。",
+        "en": "You need to make a reservation."
+      },
+      {
+        "ja": "急ぐ必要はないよ。",
+        "en": "There’s no need to hurry."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e5%bf%85%e8%a6%81%e3%81%8c%e3%81%82%e3%82%8b-hitsuyou-ga-aru-meaning/"
+  },
+  {
+    "id": "n4-22",
+    "level": "N4",
+    "pattern": "意向形 （いこうけい）",
+    "romaji": "ikou kei - volitional form",
+    "meaning": "volitional form: let’s, I’ll",
+    "formation": "Group 1: う-row → お-row + う (行こう). Group 2: る → よう (食べよう). する → しよう, 来る → 来よう",
+    "note": "Casual “let’s”, or your own intention.",
+    "examples": [
+      {
+        "ja": "そろそろ帰ろう。",
+        "en": "Let’s head home soon."
+      },
+      {
+        "ja": "一緒に食べようよ。",
+        "en": "Let’s eat together."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e6%84%8f%e5%90%91%e5%bd%a2-ikou-kei-volitional-form-meaning/"
+  },
+  {
+    "id": "n4-23",
+    "level": "N4",
+    "pattern": "いらっしゃる",
+    "romaji": "irassharu",
+    "meaning": "be, go, come (honorific)",
+    "formation": "Honorific of いる・行く・来る",
+    "note": "Used about teachers, bosses or customers.",
+    "examples": [
+      {
+        "ja": "先生は研究室にいらっしゃいます。",
+        "en": "The professor is in the office."
+      },
+      {
+        "ja": "社長は明日いらっしゃいます。",
+        "en": "The company president will come tomorrow."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%84%e3%82%89%e3%81%a3%e3%81%97%e3%82%83%e3%82%8b-irassharu-meaning/"
+  },
+  {
+    "id": "n4-24",
+    "level": "N4",
+    "pattern": "いたします",
+    "romaji": "itashimasu",
+    "meaning": "do (humble)",
+    "formation": "Noun (する-verb) + いたします",
+    "note": "Humble します, used about yourself.",
+    "examples": [
+      {
+        "ja": "私がご案内いたします。",
+        "en": "I will show you around."
+      },
+      {
+        "ja": "よろしくお願いいたします。",
+        "en": "I look forward to working with you."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%84%e3%81%9f%e3%81%97%e3%81%be%e3%81%99-itashimasu-meaning/"
+  },
+  {
+    "id": "n4-25",
+    "level": "N4",
+    "pattern": "じゃないか",
+    "romaji": "janai ka",
+    "meaning": "isn’t it? / hey, look!",
+    "formation": "Plain form + じゃないか (noun / な-adj: drop だ)",
+    "note": "Casual; shows surprise or mild blame.",
+    "examples": [
+      {
+        "ja": "田中さんじゃないか！久しぶり。",
+        "en": "Hey, it’s Tanaka! Long time no see."
+      },
+      {
+        "ja": "だから言ったじゃないか。",
+        "en": "I told you so, didn’t I?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%98%e3%82%83%e3%81%aa%e3%81%84%e3%81%8b-janai-ka-meaning/"
+  },
+  {
+    "id": "n4-26",
+    "level": "N4",
+    "pattern": "かどうか",
+    "romaji": "ka dou ka",
+    "meaning": "whether or not",
+    "formation": "Plain form + かどうか (noun / な-adj: drop だ)",
+    "note": "",
+    "examples": [
+      {
+        "ja": "明日来るかどうか教えてください。",
+        "en": "Please tell me whether you’re coming tomorrow."
+      },
+      {
+        "ja": "おいしいかどうか分からない。",
+        "en": "I don’t know whether it tastes good."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8b%e3%81%a9%e3%81%86%e3%81%8b-ka-dou-ka-meaning/"
+  },
+  {
+    "id": "n4-27",
+    "level": "N4",
+    "pattern": "かしら",
+    "romaji": "ka shira",
+    "meaning": "I wonder (feminine)",
+    "formation": "Plain form + かしら",
+    "note": "Traditionally feminine; similar to かな.",
+    "examples": [
+      {
+        "ja": "明日は晴れるかしら。",
+        "en": "I wonder if it’ll be sunny tomorrow."
+      },
+      {
+        "ja": "どこに置いたのかしら。",
+        "en": "I wonder where I put it."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8b%e3%81%97%e3%82%89-ka-shira-meaning/"
+  },
+  {
+    "id": "n4-28",
+    "level": "N4",
+    "pattern": "かい",
+    "romaji": "kai",
+    "meaning": "question (casual)",
+    "formation": "Plain form + かい",
+    "note": "A friendly question, often from older men.",
+    "examples": [
+      {
+        "ja": "元気かい？",
+        "en": "How are you doing?"
+      },
+      {
+        "ja": "もう帰るのかい？",
+        "en": "Leaving already?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8b%e3%81%84-kai-meaning/"
+  },
+  {
+    "id": "n4-29",
+    "level": "N4",
+    "pattern": "かもしれない",
+    "romaji": "kamo shirenai",
+    "meaning": "might, maybe",
+    "formation": "Plain form + かもしれない (noun / な-adj: drop だ)",
+    "note": "About 50% sure.",
+    "examples": [
+      {
+        "ja": "午後は雨が降るかもしれません。",
+        "en": "It might rain in the afternoon."
+      },
+      {
+        "ja": "あの人は先生かもしれない。",
+        "en": "That person might be a teacher."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8b%e3%82%82%e3%81%97%e3%82%8c%e3%81%aa%e3%81%84-kamo-shirenai-meaning/"
+  },
+  {
+    "id": "n4-30",
+    "level": "N4",
+    "pattern": "かな",
+    "romaji": "kana",
+    "meaning": "I wonder",
+    "formation": "Plain form + かな (noun / な-adj: drop だ)",
+    "note": "Casual; often said to yourself.",
+    "examples": [
+      {
+        "ja": "彼は来るかな。",
+        "en": "I wonder if he’ll come."
+      },
+      {
+        "ja": "これでいいのかな。",
+        "en": "I wonder if this is okay."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8b%e3%81%aa-kana-meaning/"
+  },
+  {
+    "id": "n4-31",
+    "level": "N4",
+    "pattern": "から作る（からつくる）",
+    "romaji": "kara tsukuru",
+    "meaning": "made from (material that changes)",
+    "formation": "Material + から作る",
+    "note": "Use で when the material can still be seen.",
+    "examples": [
+      {
+        "ja": "お酒は米から作られます。",
+        "en": "Sake is made from rice."
+      },
+      {
+        "ja": "チーズは牛乳から作る。",
+        "en": "Cheese is made from milk."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8b%e3%82%89%e4%bd%9c%e3%82%8b-%e4%bd%9c%e3%82%89%e3%82%8c%e3%81%a6%e3%81%84%e3%82%8b-kara-tsukuru-meaning/"
+  },
+  {
+    "id": "n4-32",
+    "level": "N4",
+    "pattern": "きっと",
+    "romaji": "kitto",
+    "meaning": "surely, definitely",
+    "formation": "きっと + sentence (often でしょう / と思う)",
+    "note": "Shows strong belief or hope.",
+    "examples": [
+      {
+        "ja": "明日はきっと晴れるでしょう。",
+        "en": "It will surely be sunny tomorrow."
+      },
+      {
+        "ja": "きっと合格するよ。",
+        "en": "You’ll definitely pass."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8d%e3%81%a3%e3%81%a8-kitto-meaning/"
+  },
+  {
+    "id": "n4-33",
+    "level": "N4",
+    "pattern": "頃（ころ / ごろ）",
+    "romaji": "koro / goro",
+    "meaning": "around, about (time)",
+    "formation": "Time + ごろ / Plain form or Noun + の + ころ",
+    "note": "ごろ follows clock times and dates.",
+    "examples": [
+      {
+        "ja": "三時ごろ行きます。",
+        "en": "I’ll go around three."
+      },
+      {
+        "ja": "子どもの頃、よく川で遊んだ。",
+        "en": "When I was a kid, I often played by the river."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e9%a0%83-%e3%81%93%e3%82%8d-%e3%81%94%e3%82%8d-meaning/"
+  },
+  {
+    "id": "n4-34",
+    "level": "N4",
+    "pattern": "こと",
+    "romaji": "koto",
+    "meaning": "doing (turns a verb into a noun)",
+    "formation": "Verb (dictionary) + こと",
+    "note": "“The act of …”.",
+    "examples": [
+      {
+        "ja": "趣味は写真を撮ることです。",
+        "en": "My hobby is taking photos."
+      },
+      {
+        "ja": "日本語を話すことは楽しい。",
+        "en": "Speaking Japanese is fun."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%93%e3%81%a8-koto-meaning/"
+  },
+  {
+    "id": "n4-35",
+    "level": "N4",
+    "pattern": "ことがある",
+    "romaji": "koto ga aru",
+    "meaning": "there are times when",
+    "formation": "Verb (dictionary or ない-form) + ことがある",
+    "note": "With the た-form it means past experience (N5).",
+    "examples": [
+      {
+        "ja": "朝ご飯を食べないことがあります。",
+        "en": "Sometimes I skip breakfast."
+      },
+      {
+        "ja": "電車が遅れることもある。",
+        "en": "There are times when the train is late."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%93%e3%81%a8%e3%81%8c%e3%81%82%e3%82%8b-koto-ga-aru-meaning/"
+  },
+  {
+    "id": "n4-36",
+    "level": "N4",
+    "pattern": "ことができる",
+    "romaji": "koto ga dekiru",
+    "meaning": "can, be able to",
+    "formation": "Verb (dictionary) + ことができる",
+    "note": "More formal than the potential form.",
+    "examples": [
+      {
+        "ja": "私は泳ぐことができます。",
+        "en": "I can swim."
+      },
+      {
+        "ja": "ここでチケットを買うことができます。",
+        "en": "You can buy tickets here."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%93%e3%81%a8%e3%81%8c%e3%81%a7%e3%81%8d%e3%82%8b-koto-ga-dekiru-%e3%81%93%e3%81%a8%e3%81%8c%e3%81%a7%e3%81%8d%e3%81%be%e3%81%99%e3%81%8b-meaning/"
+  },
+  {
+    "id": "n4-37",
+    "level": "N4",
+    "pattern": "ことになる",
+    "romaji": "koto ni naru",
+    "meaning": "it has been decided that",
+    "formation": "Verb (dictionary or ない-form) + ことになる",
+    "note": "A decision made by others or by circumstances.",
+    "examples": [
+      {
+        "ja": "来月、大阪に引っ越すことになりました。",
+        "en": "It’s been decided that I’ll move to Osaka next month."
+      },
+      {
+        "ja": "会議は中止することになった。",
+        "en": "The meeting ended up being canceled."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%93%e3%81%a8%e3%81%ab%e3%81%aa%e3%82%8b-koto-ni-naru-meaning/"
+  },
+  {
+    "id": "n4-38",
+    "level": "N4",
+    "pattern": "ことにする",
+    "romaji": "koto ni suru",
+    "meaning": "decide to",
+    "formation": "Verb (dictionary or ない-form) + ことにする",
+    "note": "Your own decision.",
+    "examples": [
+      {
+        "ja": "毎日運動することにしました。",
+        "en": "I decided to exercise every day."
+      },
+      {
+        "ja": "もうお菓子は食べないことにする。",
+        "en": "I’ve decided not to eat sweets anymore."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%93%e3%81%a8%e3%81%ab%e3%81%99%e3%82%8b-koto-ni-suru-meaning/"
+  },
+  {
+    "id": "n4-39",
+    "level": "N4",
+    "pattern": "くする",
+    "romaji": "ku suru",
+    "meaning": "make (something) more …",
+    "formation": "い-adj (い → く) + する",
+    "note": "Changing something on purpose.",
+    "examples": [
+      {
+        "ja": "部屋を明るくしてください。",
+        "en": "Please make the room brighter."
+      },
+      {
+        "ja": "音を小さくしました。",
+        "en": "I turned the volume down."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%84-adjective-%e3%81%8f%e3%81%99%e3%82%8b-ku-suru-meaning/"
+  },
+  {
+    "id": "n4-40",
+    "level": "N4",
+    "pattern": "急に（きゅうに）",
+    "romaji": "kyuu ni",
+    "meaning": "suddenly",
+    "formation": "急に + Verb",
+    "note": "",
+    "examples": [
+      {
+        "ja": "急に雨が降ってきた。",
+        "en": "It suddenly started raining."
+      },
+      {
+        "ja": "彼は急に立ち上がった。",
+        "en": "He suddenly stood up."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e6%80%a5%e3%81%ab-kyuu-ni-meaning/"
+  },
+  {
+    "id": "n4-41",
+    "level": "N4",
+    "pattern": "までに",
+    "romaji": "made ni",
+    "meaning": "by (deadline)",
+    "formation": "Time + までに",
+    "note": "Compare まで, which means “until”.",
+    "examples": [
+      {
+        "ja": "五時までに帰ってきてね。",
+        "en": "Be back by five, okay?"
+      },
+      {
+        "ja": "金曜日までにレポートを出してください。",
+        "en": "Please hand in the report by Friday."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%be%e3%81%a7%e3%81%ab-made-ni-meaning/"
+  },
+  {
+    "id": "n4-42",
+    "level": "N4",
+    "pattern": "まま",
+    "romaji": "mama",
+    "meaning": "as it is, unchanged",
+    "formation": "Verb た-form / ない-form + まま; Noun + の + まま",
+    "note": "",
+    "examples": [
+      {
+        "ja": "靴をはいたまま部屋に入らないでください。",
+        "en": "Please don’t come into the room with your shoes on."
+      },
+      {
+        "ja": "電気をつけたまま寝てしまった。",
+        "en": "I fell asleep with the light on."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%be%e3%81%be-mama-meaning/"
+  },
+  {
+    "id": "n4-43",
+    "level": "N4",
+    "pattern": "または",
+    "romaji": "matawa",
+    "meaning": "or (formal)",
+    "formation": "A + または + B",
+    "note": "",
+    "examples": [
+      {
+        "ja": "黒または青のペンで書いてください。",
+        "en": "Please write in black or blue pen."
+      },
+      {
+        "ja": "電話またはメールで連絡してください。",
+        "en": "Please contact us by phone or email."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%be%e3%81%9f%e3%81%af-matawa-meaning/"
+  },
+  {
+    "id": "n4-44",
+    "level": "N4",
+    "pattern": "みたいだ",
+    "romaji": "mitai da",
+    "meaning": "seems; like",
+    "formation": "Plain form + みたいだ (noun / な-adj: drop だ)",
+    "note": "Casual version of ようだ.",
+    "examples": [
+      {
+        "ja": "外は寒いみたいだ。",
+        "en": "It seems cold outside."
+      },
+      {
+        "ja": "彼女はまるで子どもみたいだ。",
+        "en": "She’s just like a child."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%bf%e3%81%9f%e3%81%84%e3%81%a0-mitai-da-meaning/"
+  },
+  {
+    "id": "n4-45",
+    "level": "N4",
+    "pattern": "みたいな",
+    "romaji": "mitai na",
+    "meaning": "like, such as (before a noun)",
+    "formation": "Noun + みたいな + Noun",
+    "note": "",
+    "examples": [
+      {
+        "ja": "夢みたいな話ですね。",
+        "en": "That sounds like a dream."
+      },
+      {
+        "ja": "東京みたいな大きな町に住みたい。",
+        "en": "I want to live in a big city like Tokyo."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%bf%e3%81%9f%e3%81%84%e3%81%aa-mitai-na-meaning/"
+  },
+  {
+    "id": "n4-46",
+    "level": "N4",
+    "pattern": "みたいに",
+    "romaji": "mitai ni",
+    "meaning": "like, in a way like (before a verb or adjective)",
+    "formation": "Noun + みたいに + Verb / Adjective",
+    "note": "",
+    "examples": [
+      {
+        "ja": "子どもみたいに笑った。",
+        "en": "He laughed like a child."
+      },
+      {
+        "ja": "プロみたいに上手に歌いますね。",
+        "en": "You sing as well as a pro."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%bf%e3%81%9f%e3%81%84%e3%81%ab-mitai-ni-meaning/"
+  },
+  {
+    "id": "n4-47",
+    "level": "N4",
+    "pattern": "も",
+    "romaji": "mo",
+    "meaning": "as many as, as much as",
+    "formation": "Number + counter + も",
+    "note": "Stresses that the amount is large.",
+    "examples": [
+      {
+        "ja": "三時間も待ちました。",
+        "en": "I waited for three whole hours."
+      },
+      {
+        "ja": "本を十冊も買った。",
+        "en": "I bought as many as ten books."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%82-mo-meaning-as-many-as/"
+  },
+  {
+    "id": "n4-48",
+    "level": "N4",
+    "pattern": "な",
+    "romaji": "na",
+    "meaning": "don’t! (prohibition)",
+    "formation": "Verb (dictionary) + な",
+    "note": "Very strong; seen on signs or in rough speech.",
+    "examples": [
+      {
+        "ja": "触るな！",
+        "en": "Don’t touch!"
+      },
+      {
+        "ja": "危ないから走るな。",
+        "en": "Don’t run, it’s dangerous."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa-na-meaning-order-dont-do/"
+  },
+  {
+    "id": "n4-49",
+    "level": "N4",
+    "pattern": "など",
+    "romaji": "nado",
+    "meaning": "and so on, etc.",
+    "formation": "Noun + など",
+    "note": "",
+    "examples": [
+      {
+        "ja": "公園や図書館などがあります。",
+        "en": "There are parks, libraries and so on."
+      },
+      {
+        "ja": "野菜や果物などを買いました。",
+        "en": "I bought vegetables, fruit and things like that."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%a9-nado-meaning/"
+  },
+  {
+    "id": "n4-50",
+    "level": "N4",
+    "pattern": "ながら",
+    "romaji": "nagara",
+    "meaning": "while doing (two actions at once)",
+    "formation": "Verb ます-stem + ながら",
+    "note": "The main action comes at the end.",
+    "examples": [
+      {
+        "ja": "音楽を聞きながら勉強します。",
+        "en": "I study while listening to music."
+      },
+      {
+        "ja": "歩きながら電話しないでください。",
+        "en": "Please don’t talk on the phone while walking."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%8c%e3%82%89-nagara-meaning/"
+  },
+  {
+    "id": "n4-51",
+    "level": "N4",
+    "pattern": "なかなか～ない",
+    "romaji": "nakanaka~nai",
+    "meaning": "not easily, just won’t",
+    "formation": "なかなか + negative",
+    "note": "Something doesn’t happen as you hoped.",
+    "examples": [
+      {
+        "ja": "バスがなかなか来ない。",
+        "en": "The bus just won’t come."
+      },
+      {
+        "ja": "漢字がなかなか覚えられません。",
+        "en": "I can’t seem to memorize kanji."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%8b%e3%81%aa%e3%81%8b%ef%bd%9e%e3%81%aa%e3%81%84-nakanaka-nai-meaning/"
+  },
+  {
+    "id": "n4-52",
+    "level": "N4",
+    "pattern": "なければいけない",
+    "romaji": "nakereba ikenai",
+    "meaning": "must, have to",
+    "formation": "Verb ない-form (drop い) + ければいけない",
+    "note": "",
+    "examples": [
+      {
+        "ja": "明日は早く起きなければいけない。",
+        "en": "I have to get up early tomorrow."
+      },
+      {
+        "ja": "薬を飲まなければいけません。",
+        "en": "I have to take my medicine."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%91%e3%82%8c%e3%81%b0%e3%81%84%e3%81%91%e3%81%aa%e3%81%84-nakereba-ikenai-meaning/"
+  },
+  {
+    "id": "n4-53",
+    "level": "N4",
+    "pattern": "なければならない",
+    "romaji": "nakereba naranai",
+    "meaning": "must (obligation, rule)",
+    "formation": "Verb ない-form (drop い) + ければならない",
+    "note": "More formal; for rules and duties.",
+    "examples": [
+      {
+        "ja": "運転する人は免許を持っていなければならない。",
+        "en": "Drivers must have a license."
+      },
+      {
+        "ja": "税金を払わなければなりません。",
+        "en": "You must pay taxes."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%91%e3%82%8c%e3%81%b0%e3%81%aa%e3%82%89%e3%81%aa%e3%81%84-nakereba-naranai-meaning/"
+  },
+  {
+    "id": "n4-54",
+    "level": "N4",
+    "pattern": "なら",
+    "romaji": "nara",
+    "meaning": "if (that’s the case)",
+    "formation": "Plain form / Noun + なら",
+    "note": "Often reacts to what someone just said.",
+    "examples": [
+      {
+        "ja": "京都に行くなら、お寺を見たほうがいい。",
+        "en": "If you’re going to Kyoto, you should see the temples."
+      },
+      {
+        "ja": "ビールならありますよ。",
+        "en": "If it’s beer you want, we have some."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%82%89-nara-meaning/"
+  },
+  {
+    "id": "n4-55",
+    "level": "N4",
+    "pattern": "なさい",
+    "romaji": "nasai",
+    "meaning": "do it (command)",
+    "formation": "Verb ます-stem + なさい",
+    "note": "Used by parents and teachers, and in test instructions.",
+    "examples": [
+      {
+        "ja": "早く寝なさい。",
+        "en": "Go to bed now."
+      },
+      {
+        "ja": "次の質問に答えなさい。",
+        "en": "Answer the following questions."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%95%e3%81%84-nasai-meaning/"
+  },
+  {
+    "id": "n4-56",
+    "level": "N4",
+    "pattern": "なさる",
+    "romaji": "nasaru",
+    "meaning": "do (honorific)",
+    "formation": "Honorific of する",
+    "note": "",
+    "examples": [
+      {
+        "ja": "先生は何をなさっていますか。",
+        "en": "What is the teacher doing?"
+      },
+      {
+        "ja": "どうなさいましたか。",
+        "en": "What seems to be the problem?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa%e3%81%95%e3%82%8b-nasaru-%e3%81%aa%e3%81%95%e3%81%84%e3%81%be%e3%81%99-meaning/"
+  },
+  {
+    "id": "n4-57",
+    "level": "N4",
+    "pattern": "に気がつく（にきがつく）",
+    "romaji": "ni ki ga tsuku",
+    "meaning": "notice",
+    "formation": "Noun + に気がつく",
+    "note": "",
+    "examples": [
+      {
+        "ja": "間違いに気がつきました。",
+        "en": "I noticed a mistake."
+      },
+      {
+        "ja": "彼は私に気がつかなかった。",
+        "en": "He didn’t notice me."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%ab%e6%b0%97%e3%81%8c%e3%81%a4%e3%81%8f-ni-ki-ga-tsuku-meaning/"
+  },
+  {
+    "id": "n4-58",
+    "level": "N4",
+    "pattern": "に見える（にみえる）",
+    "romaji": "ni mieru",
+    "meaning": "look, appear",
+    "formation": "Noun / な-adj + に見える; い-adj (い → く) + 見える",
+    "note": "Based on how something looks.",
+    "examples": [
+      {
+        "ja": "彼は二十歳に見えます。",
+        "en": "He looks twenty."
+      },
+      {
+        "ja": "このかばんは高く見える。",
+        "en": "This bag looks expensive."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%ab%e3%81%bf%e3%81%88%e3%82%8b-%e3%81%ab%e8%a6%8b%e3%81%88%e3%82%8b-ni-mieru-meaning/"
+  },
+  {
+    "id": "n4-59",
+    "level": "N4",
+    "pattern": "にする",
+    "romaji": "ni suru",
+    "meaning": "make (something) … (な-adj)",
+    "formation": "な-adj / Noun + にする",
+    "note": "Like くする, but for な-adjectives and nouns.",
+    "examples": [
+      {
+        "ja": "部屋をきれいにしましょう。",
+        "en": "Let’s tidy up the room."
+      },
+      {
+        "ja": "静かにしてください。",
+        "en": "Please be quiet."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%aa-adjective-%e3%81%ab%e3%81%99%e3%82%8b-ni-suru-meaning/"
+  },
+  {
+    "id": "n4-60",
+    "level": "N4",
+    "pattern": "にくい",
+    "romaji": "nikui",
+    "meaning": "hard to do",
+    "formation": "Verb ます-stem + にくい",
+    "note": "",
+    "examples": [
+      {
+        "ja": "この字は小さくて読みにくい。",
+        "en": "This writing is small and hard to read."
+      },
+      {
+        "ja": "この靴は歩きにくいです。",
+        "en": "These shoes are hard to walk in."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%ab%e3%81%8f%e3%81%84-nikui-meaning/"
+  },
+  {
+    "id": "n4-61",
+    "level": "N4",
+    "pattern": "の中で（のなかで）",
+    "romaji": "no naka de",
+    "meaning": "among, in (a group)",
+    "formation": "Group + の中で",
+    "note": "Used when comparing.",
+    "examples": [
+      {
+        "ja": "スポーツの中で何が一番好きですか。",
+        "en": "Of all sports, which do you like best?"
+      },
+      {
+        "ja": "家族の中で私が一番背が高い。",
+        "en": "I’m the tallest in my family."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%ae%e4%b8%ad%e3%81%a7-no-naka-de-meaning/"
+  },
+  {
+    "id": "n4-62",
+    "level": "N4",
+    "pattern": "のに",
+    "romaji": "noni",
+    "meaning": "even though, despite",
+    "formation": "Plain form + のに (noun / な-adj + な + のに)",
+    "note": "Shows surprise, frustration or disappointment.",
+    "examples": [
+      {
+        "ja": "薬を飲んだのに、まだ頭が痛い。",
+        "en": "Even though I took medicine, I still have a headache."
+      },
+      {
+        "ja": "日曜日なのに、仕事に行きます。",
+        "en": "Even though it’s Sunday, I’m going to work."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%ae%e3%81%ab-noni-meaning-even-though/"
+  },
+  {
+    "id": "n4-63",
+    "level": "N4",
+    "pattern": "のに",
+    "romaji": "noni",
+    "meaning": "in order to, for",
+    "formation": "Verb (dictionary) + のに",
+    "note": "Often with 使う, 便利, 必要 or かかる.",
+    "examples": [
+      {
+        "ja": "このはさみは紙を切るのに使います。",
+        "en": "These scissors are for cutting paper."
+      },
+      {
+        "ja": "駅まで行くのに三十分かかる。",
+        "en": "It takes thirty minutes to get to the station."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%ae%e3%81%ab-noni-meaning-to-do/"
+  },
+  {
+    "id": "n4-64",
+    "level": "N4",
+    "pattern": "のは〜だ",
+    "romaji": "nowa~da",
+    "meaning": "the one that … is",
+    "formation": "Plain form + のは + X + だ",
+    "note": "Puts the focus on X.",
+    "examples": [
+      {
+        "ja": "私が好きなのは夏です。",
+        "en": "What I like is summer."
+      },
+      {
+        "ja": "昨日来たのは田中さんだ。",
+        "en": "The person who came yesterday was Tanaka."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%ae%e3%81%af%e3%80%9c%e3%81%a0-nowa-da-meaning/"
+  },
+  {
+    "id": "n4-65",
+    "level": "N4",
+    "pattern": "お～ください",
+    "romaji": "o~kudasai",
+    "meaning": "please do (honorific request)",
+    "formation": "お + Verb ます-stem + ください",
+    "note": "Polite requests, e.g. from staff.",
+    "examples": [
+      {
+        "ja": "少々お待ちください。",
+        "en": "Please wait a moment."
+      },
+      {
+        "ja": "こちらにお座りください。",
+        "en": "Please have a seat here."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8a%ef%bd%9e%e3%81%8f%e3%81%a0%e3%81%95%e3%81%84-o-kudasai-meaning/"
+  },
+  {
+    "id": "n4-66",
+    "level": "N4",
+    "pattern": "お～になる",
+    "romaji": "o~ni naru",
+    "meaning": "(someone respected) does",
+    "formation": "お + Verb ます-stem + になる",
+    "note": "Respectful way to describe a superior’s action.",
+    "examples": [
+      {
+        "ja": "先生はもうお帰りになりました。",
+        "en": "The teacher has already gone home."
+      },
+      {
+        "ja": "この本をお読みになりましたか。",
+        "en": "Have you read this book?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8a%ef%bd%9e%e3%81%ab%e3%81%aa%e3%82%8b-o-ni-naru-meaning/"
+  },
+  {
+    "id": "n4-67",
+    "level": "N4",
+    "pattern": "おきに",
+    "romaji": "oki ni",
+    "meaning": "every (interval), at intervals of",
+    "formation": "Number + counter + おきに",
+    "note": "",
+    "examples": [
+      {
+        "ja": "一日おきにジムに行きます。",
+        "en": "I go to the gym every other day."
+      },
+      {
+        "ja": "十分おきにバスが来ます。",
+        "en": "A bus comes every ten minutes."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%8a%e3%81%8d%e3%81%ab-oki-ni-meaning/"
+  },
+  {
+    "id": "n4-68",
+    "level": "N4",
+    "pattern": "終わる（おわる）",
+    "romaji": "owaru",
+    "meaning": "finish doing",
+    "formation": "Verb ます-stem + 終わる",
+    "note": "",
+    "examples": [
+      {
+        "ja": "その本はもう読み終わりました。",
+        "en": "I’ve already finished reading that book."
+      },
+      {
+        "ja": "食べ終わったら、お皿を洗ってね。",
+        "en": "When you’ve finished eating, wash your plate."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e7%b5%82%e3%82%8f%e3%82%8b-%e3%81%8a%e3%82%8f%e3%82%8b-owaru-meaning/"
+  },
+  {
+    "id": "n4-69",
+    "level": "N4",
+    "pattern": "られる",
+    "romaji": "rareru",
+    "meaning": "can (potential form)",
+    "formation": "Group 2: る → られる. Group 1: う-row → え-row + る. 来る → 来られる",
+    "note": "In casual speech ら is often dropped (見れる).",
+    "examples": [
+      {
+        "ja": "私は納豆が食べられません。",
+        "en": "I can’t eat natto."
+      },
+      {
+        "ja": "明日は来られますか。",
+        "en": "Can you come tomorrow?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%89%e3%82%8c%e3%82%8b-rareru-japanese-potential-form/"
+  },
+  {
+    "id": "n4-70",
+    "level": "N4",
+    "pattern": "らしい",
+    "romaji": "rashii",
+    "meaning": "seems; I hear that",
+    "formation": "Plain form + らしい (noun / な-adj: drop だ)",
+    "note": "Based on something you heard or saw.",
+    "examples": [
+      {
+        "ja": "田中さんは来月結婚するらしい。",
+        "en": "I hear Tanaka is getting married next month."
+      },
+      {
+        "ja": "明日は雪らしいよ。",
+        "en": "Apparently it’ll snow tomorrow."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%89%e3%81%97%e3%81%84-rashii-meaning/"
+  },
+  {
+    "id": "n4-71",
+    "level": "N4",
+    "pattern": "さ",
+    "romaji": "sa",
+    "meaning": "-ness (adjective → noun)",
+    "formation": "Adjective stem + さ",
+    "note": "高さ = height, 大切さ = importance.",
+    "examples": [
+      {
+        "ja": "この山の高さは三千メートルです。",
+        "en": "This mountain is 3,000 meters high."
+      },
+      {
+        "ja": "健康の大切さが分かりました。",
+        "en": "I realized how important health is."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%95-sa-meaning/"
+  },
+  {
+    "id": "n4-72",
+    "level": "N4",
+    "pattern": "さっき",
+    "romaji": "sakki",
+    "meaning": "a little while ago",
+    "formation": "さっき + sentence",
+    "note": "Casual.",
+    "examples": [
+      {
+        "ja": "さっき駅で田中さんに会った。",
+        "en": "I ran into Tanaka at the station a moment ago."
+      },
+      {
+        "ja": "さっきの話、もう一度聞かせて。",
+        "en": "Tell me what you said just now again."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%95%e3%81%a3%e3%81%8d-sakki-meaning/"
+  },
+  {
+    "id": "n4-73",
+    "level": "N4",
+    "pattern": "させられる",
+    "romaji": "saserareru",
+    "meaning": "be made to do (causative-passive)",
+    "formation": "Causative + passive: 食べさせられる; Group 1 short form: 待たされる",
+    "note": "Doing something unwillingly.",
+    "examples": [
+      {
+        "ja": "子どもの頃、母に野菜を食べさせられた。",
+        "en": "As a kid, my mom made me eat vegetables."
+      },
+      {
+        "ja": "先輩に二時間も待たされた。",
+        "en": "My senior made me wait two whole hours."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%95%e3%81%9b%e3%82%89%e3%82%8c%e3%82%8b-saserareru-meaning-causative-passive-form/"
+  },
+  {
+    "id": "n4-74",
+    "level": "N4",
+    "pattern": "させる",
+    "romaji": "saseru",
+    "meaning": "make / let someone do (causative)",
+    "formation": "Group 1: う-row → あ-row + せる. Group 2: る → させる. する → させる, 来る → 来させる",
+    "note": "",
+    "examples": [
+      {
+        "ja": "母は弟に部屋を掃除させた。",
+        "en": "Mom made my little brother clean his room."
+      },
+      {
+        "ja": "子どもを外で遊ばせます。",
+        "en": "I let the kids play outside."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%95%e3%81%9b%e3%82%8b-saseru-causative-form-meaning/"
+  },
+  {
+    "id": "n4-75",
+    "level": "N4",
+    "pattern": "させてください",
+    "romaji": "sasete kudasai",
+    "meaning": "please let me do",
+    "formation": "Causative て-form + ください",
+    "note": "",
+    "examples": [
+      {
+        "ja": "私にやらせてください。",
+        "en": "Please let me do it."
+      },
+      {
+        "ja": "少し考えさせてください。",
+        "en": "Please let me think about it a little."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%95%e3%81%9b%e3%81%a6%e3%81%8f%e3%81%a0%e3%81%95%e3%81%84-sasete-kudasai-meaning/"
+  },
+  {
+    "id": "n4-76",
+    "level": "N4",
+    "pattern": "さすが",
+    "romaji": "sasuga",
+    "meaning": "as expected (of)",
+    "formation": "さすが + Noun / さすが（に）",
+    "note": "Praise when someone lives up to their reputation.",
+    "examples": [
+      {
+        "ja": "さすがプロですね。",
+        "en": "That’s a pro for you!"
+      },
+      {
+        "ja": "一位になったの？さすがだね。",
+        "en": "You came first? Of course you did."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%95%e3%81%99%e3%81%8c%e3%81%ab-sasuga-ni-meaning/"
+  },
+  {
+    "id": "n4-77",
+    "level": "N4",
+    "pattern": "し",
+    "romaji": "shi",
+    "meaning": "and (listing reasons)",
+    "formation": "Plain form + し",
+    "note": "Lists reasons, hinting there may be more.",
+    "examples": [
+      {
+        "ja": "この店は安いし、おいしいし、よく来ます。",
+        "en": "This place is cheap and tasty, so I come here often."
+      },
+      {
+        "ja": "雨だし、寒いし、出かけたくない。",
+        "en": "It’s raining and it’s cold — I don’t want to go out."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%97-shi-meaning/"
+  },
+  {
+    "id": "n4-78",
+    "level": "N4",
+    "pattern": "そんなに",
+    "romaji": "sonna ni",
+    "meaning": "that much, so",
+    "formation": "そんなに + adjective / negative",
+    "note": "Often with a negative: “not that much”.",
+    "examples": [
+      {
+        "ja": "そんなに高くないですよ。",
+        "en": "It isn’t that expensive."
+      },
+      {
+        "ja": "そんなに急がなくてもいい。",
+        "en": "You don’t need to hurry so much."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9d%e3%82%93%e3%81%aa%e3%81%ab-sonnna-ni-meaning/"
+  },
+  {
+    "id": "n4-79",
+    "level": "N4",
+    "pattern": "それでも",
+    "romaji": "sore demo",
+    "meaning": "even so, nevertheless",
+    "formation": "Sentence。それでも、sentence",
+    "note": "",
+    "examples": [
+      {
+        "ja": "雨が強かった。それでも、試合は続いた。",
+        "en": "The rain was heavy. Even so, the game went on."
+      },
+      {
+        "ja": "何回も失敗した。それでも、あきらめない。",
+        "en": "I’ve failed many times. Even so, I won’t give up."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9d%e3%82%8c%e3%81%a7%e3%82%82-sore-demo-meaning/"
+  },
+  {
+    "id": "n4-80",
+    "level": "N4",
+    "pattern": "それに",
+    "romaji": "sore ni",
+    "meaning": "besides, what’s more",
+    "formation": "Sentence。それに、sentence",
+    "note": "Adds another point.",
+    "examples": [
+      {
+        "ja": "この部屋は広いし、それに駅にも近い。",
+        "en": "This room is spacious, and besides, it’s close to the station."
+      },
+      {
+        "ja": "今日は疲れた。それに、お腹もすいた。",
+        "en": "I’m tired today. On top of that, I’m hungry."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9d%e3%82%8c%e3%81%ab-sore-ni-meaning/"
+  },
+  {
+    "id": "n4-81",
+    "level": "N4",
+    "pattern": "そうだ",
+    "romaji": "sou da [1]",
+    "meaning": "I heard that (hearsay)",
+    "formation": "Plain form + そうだ",
+    "note": "Passing on information from someone else.",
+    "examples": [
+      {
+        "ja": "天気予報によると、明日は雨が降るそうです。",
+        "en": "According to the forecast, it will rain tomorrow."
+      },
+      {
+        "ja": "田中さんは病気だそうだ。",
+        "en": "I heard Tanaka is sick."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9d%e3%81%86%e3%81%a0-sou-da-i-heard-that/"
+  },
+  {
+    "id": "n4-82",
+    "level": "N4",
+    "pattern": "そうだ",
+    "romaji": "sou da [2]",
+    "meaning": "looks like, seems (appearance)",
+    "formation": "Verb ます-stem / adjective stem + そうだ",
+    "note": "Based on how something looks. いい → よさそう.",
+    "examples": [
+      {
+        "ja": "このケーキはおいしそうですね。",
+        "en": "This cake looks delicious."
+      },
+      {
+        "ja": "雨が降りそうだ。",
+        "en": "It looks like it’s going to rain."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9d%e3%81%86%e3%81%a0-sou-da-looks-like/"
+  },
+  {
+    "id": "n4-83",
+    "level": "N4",
+    "pattern": "そうに / そうな",
+    "romaji": "sou ni / sou na",
+    "meaning": "looking …, …-looking",
+    "formation": "Adjective stem / Verb ます-stem + そうに + Verb, or + そうな + Noun",
+    "note": "",
+    "examples": [
+      {
+        "ja": "子どもたちは楽しそうに遊んでいる。",
+        "en": "The children are playing happily."
+      },
+      {
+        "ja": "高そうな時計ですね。",
+        "en": "That’s an expensive-looking watch."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9d%e3%81%86%e3%81%ab-%e3%81%9d%e3%81%86%e3%81%aa-sou-ni-sou-na-meaning/"
+  },
+  {
+    "id": "n4-84",
+    "level": "N4",
+    "pattern": "たばかり",
+    "romaji": "ta bakari",
+    "meaning": "just did",
+    "formation": "Verb た-form + ばかり",
+    "note": "It feels recent to the speaker, even if some time has passed.",
+    "examples": [
+      {
+        "ja": "日本に来たばかりです。",
+        "en": "I just came to Japan."
+      },
+      {
+        "ja": "今、起きたばかりなんだ。",
+        "en": "I just woke up."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9f%e3%81%b0%e3%81%8b%e3%82%8a-ta-bakari-meaning/"
+  },
+  {
+    "id": "n4-85",
+    "level": "N4",
+    "pattern": "たところ",
+    "romaji": "ta tokoro",
+    "meaning": "have just done (this moment)",
+    "formation": "Verb た-form + ところ",
+    "note": "The action ended right now.",
+    "examples": [
+      {
+        "ja": "今、家に着いたところです。",
+        "en": "I’ve just got home."
+      },
+      {
+        "ja": "授業がちょうど終わったところだ。",
+        "en": "Class has just ended."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9f%e3%81%a8%e3%81%93%e3%82%8d-ta-tokoro-meaning/"
+  },
+  {
+    "id": "n4-86",
+    "level": "N4",
+    "pattern": "他動詞 & 自動詞（たどうし & じどうし）",
+    "romaji": "tadoushi & jidoushi",
+    "meaning": "transitive and intransitive verbs",
+    "formation": "Transitive: を + verb (開ける). Intransitive: が + verb (開く)",
+    "note": "Common pairs: 開ける / 開く, 始める / 始まる, 閉める / 閉まる.",
+    "examples": [
+      {
+        "ja": "私はドアを開けました。",
+        "en": "I opened the door."
+      },
+      {
+        "ja": "ドアが開きました。",
+        "en": "The door opened."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e4%bb%96%e5%8b%95%e8%a9%9e-%e8%87%aa%e5%8b%95%e8%a9%9e-transitive-intransitive-verbs-meaning/"
+  },
+  {
+    "id": "n4-87",
+    "level": "N4",
+    "pattern": "たがる",
+    "romaji": "tagaru",
+    "meaning": "(someone else) wants to",
+    "formation": "Verb ます-stem + たがる / たがっている",
+    "note": "For other people’s wishes.",
+    "examples": [
+      {
+        "ja": "弟は新しいゲームを買いたがっている。",
+        "en": "My little brother wants to buy a new game."
+      },
+      {
+        "ja": "子どもは外に出たがります。",
+        "en": "Children like to go outside."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9f%e3%81%8c%e3%82%8b-tagaru-meaning/"
+  },
+  {
+    "id": "n4-88",
+    "level": "N4",
+    "pattern": "たら",
+    "romaji": "tara",
+    "meaning": "if; when, after",
+    "formation": "Verb た-form + ら / adj かった + ら / Noun + だったら",
+    "note": "Very common. Also means “once X happens”.",
+    "examples": [
+      {
+        "ja": "駅に着いたら、電話してください。",
+        "en": "Please call me when you get to the station."
+      },
+      {
+        "ja": "暇だったら、手伝ってくれない？",
+        "en": "If you’re free, could you help me?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9f%e3%82%89-tara-meaning/"
+  },
+  {
+    "id": "n4-89",
+    "level": "N4",
+    "pattern": "たらどう",
+    "romaji": "tara dou",
+    "meaning": "why don’t you …?",
+    "formation": "Verb た-form + らどう(ですか)",
+    "note": "A suggestion; can sound blunt.",
+    "examples": [
+      {
+        "ja": "少し休んだらどう？",
+        "en": "Why don’t you take a little rest?"
+      },
+      {
+        "ja": "先生に聞いてみたらどうですか。",
+        "en": "Why don’t you try asking the teacher?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9f%e3%82%89%e3%81%a9%e3%81%86-tara-dou-meaning/"
+  },
+  {
+    "id": "n4-90",
+    "level": "N4",
+    "pattern": "たらいいですか",
+    "romaji": "tara ii desu ka",
+    "meaning": "what should I …?",
+    "formation": "Question word + Verb た-form + らいいですか",
+    "note": "Asking for advice.",
+    "examples": [
+      {
+        "ja": "どこで降りたらいいですか。",
+        "en": "Where should I get off?"
+      },
+      {
+        "ja": "何を持って行ったらいいですか。",
+        "en": "What should I bring?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9f%e3%82%89%e3%81%84%e3%81%84%e3%81%a7%e3%81%99%e3%81%8b-tara-ii-desu-ka-meaning/"
+  },
+  {
+    "id": "n4-91",
+    "level": "N4",
+    "pattern": "て / で",
+    "romaji": "te / de",
+    "meaning": "and; because (て-form linking)",
+    "formation": "Verb / adjective て-form; Noun + で",
+    "note": "Joins clauses to show order or a reason.",
+    "examples": [
+      {
+        "ja": "朝起きて、顔を洗います。",
+        "en": "I get up and wash my face."
+      },
+      {
+        "ja": "風邪をひいて、学校を休みました。",
+        "en": "I caught a cold and missed school."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6-%e3%81%a7-te-de-conjunctive-particle-meaning/"
+  },
+  {
+    "id": "n4-92",
+    "level": "N4",
+    "pattern": "てあげる",
+    "romaji": "te ageru",
+    "meaning": "do for someone",
+    "formation": "Verb て-form + あげる",
+    "note": "Can sound condescending toward superiors.",
+    "examples": [
+      {
+        "ja": "妹に本を読んであげました。",
+        "en": "I read a book to my little sister."
+      },
+      {
+        "ja": "写真を撮ってあげましょうか。",
+        "en": "Shall I take a photo for you?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%81%82%e3%81%92%e3%82%8b-te-ageru-%e3%81%a6%e3%81%82%e3%81%92%e3%81%be%e3%81%99-te-agemasu-meaning/"
+  },
+  {
+    "id": "n4-93",
+    "level": "N4",
+    "pattern": "てほしい",
+    "romaji": "te hoshii",
+    "meaning": "want someone to do",
+    "formation": "Person + に + Verb て-form + ほしい",
+    "note": "",
+    "examples": [
+      {
+        "ja": "母には元気でいてほしい。",
+        "en": "I want my mother to stay healthy."
+      },
+      {
+        "ja": "もっとゆっくり話してほしい。",
+        "en": "I want you to speak more slowly."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e6%ac%b2%e3%81%97%e3%81%84-%e3%81%a6%e3%81%bb%e3%81%97%e3%81%84-te-hoshii-meaning/"
+  },
+  {
+    "id": "n4-94",
+    "level": "N4",
+    "pattern": "ていく",
+    "romaji": "te iku",
+    "meaning": "go on doing; do and go",
+    "formation": "Verb て-form + いく",
+    "note": "Change from now into the future, or movement away from the speaker.",
+    "examples": [
+      {
+        "ja": "これから寒くなっていきます。",
+        "en": "It’s going to keep getting colder."
+      },
+      {
+        "ja": "傘を持っていきなさい。",
+        "en": "Take an umbrella with you."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%81%84%e3%81%8f-te-iku-%e3%81%a6%e3%81%84%e3%81%a3%e3%81%9f-te-itta-meaning/"
+  },
+  {
+    "id": "n4-95",
+    "level": "N4",
+    "pattern": "ていた",
+    "romaji": "te ita",
+    "meaning": "was doing; used to be",
+    "formation": "Verb て-form + いた",
+    "note": "Past action in progress, or a past state.",
+    "examples": [
+      {
+        "ja": "昨日の夜、何をしていましたか。",
+        "en": "What were you doing last night?"
+      },
+      {
+        "ja": "子どもの頃、大阪に住んでいた。",
+        "en": "I lived in Osaka when I was a child."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%81%84%e3%81%9f-te-ita-meaning/"
+  },
+  {
+    "id": "n4-96",
+    "level": "N4",
+    "pattern": "ていただけませんか",
+    "romaji": "te itadakemasen ka",
+    "meaning": "could you please …?",
+    "formation": "Verb て-form + いただけませんか",
+    "note": "A very polite request.",
+    "examples": [
+      {
+        "ja": "もう一度説明していただけませんか。",
+        "en": "Could you please explain once more?"
+      },
+      {
+        "ja": "ここに名前を書いていただけませんか。",
+        "en": "Could you please write your name here?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%81%84%e3%81%9f%e3%81%a0%e3%81%91%e3%81%be%e3%81%9b%e3%82%93%e3%81%8b-te-itadakemasen-ka-meaning/"
+  },
+  {
+    "id": "n4-97",
+    "level": "N4",
+    "pattern": "てくれる",
+    "romaji": "te kureru",
+    "meaning": "someone does for me",
+    "formation": "Verb て-form + くれる",
+    "note": "",
+    "examples": [
+      {
+        "ja": "友達が駅まで送ってくれた。",
+        "en": "My friend took me to the station."
+      },
+      {
+        "ja": "父が料理を教えてくれました。",
+        "en": "My father taught me to cook."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%81%8f%e3%82%8c%e3%82%8b-te-kureru-%e3%81%a6%e3%81%8f%e3%82%8c%e3%81%9f-te-kureta-meaning/"
+  },
+  {
+    "id": "n4-98",
+    "level": "N4",
+    "pattern": "てくる",
+    "romaji": "te kuru",
+    "meaning": "come to; start to; go and come back",
+    "formation": "Verb て-form + くる",
+    "note": "Change up to now, or doing something and returning.",
+    "examples": [
+      {
+        "ja": "だんだん暖かくなってきました。",
+        "en": "It has gradually gotten warmer."
+      },
+      {
+        "ja": "ちょっと飲み物を買ってきます。",
+        "en": "I’ll just go buy a drink."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%81%8f%e3%82%8b-te-kuru-%e3%81%a6%e3%81%8d%e3%81%be%e3%81%99-te-kimasu-meaning/"
+  },
+  {
+    "id": "n4-99",
+    "level": "N4",
+    "pattern": "てみる",
+    "romaji": "te miru",
+    "meaning": "try doing",
+    "formation": "Verb て-form + みる",
+    "note": "",
+    "examples": [
+      {
+        "ja": "この服を着てみてもいいですか。",
+        "en": "May I try these clothes on?"
+      },
+      {
+        "ja": "一度、すしを作ってみたい。",
+        "en": "I want to try making sushi once."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%81%bf%e3%82%8b-te-miru-%e3%81%a6%e3%81%bf%e3%81%9f%e3%81%84-te-mitai-meaning/"
+  },
+  {
+    "id": "n4-100",
+    "level": "N4",
+    "pattern": "てもらう",
+    "romaji": "te morau",
+    "meaning": "have someone do (for me)",
+    "formation": "Person + に + Verb て-form + もらう",
+    "note": "",
+    "examples": [
+      {
+        "ja": "友達に宿題を手伝ってもらった。",
+        "en": "I got my friend to help with my homework."
+      },
+      {
+        "ja": "医者に診てもらったほうがいい。",
+        "en": "You should have a doctor look at it."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%82%82%e3%82%89%e3%81%86-te-morau-%e3%81%a6%e3%82%82%e3%82%89%e3%81%84%e3%81%9f%e3%81%84-te-moraitai-meaning/"
+  },
+  {
+    "id": "n4-101",
+    "level": "N4",
+    "pattern": "ておく",
+    "romaji": "te oku",
+    "meaning": "do in advance; leave as is",
+    "formation": "Verb て-form + おく",
+    "note": "Casual: とく (買っとく).",
+    "examples": [
+      {
+        "ja": "旅行の前に、ホテルを予約しておきます。",
+        "en": "I’ll book a hotel before the trip."
+      },
+      {
+        "ja": "窓を開けておいてください。",
+        "en": "Please leave the window open."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%81%8a%e3%81%8f-te-oku-meaning/"
+  },
+  {
+    "id": "n4-102",
+    "level": "N4",
+    "pattern": "てしまう / ちゃう",
+    "romaji": "te shimau / chau",
+    "meaning": "end up doing; do completely",
+    "formation": "Verb て-form + しまう (casual: ちゃう / じゃう)",
+    "note": "Often shows regret; can also mean finishing completely.",
+    "examples": [
+      {
+        "ja": "財布を忘れてしまいました。",
+        "en": "I forgot my wallet."
+      },
+      {
+        "ja": "ケーキを全部食べちゃった。",
+        "en": "I ate the whole cake."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%81%97%e3%81%be%e3%81%86-te-shimau-%e3%81%a1%e3%82%83%e3%81%86-meaning/"
+  },
+  {
+    "id": "n4-103",
+    "level": "N4",
+    "pattern": "てすみません",
+    "romaji": "te sumimasen",
+    "meaning": "sorry for doing",
+    "formation": "Verb て-form + すみません",
+    "note": "",
+    "examples": [
+      {
+        "ja": "遅くなってすみません。",
+        "en": "Sorry I’m late."
+      },
+      {
+        "ja": "何度も電話してすみません。",
+        "en": "Sorry for calling so many times."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%81%99%e3%81%bf%e3%81%be%e3%81%9b%e3%82%93-te-sumimasen-meaning/"
+  },
+  {
+    "id": "n4-104",
+    "level": "N4",
+    "pattern": "てやる",
+    "romaji": "te yaru",
+    "meaning": "do for (someone lower)",
+    "formation": "Verb て-form + やる",
+    "note": "Toward children, animals, or in rough speech.",
+    "examples": [
+      {
+        "ja": "弟に宿題を教えてやった。",
+        "en": "I helped my little brother with his homework."
+      },
+      {
+        "ja": "犬を散歩に連れていってやった。",
+        "en": "I took the dog for a walk."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%82%84%e3%82%8b-te-yaru-meaning/"
+  },
+  {
+    "id": "n4-105",
+    "level": "N4",
+    "pattern": "てよかった",
+    "romaji": "te yokatta",
+    "meaning": "glad that",
+    "formation": "Verb て-form + よかった",
+    "note": "",
+    "examples": [
+      {
+        "ja": "日本に来てよかったです。",
+        "en": "I’m glad I came to Japan."
+      },
+      {
+        "ja": "間に合ってよかった！",
+        "en": "I’m so glad we made it in time!"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%82%88%e3%81%8b%e3%81%a3%e3%81%9f-te-yokatta-meaning/"
+  },
+  {
+    "id": "n4-106",
+    "level": "N4",
+    "pattern": "ているところ",
+    "romaji": "teiru tokoro",
+    "meaning": "in the middle of doing",
+    "formation": "Verb て-form + いるところ",
+    "note": "",
+    "examples": [
+      {
+        "ja": "今、ご飯を作っているところです。",
+        "en": "I’m in the middle of cooking."
+      },
+      {
+        "ja": "今、そちらに向かっているところです。",
+        "en": "I’m on my way to you right now."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%81%84%e3%82%8b%e3%81%a8%e3%81%93%e3%82%8d-teiru-tokoro-meaning/"
+  },
+  {
+    "id": "n4-107",
+    "level": "N4",
+    "pattern": "ても",
+    "romaji": "temo",
+    "meaning": "even if",
+    "formation": "Verb / adjective て-form + も; Noun + でも",
+    "note": "",
+    "examples": [
+      {
+        "ja": "雨が降っても、行きます。",
+        "en": "Even if it rains, I’ll go."
+      },
+      {
+        "ja": "いくら高くても買います。",
+        "en": "No matter how expensive it is, I’ll buy it."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a6%e3%82%82-temo-meaning/"
+  },
+  {
+    "id": "n4-108",
+    "level": "N4",
+    "pattern": "と",
+    "romaji": "to",
+    "meaning": "when, whenever (natural result)",
+    "formation": "Verb (dictionary) + と",
+    "note": "The result always or naturally follows.",
+    "examples": [
+      {
+        "ja": "春になると、花が咲きます。",
+        "en": "When spring comes, flowers bloom."
+      },
+      {
+        "ja": "このボタンを押すと、ドアが開きます。",
+        "en": "When you press this button, the door opens."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a8-to-meaning-whenever/"
+  },
+  {
+    "id": "n4-109",
+    "level": "N4",
+    "pattern": "と言ってもいい（といってもいい）",
+    "romaji": "to ittemo ii",
+    "meaning": "you could say",
+    "formation": "Plain form + と言ってもいい",
+    "note": "",
+    "examples": [
+      {
+        "ja": "彼は天才と言ってもいい。",
+        "en": "You could call him a genius."
+      },
+      {
+        "ja": "ここは日本で一番きれいな町と言ってもいいでしょう。",
+        "en": "You could say this is the prettiest town in Japan."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a8%e8%a8%80%e3%81%a3%e3%81%a6%e3%82%82%e3%81%84%e3%81%84-to-ittemo-ii-meaning/"
+  },
+  {
+    "id": "n4-110",
+    "level": "N4",
+    "pattern": "という",
+    "romaji": "to iu",
+    "meaning": "called, named",
+    "formation": "Noun + という + Noun",
+    "note": "",
+    "examples": [
+      {
+        "ja": "「さくら」という店を知っていますか。",
+        "en": "Do you know a shop called “Sakura”?"
+      },
+      {
+        "ja": "これは何という花ですか。",
+        "en": "What is this flower called?"
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a8%e3%81%84%e3%81%86-to-iu-meaning/"
+  },
+  {
+    "id": "n4-111",
+    "level": "N4",
+    "pattern": "ということ",
+    "romaji": "to iu koto",
+    "meaning": "the fact that; it means that",
+    "formation": "Plain form + ということ",
+    "note": "",
+    "examples": [
+      {
+        "ja": "彼が国に帰ったということを聞きました。",
+        "en": "I heard that he went back to his country."
+      },
+      {
+        "ja": "「禁煙」は、たばこを吸ってはいけないということです。",
+        "en": "“禁煙” means you mustn’t smoke."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a8%e3%81%84%e3%81%86%e3%81%93%e3%81%a8-to-iu-koto-meaning/"
+  },
+  {
+    "id": "n4-112",
+    "level": "N4",
+    "pattern": "と言われている（といわれている）",
+    "romaji": "to iwarete iru",
+    "meaning": "it is said that",
+    "formation": "Plain form + と言われている",
+    "note": "A general belief or reputation.",
+    "examples": [
+      {
+        "ja": "この寺は千年前に建てられたと言われている。",
+        "en": "This temple is said to have been built a thousand years ago."
+      },
+      {
+        "ja": "日本人は長生きだと言われています。",
+        "en": "Japanese people are said to live long lives."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a8%e8%a8%80%e3%82%8f%e3%82%8c%e3%81%a6%e3%81%84%e3%82%8b-to-iwarete-iru-meaning/"
+  },
+  {
+    "id": "n4-113",
+    "level": "N4",
+    "pattern": "と聞いた（ときいた）",
+    "romaji": "to kiita",
+    "meaning": "I heard that",
+    "formation": "Plain form + と聞いた",
+    "note": "The source is often marked with から or に.",
+    "examples": [
+      {
+        "ja": "彼女は来月国に帰ると聞いた。",
+        "en": "I heard she’s going back to her country next month."
+      },
+      {
+        "ja": "先生から、試験は難しいと聞きました。",
+        "en": "I heard from the teacher that the exam is difficult."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a8%e8%81%9e%e3%81%84%e3%81%9f-%e3%81%a8%e3%81%8d%e3%81%84%e3%81%9f-to-kiita-meaning/"
+  },
+  {
+    "id": "n4-114",
+    "level": "N4",
+    "pattern": "と思う（とおもう）",
+    "romaji": "to omou",
+    "meaning": "I think that",
+    "formation": "Plain form + と思う",
+    "note": "",
+    "examples": [
+      {
+        "ja": "明日は雨だと思います。",
+        "en": "I think it’ll rain tomorrow."
+      },
+      {
+        "ja": "この本は面白いと思う。",
+        "en": "I think this book is interesting."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a8%e6%80%9d%e3%81%86-to-omou-meaning/"
+  },
+  {
+    "id": "n4-115",
+    "level": "N4",
+    "pattern": "とか～とか",
+    "romaji": "toka~toka",
+    "meaning": "things like A and B",
+    "formation": "A + とか + B + とか",
+    "note": "Casual way to give examples, like や.",
+    "examples": [
+      {
+        "ja": "休みの日は、映画とか買い物とかに行きます。",
+        "en": "On days off I go to things like movies and shopping."
+      },
+      {
+        "ja": "野菜とか果物とか、もっと食べたほうがいい。",
+        "en": "You should eat more vegetables, fruit and so on."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a8%e3%81%8b%ef%bd%9e%e3%81%a8%e3%81%8b-toka-toka-meaning/"
+  },
+  {
+    "id": "n4-116",
+    "level": "N4",
+    "pattern": "ところ",
+    "romaji": "tokoro",
+    "meaning": "about to; in the middle of; just did",
+    "formation": "Verb (dictionary) + ところ = about to; ている + ところ = in the middle of; た + ところ = just did",
+    "note": "The verb form decides the timing.",
+    "examples": [
+      {
+        "ja": "これから出かけるところです。",
+        "en": "I’m just about to go out."
+      },
+      {
+        "ja": "ちょうど電話しようと思っていたところだ。",
+        "en": "I was just thinking of calling you."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a8%e3%81%93%e3%82%8d-tokoro-meaning/"
+  },
+  {
+    "id": "n4-117",
+    "level": "N4",
+    "pattern": "続ける（つづける）",
+    "romaji": "tsuzukeru",
+    "meaning": "continue doing",
+    "formation": "Verb ます-stem + 続ける",
+    "note": "",
+    "examples": [
+      {
+        "ja": "三時間歩き続けました。",
+        "en": "I kept walking for three hours."
+      },
+      {
+        "ja": "日本語の勉強を続けたい。",
+        "en": "I want to keep studying Japanese."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e7%b6%9a%e3%81%91%e3%82%8b-tsuzukeru-%e7%b6%9a%e3%81%91%e3%81%a6%e3%81%84%e3%82%8b-meaning/"
+  },
+  {
+    "id": "n4-118",
+    "level": "N4",
+    "pattern": "って",
+    "romaji": "tte",
+    "meaning": "(casual quote); speaking of",
+    "formation": "Plain form / Noun + って",
+    "note": "Casual と / という, or a casual topic marker.",
+    "examples": [
+      {
+        "ja": "田中さんは来ないって。",
+        "en": "Tanaka says he’s not coming."
+      },
+      {
+        "ja": "東京って、本当に人が多いね。",
+        "en": "Tokyo really has a lot of people, huh."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a3%e3%81%a6-tte-meaning/"
+  },
+  {
+    "id": "n4-119",
+    "level": "N4",
+    "pattern": "受身形（うけみけい）",
+    "romaji": "ukemi kei",
+    "meaning": "passive form",
+    "formation": "Group 1: う-row → あ-row + れる. Group 2: る → られる. する → される, 来る → 来られる",
+    "note": "Also used when something bad happens to you.",
+    "examples": [
+      {
+        "ja": "先生にほめられました。",
+        "en": "I was praised by the teacher."
+      },
+      {
+        "ja": "電車で足を踏まれた。",
+        "en": "Someone stepped on my foot on the train."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e5%8f%97%e8%ba%ab%e5%bd%a2-ukemi-japanese-passive-form/"
+  },
+  {
+    "id": "n4-120",
+    "level": "N4",
+    "pattern": "は〜が… は",
+    "romaji": "wa~ga... wa",
+    "meaning": "as for A, B is …",
+    "formation": "A は B が + adjective",
+    "note": "Describes a feature of A.",
+    "examples": [
+      {
+        "ja": "象は鼻が長い。",
+        "en": "Elephants have long trunks."
+      },
+      {
+        "ja": "私は目が悪いです。",
+        "en": "I have bad eyesight."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%af%e3%80%9c%e3%81%8c%ef%bd%9e%e3%81%af-wa-ga-wa-meaning-but-however/"
+  },
+  {
+    "id": "n4-121",
+    "level": "N4",
+    "pattern": "やすい",
+    "romaji": "yasui",
+    "meaning": "easy to do",
+    "formation": "Verb ます-stem + やすい",
+    "note": "",
+    "examples": [
+      {
+        "ja": "このペンは書きやすいです。",
+        "en": "This pen is easy to write with."
+      },
+      {
+        "ja": "先生の説明は分かりやすい。",
+        "en": "The teacher’s explanations are easy to understand."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%84%e3%81%99%e3%81%84-yasui-meaning/"
+  },
+  {
+    "id": "n4-122",
+    "level": "N4",
+    "pattern": "やっと",
+    "romaji": "yatto",
+    "meaning": "finally, at last",
+    "formation": "やっと + Verb",
+    "note": "After effort or a long wait.",
+    "examples": [
+      {
+        "ja": "やっと宿題が終わった。",
+        "en": "I finally finished my homework."
+      },
+      {
+        "ja": "三十分待って、やっとバスが来た。",
+        "en": "After waiting thirty minutes, the bus finally came."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%84%e3%81%a3%e3%81%a8-yatto-meaning/"
+  },
+  {
+    "id": "n4-123",
+    "level": "N4",
+    "pattern": "より",
+    "romaji": "yori",
+    "meaning": "than; from (formal)",
+    "formation": "Noun + より",
+    "note": "“From” in this sense appears in notices and letters.",
+    "examples": [
+      {
+        "ja": "東京は大阪より人が多い。",
+        "en": "Tokyo has more people than Osaka."
+      },
+      {
+        "ja": "会議は三時より始めます。",
+        "en": "The meeting will begin at three."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%88%e3%82%8a-yori-meaning/"
+  },
+  {
+    "id": "n4-124",
+    "level": "N4",
+    "pattern": "予定だ（よていだ）",
+    "romaji": "yotei da",
+    "meaning": "plan to, be scheduled to",
+    "formation": "Verb (dictionary) / Noun + の + 予定だ",
+    "note": "More fixed than つもり.",
+    "examples": [
+      {
+        "ja": "来週、京都に行く予定です。",
+        "en": "I’m scheduled to go to Kyoto next week."
+      },
+      {
+        "ja": "会議は二時からの予定だ。",
+        "en": "The meeting is scheduled for two o’clock."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e4%ba%88%e5%ae%9a%e3%81%a0-yotei-da-meaning/"
+  },
+  {
+    "id": "n4-125",
+    "level": "N4",
+    "pattern": "ようだ",
+    "romaji": "you da",
+    "meaning": "seems, appears",
+    "formation": "Plain form + ようだ (noun + の; な-adj + な)",
+    "note": "A judgment from what you observe.",
+    "examples": [
+      {
+        "ja": "誰もいないようだ。",
+        "en": "It seems no one is here."
+      },
+      {
+        "ja": "彼は疲れているようです。",
+        "en": "He seems tired."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%88%e3%81%86%e3%81%a0-you-da-meaning/"
+  },
+  {
+    "id": "n4-126",
+    "level": "N4",
+    "pattern": "ように / ような",
+    "romaji": "you ni / you na",
+    "meaning": "like, as (before a verb / before a noun)",
+    "formation": "Noun + の + ように / ような; Verb + ように",
+    "note": "",
+    "examples": [
+      {
+        "ja": "雪のような白い花が咲いた。",
+        "en": "Snow-white flowers bloomed."
+      },
+      {
+        "ja": "私が言うようにしてください。",
+        "en": "Please do as I say."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%88%e3%81%86%e3%81%ab-%e3%82%88%e3%81%86%e3%81%aa-you-ni-na-meaning/"
+  },
+  {
+    "id": "n4-127",
+    "level": "N4",
+    "pattern": "ようになる",
+    "romaji": "you ni naru",
+    "meaning": "come to (be able to), start to",
+    "formation": "Verb (dictionary or potential) + ようになる",
+    "note": "A gradual change in ability or habit.",
+    "examples": [
+      {
+        "ja": "日本語が話せるようになりました。",
+        "en": "I’ve become able to speak Japanese."
+      },
+      {
+        "ja": "最近、朝早く起きるようになった。",
+        "en": "Lately I’ve started getting up early."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%88%e3%81%86%e3%81%ab%e3%81%aa%e3%82%8b-you-ni-naru-meaning/"
+  },
+  {
+    "id": "n4-128",
+    "level": "N4",
+    "pattern": "ようにする",
+    "romaji": "you ni suru",
+    "meaning": "try to, make sure to",
+    "formation": "Verb (dictionary or ない-form) + ようにする",
+    "note": "An effort to build a habit.",
+    "examples": [
+      {
+        "ja": "毎日野菜を食べるようにしています。",
+        "en": "I try to eat vegetables every day."
+      },
+      {
+        "ja": "夜遅くまで起きないようにする。",
+        "en": "I’ll make sure not to stay up late."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%88%e3%81%86%e3%81%ab%e3%81%99%e3%82%8b-you-ni-suru-%e3%82%88%e3%81%86%e3%81%ab%e3%81%97%e3%81%a6%e3%81%84%e3%82%8b-meaning/"
+  },
+  {
+    "id": "n4-129",
+    "level": "N4",
+    "pattern": "ようと思う（ようとおもう）",
+    "romaji": "you to omou",
+    "meaning": "be thinking of doing",
+    "formation": "Volitional form + と思う",
+    "note": "",
+    "examples": [
+      {
+        "ja": "来年、日本へ留学しようと思っています。",
+        "en": "I’m thinking of studying in Japan next year."
+      },
+      {
+        "ja": "今日は早く寝ようと思う。",
+        "en": "I think I’ll go to bed early today."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%82%88%e3%81%86%e3%81%a8%e6%80%9d%e3%81%86-you-to-omou-meaning/"
+  },
+  {
+    "id": "n4-130",
+    "level": "N4",
+    "pattern": "ぜひ",
+    "romaji": "zehi",
+    "meaning": "by all means, definitely",
+    "formation": "ぜひ + たい / てください",
+    "note": "A strong wish or a warm invitation.",
+    "examples": [
+      {
+        "ja": "ぜひ一度、遊びに来てください。",
+        "en": "Please do come and visit sometime."
+      },
+      {
+        "ja": "その映画はぜひ見たいです。",
+        "en": "I’d really love to see that movie."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%9c%e3%81%b2-zehi-meaning/"
+  },
+  {
+    "id": "n4-131",
+    "level": "N4",
+    "pattern": "全然～ない（ぜんぜん～ない）",
+    "romaji": "zenzen~nai",
+    "meaning": "not at all",
+    "formation": "全然 + negative",
+    "note": "",
+    "examples": [
+      {
+        "ja": "全然分かりません。",
+        "en": "I don’t understand at all."
+      },
+      {
+        "ja": "昨日は全然寝られなかった。",
+        "en": "I couldn’t sleep at all last night."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e5%85%a8%e7%84%b6%ef%bd%9e%e3%81%aa%e3%81%84-zenzen-nai-meaning/"
+  },
+  {
+    "id": "n4-132",
+    "level": "N4",
+    "pattern": "づらい",
+    "romaji": "zurai",
+    "meaning": "hard to do (it feels hard)",
+    "formation": "Verb ます-stem + づらい",
+    "note": "The difficulty is felt by the person; にくい is more objective.",
+    "examples": [
+      {
+        "ja": "この話は家族には言いづらい。",
+        "en": "This is hard to tell my family."
+      },
+      {
+        "ja": "足が痛くて歩きづらい。",
+        "en": "My leg hurts, so it’s hard to walk."
+      }
+    ],
+    "source": "https://jlptsensei.com/learn-japanese-grammar/%e3%81%a5%e3%82%89%e3%81%84-zurai-meaning/"
+  }
+]
