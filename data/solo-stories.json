@@ -1,0 +1,208 @@
+[
+  {
+    "id": "solo-routines",
+    "label": "Everyday moments",
+    "wordCount": 0,
+    "words": [],
+    "questions": [
+      {
+        "situation": "A rainy morning",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "今朝、学校に行こうと思いました。でも、雨が降っていました。傘を探しましたが、ありません。母が傘を貸してくれました。私は母にお礼を言って、家を出ました。",
+            "translation": "This morning I was going to school, but it was raining. I looked for an umbrella, but I couldn’t find one. My mother lent me an umbrella. I thanked her and left home."
+          }
+        ],
+        "question": "How did the narrator get an umbrella?",
+        "choices": [
+          "Borrowed one from their mother",
+          "Bought one at school",
+          "Found one on the train",
+          "Borrowed one from a teacher"
+        ],
+        "answer": 0,
+        "explanation": "母が傘を貸してくれました means my mother lent me an umbrella. 今朝 (けさ): this morning; 雨 (あめ): rain; 傘 (かさ): umbrella; 貸す (かす): lend."
+      },
+      {
+        "situation": "A different lunch",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "いつも家で昼ご飯を食べます。今日は友達と小さな店に行きました。私はカレーを食べたかったのですが、もうありませんでした。それで、うどんを食べました。温かくて、おいしかったです。",
+            "translation": "I usually eat lunch at home. Today I went to a small restaurant with a friend. I wanted curry, but it was already sold out. So I ate udon. It was warm and delicious."
+          }
+        ],
+        "question": "What did the narrator end up eating?",
+        "choices": [
+          "Curry",
+          "Udon",
+          "Bread",
+          "Rice balls"
+        ],
+        "answer": 1,
+        "explanation": "それで signals the resulting choice: うどん. 昼ご飯 (ひるごはん): lunch; 店 (みせ): shop/restaurant; 温かい (あたたかい): warm; おいしい: delicious."
+      },
+      {
+        "situation": "A book on the train",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "昨日、電車で本を読んでいました。駅に着いて、急いで降りました。家に帰ってから、本がないことに気がつきました。電車の中に忘れたのです。駅に電話すると、本は駅にあると言われました。",
+            "translation": "Yesterday I was reading on the train. When we arrived at the station, I got off in a hurry. After I got home, I noticed my book was missing. I had left it on the train. When I called the station, I was told the book was there."
+          }
+        ],
+        "question": "Where did the narrator leave the book?",
+        "choices": [
+          "At home",
+          "In a shop",
+          "On the train",
+          "At school"
+        ],
+        "answer": 2,
+        "explanation": "電車の中に忘れた explicitly identifies where the book was left. 電車 (でんしゃ): train; 降りる (おりる): get off; 気がつく: notice; 電話する: telephone."
+      },
+      {
+        "situation": "Studying a little each day",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "前は、日本語を一日に二時間勉強していました。でも、仕事が忙しくなって、続けられませんでした。今は毎日十分だけ勉強しています。短い時間ですが、毎日できるのが嬉しいです。来月も続けたいです。",
+            "translation": "I used to study Japanese for two hours a day. But work became busy and I couldn’t keep it up. Now I study for just ten minutes every day. It is a short time, but I’m glad I can do it daily. I want to continue next month too."
+          }
+        ],
+        "question": "How long does the narrator study each day now?",
+        "choices": [
+          "Two hours",
+          "One hour",
+          "Thirty minutes",
+          "Ten minutes"
+        ],
+        "answer": 3,
+        "explanation": "今は毎日十分だけ contrasts the current routine with the old two-hour routine. 十分 is ten minutes here, read じゅっぷん/じっぷん. 短い (みじかい): short; 来月 (らいげつ): next month."
+      },
+      {
+        "situation": "A walk with my grandfather",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "日曜日に、おじいさんと公園を歩きました。おじいさんはゆっくり歩きます。私はいつもよりゆっくり歩いて、話を聞きました。昔、この町には学校が一つしかなかったそうです。知らなかった話を聞けて、楽しかったです。",
+            "translation": "On Sunday I walked in the park with my grandfather. He walks slowly. I walked more slowly than usual and listened to him. Apparently, long ago this town had only one school. I enjoyed hearing something I hadn’t known."
+          }
+        ],
+        "question": "What did the narrator learn about the town?",
+        "choices": [
+          "It once had only one school",
+          "It had no parks",
+          "Grandfather built the station",
+          "It was much bigger before"
+        ],
+        "answer": 0,
+        "explanation": "学校が一つしかなかった means there was only one school. 日曜日 (にちようび): Sunday; 公園 (こうえん): park; 昔 (むかし): long ago; そうです here reports something heard."
+      }
+    ]
+  },
+  {
+    "id": "solo-experiences",
+    "label": "Small experiences",
+    "wordCount": 0,
+    "words": [],
+    "questions": [
+      {
+        "situation": "Cooking for a friend",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "友達がうちに来るので、初めてカレーを作りました。野菜を切るのに時間がかかりました。友達が来た時、まだできていませんでした。友達も手伝ってくれて、一緒に作りました。二人で食べたカレーは、とてもおいしかったです。",
+            "translation": "A friend was coming over, so I made curry for the first time. Cutting the vegetables took time. When my friend arrived, it wasn’t ready yet. My friend helped, and we made it together. The curry we ate together was delicious."
+          }
+        ],
+        "question": "What happened when the friend arrived?",
+        "choices": [
+          "They went to a restaurant",
+          "The friend helped finish cooking",
+          "The friend went home immediately",
+          "The narrator had already eaten"
+        ],
+        "answer": 1,
+        "explanation": "まだできていませんでした means it was not ready yet; 手伝ってくれて shows the friend helped. 初めて (はじめて): for the first time; 野菜 (やさい): vegetables; 切る (きる): cut."
+      },
+      {
+        "situation": "The wrong meeting place",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "友達と駅の前で会う約束をしました。私は三時に着きましたが、友達がいません。電話すると、友達も駅の前にいると言いました。私は東口、友達は西口にいたのです。私は西口に行って、やっと友達に会えました。",
+            "translation": "I arranged to meet a friend in front of the station. I arrived at three, but my friend wasn’t there. On the phone, my friend said they were also in front of the station. I was at the east exit, and my friend was at the west exit. I went to the west exit and finally met them."
+          }
+        ],
+        "question": "Why could they not find each other at first?",
+        "choices": [
+          "They came on different days",
+          "The friend was at home",
+          "They were at different station exits",
+          "The narrator had no phone"
+        ],
+        "answer": 2,
+        "explanation": "東口 (ひがしぐち) is the east exit; 西口 (にしぐち) is the west exit. Both arrived, but at different exits. やっと means finally."
+      },
+      {
+        "situation": "A small gift",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "母の誕生日に何をあげるか、ずっと考えていました。高い物は買えません。そこで、母が好きな花を買いました。短い手紙も書きました。母は花よりも手紙が嬉しいと言ってくれました。",
+            "translation": "I had been thinking about what to give my mother for her birthday. I couldn’t afford anything expensive. So I bought flowers she likes and wrote a short letter. My mother told me the letter made her even happier than the flowers."
+          }
+        ],
+        "question": "What made the mother happiest?",
+        "choices": [
+          "An expensive present",
+          "A new book",
+          "A restaurant meal",
+          "The letter"
+        ],
+        "answer": 3,
+        "explanation": "花よりも手紙が嬉しい compares the letter favorably with the flowers. 誕生日 (たんじょうび): birthday; 花 (はな): flowers; 手紙 (てがみ): letter; 書く (かく): write."
+      },
+      {
+        "situation": "A new neighbor",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "先週、隣に新しい人が引っ越してきました。初めは少し話しにくかったです。でも、昨日、その人が大きな荷物を持っていたので、手伝いました。日本語を勉強していると話すと、今度一緒に練習しましょうと言ってくれました。",
+            "translation": "Last week someone new moved in next door. At first I found it a little hard to talk to them. Yesterday they were carrying a large parcel, so I helped. When I said I was studying Japanese, they offered to practice together sometime."
+          }
+        ],
+        "question": "What did the neighbor offer?",
+        "choices": [
+          "To practice Japanese together",
+          "To buy the narrator a book",
+          "To move the narrator’s furniture",
+          "To find a new apartment"
+        ],
+        "answer": 0,
+        "explanation": "一緒に練習しましょう is an invitation to practice together. 隣 (となり): next door; 引っ越す (ひっこす): move house; 荷物 (にもつ): parcel/luggage; 練習 (れんしゅう): practice."
+      },
+      {
+        "situation": "An afternoon without my phone",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "今日は携帯を家に置いて、公園に行きました。初めは時間が分からなくて、少し心配でした。でも、座って周りを見ると、花や鳥に気がつきました。いつも携帯ばかり見ていたのだと思いました。明日も少し、携帯を見ない時間を作りたいです。",
+            "translation": "Today I left my phone at home and went to the park. At first I was a little worried because I didn’t know the time. But when I sat down and looked around, I noticed flowers and birds. I realized I was usually looking only at my phone. Tomorrow I want to make a little time without looking at it again."
+          }
+        ],
+        "question": "What does the narrator want to do tomorrow?",
+        "choices": [
+          "Buy a new phone",
+          "Spend some time without looking at the phone",
+          "Stay home all day",
+          "Avoid the park"
+        ],
+        "answer": 1,
+        "explanation": "携帯を見ない時間を作りたい means want to set aside time without looking at the phone. 携帯 (けいたい): mobile phone; 周り (まわり): surroundings; 鳥 (とり): bird; ばかり: only/all the time."
+      }
+    ]
+  }
+]

@@ -5,7 +5,7 @@ import type { DialogueLine, Speaker } from '../data/tests';
 
 const voiceKey = (voice: SpeechSynthesisVoice) => JSON.stringify([voice.voiceURI, voice.name, voice.lang]);
 
-export function useDialogueSpeech() {
+export function useDialogueSpeech(solo = false) {
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [selected, setSelected] = useState<Record<Speaker, string>>({ A: '', B: '' });
   const [rate, setRate] = useState(1);
@@ -33,7 +33,7 @@ export function useDialogueSpeech() {
     const synth = window.speechSynthesis;
     if (!synth) { setStatus('This browser does not support speech playback.'); return; }
     for (const speaker of ['A', 'B'] as const) {
-      try { preferences.current[speaker] = localStorage.getItem(`kiku-voice-${speaker}`) || (speaker === 'A' ? localStorage.getItem('kiku-japanese-voice') : '') || ''; } catch {}
+      try { preferences.current[speaker] = localStorage.getItem(solo ? 'kiku-narrator-voice' : `kiku-voice-${speaker}`) || (speaker === 'A' ? localStorage.getItem('kiku-japanese-voice') : '') || ''; } catch {}
     }
     const load = () => {
       const rank = (v: SpeechSynthesisVoice) => /Microsoft/i.test(v.name) ? (/Natural|Neural/i.test(v.name) ? 3 : 2) : v.default ? 1 : 0;
@@ -42,13 +42,13 @@ export function useDialogueSpeech() {
       const b = available.find(v => voiceKey(v) === preferences.current.B) || available.find(v => v !== a) || a;
       setVoices(available);
       setSelected({ A: a ? voiceKey(a) : '', B: b ? voiceKey(b) : '' });
-      setStatus(!available.length ? 'No Japanese voices available. Enable a Japanese speech voice on your device, then reload.' : available.length === 1 ? 'Only one Japanese voice is available; both speakers will use it.' : 'Choose a voice for each speaker, then play.');
+      setStatus(!available.length ? 'No Japanese voices available. Enable a Japanese speech voice on your device, then reload.' : solo ? 'Choose a narrator voice, then play the story.' : available.length === 1 ? 'Only one Japanese voice is available; both speakers will use it.' : 'Choose a voice for each speaker, then play.');
     };
     load();
     synth.addEventListener('voiceschanged', load);
     window.addEventListener('pagehide', stop);
     return () => { synth.removeEventListener('voiceschanged', load); window.removeEventListener('pagehide', stop); generation.current++; synth.cancel(); if (synth.paused) synth.resume(); };
-  }, [stop]);
+  }, [stop, solo]);
 
   const play = (lines: DialogueLine[]) => {
     if (playing) {
@@ -56,7 +56,7 @@ export function useDialogueSpeech() {
         pausedRef.current = false;
         setPaused(false);
         window.speechSynthesis.resume();
-        setStatus('Resuming conversation…');
+        setStatus(solo ? 'Resuming story…' : 'Resuming conversation…');
         const next = pendingLine.current;
         pendingLine.current = null;
         next?.();
@@ -68,23 +68,28 @@ export function useDialogueSpeech() {
       }
       return;
     }
-    if (!selected.A || !selected.B) return;
+    if (lines.some(line => !selected[line.speaker])) return;
     stop();
     const id = generation.current;
     setPlaying(true);
     const speakLine = (index: number) => {
       if (id !== generation.current) return;
       if (pausedRef.current) { pendingLine.current = () => speakLine(index); return; }
-      if (index === lines.length) { stop(); setStatus('Conversation complete. Press play to listen again.'); return; }
+      if (index === lines.length) { stop(); setStatus(solo ? 'Story complete. Press play to listen again.' : 'Conversation complete. Press play to listen again.'); return; }
       const line = lines[index];
       const speech = new SpeechSynthesisUtterance(line.text);
       utterance.current = speech;
       speech.lang = 'ja-JP'; speech.rate = rate;
       speech.voice = voices.find(v => voiceKey(v) === selected[line.speaker]) || null;
-      speech.onstart = () => { if (id === generation.current && !pausedRef.current) setStatus(`Speaker ${line.speaker} speaking · Line ${index + 1} of ${lines.length}`); };
+      speech.onstart = () => { if (id === generation.current && !pausedRef.current) setStatus(solo ? 'Narrator speaking…' : `Speaker ${line.speaker} speaking · Line ${index + 1} of ${lines.length}`); };
       speech.onend = () => speakLine(index + 1);
-      speech.onerror = () => { if (id === generation.current) { stop(); setStatus('Audio could not play. Try another voice or check your connection for online voices.'); } };
-      setStatus(`Loading Speaker ${line.speaker}…`);
+      speech.onerror = event => {
+        if (id !== generation.current) return;
+        stop();
+        // Browsers block speech until the visitor has interacted with the page (e.g. on first load).
+        setStatus(event.error === 'not-allowed' ? 'Your browser blocked autoplay. Press Play audio to start.' : 'Audio could not play. Try another voice or check your connection for online voices.');
+      };
+      setStatus(solo ? 'Loading narrator…' : `Loading Speaker ${line.speaker}…`);
       window.speechSynthesis.speak(speech);
     };
     speakLine(0);
@@ -92,11 +97,11 @@ export function useDialogueSpeech() {
   const chooseVoice = (speaker: Speaker, key: string) => {
     stop(); preferences.current[speaker] = key;
     setSelected(previous => ({ ...previous, [speaker]: key }));
-    try { localStorage.setItem(`kiku-voice-${speaker}`, key); } catch {}
-    setStatus(`Speaker ${speaker} updated. Press play to restart the conversation.`);
+    try { localStorage.setItem(solo ? 'kiku-narrator-voice' : `kiku-voice-${speaker}`, key); } catch {}
+    setStatus(solo ? 'Narrator updated. Press play to restart the story.' : `Speaker ${speaker} updated. Press play to restart the conversation.`);
   };
-  const changeRate = (value: number) => { stop(); setRate(value); setStatus('Speed updated. Press play to restart the conversation.'); };
-  const reset = () => { stop(); setStatus(voices.length ? 'Press play to listen to the conversation.' : 'No Japanese voices available.'); };
+  const changeRate = (value: number) => { stop(); setRate(value); setStatus('Speed updated. Press play to restart.'); };
+  const reset = () => { stop(); setStatus(voices.length ? 'Press play to listen.' : 'No Japanese voices available.'); };
   const stopPlayback = () => { stop(); setStatus('Playback stopped. Press play to restart.'); };
   return { voices, selected, rate, playing, paused, status, play, stopPlayback, reset, chooseVoice, changeRate, voiceKey };
 }

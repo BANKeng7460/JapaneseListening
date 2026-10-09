@@ -43,7 +43,7 @@ Each test needs id, label, wordCount, words (arrays of word, reading, meaning), 
 
 Milestones are cumulative: 1-80 draws from the first 80 vocabulary entries, excluding the welcome card. Basic grammar can be used and explained. The UI derives labels, word lists, counts, and results from the selected test.
 
-Switching tests starts a fresh attempt. Scores are session-only. Voice preferences persist per browser origin when storage is available: choose voices once again after moving from the old file page to localhost.
+Listening answers are saved per test in localStorage, so progress survives reloads and test switches; "Practice again" clears that test's saved answers. Voice preferences persist per browser origin when storage is available: choose voices once again after moving from the old file page to localhost.
 
 Changing a voice or speed stops playback; press Play to restart. Japanese voices depend on the browser/device. Online voices need a network connection. No API key or paid speech service is required.
 
@@ -56,3 +56,13 @@ Kaishi levels: Level 1 (1-20), Level 2 (1-40), Level 3 (1-60), Level 4 (1-80), L
 Every Kaishi level covers all 20 new vocabulary entries. focusCoverage maps each entry to a spoken line and inflected form; repeated spellings are checked by their intended meaning. The sidebar shows example conversation numbers. When revising lessons, keep these anchors accurate and run npm.cmd test. Original standalone lessons remain in legacy.
 
 Levels 6-10 add six conversations each: 1-120 (focus 101-120), 1-140 (121-140), 1-160 (141-160), 1-180 (161-180), and 1-200 (181-200). Each new entry has an explicit spoken example in focusCoverage. Notes explain extra vocabulary, grammar, and casual or potentially rude forms. Earlier levels remain unchanged.
+
+## Reading practice
+
+/reading provides all ten Kaishi levels: dialogue reading reuses the verified listening scripts and comprehension questions; a separate latest-20 word-card mode hides kana and meaning until revealed. The sidebar has individually expandable vocabulary hints. Reading attempts have independent session-only scores. Level changes reset reading progress and word-card reveal state. Full-sentence furigana is not provided; word readings come from the Anki export.
+
+Reading update: /reading now uses data/reading-passages.json, with two independently written prose passages and new questions per level. It no longer reads listening dialogue scripts or uses their questions/examples. Word cards still use the shared Anki vocabulary.
+
+## Solo stories
+
+/solo-stories adds ten original fictional monologues across two sets. Each uses one narrator, a separate saved narrator voice, Pause/Resume/Stop, question selection, scoring, and a transcript after answering. Data: data/solo-stories.json. Browser speech is used; the human-recorded Real-life stories genre remains separate. Vocabulary is not limited to a Kaishi level.

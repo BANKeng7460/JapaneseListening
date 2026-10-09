@@ -1,0 +1,9487 @@
+{
+  "私": [
+    {
+      "word": "私",
+      "reading": "わたし",
+      "meaning": "I (polite, general)"
+    }
+  ],
+  "彼": [
+    {
+      "word": "彼",
+      "reading": "かれ",
+      "meaning": "he, him"
+    }
+  ],
+  "好き": [
+    {
+      "word": "好き",
+      "reading": "すき",
+      "meaning": "like, fond of"
+    }
+  ],
+  "人": [
+    {
+      "word": "人",
+      "reading": "ひと",
+      "meaning": "person"
+    },
+    {
+      "word": "人",
+      "reading": "じん",
+      "meaning": "person from (nationality)"
+    }
+  ],
+  "日本語": [
+    {
+      "word": "日本語",
+      "reading": "にほんご",
+      "meaning": "Japanese language"
+    }
+  ],
+  "勉強": [
+    {
+      "word": "勉強",
+      "reading": "べんきょう",
+      "meaning": "study"
+    }
+  ],
+  "本": [
+    {
+      "word": "本",
+      "reading": "ほん",
+      "meaning": "book"
+    }
+  ],
+  "何": [
+    {
+      "word": "何",
+      "reading": "なに・なん",
+      "meaning": "what"
+    }
+  ],
+  "毎日": [
+    {
+      "word": "毎日",
+      "reading": "まいにち",
+      "meaning": "every day"
+    }
+  ],
+  "兄": [
+    {
+      "word": "兄",
+      "reading": "あに",
+      "meaning": "older brother"
+    }
+  ],
+  "今": [
+    {
+      "word": "今",
+      "reading": "いま",
+      "meaning": "now"
+    }
+  ],
+  "時間": [
+    {
+      "word": "時間",
+      "reading": "じかん",
+      "meaning": "time, hour"
+    }
+  ],
+  "無い": [
+    {
+      "word": "無い",
+      "reading": "ない",
+      "meaning": "to not be"
+    }
+  ],
+  "見る": [
+    {
+      "word": "見る",
+      "reading": "みる",
+      "meaning": "see, look at"
+    }
+  ],
+  "全然": [
+    {
+      "word": "全然",
+      "reading": "ぜんぜん",
+      "meaning": "(not) at all"
+    }
+  ],
+  "面白い": [
+    {
+      "word": "面白い",
+      "reading": "おもしろい",
+      "meaning": "interesting, amusing"
+    }
+  ],
+  "先生": [
+    {
+      "word": "先生",
+      "reading": "せんせい",
+      "meaning": "teacher"
+    }
+  ],
+  "名前": [
+    {
+      "word": "名前",
+      "reading": "なまえ",
+      "meaning": "name"
+    }
+  ],
+  "教える": [
+    {
+      "word": "教える",
+      "reading": "おしえる",
+      "meaning": "teach, tell"
+    }
+  ],
+  "置く": [
+    {
+      "word": "置く",
+      "reading": "おく",
+      "meaning": "put, place"
+    }
+  ],
+  "家": [
+    {
+      "word": "家",
+      "reading": "いえ",
+      "meaning": "house, home"
+    }
+  ],
+  "帰る": [
+    {
+      "word": "帰る",
+      "reading": "かえる",
+      "meaning": "return, go back"
+    }
+  ],
+  "話": [
+    {
+      "word": "話",
+      "reading": "はなし",
+      "meaning": "talk, story"
+    }
+  ],
+  "知る": [
+    {
+      "word": "知る",
+      "reading": "しる",
+      "meaning": "know"
+    }
+  ],
+  "彼女": [
+    {
+      "word": "彼女",
+      "reading": "かのじょ",
+      "meaning": "she, her, girlfriend"
+    }
+  ],
+  "日本": [
+    {
+      "word": "日本",
+      "reading": "にほん",
+      "meaning": "Japan"
+    }
+  ],
+  "学校": [
+    {
+      "word": "学校",
+      "reading": "がっこう",
+      "meaning": "school"
+    }
+  ],
+  "行く": [
+    {
+      "word": "行く",
+      "reading": "いく",
+      "meaning": "go"
+    }
+  ],
+  "明日": [
+    {
+      "word": "明日",
+      "reading": "あした",
+      "meaning": "tomorrow"
+    }
+  ],
+  "来る": [
+    {
+      "word": "来る",
+      "reading": "くる",
+      "meaning": "come"
+    }
+  ],
+  "思う": [
+    {
+      "word": "思う",
+      "reading": "おもう",
+      "meaning": "think"
+    }
+  ],
+  "会う": [
+    {
+      "word": "会う",
+      "reading": "あう",
+      "meaning": "meet"
+    }
+  ],
+  "次": [
+    {
+      "word": "次",
+      "reading": "つぎ",
+      "meaning": "next, subsequent"
+    }
+  ],
+  "方": [
+    {
+      "word": "方",
+      "reading": "ほう",
+      "meaning": "direction, side"
+    },
+    {
+      "word": "方",
+      "reading": "かた",
+      "meaning": "person (polite form)"
+    }
+  ],
+  "聞く": [
+    {
+      "word": "聞く",
+      "reading": "きく",
+      "meaning": "hear"
+    },
+    {
+      "word": "聞く",
+      "reading": "きく",
+      "meaning": "ask"
+    }
+  ],
+  "お願いします": [
+    {
+      "word": "お願いします",
+      "reading": "おねがいします",
+      "meaning": "please"
+    }
+  ],
+  "分かる": [
+    {
+      "word": "分かる",
+      "reading": "わかる",
+      "meaning": "understand"
+    }
+  ],
+  "考える": [
+    {
+      "word": "考える",
+      "reading": "かんがえる",
+      "meaning": "think, consider"
+    }
+  ],
+  "話す": [
+    {
+      "word": "話す",
+      "reading": "はなす",
+      "meaning": "talk, speak"
+    }
+  ],
+  "言う": [
+    {
+      "word": "言う",
+      "reading": "いう",
+      "meaning": "say"
+    }
+  ],
+  "友達": [
+    {
+      "word": "友達",
+      "reading": "ともだち",
+      "meaning": "friend, companion"
+    }
+  ],
+  "待つ": [
+    {
+      "word": "待つ",
+      "reading": "まつ",
+      "meaning": "wait"
+    }
+  ],
+  "昨日": [
+    {
+      "word": "昨日",
+      "reading": "きのう",
+      "meaning": "yesterday"
+    }
+  ],
+  "町": [
+    {
+      "word": "町",
+      "reading": "まち",
+      "meaning": "town, city"
+    }
+  ],
+  "高い": [
+    {
+      "word": "高い",
+      "reading": "たかい",
+      "meaning": "expensive"
+    },
+    {
+      "word": "高い",
+      "reading": "たかい",
+      "meaning": "high, tall"
+    }
+  ],
+  "一番": [
+    {
+      "word": "一番",
+      "reading": "いちばん",
+      "meaning": "(the) most"
+    }
+  ],
+  "父": [
+    {
+      "word": "父",
+      "reading": "ちち",
+      "meaning": "(speaker's) father"
+    }
+  ],
+  "大好き": [
+    {
+      "word": "大好き",
+      "reading": "だいすき",
+      "meaning": "love"
+    }
+  ],
+  "母": [
+    {
+      "word": "母",
+      "reading": "はは",
+      "meaning": "(speaker's) mother"
+    }
+  ],
+  "物": [
+    {
+      "word": "物",
+      "reading": "もの",
+      "meaning": "thing, object"
+    }
+  ],
+  "君": [
+    {
+      "word": "君",
+      "reading": "きみ",
+      "meaning": "you (to someone of equal or lower status)"
+    }
+  ],
+  "中": [
+    {
+      "word": "中",
+      "reading": "なか",
+      "meaning": "inside, middle"
+    }
+  ],
+  "出来る": [
+    {
+      "word": "出来る",
+      "reading": "できる",
+      "meaning": "can do, be good at"
+    }
+  ],
+  "本当": [
+    {
+      "word": "本当",
+      "reading": "ほんとう",
+      "meaning": "truth, reality"
+    }
+  ],
+  "立つ": [
+    {
+      "word": "立つ",
+      "reading": "たつ",
+      "meaning": "stand, rise"
+    }
+  ],
+  "前": [
+    {
+      "word": "前",
+      "reading": "まえ",
+      "meaning": "front, before"
+    }
+  ],
+  "入る": [
+    {
+      "word": "入る",
+      "reading": "はいる",
+      "meaning": "enter"
+    }
+  ],
+  "家族": [
+    {
+      "word": "家族",
+      "reading": "かぞく",
+      "meaning": "family"
+    }
+  ],
+  "住む": [
+    {
+      "word": "住む",
+      "reading": "すむ",
+      "meaning": "live, reside"
+    }
+  ],
+  "大きな": [
+    {
+      "word": "大きな",
+      "reading": "おおきな",
+      "meaning": "big, large"
+    }
+  ],
+  "大きい": [
+    {
+      "word": "大きい",
+      "reading": "おおきい",
+      "meaning": "big, large"
+    }
+  ],
+  "声": [
+    {
+      "word": "声",
+      "reading": "こえ",
+      "meaning": "voice, sound"
+    }
+  ],
+  "目": [
+    {
+      "word": "目",
+      "reading": "め",
+      "meaning": "eye"
+    }
+  ],
+  "手": [
+    {
+      "word": "手",
+      "reading": "て",
+      "meaning": "hand"
+    }
+  ],
+  "上げる": [
+    {
+      "word": "上げる",
+      "reading": "あげる",
+      "meaning": "raise, increase"
+    }
+  ],
+  "嫌い": [
+    {
+      "word": "嫌い",
+      "reading": "きらい",
+      "meaning": "dislike"
+    }
+  ],
+  "元気": [
+    {
+      "word": "元気",
+      "reading": "げんき",
+      "meaning": "energetic, healthy"
+    }
+  ],
+  "持つ": [
+    {
+      "word": "持つ",
+      "reading": "もつ",
+      "meaning": "have, hold"
+    }
+  ],
+  "使う": [
+    {
+      "word": "使う",
+      "reading": "つかう",
+      "meaning": "use"
+    }
+  ],
+  "大丈夫": [
+    {
+      "word": "大丈夫",
+      "reading": "だいじょうぶ",
+      "meaning": "alright, OK"
+    }
+  ],
+  "始める": [
+    {
+      "word": "始める",
+      "reading": "はじめる",
+      "meaning": "start"
+    }
+  ],
+  "今日": [
+    {
+      "word": "今日",
+      "reading": "きょう",
+      "meaning": "today"
+    }
+  ],
+  "部屋": [
+    {
+      "word": "部屋",
+      "reading": "へや",
+      "meaning": "room"
+    }
+  ],
+  "悪い": [
+    {
+      "word": "悪い",
+      "reading": "わるい",
+      "meaning": "bad"
+    }
+  ],
+  "食べる": [
+    {
+      "word": "食べる",
+      "reading": "たべる",
+      "meaning": "eat"
+    }
+  ],
+  "沢山": [
+    {
+      "word": "沢山",
+      "reading": "たくさん",
+      "meaning": "a lot, plenty"
+    }
+  ],
+  "場所": [
+    {
+      "word": "場所",
+      "reading": "ばしょ",
+      "meaning": "place, location"
+    }
+  ],
+  "呼ぶ": [
+    {
+      "word": "呼ぶ",
+      "reading": "よぶ",
+      "meaning": "call, name"
+    }
+  ],
+  "動く": [
+    {
+      "word": "動く",
+      "reading": "うごく",
+      "meaning": "move"
+    }
+  ],
+  "気持ち": [
+    {
+      "word": "気持ち",
+      "reading": "きもち",
+      "meaning": "feeling, sensation"
+    }
+  ],
+  "誰": [
+    {
+      "word": "誰",
+      "reading": "だれ",
+      "meaning": "who"
+    }
+  ],
+  "子": [
+    {
+      "word": "子",
+      "reading": "こ",
+      "meaning": "child, kid"
+    }
+  ],
+  "意味": [
+    {
+      "word": "意味",
+      "reading": "いみ",
+      "meaning": "meaning, significance"
+    }
+  ],
+  "言葉": [
+    {
+      "word": "言葉",
+      "reading": "ことば",
+      "meaning": "word, language"
+    }
+  ],
+  "心配": [
+    {
+      "word": "心配",
+      "reading": "しんぱい",
+      "meaning": "worry"
+    }
+  ],
+  "様子": [
+    {
+      "word": "様子",
+      "reading": "ようす",
+      "meaning": "appearance, state"
+    }
+  ],
+  "信じる": [
+    {
+      "word": "信じる",
+      "reading": "しんじる",
+      "meaning": "to believe, to trust"
+    }
+  ],
+  "自分": [
+    {
+      "word": "自分",
+      "reading": "じぶん",
+      "meaning": "self, oneself"
+    }
+  ],
+  "調べる": [
+    {
+      "word": "調べる",
+      "reading": "しらべる",
+      "meaning": "look up, search"
+    }
+  ],
+  "事": [
+    {
+      "word": "事",
+      "reading": "こと",
+      "meaning": "thing, incident"
+    }
+  ],
+  "同じ": [
+    {
+      "word": "同じ",
+      "reading": "おなじ",
+      "meaning": "same, identical"
+    }
+  ],
+  "申し訳ない": [
+    {
+      "word": "申し訳ない",
+      "reading": "もうしわけない",
+      "meaning": "sorry, inexcusable"
+    }
+  ],
+  "楽しい": [
+    {
+      "word": "楽しい",
+      "reading": "たのしい",
+      "meaning": "fun, enjoyable"
+    }
+  ],
+  "失礼します": [
+    {
+      "word": "失礼します",
+      "reading": "しつれいします",
+      "meaning": "pardon me, excuse me (e.g. when leaving)"
+    }
+  ],
+  "手伝う": [
+    {
+      "word": "手伝う",
+      "reading": "てつだう",
+      "meaning": "to help"
+    }
+  ],
+  "忙しい": [
+    {
+      "word": "忙しい",
+      "reading": "いそがしい",
+      "meaning": "busy, occupied"
+    }
+  ],
+  "仕事": [
+    {
+      "word": "仕事",
+      "reading": "しごと",
+      "meaning": "work, job"
+    }
+  ],
+  "続ける": [
+    {
+      "word": "続ける",
+      "reading": "つづける",
+      "meaning": "to continue, to keep up"
+    }
+  ],
+  "見せる": [
+    {
+      "word": "見せる",
+      "reading": "みせる",
+      "meaning": "to show"
+    }
+  ],
+  "約束": [
+    {
+      "word": "約束",
+      "reading": "やくそく",
+      "meaning": "promise, appointment"
+    }
+  ],
+  "忘れる": [
+    {
+      "word": "忘れる",
+      "reading": "わすれる",
+      "meaning": "to forget"
+    }
+  ],
+  "守る": [
+    {
+      "word": "守る",
+      "reading": "まもる",
+      "meaning": "to protect, to observe"
+    }
+  ],
+  "変える": [
+    {
+      "word": "変える",
+      "reading": "かえる",
+      "meaning": "to change, to alter"
+    }
+  ],
+  "今度": [
+    {
+      "word": "今度",
+      "reading": "こんど",
+      "meaning": "next time"
+    },
+    {
+      "word": "今度",
+      "reading": "こんど",
+      "meaning": "this time"
+    }
+  ],
+  "止める": [
+    {
+      "word": "止める",
+      "reading": "とめる",
+      "meaning": "to stop (at some place)"
+    },
+    {
+      "word": "止める",
+      "reading": "やめる",
+      "meaning": "to stop (doing something)"
+    }
+  ],
+  "頼む": [
+    {
+      "word": "頼む",
+      "reading": "たのむ",
+      "meaning": "to ask, to request"
+    }
+  ],
+  "許す": [
+    {
+      "word": "許す",
+      "reading": "ゆるす",
+      "meaning": "to forgive, to permit"
+    }
+  ],
+  "嬉しい": [
+    {
+      "word": "嬉しい",
+      "reading": "うれしい",
+      "meaning": "happy, glad"
+    }
+  ],
+  "頑張る": [
+    {
+      "word": "頑張る",
+      "reading": "がんばる",
+      "meaning": "to persevere, to do one's best"
+    }
+  ],
+  "国": [
+    {
+      "word": "国",
+      "reading": "くに",
+      "meaning": "country"
+    }
+  ],
+  "優しい": [
+    {
+      "word": "優しい",
+      "reading": "やさしい",
+      "meaning": "gentle, kind"
+    }
+  ],
+  "嫌": [
+    {
+      "word": "嫌",
+      "reading": "いや",
+      "meaning": "disliking, unwilling (to do)"
+    }
+  ],
+  "今回": [
+    {
+      "word": "今回",
+      "reading": "こんかい",
+      "meaning": "this time"
+    }
+  ],
+  "夜": [
+    {
+      "word": "夜",
+      "reading": "よる",
+      "meaning": "evening, night"
+    }
+  ],
+  "買う": [
+    {
+      "word": "買う",
+      "reading": "かう",
+      "meaning": "to buy"
+    }
+  ],
+  "今まで": [
+    {
+      "word": "今まで",
+      "reading": "いままで",
+      "meaning": "until now"
+    }
+  ],
+  "奴": [
+    {
+      "word": "奴",
+      "reading": "やつ",
+      "meaning": "that guy, (s)he (usu. derogatory)"
+    }
+  ],
+  "理解": [
+    {
+      "word": "理解",
+      "reading": "りかい",
+      "meaning": "understanding, comprehension"
+    }
+  ],
+  "夢": [
+    {
+      "word": "夢",
+      "reading": "ゆめ",
+      "meaning": "dream"
+    }
+  ],
+  "俺": [
+    {
+      "word": "俺",
+      "reading": "おれ",
+      "meaning": "I (male)"
+    }
+  ],
+  "難しい": [
+    {
+      "word": "難しい",
+      "reading": "むずかしい",
+      "meaning": "difficult"
+    }
+  ],
+  "男の子": [
+    {
+      "word": "男の子",
+      "reading": "おとこのこ",
+      "meaning": "boy"
+    }
+  ],
+  "女の子": [
+    {
+      "word": "女の子",
+      "reading": "おんなのこ",
+      "meaning": "girl"
+    }
+  ],
+  "寝る": [
+    {
+      "word": "寝る",
+      "reading": "ねる",
+      "meaning": "sleep"
+    }
+  ],
+  "伝える": [
+    {
+      "word": "伝える",
+      "reading": "つたえる",
+      "meaning": "to convey, to transmit"
+    }
+  ],
+  "小さい": [
+    {
+      "word": "小さい",
+      "reading": "ちいさい",
+      "meaning": "small"
+    }
+  ],
+  "選ぶ": [
+    {
+      "word": "選ぶ",
+      "reading": "えらぶ",
+      "meaning": "to choose, to elect"
+    }
+  ],
+  "座る": [
+    {
+      "word": "座る",
+      "reading": "すわる",
+      "meaning": "to sit"
+    }
+  ],
+  "簡単": [
+    {
+      "word": "簡単",
+      "reading": "かんたん",
+      "meaning": "simple, easy"
+    }
+  ],
+  "お願い": [
+    {
+      "word": "お願い",
+      "reading": "おねがい",
+      "meaning": "favor"
+    }
+  ],
+  "進む": [
+    {
+      "word": "進む",
+      "reading": "すすむ",
+      "meaning": "to move forward"
+    }
+  ],
+  "全く": [
+    {
+      "word": "全く",
+      "reading": "まったく",
+      "meaning": "entirely, truly"
+    }
+  ],
+  "僕": [
+    {
+      "word": "僕",
+      "reading": "ぼく",
+      "meaning": "I (male)"
+    }
+  ],
+  "水": [
+    {
+      "word": "水",
+      "reading": "みず",
+      "meaning": "water"
+    }
+  ],
+  "飲む": [
+    {
+      "word": "飲む",
+      "reading": "のむ",
+      "meaning": "drink"
+    }
+  ],
+  "暇": [
+    {
+      "word": "暇",
+      "reading": "ひま",
+      "meaning": "free, not busy"
+    }
+  ],
+  "時": [
+    {
+      "word": "時",
+      "reading": "とき",
+      "meaning": "time, occasion"
+    },
+    {
+      "word": "時",
+      "reading": "じ",
+      "meaning": "hour, o'clock"
+    }
+  ],
+  "一": [
+    {
+      "word": "一",
+      "reading": "いち",
+      "meaning": "one"
+    }
+  ],
+  "二": [
+    {
+      "word": "二",
+      "reading": "に",
+      "meaning": "two"
+    }
+  ],
+  "三": [
+    {
+      "word": "三",
+      "reading": "さん",
+      "meaning": "three"
+    }
+  ],
+  "四": [
+    {
+      "word": "四",
+      "reading": "よん・し",
+      "meaning": "four"
+    }
+  ],
+  "五": [
+    {
+      "word": "五",
+      "reading": "ご",
+      "meaning": "five"
+    }
+  ],
+  "六": [
+    {
+      "word": "六",
+      "reading": "ろく",
+      "meaning": "six"
+    }
+  ],
+  "七": [
+    {
+      "word": "七",
+      "reading": "なな・しち",
+      "meaning": "seven"
+    }
+  ],
+  "八": [
+    {
+      "word": "八",
+      "reading": "はち",
+      "meaning": "eight"
+    }
+  ],
+  "九": [
+    {
+      "word": "九",
+      "reading": "きゅう",
+      "meaning": "nine"
+    }
+  ],
+  "十": [
+    {
+      "word": "十",
+      "reading": "じゅう",
+      "meaning": "ten"
+    }
+  ],
+  "顔": [
+    {
+      "word": "顔",
+      "reading": "かお",
+      "meaning": "face"
+    }
+  ],
+  "今朝": [
+    {
+      "word": "今朝",
+      "reading": "けさ",
+      "meaning": "this morning"
+    }
+  ],
+  "出る": [
+    {
+      "word": "出る",
+      "reading": "でる",
+      "meaning": "to go out, to leave"
+    }
+  ],
+  "ご飯": [
+    {
+      "word": "ご飯",
+      "reading": "ごはん",
+      "meaning": "cooked rice, meal"
+    }
+  ],
+  "少し": [
+    {
+      "word": "少し",
+      "reading": "すこし",
+      "meaning": "a bit, a little while"
+    }
+  ],
+  "見える": [
+    {
+      "word": "見える",
+      "reading": "みえる",
+      "meaning": "be visible"
+    }
+  ],
+  "違う": [
+    {
+      "word": "違う",
+      "reading": "ちがう",
+      "meaning": "to differ, to be wrong"
+    }
+  ],
+  "男": [
+    {
+      "word": "男",
+      "reading": "おとこ",
+      "meaning": "man, male"
+    }
+  ],
+  "人間": [
+    {
+      "word": "人間",
+      "reading": "にんげん",
+      "meaning": "human being, people"
+    }
+  ],
+  "作る": [
+    {
+      "word": "作る",
+      "reading": "つくる",
+      "meaning": "to make, to create"
+    }
+  ],
+  "感じる": [
+    {
+      "word": "感じる",
+      "reading": "かんじる",
+      "meaning": "to feel, to sense"
+    }
+  ],
+  "上": [
+    {
+      "word": "上",
+      "reading": "うえ",
+      "meaning": "up, above"
+    }
+  ],
+  "強い": [
+    {
+      "word": "強い",
+      "reading": "つよい",
+      "meaning": "strong"
+    }
+  ],
+  "出す": [
+    {
+      "word": "出す",
+      "reading": "だす",
+      "meaning": "to take out"
+    }
+  ],
+  "笑う": [
+    {
+      "word": "笑う",
+      "reading": "わらう",
+      "meaning": "laugh, smile"
+    }
+  ],
+  "毎月": [
+    {
+      "word": "毎月",
+      "reading": "まいつき",
+      "meaning": "every month"
+    }
+  ],
+  "毎年": [
+    {
+      "word": "毎年",
+      "reading": "まいとし",
+      "meaning": "every year"
+    }
+  ],
+  "多く": [
+    {
+      "word": "多く",
+      "reading": "おおく",
+      "meaning": "many, much"
+    }
+  ],
+  "姉": [
+    {
+      "word": "姉",
+      "reading": "あね",
+      "meaning": "older sister"
+    }
+  ],
+  "弟": [
+    {
+      "word": "弟",
+      "reading": "おとうと",
+      "meaning": "younger brother"
+    }
+  ],
+  "妹": [
+    {
+      "word": "妹",
+      "reading": "いもうと",
+      "meaning": "younger sister"
+    }
+  ],
+  "力": [
+    {
+      "word": "力",
+      "reading": "ちから",
+      "meaning": "strength, power"
+    }
+  ],
+  "世界": [
+    {
+      "word": "世界",
+      "reading": "せかい",
+      "meaning": "world"
+    }
+  ],
+  "相手": [
+    {
+      "word": "相手",
+      "reading": "あいて",
+      "meaning": "partner, opponent"
+    }
+  ],
+  "姿": [
+    {
+      "word": "姿",
+      "reading": "すがた",
+      "meaning": "figure, appearance"
+    }
+  ],
+  "死ぬ": [
+    {
+      "word": "死ぬ",
+      "reading": "しぬ",
+      "meaning": "to die"
+    }
+  ],
+  "早い": [
+    {
+      "word": "早い",
+      "reading": "はやい",
+      "meaning": "early"
+    },
+    {
+      "word": "早い",
+      "reading": "はやい",
+      "meaning": "fast (in terms of time)"
+    }
+  ],
+  "頭": [
+    {
+      "word": "頭",
+      "reading": "あたま",
+      "meaning": "head"
+    }
+  ],
+  "戻る": [
+    {
+      "word": "戻る",
+      "reading": "もどる",
+      "meaning": "to return, to go back"
+    }
+  ],
+  "必要": [
+    {
+      "word": "必要",
+      "reading": "ひつよう",
+      "meaning": "necessary, needed"
+    }
+  ],
+  "終わる": [
+    {
+      "word": "終わる",
+      "reading": "おわる",
+      "meaning": "to finish, to end"
+    }
+  ],
+  "者": [
+    {
+      "word": "者",
+      "reading": "もの",
+      "meaning": "person"
+    }
+  ],
+  "後": [
+    {
+      "word": "後",
+      "reading": "あと",
+      "meaning": "after"
+    }
+  ],
+  "向かう": [
+    {
+      "word": "向かう",
+      "reading": "むかう",
+      "meaning": "to face, to head toward"
+    }
+  ],
+  "変わる": [
+    {
+      "word": "変わる",
+      "reading": "かわる",
+      "meaning": "to change"
+    }
+  ],
+  "凄い": [
+    {
+      "word": "凄い",
+      "reading": "すごい",
+      "meaning": "wonderful, great, a lot"
+    }
+  ],
+  "女": [
+    {
+      "word": "女",
+      "reading": "おんな",
+      "meaning": "woman, girl"
+    }
+  ],
+  "音": [
+    {
+      "word": "音",
+      "reading": "おと",
+      "meaning": "sound"
+    }
+  ],
+  "体": [
+    {
+      "word": "体",
+      "reading": "からだ",
+      "meaning": "body"
+    }
+  ],
+  "掛ける": [
+    {
+      "word": "掛ける",
+      "reading": "かける",
+      "meaning": "to hang, to put on"
+    }
+  ],
+  "歩く": [
+    {
+      "word": "歩く",
+      "reading": "あるく",
+      "meaning": "to walk, to go on foot"
+    }
+  ],
+  "存在": [
+    {
+      "word": "存在",
+      "reading": "そんざい",
+      "meaning": "existence, being"
+    }
+  ],
+  "過ぎる": [
+    {
+      "word": "過ぎる",
+      "reading": "すぎる",
+      "meaning": "to exceed, to pass by"
+    }
+  ],
+  "聞こえる": [
+    {
+      "word": "聞こえる",
+      "reading": "きこえる",
+      "meaning": "can hear"
+    }
+  ],
+  "受ける": [
+    {
+      "word": "受ける",
+      "reading": "うける",
+      "meaning": "to receive, to accept"
+    }
+  ],
+  "今年": [
+    {
+      "word": "今年",
+      "reading": "ことし",
+      "meaning": "this year"
+    }
+  ],
+  "去年": [
+    {
+      "word": "去年",
+      "reading": "きょねん",
+      "meaning": "last year"
+    }
+  ],
+  "来年": [
+    {
+      "word": "来年",
+      "reading": "らいねん",
+      "meaning": "next year"
+    }
+  ],
+  "殺す": [
+    {
+      "word": "殺す",
+      "reading": "ころす",
+      "meaning": "to kill"
+    }
+  ],
+  "絶対": [
+    {
+      "word": "絶対",
+      "reading": "ぜったい",
+      "meaning": "absolutely"
+    }
+  ],
+  "理由": [
+    {
+      "word": "理由",
+      "reading": "りゆう",
+      "meaning": "reason, cause"
+    }
+  ],
+  "口": [
+    {
+      "word": "口",
+      "reading": "くち",
+      "meaning": "mouth"
+    }
+  ],
+  "外": [
+    {
+      "word": "外",
+      "reading": "そと",
+      "meaning": "outside"
+    }
+  ],
+  "逃げる": [
+    {
+      "word": "逃げる",
+      "reading": "にげる",
+      "meaning": "to escape, to run away"
+    }
+  ],
+  "誰か": [
+    {
+      "word": "誰か",
+      "reading": "だれか",
+      "meaning": "someone"
+    }
+  ],
+  "他": [
+    {
+      "word": "他",
+      "reading": "ほか",
+      "meaning": "another, somewhere else"
+    },
+    {
+      "word": "他",
+      "reading": "た",
+      "meaning": "other (esp. people and abstract matters)"
+    }
+  ],
+  "問題": [
+    {
+      "word": "問題",
+      "reading": "もんだい",
+      "meaning": "problem, question"
+    }
+  ],
+  "今後": [
+    {
+      "word": "今後",
+      "reading": "こんご",
+      "meaning": "after this, in the future"
+    }
+  ],
+  "普通": [
+    {
+      "word": "普通",
+      "reading": "ふつう",
+      "meaning": "normal, regular, average"
+    }
+  ],
+  "心": [
+    {
+      "word": "心",
+      "reading": "こころ",
+      "meaning": "heart, mind"
+    }
+  ],
+  "春": [
+    {
+      "word": "春",
+      "reading": "はる",
+      "meaning": "spring"
+    }
+  ],
+  "夏": [
+    {
+      "word": "夏",
+      "reading": "なつ",
+      "meaning": "summer"
+    }
+  ],
+  "秋": [
+    {
+      "word": "秋",
+      "reading": "あき",
+      "meaning": "fall"
+    }
+  ],
+  "冬": [
+    {
+      "word": "冬",
+      "reading": "ふゆ",
+      "meaning": "winter"
+    }
+  ],
+  "以上": [
+    {
+      "word": "以上",
+      "reading": "いじょう",
+      "meaning": "... or more, beyond"
+    }
+  ],
+  "生きる": [
+    {
+      "word": "生きる",
+      "reading": "いきる",
+      "meaning": "to live, to exist"
+    }
+  ],
+  "最初": [
+    {
+      "word": "最初",
+      "reading": "さいしょ",
+      "meaning": "first, beginning"
+    }
+  ],
+  "最後": [
+    {
+      "word": "最後",
+      "reading": "さいご",
+      "meaning": "last, final"
+    }
+  ],
+  "日": [
+    {
+      "word": "日",
+      "reading": "ひ",
+      "meaning": "day"
+    }
+  ],
+  "間": [
+    {
+      "word": "間",
+      "reading": "あいだ",
+      "meaning": "interval"
+    },
+    {
+      "word": "間",
+      "reading": "ま",
+      "meaning": "interval, duration of time"
+    }
+  ],
+  "左": [
+    {
+      "word": "左",
+      "reading": "ひだり",
+      "meaning": "left"
+    }
+  ],
+  "右": [
+    {
+      "word": "右",
+      "reading": "みぎ",
+      "meaning": "right"
+    }
+  ],
+  "感じ": [
+    {
+      "word": "感じ",
+      "reading": "かんじ",
+      "meaning": "feeling, impression"
+    }
+  ],
+  "胸": [
+    {
+      "word": "胸",
+      "reading": "むね",
+      "meaning": "chest"
+    }
+  ],
+  "表情": [
+    {
+      "word": "表情",
+      "reading": "ひょうじょう",
+      "meaning": "expression, look"
+    }
+  ],
+  "多い": [
+    {
+      "word": "多い",
+      "reading": "おおい",
+      "meaning": "a lot"
+    }
+  ],
+  "初めて": [
+    {
+      "word": "初めて",
+      "reading": "はじめて",
+      "meaning": "for the first time"
+    }
+  ],
+  "無理": [
+    {
+      "word": "無理",
+      "reading": "むり",
+      "meaning": "unreasonable, impossible"
+    }
+  ],
+  "欲しい": [
+    {
+      "word": "欲しい",
+      "reading": "ほしい",
+      "meaning": "wanting, wishing for"
+    }
+  ],
+  "覚える": [
+    {
+      "word": "覚える",
+      "reading": "おぼえる",
+      "meaning": "to memorize"
+    }
+  ],
+  "別に": [
+    {
+      "word": "別に",
+      "reading": "べつに",
+      "meaning": "(not) particularly"
+    }
+  ],
+  "思い出す": [
+    {
+      "word": "思い出す",
+      "reading": "おもいだす",
+      "meaning": "to recollect, to recall"
+    }
+  ],
+  "入れる": [
+    {
+      "word": "入れる",
+      "reading": "いれる",
+      "meaning": "to put in"
+    }
+  ],
+  "開く": [
+    {
+      "word": "開く",
+      "reading": "あく",
+      "meaning": "to open"
+    },
+    {
+      "word": "開く",
+      "reading": "ひらく",
+      "meaning": "to open"
+    }
+  ],
+  "残る": [
+    {
+      "word": "残る",
+      "reading": "のこる",
+      "meaning": "to remain, to be left over"
+    }
+  ],
+  "答える": [
+    {
+      "word": "答える",
+      "reading": "こたえる",
+      "meaning": "to answer"
+    }
+  ],
+  "怖い": [
+    {
+      "word": "怖い",
+      "reading": "こわい",
+      "meaning": "fearful, be afraid, fearsome"
+    }
+  ],
+  "年": [
+    {
+      "word": "年",
+      "reading": "ねん",
+      "meaning": "counter for years"
+    },
+    {
+      "word": "年",
+      "reading": "とし",
+      "meaning": "year"
+    }
+  ],
+  "取る": [
+    {
+      "word": "取る",
+      "reading": "とる",
+      "meaning": "to take, to get"
+    }
+  ],
+  "全て": [
+    {
+      "word": "全て",
+      "reading": "すべて",
+      "meaning": "all, entirely"
+    }
+  ],
+  "助ける": [
+    {
+      "word": "助ける",
+      "reading": "たすける",
+      "meaning": "to help, to save"
+    }
+  ],
+  "状況": [
+    {
+      "word": "状況",
+      "reading": "じょうきょう",
+      "meaning": "state of affairs, conditions"
+    }
+  ],
+  "確認": [
+    {
+      "word": "確認",
+      "reading": "かくにん",
+      "meaning": "confirmation"
+    }
+  ],
+  "消える": [
+    {
+      "word": "消える",
+      "reading": "きえる",
+      "meaning": "to turn off, to disappear"
+    }
+  ],
+  "長い": [
+    {
+      "word": "長い",
+      "reading": "ながい",
+      "meaning": "long"
+    }
+  ],
+  "驚く": [
+    {
+      "word": "驚く",
+      "reading": "おどろく",
+      "meaning": "to be surprised, to be astonished"
+    }
+  ],
+  "腕": [
+    {
+      "word": "腕",
+      "reading": "うで",
+      "meaning": "arm"
+    }
+  ],
+  "以外": [
+    {
+      "word": "以外",
+      "reading": "いがい",
+      "meaning": "except for"
+    }
+  ],
+  "困る": [
+    {
+      "word": "困る",
+      "reading": "こまる",
+      "meaning": "to be at a loss, to be in trouble"
+    }
+  ],
+  "離れる": [
+    {
+      "word": "離れる",
+      "reading": "はなれる",
+      "meaning": "to be separated, to be apart"
+    }
+  ],
+  "気": [
+    {
+      "word": "気",
+      "reading": "き",
+      "meaning": "spirit, temperament"
+    }
+  ],
+  "書く": [
+    {
+      "word": "書く",
+      "reading": "かく",
+      "meaning": "to write"
+    }
+  ],
+  "光": [
+    {
+      "word": "光",
+      "reading": "ひかり",
+      "meaning": "light, flash"
+    }
+  ],
+  "走る": [
+    {
+      "word": "走る",
+      "reading": "はしる",
+      "meaning": "to run"
+    }
+  ],
+  "戦う": [
+    {
+      "word": "戦う",
+      "reading": "たたかう",
+      "meaning": "to wage war, to fight"
+    }
+  ],
+  "余り": [
+    {
+      "word": "余り",
+      "reading": "あまり",
+      "meaning": "remainder, leftover"
+    }
+  ],
+  "全部": [
+    {
+      "word": "全部",
+      "reading": "ぜんぶ",
+      "meaning": "all, everything"
+    }
+  ],
+  "瞬間": [
+    {
+      "word": "瞬間",
+      "reading": "しゅんかん",
+      "meaning": "instant, moment"
+    }
+  ],
+  "説明": [
+    {
+      "word": "説明",
+      "reading": "せつめい",
+      "meaning": "explanation"
+    }
+  ],
+  "決める": [
+    {
+      "word": "決める",
+      "reading": "きめる",
+      "meaning": "to decide"
+    }
+  ],
+  "女性": [
+    {
+      "word": "女性",
+      "reading": "じょせい",
+      "meaning": "woman, female"
+    }
+  ],
+  "頂く": [
+    {
+      "word": "頂く",
+      "reading": "いただく",
+      "meaning": "to receive, to take (humble form)"
+    }
+  ],
+  "敵": [
+    {
+      "word": "敵",
+      "reading": "てき",
+      "meaning": "enemy"
+    }
+  ],
+  "起きる": [
+    {
+      "word": "起きる",
+      "reading": "おきる",
+      "meaning": "to occur"
+    },
+    {
+      "word": "起きる",
+      "reading": "おきる",
+      "meaning": "to get up, to get out of bed"
+    }
+  ],
+  "落ちる": [
+    {
+      "word": "落ちる",
+      "reading": "おちる",
+      "meaning": "to fall"
+    }
+  ],
+  "足": [
+    {
+      "word": "足",
+      "reading": "あし",
+      "meaning": "leg, foot"
+    }
+  ],
+  "先に": [
+    {
+      "word": "先に",
+      "reading": "さきに",
+      "meaning": "before, ahead"
+    }
+  ],
+  "魔法": [
+    {
+      "word": "魔法",
+      "reading": "まほう",
+      "meaning": "magic"
+    }
+  ],
+  "探す": [
+    {
+      "word": "探す",
+      "reading": "さがす",
+      "meaning": "to look for, to search"
+    }
+  ],
+  "子供": [
+    {
+      "word": "子供",
+      "reading": "こども",
+      "meaning": "child, kid"
+    }
+  ],
+  "怒る": [
+    {
+      "word": "怒る",
+      "reading": "おこる",
+      "meaning": "to get angry, to scold"
+    }
+  ],
+  "笑顔": [
+    {
+      "word": "笑顔",
+      "reading": "えがお",
+      "meaning": "smile"
+    }
+  ],
+  "先輩": [
+    {
+      "word": "先輩",
+      "reading": "せんぱい",
+      "meaning": "senior (at work, school, etc.)"
+    }
+  ],
+  "続く": [
+    {
+      "word": "続く",
+      "reading": "つづく",
+      "meaning": "to continue, to keep up"
+    }
+  ],
+  "変": [
+    {
+      "word": "変",
+      "reading": "へん",
+      "meaning": "strange, funny"
+    }
+  ],
+  "読む": [
+    {
+      "word": "読む",
+      "reading": "よむ",
+      "meaning": "to read"
+    }
+  ],
+  "当然": [
+    {
+      "word": "当然",
+      "reading": "とうぜん",
+      "meaning": "natural, as a matter of course"
+    }
+  ],
+  "情報": [
+    {
+      "word": "情報",
+      "reading": "じょうほう",
+      "meaning": "information"
+    }
+  ],
+  "見つける": [
+    {
+      "word": "見つける",
+      "reading": "みつける",
+      "meaning": "to find"
+    }
+  ],
+  "少女": [
+    {
+      "word": "少女",
+      "reading": "しょうじょ",
+      "meaning": "girl"
+    }
+  ],
+  "大変": [
+    {
+      "word": "大変",
+      "reading": "たいへん",
+      "meaning": "terrible, serious, grave"
+    }
+  ],
+  "下": [
+    {
+      "word": "下",
+      "reading": "した",
+      "meaning": "under, below"
+    },
+    {
+      "word": "下",
+      "reading": "もと",
+      "meaning": "under (the supervision of)"
+    }
+  ],
+  "掛かる": [
+    {
+      "word": "掛かる",
+      "reading": "かかる",
+      "meaning": "to hang, to be hung"
+    }
+  ],
+  "一度": [
+    {
+      "word": "一度",
+      "reading": "いちど",
+      "meaning": "once"
+    }
+  ],
+  "完全": [
+    {
+      "word": "完全",
+      "reading": "かんぜん",
+      "meaning": "perfect, complete"
+    }
+  ],
+  "後ろ": [
+    {
+      "word": "後ろ",
+      "reading": "うしろ",
+      "meaning": "back, behind"
+    }
+  ],
+  "泣く": [
+    {
+      "word": "泣く",
+      "reading": "なく",
+      "meaning": "to cry"
+    }
+  ],
+  "状態": [
+    {
+      "word": "状態",
+      "reading": "じょうたい",
+      "meaning": "state, condition"
+    }
+  ],
+  "関係": [
+    {
+      "word": "関係",
+      "reading": "かんけい",
+      "meaning": "relation(ship)"
+    }
+  ],
+  "向ける": [
+    {
+      "word": "向ける",
+      "reading": "むける",
+      "meaning": "to turn toward, to point at"
+    }
+  ],
+  "奥": [
+    {
+      "word": "奥",
+      "reading": "おく",
+      "meaning": "inner part, back (of...)"
+    }
+  ],
+  "軽い": [
+    {
+      "word": "軽い",
+      "reading": "かるい",
+      "meaning": "light"
+    }
+  ],
+  "返す": [
+    {
+      "word": "返す",
+      "reading": "かえす",
+      "meaning": "to return, to repay"
+    }
+  ],
+  "現れる": [
+    {
+      "word": "現れる",
+      "reading": "あらわれる",
+      "meaning": "to appear, to emerge"
+    }
+  ],
+  "痛い": [
+    {
+      "word": "痛い",
+      "reading": "いたい",
+      "meaning": "hurt, ouch"
+    }
+  ],
+  "点ける": [
+    {
+      "word": "点ける",
+      "reading": "つける",
+      "meaning": "to switch on"
+    }
+  ],
+  "付ける": [
+    {
+      "word": "付ける",
+      "reading": "つける",
+      "meaning": "to attach, to set, to add"
+    }
+  ],
+  "一瞬": [
+    {
+      "word": "一瞬",
+      "reading": "いっしゅん",
+      "meaning": "instant, for a moment"
+    }
+  ],
+  "隠す": [
+    {
+      "word": "隠す",
+      "reading": "かくす",
+      "meaning": "to hide"
+    }
+  ],
+  "準備": [
+    {
+      "word": "準備",
+      "reading": "じゅんび",
+      "meaning": "preparation, arrangements"
+    }
+  ],
+  "落ち着く": [
+    {
+      "word": "落ち着く",
+      "reading": "おちつく",
+      "meaning": "to calm down, to settle in"
+    }
+  ],
+  "恥ずかしい": [
+    {
+      "word": "恥ずかしい",
+      "reading": "はずかしい",
+      "meaning": "embarrassing, shy"
+    }
+  ],
+  "場合": [
+    {
+      "word": "場合",
+      "reading": "ばあい",
+      "meaning": "situation, case"
+    }
+  ],
+  "髪": [
+    {
+      "word": "髪",
+      "reading": "かみ",
+      "meaning": "hair(style)"
+    }
+  ],
+  "元": [
+    {
+      "word": "元",
+      "reading": "もと",
+      "meaning": "former, ex-"
+    }
+  ],
+  "得る": [
+    {
+      "word": "得る",
+      "reading": "える",
+      "meaning": "to obtain, to gain"
+    }
+  ],
+  "来月": [
+    {
+      "word": "来月",
+      "reading": "らいげつ",
+      "meaning": "next month"
+    }
+  ],
+  "昔": [
+    {
+      "word": "昔",
+      "reading": "むかし",
+      "meaning": "a long time ago, the old days"
+    }
+  ],
+  "近い": [
+    {
+      "word": "近い",
+      "reading": "ちかい",
+      "meaning": "near"
+    }
+  ],
+  "動き": [
+    {
+      "word": "動き",
+      "reading": "うごき",
+      "meaning": "movement, motion"
+    }
+  ],
+  "見つめる": [
+    {
+      "word": "見つめる",
+      "reading": "みつめる",
+      "meaning": "to stare"
+    }
+  ],
+  "幸せ": [
+    {
+      "word": "幸せ",
+      "reading": "しあわせ",
+      "meaning": "happiness, good fortune"
+    }
+  ],
+  "記憶": [
+    {
+      "word": "記憶",
+      "reading": "きおく",
+      "meaning": "memory"
+    }
+  ],
+  "反応": [
+    {
+      "word": "反応",
+      "reading": "はんのう",
+      "meaning": "reaction, response"
+    }
+  ],
+  "私たち": [
+    {
+      "word": "私たち",
+      "reading": "わたしたち",
+      "meaning": "we"
+    }
+  ],
+  "勝手": [
+    {
+      "word": "勝手",
+      "reading": "かって",
+      "meaning": "selfish, self-centered"
+    }
+  ],
+  "攻撃": [
+    {
+      "word": "攻撃",
+      "reading": "こうげき",
+      "meaning": "attack, assault, criticism"
+    }
+  ],
+  "開ける": [
+    {
+      "word": "開ける",
+      "reading": "あける",
+      "meaning": "to open, to unlock"
+    }
+  ],
+  "黙る": [
+    {
+      "word": "黙る",
+      "reading": "だまる",
+      "meaning": "to become silent, to shut one's mouth"
+    }
+  ],
+  "最近": [
+    {
+      "word": "最近",
+      "reading": "さいきん",
+      "meaning": "recently"
+    }
+  ],
+  "全員": [
+    {
+      "word": "全員",
+      "reading": "ぜんいん",
+      "meaning": "all members, (the) entire staff"
+    }
+  ],
+  "深い": [
+    {
+      "word": "深い",
+      "reading": "ふかい",
+      "meaning": "deep, profound"
+    }
+  ],
+  "別": [
+    {
+      "word": "別",
+      "reading": "べつ",
+      "meaning": "another, different"
+    }
+  ],
+  "決まる": [
+    {
+      "word": "決まる",
+      "reading": "きまる",
+      "meaning": "to be decided"
+    }
+  ],
+  "行う": [
+    {
+      "word": "行う",
+      "reading": "おこなう",
+      "meaning": "to perform, to do"
+    }
+  ],
+  "上がる": [
+    {
+      "word": "上がる",
+      "reading": "あがる",
+      "meaning": "to go up, to rise"
+    }
+  ],
+  "隣": [
+    {
+      "word": "隣",
+      "reading": "となり",
+      "meaning": "next to, adjacent"
+    }
+  ],
+  "扉": [
+    {
+      "word": "扉",
+      "reading": "とびら",
+      "meaning": "door"
+    }
+  ],
+  "指": [
+    {
+      "word": "指",
+      "reading": "ゆび",
+      "meaning": "finger, toe"
+    }
+  ],
+  "結果": [
+    {
+      "word": "結果",
+      "reading": "けっか",
+      "meaning": "result, outcome"
+    }
+  ],
+  "与える": [
+    {
+      "word": "与える",
+      "reading": "あたえる",
+      "meaning": "to give"
+    }
+  ],
+  "道": [
+    {
+      "word": "道",
+      "reading": "みち",
+      "meaning": "road"
+    }
+  ],
+  "乗る": [
+    {
+      "word": "乗る",
+      "reading": "のる",
+      "meaning": "to ride, to take"
+    }
+  ],
+  "特に": [
+    {
+      "word": "特に",
+      "reading": "とくに",
+      "meaning": "specially, particularly"
+    }
+  ],
+  "形": [
+    {
+      "word": "形",
+      "reading": "かたち",
+      "meaning": "shape"
+    }
+  ],
+  "血": [
+    {
+      "word": "血",
+      "reading": "ち",
+      "meaning": "blood"
+    }
+  ],
+  "更に": [
+    {
+      "word": "更に",
+      "reading": "さらに",
+      "meaning": "furthermore, even more"
+    }
+  ],
+  "用意": [
+    {
+      "word": "用意",
+      "reading": "ようい",
+      "meaning": "preparation, getting ready"
+    }
+  ],
+  "負ける": [
+    {
+      "word": "負ける",
+      "reading": "まける",
+      "meaning": "to lose"
+    }
+  ],
+  "神": [
+    {
+      "word": "神",
+      "reading": "かみ",
+      "meaning": "god, spirit"
+    }
+  ],
+  "実は": [
+    {
+      "word": "実は",
+      "reading": "じつは",
+      "meaning": "actually, the truth is"
+    }
+  ],
+  "服": [
+    {
+      "word": "服",
+      "reading": "ふく",
+      "meaning": "clothes"
+    }
+  ],
+  "不思議": [
+    {
+      "word": "不思議",
+      "reading": "ふしぎ",
+      "meaning": "strange, wonderful"
+    }
+  ],
+  "意識": [
+    {
+      "word": "意識",
+      "reading": "いしき",
+      "meaning": "consciousness, awareness"
+    }
+  ],
+  "一体": [
+    {
+      "word": "一体",
+      "reading": "いったい",
+      "meaning": "what on earth, what the…"
+    }
+  ],
+  "送る": [
+    {
+      "word": "送る",
+      "reading": "おくる",
+      "meaning": "to send"
+    }
+  ],
+  "安心": [
+    {
+      "word": "安心",
+      "reading": "あんしん",
+      "meaning": "peace of mind, relief"
+    }
+  ],
+  "失う": [
+    {
+      "word": "失う",
+      "reading": "うしなう",
+      "meaning": "to lose, to miss"
+    }
+  ],
+  "行動": [
+    {
+      "word": "行動",
+      "reading": "こうどう",
+      "meaning": "action, conduct"
+    }
+  ],
+  "触れる": [
+    {
+      "word": "触れる",
+      "reading": "ふれる",
+      "meaning": "to touch, to come in contact with"
+    }
+  ],
+  "少ない": [
+    {
+      "word": "少ない",
+      "reading": "すくない",
+      "meaning": "few, little"
+    }
+  ],
+  "結局": [
+    {
+      "word": "結局",
+      "reading": "けっきょく",
+      "meaning": "after all, finally"
+    }
+  ],
+  "空": [
+    {
+      "word": "空",
+      "reading": "そら",
+      "meaning": "sky, weather"
+    }
+  ],
+  "済む": [
+    {
+      "word": "済む",
+      "reading": "すむ",
+      "meaning": "to be settled, to complete"
+    }
+  ],
+  "任せる": [
+    {
+      "word": "任せる",
+      "reading": "まかせる",
+      "meaning": "to entrust to, to leave it to"
+    }
+  ],
+  "赤い": [
+    {
+      "word": "赤い",
+      "reading": "あかい",
+      "meaning": "red"
+    }
+  ],
+  "大事": [
+    {
+      "word": "大事",
+      "reading": "だいじ",
+      "meaning": "important, precious"
+    }
+  ],
+  "残す": [
+    {
+      "word": "残す",
+      "reading": "のこす",
+      "meaning": "to leave, to reserve"
+    }
+  ],
+  "止まる": [
+    {
+      "word": "止まる",
+      "reading": "とまる",
+      "meaning": "to stop, to come to a stop"
+    }
+  ],
+  "朝": [
+    {
+      "word": "朝",
+      "reading": "あさ",
+      "meaning": "morning"
+    }
+  ],
+  "命": [
+    {
+      "word": "命",
+      "reading": "いのち",
+      "meaning": "life"
+    }
+  ],
+  "不安": [
+    {
+      "word": "不安",
+      "reading": "ふあん",
+      "meaning": "uneasiness, anxiety"
+    }
+  ],
+  "結構": [
+    {
+      "word": "結構",
+      "reading": "けっこう",
+      "meaning": "all right, no thank you"
+    },
+    {
+      "word": "結構",
+      "reading": "けっこう",
+      "meaning": "quite"
+    }
+  ],
+  "新しい": [
+    {
+      "word": "新しい",
+      "reading": "あたらしい",
+      "meaning": "new"
+    }
+  ],
+  "程度": [
+    {
+      "word": "程度",
+      "reading": "ていど",
+      "meaning": "degree, extent"
+    }
+  ],
+  "壁": [
+    {
+      "word": "壁",
+      "reading": "かべ",
+      "meaning": "wall, partition"
+    }
+  ],
+  "用": [
+    {
+      "word": "用",
+      "reading": "よう",
+      "meaning": "things to do, (as a suffix) to do..., made for..."
+    }
+  ],
+  "背中": [
+    {
+      "word": "背中",
+      "reading": "せなか",
+      "meaning": "back"
+    }
+  ],
+  "気付く": [
+    {
+      "word": "気付く",
+      "reading": "きづく",
+      "meaning": "to realize, to notice"
+    }
+  ],
+  "渡す": [
+    {
+      "word": "渡す",
+      "reading": "わたす",
+      "meaning": "to carry across, to hand over"
+    }
+  ],
+  "喜ぶ": [
+    {
+      "word": "喜ぶ",
+      "reading": "よろこぶ",
+      "meaning": "to be happy, to be delighted"
+    }
+  ],
+  "可愛い": [
+    {
+      "word": "可愛い",
+      "reading": "かわいい",
+      "meaning": "cute"
+    }
+  ],
+  "始まる": [
+    {
+      "word": "始まる",
+      "reading": "はじまる",
+      "meaning": "to begin"
+    }
+  ],
+  "色": [
+    {
+      "word": "色",
+      "reading": "いろ",
+      "meaning": "color"
+    }
+  ],
+  "認める": [
+    {
+      "word": "認める",
+      "reading": "みとめる",
+      "meaning": "to recognize, to approve, to accept"
+    }
+  ],
+  "急": [
+    {
+      "word": "急",
+      "reading": "きゅう",
+      "meaning": "suddenly"
+    }
+  ],
+  "向こう": [
+    {
+      "word": "向こう",
+      "reading": "むこう",
+      "meaning": "the other side, the other party, opponent"
+    }
+  ],
+  "求める": [
+    {
+      "word": "求める",
+      "reading": "もとめる",
+      "meaning": "to seek, to wish for"
+    }
+  ],
+  "肩": [
+    {
+      "word": "肩",
+      "reading": "かた",
+      "meaning": "shoulder"
+    }
+  ],
+  "仲間": [
+    {
+      "word": "仲間",
+      "reading": "なかま",
+      "meaning": "comrade, peer"
+    }
+  ],
+  "思わず": [
+    {
+      "word": "思わず",
+      "reading": "おもわず",
+      "meaning": "unintentionally, involuntarily"
+    }
+  ],
+  "突然": [
+    {
+      "word": "突然",
+      "reading": "とつぜん",
+      "meaning": "abruptly, suddenly"
+    }
+  ],
+  "自身": [
+    {
+      "word": "自身",
+      "reading": "じしん",
+      "meaning": "self"
+    }
+  ],
+  "再び": [
+    {
+      "word": "再び",
+      "reading": "ふたたび",
+      "meaning": "again, a second time"
+    }
+  ],
+  "静か": [
+    {
+      "word": "静か",
+      "reading": "しずか",
+      "meaning": "quiet"
+    }
+  ],
+  "飛ぶ": [
+    {
+      "word": "飛ぶ",
+      "reading": "とぶ",
+      "meaning": "to fly"
+    }
+  ],
+  "白い": [
+    {
+      "word": "白い",
+      "reading": "しろい",
+      "meaning": "white, blank"
+    }
+  ],
+  "届く": [
+    {
+      "word": "届く",
+      "reading": "とどく",
+      "meaning": "to reach, to be received"
+    }
+  ],
+  "生む": [
+    {
+      "word": "生む",
+      "reading": "うむ",
+      "meaning": "to have children"
+    }
+  ],
+  "倒す": [
+    {
+      "word": "倒す",
+      "reading": "たおす",
+      "meaning": "to bring down, to overthrow"
+    }
+  ],
+  "似る": [
+    {
+      "word": "似る",
+      "reading": "にる",
+      "meaning": "to look similar to, to resemble"
+    }
+  ],
+  "空気": [
+    {
+      "word": "空気",
+      "reading": "くうき",
+      "meaning": "atmosphere, air"
+    }
+  ],
+  "腰": [
+    {
+      "word": "腰",
+      "reading": "こし",
+      "meaning": "hip, lower back"
+    }
+  ],
+  "名": [
+    {
+      "word": "名",
+      "reading": "な",
+      "meaning": "name, reputation"
+    }
+  ],
+  "危険": [
+    {
+      "word": "危険",
+      "reading": "きけん",
+      "meaning": "danger, dangerous"
+    }
+  ],
+  "付く": [
+    {
+      "word": "付く",
+      "reading": "つく",
+      "meaning": "to attach itself to, to be connected with, to come in contact with"
+    }
+  ],
+  "熱い": [
+    {
+      "word": "熱い",
+      "reading": "あつい",
+      "meaning": "hot (things, touch)"
+    }
+  ],
+  "頂きます": [
+    {
+      "word": "頂きます",
+      "reading": "いただきます",
+      "meaning": "let's eat!, thank you for the meal"
+    }
+  ],
+  "慌てる": [
+    {
+      "word": "慌てる",
+      "reading": "あわてる",
+      "meaning": "to be flustered, to hurry"
+    }
+  ],
+  "周囲": [
+    {
+      "word": "周囲",
+      "reading": "しゅうい",
+      "meaning": "circumference, surroundings"
+    }
+  ],
+  "気分": [
+    {
+      "word": "気分",
+      "reading": "きぶん",
+      "meaning": "mood, feeling"
+    }
+  ],
+  "事実": [
+    {
+      "word": "事実",
+      "reading": "じじつ",
+      "meaning": "fact, truth"
+    }
+  ],
+  "本気": [
+    {
+      "word": "本気",
+      "reading": "ほんき",
+      "meaning": "seriousness"
+    }
+  ],
+  "頷く": [
+    {
+      "word": "頷く",
+      "reading": "うなずく",
+      "meaning": "to nod"
+    }
+  ],
+  "通り": [
+    {
+      "word": "通り",
+      "reading": "とおり",
+      "meaning": "street"
+    }
+  ],
+  "想像": [
+    {
+      "word": "想像",
+      "reading": "そうぞう",
+      "meaning": "imagination"
+    }
+  ],
+  "店": [
+    {
+      "word": "店",
+      "reading": "みせ",
+      "meaning": "shop, store"
+    }
+  ],
+  "何だか": [
+    {
+      "word": "何だか",
+      "reading": "なんだか",
+      "meaning": "somehow, for some reason"
+    }
+  ],
+  "目的": [
+    {
+      "word": "目的",
+      "reading": "もくてき",
+      "meaning": "purpose, aim, object"
+    }
+  ],
+  "眠る": [
+    {
+      "word": "眠る",
+      "reading": "ねむる",
+      "meaning": "to sleep"
+    }
+  ],
+  "確か": [
+    {
+      "word": "確か",
+      "reading": "たしか",
+      "meaning": "certainly, surely, if I'm not mistaken..."
+    }
+  ],
+  "十分": [
+    {
+      "word": "十分",
+      "reading": "じゅうぶん",
+      "meaning": "plenty"
+    }
+  ],
+  "料理": [
+    {
+      "word": "料理",
+      "reading": "りょうり",
+      "meaning": "cooking, cuisine"
+    }
+  ],
+  "頃": [
+    {
+      "word": "頃",
+      "reading": "ころ",
+      "meaning": "approximate time"
+    }
+  ],
+  "正直": [
+    {
+      "word": "正直",
+      "reading": "しょうじき",
+      "meaning": "honest, upright"
+    }
+  ],
+  "身": [
+    {
+      "word": "身",
+      "reading": "み",
+      "meaning": "body, one's own person"
+    }
+  ],
+  "美しい": [
+    {
+      "word": "美しい",
+      "reading": "うつくしい",
+      "meaning": "beautiful"
+    }
+  ],
+  "甘い": [
+    {
+      "word": "甘い",
+      "reading": "あまい",
+      "meaning": "sweet"
+    }
+  ],
+  "首": [
+    {
+      "word": "首",
+      "reading": "くび",
+      "meaning": "neck"
+    }
+  ],
+  "感情": [
+    {
+      "word": "感情",
+      "reading": "かんじょう",
+      "meaning": "feeling, emotion"
+    }
+  ],
+  "周り": [
+    {
+      "word": "周り",
+      "reading": "まわり",
+      "meaning": "around, surroundings"
+    }
+  ],
+  "方法": [
+    {
+      "word": "方法",
+      "reading": "ほうほう",
+      "meaning": "method, way"
+    }
+  ],
+  "もう一度": [
+    {
+      "word": "もう一度",
+      "reading": "もういちど",
+      "meaning": "once more"
+    },
+    {
+      "word": "もう",
+      "reading": "もう",
+      "meaning": "another, again"
+    }
+  ],
+  "遅い": [
+    {
+      "word": "遅い",
+      "reading": "おそい",
+      "meaning": "slow, late"
+    }
+  ],
+  "会話": [
+    {
+      "word": "会話",
+      "reading": "かいわ",
+      "meaning": "conversation"
+    }
+  ],
+  "合う": [
+    {
+      "word": "合う",
+      "reading": "あう",
+      "meaning": "to fit"
+    }
+  ],
+  "やって来る": [
+    {
+      "word": "やって来る",
+      "reading": "やってくる",
+      "meaning": "to come around, to come along"
+    }
+  ],
+  "森": [
+    {
+      "word": "森",
+      "reading": "もり",
+      "meaning": "thick woods, forest"
+    }
+  ],
+  "動かす": [
+    {
+      "word": "動かす",
+      "reading": "うごかす",
+      "meaning": "to move, to make a move"
+    }
+  ],
+  "能力": [
+    {
+      "word": "能力",
+      "reading": "のうりょく",
+      "meaning": "ability, capacity"
+    }
+  ],
+  "震える": [
+    {
+      "word": "震える",
+      "reading": "ふるえる",
+      "meaning": "to tremble, to shake"
+    }
+  ],
+  "期待": [
+    {
+      "word": "期待",
+      "reading": "きたい",
+      "meaning": "expectation, anticipation"
+    }
+  ],
+  "無事": [
+    {
+      "word": "無事",
+      "reading": "ぶじ",
+      "meaning": "safely, peacefully"
+    }
+  ],
+  "起こす": [
+    {
+      "word": "起こす",
+      "reading": "おこす",
+      "meaning": "to bring about, to cause"
+    },
+    {
+      "word": "起こす",
+      "reading": "おこす",
+      "meaning": "to wake up"
+    }
+  ],
+  "耳": [
+    {
+      "word": "耳",
+      "reading": "みみ",
+      "meaning": "ear, hearing"
+    }
+  ],
+  "生まれる": [
+    {
+      "word": "生まれる",
+      "reading": "うまれる",
+      "meaning": "to be born"
+    }
+  ],
+  "移動": [
+    {
+      "word": "移動",
+      "reading": "いどう",
+      "meaning": "movement, shift"
+    }
+  ],
+  "邪魔": [
+    {
+      "word": "邪魔",
+      "reading": "じゃま",
+      "meaning": "obstacle, hindrance"
+    }
+  ],
+  "遊ぶ": [
+    {
+      "word": "遊ぶ",
+      "reading": "あそぶ",
+      "meaning": "to play"
+    }
+  ],
+  "要る": [
+    {
+      "word": "要る",
+      "reading": "いる",
+      "meaning": "to need, to require"
+    }
+  ],
+  "無くなる": [
+    {
+      "word": "無くなる",
+      "reading": "なくなる",
+      "meaning": "to be lost, to be used up"
+    }
+  ],
+  "唇": [
+    {
+      "word": "唇",
+      "reading": "くちびる",
+      "meaning": "lip"
+    }
+  ],
+  "着る": [
+    {
+      "word": "着る",
+      "reading": "きる",
+      "meaning": "to wear, to put on"
+    }
+  ],
+  "色々": [
+    {
+      "word": "色々",
+      "reading": "いろいろ",
+      "meaning": "various, in various ways"
+    }
+  ],
+  "立ち上がる": [
+    {
+      "word": "立ち上がる",
+      "reading": "たちあがる",
+      "meaning": "to stand up"
+    }
+  ],
+  "思い": [
+    {
+      "word": "思い",
+      "reading": "おもい",
+      "meaning": "thought"
+    }
+  ],
+  "以前": [
+    {
+      "word": "以前",
+      "reading": "いぜん",
+      "meaning": "before, ago"
+    }
+  ],
+  "もう少し": [
+    {
+      "word": "もう少し",
+      "reading": "もうすこし",
+      "meaning": "a little more, a bit more"
+    }
+  ],
+  "襲う": [
+    {
+      "word": "襲う",
+      "reading": "おそう",
+      "meaning": "to assault, to attack"
+    }
+  ],
+  "見つかる": [
+    {
+      "word": "見つかる",
+      "reading": "みつかる",
+      "meaning": "to be found, to be caught"
+    }
+  ],
+  "急ぐ": [
+    {
+      "word": "急ぐ",
+      "reading": "いそぐ",
+      "meaning": "to hurry"
+    }
+  ],
+  "降りる": [
+    {
+      "word": "降りる",
+      "reading": "おりる",
+      "meaning": "to get off, to go down"
+    }
+  ],
+  "下りる": [
+    {
+      "word": "下りる",
+      "reading": "おりる",
+      "meaning": "to go down, to come down"
+    }
+  ],
+  "切る": [
+    {
+      "word": "切る",
+      "reading": "きる",
+      "meaning": "to cut"
+    }
+  ],
+  "事件": [
+    {
+      "word": "事件",
+      "reading": "じけん",
+      "meaning": "affair, case"
+    }
+  ],
+  "返事": [
+    {
+      "word": "返事",
+      "reading": "へんじ",
+      "meaning": "reply"
+    }
+  ],
+  "酷い": [
+    {
+      "word": "酷い",
+      "reading": "ひどい",
+      "meaning": "terrible, cruel"
+    }
+  ],
+  "重い": [
+    {
+      "word": "重い",
+      "reading": "おもい",
+      "meaning": "heavy"
+    }
+  ],
+  "起こる": [
+    {
+      "word": "起こる",
+      "reading": "おこる",
+      "meaning": "to occur, to happen"
+    }
+  ],
+  "逆": [
+    {
+      "word": "逆",
+      "reading": "ぎゃく",
+      "meaning": "reverse, inverse"
+    }
+  ],
+  "納得": [
+    {
+      "word": "納得",
+      "reading": "なっとく",
+      "meaning": "consent, accept"
+    }
+  ],
+  "楽しむ": [
+    {
+      "word": "楽しむ",
+      "reading": "たのしむ",
+      "meaning": "to enjoy"
+    }
+  ],
+  "叫ぶ": [
+    {
+      "word": "叫ぶ",
+      "reading": "さけぶ",
+      "meaning": "to shout, to yell, to cry out"
+    }
+  ],
+  "集まる": [
+    {
+      "word": "集まる",
+      "reading": "あつまる",
+      "meaning": "to gather, to be collected"
+    }
+  ],
+  "構う": [
+    {
+      "word": "構う",
+      "reading": "かまう",
+      "meaning": "to mind, to care for"
+    }
+  ],
+  "王": [
+    {
+      "word": "王",
+      "reading": "おう",
+      "meaning": "king"
+    }
+  ],
+  "途中": [
+    {
+      "word": "途中",
+      "reading": "とちゅう",
+      "meaning": "on the way, half way"
+    }
+  ],
+  "慣れる": [
+    {
+      "word": "慣れる",
+      "reading": "なれる",
+      "meaning": "to grow accustomed to"
+    }
+  ],
+  "終わり": [
+    {
+      "word": "終わり",
+      "reading": "おわり",
+      "meaning": "end"
+    }
+  ],
+  "一応": [
+    {
+      "word": "一応",
+      "reading": "いちおう",
+      "meaning": "for the time being, more or less"
+    }
+  ],
+  "引く": [
+    {
+      "word": "引く",
+      "reading": "ひく",
+      "meaning": "to draw, to pull"
+    }
+  ],
+  "海": [
+    {
+      "word": "海",
+      "reading": "うみ",
+      "meaning": "sea, ocean"
+    }
+  ],
+  "諦める": [
+    {
+      "word": "諦める",
+      "reading": "あきらめる",
+      "meaning": "to give up, to abandon"
+    }
+  ],
+  "必ず": [
+    {
+      "word": "必ず",
+      "reading": "かならず",
+      "meaning": "without exception, always, certainly"
+    }
+  ],
+  "狙う": [
+    {
+      "word": "狙う",
+      "reading": "ねらう",
+      "meaning": "to aim, to be after"
+    }
+  ],
+  "落とす": [
+    {
+      "word": "落とす",
+      "reading": "おとす",
+      "meaning": "to drop"
+    }
+  ],
+  "部分": [
+    {
+      "word": "部分",
+      "reading": "ぶぶん",
+      "meaning": "part, section"
+    }
+  ],
+  "必死": [
+    {
+      "word": "必死",
+      "reading": "ひっし",
+      "meaning": "frantic, desperate"
+    }
+  ],
+  "珍しい": [
+    {
+      "word": "珍しい",
+      "reading": "めずらしい",
+      "meaning": "rare, uncommon"
+    }
+  ],
+  "意外": [
+    {
+      "word": "意外",
+      "reading": "いがい",
+      "meaning": "unexpected, unforeseen"
+    }
+  ],
+  "報告": [
+    {
+      "word": "報告",
+      "reading": "ほうこく",
+      "meaning": "report"
+    }
+  ],
+  "握る": [
+    {
+      "word": "握る",
+      "reading": "にぎる",
+      "meaning": "to grasp, to grip"
+    }
+  ],
+  "結婚": [
+    {
+      "word": "結婚",
+      "reading": "けっこん",
+      "meaning": "marriage"
+    }
+  ],
+  "戦い": [
+    {
+      "word": "戦い",
+      "reading": "たたかい",
+      "meaning": "war, battle"
+    }
+  ],
+  "感謝": [
+    {
+      "word": "感謝",
+      "reading": "かんしゃ",
+      "meaning": "appreciation, thanks"
+    }
+  ],
+  "激しい": [
+    {
+      "word": "激しい",
+      "reading": "はげしい",
+      "meaning": "intense, violent"
+    }
+  ],
+  "倒れる": [
+    {
+      "word": "倒れる",
+      "reading": "たおれる",
+      "meaning": "to collapse, to fall down"
+    }
+  ],
+  "既に": [
+    {
+      "word": "既に",
+      "reading": "すでに",
+      "meaning": "already, too late"
+    }
+  ],
+  "疲れる": [
+    {
+      "word": "疲れる",
+      "reading": "つかれる",
+      "meaning": "to get tired"
+    }
+  ],
+  "生活": [
+    {
+      "word": "生活",
+      "reading": "せいかつ",
+      "meaning": "life, lifestyle"
+    }
+  ],
+  "場": [
+    {
+      "word": "場",
+      "reading": "ば",
+      "meaning": "opportunity, occasion"
+    }
+  ],
+  "愛する": [
+    {
+      "word": "愛する",
+      "reading": "あいする",
+      "meaning": "to love, to care for"
+    }
+  ],
+  "冷たい": [
+    {
+      "word": "冷たい",
+      "reading": "つめたい",
+      "meaning": "cold (to the touch)"
+    }
+  ],
+  "捨てる": [
+    {
+      "word": "捨てる",
+      "reading": "すてる",
+      "meaning": "to throw away"
+    }
+  ],
+  "過ごす": [
+    {
+      "word": "過ごす",
+      "reading": "すごす",
+      "meaning": "to spend (time), to pass"
+    }
+  ],
+  "食事": [
+    {
+      "word": "食事",
+      "reading": "しょくじ",
+      "meaning": "meal, dinner"
+    }
+  ],
+  "働く": [
+    {
+      "word": "働く",
+      "reading": "はたらく",
+      "meaning": "to work"
+    }
+  ],
+  "答え": [
+    {
+      "word": "答え",
+      "reading": "こたえ",
+      "meaning": "answer, response"
+    }
+  ],
+  "風": [
+    {
+      "word": "風",
+      "reading": "かぜ",
+      "meaning": "wind"
+    }
+  ],
+  "黒い": [
+    {
+      "word": "黒い",
+      "reading": "くろい",
+      "meaning": "black, dark"
+    }
+  ],
+  "助かる": [
+    {
+      "word": "助かる",
+      "reading": "たすかる",
+      "meaning": "to be saved, to survive"
+    }
+  ],
+  "受け取る": [
+    {
+      "word": "受け取る",
+      "reading": "うけとる",
+      "meaning": "to receive, to take (someone's words or behavior)"
+    }
+  ],
+  "足りる": [
+    {
+      "word": "足りる",
+      "reading": "たりる",
+      "meaning": "to be enough, to be sufficient"
+    }
+  ],
+  "判断": [
+    {
+      "word": "判断",
+      "reading": "はんだん",
+      "meaning": "judgment, decision"
+    }
+  ],
+  "未来": [
+    {
+      "word": "未来",
+      "reading": "みらい",
+      "meaning": "future"
+    }
+  ],
+  "食う": [
+    {
+      "word": "食う",
+      "reading": "くう",
+      "meaning": "to eat, to live on"
+    }
+  ],
+  "分": [
+    {
+      "word": "分",
+      "reading": "ぶん",
+      "meaning": "amount, share"
+    }
+  ],
+  "上手い": [
+    {
+      "word": "上手い",
+      "reading": "うまい",
+      "meaning": "skilled, good"
+    }
+  ],
+  "合わせる": [
+    {
+      "word": "合わせる",
+      "reading": "あわせる",
+      "meaning": "to adjust, to match"
+    }
+  ],
+  "大切": [
+    {
+      "word": "大切",
+      "reading": "たいせつ",
+      "meaning": "important, valuable"
+    }
+  ],
+  "花": [
+    {
+      "word": "花",
+      "reading": "はな",
+      "meaning": "flower"
+    }
+  ],
+  "謝る": [
+    {
+      "word": "謝る",
+      "reading": "あやまる",
+      "meaning": "to apologize"
+    }
+  ],
+  "奪う": [
+    {
+      "word": "奪う",
+      "reading": "うばう",
+      "meaning": "to snatch, to take by force"
+    }
+  ],
+  "勢い": [
+    {
+      "word": "勢い",
+      "reading": "いきおい",
+      "meaning": "vigor, momentum"
+    }
+  ],
+  "涙": [
+    {
+      "word": "涙",
+      "reading": "なみだ",
+      "meaning": "tear"
+    }
+  ],
+  "雰囲気": [
+    {
+      "word": "雰囲気",
+      "reading": "ふんいき",
+      "meaning": "atmosphere, mood"
+    }
+  ],
+  "嘘": [
+    {
+      "word": "嘘",
+      "reading": "うそ",
+      "meaning": "lie"
+    }
+  ],
+  "望む": [
+    {
+      "word": "望む",
+      "reading": "のぞむ",
+      "meaning": "to desire, to hope"
+    }
+  ],
+  "緊張": [
+    {
+      "word": "緊張",
+      "reading": "きんちょう",
+      "meaning": "tension, strain, be nervous"
+    }
+  ],
+  "一緒": [
+    {
+      "word": "一緒",
+      "reading": "いっしょ",
+      "meaning": "together"
+    }
+  ],
+  "救う": [
+    {
+      "word": "救う",
+      "reading": "すくう",
+      "meaning": "to save"
+    }
+  ],
+  "自ら": [
+    {
+      "word": "自ら",
+      "reading": "みずから",
+      "meaning": "oneself"
+    }
+  ],
+  "地面": [
+    {
+      "word": "地面",
+      "reading": "じめん",
+      "meaning": "surface, ground"
+    }
+  ],
+  "失敗": [
+    {
+      "word": "失敗",
+      "reading": "しっぱい",
+      "meaning": "failure, blunder"
+    }
+  ],
+  "避ける": [
+    {
+      "word": "避ける",
+      "reading": "さける",
+      "meaning": "to avoid, to evade"
+    }
+  ],
+  "窓": [
+    {
+      "word": "窓",
+      "reading": "まど",
+      "meaning": "window"
+    }
+  ],
+  "素直": [
+    {
+      "word": "素直",
+      "reading": "すなお",
+      "meaning": "honest, straightforward"
+    }
+  ],
+  "肉": [
+    {
+      "word": "肉",
+      "reading": "にく",
+      "meaning": "flesh, meat"
+    }
+  ],
+  "冗談": [
+    {
+      "word": "冗談",
+      "reading": "じょうだん",
+      "meaning": "joke"
+    }
+  ],
+  "余裕": [
+    {
+      "word": "余裕",
+      "reading": "よゆう",
+      "meaning": "room, leeway"
+    }
+  ],
+  "連絡": [
+    {
+      "word": "連絡",
+      "reading": "れんらく",
+      "meaning": "connection, communication"
+    }
+  ],
+  "人生": [
+    {
+      "word": "人生",
+      "reading": "じんせい",
+      "meaning": "(human) life"
+    }
+  ],
+  "放つ": [
+    {
+      "word": "放つ",
+      "reading": "はなつ",
+      "meaning": "to emit, to set free, to shoot (e.g. an arrow or bullet)"
+    }
+  ],
+  "流れる": [
+    {
+      "word": "流れる",
+      "reading": "ながれる",
+      "meaning": "to flow, to pass"
+    }
+  ],
+  "特別": [
+    {
+      "word": "特別",
+      "reading": "とくべつ",
+      "meaning": "special, extraordinary"
+    }
+  ],
+  "連中": [
+    {
+      "word": "連中",
+      "reading": "れんちゅう",
+      "meaning": "party, this bunch"
+    }
+  ],
+  "両手": [
+    {
+      "word": "両手",
+      "reading": "りょうて",
+      "meaning": "both hands"
+    }
+  ],
+  "増える": [
+    {
+      "word": "増える",
+      "reading": "ふえる",
+      "meaning": "to increase, to accrue"
+    }
+  ],
+  "出会う": [
+    {
+      "word": "出会う",
+      "reading": "であう",
+      "meaning": "to meet (by chance), to come across"
+    }
+  ],
+  "少年": [
+    {
+      "word": "少年",
+      "reading": "しょうねん",
+      "meaning": "boy"
+    }
+  ],
+  "繰り返す": [
+    {
+      "word": "繰り返す",
+      "reading": "くりかえす",
+      "meaning": "to repeat"
+    }
+  ],
+  "我慢": [
+    {
+      "word": "我慢",
+      "reading": "がまん",
+      "meaning": "patience, bearing with"
+    }
+  ],
+  "我々": [
+    {
+      "word": "我々",
+      "reading": "われわれ",
+      "meaning": "we (formal)"
+    }
+  ],
+  "感覚": [
+    {
+      "word": "感覚",
+      "reading": "かんかく",
+      "meaning": "sensation"
+    }
+  ],
+  "響く": [
+    {
+      "word": "響く",
+      "reading": "ひびく",
+      "meaning": "to reverberate"
+    }
+  ],
+  "何とか": [
+    {
+      "word": "何とか",
+      "reading": "なんとか",
+      "meaning": "somehow, please"
+    }
+  ],
+  "山": [
+    {
+      "word": "山",
+      "reading": "やま",
+      "meaning": "mountain"
+    }
+  ],
+  "当たり前": [
+    {
+      "word": "当たり前",
+      "reading": "あたりまえ",
+      "meaning": "of course, obvious"
+    }
+  ],
+  "予定": [
+    {
+      "word": "予定",
+      "reading": "よてい",
+      "meaning": "schedule, plan"
+    }
+  ],
+  "残念": [
+    {
+      "word": "残念",
+      "reading": "ざんねん",
+      "meaning": "regretful, disappointing"
+    }
+  ],
+  "追う": [
+    {
+      "word": "追う",
+      "reading": "おう",
+      "meaning": "to chase, to pursue"
+    }
+  ],
+  "綺麗": [
+    {
+      "word": "綺麗",
+      "reading": "きれい",
+      "meaning": "beautiful, clean"
+    }
+  ],
+  "若い": [
+    {
+      "word": "若い",
+      "reading": "わかい",
+      "meaning": "young"
+    }
+  ],
+  "考え": [
+    {
+      "word": "考え",
+      "reading": "かんがえ",
+      "meaning": "thought, view"
+    }
+  ],
+  "過去": [
+    {
+      "word": "過去",
+      "reading": "かこ",
+      "meaning": "the past"
+    }
+  ],
+  "気配": [
+    {
+      "word": "気配",
+      "reading": "けはい",
+      "meaning": "indication, sign"
+    }
+  ],
+  "本人": [
+    {
+      "word": "本人",
+      "reading": "ほんにん",
+      "meaning": "the person in question"
+    }
+  ],
+  "現実": [
+    {
+      "word": "現実",
+      "reading": "げんじつ",
+      "meaning": "reality, actuality"
+    }
+  ],
+  "決して": [
+    {
+      "word": "決して",
+      "reading": "けっして",
+      "meaning": "never, by no means"
+    }
+  ],
+  "床": [
+    {
+      "word": "床",
+      "reading": "ゆか",
+      "meaning": "floor"
+    }
+  ],
+  "横": [
+    {
+      "word": "横",
+      "reading": "よこ",
+      "meaning": "side, width across"
+    }
+  ],
+  "休む": [
+    {
+      "word": "休む",
+      "reading": "やすむ",
+      "meaning": "to rest, to take time off"
+    }
+  ],
+  "振り返る": [
+    {
+      "word": "振り返る",
+      "reading": "ふりかえる",
+      "meaning": "to turn one's head, to look back on"
+    }
+  ],
+  "質問": [
+    {
+      "word": "質問",
+      "reading": "しつもん",
+      "meaning": "question"
+    }
+  ],
+  "興味": [
+    {
+      "word": "興味",
+      "reading": "きょうみ",
+      "meaning": "interest"
+    }
+  ],
+  "距離": [
+    {
+      "word": "距離",
+      "reading": "きょり",
+      "meaning": "distance, interval"
+    }
+  ],
+  "内容": [
+    {
+      "word": "内容",
+      "reading": "ないよう",
+      "meaning": "contents"
+    }
+  ],
+  "回る": [
+    {
+      "word": "回る",
+      "reading": "まわる",
+      "meaning": "to rotate, to go around"
+    }
+  ],
+  "並ぶ": [
+    {
+      "word": "並ぶ",
+      "reading": "ならぶ",
+      "meaning": "line up"
+    }
+  ],
+  "終える": [
+    {
+      "word": "終える",
+      "reading": "おえる",
+      "meaning": "to end, to finish"
+    }
+  ],
+  "態度": [
+    {
+      "word": "態度",
+      "reading": "たいど",
+      "meaning": "attitude, manner"
+    }
+  ],
+  "金": [
+    {
+      "word": "金",
+      "reading": "かね",
+      "meaning": "money"
+    }
+  ],
+  "今夜": [
+    {
+      "word": "今夜",
+      "reading": "こんや",
+      "meaning": "tonight, this evening"
+    }
+  ],
+  "昨夜": [
+    {
+      "word": "昨夜",
+      "reading": "ゆうべ",
+      "meaning": "last night, last evening"
+    }
+  ],
+  "自然": [
+    {
+      "word": "自然",
+      "reading": "しぜん",
+      "meaning": "nature"
+    }
+  ],
+  "眺める": [
+    {
+      "word": "眺める",
+      "reading": "ながめる",
+      "meaning": "to look out, to gaze"
+    }
+  ],
+  "向く": [
+    {
+      "word": "向く",
+      "reading": "むく",
+      "meaning": "to face, to look"
+    }
+  ],
+  "相変わらず": [
+    {
+      "word": "相変わらず",
+      "reading": "あいかわらず",
+      "meaning": "as usual, as before"
+    }
+  ],
+  "普段": [
+    {
+      "word": "普段",
+      "reading": "ふだん",
+      "meaning": "usual, ordinary"
+    }
+  ],
+  "運ぶ": [
+    {
+      "word": "運ぶ",
+      "reading": "はこぶ",
+      "meaning": "to carry"
+    }
+  ],
+  "弱い": [
+    {
+      "word": "弱い",
+      "reading": "よわい",
+      "meaning": "weak"
+    }
+  ],
+  "離す": [
+    {
+      "word": "離す",
+      "reading": "はなす",
+      "meaning": "to separate, to detach"
+    }
+  ],
+  "貴族": [
+    {
+      "word": "貴族",
+      "reading": "きぞく",
+      "meaning": "noble"
+    }
+  ],
+  "広がる": [
+    {
+      "word": "広がる",
+      "reading": "ひろがる",
+      "meaning": "to spread out, to extend"
+    }
+  ],
+  "頬": [
+    {
+      "word": "頬",
+      "reading": "ほお",
+      "meaning": "cheek"
+    }
+  ],
+  "寂しい": [
+    {
+      "word": "寂しい",
+      "reading": "さびしい",
+      "meaning": "lonely, sad"
+    }
+  ],
+  "正しい": [
+    {
+      "word": "正しい",
+      "reading": "ただしい",
+      "meaning": "correct"
+    }
+  ],
+  "自由": [
+    {
+      "word": "自由",
+      "reading": "じゆう",
+      "meaning": "freedom, free"
+    }
+  ],
+  "全身": [
+    {
+      "word": "全身",
+      "reading": "ぜんしん",
+      "meaning": "the whole body"
+    }
+  ],
+  "武器": [
+    {
+      "word": "武器",
+      "reading": "ぶき",
+      "meaning": "weapon, arms"
+    }
+  ],
+  "語る": [
+    {
+      "word": "語る",
+      "reading": "かたる",
+      "meaning": "to tell, to talk"
+    }
+  ],
+  "持ってくる": [
+    {
+      "word": "持ってくる",
+      "reading": "もってくる",
+      "meaning": "to bring"
+    }
+  ],
+  "息子": [
+    {
+      "word": "息子",
+      "reading": "むすこ",
+      "meaning": "son"
+    }
+  ],
+  "娘": [
+    {
+      "word": "娘",
+      "reading": "むすめ",
+      "meaning": "daughter"
+    }
+  ],
+  "一気に": [
+    {
+      "word": "一気に",
+      "reading": "いっきに",
+      "meaning": "in one go"
+    }
+  ],
+  "伝わる": [
+    {
+      "word": "伝わる",
+      "reading": "つたわる",
+      "meaning": "to be transmitted, to be handed down"
+    }
+  ],
+  "当たる": [
+    {
+      "word": "当たる",
+      "reading": "あたる",
+      "meaning": "to hit, to strike"
+    }
+  ],
+  "痛み": [
+    {
+      "word": "痛み",
+      "reading": "いたみ",
+      "meaning": "pain, ache"
+    }
+  ],
+  "妙": [
+    {
+      "word": "妙",
+      "reading": "みょう",
+      "meaning": "strange"
+    }
+  ],
+  "影": [
+    {
+      "word": "影",
+      "reading": "かげ",
+      "meaning": "shadow, shade"
+    }
+  ],
+  "死": [
+    {
+      "word": "死",
+      "reading": "し",
+      "meaning": "death"
+    }
+  ],
+  "多分": [
+    {
+      "word": "多分",
+      "reading": "たぶん",
+      "meaning": "probably, perhaps"
+    }
+  ],
+  "協力": [
+    {
+      "word": "協力",
+      "reading": "きょうりょく",
+      "meaning": "cooperation, collaboration"
+    }
+  ],
+  "見上げる": [
+    {
+      "word": "見上げる",
+      "reading": "みあげる",
+      "meaning": "to look up"
+    }
+  ],
+  "覚悟": [
+    {
+      "word": "覚悟",
+      "reading": "かくご",
+      "meaning": "readiness, resolution"
+    }
+  ],
+  "連れる": [
+    {
+      "word": "連れる",
+      "reading": "つれる",
+      "meaning": "to take along, to bring along"
+    }
+  ],
+  "低い": [
+    {
+      "word": "低い",
+      "reading": "ひくい",
+      "meaning": "low, short (height)"
+    }
+  ],
+  "木": [
+    {
+      "word": "木",
+      "reading": "き",
+      "meaning": "tree"
+    }
+  ],
+  "面倒": [
+    {
+      "word": "面倒",
+      "reading": "めんどう",
+      "meaning": "annoying, troublesome"
+    }
+  ],
+  "闇": [
+    {
+      "word": "闇",
+      "reading": "やみ",
+      "meaning": "darkness"
+    }
+  ],
+  "広い": [
+    {
+      "word": "広い",
+      "reading": "ひろい",
+      "meaning": "wide, big"
+    }
+  ],
+  "告げる": [
+    {
+      "word": "告げる",
+      "reading": "つげる",
+      "meaning": "to tell, to notify"
+    }
+  ],
+  "叩く": [
+    {
+      "word": "叩く",
+      "reading": "たたく",
+      "meaning": "tap, hit"
+    }
+  ],
+  "自信": [
+    {
+      "word": "自信",
+      "reading": "じしん",
+      "meaning": "self-confidence"
+    }
+  ],
+  "集める": [
+    {
+      "word": "集める",
+      "reading": "あつめる",
+      "meaning": "to gather, to collect"
+    }
+  ],
+  "振る": [
+    {
+      "word": "振る",
+      "reading": "ふる",
+      "meaning": "wave, shake"
+    }
+  ],
+  "余計": [
+    {
+      "word": "余計",
+      "reading": "よけい",
+      "meaning": "excess, needless"
+    }
+  ],
+  "他に": [
+    {
+      "word": "他に",
+      "reading": "ほかに",
+      "meaning": "else, in addition"
+    }
+  ],
+  "誘う": [
+    {
+      "word": "誘う",
+      "reading": "さそう",
+      "meaning": "to invite, to ask out"
+    }
+  ],
+  "付き合う": [
+    {
+      "word": "付き合う",
+      "reading": "つきあう",
+      "meaning": "to socialize with, to see someone"
+    }
+  ],
+  "村": [
+    {
+      "word": "村",
+      "reading": "むら",
+      "meaning": "village"
+    }
+  ],
+  "人物": [
+    {
+      "word": "人物",
+      "reading": "じんぶつ",
+      "meaning": "character, person"
+    }
+  ],
+  "数": [
+    {
+      "word": "数",
+      "reading": "かず",
+      "meaning": "number"
+    }
+  ],
+  "危ない": [
+    {
+      "word": "危ない",
+      "reading": "あぶない",
+      "meaning": "dangerous, uncertain"
+    }
+  ],
+  "事情": [
+    {
+      "word": "事情",
+      "reading": "じじょう",
+      "meaning": "circumstances, conditions"
+    }
+  ],
+  "本当に": [
+    {
+      "word": "本当に",
+      "reading": "ほんとうに",
+      "meaning": "really, truly"
+    }
+  ],
+  "噂": [
+    {
+      "word": "噂",
+      "reading": "うわさ",
+      "meaning": "gossip, rumor"
+    }
+  ],
+  "断る": [
+    {
+      "word": "断る",
+      "reading": "ことわる",
+      "meaning": "to refuse, to turn down"
+    }
+  ],
+  "巨大": [
+    {
+      "word": "巨大",
+      "reading": "きょだい",
+      "meaning": "huge, gigantic"
+    }
+  ],
+  "最高": [
+    {
+      "word": "最高",
+      "reading": "さいこう",
+      "meaning": "best, supreme"
+    }
+  ],
+  "お金": [
+    {
+      "word": "お金",
+      "reading": "おかね",
+      "meaning": "money"
+    }
+  ],
+  "傷": [
+    {
+      "word": "傷",
+      "reading": "きず",
+      "meaning": "wound, cut"
+    }
+  ],
+  "怒り": [
+    {
+      "word": "怒り",
+      "reading": "いかり",
+      "meaning": "anger, rage"
+    }
+  ],
+  "効果": [
+    {
+      "word": "効果",
+      "reading": "こうか",
+      "meaning": "effect, result"
+    }
+  ],
+  "取り出す": [
+    {
+      "word": "取り出す",
+      "reading": "とりだす",
+      "meaning": "to take out, to pull out"
+    }
+  ],
+  "黒": [
+    {
+      "word": "黒",
+      "reading": "くろ",
+      "meaning": "black"
+    }
+  ],
+  "愛": [
+    {
+      "word": "愛",
+      "reading": "あい",
+      "meaning": "love"
+    }
+  ],
+  "直接": [
+    {
+      "word": "直接",
+      "reading": "ちょくせつ",
+      "meaning": "directly"
+    }
+  ],
+  "浮かぶ": [
+    {
+      "word": "浮かぶ",
+      "reading": "うかぶ",
+      "meaning": "to float"
+    }
+  ],
+  "抜ける": [
+    {
+      "word": "抜ける",
+      "reading": "ぬける",
+      "meaning": "to fall out, to leave"
+    }
+  ],
+  "暗い": [
+    {
+      "word": "暗い",
+      "reading": "くらい",
+      "meaning": "dark"
+    }
+  ],
+  "息": [
+    {
+      "word": "息",
+      "reading": "いき",
+      "meaning": "breath"
+    }
+  ],
+  "駄目": [
+    {
+      "word": "駄目",
+      "reading": "だめ",
+      "meaning": "no good"
+    }
+  ],
+  "点": [
+    {
+      "word": "点",
+      "reading": "てん",
+      "meaning": "point, mark"
+    }
+  ],
+  "参加": [
+    {
+      "word": "参加",
+      "reading": "さんか",
+      "meaning": "participation"
+    }
+  ],
+  "描く": [
+    {
+      "word": "描く",
+      "reading": "かく",
+      "meaning": "to depict, to describe, to draw"
+    },
+    {
+      "word": "描く",
+      "reading": "えがく",
+      "meaning": "to depict, to describe, to draw"
+    }
+  ],
+  "無視": [
+    {
+      "word": "無視",
+      "reading": "むし",
+      "meaning": "ignoring, disregarding"
+    }
+  ],
+  "生徒": [
+    {
+      "word": "生徒",
+      "reading": "せいと",
+      "meaning": "pupil, student"
+    }
+  ],
+  "詳しい": [
+    {
+      "word": "詳しい",
+      "reading": "くわしい",
+      "meaning": "detailed"
+    }
+  ],
+  "触る": [
+    {
+      "word": "触る",
+      "reading": "さわる",
+      "meaning": "to touch"
+    }
+  ],
+  "半分": [
+    {
+      "word": "半分",
+      "reading": "はんぶん",
+      "meaning": "half"
+    }
+  ],
+  "耐える": [
+    {
+      "word": "耐える",
+      "reading": "たえる",
+      "meaning": "to withstand, to endure"
+    }
+  ],
+  "立場": [
+    {
+      "word": "立場",
+      "reading": "たちば",
+      "meaning": "standpoint, position"
+    }
+  ],
+  "石": [
+    {
+      "word": "石",
+      "reading": "いし",
+      "meaning": "stone, small rock"
+    }
+  ],
+  "挨拶": [
+    {
+      "word": "挨拶",
+      "reading": "あいさつ",
+      "meaning": "greeting"
+    }
+  ],
+  "相談": [
+    {
+      "word": "相談",
+      "reading": "そうだん",
+      "meaning": "consultation, advice"
+    }
+  ],
+  "受け入れる": [
+    {
+      "word": "受け入れる",
+      "reading": "うけいれる",
+      "meaning": "to accept, to accommodate"
+    }
+  ],
+  "練習": [
+    {
+      "word": "練習",
+      "reading": "れんしゅう",
+      "meaning": "practice, training"
+    }
+  ],
+  "無駄": [
+    {
+      "word": "無駄",
+      "reading": "むだ",
+      "meaning": "wasteful, useless"
+    }
+  ],
+  "抱える": [
+    {
+      "word": "抱える",
+      "reading": "かかえる",
+      "meaning": "to hold in one's arms"
+    }
+  ],
+  "示す": [
+    {
+      "word": "示す",
+      "reading": "しめす",
+      "meaning": "to show, to indicate"
+    }
+  ],
+  "成功": [
+    {
+      "word": "成功",
+      "reading": "せいこう",
+      "meaning": "success"
+    }
+  ],
+  "抱く": [
+    {
+      "word": "抱く",
+      "reading": "だく",
+      "meaning": "to hug, to hold in one's arms"
+    }
+  ],
+  "味": [
+    {
+      "word": "味",
+      "reading": "あじ",
+      "meaning": "taste, flavor"
+    }
+  ],
+  "男性": [
+    {
+      "word": "男性",
+      "reading": "だんせい",
+      "meaning": "male, man"
+    }
+  ],
+  "否定": [
+    {
+      "word": "否定",
+      "reading": "ひてい",
+      "meaning": "denial, negation"
+    }
+  ],
+  "致す": [
+    {
+      "word": "致す",
+      "reading": "いたす",
+      "meaning": "do (humble form)"
+    }
+  ],
+  "現在": [
+    {
+      "word": "現在",
+      "reading": "げんざい",
+      "meaning": "present time, now"
+    }
+  ],
+  "輝く": [
+    {
+      "word": "輝く",
+      "reading": "かがやく",
+      "meaning": "to glitter, to shine"
+    }
+  ],
+  "熱": [
+    {
+      "word": "熱",
+      "reading": "ねつ",
+      "meaning": "fever"
+    }
+  ],
+  "始め": [
+    {
+      "word": "始め",
+      "reading": "はじめ",
+      "meaning": "beginning, origin"
+    }
+  ],
+  "厳しい": [
+    {
+      "word": "厳しい",
+      "reading": "きびしい",
+      "meaning": "strict"
+    }
+  ],
+  "匂い": [
+    {
+      "word": "匂い",
+      "reading": "におい",
+      "meaning": "smell, odor"
+    }
+  ],
+  "席": [
+    {
+      "word": "席",
+      "reading": "せき",
+      "meaning": "seat"
+    }
+  ],
+  "売る": [
+    {
+      "word": "売る",
+      "reading": "うる",
+      "meaning": "to sell"
+    }
+  ],
+  "暮らす": [
+    {
+      "word": "暮らす",
+      "reading": "くらす",
+      "meaning": "to live, to make a living"
+    }
+  ],
+  "利用": [
+    {
+      "word": "利用",
+      "reading": "りよう",
+      "meaning": "usage, utilization"
+    }
+  ],
+  "経験": [
+    {
+      "word": "経験",
+      "reading": "けいけん",
+      "meaning": "experience"
+    }
+  ],
+  "変化": [
+    {
+      "word": "変化",
+      "reading": "へんか",
+      "meaning": "change, variation"
+    }
+  ],
+  "王子": [
+    {
+      "word": "王子",
+      "reading": "おうじ",
+      "meaning": "prince"
+    }
+  ],
+  "満足": [
+    {
+      "word": "満足",
+      "reading": "まんぞく",
+      "meaning": "satisfaction"
+    }
+  ],
+  "命令": [
+    {
+      "word": "命令",
+      "reading": "めいれい",
+      "meaning": "order, command"
+    }
+  ],
+  "主": [
+    {
+      "word": "主",
+      "reading": "おも",
+      "meaning": "main, chief"
+    }
+  ],
+  "美味しい": [
+    {
+      "word": "美味しい",
+      "reading": "おいしい",
+      "meaning": "tasty"
+    }
+  ],
+  "手紙": [
+    {
+      "word": "手紙",
+      "reading": "てがみ",
+      "meaning": "letter"
+    }
+  ],
+  "掴む": [
+    {
+      "word": "掴む",
+      "reading": "つかむ",
+      "meaning": "to grip, to grab"
+    }
+  ],
+  "他人": [
+    {
+      "word": "他人",
+      "reading": "たにん",
+      "meaning": "another person, stranger"
+    }
+  ],
+  "格好": [
+    {
+      "word": "格好",
+      "reading": "かっこう",
+      "meaning": "shape, appearance"
+    }
+  ],
+  "光景": [
+    {
+      "word": "光景",
+      "reading": "こうけい",
+      "meaning": "sight, spectacle"
+    }
+  ],
+  "親": [
+    {
+      "word": "親",
+      "reading": "おや",
+      "meaning": "parent"
+    }
+  ],
+  "時代": [
+    {
+      "word": "時代",
+      "reading": "じだい",
+      "meaning": "period, age"
+    }
+  ],
+  "作戦": [
+    {
+      "word": "作戦",
+      "reading": "さくせん",
+      "meaning": "tactic, strategy"
+    }
+  ],
+  "苦しい": [
+    {
+      "word": "苦しい",
+      "reading": "くるしい",
+      "meaning": "painful, difficult"
+    }
+  ],
+  "明るい": [
+    {
+      "word": "明るい",
+      "reading": "あかるい",
+      "meaning": "bright"
+    }
+  ],
+  "原因": [
+    {
+      "word": "原因",
+      "reading": "げんいん",
+      "meaning": "cause, origin"
+    }
+  ],
+  "廊下": [
+    {
+      "word": "廊下",
+      "reading": "ろうか",
+      "meaning": "hallway"
+    }
+  ],
+  "先ほど": [
+    {
+      "word": "先ほど",
+      "reading": "さきほど",
+      "meaning": "some time ago"
+    }
+  ],
+  "大人": [
+    {
+      "word": "大人",
+      "reading": "おとな",
+      "meaning": "adult"
+    }
+  ],
+  "人々": [
+    {
+      "word": "人々",
+      "reading": "ひとびと",
+      "meaning": "people"
+    }
+  ],
+  "撫でる": [
+    {
+      "word": "撫でる",
+      "reading": "なでる",
+      "meaning": "to pat, to stroke"
+    }
+  ],
+  "立てる": [
+    {
+      "word": "立てる",
+      "reading": "たてる",
+      "meaning": "to put up, to erect"
+    }
+  ],
+  "押す": [
+    {
+      "word": "押す",
+      "reading": "おす",
+      "meaning": "to push, to press down"
+    }
+  ],
+  "平気": [
+    {
+      "word": "平気",
+      "reading": "へいき",
+      "meaning": "calm, all right"
+    }
+  ],
+  "悲しい": [
+    {
+      "word": "悲しい",
+      "reading": "かなしい",
+      "meaning": "sad"
+    }
+  ],
+  "隠れる": [
+    {
+      "word": "隠れる",
+      "reading": "かくれる",
+      "meaning": "to hide, to disappear"
+    }
+  ],
+  "皆さん": [
+    {
+      "word": "皆さん",
+      "reading": "みなさん",
+      "meaning": "everyone"
+    }
+  ],
+  "戻す": [
+    {
+      "word": "戻す",
+      "reading": "もどす",
+      "meaning": "to return"
+    }
+  ],
+  "戦闘": [
+    {
+      "word": "戦闘",
+      "reading": "せんとう",
+      "meaning": "battle, fight"
+    }
+  ],
+  "火": [
+    {
+      "word": "火",
+      "reading": "ひ",
+      "meaning": "fire"
+    }
+  ],
+  "炎": [
+    {
+      "word": "炎",
+      "reading": "ほのお",
+      "meaning": "flame, blaze"
+    }
+  ],
+  "恐怖": [
+    {
+      "word": "恐怖",
+      "reading": "きょうふ",
+      "meaning": "fear"
+    }
+  ],
+  "迷う": [
+    {
+      "word": "迷う",
+      "reading": "まよう",
+      "meaning": "to be perplexed, to get lost"
+    }
+  ],
+  "機会": [
+    {
+      "word": "機会",
+      "reading": "きかい",
+      "meaning": "chance, opportunity, occasion"
+    }
+  ],
+  "恐ろしい": [
+    {
+      "word": "恐ろしい",
+      "reading": "おそろしい",
+      "meaning": "terrible, frightening"
+    }
+  ],
+  "借りる": [
+    {
+      "word": "借りる",
+      "reading": "かりる",
+      "meaning": "to borrow"
+    }
+  ],
+  "外す": [
+    {
+      "word": "外す",
+      "reading": "はずす",
+      "meaning": "to remove"
+    }
+  ],
+  "地": [
+    {
+      "word": "地",
+      "reading": "ち",
+      "meaning": "ground, place"
+    }
+  ],
+  "速い": [
+    {
+      "word": "速い",
+      "reading": "はやい",
+      "meaning": "fast (in terms of speed)"
+    }
+  ],
+  "短い": [
+    {
+      "word": "短い",
+      "reading": "みじかい",
+      "meaning": "short, brief"
+    }
+  ],
+  "気に入る": [
+    {
+      "word": "気に入る",
+      "reading": "きにいる",
+      "meaning": "to like, to be pleased with"
+    }
+  ],
+  "改めて": [
+    {
+      "word": "改めて",
+      "reading": "あらためて",
+      "meaning": "once again"
+    }
+  ],
+  "当てる": [
+    {
+      "word": "当てる",
+      "reading": "あてる",
+      "meaning": "to hit, to guess"
+    }
+  ],
+  "包む": [
+    {
+      "word": "包む",
+      "reading": "つつむ",
+      "meaning": "to wrap, to pack"
+    }
+  ],
+  "位置": [
+    {
+      "word": "位置",
+      "reading": "いち",
+      "meaning": "position, place"
+    }
+  ],
+  "打つ": [
+    {
+      "word": "打つ",
+      "reading": "うつ",
+      "meaning": "to hit, to strike"
+    }
+  ],
+  "目指す": [
+    {
+      "word": "目指す",
+      "reading": "めざす",
+      "meaning": "to aim for"
+    }
+  ],
+  "秘密": [
+    {
+      "word": "秘密",
+      "reading": "ひみつ",
+      "meaning": "secret, privacy"
+    }
+  ],
+  "屋敷": [
+    {
+      "word": "屋敷",
+      "reading": "やしき",
+      "meaning": "mansion"
+    }
+  ],
+  "限界": [
+    {
+      "word": "限界",
+      "reading": "げんかい",
+      "meaning": "boundary, limit"
+    }
+  ],
+  "勝負": [
+    {
+      "word": "勝負",
+      "reading": "しょうぶ",
+      "meaning": "match, contest"
+    }
+  ],
+  "星": [
+    {
+      "word": "星",
+      "reading": "ほし",
+      "meaning": "star, planet"
+    }
+  ],
+  "明らか": [
+    {
+      "word": "明らか",
+      "reading": "あきらか",
+      "meaning": "clear, obvious"
+    }
+  ],
+  "悩む": [
+    {
+      "word": "悩む",
+      "reading": "なやむ",
+      "meaning": "to be troubled, to worry"
+    }
+  ],
+  "集中": [
+    {
+      "word": "集中",
+      "reading": "しゅうちゅう",
+      "meaning": "concentration, convergence"
+    }
+  ],
+  "間違う": [
+    {
+      "word": "間違う",
+      "reading": "まちがう",
+      "meaning": "to be mistaken, to be incorrect"
+    }
+  ],
+  "裏": [
+    {
+      "word": "裏",
+      "reading": "うら",
+      "meaning": "rear, reverse"
+    }
+  ],
+  "薄い": [
+    {
+      "word": "薄い",
+      "reading": "うすい",
+      "meaning": "weak, pale"
+    }
+  ],
+  "願う": [
+    {
+      "word": "願う",
+      "reading": "ねがう",
+      "meaning": "to wish, to ask a favor, to pray"
+    }
+  ],
+  "回復": [
+    {
+      "word": "回復",
+      "reading": "かいふく",
+      "meaning": "recovery"
+    }
+  ],
+  "流す": [
+    {
+      "word": "流す",
+      "reading": "ながす",
+      "meaning": "to let flow, to set adrift"
+    }
+  ],
+  "本物": [
+    {
+      "word": "本物",
+      "reading": "ほんもの",
+      "meaning": "real thing, genuine article"
+    }
+  ],
+  "正に": [
+    {
+      "word": "正に",
+      "reading": "まさに",
+      "meaning": "exactly, surely, truly"
+    }
+  ],
+  "取り戻す": [
+    {
+      "word": "取り戻す",
+      "reading": "とりもどす",
+      "meaning": "to take back, to recover"
+    }
+  ],
+  "何より": [
+    {
+      "word": "何より",
+      "reading": "なにより",
+      "meaning": "above all, most important"
+    }
+  ],
+  "身体": [
+    {
+      "word": "身体",
+      "reading": "しんたい",
+      "meaning": "body"
+    }
+  ],
+  "方向": [
+    {
+      "word": "方向",
+      "reading": "ほうこう",
+      "meaning": "direction, course"
+    }
+  ],
+  "通る": [
+    {
+      "word": "通る",
+      "reading": "とおる",
+      "meaning": "to pass, to take, to go through"
+    }
+  ],
+  "空間": [
+    {
+      "word": "空間",
+      "reading": "くうかん",
+      "meaning": "space, room"
+    }
+  ],
+  "着く": [
+    {
+      "word": "着く",
+      "reading": "つく",
+      "meaning": "to arrive"
+    }
+  ],
+  "可能": [
+    {
+      "word": "可能",
+      "reading": "かのう",
+      "meaning": "possible, potential"
+    }
+  ],
+  "新た": [
+    {
+      "word": "新た",
+      "reading": "あらた",
+      "meaning": "new"
+    }
+  ],
+  "随分": [
+    {
+      "word": "随分",
+      "reading": "ずいぶん",
+      "meaning": "extremely, considerably"
+    }
+  ],
+  "尋ねる": [
+    {
+      "word": "尋ねる",
+      "reading": "たずねる",
+      "meaning": "to inquire, to search for"
+    }
+  ],
+  "椅子": [
+    {
+      "word": "椅子",
+      "reading": "いす",
+      "meaning": "chair"
+    }
+  ],
+  "城": [
+    {
+      "word": "城",
+      "reading": "しろ",
+      "meaning": "castle"
+    }
+  ],
+  "恐らく": [
+    {
+      "word": "恐らく",
+      "reading": "おそらく",
+      "meaning": "probably (usually negative), I'm afraid ..."
+    }
+  ],
+  "お茶": [
+    {
+      "word": "お茶",
+      "reading": "おちゃ",
+      "meaning": "tea (polite)"
+    }
+  ],
+  "雨": [
+    {
+      "word": "雨",
+      "reading": "あめ",
+      "meaning": "rain"
+    }
+  ],
+  "教室": [
+    {
+      "word": "教室",
+      "reading": "きょうしつ",
+      "meaning": "classroom"
+    }
+  ],
+  "馬鹿": [
+    {
+      "word": "馬鹿",
+      "reading": "ばか",
+      "meaning": "fool, nonsense"
+    }
+  ],
+  "遠慮": [
+    {
+      "word": "遠慮",
+      "reading": "えんりょ",
+      "meaning": "reserve, refraining"
+    }
+  ],
+  "迎える": [
+    {
+      "word": "迎える",
+      "reading": "むかえる",
+      "meaning": "to welcome, to go out to meet, to invite"
+    }
+  ],
+  "少なくとも": [
+    {
+      "word": "少なくとも",
+      "reading": "すくなくとも",
+      "meaning": "at least"
+    }
+  ],
+  "魂": [
+    {
+      "word": "魂",
+      "reading": "たましい",
+      "meaning": "soul, spirit"
+    }
+  ],
+  "消す": [
+    {
+      "word": "消す",
+      "reading": "けす",
+      "meaning": "to turn off"
+    }
+  ],
+  "調子": [
+    {
+      "word": "調子",
+      "reading": "ちょうし",
+      "meaning": "condition, state of health"
+    }
+  ],
+  "お互い": [
+    {
+      "word": "お互い",
+      "reading": "おたがい",
+      "meaning": "each other"
+    }
+  ],
+  "似合う": [
+    {
+      "word": "似合う",
+      "reading": "にあう",
+      "meaning": "to suit, to match well"
+    }
+  ],
+  "猫": [
+    {
+      "word": "猫",
+      "reading": "ねこ",
+      "meaning": "cat"
+    }
+  ],
+  "犬": [
+    {
+      "word": "犬",
+      "reading": "いぬ",
+      "meaning": "dog"
+    }
+  ],
+  "お礼": [
+    {
+      "word": "お礼",
+      "reading": "おれい",
+      "meaning": "gratitude"
+    }
+  ],
+  "後悔": [
+    {
+      "word": "後悔",
+      "reading": "こうかい",
+      "meaning": "regret"
+    }
+  ],
+  "希望": [
+    {
+      "word": "希望",
+      "reading": "きぼう",
+      "meaning": "hope, wish"
+    }
+  ],
+  "下がる": [
+    {
+      "word": "下がる",
+      "reading": "さがる",
+      "meaning": "to come down, to hang down, to fall"
+    }
+  ],
+  "訪れる": [
+    {
+      "word": "訪れる",
+      "reading": "おとずれる",
+      "meaning": "to visit, to call on"
+    }
+  ],
+  "褒める": [
+    {
+      "word": "褒める",
+      "reading": "ほめる",
+      "meaning": "to praise, to commend"
+    }
+  ],
+  "性格": [
+    {
+      "word": "性格",
+      "reading": "せいかく",
+      "meaning": "character, personality"
+    }
+  ],
+  "写真": [
+    {
+      "word": "写真",
+      "reading": "しゃしん",
+      "meaning": "photograph"
+    }
+  ],
+  "薬": [
+    {
+      "word": "薬",
+      "reading": "くすり",
+      "meaning": "drug, remedy"
+    }
+  ],
+  "友人": [
+    {
+      "word": "友人",
+      "reading": "ゆうじん",
+      "meaning": "friend"
+    }
+  ],
+  "確実": [
+    {
+      "word": "確実",
+      "reading": "かくじつ",
+      "meaning": "certain, secure"
+    }
+  ],
+  "去る": [
+    {
+      "word": "去る",
+      "reading": "さる",
+      "meaning": "to go away, to pass"
+    }
+  ],
+  "一部": [
+    {
+      "word": "一部",
+      "reading": "いちぶ",
+      "meaning": "(one) part"
+    }
+  ],
+  "遠く": [
+    {
+      "word": "遠く",
+      "reading": "とおく",
+      "meaning": "far (away)"
+    }
+  ],
+  "腹": [
+    {
+      "word": "腹",
+      "reading": "はら",
+      "meaning": "belly"
+    }
+  ],
+  "階段": [
+    {
+      "word": "階段",
+      "reading": "かいだん",
+      "meaning": "stairs"
+    }
+  ],
+  "適当": [
+    {
+      "word": "適当",
+      "reading": "てきとう",
+      "meaning": "suitable, appropriate"
+    }
+  ],
+  "舌": [
+    {
+      "word": "舌",
+      "reading": "した",
+      "meaning": "tongue"
+    }
+  ],
+  "予想": [
+    {
+      "word": "予想",
+      "reading": "よそう",
+      "meaning": "prospect, expectation"
+    }
+  ],
+  "興奮": [
+    {
+      "word": "興奮",
+      "reading": "こうふん",
+      "meaning": "excitement, agitation"
+    }
+  ],
+  "関わる": [
+    {
+      "word": "関わる",
+      "reading": "かかわる",
+      "meaning": "to involve, to concern"
+    }
+  ],
+  "白": [
+    {
+      "word": "白",
+      "reading": "しろ",
+      "meaning": "white"
+    }
+  ],
+  "進める": [
+    {
+      "word": "進める",
+      "reading": "すすめる",
+      "meaning": "to advance, to promote"
+    }
+  ],
+  "真剣": [
+    {
+      "word": "真剣",
+      "reading": "しんけん",
+      "meaning": "serious, sincere"
+    }
+  ],
+  "迫る": [
+    {
+      "word": "迫る",
+      "reading": "せまる",
+      "meaning": "to press, to close in on"
+    }
+  ],
+  "疑問": [
+    {
+      "word": "疑問",
+      "reading": "ぎもん",
+      "meaning": "question, doubt"
+    }
+  ],
+  "指示": [
+    {
+      "word": "指示",
+      "reading": "しじ",
+      "meaning": "instruction, indication"
+    }
+  ],
+  "揺れる": [
+    {
+      "word": "揺れる",
+      "reading": "ゆれる",
+      "meaning": "to shake, to sway"
+    }
+  ],
+  "相当": [
+    {
+      "word": "相当",
+      "reading": "そうとう",
+      "meaning": "correspondence, suitability"
+    }
+  ],
+  "楽": [
+    {
+      "word": "楽",
+      "reading": "らく",
+      "meaning": "easy, comfortable"
+    }
+  ],
+  "勘違い": [
+    {
+      "word": "勘違い",
+      "reading": "かんちがい",
+      "meaning": "misunderstanding"
+    }
+  ],
+  "警戒": [
+    {
+      "word": "警戒",
+      "reading": "けいかい",
+      "meaning": "vigilance, precaution"
+    }
+  ],
+  "確かめる": [
+    {
+      "word": "確かめる",
+      "reading": "たしかめる",
+      "meaning": "to check, to make sure of"
+    }
+  ],
+  "月": [
+    {
+      "word": "月",
+      "reading": "つき",
+      "meaning": "moon"
+    }
+  ],
+  "疑う": [
+    {
+      "word": "疑う",
+      "reading": "うたがう",
+      "meaning": "to doubt, to be suspicious"
+    }
+  ],
+  "電話": [
+    {
+      "word": "電話",
+      "reading": "でんわ",
+      "meaning": "telephone"
+    }
+  ],
+  "成長": [
+    {
+      "word": "成長",
+      "reading": "せいちょう",
+      "meaning": "growth"
+    }
+  ],
+  "鋭い": [
+    {
+      "word": "鋭い",
+      "reading": "するどい",
+      "meaning": "acute, sharp"
+    }
+  ],
+  "証拠": [
+    {
+      "word": "証拠",
+      "reading": "しょうこ",
+      "meaning": "proof, evidence"
+    }
+  ],
+  "紹介": [
+    {
+      "word": "紹介",
+      "reading": "しょうかい",
+      "meaning": "introduction, referral"
+    }
+  ],
+  "実際": [
+    {
+      "word": "実際",
+      "reading": "じっさい",
+      "meaning": "reality, actuality"
+    }
+  ],
+  "何でも": [
+    {
+      "word": "何でも",
+      "reading": "なんでも",
+      "meaning": "anything, whatever"
+    }
+  ],
+  "作業": [
+    {
+      "word": "作業",
+      "reading": "さぎょう",
+      "meaning": "work, operation"
+    }
+  ],
+  "重要": [
+    {
+      "word": "重要",
+      "reading": "じゅうよう",
+      "meaning": "important, essential"
+    }
+  ],
+  "鍵": [
+    {
+      "word": "鍵",
+      "reading": "かぎ",
+      "meaning": "key"
+    }
+  ],
+  "衝撃": [
+    {
+      "word": "衝撃",
+      "reading": "しょうげき",
+      "meaning": "impact, shock"
+    }
+  ],
+  "巻き込む": [
+    {
+      "word": "巻き込む",
+      "reading": "まきこむ",
+      "meaning": "to roll up, to involve"
+    }
+  ],
+  "差し出す": [
+    {
+      "word": "差し出す",
+      "reading": "さしだす",
+      "meaning": "to submit"
+    }
+  ],
+  "軍": [
+    {
+      "word": "軍",
+      "reading": "ぐん",
+      "meaning": "army, troops"
+    }
+  ],
+  "悔しい": [
+    {
+      "word": "悔しい",
+      "reading": "くやしい",
+      "meaning": "vexing, frustrating"
+    }
+  ],
+  "抜く": [
+    {
+      "word": "抜く",
+      "reading": "ぬく",
+      "meaning": "to pull out"
+    }
+  ],
+  "破壊": [
+    {
+      "word": "破壊",
+      "reading": "はかい",
+      "meaning": "breaking, destruction"
+    }
+  ],
+  "運命": [
+    {
+      "word": "運命",
+      "reading": "うんめい",
+      "meaning": "fate, fortune"
+    }
+  ],
+  "案内": [
+    {
+      "word": "案内",
+      "reading": "あんない",
+      "meaning": "guide, show around"
+    }
+  ],
+  "努力": [
+    {
+      "word": "努力",
+      "reading": "どりょく",
+      "meaning": "endeavor, effort"
+    }
+  ],
+  "一言": [
+    {
+      "word": "一言",
+      "reading": "ひとこと",
+      "meaning": "single word, a few words"
+    }
+  ],
+  "心臓": [
+    {
+      "word": "心臓",
+      "reading": "しんぞう",
+      "meaning": "heart"
+    }
+  ],
+  "荷物": [
+    {
+      "word": "荷物",
+      "reading": "にもつ",
+      "meaning": "baggage, load"
+    }
+  ],
+  "伸びる": [
+    {
+      "word": "伸びる",
+      "reading": "のびる",
+      "meaning": "to stretch, to grow"
+    }
+  ],
+  "両親": [
+    {
+      "word": "両親",
+      "reading": "りょうしん",
+      "meaning": "(both) parents"
+    }
+  ],
+  "量": [
+    {
+      "word": "量",
+      "reading": "りょう",
+      "meaning": "amount, portion"
+    }
+  ],
+  "払う": [
+    {
+      "word": "払う",
+      "reading": "はらう",
+      "meaning": "to pay"
+    }
+  ],
+  "二度と": [
+    {
+      "word": "二度と",
+      "reading": "にどと",
+      "meaning": "never again"
+    }
+  ],
+  "辺り": [
+    {
+      "word": "辺り",
+      "reading": "あたり",
+      "meaning": "vicinity, around"
+    }
+  ],
+  "開始": [
+    {
+      "word": "開始",
+      "reading": "かいし",
+      "meaning": "beginning"
+    }
+  ],
+  "解放": [
+    {
+      "word": "解放",
+      "reading": "かいほう",
+      "meaning": "release, setting free"
+    }
+  ],
+  "仲良く": [
+    {
+      "word": "仲良く",
+      "reading": "なかよく",
+      "meaning": "harmoniously, amicably"
+    }
+  ],
+  "獣": [
+    {
+      "word": "獣",
+      "reading": "けもの",
+      "meaning": "beast, brute"
+    }
+  ],
+  "取れる": [
+    {
+      "word": "取れる",
+      "reading": "とれる",
+      "meaning": "to come off, to be removed"
+    }
+  ],
+  "建物": [
+    {
+      "word": "建物",
+      "reading": "たてもの",
+      "meaning": "building, structure"
+    }
+  ],
+  "本来": [
+    {
+      "word": "本来",
+      "reading": "ほんらい",
+      "meaning": "originally, essentially"
+    }
+  ],
+  "扱う": [
+    {
+      "word": "扱う",
+      "reading": "あつかう",
+      "meaning": "to handle, to deal with"
+    }
+  ],
+  "真面目": [
+    {
+      "word": "真面目",
+      "reading": "まじめ",
+      "meaning": "serious, earnest"
+    }
+  ],
+  "影響": [
+    {
+      "word": "影響",
+      "reading": "えいきょう",
+      "meaning": "influence, effect"
+    }
+  ],
+  "真っ赤": [
+    {
+      "word": "真っ赤",
+      "reading": "まっか",
+      "meaning": "deep red"
+    }
+  ],
+  "発見": [
+    {
+      "word": "発見",
+      "reading": "はっけん",
+      "meaning": "discovery, revelation"
+    }
+  ],
+  "支える": [
+    {
+      "word": "支える",
+      "reading": "ささえる",
+      "meaning": "to support, to maintain"
+    }
+  ],
+  "第一": [
+    {
+      "word": "第一",
+      "reading": "だいいち",
+      "meaning": "number one, first"
+    }
+  ],
+  "お父さん": [
+    {
+      "word": "お父さん",
+      "reading": "おとうさん",
+      "meaning": "father"
+    }
+  ],
+  "お母さん": [
+    {
+      "word": "お母さん",
+      "reading": "おかあさん",
+      "meaning": "mother"
+    }
+  ],
+  "お兄さん": [
+    {
+      "word": "お兄さん",
+      "reading": "おにいさん",
+      "meaning": "older brother"
+    }
+  ],
+  "お姉さん": [
+    {
+      "word": "お姉さん",
+      "reading": "おねえさん",
+      "meaning": "older sister"
+    }
+  ],
+  "机": [
+    {
+      "word": "机",
+      "reading": "つくえ",
+      "meaning": "desk, table"
+    }
+  ],
+  "同士": [
+    {
+      "word": "同士",
+      "reading": "どうし",
+      "meaning": "of the same kind, each other, fellow"
+    }
+  ],
+  "遅れる": [
+    {
+      "word": "遅れる",
+      "reading": "おくれる",
+      "meaning": "to be late"
+    }
+  ],
+  "車": [
+    {
+      "word": "車",
+      "reading": "くるま",
+      "meaning": "car, automobile"
+    }
+  ],
+  "飛び出す": [
+    {
+      "word": "飛び出す",
+      "reading": "とびだす",
+      "meaning": "to fly out, to dash out"
+    }
+  ],
+  "事態": [
+    {
+      "word": "事態",
+      "reading": "じたい",
+      "meaning": "situation, state of affairs"
+    }
+  ],
+  "味方": [
+    {
+      "word": "味方",
+      "reading": "みかた",
+      "meaning": "friend, ally"
+    }
+  ],
+  "展開": [
+    {
+      "word": "展開",
+      "reading": "てんかい",
+      "meaning": "unfolding, development"
+    }
+  ],
+  "学園": [
+    {
+      "word": "学園",
+      "reading": "がくえん",
+      "meaning": "educational institution, school"
+    }
+  ],
+  "怪しい": [
+    {
+      "word": "怪しい",
+      "reading": "あやしい",
+      "meaning": "suspicious, dubious"
+    }
+  ],
+  "型": [
+    {
+      "word": "型",
+      "reading": "かた",
+      "meaning": "type, model"
+    }
+  ],
+  "流れ": [
+    {
+      "word": "流れ",
+      "reading": "ながれ",
+      "meaning": "flow, stream"
+    }
+  ],
+  "残り": [
+    {
+      "word": "残り",
+      "reading": "のこり",
+      "meaning": "rest, leftover"
+    }
+  ],
+  "偶然": [
+    {
+      "word": "偶然",
+      "reading": "ぐうぜん",
+      "meaning": "chance, accident"
+    }
+  ],
+  "柔らかい": [
+    {
+      "word": "柔らかい",
+      "reading": "やわらかい",
+      "meaning": "soft"
+    }
+  ],
+  "感触": [
+    {
+      "word": "感触",
+      "reading": "かんしょく",
+      "meaning": "feeling, touch"
+    }
+  ],
+  "女子": [
+    {
+      "word": "女子",
+      "reading": "じょし",
+      "meaning": "woman, girl"
+    }
+  ],
+  "無し": [
+    {
+      "word": "無し",
+      "reading": "なし",
+      "meaning": "naught, nothing"
+    }
+  ],
+  "壊れる": [
+    {
+      "word": "壊れる",
+      "reading": "こわれる",
+      "meaning": "to break, to fall apart"
+    }
+  ],
+  "苦手": [
+    {
+      "word": "苦手",
+      "reading": "にがて",
+      "meaning": "hard to deal with, weak point"
+    }
+  ],
+  "試す": [
+    {
+      "word": "試す",
+      "reading": "ためす",
+      "meaning": "to try, to test"
+    }
+  ],
+  "立派": [
+    {
+      "word": "立派",
+      "reading": "りっぱ",
+      "meaning": "fine, excellent"
+    }
+  ],
+  "回す": [
+    {
+      "word": "回す",
+      "reading": "まわす",
+      "meaning": "to turn, to rotate"
+    }
+  ],
+  "意見": [
+    {
+      "word": "意見",
+      "reading": "いけん",
+      "meaning": "opinion"
+    }
+  ],
+  "大量": [
+    {
+      "word": "大量",
+      "reading": "たいりょう",
+      "meaning": "large quantity, great volume"
+    }
+  ],
+  "提案": [
+    {
+      "word": "提案",
+      "reading": "ていあん",
+      "meaning": "proposal, proposition"
+    }
+  ],
+  "責任": [
+    {
+      "word": "責任",
+      "reading": "せきにん",
+      "meaning": "responsibility, liability"
+    }
+  ],
+  "抑える": [
+    {
+      "word": "抑える",
+      "reading": "おさえる",
+      "meaning": "to hold back, to restrain"
+    }
+  ],
+  "全力": [
+    {
+      "word": "全力",
+      "reading": "ぜんりょく",
+      "meaning": "with all of one's strength, at full capacity"
+    }
+  ],
+  "伸ばす": [
+    {
+      "word": "伸ばす",
+      "reading": "のばす",
+      "meaning": "to stretch, to straighten"
+    }
+  ],
+  "客": [
+    {
+      "word": "客",
+      "reading": "きゃく",
+      "meaning": "customer, guest"
+    }
+  ],
+  "王国": [
+    {
+      "word": "王国",
+      "reading": "おうこく",
+      "meaning": "kingdom, monarchy"
+    }
+  ],
+  "抵抗": [
+    {
+      "word": "抵抗",
+      "reading": "ていこう",
+      "meaning": "resistance, opposition"
+    }
+  ],
+  "混乱": [
+    {
+      "word": "混乱",
+      "reading": "こんらん",
+      "meaning": "disorder, chaos"
+    }
+  ],
+  "条件": [
+    {
+      "word": "条件",
+      "reading": "じょうけん",
+      "meaning": "condition, item"
+    }
+  ],
+  "迷惑": [
+    {
+      "word": "迷惑",
+      "reading": "めいわく",
+      "meaning": "trouble, annoyance"
+    }
+  ],
+  "例": [
+    {
+      "word": "例",
+      "reading": "れい",
+      "meaning": "example"
+    }
+  ],
+  "頼る": [
+    {
+      "word": "頼る",
+      "reading": "たよる",
+      "meaning": "to rely on, to depend on"
+    }
+  ],
+  "完璧": [
+    {
+      "word": "完璧",
+      "reading": "かんぺき",
+      "meaning": "flawless, perfect"
+    }
+  ],
+  "日々": [
+    {
+      "word": "日々",
+      "reading": "ひび",
+      "meaning": "daily, every day"
+    }
+  ],
+  "行為": [
+    {
+      "word": "行為",
+      "reading": "こうい",
+      "meaning": "act, conduct"
+    }
+  ],
+  "減る": [
+    {
+      "word": "減る",
+      "reading": "へる",
+      "meaning": "to decrease, to diminish"
+    }
+  ],
+  "嫌う": [
+    {
+      "word": "嫌う",
+      "reading": "きらう",
+      "meaning": "to dislike, to hate"
+    }
+  ],
+  "知り合い": [
+    {
+      "word": "知り合い",
+      "reading": "しりあい",
+      "meaning": "acquaintance"
+    }
+  ],
+  "思考": [
+    {
+      "word": "思考",
+      "reading": "しこう",
+      "meaning": "thinking, thought"
+    }
+  ],
+  "解決": [
+    {
+      "word": "解決",
+      "reading": "かいけつ",
+      "meaning": "solution, settlement"
+    }
+  ],
+  "冷静": [
+    {
+      "word": "冷静",
+      "reading": "れいせい",
+      "meaning": "cool, calm"
+    }
+  ],
+  "天": [
+    {
+      "word": "天",
+      "reading": "てん",
+      "meaning": "sky, Heaven"
+    }
+  ],
+  "いつの間にか": [
+    {
+      "word": "いつの間にか",
+      "reading": "いつのまにか",
+      "meaning": "before one knows, unnoticed"
+    }
+  ],
+  "直す": [
+    {
+      "word": "直す",
+      "reading": "なおす",
+      "meaning": "to repair, to cure, to alter"
+    }
+  ],
+  "常に": [
+    {
+      "word": "常に",
+      "reading": "つねに",
+      "meaning": "always, constantly"
+    }
+  ],
+  "犯人": [
+    {
+      "word": "犯人",
+      "reading": "はんにん",
+      "meaning": "criminal, culprit"
+    }
+  ],
+  "許可": [
+    {
+      "word": "許可",
+      "reading": "きょか",
+      "meaning": "permission, approval"
+    }
+  ],
+  "閉じる": [
+    {
+      "word": "閉じる",
+      "reading": "とじる",
+      "meaning": "to close"
+    }
+  ],
+  "重ねる": [
+    {
+      "word": "重ねる",
+      "reading": "かさねる",
+      "meaning": "to put on top of something, to pile up"
+    }
+  ],
+  "細い": [
+    {
+      "word": "細い",
+      "reading": "ほそい",
+      "meaning": "thin, narrow, slender"
+    }
+  ],
+  "久しぶり": [
+    {
+      "word": "久しぶり",
+      "reading": "ひさしぶり",
+      "meaning": "for the first time in a while"
+    }
+  ],
+  "目立つ": [
+    {
+      "word": "目立つ",
+      "reading": "めだつ",
+      "meaning": "to stand out, to be conspicuous"
+    }
+  ],
+  "到着": [
+    {
+      "word": "到着",
+      "reading": "とうちゃく",
+      "meaning": "arrival"
+    }
+  ],
+  "押さえる": [
+    {
+      "word": "押さえる",
+      "reading": "おさえる",
+      "meaning": "to hold down, to hold steady"
+    }
+  ],
+  "通う": [
+    {
+      "word": "通う",
+      "reading": "かよう",
+      "meaning": "to go to and from, to frequent a place"
+    }
+  ],
+  "殴る": [
+    {
+      "word": "殴る",
+      "reading": "なぐる",
+      "meaning": "to hit, to strike"
+    }
+  ],
+  "広げる": [
+    {
+      "word": "広げる",
+      "reading": "ひろげる",
+      "meaning": "to spread, to unfold"
+    }
+  ],
+  "引っ張る": [
+    {
+      "word": "引っ張る",
+      "reading": "ひっぱる",
+      "meaning": "to pull, to drag"
+    }
+  ],
+  "間に合う": [
+    {
+      "word": "間に合う",
+      "reading": "まにあう",
+      "meaning": "to be in time, to answer the purpose, can do without"
+    }
+  ],
+  "了解": [
+    {
+      "word": "了解",
+      "reading": "りょうかい",
+      "meaning": "consent, understanding, roger that"
+    }
+  ],
+  "番": [
+    {
+      "word": "番",
+      "reading": "ばん",
+      "meaning": "one's turn"
+    }
+  ],
+  "戦争": [
+    {
+      "word": "戦争",
+      "reading": "せんそう",
+      "meaning": "war, battle"
+    }
+  ],
+  "寒い": [
+    {
+      "word": "寒い",
+      "reading": "さむい",
+      "meaning": "cold (temperature)"
+    }
+  ],
+  "見事": [
+    {
+      "word": "見事",
+      "reading": "みごと",
+      "meaning": "splendid, admirable"
+    }
+  ],
+  "酒": [
+    {
+      "word": "酒",
+      "reading": "さけ",
+      "meaning": "alcoholic drink, Japanese rice wine"
+    }
+  ],
+  "恋人": [
+    {
+      "word": "恋人",
+      "reading": "こいびと",
+      "meaning": "lover, sweetheart"
+    }
+  ],
+  "一切": [
+    {
+      "word": "一切",
+      "reading": "いっさい",
+      "meaning": "not at all, absolutely nothing"
+    }
+  ],
+  "穴": [
+    {
+      "word": "穴",
+      "reading": "あな",
+      "meaning": "hole, cavity"
+    }
+  ],
+  "依頼": [
+    {
+      "word": "依頼",
+      "reading": "いらい",
+      "meaning": "request, commission"
+    }
+  ],
+  "中身": [
+    {
+      "word": "中身",
+      "reading": "なかみ",
+      "meaning": "content, interior"
+    }
+  ],
+  "多少": [
+    {
+      "word": "多少",
+      "reading": "たしょう",
+      "meaning": "a little, somewhat"
+    }
+  ],
+  "真実": [
+    {
+      "word": "真実",
+      "reading": "しんじつ",
+      "meaning": "truth, reality"
+    }
+  ],
+  "見た目": [
+    {
+      "word": "見た目",
+      "reading": "みため",
+      "meaning": "outward appearance"
+    }
+  ],
+  "間違い": [
+    {
+      "word": "間違い",
+      "reading": "まちがい",
+      "meaning": "mistake, error"
+    }
+  ],
+  "青い": [
+    {
+      "word": "青い",
+      "reading": "あおい",
+      "meaning": "blue"
+    }
+  ],
+  "辛い": [
+    {
+      "word": "辛い",
+      "reading": "からい",
+      "meaning": "spicy"
+    },
+    {
+      "word": "辛い",
+      "reading": "つらい",
+      "meaning": "difficult, harsh"
+    }
+  ],
+  "対応": [
+    {
+      "word": "対応",
+      "reading": "たいおう",
+      "meaning": "correspondence, equivalence, response"
+    }
+  ],
+  "光る": [
+    {
+      "word": "光る",
+      "reading": "ひかる",
+      "meaning": "to shine, to emit light"
+    }
+  ],
+  "苦労": [
+    {
+      "word": "苦労",
+      "reading": "くろう",
+      "meaning": "difficulty, hardship"
+    }
+  ],
+  "通じる": [
+    {
+      "word": "通じる",
+      "reading": "つうじる",
+      "meaning": "to pass, to communicate with"
+    }
+  ],
+  "罪": [
+    {
+      "word": "罪",
+      "reading": "つみ",
+      "meaning": "crime, sin"
+    }
+  ],
+  "授業": [
+    {
+      "word": "授業",
+      "reading": "じゅぎょう",
+      "meaning": "class, lesson"
+    }
+  ],
+  "最悪": [
+    {
+      "word": "最悪",
+      "reading": "さいあく",
+      "meaning": "worst, terrible"
+    }
+  ],
+  "差": [
+    {
+      "word": "差",
+      "reading": "さ",
+      "meaning": "difference"
+    }
+  ],
+  "信用": [
+    {
+      "word": "信用",
+      "reading": "しんよう",
+      "meaning": "trust, credit"
+    }
+  ],
+  "壊す": [
+    {
+      "word": "壊す",
+      "reading": "こわす",
+      "meaning": "to break, to destroy, to smash"
+    }
+  ],
+  "式": [
+    {
+      "word": "式",
+      "reading": "しき",
+      "meaning": "ceremony"
+    }
+  ],
+  "人形": [
+    {
+      "word": "人形",
+      "reading": "にんぎょう",
+      "meaning": "doll"
+    }
+  ],
+  "結ぶ": [
+    {
+      "word": "結ぶ",
+      "reading": "むすぶ",
+      "meaning": "to tie, to join"
+    }
+  ],
+  "計画": [
+    {
+      "word": "計画",
+      "reading": "けいかく",
+      "meaning": "plan, project"
+    }
+  ],
+  "囲む": [
+    {
+      "word": "囲む",
+      "reading": "かこむ",
+      "meaning": "to enclose, to encircle"
+    }
+  ],
+  "知識": [
+    {
+      "word": "知識",
+      "reading": "ちしき",
+      "meaning": "knowledge"
+    }
+  ],
+  "切り": [
+    {
+      "word": "切り",
+      "reading": "きり",
+      "meaning": "end, place to stop"
+    }
+  ],
+  "注意": [
+    {
+      "word": "注意",
+      "reading": "ちゅうい",
+      "meaning": "care, watch out"
+    }
+  ],
+  "言い方": [
+    {
+      "word": "言い方",
+      "reading": "いいかた",
+      "meaning": "way of speaking, expression"
+    }
+  ],
+  "経つ": [
+    {
+      "word": "経つ",
+      "reading": "たつ",
+      "meaning": "to pass, to elapse"
+    }
+  ],
+  "背": [
+    {
+      "word": "背",
+      "reading": "せ",
+      "meaning": "height, stature"
+    }
+  ],
+  "問う": [
+    {
+      "word": "問う",
+      "reading": "とう",
+      "meaning": "to ask, to inquire"
+    }
+  ],
+  "恋": [
+    {
+      "word": "恋",
+      "reading": "こい",
+      "meaning": "love, romance"
+    }
+  ],
+  "中心": [
+    {
+      "word": "中心",
+      "reading": "ちゅうしん",
+      "meaning": "center, middle"
+    }
+  ],
+  "汗": [
+    {
+      "word": "汗",
+      "reading": "あせ",
+      "meaning": "sweat"
+    }
+  ],
+  "異常": [
+    {
+      "word": "異常",
+      "reading": "いじょう",
+      "meaning": "extraordinary, exceptional"
+    }
+  ],
+  "非常": [
+    {
+      "word": "非常",
+      "reading": "ひじょう",
+      "meaning": "emergency, calamity"
+    }
+  ],
+  "膝": [
+    {
+      "word": "膝",
+      "reading": "ひざ",
+      "meaning": "knee"
+    }
+  ],
+  "役": [
+    {
+      "word": "役",
+      "reading": "やく",
+      "meaning": "role, part"
+    }
+  ],
+  "焦る": [
+    {
+      "word": "焦る",
+      "reading": "あせる",
+      "meaning": "to feel pressured, to feel hurried"
+    }
+  ],
+  "川": [
+    {
+      "word": "川",
+      "reading": "かわ",
+      "meaning": "river, stream"
+    }
+  ],
+  "悪魔": [
+    {
+      "word": "悪魔",
+      "reading": "あくま",
+      "meaning": "demon, devil"
+    }
+  ],
+  "唯一": [
+    {
+      "word": "唯一",
+      "reading": "ゆいいつ",
+      "meaning": "(the) only, unique"
+    }
+  ],
+  "中央": [
+    {
+      "word": "中央",
+      "reading": "ちゅうおう",
+      "meaning": "center"
+    }
+  ],
+  "突っ込む": [
+    {
+      "word": "突っ込む",
+      "reading": "つっこむ",
+      "meaning": "to thrust in, to dash into"
+    }
+  ],
+  "技術": [
+    {
+      "word": "技術",
+      "reading": "ぎじゅつ",
+      "meaning": "technology"
+    }
+  ],
+  "素晴らしい": [
+    {
+      "word": "素晴らしい",
+      "reading": "すばらしい",
+      "meaning": "splendid, excellent"
+    }
+  ],
+  "単純": [
+    {
+      "word": "単純",
+      "reading": "たんじゅん",
+      "meaning": "simple, uncomplicated"
+    }
+  ],
+  "穏やか": [
+    {
+      "word": "穏やか",
+      "reading": "おだやか",
+      "meaning": "calm, mild"
+    }
+  ],
+  "撃つ": [
+    {
+      "word": "撃つ",
+      "reading": "うつ",
+      "meaning": "to fire, to shoot"
+    }
+  ],
+  "拾う": [
+    {
+      "word": "拾う",
+      "reading": "ひろう",
+      "meaning": "to pick up, to find"
+    }
+  ],
+  "完成": [
+    {
+      "word": "完成",
+      "reading": "かんせい",
+      "meaning": "completion, finish"
+    }
+  ],
+  "毒": [
+    {
+      "word": "毒",
+      "reading": "どく",
+      "meaning": "poison, harm"
+    }
+  ],
+  "馬": [
+    {
+      "word": "馬",
+      "reading": "うま",
+      "meaning": "horse"
+    }
+  ],
+  "覆う": [
+    {
+      "word": "覆う",
+      "reading": "おおう",
+      "meaning": "to cover, to hide"
+    }
+  ],
+  "趣味": [
+    {
+      "word": "趣味",
+      "reading": "しゅみ",
+      "meaning": "hobby"
+    }
+  ],
+  "何となく": [
+    {
+      "word": "何となく",
+      "reading": "なんとなく",
+      "meaning": "for some reason"
+    }
+  ],
+  "価値": [
+    {
+      "word": "価値",
+      "reading": "かち",
+      "meaning": "value, merit"
+    }
+  ],
+  "見守る": [
+    {
+      "word": "見守る",
+      "reading": "みまもる",
+      "meaning": "to watch, to keep watch over"
+    }
+  ],
+  "安全": [
+    {
+      "word": "安全",
+      "reading": "あんぜん",
+      "meaning": "safety, security"
+    }
+  ],
+  "連れてくる": [
+    {
+      "word": "連れてくる",
+      "reading": "つれてくる",
+      "meaning": "to bring over, to bring along"
+    }
+  ],
+  "万": [
+    {
+      "word": "万",
+      "reading": "まん",
+      "meaning": "ten thousand"
+    }
+  ],
+  "額": [
+    {
+      "word": "額",
+      "reading": "がく",
+      "meaning": "picture frame"
+    }
+  ],
+  "受け止める": [
+    {
+      "word": "受け止める",
+      "reading": "うけとめる",
+      "meaning": "to catch, to receive"
+    }
+  ],
+  "素敵": [
+    {
+      "word": "素敵",
+      "reading": "すてき",
+      "meaning": "lovely, superb"
+    }
+  ],
+  "正体": [
+    {
+      "word": "正体",
+      "reading": "しょうたい",
+      "meaning": "true character, true form"
+    }
+  ],
+  "吸う": [
+    {
+      "word": "吸う",
+      "reading": "すう",
+      "meaning": "to smoke"
+    }
+  ],
+  "鳴る": [
+    {
+      "word": "鳴る",
+      "reading": "なる",
+      "meaning": "to ring, to beep"
+    }
+  ],
+  "研究": [
+    {
+      "word": "研究",
+      "reading": "けんきゅう",
+      "meaning": "research"
+    }
+  ],
+  "別れる": [
+    {
+      "word": "別れる",
+      "reading": "わかれる",
+      "meaning": "to separate, to part from"
+    }
+  ],
+  "着替える": [
+    {
+      "word": "着替える",
+      "reading": "きがえる",
+      "meaning": "to change clothes"
+    }
+  ],
+  "箱": [
+    {
+      "word": "箱",
+      "reading": "はこ",
+      "meaning": "box, case"
+    }
+  ],
+  "無言": [
+    {
+      "word": "無言",
+      "reading": "むごん",
+      "meaning": "silence, muteness"
+    }
+  ],
+  "何で": [
+    {
+      "word": "何で",
+      "reading": "なんで",
+      "meaning": "why, what for"
+    }
+  ],
+  "裏切る": [
+    {
+      "word": "裏切る",
+      "reading": "うらぎる",
+      "meaning": "to betray"
+    }
+  ],
+  "焼く": [
+    {
+      "word": "焼く",
+      "reading": "やく",
+      "meaning": "to burn, to bake"
+    }
+  ],
+  "怪我": [
+    {
+      "word": "怪我",
+      "reading": "けが",
+      "meaning": "injury"
+    }
+  ],
+  "門": [
+    {
+      "word": "門",
+      "reading": "もん",
+      "meaning": "gate, entrance"
+    }
+  ],
+  "不可能": [
+    {
+      "word": "不可能",
+      "reading": "ふかのう",
+      "meaning": "impossible"
+    }
+  ],
+  "妻": [
+    {
+      "word": "妻",
+      "reading": "つま",
+      "meaning": "wife"
+    }
+  ],
+  "時には": [
+    {
+      "word": "時には",
+      "reading": "ときには",
+      "meaning": "occasionally, at times"
+    }
+  ],
+  "発言": [
+    {
+      "word": "発言",
+      "reading": "はつげん",
+      "meaning": "speech"
+    }
+  ],
+  "正確": [
+    {
+      "word": "正確",
+      "reading": "せいかく",
+      "meaning": "accurate, precise"
+    }
+  ],
+  "認識": [
+    {
+      "word": "認識",
+      "reading": "にんしき",
+      "meaning": "recognition, acknowledgment"
+    }
+  ],
+  "速度": [
+    {
+      "word": "速度",
+      "reading": "そくど",
+      "meaning": "velocity, speed"
+    }
+  ],
+  "謎": [
+    {
+      "word": "謎",
+      "reading": "なぞ",
+      "meaning": "mystery, puzzle"
+    }
+  ],
+  "文字": [
+    {
+      "word": "文字",
+      "reading": "もじ",
+      "meaning": "character, letter"
+    }
+  ],
+  "吐く": [
+    {
+      "word": "吐く",
+      "reading": "はく",
+      "meaning": "to spew, to vomit, to holler"
+    }
+  ],
+  "鬼": [
+    {
+      "word": "鬼",
+      "reading": "おに",
+      "meaning": "demon, ogre"
+    }
+  ],
+  "刺激": [
+    {
+      "word": "刺激",
+      "reading": "しげき",
+      "meaning": "stimulus, stimulation"
+    }
+  ],
+  "最も": [
+    {
+      "word": "最も",
+      "reading": "もっとも",
+      "meaning": "the most"
+    }
+  ],
+  "制服": [
+    {
+      "word": "制服",
+      "reading": "せいふく",
+      "meaning": "uniform"
+    }
+  ],
+  "爆発": [
+    {
+      "word": "爆発",
+      "reading": "ばくはつ",
+      "meaning": "blast, explosion"
+    }
+  ],
+  "訓練": [
+    {
+      "word": "訓練",
+      "reading": "くんれん",
+      "meaning": "training, drill"
+    }
+  ],
+  "振り向く": [
+    {
+      "word": "振り向く",
+      "reading": "ふりむく",
+      "meaning": "to turn around, to look back"
+    }
+  ],
+  "脱ぐ": [
+    {
+      "word": "脱ぐ",
+      "reading": "ぬぐ",
+      "meaning": "to remove clothes, to take off"
+    }
+  ],
+  "信頼": [
+    {
+      "word": "信頼",
+      "reading": "しんらい",
+      "meaning": "trust, faith"
+    }
+  ],
+  "寄る": [
+    {
+      "word": "寄る",
+      "reading": "よる",
+      "meaning": "to stop by, to drop by"
+    }
+  ],
+  "飛ばす": [
+    {
+      "word": "飛ばす",
+      "reading": "とばす",
+      "meaning": "to fly, to launch in the air"
+    }
+  ],
+  "貸す": [
+    {
+      "word": "貸す",
+      "reading": "かす",
+      "meaning": "to lend, to lease"
+    }
+  ],
+  "赤": [
+    {
+      "word": "赤",
+      "reading": "あか",
+      "meaning": "red"
+    }
+  ],
+  "大体": [
+    {
+      "word": "大体",
+      "reading": "だいたい",
+      "meaning": "mostly"
+    }
+  ],
+  "喉": [
+    {
+      "word": "喉",
+      "reading": "のど",
+      "meaning": "throat"
+    }
+  ],
+  "少々": [
+    {
+      "word": "少々",
+      "reading": "しょうしょう",
+      "meaning": "a little, a few"
+    }
+  ],
+  "有名": [
+    {
+      "word": "有名",
+      "reading": "ゆうめい",
+      "meaning": "famous"
+    }
+  ],
+  "船": [
+    {
+      "word": "船",
+      "reading": "ふね",
+      "meaning": "ship, boat"
+    }
+  ],
+  "転がる": [
+    {
+      "word": "転がる",
+      "reading": "ころがる",
+      "meaning": "to roll over, to tumble"
+    }
+  ],
+  "切れる": [
+    {
+      "word": "切れる",
+      "reading": "きれる",
+      "meaning": "to be able to cut, to run out, to expire"
+    }
+  ],
+  "話題": [
+    {
+      "word": "話題",
+      "reading": "わだい",
+      "meaning": "topic of conversation"
+    }
+  ],
+  "濡れる": [
+    {
+      "word": "濡れる",
+      "reading": "ぬれる",
+      "meaning": "to get wet"
+    }
+  ],
+  "呼び出す": [
+    {
+      "word": "呼び出す",
+      "reading": "よびだす",
+      "meaning": "to call someone to"
+    }
+  ],
+  "確信": [
+    {
+      "word": "確信",
+      "reading": "かくしん",
+      "meaning": "firm belief, conviction"
+    }
+  ],
+  "込める": [
+    {
+      "word": "込める",
+      "reading": "こめる",
+      "meaning": "to put in, to concentrate on"
+    }
+  ],
+  "自覚": [
+    {
+      "word": "自覚",
+      "reading": "じかく",
+      "meaning": "awareness"
+    }
+  ],
+  "空く": [
+    {
+      "word": "空く",
+      "reading": "あく",
+      "meaning": "to become available or vacant"
+    },
+    {
+      "word": "空く",
+      "reading": "すく",
+      "meaning": "to be empty, to become less crowded"
+    }
+  ],
+  "警察": [
+    {
+      "word": "警察",
+      "reading": "けいさつ",
+      "meaning": "police"
+    }
+  ],
+  "悲鳴": [
+    {
+      "word": "悲鳴",
+      "reading": "ひめい",
+      "meaning": "shriek, scream"
+    }
+  ],
+  "捕まえる": [
+    {
+      "word": "捕まえる",
+      "reading": "つかまえる",
+      "meaning": "to arrest, to capture"
+    }
+  ],
+  "早速": [
+    {
+      "word": "早速",
+      "reading": "さっそく",
+      "meaning": "immediately"
+    }
+  ],
+  "お腹": [
+    {
+      "word": "お腹",
+      "reading": "おなか",
+      "meaning": "stomach, belly"
+    }
+  ],
+  "掃除": [
+    {
+      "word": "掃除",
+      "reading": "そうじ",
+      "meaning": "cleaning"
+    }
+  ],
+  "硬い": [
+    {
+      "word": "硬い",
+      "reading": "かたい",
+      "meaning": "hard, stiff"
+    }
+  ],
+  "際": [
+    {
+      "word": "際",
+      "reading": "さい",
+      "meaning": "occasion, time"
+    }
+  ],
+  "漏らす": [
+    {
+      "word": "漏らす",
+      "reading": "もらす",
+      "meaning": "to give away, to let leak"
+    }
+  ],
+  "面": [
+    {
+      "word": "面",
+      "reading": "めん",
+      "meaning": "surface, aspect"
+    }
+  ],
+  "不満": [
+    {
+      "word": "不満",
+      "reading": "ふまん",
+      "meaning": "dissatisfaction, discontent"
+    }
+  ],
+  "驚き": [
+    {
+      "word": "驚き",
+      "reading": "おどろき",
+      "meaning": "surprise, amazement"
+    }
+  ],
+  "旅": [
+    {
+      "word": "旅",
+      "reading": "たび",
+      "meaning": "journey, travel"
+    }
+  ],
+  "絵": [
+    {
+      "word": "絵",
+      "reading": "え",
+      "meaning": "picture, drawing"
+    }
+  ],
+  "組む": [
+    {
+      "word": "組む",
+      "reading": "くむ",
+      "meaning": "to pair up, to partner with"
+    }
+  ],
+  "沈黙": [
+    {
+      "word": "沈黙",
+      "reading": "ちんもく",
+      "meaning": "reticence, silence"
+    }
+  ],
+  "張る": [
+    {
+      "word": "張る",
+      "reading": "はる",
+      "meaning": "to strain, to be stretched"
+    }
+  ],
+  "告白": [
+    {
+      "word": "告白",
+      "reading": "こくはく",
+      "meaning": "confession, admission"
+    }
+  ],
+  "舐める": [
+    {
+      "word": "舐める",
+      "reading": "なめる",
+      "meaning": "to lick"
+    }
+  ],
+  "潰す": [
+    {
+      "word": "潰す",
+      "reading": "つぶす",
+      "meaning": "to crush, to smash"
+    }
+  ],
+  "含める": [
+    {
+      "word": "含める",
+      "reading": "ふくめる",
+      "meaning": "to include"
+    }
+  ],
+  "時期": [
+    {
+      "word": "時期",
+      "reading": "じき",
+      "meaning": "time, season, period"
+    }
+  ],
+  "活動": [
+    {
+      "word": "活動",
+      "reading": "かつどう",
+      "meaning": "activity"
+    }
+  ],
+  "育てる": [
+    {
+      "word": "育てる",
+      "reading": "そだてる",
+      "meaning": "to bring up, to breed"
+    }
+  ],
+  "優秀": [
+    {
+      "word": "優秀",
+      "reading": "ゆうしゅう",
+      "meaning": "excellent, exceptional"
+    }
+  ],
+  "予感": [
+    {
+      "word": "予感",
+      "reading": "よかん",
+      "meaning": "hunch, premonition"
+    }
+  ],
+  "解く": [
+    {
+      "word": "解く",
+      "reading": "とく",
+      "meaning": "to solve"
+    }
+  ],
+  "元々": [
+    {
+      "word": "元々",
+      "reading": "もともと",
+      "meaning": "originally, by nature"
+    }
+  ],
+  "溢れる": [
+    {
+      "word": "溢れる",
+      "reading": "あふれる",
+      "meaning": "to overflow, to flood"
+    }
+  ],
+  "発生": [
+    {
+      "word": "発生",
+      "reading": "はっせい",
+      "meaning": "occurrence, happening"
+    }
+  ],
+  "微妙": [
+    {
+      "word": "微妙",
+      "reading": "びみょう",
+      "meaning": "subtle, delicate, sensitive, iffy"
+    }
+  ],
+  "違い": [
+    {
+      "word": "違い",
+      "reading": "ちがい",
+      "meaning": "difference, mistake"
+    }
+  ],
+  "直後": [
+    {
+      "word": "直後",
+      "reading": "ちょくご",
+      "meaning": "immediately after"
+    }
+  ],
+  "地下": [
+    {
+      "word": "地下",
+      "reading": "ちか",
+      "meaning": "underground"
+    }
+  ],
+  "香り": [
+    {
+      "word": "香り",
+      "reading": "かおり",
+      "meaning": "perfume, fragrance"
+    }
+  ],
+  "効く": [
+    {
+      "word": "効く",
+      "reading": "きく",
+      "meaning": "to be effective"
+    }
+  ],
+  "使用": [
+    {
+      "word": "使用",
+      "reading": "しよう",
+      "meaning": "usage"
+    }
+  ],
+  "道具": [
+    {
+      "word": "道具",
+      "reading": "どうぐ",
+      "meaning": "tool"
+    }
+  ],
+  "願い": [
+    {
+      "word": "願い",
+      "reading": "ねがい",
+      "meaning": "wish, request"
+    }
+  ],
+  "洗う": [
+    {
+      "word": "洗う",
+      "reading": "あらう",
+      "meaning": "to wash"
+    }
+  ],
+  "手段": [
+    {
+      "word": "手段",
+      "reading": "しゅだん",
+      "meaning": "means, way"
+    }
+  ],
+  "誤解": [
+    {
+      "word": "誤解",
+      "reading": "ごかい",
+      "meaning": "misunderstanding"
+    }
+  ],
+  "応援": [
+    {
+      "word": "応援",
+      "reading": "おうえん",
+      "meaning": "cheering"
+    }
+  ],
+  "含む": [
+    {
+      "word": "含む",
+      "reading": "ふくむ",
+      "meaning": "to contain, to include"
+    }
+  ],
+  "当時": [
+    {
+      "word": "当時",
+      "reading": "とうじ",
+      "meaning": "at that time, at the present time"
+    }
+  ],
+  "勝利": [
+    {
+      "word": "勝利",
+      "reading": "しょうり",
+      "meaning": "triumph, victory"
+    }
+  ],
+  "降る": [
+    {
+      "word": "降る",
+      "reading": "ふる",
+      "meaning": "to fall (e.g. rain)"
+    }
+  ],
+  "雪": [
+    {
+      "word": "雪",
+      "reading": "ゆき",
+      "meaning": "snow, snowfall"
+    }
+  ],
+  "入り口": [
+    {
+      "word": "入り口",
+      "reading": "いりぐち",
+      "meaning": "entrance"
+    }
+  ],
+  "一方": [
+    {
+      "word": "一方",
+      "reading": "いっぽう",
+      "meaning": "one way"
+    }
+  ],
+  "古い": [
+    {
+      "word": "古い",
+      "reading": "ふるい",
+      "meaning": "old"
+    }
+  ],
+  "役に立つ": [
+    {
+      "word": "役に立つ",
+      "reading": "やくにたつ",
+      "meaning": "to be useful, to be helpful"
+    }
+  ],
+  "懐かしい": [
+    {
+      "word": "懐かしい",
+      "reading": "なつかしい",
+      "meaning": "longed-for, nostalgic"
+    }
+  ],
+  "才能": [
+    {
+      "word": "才能",
+      "reading": "さいのう",
+      "meaning": "talent, ability"
+    }
+  ],
+  "逃げ出す": [
+    {
+      "word": "逃げ出す",
+      "reading": "にげだす",
+      "meaning": "to make a break for, to run off"
+    }
+  ],
+  "様々": [
+    {
+      "word": "様々",
+      "reading": "さまざま",
+      "meaning": "various, diverse"
+    }
+  ],
+  "病院": [
+    {
+      "word": "病院",
+      "reading": "びょういん",
+      "meaning": "hospital"
+    }
+  ],
+  "比べる": [
+    {
+      "word": "比べる",
+      "reading": "くらべる",
+      "meaning": "to compare, to contrast"
+    }
+  ],
+  "氷": [
+    {
+      "word": "氷",
+      "reading": "こおり",
+      "meaning": "ice"
+    }
+  ],
+  "狭い": [
+    {
+      "word": "狭い",
+      "reading": "せまい",
+      "meaning": "narrow, cramped"
+    }
+  ],
+  "神様": [
+    {
+      "word": "神様",
+      "reading": "かみさま",
+      "meaning": "God, the divine"
+    }
+  ],
+  "動揺": [
+    {
+      "word": "動揺",
+      "reading": "どうよう",
+      "meaning": "shaking, turbulence"
+    }
+  ],
+  "長": [
+    {
+      "word": "長",
+      "reading": "ちょう",
+      "meaning": "chief, head"
+    }
+  ],
+  "物語": [
+    {
+      "word": "物語",
+      "reading": "ものがたり",
+      "meaning": "story, tale"
+    }
+  ],
+  "文句": [
+    {
+      "word": "文句",
+      "reading": "もんく",
+      "meaning": "complaint"
+    }
+  ],
+  "至る": [
+    {
+      "word": "至る",
+      "reading": "いたる",
+      "meaning": "to come to, to reach"
+    }
+  ],
+  "魚": [
+    {
+      "word": "魚",
+      "reading": "さかな",
+      "meaning": "fish"
+    }
+  ],
+  "鳥": [
+    {
+      "word": "鳥",
+      "reading": "とり",
+      "meaning": "bird"
+    }
+  ],
+  "映る": [
+    {
+      "word": "映る",
+      "reading": "うつる",
+      "meaning": "to be reflected, to appear"
+    }
+  ],
+  "一生": [
+    {
+      "word": "一生",
+      "reading": "いっしょう",
+      "meaning": "a lifetime"
+    }
+  ],
+  "紙": [
+    {
+      "word": "紙",
+      "reading": "かみ",
+      "meaning": "paper"
+    }
+  ],
+  "申す": [
+    {
+      "word": "申す",
+      "reading": "もうす",
+      "meaning": "to be called..., to speak (humble form)"
+    }
+  ],
+  "複雑": [
+    {
+      "word": "複雑",
+      "reading": "ふくざつ",
+      "meaning": "complicated, intricate"
+    }
+  ],
+  "投げる": [
+    {
+      "word": "投げる",
+      "reading": "なげる",
+      "meaning": "to throw, to abandon"
+    }
+  ],
+  "出来事": [
+    {
+      "word": "出来事",
+      "reading": "できごと",
+      "meaning": "occurrence, incident"
+    }
+  ],
+  "部下": [
+    {
+      "word": "部下",
+      "reading": "ぶか",
+      "meaning": "subordinate"
+    }
+  ],
+  "実力": [
+    {
+      "word": "実力",
+      "reading": "じつりょく",
+      "meaning": "real ability, capability"
+    }
+  ],
+  "左右": [
+    {
+      "word": "左右",
+      "reading": "さゆう",
+      "meaning": "right and left"
+    }
+  ],
+  "選択": [
+    {
+      "word": "選択",
+      "reading": "せんたく",
+      "meaning": "choice, selection"
+    }
+  ],
+  "調査": [
+    {
+      "word": "調査",
+      "reading": "ちょうさ",
+      "meaning": "investigation, inquiry"
+    }
+  ],
+  "例えば": [
+    {
+      "word": "例えば",
+      "reading": "たとえば",
+      "meaning": "for example"
+    }
+  ],
+  "見送る": [
+    {
+      "word": "見送る",
+      "reading": "みおくる",
+      "meaning": "to see (someone) off"
+    }
+  ],
+  "従う": [
+    {
+      "word": "従う",
+      "reading": "したがう",
+      "meaning": "to follow, to obey"
+    }
+  ],
+  "通す": [
+    {
+      "word": "通す",
+      "reading": "とおす",
+      "meaning": "to let pass, to run through"
+    }
+  ],
+  "間違える": [
+    {
+      "word": "間違える",
+      "reading": "まちがえる",
+      "meaning": "to mistake, to confuse"
+    }
+  ],
+  "体力": [
+    {
+      "word": "体力",
+      "reading": "たいりょく",
+      "meaning": "stamina, endurance"
+    }
+  ],
+  "果たす": [
+    {
+      "word": "果たす",
+      "reading": "はたす",
+      "meaning": "to accomplish, to carry out, to fulfill"
+    }
+  ],
+  "騒ぐ": [
+    {
+      "word": "騒ぐ",
+      "reading": "さわぐ",
+      "meaning": "to make a racket, to mess around"
+    }
+  ],
+  "飛び込む": [
+    {
+      "word": "飛び込む",
+      "reading": "とびこむ",
+      "meaning": "to dive into"
+    }
+  ],
+  "増す": [
+    {
+      "word": "増す",
+      "reading": "ます",
+      "meaning": "to increase, to augment, to rise"
+    }
+  ],
+  "思い出": [
+    {
+      "word": "思い出",
+      "reading": "おもいで",
+      "meaning": "recollections, memory"
+    }
+  ],
+  "天井": [
+    {
+      "word": "天井",
+      "reading": "てんじょう",
+      "meaning": "ceiling"
+    }
+  ],
+  "兵士": [
+    {
+      "word": "兵士",
+      "reading": "へいし",
+      "meaning": "soldier"
+    }
+  ],
+  "満ちる": [
+    {
+      "word": "満ちる",
+      "reading": "みちる",
+      "meaning": "to fill, to become full"
+    }
+  ],
+  "味わう": [
+    {
+      "word": "味わう",
+      "reading": "あじわう",
+      "meaning": "to taste, to appreciate"
+    }
+  ],
+  "出かける": [
+    {
+      "word": "出かける",
+      "reading": "でかける",
+      "meaning": "to go out"
+    }
+  ],
+  "背負う": [
+    {
+      "word": "背負う",
+      "reading": "せおう",
+      "meaning": "to carry on one's back, to shoulder"
+    }
+  ],
+  "揃う": [
+    {
+      "word": "揃う",
+      "reading": "そろう",
+      "meaning": "to be (all) together"
+    }
+  ],
+  "呼吸": [
+    {
+      "word": "呼吸",
+      "reading": "こきゅう",
+      "meaning": "breathing, respiration"
+    }
+  ],
+  "真似": [
+    {
+      "word": "真似",
+      "reading": "まね",
+      "meaning": "imitation, mimicry"
+    }
+  ],
+  "人気": [
+    {
+      "word": "人気",
+      "reading": "にんき",
+      "meaning": "popularity"
+    }
+  ],
+  "偉い": [
+    {
+      "word": "偉い",
+      "reading": "えらい",
+      "meaning": "great, famous"
+    }
+  ],
+  "対象": [
+    {
+      "word": "対象",
+      "reading": "たいしょう",
+      "meaning": "target, object"
+    }
+  ],
+  "整える": [
+    {
+      "word": "整える",
+      "reading": "ととのえる",
+      "meaning": "to arrange, to adjust"
+    }
+  ],
+  "沈む": [
+    {
+      "word": "沈む",
+      "reading": "しずむ",
+      "meaning": "to sink, to set"
+    }
+  ],
+  "地上": [
+    {
+      "word": "地上",
+      "reading": "ちじょう",
+      "meaning": "above ground"
+    }
+  ],
+  "用事": [
+    {
+      "word": "用事",
+      "reading": "ようじ",
+      "meaning": "things to do, errand, business"
+    }
+  ],
+  "反対": [
+    {
+      "word": "反対",
+      "reading": "はんたい",
+      "meaning": "oppose, object"
+    }
+  ],
+  "保つ": [
+    {
+      "word": "保つ",
+      "reading": "たもつ",
+      "meaning": "to preserve, to endure"
+    }
+  ],
+  "歴史": [
+    {
+      "word": "歴史",
+      "reading": "れきし",
+      "meaning": "history"
+    }
+  ],
+  "島": [
+    {
+      "word": "島",
+      "reading": "しま",
+      "meaning": "island, isle"
+    }
+  ],
+  "実に": [
+    {
+      "word": "実に",
+      "reading": "じつに",
+      "meaning": "truly, surely"
+    }
+  ],
+  "恐れる": [
+    {
+      "word": "恐れる",
+      "reading": "おそれる",
+      "meaning": "to fear, to apprehend"
+    }
+  ],
+  "鼻": [
+    {
+      "word": "鼻",
+      "reading": "はな",
+      "meaning": "nose"
+    }
+  ],
+  "担当": [
+    {
+      "word": "担当",
+      "reading": "たんとう",
+      "meaning": "person in charge"
+    }
+  ],
+  "片手": [
+    {
+      "word": "片手",
+      "reading": "かたて",
+      "meaning": "one hand"
+    }
+  ],
+  "幼い": [
+    {
+      "word": "幼い",
+      "reading": "おさない",
+      "meaning": "young, childish"
+    }
+  ],
+  "学ぶ": [
+    {
+      "word": "学ぶ",
+      "reading": "まなぶ",
+      "meaning": "to learn, to study"
+    }
+  ],
+  "強引": [
+    {
+      "word": "強引",
+      "reading": "ごういん",
+      "meaning": "overbearing, pushy"
+    }
+  ],
+  "捲る": [
+    {
+      "word": "捲る",
+      "reading": "まくる",
+      "meaning": "to turn up, to roll up (e.g. sleeves)"
+    }
+  ],
+  "漏れる": [
+    {
+      "word": "漏れる",
+      "reading": "もれる",
+      "meaning": "to leak, to be disclosed"
+    }
+  ],
+  "全体": [
+    {
+      "word": "全体",
+      "reading": "ぜんたい",
+      "meaning": "whole, total"
+    }
+  ],
+  "度": [
+    {
+      "word": "度",
+      "reading": "ど",
+      "meaning": "degree, extent"
+    }
+  ],
+  "情けない": [
+    {
+      "word": "情けない",
+      "reading": "なさけない",
+      "meaning": "pathetic, shameful"
+    }
+  ],
+  "太陽": [
+    {
+      "word": "太陽",
+      "reading": "たいよう",
+      "meaning": "sun"
+    }
+  ],
+  "甘える": [
+    {
+      "word": "甘える",
+      "reading": "あまえる",
+      "meaning": "to depend on, to take advantage of"
+    }
+  ],
+  "踏む": [
+    {
+      "word": "踏む",
+      "reading": "ふむ",
+      "meaning": "to step on, to tread on"
+    }
+  ],
+  "印象": [
+    {
+      "word": "印象",
+      "reading": "いんしょう",
+      "meaning": "impression"
+    }
+  ],
+  "死体": [
+    {
+      "word": "死体",
+      "reading": "したい",
+      "meaning": "corpse, body"
+    }
+  ],
+  "支配": [
+    {
+      "word": "支配",
+      "reading": "しはい",
+      "meaning": "control, management"
+    }
+  ],
+  "現場": [
+    {
+      "word": "現場",
+      "reading": "げんば",
+      "meaning": "actual spot, job site"
+    }
+  ],
+  "絶望": [
+    {
+      "word": "絶望",
+      "reading": "ぜつぼう",
+      "meaning": "despair, hopelessness"
+    }
+  ],
+  "察する": [
+    {
+      "word": "察する",
+      "reading": "さっする",
+      "meaning": "to sense, to guess"
+    }
+  ],
+  "以来": [
+    {
+      "word": "以来",
+      "reading": "いらい",
+      "meaning": "since"
+    }
+  ],
+  "漂う": [
+    {
+      "word": "漂う",
+      "reading": "ただよう",
+      "meaning": "to drift, to float"
+    }
+  ],
+  "探る": [
+    {
+      "word": "探る",
+      "reading": "さぐる",
+      "meaning": "to probe, to search into"
+    }
+  ],
+  "最大": [
+    {
+      "word": "最大",
+      "reading": "さいだい",
+      "meaning": "biggest, largest"
+    }
+  ],
+  "下げる": [
+    {
+      "word": "下げる",
+      "reading": "さげる",
+      "meaning": "to lower, to turn down"
+    }
+  ],
+  "捕まる": [
+    {
+      "word": "捕まる",
+      "reading": "つかまる",
+      "meaning": "to be caught, to be arrested"
+    }
+  ],
+  "戸惑う": [
+    {
+      "word": "戸惑う",
+      "reading": "とまどう",
+      "meaning": "to be perplexed, to be bewildered"
+    }
+  ],
+  "言い訳": [
+    {
+      "word": "言い訳",
+      "reading": "いいわけ",
+      "meaning": "apology, excuse"
+    }
+  ],
+  "証明": [
+    {
+      "word": "証明",
+      "reading": "しょうめい",
+      "meaning": "proof, evidence"
+    }
+  ],
+  "参る": [
+    {
+      "word": "参る",
+      "reading": "まいる",
+      "meaning": "to go, come (humble form)"
+    }
+  ],
+  "見下ろす": [
+    {
+      "word": "見下ろす",
+      "reading": "みおろす",
+      "meaning": "to look down, to overlook"
+    }
+  ],
+  "燃える": [
+    {
+      "word": "燃える",
+      "reading": "もえる",
+      "meaning": "to burn, to get fired up"
+    }
+  ],
+  "暴れる": [
+    {
+      "word": "暴れる",
+      "reading": "あばれる",
+      "meaning": "to act violently, to rage about"
+    }
+  ],
+  "越える": [
+    {
+      "word": "越える",
+      "reading": "こえる",
+      "meaning": "to go over, to go across, to go beyond"
+    }
+  ],
+  "精神": [
+    {
+      "word": "精神",
+      "reading": "せいしん",
+      "meaning": "mind, spirit"
+    }
+  ],
+  "男子": [
+    {
+      "word": "男子",
+      "reading": "だんし",
+      "meaning": "boy, young man"
+    }
+  ],
+  "宣言": [
+    {
+      "word": "宣言",
+      "reading": "せんげん",
+      "meaning": "declaration"
+    }
+  ],
+  "挟む": [
+    {
+      "word": "挟む",
+      "reading": "はさむ",
+      "meaning": "to hold between, to put between, to pinch"
+    }
+  ],
+  "防ぐ": [
+    {
+      "word": "防ぐ",
+      "reading": "ふせぐ",
+      "meaning": "to prevent, to defend"
+    }
+  ],
+  "預ける": [
+    {
+      "word": "預ける",
+      "reading": "あずける",
+      "meaning": "to deposit, to entrust"
+    }
+  ],
+  "限る": [
+    {
+      "word": "限る",
+      "reading": "かぎる",
+      "meaning": "to be limited to"
+    }
+  ],
+  "責める": [
+    {
+      "word": "責める",
+      "reading": "せめる",
+      "meaning": "to blame"
+    }
+  ],
+  "崩れる": [
+    {
+      "word": "崩れる",
+      "reading": "くずれる",
+      "meaning": "to crumble, to collapse"
+    }
+  ],
+  "一度も": [
+    {
+      "word": "一度も",
+      "reading": "いちども",
+      "meaning": "(not) even once, (not) ever"
+    }
+  ],
+  "その内": [
+    {
+      "word": "その内",
+      "reading": "そのうち",
+      "meaning": "before long, sooner or later"
+    }
+  ],
+  "鏡": [
+    {
+      "word": "鏡",
+      "reading": "かがみ",
+      "meaning": "mirror"
+    }
+  ],
+  "貫く": [
+    {
+      "word": "貫く",
+      "reading": "つらぬく",
+      "meaning": "to go through, to carry out"
+    }
+  ],
+  "固まる": [
+    {
+      "word": "固まる",
+      "reading": "かたまる",
+      "meaning": "to harden, to solidify"
+    }
+  ],
+  "平和": [
+    {
+      "word": "平和",
+      "reading": "へいわ",
+      "meaning": "peace, harmony"
+    }
+  ],
+  "意志": [
+    {
+      "word": "意志",
+      "reading": "いし",
+      "meaning": "will, volition"
+    }
+  ],
+  "下手": [
+    {
+      "word": "下手",
+      "reading": "へた",
+      "meaning": "bad at, poor"
+    }
+  ],
+  "続き": [
+    {
+      "word": "続き",
+      "reading": "つづき",
+      "meaning": "continuation, sequel"
+    }
+  ],
+  "祈る": [
+    {
+      "word": "祈る",
+      "reading": "いのる",
+      "meaning": "to pray"
+    }
+  ],
+  "午後": [
+    {
+      "word": "午後",
+      "reading": "ごご",
+      "meaning": "afternoon, p.m."
+    }
+  ],
+  "同様": [
+    {
+      "word": "同様",
+      "reading": "どうよう",
+      "meaning": "similar"
+    }
+  ],
+  "外れる": [
+    {
+      "word": "外れる",
+      "reading": "はずれる",
+      "meaning": "to come undone, to be removed"
+    }
+  ],
+  "歌う": [
+    {
+      "word": "歌う",
+      "reading": "うたう",
+      "meaning": "to sing"
+    }
+  ],
+  "回": [
+    {
+      "word": "回",
+      "reading": "かい",
+      "meaning": "times"
+    }
+  ],
+  "固い": [
+    {
+      "word": "固い",
+      "reading": "かたい",
+      "meaning": "stiff, tight"
+    }
+  ],
+  "最強": [
+    {
+      "word": "最強",
+      "reading": "さいきょう",
+      "meaning": "strongest"
+    }
+  ],
+  "弾く": [
+    {
+      "word": "弾く",
+      "reading": "ひく",
+      "meaning": "to strum (e.g. a guitar), to flick"
+    }
+  ],
+  "正解": [
+    {
+      "word": "正解",
+      "reading": "せいかい",
+      "meaning": "right answer, correct solution"
+    }
+  ],
+  "お陰": [
+    {
+      "word": "お陰",
+      "reading": "おかげ",
+      "meaning": "help, thanks to"
+    }
+  ],
+  "地獄": [
+    {
+      "word": "地獄",
+      "reading": "じごく",
+      "meaning": "hell"
+    }
+  ],
+  "年齢": [
+    {
+      "word": "年齢",
+      "reading": "ねんれい",
+      "meaning": "age, years"
+    }
+  ],
+  "病気": [
+    {
+      "word": "病気",
+      "reading": "びょうき",
+      "meaning": "illness"
+    }
+  ],
+  "携帯": [
+    {
+      "word": "携帯",
+      "reading": "けいたい",
+      "meaning": "cell phone"
+    }
+  ],
+  "並べる": [
+    {
+      "word": "並べる",
+      "reading": "ならべる",
+      "meaning": "to line up, to display, to set up"
+    }
+  ],
+  "契約": [
+    {
+      "word": "契約",
+      "reading": "けいやく",
+      "meaning": "contract, agreement"
+    }
+  ],
+  "永遠": [
+    {
+      "word": "永遠",
+      "reading": "えいえん",
+      "meaning": "eternity"
+    }
+  ],
+  "不意に": [
+    {
+      "word": "不意に",
+      "reading": "ふいに",
+      "meaning": "suddenly, unexpectedly"
+    }
+  ],
+  "呪い": [
+    {
+      "word": "呪い",
+      "reading": "のろい",
+      "meaning": "curse, spell"
+    }
+  ],
+  "組": [
+    {
+      "word": "組",
+      "reading": "くみ",
+      "meaning": "school class"
+    }
+  ],
+  "踊る": [
+    {
+      "word": "踊る",
+      "reading": "おどる",
+      "meaning": "to dance"
+    }
+  ],
+  "目覚める": [
+    {
+      "word": "目覚める",
+      "reading": "めざめる",
+      "meaning": "to wake (up), to come to one's senses"
+    }
+  ],
+  "事故": [
+    {
+      "word": "事故",
+      "reading": "じこ",
+      "meaning": "accident, incident"
+    }
+  ],
+  "袋": [
+    {
+      "word": "袋",
+      "reading": "ふくろ",
+      "meaning": "bag, sack"
+    }
+  ],
+  "派手": [
+    {
+      "word": "派手",
+      "reading": "はで",
+      "meaning": "showy, flashy"
+    }
+  ],
+  "今更": [
+    {
+      "word": "今更",
+      "reading": "いまさら",
+      "meaning": "now (when it's too late), at this stage"
+    }
+  ],
+  "真っ直ぐ": [
+    {
+      "word": "真っ直ぐ",
+      "reading": "まっすぐ",
+      "meaning": "straight ahead, straightforward"
+    }
+  ],
+  "油断": [
+    {
+      "word": "油断",
+      "reading": "ゆだん",
+      "meaning": "inattention, carelessness"
+    }
+  ],
+  "育つ": [
+    {
+      "word": "育つ",
+      "reading": "そだつ",
+      "meaning": "to be brought up, to grow"
+    }
+  ],
+  "傷つく": [
+    {
+      "word": "傷つく",
+      "reading": "きずつく",
+      "meaning": "to get hurt"
+    }
+  ],
+  "発する": [
+    {
+      "word": "発する",
+      "reading": "はっする",
+      "meaning": "to emit, to radiate"
+    }
+  ],
+  "終了": [
+    {
+      "word": "終了",
+      "reading": "しゅうりょう",
+      "meaning": "end, expiry"
+    }
+  ],
+  "足音": [
+    {
+      "word": "足音",
+      "reading": "あしおと",
+      "meaning": "sound of footsteps"
+    }
+  ],
+  "決意": [
+    {
+      "word": "決意",
+      "reading": "けつい",
+      "meaning": "decision, resolution"
+    }
+  ],
+  "感心": [
+    {
+      "word": "感心",
+      "reading": "かんしん",
+      "meaning": "admiration"
+    }
+  ],
+  "飲み込む": [
+    {
+      "word": "飲み込む",
+      "reading": "のみこむ",
+      "meaning": "to swallow, to grasp"
+    }
+  ],
+  "仮に": [
+    {
+      "word": "仮に",
+      "reading": "かりに",
+      "meaning": "supposing that, even if"
+    }
+  ],
+  "お菓子": [
+    {
+      "word": "お菓子",
+      "reading": "おかし",
+      "meaning": "sweets, snacks"
+    }
+  ],
+  "染まる": [
+    {
+      "word": "染まる",
+      "reading": "そまる",
+      "meaning": "to be dyed, to be tainted"
+    }
+  ],
+  "笑い": [
+    {
+      "word": "笑い",
+      "reading": "わらい",
+      "meaning": "laughter, laugh"
+    }
+  ],
+  "買い物": [
+    {
+      "word": "買い物",
+      "reading": "かいもの",
+      "meaning": "shopping"
+    }
+  ],
+  "歌": [
+    {
+      "word": "歌",
+      "reading": "うた",
+      "meaning": "song"
+    }
+  ],
+  "庭": [
+    {
+      "word": "庭",
+      "reading": "にわ",
+      "meaning": "garden, yard"
+    }
+  ],
+  "生き物": [
+    {
+      "word": "生き物",
+      "reading": "いきもの",
+      "meaning": "living creature"
+    }
+  ],
+  "特殊": [
+    {
+      "word": "特殊",
+      "reading": "とくしゅ",
+      "meaning": "special, unique"
+    }
+  ],
+  "連れて行く": [
+    {
+      "word": "連れて行く",
+      "reading": "つれていく",
+      "meaning": "to take (a person) along"
+    }
+  ],
+  "現状": [
+    {
+      "word": "現状",
+      "reading": "げんじょう",
+      "meaning": "present condition"
+    }
+  ],
+  "大分": [
+    {
+      "word": "大分",
+      "reading": "だいぶ",
+      "meaning": "very, greatly"
+    }
+  ],
+  "底": [
+    {
+      "word": "底",
+      "reading": "そこ",
+      "meaning": "bottom"
+    }
+  ],
+  "学生": [
+    {
+      "word": "学生",
+      "reading": "がくせい",
+      "meaning": "student"
+    }
+  ],
+  "丁寧": [
+    {
+      "word": "丁寧",
+      "reading": "ていねい",
+      "meaning": "polite, careful"
+    }
+  ],
+  "範囲": [
+    {
+      "word": "範囲",
+      "reading": "はんい",
+      "meaning": "range, scope"
+    }
+  ],
+  "美人": [
+    {
+      "word": "美人",
+      "reading": "びじん",
+      "meaning": "beautiful woman"
+    }
+  ],
+  "技": [
+    {
+      "word": "技",
+      "reading": "わざ",
+      "meaning": "skill"
+    }
+  ],
+  "将来": [
+    {
+      "word": "将来",
+      "reading": "しょうらい",
+      "meaning": "one's future, in the future"
+    }
+  ],
+  "記録": [
+    {
+      "word": "記録",
+      "reading": "きろく",
+      "meaning": "record, documentation"
+    }
+  ],
+  "大人しい": [
+    {
+      "word": "大人しい",
+      "reading": "おとなしい",
+      "meaning": "tame, quiet, obedient, calm"
+    }
+  ],
+  "骨": [
+    {
+      "word": "骨",
+      "reading": "ほね",
+      "meaning": "bone"
+    }
+  ],
+  "目標": [
+    {
+      "word": "目標",
+      "reading": "もくひょう",
+      "meaning": "target, goal"
+    }
+  ],
+  "肉体": [
+    {
+      "word": "肉体",
+      "reading": "にくたい",
+      "meaning": "body, flesh"
+    }
+  ],
+  "届ける": [
+    {
+      "word": "届ける",
+      "reading": "とどける",
+      "meaning": "to deliver, to give notice"
+    }
+  ],
+  "足元": [
+    {
+      "word": "足元",
+      "reading": "あしもと",
+      "meaning": "step, under foot"
+    }
+  ],
+  "捜す": [
+    {
+      "word": "捜す",
+      "reading": "さがす",
+      "meaning": "to look for, to search for"
+    }
+  ],
+  "布": [
+    {
+      "word": "布",
+      "reading": "ぬの",
+      "meaning": "cloth"
+    }
+  ],
+  "種類": [
+    {
+      "word": "種類",
+      "reading": "しゅるい",
+      "meaning": "kind, species"
+    }
+  ],
+  "満たす": [
+    {
+      "word": "満たす",
+      "reading": "みたす",
+      "meaning": "to fill, to satisfy"
+    }
+  ],
+  "景色": [
+    {
+      "word": "景色",
+      "reading": "けしき",
+      "meaning": "scenery"
+    }
+  ],
+  "勇気": [
+    {
+      "word": "勇気",
+      "reading": "ゆうき",
+      "meaning": "courage, nerve"
+    }
+  ],
+  "強化": [
+    {
+      "word": "強化",
+      "reading": "きょうか",
+      "meaning": "strengthening"
+    }
+  ],
+  "加える": [
+    {
+      "word": "加える",
+      "reading": "くわえる",
+      "meaning": "to add, to include"
+    }
+  ],
+  "言い出す": [
+    {
+      "word": "言い出す",
+      "reading": "いいだす",
+      "meaning": "to begin to say, to be the first to say, to propose"
+    }
+  ],
+  "収まる": [
+    {
+      "word": "収まる",
+      "reading": "おさまる",
+      "meaning": "to be settled (e.g. a dispute), to be contained within"
+    }
+  ],
+  "組織": [
+    {
+      "word": "組織",
+      "reading": "そしき",
+      "meaning": "organization, structure"
+    }
+  ],
+  "隙間": [
+    {
+      "word": "隙間",
+      "reading": "すきま",
+      "meaning": "crack, gap"
+    }
+  ],
+  "本日": [
+    {
+      "word": "本日",
+      "reading": "ほんじつ",
+      "meaning": "today"
+    }
+  ],
+  "先日": [
+    {
+      "word": "先日",
+      "reading": "せんじつ",
+      "meaning": "the other day, a few days ago"
+    }
+  ],
+  "月曜日": [
+    {
+      "word": "月曜日",
+      "reading": "げつようび",
+      "meaning": "Monday"
+    }
+  ],
+  "火曜日": [
+    {
+      "word": "火曜日",
+      "reading": "かようび",
+      "meaning": "Tuesday"
+    }
+  ],
+  "水曜日": [
+    {
+      "word": "水曜日",
+      "reading": "すいようび",
+      "meaning": "Wednesday"
+    }
+  ],
+  "木曜日": [
+    {
+      "word": "木曜日",
+      "reading": "もくようび",
+      "meaning": "Thursday"
+    }
+  ],
+  "金曜日": [
+    {
+      "word": "金曜日",
+      "reading": "きんようび",
+      "meaning": "Friday"
+    }
+  ],
+  "土曜日": [
+    {
+      "word": "土曜日",
+      "reading": "どようび",
+      "meaning": "Saturday"
+    }
+  ],
+  "日曜日": [
+    {
+      "word": "日曜日",
+      "reading": "にちようび",
+      "meaning": "Sunday"
+    }
+  ],
+  "一つ": [
+    {
+      "word": "一つ",
+      "reading": "ひとつ",
+      "meaning": "one (thing)"
+    }
+  ],
+  "二つ": [
+    {
+      "word": "二つ",
+      "reading": "ふたつ",
+      "meaning": "two (things)"
+    }
+  ],
+  "三つ": [
+    {
+      "word": "三つ",
+      "reading": "みっつ",
+      "meaning": "three (things)"
+    }
+  ],
+  "四つ": [
+    {
+      "word": "四つ",
+      "reading": "よっつ",
+      "meaning": "four (things)"
+    }
+  ],
+  "五つ": [
+    {
+      "word": "五つ",
+      "reading": "いつつ",
+      "meaning": "five (things)"
+    }
+  ],
+  "六つ": [
+    {
+      "word": "六つ",
+      "reading": "むっつ",
+      "meaning": "six (things)"
+    }
+  ],
+  "七つ": [
+    {
+      "word": "七つ",
+      "reading": "ななつ",
+      "meaning": "seven (things)"
+    }
+  ],
+  "八つ": [
+    {
+      "word": "八つ",
+      "reading": "やっつ",
+      "meaning": "eight (things)"
+    }
+  ],
+  "九つ": [
+    {
+      "word": "九つ",
+      "reading": "ここのつ",
+      "meaning": "nine (things)"
+    }
+  ],
+  "評価": [
+    {
+      "word": "評価",
+      "reading": "ひょうか",
+      "meaning": "evaluation, appraisal, recognition"
+    }
+  ],
+  "イギリス人": [
+    {
+      "word": "人",
+      "reading": "じん",
+      "meaning": "person from (nationality)"
+    }
+  ],
+  "見て": [
+    {
+      "word": "見る",
+      "reading": "みる",
+      "meaning": "see, look at"
+    }
+  ],
+  "教えて": [
+    {
+      "word": "教える",
+      "reading": "おしえる",
+      "meaning": "teach, tell"
+    }
+  ],
+  "置いて": [
+    {
+      "word": "置く",
+      "reading": "おく",
+      "meaning": "put, place"
+    }
+  ],
+  "帰ります": [
+    {
+      "word": "帰る",
+      "reading": "かえる",
+      "meaning": "return, go back"
+    }
+  ],
+  "知っています": [
+    {
+      "word": "知る",
+      "reading": "しる",
+      "meaning": "know"
+    }
+  ],
+  "行きます": [
+    {
+      "word": "行く",
+      "reading": "いく",
+      "meaning": "go"
+    }
+  ],
+  "来ます": [
+    {
+      "word": "来る",
+      "reading": "くる",
+      "meaning": "come"
+    }
+  ],
+  "思います": [
+    {
+      "word": "思う",
+      "reading": "おもう",
+      "meaning": "think"
+    }
+  ],
+  "会います": [
+    {
+      "word": "会う",
+      "reading": "あう",
+      "meaning": "meet"
+    }
+  ],
+  "聞きます": [
+    {
+      "word": "聞く",
+      "reading": "きく",
+      "meaning": "hear"
+    },
+    {
+      "word": "聞く",
+      "reading": "きく",
+      "meaning": "ask"
+    }
+  ],
+  "分かります": [
+    {
+      "word": "分かる",
+      "reading": "わかる",
+      "meaning": "understand"
+    }
+  ],
+  "考えます": [
+    {
+      "word": "考える",
+      "reading": "かんがえる",
+      "meaning": "think, consider"
+    }
+  ],
+  "話して": [
+    {
+      "word": "話す",
+      "reading": "はなす",
+      "meaning": "talk, speak"
+    }
+  ],
+  "言いましょう": [
+    {
+      "word": "言う",
+      "reading": "いう",
+      "meaning": "say"
+    }
+  ],
+  "待って": [
+    {
+      "word": "待つ",
+      "reading": "まつ",
+      "meaning": "wait"
+    }
+  ],
+  "立って": [
+    {
+      "word": "立つ",
+      "reading": "たつ",
+      "meaning": "stand, rise"
+    }
+  ],
+  "入って": [
+    {
+      "word": "入る",
+      "reading": "はいる",
+      "meaning": "enter"
+    }
+  ],
+  "住んでいます": [
+    {
+      "word": "住む",
+      "reading": "すむ",
+      "meaning": "live, reside"
+    }
+  ],
+  "上げて": [
+    {
+      "word": "上げる",
+      "reading": "あげる",
+      "meaning": "raise, increase"
+    }
+  ],
+  "持っています": [
+    {
+      "word": "持つ",
+      "reading": "もつ",
+      "meaning": "have, hold"
+    }
+  ],
+  "使って": [
+    {
+      "word": "使う",
+      "reading": "つかう",
+      "meaning": "use"
+    }
+  ],
+  "始めて": [
+    {
+      "word": "始める",
+      "reading": "はじめる",
+      "meaning": "start"
+    }
+  ],
+  "食べました": [
+    {
+      "word": "食べる",
+      "reading": "たべる",
+      "meaning": "eat"
+    }
+  ],
+  "呼びましょう": [
+    {
+      "word": "呼ぶ",
+      "reading": "よぶ",
+      "meaning": "call, name"
+    }
+  ],
+  "動いている": [
+    {
+      "word": "動く",
+      "reading": "うごく",
+      "meaning": "move"
+    }
+  ],
+  "信じます": [
+    {
+      "word": "信じる",
+      "reading": "しんじる",
+      "meaning": "to believe, to trust"
+    }
+  ],
+  "調べます": [
+    {
+      "word": "調べる",
+      "reading": "しらべる",
+      "meaning": "look up, search"
+    }
+  ],
+  "手伝いましょう": [
+    {
+      "word": "手伝う",
+      "reading": "てつだう",
+      "meaning": "to help"
+    }
+  ],
+  "続けます": [
+    {
+      "word": "続ける",
+      "reading": "つづける",
+      "meaning": "to continue, to keep up"
+    }
+  ],
+  "見せて": [
+    {
+      "word": "見せる",
+      "reading": "みせる",
+      "meaning": "to show"
+    }
+  ],
+  "忘れないで": [
+    {
+      "word": "忘れる",
+      "reading": "わすれる",
+      "meaning": "to forget"
+    }
+  ],
+  "守ります": [
+    {
+      "word": "守る",
+      "reading": "まもる",
+      "meaning": "to protect, to observe"
+    }
+  ],
+  "変えないで": [
+    {
+      "word": "変える",
+      "reading": "かえる",
+      "meaning": "to change, to alter"
+    }
+  ],
+  "止めます": [
+    {
+      "word": "止める",
+      "reading": "とめる",
+      "meaning": "to stop (at some place)"
+    }
+  ],
+  "頼みました": [
+    {
+      "word": "頼む",
+      "reading": "たのむ",
+      "meaning": "to ask, to request"
+    }
+  ],
+  "許して": [
+    {
+      "word": "許す",
+      "reading": "ゆるす",
+      "meaning": "to forgive, to permit"
+    }
+  ],
+  "頑張りましょう": [
+    {
+      "word": "頑張る",
+      "reading": "がんばる",
+      "meaning": "to persevere, to do one's best"
+    }
+  ],
+  "買いません": [
+    {
+      "word": "買う",
+      "reading": "かう",
+      "meaning": "to buy"
+    }
+  ],
+  "寝ています": [
+    {
+      "word": "寝る",
+      "reading": "ねる",
+      "meaning": "sleep"
+    }
+  ],
+  "伝えて": [
+    {
+      "word": "伝える",
+      "reading": "つたえる",
+      "meaning": "to convey, to transmit"
+    }
+  ],
+  "選びます": [
+    {
+      "word": "選ぶ",
+      "reading": "えらぶ",
+      "meaning": "to choose, to elect"
+    }
+  ],
+  "座って": [
+    {
+      "word": "座る",
+      "reading": "すわる",
+      "meaning": "to sit"
+    }
+  ],
+  "進んで": [
+    {
+      "word": "進む",
+      "reading": "すすむ",
+      "meaning": "to move forward"
+    }
+  ],
+  "飲まない": [
+    {
+      "word": "飲む",
+      "reading": "のむ",
+      "meaning": "drink"
+    }
+  ]
+}
