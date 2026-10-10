@@ -46,7 +46,7 @@ export default function Course() {
   const [level, setLevel] = useState(1);
   const [cards, setCards] = useState<Card[] | null>(null);
   const [course, setCourse] = useState<CourseProgress>({ words: {}, reading: {}, grammar: {} });
-  const [stored, setStored] = useState<{ listening: Record<string, number>; story: Record<string, Record<string, number>>; best: Record<string, number> }>({ listening: {}, story: {}, best: {} });
+  const [stored, setStored] = useState<{ listening: Record<string, number>; story: Record<string, Record<string, number>>; best: Record<string, number>; srs: Record<string, { phase: string }> }>({ listening: {}, story: {}, best: {}, srs: {} });
   const [open, setOpen] = useState<'words' | 'grammar' | null>(null);
   const [card, setCard] = useState(0);
 
@@ -56,7 +56,9 @@ export default function Course() {
     const listening: Record<string, number> = {}, story: Record<string, Record<string, number>> = {};
     for (const t of levels) listening[t.id] = Object.keys(read<Record<string, number>>(`kiku-progress-kaishi-${t.id}`, {})).length;
     for (const s of soloSets) story[s.id] = read<Record<string, number>>(`kiku-progress-solo-${s.id}`, {});
-    setStored({ listening, story, best: read<Record<string, number>>('kiku-mistakes-best', {}) });
+    // New-word progress comes from the Flashcards page (Kaishi deck, including imported Anki progress).
+    const srs = read<{ cards: Record<string, { phase: string }> }>('kiku-srs-v1', { cards: {} }).cards ?? {};
+    setStored({ listening, story, best: read<Record<string, number>>('kiku-mistakes-best', {}), srs });
   }, []);
   useEffect(() => {
     refresh();
@@ -69,17 +71,20 @@ export default function Course() {
     return () => { window.removeEventListener('focus', refresh); document.removeEventListener('visibilitychange', onVisible); };
   }, [refresh]);
 
+  // A word counts as learned once it has left the "new" state in Flashcards.
+  const learned = useCallback((card: Card) => (stored.srs[`kaishi:${card.id}`]?.phase ?? 'new') !== 'new', [stored.srs]);
   const status = useCallback((n: number): Record<StepId, boolean> => {
     const t = levels[n - 1], story = storyFor(n);
+    const levelWords = cards?.slice(t.wordCount - 20, t.wordCount) ?? [];
     return {
-      words: !!course.words[t.id],
+      words: levelWords.length > 0 && levelWords.every(learned),
       listening: (stored.listening[t.id] ?? 0) >= t.questions.length,
       reading: course.reading[t.id] !== undefined,
       story: !story || stored.story[story.setId]?.[story.q] !== undefined,
       grammar: !!course.grammar[t.id],
       mistakes: !(mistakes as Record<string, unknown[]>)[t.id] || stored.best[t.id] !== undefined,
     };
-  }, [course, stored]);
+  }, [course, stored, cards, learned]);
   const doneCount = (n: number) => Object.values(status(n)).filter(Boolean).length;
   const levelsDone = levels.filter((_, i) => doneCount(i + 1) === 6).length;
   const nextLevel = (levels.findIndex((_, i) => doneCount(i + 1) < 6) + 1) || levels.length;
@@ -89,6 +94,7 @@ export default function Course() {
   const words = useMemo(() => cards?.slice(first - 1, test.wordCount) ?? [], [cards, first, test.wordCount]);
   const grammarUsed = useMemo(() => grammarFor(test.id), [test.id]);
   const story = storyFor(level);
+  const learnedCount = words.filter(learned).length;
   const s = status(level);
   const back = `course=${level}`;
 
@@ -102,12 +108,14 @@ export default function Course() {
     next();
   }
   function showCard(i: number) { setCard(i); const c = words[i]; if (c) play([c.wordAudio, c.sentenceAudio]); }
-  function finishWords() { markCourse('words', test.id); setOpen(null); refresh(); }
   function finishGrammar() { markCourse('grammar', test.id); setOpen(null); refresh(); }
 
   const steps: { id: StepId; title: string; about: string; action: React.ReactNode }[] = [
-    { id: 'words', title: 'Learn the new words', about: `Words ${first}–${test.wordCount}: meaning, picture, example sentence and native audio.`,
-      action: <button className="primary" onClick={() => { setOpen(open === 'words' ? null : 'words'); if (open !== 'words') showCard(0); }} disabled={!cards}>{open === 'words' ? 'Close' : s.words ? 'Review words' : 'Start'}</button> },
+    { id: 'words', title: 'Learn the new words', about: `Words ${first}–${test.wordCount} in Flashcards: ${learnedCount} / ${words.length || 20} learned. Words you studied in Anki count once you import your progress.`,
+      action: <div className="course-actions">
+        <Link className="primary course-link" href={`/flashcards?from=${first}&to=${test.wordCount}&${back}`}>{s.words ? 'Review in Flashcards' : 'Learn in Flashcards'}</Link>
+        <button className="primary secondary" onClick={() => { setOpen(open === 'words' ? null : 'words'); if (open !== 'words') showCard(0); }} disabled={!cards}>{open === 'words' ? 'Close' : 'Preview'}</button>
+      </div> },
     { id: 'listening', title: 'Listen to the conversations', about: `${test.questions.length} short conversations that use every new word.`,
       action: <Link className="primary course-link" href={`/?test=${test.id}&${back}`}>{s.listening ? 'Review' : 'Start'}</Link> },
     { id: 'reading', title: 'Read two short passages', about: 'Tap any word for its reading. Answer a question about each passage.',
@@ -142,6 +150,10 @@ export default function Course() {
           <div className="course-step-text"><strong>{step.title}</strong><p className="small">{step.about}</p></div>
           <div className="course-step-action">{step.action}</div>
 
+          {step.id === 'words' && words.length > 0 && <ul className="course-chips" aria-label="Word progress">{words.map((w, i) => {
+            const phase = stored.srs[`kaishi:${w.id}`]?.phase ?? 'new';
+            return <li key={w.id}><button type="button" className={`course-chip ${phase}`} title={`${w.reading} — ${w.meaning} · ${phase}`} onClick={() => { setOpen('words'); showCard(i); }} lang="ja">{w.word}</button></li>;
+          })}<li className="course-legend">grey: new · amber: learning · green: in review</li></ul>}
           {step.id === 'words' && open === 'words' && c && <div className="course-word">
             <p className="small">Word {card + 1} of {words.length} · Kaishi entry {first + card}</p>
             <div className="srs-word" lang="ja"><Ruby segments={c.wordFurigana} /></div>
@@ -157,7 +169,7 @@ export default function Course() {
             <div className="actions">
               <button className="primary secondary" disabled={card === 0} onClick={() => showCard(card - 1)}>← Previous</button>
               {card < words.length - 1 ? <button className="primary" onClick={() => showCard(card + 1)}>Next word →</button>
-                : <button className="primary" onClick={finishWords}>I’ve studied these ✓</button>}
+                : <button className="primary" onClick={() => setOpen(null)}>Done</button>}
             </div>
           </div>}
 

@@ -245,3 +245,9 @@
 .course-footer { border-top:1px solid var(--line); display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:12px; }
 .course-footer p { margin:0; }
 @media(max-width:560px) { .course-steps > li { grid-template-columns:32px 1fr; padding:14px 16px; } .course-step-action { grid-column:2; } }
+.course-actions { display:flex; flex-wrap:wrap; gap:8px; justify-content:flex-end; }
+.course-chips { grid-column:1 / -1; list-style:none; display:flex; flex-wrap:wrap; gap:6px; margin:4px 0 0; padding:0; }
+.course-chip { font:inherit; font-size:15px; padding:3px 10px; border-radius:20px; border:1px solid var(--line); background:white; color:var(--muted); }
+.course-chip.learning, .course-chip.relearning { background:#fdf3e1; border-color:#e5c48a; color:#7a4f10; }
+.course-chip.review { background:#e8f3e7; border-color:#a9cfa3; color:var(--green); font-weight:650; }
+.course-legend { font-size:12px; color:var(--muted); }

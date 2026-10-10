@@ -5,6 +5,8 @@ import grammar from '../data/grammar.json';
 import grammarKaishi from '../data/grammar-kaishi.json';
 import { DEFAULT_SETTINGS, LEARN_AHEAD_MS, NEW_CARD, dayNumber, describeDue, previewAnswers, type CardState, type Rating, type Settings } from '../lib/srs';
 import { speakJapanese } from '../lib/speech';
+import CourseBanner from './course-banner';
+import { courseParam } from '../lib/course';
 
 type Segment = [string, string?, 1?];
 type KaishiCard = { id: string; pos: number; word: string; reading: string; meaning: string; wordFurigana: Segment[]; wordAudio: string | null;
@@ -54,10 +56,14 @@ export default function Flashcards() {
   const player = useRef<HTMLAudioElement | null>(null);
   const passFail = store.passFail !== false;
   const progressFile = useRef<HTMLInputElement>(null);
+  // Opened from the course: study only one level's words (?from=221&to=240), without the daily new-card limit.
+  const [focus, setFocus] = useState<{ from: number; to: number } | null>(null);
 
   useEffect(() => {
     try { const saved = localStorage.getItem(storeKey); if (saved) setStore({ ...emptyStore, ...JSON.parse(saved) }); } catch {}
     setLoaded(true); setNow(Date.now());
+    const from = Number(courseParam('from')), to = Number(courseParam('to'));
+    if (from >= 1 && to >= from) setFocus({ from, to });
     fetch('/kaishi/cards.json').then(r => r.ok ? r.json() : Promise.reject()).then((cards: KaishiCard[]) => setKaishi([...cards].sort((a, b) => a.pos - b.pos))).catch(() => setKaishiError(true));
     const timer = setInterval(() => setNow(Date.now()), 15_000);
     return () => clearInterval(timer);
@@ -65,13 +71,13 @@ export default function Flashcards() {
   useEffect(() => { if (loaded) try { localStorage.setItem(storeKey, JSON.stringify(store)); } catch {} }, [store, loaded]);
 
   const cardIds = useMemo(() => ({
-    kaishi: (kaishi ?? []).map(card => `kaishi:${card.id}`),
+    kaishi: (focus ? (kaishi ?? []).slice(focus.from - 1, focus.to) : kaishi ?? []).map(card => `kaishi:${card.id}`),
     'grammar-n5': grammar.filter(p => p.level === 'N5').map(p => `grammar:${p.id}`),
     'grammar-n4': grammar.filter(p => p.level === 'N4').map(p => `grammar:${p.id}`),
     'grammar-n3': grammar.filter(p => p.level === 'N3').map(p => `grammar:${p.id}`),
     'grammar-n2': grammar.filter(p => p.level === 'N2').map(p => `grammar:${p.id}`),
     'grammar-n1': grammar.filter(p => p.level === 'N1').map(p => `grammar:${p.id}`),
-  }), [kaishi]);
+  }), [kaishi, focus]);
   const kaishiById = useMemo(() => new Map((kaishi ?? []).map(card => [`kaishi:${card.id}`, card])), [kaishi]);
   const grammarById = useMemo(() => new Map(grammar.map(point => [`grammar:${point.id}`, point])), []);
 
@@ -84,7 +90,7 @@ export default function Flashcards() {
     const states = cardIds[id].map(cardId => [cardId, s.cards[cardId] ?? NEW_CARD] as const);
     const learning = states.filter(([, c]) => c.phase === 'learning' || c.phase === 'relearning').sort((a, b) => a[1].due - b[1].due);
     const reviews = states.filter(([, c]) => c.phase === 'review' && c.due <= today).sort((a, b) => a[1].due - b[1].due).slice(0, Math.max(0, cfg.reviewsPerDay - count.reviewDone));
-    const fresh = states.filter(([, c]) => c.phase === 'new').slice(0, Math.max(0, cfg.newPerDay - count.newDone));
+    const fresh = states.filter(([, c]) => c.phase === 'new').slice(0, focus && id === 'kaishi' ? undefined : Math.max(0, cfg.newPerDay - count.newDone));
     return { learning, reviews, fresh, cfg };
   }
   function counts(id: DeckId) {
@@ -102,6 +108,9 @@ export default function Flashcards() {
   }
 
   function study(id: DeckId) { setDeck(id); setUndo([]); setMessage(''); setCurrent(pick(store, id)); }
+  function leave() { setDeck(null); setCurrent(null); if (focus) { setFocus(null); history.replaceState(null, '', '/flashcards'); } }
+  // A focused session starts as soon as the card data has loaded.
+  useEffect(() => { if (focus && kaishi && loaded && !deck) study('kaishi'); }, [focus, kaishi, loaded]); // eslint-disable-line react-hooks/exhaustive-deps
   function answer(r: Rating) {
     if (!deck || !current?.shown) return;
     const before = store.cards[current.id], phase = (before ?? NEW_CARD).phase, today = dayNumber(Date.now());
@@ -198,9 +207,10 @@ export default function Flashcards() {
     const c = counts(deck), card = current && (kaishiById.get(current.id) ?? grammarById.get(current.id));
     const phase = current ? (store.cards[current.id] ?? NEW_CARD).phase : null;
     return <div className="shell">{header}<main>
+      <CourseBanner step="Learn new words" />
       <div className="srs-topbar">
-        <button className="primary secondary" onClick={() => { setDeck(null); setCurrent(null); }}>← Decks</button>
-        <strong>{decks.find(d => d.id === deck)!.name}</strong>
+        <button className="primary secondary" onClick={leave}>← Decks</button>
+        <strong>{decks.find(d => d.id === deck)!.name}{focus && deck === 'kaishi' ? ` · words ${focus.from}–${focus.to}` : ''}</strong>
         <span className="srs-counts" aria-label={`${c.fresh} new, ${c.learning} learning, ${c.reviews} to review`}>
           <span className={`srs-new${phase === 'new' ? ' srs-active' : ''}`}>{c.fresh}</span> + <span className={`srs-learn${phase === 'learning' || phase === 'relearning' ? ' srs-active' : ''}`}>{c.learning}</span> + <span className={`srs-review${phase === 'review' ? ' srs-active' : ''}`}>{c.reviews}</span>
         </span>
@@ -208,9 +218,9 @@ export default function Flashcards() {
       </div>
       <section className="card srs-card" aria-label="Flashcard">
         {!current || !card ? <div className="content srs-done">
-          <h2>Congratulations! You have finished this deck for now.</h2>
+          <h2>{focus && deck === 'kaishi' ? `All words ${focus.from}–${focus.to} are studied for now.` : 'Congratulations! You have finished this deck for now.'}</h2>
           <p className="small">{c.later ? `${c.later} learning card${c.later > 1 ? 's' : ''} will come back in a few minutes — this page will show ${c.later > 1 ? 'them' : 'it'} automatically.` : 'Come back tomorrow for new cards and reviews.'}</p>
-          <button className="primary" onClick={() => { setDeck(null); setCurrent(null); }}>Back to decks</button>
+          <button className="primary" onClick={leave}>Back to decks</button>
         </div> : <>
           <div className="content srs-face">
             {'word' in card ? <>
@@ -241,6 +251,7 @@ export default function Flashcards() {
   }
 
   return <div className="shell">{header}<main>
+    <CourseBanner step="Learn new words" />
     <div className="eyebrow">Spaced repetition · Anki-style</div>
     <h1>Review a little every day.</h1>
     <p className="intro">Cards come back just before you would forget them. Scheduling uses FSRS-5 with the same learning steps and limits as your Kaishi deck in Anki, so intervals match what Anki would give you.</p>
