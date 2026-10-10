@@ -1,0 +1,86 @@
+# Level 26 · words 501–520
+@forms 501=生んだ 506=君の名は 508=付くそう 509=ついてた 512=頂きます
+
+@conversation Home for dinner · Family
+A: ただいま。 || I’m home.
+B: おかえり。ご飯、できてるよ。 || Welcome back. Dinner’s ready.
+A: やった。頂きます！ || Yes! Let’s eat!
+B: 待って。まず手を洗って。それに、スープが熱いから気をつけてね。 || Wait. First wash your hands. And be careful — the soup is hot.
+Q: What does B tell A to do first?
+C: Sit down at the table ; Wash their hands ; Taste the soup ; Turn on the light
+ANS: 2
+EXP: ただいま is said when you come home; おかえり is the reply. 頂きます is said before eating. まず means first. 熱い (あつい) hot, for things you touch or eat. Extra words: スープ, soup; 洗う (あらう), wash; 気をつける, be careful.
+
+@conversation A sore back · Coworkers
+A: 大丈夫ですか。腰が痛そうですね。 || Are you okay? Your lower back looks like it hurts.
+B: 今朝、慌てて重い荷物を持ったら、痛くなっちゃって。 || This morning I picked up something heavy in a rush, and it started hurting.
+A: 無理しないでくださいね。 || Please don’t push yourself.
+B: ありがとうございます。座っていると、少し気分がいいです。 || Thank you. When I’m sitting down, I feel a bit better.
+Q: How did B hurt their back?
+C: Playing sports ; Lifting something heavy in a hurry ; Sleeping badly ; Falling on the stairs
+ANS: 2
+EXP: 腰 (こし) lower back; 慌てる (あわてる) rush, panic — 慌てて means in a hurry; 気分 (きぶん) feeling, mood. Extra words: 重い (おもい), heavy; 荷物 (にもつ), bag, load.
+
+@conversation The new kittens · Friends
+A: うちの猫が、子猫を三匹生んだんだ。 || Our cat had three kittens.
+B: えー、見たい！ || Oh, I want to see them!
+A: ほら、この写真。白い子は、お母さんによく似てるでしょう。 || Look, this photo. The white one looks just like its mother, right?
+B: 本当だ。可愛い！一匹もらってもいい？ || It really does. So cute! Could I have one?
+Q: Which kitten looks like its mother?
+C: The black one ; The white one ; The smallest one ; None of them
+ANS: 2
+EXP: 生む (うむ) give birth; 似る (にる) resemble — お母さんに似ている means looks like its mother. 三匹 (さんびき) three (small animals). Extra words: 猫 (ねこ), cat; 子猫 (こねこ), kitten; 写真 (しゃしん), photo; 匹 (ひき), counter for small animals.
+
+@conversation A busy street · Neighbors
+A: この通りは車が多くて、危険ですね。 || This street has a lot of cars. It’s dangerous.
+B: ええ。この前も、子供が自転車を倒して、危なかったんです。 || Yes. Just the other day a child knocked over a bike, and it was close.
+A: 子供は周囲をあまり見ませんからね。 || Kids don’t really look at what’s around them.
+B: 来月、ここに新しい信号が付くそうですよ。 || Apparently a new traffic light is being put in here next month.
+Q: What will happen next month?
+C: The street will close ; A traffic light will be put in ; The speed limit will change ; A new school will open
+ANS: 2
+EXP: 通り (とおり) street; 危険 (きけん) dangerous; 倒す (たおす) knock over; 周囲 (しゅうい) surroundings; 付く (つく) be attached, be installed. Extra words: 車 (くるま), car; 自転車 (じてんしゃ), bicycle; 危ない (あぶない), dangerous; 信号 (しんごう), traffic light.
+
+@conversation The light was on again · Roommates
+A: また部屋の電気がついてたよ。 || The light in your room was on again.
+B: え、ちゃんと消したよ。 || What? I definitely turned it off.
+A: でも、ついてたのは事実だよ。電気代、高いんだから。 || But it’s a fact that it was on. Electricity is expensive, you know.
+B: …分かった。次からは本気で気をつける。 || …Okay. From now on I’ll seriously be careful.
+Q: What does B promise in the end?
+C: To pay the electricity bill ; To be seriously careful from now on ; To buy a new light ; To move out
+ANS: 2
+EXP: つく means be on (a light) — 電気がついてた means the light was on. 事実 (じじつ) fact; 本気で (ほんきで) seriously. Extra words: 電気 (でんき), light, electricity; 消す (けす), turn off; 電気代 (でんきだい), electricity bill; 気をつける, be careful.
+
+@conversation A favorite film · Friends
+A: 「君の名は。」っていう映画、見た？ || Have you seen the movie “Your Name”?
+B: うん、三回も見たよ。 || Yes, three times.
+A: 最後のシーンで、映画館の空気が変わったよね。 || In the last scene, the whole mood of the cinema changed, didn’t it?
+B: 分かる。隣の人も、ずっと頷いてた。 || I know what you mean. The person next to me kept nodding the whole time.
+Q: What did the person next to B do?
+C: Fell asleep ; Kept nodding ; Cried loudly ; Left early
+ANS: 2
+EXP: 君の名は means “your name” — 名 (な) is an old-fashioned word for name, kept in the film’s title. 空気 (くうき) air, atmosphere — 空気が変わる means the mood changes. 頷く (うなずく) nod. Extra words: 映画 (えいが), movie; シーン, scene; 映画館 (えいがかん), cinema.
+
+@reading 田舎の空気
+TEXT: 週末、祖父母が住んでいる田舎に行きました。まず驚いたのは、空気がとてもきれいなことです。町と違って、通りには車がほとんど走っていません。夜は周囲に明かりが少なくて、星が沢山見えました。おばあさんの作った熱いみそ汁を飲むと、体も気分も軽くなりました。 || On the weekend I went to the countryside where my grandparents live. The first thing that surprised me was how clean the air is. Unlike the city, there are hardly any cars on the streets. At night there were few lights around, and I could see lots of stars. When I drank the hot miso soup my grandmother made, my body and my mood both felt lighter.
+Q: What surprised the writer first?
+C: How quiet the house was ; How clean the air was ; How many stars there were ; How tasty the soup was
+ANS: 2
+EXP: まず驚いたのは、空気がとてもきれいなことです gives the answer. まず first; 空気 (くうき) air; 通り (とおり) street; 周囲 (しゅうい) surroundings; 熱い (あつい) hot; 気分 (きぶん) mood. Extra words: 週末 (しゅうまつ), weekend; 祖父母 (そふぼ), grandparents; 田舎 (いなか), countryside; 明かり (あかり), light; 星 (ほし), star; みそ汁 (みそしる), miso soup.
+
+@reading 弟の本気
+TEXT: 去年の春、弟が「明日から毎朝走る」と言いました。家族は誰も、弟が本気だとは思いませんでした。でも事実、弟は一年間、雨の日も毎朝五時に起きて走り続けました。今では父も「あいつは本当に頑張った」と頷いています。弟の顔は、前よりずっと自信のある表情になりました。 || Last spring, my younger brother said, “I’m going to run every morning from tomorrow.” No one in the family thought he was serious. But in fact, for a whole year he got up at five every morning, even on rainy days, and kept running. Now even my father nods and says, “He really worked hard.” My brother’s face now looks much more confident than before.
+Q: How did the family feel at first?
+C: They were proud of him ; They didn’t think he was serious ; They wanted to run with him ; They were worried about his health
+ANS: 2
+EXP: 家族は誰も、弟が本気だとは思いませんでした gives the answer. 本気 (ほんき) serious; 事実 (じじつ) in fact; 頷く (うなずく) nod. Extra words: 一年間 (いちねんかん), a whole year; 起きる (おきる), get up; 自信 (じしん), confidence.
+
+@story A rushed morning
+N: 今朝、目が覚めると、もう八時でした。私は慌てて服を着て、家を出ました。 || This morning when I woke up, it was already eight. I threw on my clothes in a panic and left the house.
+N: でも、通りに出た時、家の電気がついたままだったことに気付きました。 || But when I got out to the street, I realized I had left the lights on at home.
+N: 戻るかどうか迷いましたが、危険ではないので、そのまま駅まで走りました。 || I wasn’t sure whether to go back, but since it wasn’t dangerous, I just ran to the station.
+N: 会社に着くと、隣の田中さんが「今日は休みですよ」と言いました。事実、カレンダーは赤い日でした。 || When I got to the office, Tanaka at the next desk said, “Today is a holiday.” Sure enough, the calendar showed a red day.
+Q: Why was the narrator’s hurry pointless?
+C: The train was canceled ; It was a holiday ; Their watch was wrong ; They forgot their bag
+ANS: 2
+EXP: 今日は休みですよ and カレンダーは赤い日でした show it was a holiday (red days are holidays on Japanese calendars). 慌てる (あわてる) rush; 通り (とおり) street; ついたまま means left on; 危険 (きけん) dangerous; 事実 (じじつ) in fact. Extra words: 目が覚める (めがさめる), wake up; 迷う (まよう), hesitate; カレンダー, calendar.

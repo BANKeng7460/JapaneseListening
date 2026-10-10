@@ -10772,5 +10772,73 @@
       "reading": "よろこぶ",
       "meaning": "to be happy, to be delighted"
     }
+  ],
+  "驚い": [
+    {
+      "word": "驚く",
+      "reading": "おどろく",
+      "meaning": "to be surprised, to be astonished"
+    }
+  ],
+  "違って": [
+    {
+      "word": "違う",
+      "reading": "ちがう",
+      "meaning": "to differ, to be wrong"
+    }
+  ],
+  "少なくて": [
+    {
+      "word": "少ない",
+      "reading": "すくない",
+      "meaning": "few, little"
+    }
+  ],
+  "見え": [
+    {
+      "word": "見える",
+      "reading": "みえる",
+      "meaning": "be visible"
+    }
+  ],
+  "作っ": [
+    {
+      "word": "作る",
+      "reading": "つくる",
+      "meaning": "to make, to create"
+    }
+  ],
+  "起きて": [
+    {
+      "word": "起きる",
+      "reading": "おきる",
+      "meaning": "to occur"
+    },
+    {
+      "word": "起きる",
+      "reading": "おきる",
+      "meaning": "to get up, to get out of bed"
+    }
+  ],
+  "走り": [
+    {
+      "word": "走る",
+      "reading": "はしる",
+      "meaning": "to run"
+    }
+  ],
+  "頑張っ": [
+    {
+      "word": "頑張る",
+      "reading": "がんばる",
+      "meaning": "to persevere, to do one's best"
+    }
+  ],
+  "頷いて": [
+    {
+      "word": "頷く",
+      "reading": "うなずく",
+      "meaning": "to nod"
+    }
   ]
 }

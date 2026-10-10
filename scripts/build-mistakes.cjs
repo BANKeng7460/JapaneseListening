@@ -39,7 +39,7 @@ const movement = new Set(['行く', '来る', '帰る', '戻る', '入る', '着
 // Words where swapping the particle can still be correct Japanese, so they are never used.
 const people = new Set(['友達', '先生', '母', '父', '兄', '姉', '弟', '妹', '彼', '彼女', '子', '人', '家族', '誰', '何', 'みんな', '先輩', '君', '私', '僕', '俺', 'あいつ', '奴', '子供', '男', '女', '少女', '仲間', '相手', '全員', '社長', '部長']);
 const positions = new Set(['前', '後', '中', '上', '下', '間', '後ろ', '奥', '隣', '外', '先', '横']);
-const notPlaces = new Set(['せい', 'ため', '風', '雨']);
+const notPlaces = new Set(['せい', 'ため', '風', '雨', '本気', 'シーン', '最後', '最初']);
 const takesNi = new Set(['座る', '住む', '置く', '立つ', '入る', '着く', '残る', '泊まる', '止まる', '寝る', '乗る', '向かう', '生まれる', '書く', '出る', 'いる', 'ある']);
 const isTime = t => ['数', '接尾', '副詞可能'].includes(t.pos_detail_1) || /[時分日月年]$/.test(t.surface_form);
 // Plain nouns only: adverb-like nouns (絶対に) and な-adjective stems are skipped.

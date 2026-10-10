@@ -37,7 +37,7 @@ Shared pieces:
 |---|---|
 | `public/kaishi/` (cards.json + 4,354 audio/image files) | `npm run kaishi:extract` from `Kaishi.1.5k.apkg`. Committed so Vercel serves it. |
 | `data/kaishi-1-20 … 1-200.json` (levels 1–10) | Hand-written earlier; keep as is |
-| `data/kaishi-1-220 … 1-500.json`, reading for 11–25, Kaishi solo sets, `data/kaishi-extra-levels.ts` | `npm run levels:build` from `content/kaishi/level-NN.txt` |
+| `data/kaishi-1-220 … 1-520.json`, reading for 11–26, Kaishi solo sets, `data/kaishi-extra-levels.ts` | `npm run levels:build` from `content/kaishi/level-NN.txt` |
 | `data/grammar.json` | N5/N4 + N3–N1: point names/levels/URLs from JLPT Sensei lists; all text and examples original |
 | `data/grammar-kaishi.json` | Kaishi sentences matched to N5/N4 grammar (one-off kuromoji build) |
 | `data/grammar-usage.json` | `node scripts/grammar-usage.cjs` (kuromoji + `scripts/grammar-matchers.cjs`, N5/N4 only) |
@@ -93,11 +93,12 @@ Shared pieces:
 - **Flashcards:** FSRS-5 matching Anki, Anki progress import, Pass/Fail mode. Media moved to `public/kaishi` for Vercel.
 - **"Grammar used here":** boxes under passages and conversations.
 - **Levels 11–25 (words 201–500):** 90 conversations, 30 passages and 15 stories, plus stories for levels 1–10. Built from `content/kaishi` with the vocabulary checker.
+- **Level 26 (words 501–520):** added on request, one level at a time.
 - **Spot the mistake:** 277 planted mistakes + 125 correct sentences, all reviewed.
 - **Shared voice selector** (grammar, flashcards, game).
 - **Course page:** combines every practice type into a six-step path per level.
 
 ## Next / ideas
-- Levels 26+ (words 501–1,500) in batches of ~15, same format, once the user is happy with 11–25.
+- Levels 27+ (words 521–1,500): same format. The user asked for one more level at a time ("add another level"), so default to one level per request.
 - Grammar detection, Kaishi example sentences and the mistake game cover N5/N4 grammar only; extending to N3–N1 needs new matchers.
 - Possible: send missed mistake-game sentences to Flashcards; let the course's new-words step add cards to the SRS; stats page (reviews per day, forecast).

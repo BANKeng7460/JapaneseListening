@@ -1044,5 +1044,47 @@
         "explanation": "みんなが私の肩をたたいて喜んでくれました gives the answer. 仲間 (なかま) teammates; ほとんど hardly; 肩 (かた) shoulder; 喜ぶ (よろこぶ) be delighted; 自身 (じしん) oneself; 認める (みとめる) accept; 思わず (おもわず) can’t help. Extra words: バレーボール, volleyball; チーム, team; 声をかける, speak to; 試合 (しあい), match; 決める here means score; 泣く (なく), cry."
       }
     ]
+  },
+  {
+    "id": "solo-kaishi-26-30",
+    "label": "Kaishi levels 26–30",
+    "wordCount": 0,
+    "words": [],
+    "questions": [
+      {
+        "situation": "Level 26 · A rushed morning",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "今朝、目が覚めると、もう八時でした。私は慌てて服を着て、家を出ました。",
+            "translation": "This morning when I woke up, it was already eight. I threw on my clothes in a panic and left the house."
+          },
+          {
+            "speaker": "A",
+            "text": "でも、通りに出た時、家の電気がついたままだったことに気付きました。",
+            "translation": "But when I got out to the street, I realized I had left the lights on at home."
+          },
+          {
+            "speaker": "A",
+            "text": "戻るかどうか迷いましたが、危険ではないので、そのまま駅まで走りました。",
+            "translation": "I wasn’t sure whether to go back, but since it wasn’t dangerous, I just ran to the station."
+          },
+          {
+            "speaker": "A",
+            "text": "会社に着くと、隣の田中さんが「今日は休みですよ」と言いました。事実、カレンダーは赤い日でした。",
+            "translation": "When I got to the office, Tanaka at the next desk said, “Today is a holiday.” Sure enough, the calendar showed a red day."
+          }
+        ],
+        "question": "Why was the narrator’s hurry pointless?",
+        "choices": [
+          "The train was canceled",
+          "It was a holiday",
+          "Their watch was wrong",
+          "They forgot their bag"
+        ],
+        "answer": 1,
+        "explanation": "今日は休みですよ and カレンダーは赤い日でした show it was a holiday (red days are holidays on Japanese calendars). 慌てる (あわてる) rush; 通り (とおり) street; ついたまま means left on; 危険 (きけん) dangerous; 事実 (じじつ) in fact. Extra words: 目が覚める (めがさめる), wake up; 迷う (まよう), hesitate; カレンダー, calendar."
+      }
+    ]
   }
 ]

@@ -823,5 +823,38 @@
         "explanation": "友達自身が描いた可愛い絵がありました gives the answer. 届く (とどく) arrive; ようやく finally; 自身 (じしん) oneself; 可愛い (かわいい) cute; 喜ぶ (よろこぶ) be delighted. Extra words: 外国 (がいこく), abroad; 返事 (へんじ), reply; 描く (かく), draw; 時代 (じだい), era; 温かさ (あたたかさ), warmth."
       }
     ]
+  },
+  {
+    "id": "kaishi-1-520",
+    "passages": [
+      {
+        "title": "田舎の空気",
+        "text": "週末、祖父母が住んでいる田舎に行きました。まず驚いたのは、空気がとてもきれいなことです。町と違って、通りには車がほとんど走っていません。夜は周囲に明かりが少なくて、星が沢山見えました。おばあさんの作った熱いみそ汁を飲むと、体も気分も軽くなりました。",
+        "translation": "On the weekend I went to the countryside where my grandparents live. The first thing that surprised me was how clean the air is. Unlike the city, there are hardly any cars on the streets. At night there were few lights around, and I could see lots of stars. When I drank the hot miso soup my grandmother made, my body and my mood both felt lighter.",
+        "question": "What surprised the writer first?",
+        "choices": [
+          "How quiet the house was",
+          "How clean the air was",
+          "How many stars there were",
+          "How tasty the soup was"
+        ],
+        "answer": 1,
+        "explanation": "まず驚いたのは、空気がとてもきれいなことです gives the answer. まず first; 空気 (くうき) air; 通り (とおり) street; 周囲 (しゅうい) surroundings; 熱い (あつい) hot; 気分 (きぶん) mood. Extra words: 週末 (しゅうまつ), weekend; 祖父母 (そふぼ), grandparents; 田舎 (いなか), countryside; 明かり (あかり), light; 星 (ほし), star; みそ汁 (みそしる), miso soup."
+      },
+      {
+        "title": "弟の本気",
+        "text": "去年の春、弟が「明日から毎朝走る」と言いました。家族は誰も、弟が本気だとは思いませんでした。でも事実、弟は一年間、雨の日も毎朝五時に起きて走り続けました。今では父も「あいつは本当に頑張った」と頷いています。弟の顔は、前よりずっと自信のある表情になりました。",
+        "translation": "Last spring, my younger brother said, “I’m going to run every morning from tomorrow.” No one in the family thought he was serious. But in fact, for a whole year he got up at five every morning, even on rainy days, and kept running. Now even my father nods and says, “He really worked hard.” My brother’s face now looks much more confident than before.",
+        "question": "How did the family feel at first?",
+        "choices": [
+          "They were proud of him",
+          "They didn’t think he was serious",
+          "They wanted to run with him",
+          "They were worried about his health"
+        ],
+        "answer": 1,
+        "explanation": "家族は誰も、弟が本気だとは思いませんでした gives the answer. 本気 (ほんき) serious; 事実 (じじつ) in fact; 頷く (うなずく) nod. Extra words: 一年間 (いちねんかん), a whole year; 起きる (おきる), get up; 自信 (じしん), confidence."
+      }
+    ]
   }
 ]
