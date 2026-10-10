@@ -1,8 +1,10 @@
 'use client';
 
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import KanjiHints from './kanji-hints';
 import GrammarUsed from './grammar-used';
+import CourseBanner from './course-banner';
+import { courseParam, markCourse } from '../lib/course';
 import readingBooks from '../data/reading-passages.json';
 import { listeningTests, type ListeningTest } from '../data/tests';
 
@@ -27,6 +29,9 @@ export default function ReadingPractice() {
   const score = passages.filter((question,i) => responses[i] === question.answer).length;
   const [word, reading, meaning] = latest[cardIndex];
 
+  // Opened from the course: start on that level (?level=kaishi-1-240).
+  useEffect(() => { const wanted = courseParam('level'); if (wanted && levels.some(l => l.id === wanted)) reset(wanted); }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
   function reset(id = levelId) {
     setLevelId(id); setIndex(0); setChoice(null); setResponses({}); setFinished(false);
     setCardIndex(0); setRevealed(false);
@@ -37,13 +42,14 @@ export default function ReadingPractice() {
     requestAnimationFrame(() => heading.current?.focus());
   }
   function next() {
-    if (answeredCount === passages.length) {  setFinished(true); return; }
+    if (answeredCount === passages.length) { setFinished(true); markCourse('reading', levelId, score); return; }
     const target = Array.from({length: passages.length}, (_,offset) => (index + offset + 1) % passages.length).find(i => responses[i] === undefined);
     if (target !== undefined) jump(target);
   }
   return <div className="shell">
     <header><div className="brand"><span className="brand-mark" lang="ja">き</span> kiku.</div><span className="header-note">Read it. Recognize it. Remember it.</span></header>
     <main>
+      <CourseBanner step="Reading" />
       <div className="eyebrow">Kaishi · Reading practice</div>
       <h1>Get familiar with kanji.</h1>
       <p className="intro">Read original short passages written for each level, or recall its latest 20 words. These readings are separate from the listening exercises.</p>

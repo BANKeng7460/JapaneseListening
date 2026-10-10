@@ -215,3 +215,33 @@
 .feedback .reading-controls .primary { margin-left:auto; }
 @media(max-width:420px) { .mistake-sentence { font-size:20px; } }
 .voice-select-help { margin-top:6px !important; }
+
+/* Course: one guided path per Kaishi level */
+.genre-nav a[href="/course"] { font-weight:700; }
+.course-banner { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:8px; margin-bottom:18px; padding:10px 16px; border-radius:12px; background:#eef5e9; border:1px solid #d6e5ce; font-size:14px; }
+.course-levels { display:grid; grid-template-columns:repeat(auto-fill,minmax(54px,1fr)); gap:8px; margin:6px 0 22px; }
+.course-level { display:flex; flex-direction:column; align-items:center; gap:2px; padding:8px 4px; border:1px solid var(--line); border-radius:12px; background:var(--paper); color:var(--ink); font:inherit; }
+.course-level span { font-size:18px; font-weight:700; }
+.course-level small { font-size:11px; color:var(--muted); }
+.course-level.next { border-color:#c48a26; }
+.course-level.complete { background:#e8f3e7; border-color:#a9cfa3; }
+.course-level.complete small { color:var(--green); font-weight:700; }
+.course-level.current { background:var(--green); border-color:var(--green); color:white; }
+.course-level.current small { color:#e8f3e7; }
+.course-panel { max-width:820px; }
+.course-steps { list-style:none; margin:0; padding:0; }
+.course-steps > li { display:grid; grid-template-columns:36px 1fr auto; align-items:center; gap:6px 14px; padding:16px 24px; border-top:1px solid var(--line); }
+.course-steps > li:first-child { border-top:0; }
+.course-mark { display:grid; place-items:center; width:32px; height:32px; border-radius:50%; background:#eef2e8; color:var(--muted); font-weight:700; }
+.course-steps > li.done .course-mark { background:var(--green); color:white; }
+.course-step-text p { margin:2px 0 0; }
+.course-link { display:inline-block; text-decoration:none; text-align:center; }
+.course-word, .course-grammar { grid-column:1 / -1; border:1px solid var(--line); border-radius:14px; padding:16px; background:white; }
+.course-word { text-align:center; }
+.course-word .reading-controls { justify-content:center; }
+.course-word .actions { margin-top:14px; }
+.course-grammar ul { list-style:none; margin:0 0 12px; padding:0; }
+.course-grammar li { display:flex; flex-wrap:wrap; align-items:baseline; gap:2px 10px; padding:6px 0; border-bottom:1px solid #eee3c9; }
+.course-footer { border-top:1px solid var(--line); display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:12px; }
+.course-footer p { margin:0; }
+@media(max-width:560px) { .course-steps > li { grid-template-columns:32px 1fr; padding:14px 16px; } .course-step-action { grid-column:2; } }

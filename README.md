@@ -88,3 +88,7 @@ Levels 11–25 (words 201–500) are written as plain text in content/kaishi/lev
 ## Spot the mistake
 
 /mistakes is a grammar error game per Kaishi level. data/mistakes.json is built by `node scripts/build-mistakes.cjs` (also part of `npm run levels:build`): it takes each level's conversation lines, splits them into tappable chunks with kuromoji, and plants one common learner error (particles で/に/を/が, て-form, ます/たい/ない forms, い/な-adjective forms), plus a few correct sentences. Rules skip cases where the swap could still be correct Japanese (people before を, position nouns before に, verbs that take に, real-word forms like 探って); review the output with `--print` after changing rules. A round is 10 sentences with 3 hearts; best scores are saved in localStorage.
+
+## Course
+
+/course combines everything into one path per Kaishi level: learn the 20 new words (cards with native audio), listen to the conversations, read the two passages, hear the level's solo story, check the grammar used, then spot the mistake. Each step shows ✓ when done. Steps 2–4 and 6 open the existing pages already set to the level (`/?test=kaishi-1-240`, `/reading?level=…`, `/solo-stories?test=…&q=…`, `/mistakes?level=…`) with `&course=N`, which adds a "Back to your level" banner. Completion is read from each page's own localStorage progress; new words, reading and grammar are recorded in `kiku-course` (lib/course.ts).

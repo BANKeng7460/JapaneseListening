@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from 'react';
 import { listeningTests, type ListeningTest, type TestEntry } from '../data/tests';
 import { useDialogueSpeech } from '../hooks/use-dialogue-speech';
 import GrammarUsed from './grammar-used';
+import CourseBanner from './course-banner';
+import { courseParam } from '../lib/course';
 
 export default function ListeningPractice({ tests = listeningTests, genre = 'kaishi' }: { tests?: TestEntry[]; genre?: 'kaishi' | 'daily' | 'solo' }) {
   const daily = genre === 'daily';
@@ -35,18 +37,20 @@ export default function ListeningPractice({ tests = listeningTests, genre = 'kai
       return Object.fromEntries(Object.entries(saved).filter(([i, choice]) => entry.questions[Number(i)] && typeof choice === 'number' && entry.questions[Number(i)].choices[choice] !== undefined)) as Record<number, number>;
     } catch { return {}; }
   }
-  function openTest(entry: ListeningTest) {
+  function openTest(entry: ListeningTest, startAt?: number) {
     const saved = loadResponses(entry);
-    const target = entry.questions.findIndex((_, i) => saved[i] === undefined);
+    // The course can open one specific question (a level's solo story); otherwise start at the first unanswered one.
+    const target = startAt !== undefined && entry.questions[startAt] ? startAt : entry.questions.findIndex((_, i) => saved[i] === undefined);
     speech.reset(); setTest(entry); setResponses(saved);
-    setCurrent(Math.max(0, target)); setSelected(target === -1 ? null : saved[target] ?? null); setFinished(target === -1);
+    setCurrent(Math.max(0, target)); setSelected(target === -1 ? null : saved[target] ?? null); setFinished(target === -1 && startAt === undefined);
     try { localStorage.setItem(`kiku-last-test-${genre}`, entry.id); } catch {}
   }
   useEffect(() => {
     let lastId: string | null = null;
     try { lastId = localStorage.getItem(`kiku-last-test-${genre}`); } catch {}
-    const entry = tests.find(item => item.id === lastId && item.questions) ?? tests[0];
-    openTest(entry as ListeningTest);
+    const wanted = courseParam('test'), q = courseParam('q');
+    const entry = tests.find(item => item.id === wanted && item.questions) ?? tests.find(item => item.id === lastId && item.questions) ?? tests[0];
+    openTest(entry as ListeningTest, entry.id === wanted && q !== null ? Number(q) : undefined);
   }, []);
   function restart() {
     speech.reset(); saveResponses(test.id, {}); setCurrent(0); setSelected(null); setResponses({}); setFinished(false);
@@ -64,6 +68,7 @@ export default function ListeningPractice({ tests = listeningTests, genre = 'kai
   return <div className="shell">
     <header><div className="brand"><span className="brand-mark" lang="ja">き</span> kiku.</div><span className="header-note">A little listening, every day.</span></header>
     <main>
+      <CourseBanner step={solo ? 'Story' : 'Listening'} />
       <div className="eyebrow">Japanese listening · {solo ? 'Solo stories' : daily ? 'Daily life' : 'Kaishi 1.5k'}</div>
       <h1>{solo ? 'One voice. A story to follow.' : daily ? 'Everyday moments. Everyday Japanese.' : 'Listen closely. Learn naturally.'}</h1>
       <p className="intro">{solo ? '10 original stories told by one narrator. Follow everyday experiences, then check the details you heard.' : daily ? '20 everyday conversations in four practice sets. Learn useful phrases for shops, travel, friends, and home.' : 'Choose a listening test for the words you’ve learned. Earlier tests stay available as your vocabulary grows.'}</p>

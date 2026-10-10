@@ -7,6 +7,8 @@ import grammar from '../data/grammar.json';
 import { listeningTests } from '../data/tests';
 import { speakJapanese } from '../lib/speech';
 import VoiceSelect from './voice-select';
+import CourseBanner from './course-banner';
+import { courseParam } from '../lib/course';
 
 type Item = { chunks: string[]; wrong: number | null; fix?: string; mistake?: string; options?: string[]; type?: 'particle' | 'verb' | 'adjective'; grammar?: string | null; why?: string; en: string; situation: string };
 type Phase = 'find' | 'fix' | 'done';
@@ -42,7 +44,11 @@ export default function MistakeGame() {
   const [missed, setMissed] = useState<Item[]>([]);
   const [best, setBest] = useState<Record<string, number>>({});
 
-  useEffect(() => { try { setBest(JSON.parse(localStorage.getItem(bestKey) || '{}')); } catch {} }, []);
+  useEffect(() => {
+    try { setBest(JSON.parse(localStorage.getItem(bestKey) || '{}')); } catch {}
+    const wanted = courseParam('level');
+    if (wanted && levels.some(l => l.id === wanted)) setLevelId(wanted);
+  }, []);
   useEffect(() => { start(levelId, kind); }, [levelId, kind]); // eslint-disable-line react-hooks/exhaustive-deps
 
   function start(id = levelId, k = kind) {
@@ -86,6 +92,7 @@ export default function MistakeGame() {
   return <div className="shell">
     <header><div className="brand"><span className="brand-mark" lang="ja">き</span> kiku.</div><span className="header-note">Find it. Fix it. Remember it.</span></header>
     <main>
+      <CourseBanner step="Spot the mistake" />
       <div className="eyebrow">Grammar game · Kaishi levels</div>
       <h1>Spot the mistake.</h1>
       <p className="intro">Each sentence comes from your Kaishi conversations, so you know every word. Some have one grammar mistake — tap it and choose the fix. Some are already correct.</p>

@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation';
 export default function GenreNavigation() {
   const pathname = usePathname();
   return <nav className="genre-nav" aria-label="Practice genre">
+    <Link href="/course" aria-current={pathname === '/course' ? 'page' : undefined}>Course</Link>
     <Link href="/" aria-current={pathname === '/' ? 'page' : undefined}>Kaishi conversations</Link>
     <Link href="/reading" aria-current={pathname === '/reading' ? 'page' : undefined}>Reading practice</Link>
     <Link href="/grammar" aria-current={pathname === '/grammar' ? 'page' : undefined}>Grammar N5–N1</Link>
