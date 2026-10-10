@@ -6,7 +6,7 @@ Personal Japanese study site for one learner, built with Next.js 16, React 19 an
 
 ## Study flow
 `/course` is the main entry point. Each Kaishi level = 20 new words, worked through in six steps:
-1. **New words**: cards with furigana, meaning, picture, example sentence, native audio (inside the course page).
+1. **New words**: learned in Flashcards. "Learn in Flashcards" opens `/flashcards?from=221&to=240&course=N`, a session with only that level's 20 words and no daily new-card limit. The step is done when all 20 have left the "new" state in `kiku-srs-v1`, so imported Anki progress counts too. The course shows each word as a chip (grey new, amber learning, green review) and keeps a "Preview" card viewer.
 2. **Listening**: the level's conversations (`/?test=kaishi-1-<words>`).
 3. **Reading**: two passages (`/reading?level=…`).
 4. **Story**: the level's solo story (`/solo-stories?test=solo-kaishi-<a>-<b>&q=<n>`).
@@ -68,7 +68,7 @@ Shared pieces:
 - No native speaker has checked the Japanese yet. Treat corrections from the user as high priority.
 
 ## Browser storage keys
-`kiku-course` (words/reading/grammar steps) · `kiku-progress-<genre>-<testId>` (listening/solo answers) · `kiku-last-test-<genre>` · `kiku-mistakes-best` · `kiku-srs-v1` (flashcards) · `kiku-grammar-learned`, `kiku-grammar-level` · `kiku-grammar-voice` (shared voice) · `kiku-voice-A/B`, `kiku-narrator-voice` (listening voices). Changing a key's format loses the user's progress, so migrate instead.
+`kiku-course` (reading/grammar steps) · `kiku-progress-<genre>-<testId>` (listening/solo answers) · `kiku-last-test-<genre>` · `kiku-mistakes-best` · `kiku-srs-v1` (flashcards) · `kiku-grammar-learned`, `kiku-grammar-level` · `kiku-grammar-voice` (shared voice) · `kiku-voice-A/B`, `kiku-narrator-voice` (listening voices). Changing a key's format loses the user's progress, so migrate instead.
 
 ## Gotchas
 - Next.js 16 differs from older versions; read `node_modules/next/dist/docs/` before using framework APIs (see AGENTS.md). Route params are Promises.
