@@ -1,7 +1,6 @@
 // Builds the review page's Kaishi data from Anki files. Needs Node 23+ (built-in zstd and SQLite).
-//   node scripts/kaishi-anki.mjs extract [Kaishi.1.5k.apkg]          → kaishi-1.5k/cards.json + kaishi-1.5k/media/
-//   node scripts/kaishi-anki.mjs progress [path/to/collection.anki2] → kaishi-1.5k/anki-progress.json
-// Output lives in kaishi-1.5k/ (git-ignored) and is served locally by app/api/kaishi.
+//   node scripts/kaishi-anki.mjs extract [Kaishi.1.5k.apkg]          → public/kaishi/cards.json + public/kaishi/media/ (committed, deployed)
+//   node scripts/kaishi-anki.mjs progress [path/to/collection.anki2] → kaishi-1.5k/anki-progress.json (personal, git-ignored)
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
@@ -9,7 +8,8 @@ import zlib from 'node:zlib';
 import { DatabaseSync } from 'node:sqlite';
 
 const root = path.resolve(import.meta.dirname, '..');
-const out = path.join(root, 'kaishi-1.5k');
+const site = path.join(root, 'public', 'kaishi');
+const personal = path.join(root, 'kaishi-1.5k');
 const [command, input] = process.argv.slice(2);
 
 // Minimal zip reader for .apkg files (stored or deflated entries).
@@ -69,15 +69,6 @@ function extract(apkg = path.join(root, 'Kaishi.1.5k.apkg')) {
   const zip = readZip(apkg);
   const tmp = path.join(os.tmpdir(), `kaishi-${process.pid}.sqlite`);
   fs.writeFileSync(tmp, unzstd(zip.get('collection.anki21b')()));
-  fs.mkdirSync(path.join(out, 'media'), { recursive: true });
-
-  const names = fields(unzstd(zip.get('media')())).filter(([f]) => f === 1).map(([, e]) => fields(e).find(([f]) => f === 1)[1].toString('utf8'));
-  names.forEach((name, i) => {
-    if (path.basename(name) !== name || name.startsWith('.')) throw new Error('Unsafe media name: ' + name);
-    const target = path.join(out, 'media', name);
-    if (!fs.existsSync(target)) fs.writeFileSync(target, unzstd(zip.get(String(i))()));
-  });
-
   const db = new DatabaseSync(tmp, { readOnly: true });
   const rows = db.prepare('select n.guid, n.flds, c.due from notes n join cards c on c.nid = n.id order by c.due, n.id').all();
   db.close(); fs.rmSync(tmp);
@@ -85,8 +76,21 @@ function extract(apkg = path.join(root, 'Kaishi.1.5k.apkg')) {
     .filter(({ f }) => plain(f[1])) // skips the deck's welcome card
     .map(({ guid, pos, f }) => ({ id: guid, pos, word: plain(f[0]), reading: plain(f[1]), meaning: plain(f[2]), wordFurigana: segments(f[3]),
       wordAudio: sound(f[4]), sentence: segments(f[7] || f[5]), sentenceMeaning: plain(f[6]), sentenceAudio: sound(f[8]), notes: plain(f[9]), picture: image(f[13]) }));
-  fs.writeFileSync(path.join(out, 'cards.json'), JSON.stringify(cards));
-  console.log(`${cards.length} cards and ${names.length} media files in ${out}`);
+  fs.mkdirSync(path.join(site, 'media'), { recursive: true });
+  fs.writeFileSync(path.join(site, 'cards.json'), JSON.stringify(cards));
+
+  // Only media the cards use is published.
+  const used = new Set(cards.flatMap(card => [card.wordAudio, card.sentenceAudio, card.picture]).filter(Boolean));
+  const names = fields(unzstd(zip.get('media')())).filter(([f]) => f === 1).map(([, e]) => fields(e).find(([f]) => f === 1)[1].toString('utf8'));
+  let written = 0;
+  names.forEach((name, i) => {
+    if (!used.has(name)) return;
+    if (path.basename(name) !== name || name.startsWith('.')) throw new Error('Unsafe media name: ' + name);
+    const target = path.join(site, 'media', name);
+    if (!fs.existsSync(target)) fs.writeFileSync(target, unzstd(zip.get(String(i))()));
+    written++;
+  });
+  console.log(`${cards.length} cards and ${written} media files in ${site}`);
 }
 
 function progress(collection = path.join(process.env.APPDATA ?? '', 'Anki2', 'User 1', 'collection.anki2')) {
@@ -113,9 +117,9 @@ function progress(collection = path.join(process.env.APPDATA ?? '', 'Anki2', 'Us
     return [r.guid, { phase, dueMs: r.queue === 1 ? r.due * 1000 : dayMs(r.due), ivl: r.ivl, step: Math.max(0, steps - (r.left % 1000)),
       memory: data.s ? { s: data.s, d: data.d } : null, lastReview: r.last, reps: r.reps, lapses: r.lapses }];
   }));
-  fs.mkdirSync(out, { recursive: true });
-  fs.writeFileSync(path.join(out, 'anki-progress.json'), JSON.stringify({ exportedAt: Date.now(), cards }));
-  console.log(`${rows.length} studied Kaishi cards exported to ${path.join(out, 'anki-progress.json')}`);
+  fs.mkdirSync(personal, { recursive: true });
+  fs.writeFileSync(path.join(personal, 'anki-progress.json'), JSON.stringify({ exportedAt: Date.now(), cards }));
+  console.log(`${rows.length} studied Kaishi cards exported to ${path.join(personal, 'anki-progress.json')} — pick this file in the flashcards page's Kaishi options.`);
 }
 
 if (command === 'extract') extract(input);

@@ -9,14 +9,14 @@ type Point = (typeof grammar)[number];
 const levels: Level[] = ['N5', 'N4'];
 const learnedKey = 'kiku-grammar-learned';
 const levelKey = 'kiku-grammar-level';
-// Kaishi 1.5k sentences matched to each grammar point; audio lives in public/kaishi-audio.
+// Kaishi 1.5k sentences matched to each grammar point; audio lives in public/kaishi/media.
 const kaishi: Record<string, { ja: string; en: string; audio: string; word: string }[]> = kaishiExamples;
 
 let recording: HTMLAudioElement | null = null;
 function playRecording(file: string) {
   window.speechSynthesis?.cancel();
   recording?.pause();
-  recording = new Audio(`/kaishi-audio/${encodeURIComponent(file)}`);
+  recording = new Audio(`/kaishi/media/${encodeURIComponent(file)}`);
   recording.play().catch(() => {});
 }
 

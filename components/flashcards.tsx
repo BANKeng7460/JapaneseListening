@@ -26,7 +26,8 @@ const decks: { id: DeckId; name: string; about: string; defaults: Partial<Settin
 ];
 const ratings: { r: Rating; label: string; key: string }[] = [{ r: 1, label: 'Again', key: '1' }, { r: 2, label: 'Hard', key: '2' }, { r: 3, label: 'Good', key: '3' }, { r: 4, label: 'Easy', key: '4' }];
 const kaishiRecordings: Record<string, { ja: string; en: string; audio: string }[]> = grammarKaishi;
-const media = (name: string) => `/api/kaishi/media/${encodeURIComponent(name)}`;
+// Built by npm run kaishi:extract into public/kaishi, so it is deployed as static files.
+const media = (name: string) => `/kaishi/media/${encodeURIComponent(name)}`;
 
 function Ruby({ segments, furigana = true }: { segments: Segment[]; furigana?: boolean }) {
   return <>{segments.map(([text, reading, bold], i) => {
@@ -46,11 +47,12 @@ export default function Flashcards() {
   const [now, setNow] = useState(0);
   const [message, setMessage] = useState('');
   const player = useRef<HTMLAudioElement | null>(null);
+  const progressFile = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     try { const saved = localStorage.getItem(storeKey); if (saved) setStore({ ...emptyStore, ...JSON.parse(saved) }); } catch {}
     setLoaded(true); setNow(Date.now());
-    fetch('/api/kaishi/cards.json').then(r => r.ok ? r.json() : Promise.reject()).then((cards: KaishiCard[]) => setKaishi([...cards].sort((a, b) => a.pos - b.pos))).catch(() => setKaishiError(true));
+    fetch('/kaishi/cards.json').then(r => r.ok ? r.json() : Promise.reject()).then((cards: KaishiCard[]) => setKaishi([...cards].sort((a, b) => a.pos - b.pos))).catch(() => setKaishiError(true));
     const timer = setInterval(() => setNow(Date.now()), 15_000);
     return () => clearInterval(timer);
   }, []);
@@ -151,11 +153,11 @@ export default function Flashcards() {
   // When only future learning cards remain, pick them up as soon as they fall due.
   useEffect(() => { if (deck && !current && now) { const next = pick(store, deck); if (next) setCurrent(next); } }, [now]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  async function importAnki() {
+  // Reads the anki-progress.json made by npm run kaishi:progress; the file stays on the user's computer.
+  async function importAnki(file: File | undefined) {
+    if (!file) return;
     try {
-      const response = await fetch('/api/kaishi/anki-progress.json');
-      if (!response.ok) throw new Error();
-      const { cards, exportedAt } = await response.json() as { exportedAt: number; cards: Record<string, { phase: CardState['phase']; dueMs: number; ivl: number; step: number; memory: CardState['memory']; lastReview: number | null; reps: number; lapses: number }> };
+      const { cards, exportedAt } = JSON.parse(await file.text()) as { exportedAt: number; cards: Record<string, { phase: CardState['phase']; dueMs: number; ivl: number; step: number; memory: CardState['memory']; lastReview: number | null; reps: number; lapses: number }> };
       const known = Object.entries(cards).filter(([guid]) => kaishiById.has(`kaishi:${guid}`));
       if (!window.confirm(`Replace your Kaishi progress on this site with ${known.length} studied cards from Anki (exported ${new Date(exportedAt).toLocaleString()})?`)) return;
       const kept = Object.fromEntries(Object.entries(store.cards).filter(([id]) => !id.startsWith('kaishi:')));
@@ -163,7 +165,9 @@ export default function Flashcards() {
       setStore({ ...store, cards: kept }); setNow(Date.now());
       setMessage(`Imported ${known.length} cards from Anki.`);
     } catch {
-      setMessage('No Anki export found. Close Anki, run npm run kaishi:progress, then try again.');
+      setMessage('That file is not an Anki progress export. Close Anki, run npm run kaishi:progress, and pick kaishi-1.5k/anki-progress.json.');
+    } finally {
+      if (progressFile.current) progressFile.current.value = '';
     }
   }
   function resetDeck(id: DeckId) {
@@ -240,14 +244,17 @@ export default function Flashcards() {
             const c = loaded && !unavailable ? counts(d.id) : null;
             const cfg = settingsFor(d.id);
             return <tr key={d.id}>
-              <td><strong>{d.name}</strong><p className="small">{d.id === 'kaishi' && kaishiError ? 'Card data not found — run npm run kaishi:extract.' : d.about}</p>
+              <td><strong>{d.name}</strong><p className="small">{d.id === 'kaishi' && kaishiError ? 'Card data not found. Run npm run kaishi:extract and commit public/kaishi.' : d.about}</p>
                 <details className="srs-options"><summary>Options</summary>
                   <label>New cards/day <input type="number" min={0} max={9999} value={cfg.newPerDay} onChange={e => changeSetting(d.id, 'newPerDay', Math.max(0, Number(e.target.value)))} /></label>
                   <label>Maximum reviews/day <input type="number" min={0} max={9999} value={cfg.reviewsPerDay} onChange={e => changeSetting(d.id, 'reviewsPerDay', Math.max(0, Number(e.target.value)))} /></label>
                   <label>Desired retention <select value={cfg.retention} onChange={e => changeSetting(d.id, 'retention', Number(e.target.value))}>{[0.8, 0.85, 0.9, 0.92, 0.95].map(v => <option key={v} value={v}>{Math.round(v * 100)}%</option>)}</select></label>
                   <p className="small">Learning steps {cfg.learnSteps.join('m ')}m · relearning {cfg.relearnSteps.join('m ')}m · maximum interval {cfg.maxInterval} days</p>
                   <div className="reading-controls">
-                    {d.id === 'kaishi' && <button className="primary secondary" disabled={!kaishi} onClick={importAnki}>Import my Anki progress</button>}
+                    {d.id === 'kaishi' && <>
+                      <button className="primary secondary" disabled={!kaishi} onClick={() => progressFile.current?.click()}>Import my Anki progress…</button>
+                      <input ref={progressFile} type="file" accept=".json,application/json" hidden onChange={e => importAnki(e.target.files?.[0])} />
+                    </>}
                     <button className="primary secondary" onClick={() => resetDeck(d.id)}>Reset deck</button>
                   </div>
                 </details>
@@ -263,7 +270,7 @@ export default function Flashcards() {
         <div className="tip"><h2>Today</h2><div className="score-row"><span id="live-score">{studiedToday}</span><span className="small">cards studied</span></div>
           <p>{retention === null ? 'Your review retention appears after a few reviews.' : `${retention}% of reviews remembered in the last 30 days.`}</p></div>
         <div className="tip"><h2>How it works</h2><p>Grade honestly: Again if you forgot, Hard if it was a struggle, Good if you remembered, Easy if it was effortless. New cards repeat after 1 and 10 minutes before their first day-long interval.</p></div>
-        <div className="tip"><h2>Coming from Anki?</h2><p>Close Anki, run <code>npm run kaishi:progress</code>, then use “Import my Anki progress” in the Kaishi options. Progress is copied once; this site and Anki don’t sync afterwards.</p></div>
+        <div className="tip"><h2>Coming from Anki?</h2><p>Close Anki and run <code>npm run kaishi:progress</code> on your computer. Then choose “Import my Anki progress…” in the Kaishi options and pick <code>kaishi-1.5k/anki-progress.json</code>. Progress is copied once; this site and Anki don’t sync afterwards.</p></div>
         <div className="tip"><h2>Saved on this device</h2><p>Progress is stored in this browser. Clearing site data erases it.</p></div>
       </aside>
     </div>
@@ -272,7 +279,7 @@ export default function Flashcards() {
 
 function GrammarFace({ point, shown }: { point: GrammarPoint; shown: boolean }) {
   const recordings = kaishiRecordings[point.id] ?? [];
-  const playRecording = (file: string) => { window.speechSynthesis?.cancel(); new Audio(`/kaishi-audio/${encodeURIComponent(file)}`).play().catch(() => {}); };
+  const playRecording = (file: string) => { window.speechSynthesis?.cancel(); new Audio(media(file)).play().catch(() => {}); };
   return <>
     <div className="srs-word" lang="ja">{point.pattern}</div>
     {!shown ? <p className="small srs-prompt">What does it mean, and how is it formed?</p> : <div className="srs-back">
