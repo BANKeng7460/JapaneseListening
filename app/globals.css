@@ -184,3 +184,5 @@
 .srs-help { text-align:center; margin-top:14px; }
 .srs-done { text-align:center; padding:48px 28px; }
 @media(max-width:560px) { .srs-decks th:nth-child(5), .srs-decks td:nth-child(5) { padding-left:4px; } .srs-decks th:first-child, .srs-decks td:first-child { padding-left:14px; } .srs-buttons { gap:6px; } .srs-key { display:none; } }
+.srs-buttons-2 { grid-template-columns:repeat(2,minmax(0,1fr)); max-width:360px; }
+.srs-buttons-2 .srs-rate { padding:12px 6px; font-size:17px; }

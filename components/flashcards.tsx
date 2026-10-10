@@ -12,7 +12,7 @@ type KaishiCard = { id: string; pos: number; word: string; reading: string; mean
 type GrammarPoint = (typeof grammar)[number];
 type DeckId = 'kaishi' | 'grammar-n5' | 'grammar-n4';
 type DayCount = { day: number; newDone: number; reviewDone: number };
-type Store = { cards: Record<string, CardState>; days: Partial<Record<DeckId, DayCount>>; settings: Partial<Record<DeckId, Partial<Settings>>>;
+type Store = { passFail?: boolean; cards: Record<string, CardState>; days: Partial<Record<DeckId, DayCount>>; settings: Partial<Record<DeckId, Partial<Settings>>>;
   log: { c: string; t: number; r: Rating; p: CardState['phase'] }[] };
 type Current = { id: string; shown: boolean; preview: Record<Rating, CardState> };
 type Undo = { id: string; before: CardState | undefined; day: DayCount | undefined; deck: DeckId };
@@ -25,6 +25,8 @@ const decks: { id: DeckId; name: string; about: string; defaults: Partial<Settin
   { id: 'grammar-n4', name: 'Grammar · N4', about: 'Recall the meaning of each N4 pattern.', defaults: { newPerDay: 5 } },
 ];
 const ratings: { r: Rating; label: string; key: string }[] = [{ r: 1, label: 'Again', key: '1' }, { r: 2, label: 'Hard', key: '2' }, { r: 3, label: 'Good', key: '3' }, { r: 4, label: 'Easy', key: '4' }];
+// Like Anki's PassFail 2 add-on: Fail answers Again, Pass answers Good, and any key but 1 passes.
+const passFailRatings: typeof ratings = [{ r: 1, label: 'Fail', key: '1' }, { r: 3, label: 'Pass', key: '2' }];
 const kaishiRecordings: Record<string, { ja: string; en: string; audio: string }[]> = grammarKaishi;
 // Built by npm run kaishi:extract into public/kaishi, so it is deployed as static files.
 const media = (name: string) => `/kaishi/media/${encodeURIComponent(name)}`;
@@ -47,6 +49,7 @@ export default function Flashcards() {
   const [now, setNow] = useState(0);
   const [message, setMessage] = useState('');
   const player = useRef<HTMLAudioElement | null>(null);
+  const passFail = store.passFail !== false;
   const progressFile = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -144,7 +147,7 @@ export default function Flashcards() {
       if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'z') { event.preventDefault(); undoLast(); return; }
       if (!current) return;
       if (event.key === ' ' || event.key === 'Enter') { event.preventDefault(); if (current.shown) answer(3); else reveal(); }
-      else if (current.shown && ['1', '2', '3', '4'].includes(event.key)) answer(Number(event.key) as Rating);
+      else if (current.shown && ['1', '2', '3', '4'].includes(event.key)) answer(passFail ? (event.key === '1' ? 1 : 3) : Number(event.key) as Rating);
       else if (event.key.toLowerCase() === 'r') { const card = kaishiById.get(current.id); if (card && current.shown) playAudio([card.wordAudio, card.sentenceAudio]); }
     };
     window.addEventListener('keydown', onKey);
@@ -221,13 +224,13 @@ export default function Flashcards() {
           </div>
           <div className="srs-actions">
             {!current.shown ? <button className="primary srs-show" onClick={reveal}>Show answer <span className="srs-key">Space</span></button>
-              : <div className="srs-buttons">{ratings.map(({ r, label, key }) => <button key={r} className={`srs-rate srs-rate-${r}`} onClick={() => answer(r)}>
+              : <div className={`srs-buttons${passFail ? ' srs-buttons-2' : ''}`}>{(passFail ? passFailRatings : ratings).map(({ r, label, key }) => <button key={r} className={`srs-rate srs-rate-${r}`} onClick={() => answer(r)}>
                   <span className="srs-ivl">{describeDue(current.preview[r], Date.now())}</span>{label}<span className="srs-key">{key}</span>
                 </button>)}</div>}
           </div>
         </>}
       </section>
-      <p className="small srs-help">Space or Enter: show answer, then Good · 1–4: Again, Hard, Good, Easy · R: replay audio · Ctrl+Z: undo</p>
+      <p className="small srs-help">{passFail ? 'Space or Enter: show answer, then Pass · 1: Fail · 2: Pass' : 'Space or Enter: show answer, then Good · 1–4: Again, Hard, Good, Easy'} · R: replay audio · Ctrl+Z: undo</p>
     </main></div>;
   }
 
@@ -269,7 +272,12 @@ export default function Flashcards() {
       <aside aria-label="Today">
         <div className="tip"><h2>Today</h2><div className="score-row"><span id="live-score">{studiedToday}</span><span className="small">cards studied</span></div>
           <p>{retention === null ? 'Your review retention appears after a few reviews.' : `${retention}% of reviews remembered in the last 30 days.`}</p></div>
-        <div className="tip"><h2>How it works</h2><p>Grade honestly: Again if you forgot, Hard if it was a struggle, Good if you remembered, Easy if it was effortless. New cards repeat after 1 and 10 minutes before their first day-long interval.</p></div>
+        <div className="tip"><h2>Answer buttons</h2>
+          <div className="reading-controls" role="group" aria-label="Answer buttons">
+            <button className="primary" aria-pressed={passFail} onClick={() => setStore({ ...store, passFail: true })}>Pass / Fail</button>
+            <button className="primary" aria-pressed={!passFail} onClick={() => setStore({ ...store, passFail: false })}>Again · Hard · Good · Easy</button>
+          </div>
+          <p>{passFail ? 'Like the PassFail 2 add-on in your Anki: Fail if you forgot, Pass if you remembered. FSRS works best with honest pass/fail grading.' : 'Again if you forgot, Hard if it was a struggle, Good if you remembered, Easy if it was effortless.'} New cards repeat after 1 and 10 minutes before their first day-long interval.</p></div>
         <div className="tip"><h2>Coming from Anki?</h2><p>Close Anki and run <code>npm run kaishi:progress</code> on your computer. Then choose “Import my Anki progress…” in the Kaishi options and pick <code>kaishi-1.5k/anki-progress.json</code>. Progress is copied once; this site and Anki don’t sync afterwards.</p></div>
         <div className="tip"><h2>Saved on this device</h2><p>Progress is stored in this browser. Clearing site data erases it.</p></div>
       </aside>
