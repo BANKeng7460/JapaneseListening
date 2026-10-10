@@ -288,3 +288,6 @@
 .gc-blank { display:inline-block; min-width:3em; margin:0 2px; padding:0 6px; border-bottom:2px solid #c48a26; text-align:center; color:var(--green); font-weight:700; }
 .grammar-used > summary { margin:0; font-size:14px; font-weight:700; }
 .grammar-used[open] > summary { margin-bottom:8px; }
+.reading-listen { margin:4px 0 18px; padding:12px 14px; border:1px solid var(--line); border-radius:12px; background:white; }
+.reading-listen .reading-controls { margin-top:0; }
+.reading-listen .voice-controls { justify-content:flex-start; }

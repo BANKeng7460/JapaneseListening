@@ -18,13 +18,20 @@ export function saveVoice(id: string) {
   try { localStorage.setItem(voiceKey, id); } catch {}
 }
 
-export function speakJapanese(text: string) {
+/** The playback speed chosen on the listening pages (1 if none). */
+export function savedRate() {
+  try { const r = Number(localStorage.getItem('kiku-speech-rate')); return r >= 0.5 && r <= 2 ? r : 1; } catch { return 1; }
+}
+
+export function speakJapanese(text: string, options: { rate?: number; onEnd?: () => void } = {}) {
   const synth = window.speechSynthesis;
   if (!synth) return;
   const voices = japaneseVoices(), saved = savedVoiceId();
   const utterance = new SpeechSynthesisUtterance(toSpeech(text).spoken);
   utterance.lang = 'ja-JP';
   utterance.voice = voices.find(v => voiceId(v) === saved) || voices[0] || null;
+  utterance.rate = options.rate ?? 1;
+  utterance.onend = utterance.onerror = () => options.onEnd?.();
   synth.cancel();
   synth.speak(utterance);
 }

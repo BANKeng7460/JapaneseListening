@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from 'react';
 import KanjiHints from './kanji-hints';
 import GrammarUsed from './grammar-used';
 import CourseBanner from './course-banner';
+import VoiceSelect from './voice-select';
+import { savedRate, speakJapanese } from '../lib/speech';
 import { courseParam, markCourse } from '../lib/course';
 import readingBooks from '../data/reading-passages.json';
 import { listeningTests, type ListeningTest } from '../data/tests';
@@ -25,6 +27,17 @@ export default function ReadingPractice() {
   const passages = readingBooks.find(book => book.id === levelId)!.passages;
   const question = passages[index];
   const checked = responses[index] !== undefined;
+  // Listening to the passage after answering. A counter ignores end events from audio that was already replaced.
+  const [speaking, setSpeaking] = useState(false);
+  const playId = useRef(0);
+  function listen() {
+    const id = ++playId.current;
+    setSpeaking(true);
+    speakJapanese(question.text, { rate: savedRate(), onEnd: () => { if (id === playId.current) setSpeaking(false); } });
+  }
+  function stopListening() { playId.current++; window.speechSynthesis?.cancel(); setSpeaking(false); }
+  useEffect(() => () => { playId.current++; window.speechSynthesis?.cancel(); }, []);
+  useEffect(() => { playId.current++; window.speechSynthesis?.cancel(); setSpeaking(false); }, [levelId, index]);
   const answeredCount = Object.keys(responses).length;
   const score = passages.filter((question,i) => responses[i] === question.answer).length;
   const [word, reading, meaning] = latest[cardIndex];
@@ -106,6 +119,13 @@ export default function ReadingPractice() {
                   <label htmlFor={'read-answer-' + i} className={checked && i === question.answer ? 'correct' : checked && i === choice ? 'incorrect' : ''}><span className="letter" aria-hidden="true">{'ABCD'[i]}</span><span>{answer}</span>{checked && (i === question.answer || i === choice) && <span className="answer-mark">{i === question.answer ? '✓ Correct' : '✕ Your answer'}</span>}</label>
                 </div>)}</div></fieldset>
                 {checked && <div className="feedback" role="status"><strong>{choice === question.answer ? 'Correct!' : 'Read the passage again and look for the clue.'}</strong><p>{question.explanation}</p></div>}
+                {checked && <div className="reading-listen">
+                  <div className="reading-controls">
+                    <button type="button" className="primary" onClick={listen}>{speaking ? '↻ Start again' : '▶ Listen to the passage'}</button>
+                    {speaking && <button type="button" className="primary secondary" onClick={stopListening}>■ Stop</button>}
+                  </div>
+                  <VoiceSelect id="reading-voice" help="Uses the same voice as the Grammar page and Flashcards, at the speed you chose on the listening pages." />
+                </div>}
                 {checked ? <button type="button" className="primary" onClick={next}>{answeredCount === passages.length ? 'See reading results →' : 'Next unanswered →'}</button> : <button className="primary" disabled={choice === null}>Check answer →</button>}
               </form>
             </div>
