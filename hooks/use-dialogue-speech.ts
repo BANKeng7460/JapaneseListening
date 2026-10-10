@@ -10,6 +10,8 @@ export function useDialogueSpeech(solo = false) {
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [selected, setSelected] = useState<Record<Speaker, string>>({ A: '', B: '' });
   const [rate, setRate] = useState(1);
+  // Playback speed is remembered across pages and visits.
+  useEffect(() => { try { const saved = Number(localStorage.getItem('kiku-speech-rate')); if (saved >= 0.5 && saved <= 2) setRate(saved); } catch {} }, []);
   const [playing, setPlaying] = useState(false);
   const [paused, setPaused] = useState(false);
   const pausedRef = useRef(false);
@@ -119,7 +121,7 @@ export function useDialogueSpeech(solo = false) {
     try { localStorage.setItem(solo ? 'kiku-narrator-voice' : `kiku-voice-${speaker}`, key); } catch {}
     setStatus(solo ? 'Narrator updated. Press play to restart the story.' : `Speaker ${speaker} updated. Press play to restart the conversation.`);
   };
-  const changeRate = (value: number) => { stop(); setRate(value); setStatus('Speed updated. Press play to restart.'); };
+  const changeRate = (value: number) => { stop(); setRate(value); try { localStorage.setItem('kiku-speech-rate', String(value)); } catch {} setStatus('Speed updated. Press play to restart.'); };
   const reset = () => { stop(); setStatus(voices.length ? 'Press play to listen.' : 'No Japanese voices available.'); };
   const stopPlayback = () => { stop(); setStatus('Playback stopped. Press play to restart.'); };
   return { voices, selected, rate, playing, paused, status, position, play, playFrom, stopPlayback, reset, chooseVoice, changeRate, voiceKey };

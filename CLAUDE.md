@@ -71,7 +71,7 @@ Shared pieces:
 - No native speaker has checked the Japanese yet. Treat corrections from the user as high priority.
 
 ## Browser storage keys
-`kiku-course` (reading/grammar steps) · `kiku-progress-<genre>-<testId>` (listening/solo answers) · `kiku-last-test-<genre>` · `kiku-mistakes-best` · `kiku-srs-v1` (flashcards) · `kiku-grammar-learned`, `kiku-grammar-level`, `kiku-grammar-course` · `kiku-grammar-voice` (shared voice) · `kiku-voice-A/B`, `kiku-narrator-voice` (listening voices). Changing a key's format loses the user's progress, so migrate instead.
+`kiku-course` (reading/grammar steps) · `kiku-progress-<genre>-<testId>` (listening/solo answers) · `kiku-last-test-<genre>` · `kiku-mistakes-best` · `kiku-srs-v1` (flashcards) · `kiku-grammar-learned`, `kiku-grammar-level`, `kiku-grammar-course` · `kiku-grammar-voice` (shared voice) · `kiku-voice-A/B`, `kiku-narrator-voice` (listening voices) · `kiku-speech-rate` (listening speed). Changing a key's format loses the user's progress, so migrate instead.
 
 ## Gotchas
 - Next.js 16 differs from older versions; read `node_modules/next/dist/docs/` before using framework APIs (see AGENTS.md). Route params are Promises.

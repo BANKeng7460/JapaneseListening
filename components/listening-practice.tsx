@@ -117,7 +117,7 @@ export default function ListeningPractice({ tests = listeningTests, genre = 'kai
                 <div className="wave" aria-hidden="true">{[12,23,32,19,38,27,16,30,21,11].map((height,i) => <span key={i} style={{height, animationDelay:`${i * .08}s`}} />)}</div>
                 <button className="primary" id="play" disabled={!voicesReady} onClick={() => speech.play(q.lines)}>{speech.playing ? (speech.paused ? '▶ Resume audio' : 'Ⅱ Pause audio') : '▶ Play audio'}</button>
                 {speech.playing && <button type="button" className="primary" style={{ marginLeft: 8 }} onClick={speech.stopPlayback}>■ Stop</button>}
-                <div className="audio-controls"><label htmlFor="speed">Playback speed</label><select id="speed" value={speech.rate} onChange={e => speech.changeRate(Number(e.target.value))}><option value={.8}>Slow</option><option value={1}>Normal</option></select></div>
+                <div className="audio-controls"><label htmlFor="speed">Playback speed</label><select id="speed" value={speech.rate} onChange={e => speech.changeRate(Number(e.target.value))}><option value={.6}>Very slow</option><option value={.8}>Slow</option><option value={1}>Normal</option><option value={1.25}>Fast</option><option value={1.5}>Very fast</option></select></div>
                 {(solo ? (['A'] as const) : (['A','B'] as const)).map(speaker => <div className="audio-controls voice-controls" key={speaker}>
                   <label htmlFor={`voice-${speaker}`}>{solo ? 'Narrator voice' : `Speaker ${speaker}`}</label>
                   <select id={`voice-${speaker}`} value={speech.selected[speaker]} disabled={!speech.voices.length} aria-describedby="voice-help" onChange={e => speech.chooseVoice(speaker,e.target.value)}>
