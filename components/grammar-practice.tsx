@@ -3,6 +3,8 @@
 import { useEffect, useMemo, useState } from 'react';
 import grammar from '../data/grammar.json';
 import kaishiExamples from '../data/grammar-kaishi.json';
+import VoiceSelect from './voice-select';
+import { speakJapanese } from '../lib/speech';
 
 type Level = 'N5' | 'N4' | 'N3' | 'N2' | 'N1';
 type Point = (typeof grammar)[number];
@@ -20,21 +22,10 @@ function playRecording(file: string) {
   recording.play().catch(() => {});
 }
 
-// Same key format as the listening pages, so a voice saved there is recognized here.
-const voiceId = (voice: SpeechSynthesisVoice) => JSON.stringify([voice.voiceURI, voice.name, voice.lang]);
-const grammarVoiceKey = 'kiku-grammar-voice';
-let browserVoice: SpeechSynthesisVoice | null = null;
-
-// Reads an example aloud with the voice picked in the grammar page's selector.
+// Reads an example aloud with the shared browser voice (chosen in the selector).
 function speak(text: string) {
-  const synth = window.speechSynthesis;
-  if (!synth) return;
   recording?.pause();
-  synth.cancel();
-  const utterance = new SpeechSynthesisUtterance(text);
-  utterance.lang = 'ja-JP';
-  utterance.voice = browserVoice;
-  synth.speak(utterance);
+  speakJapanese(text);
 }
 
 const shuffle = <T,>(items: T[]) => {
@@ -72,8 +63,6 @@ export default function GrammarPractice() {
   const [quiz, setQuiz] = useState<{ id: string; choices: string[]; picked: string | null } | null>(null);
   const [score, setScore] = useState({ right: 0, total: 0 });
   const [target, setTarget] = useState<string | null>(null);
-  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
-  const [voice, setVoice] = useState('');
 
   useEffect(() => {
     try {
@@ -85,31 +74,6 @@ export default function GrammarPractice() {
       if (linked) { setLevel(linked.level as Level); setTarget(linked.id); }
     } catch {}
   }, []);
-
-  // Japanese browser voices, Microsoft natural voices first; falls back to the listening pages' saved voice.
-  useEffect(() => {
-    const synth = window.speechSynthesis;
-    if (!synth) return;
-    let saved = '';
-    try { saved = localStorage.getItem(grammarVoiceKey) || localStorage.getItem('kiku-voice-A') || localStorage.getItem('kiku-narrator-voice') || ''; } catch {}
-    const rank = (v: SpeechSynthesisVoice) => /Microsoft/i.test(v.name) ? (/Natural|Neural/i.test(v.name) ? 3 : 2) : v.default ? 1 : 0;
-    const load = () => {
-      const available = synth.getVoices().filter(v => /^ja(?:[-_]|$)/i.test(v.lang)).sort((a, b) => rank(b) - rank(a));
-      setVoices(available);
-      setVoice(current => available.some(v => voiceId(v) === current) ? current : available.find(v => voiceId(v) === saved) ? saved : available[0] ? voiceId(available[0]) : '');
-    };
-    load();
-    synth.addEventListener('voiceschanged', load);
-    return () => synth.removeEventListener('voiceschanged', load);
-  }, []);
-  useEffect(() => { browserVoice = voices.find(v => voiceId(v) === voice) ?? null; }, [voices, voice]);
-
-  function chooseVoice(key: string) {
-    setVoice(key);
-    browserVoice = voices.find(v => voiceId(v) === key) ?? null;
-    try { localStorage.setItem(grammarVoiceKey, key); } catch {}
-    speak('こんにちは。一緒に文法を勉強しましょう。');
-  }
 
   useEffect(() => {
     if (!target) return;
@@ -168,14 +132,7 @@ export default function GrammarPractice() {
           <button className="primary" aria-pressed={mode === 'browse'} onClick={() => setMode('browse')}>Browse grammar</button>
           <button className="primary" aria-pressed={mode === 'quiz'} onClick={() => { setMode('quiz'); if (!quiz || byId.get(quiz.id)?.level !== level) nextQuestion(); }}>Quiz me</button>
         </div>
-        <div className="audio-controls voice-controls">
-          <label htmlFor="grammar-voice">Browser voice</label>
-          <select id="grammar-voice" value={voice} disabled={!voices.length} aria-describedby="grammar-voice-help" onChange={e => chooseVoice(e.target.value)}>
-            {!voices.length && <option value="">No Japanese voices available</option>}
-            {voices.map(v => <option key={voiceId(v)} value={voiceId(v)}>{v.name}{v.localService ? '' : ' · Online'}</option>)}
-          </select>
-        </div>
-        <p id="grammar-voice-help">Used for the green ▶ buttons; picking a voice plays a short sample. Orange ▶ buttons play the original Kaishi recordings. For Microsoft natural voices, open this page in Edge.</p>
+        <VoiceSelect id="grammar-voice" help="Used for the green ▶ buttons here, in Flashcards and in Spot the mistake; picking a voice plays a short sample. Orange ▶ buttons play the original Kaishi recordings. For Microsoft natural voices, open this page in Edge." />
       </div>
       <div className="layout">
         <section className="card" aria-label={mode === 'quiz' ? 'Grammar quiz' : 'Grammar list'}>

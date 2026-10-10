@@ -6,6 +6,7 @@ import mistakes from '../data/mistakes.json';
 import grammar from '../data/grammar.json';
 import { listeningTests } from '../data/tests';
 import { speakJapanese } from '../lib/speech';
+import VoiceSelect from './voice-select';
 
 type Item = { chunks: string[]; wrong: number | null; fix?: string; mistake?: string; options?: string[]; type?: 'particle' | 'verb' | 'adjective'; grammar?: string | null; why?: string; en: string; situation: string };
 type Phase = 'find' | 'fix' | 'done';
@@ -96,6 +97,7 @@ export default function MistakeGame() {
         <div className="reading-controls" role="group" aria-label="Mistake type">
           {kinds.map(k => <button key={k.id} className="primary" aria-pressed={kind === k.id} disabled={!counts[k.id]} onClick={() => setKind(k.id)}>{k.label} · {counts[k.id]}</button>)}
         </div>
+        <VoiceSelect id="mistake-voice" help="Used when you press ▶ to hear the corrected sentence. It’s the same voice as on the Grammar page and in Flashcards." />
       </div>
       <div className="layout">
         <section className="card" aria-label="Spot the mistake">
