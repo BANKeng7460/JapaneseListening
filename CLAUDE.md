@@ -88,7 +88,7 @@ Shared pieces:
 
 ## History
 - **Base site:** Kaishi conversations levels 1–10, daily-life and solo stories, reading page.
-- **Listening:** autoplay; answers saved per test. After answering, the transcript highlights the line (and, with Microsoft voices, the word) being spoken; clicking any character plays from that point (`playFrom` and `position` in `hooks/use-dialogue-speech.ts`).
+- **Listening:** autoplay; answers saved per test. After answering, the transcript highlights the line (and, with Microsoft voices, the word) being spoken; clicking a word plays from that point (`playFrom` and `position` in `hooks/use-dialogue-speech.ts`). Words come from `public/line-words.json` (`scripts/line-words.cjs`, part of `levels:build`), so 明日 hovers and plays as one word.
 - **Reading:** passages rewritten as natural Japanese.
 - **Grammar:** N5/N4 page (216 points) with Kaishi recordings and a voice selector, then N3–N1 (848 points in total).
 - **Kaishi deck:** extracted from the .apkg.

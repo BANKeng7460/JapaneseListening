@@ -7,6 +7,13 @@ import GrammarUsed from './grammar-used';
 import CourseBanner from './course-banner';
 import { courseParam } from '../lib/course';
 
+// Splits a line into [word, start offset] pairs using precomputed word lengths, or single characters as a fallback.
+function toWords(text: string, lengths?: number[]): [string, number][] {
+  if (!lengths) return [...text].map((ch, i) => [ch, i]);
+  let start = 0;
+  return lengths.map(n => { const word: [string, number] = [text.slice(start, start + n), start]; start += n; return word; });
+}
+
 export default function ListeningPractice({ tests = listeningTests, genre = 'kaishi' }: { tests?: TestEntry[]; genre?: 'kaishi' | 'daily' | 'solo' }) {
   const daily = genre === 'daily';
   const solo = genre === 'solo';
@@ -17,6 +24,9 @@ export default function ListeningPractice({ tests = listeningTests, genre = 'kai
   const [finished, setFinished] = useState(false);
   const speech = useDialogueSpeech(solo);
   const questionHeading = useRef<HTMLLegendElement>(null);
+  // Word boundaries for the live transcript (scripts/line-words.cjs), so 明日 hovers and plays as one word.
+  const [lineWords, setLineWords] = useState<Record<string, number[]>>({});
+  useEffect(() => { fetch('/line-words.json').then(r => r.ok ? r.json() : {}).then(setLineWords).catch(() => {}); }, []);
   const q = test.questions[current];
   const checked = responses[current] !== undefined;
   const answeredCount = Object.keys(responses).length;
@@ -138,7 +148,11 @@ export default function ListeningPractice({ tests = listeningTests, genre = 'kai
                       return <div key={i} className={`transcript-line${live ? ' speaking' : ''}`}>
                         <strong>{solo ? 'Narrator' : `Speaker ${line.speaker}`}</strong>
                         <button type="button" className="play-small transcript-play" aria-label={`Play from line ${i + 1}`} onClick={() => speech.playFrom(q.lines, i)}>▶</button>
-                        <p className="transcript" lang="ja">{[...line.text].map((ch, k) => <span key={k} className={live && k < speech.position!.char ? 'spoken' : live && k < speech.position!.char + speech.position!.length ? 'now' : undefined} onClick={() => speech.playFrom(q.lines, i, k)}>{ch}</span>)}</p>
+                        <p className="transcript" lang="ja">{toWords(line.text, lineWords[line.text]).map(([word, start]) => {
+                          const end = start + word.length, pos = speech.position;
+                          const state = !live || !pos ? undefined : end <= pos.char ? 'spoken' : start < pos.char + pos.length ? 'now' : undefined;
+                          return <span key={start} className={state} onClick={() => speech.playFrom(q.lines, i, start)}>{word}</span>;
+                        })}</p>
                         <p>{line.translation}</p>
                       </div>;
                     })}</details>
