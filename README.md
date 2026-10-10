@@ -92,3 +92,5 @@ Levels 11–25 (words 201–500) are written as plain text in content/kaishi/lev
 ## Course
 
 /course combines everything into one path per Kaishi level: learn the 20 new words (cards with native audio), listen to the conversations, read the two passages, hear the level's solo story, check the grammar used, then spot the mistake. Each step shows ✓ when done. Steps 2–4 and 6 open the existing pages already set to the level (`/?test=kaishi-1-240`, `/reading?level=…`, `/solo-stories?test=…&q=…`, `/mistakes?level=…`) with `&course=N`, which adds a "Back to your level" banner. Completion is read from each page's own localStorage progress; new words, reading and grammar are recorded in `kiku-course` (lib/course.ts).
+
+Flashcards grammar notes: the back of each Kaishi card shows "Grammar in this sentence" — the N5/N4 grammar detected in its example sentence (public/kaishi/card-grammar.json, written by scripts/grammar-usage.cjs). Each pattern expands to its form, note and an example, with a link to /grammar.

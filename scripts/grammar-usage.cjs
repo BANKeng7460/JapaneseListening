@@ -58,6 +58,12 @@ kuromoji.builder({ dicPath: path.join(path.dirname(require.resolve('kuromoji')),
     listening: Object.fromEntries(listening.map(test => [test.id, test.questions.map(q => scan(q.lines.map(line => line.text)))])),
   };
   fs.writeFileSync(path.join(__dirname, '..', 'data', 'grammar-usage.json'), JSON.stringify(usage) + '\n');
+
+  // Grammar in each Kaishi card's example sentence, for the back of Flashcards cards (loaded on demand, not bundled).
+  const cards = require('../public/kaishi/cards.json');
+  const cardGrammar = Object.fromEntries(cards.map(c => [c.id, scan([c.sentence.map(seg => seg[0]).join('')])]).filter(([, f]) => f.length));
+  fs.writeFileSync(path.join(__dirname, '..', 'public', 'kaishi', 'card-grammar.json'), JSON.stringify({ basic, cards: cardGrammar }));
+  console.log(`${Object.keys(cardGrammar).length} Kaishi sentences with grammar notes`);
   const all = [...Object.values(usage.reading), ...Object.values(usage.listening)].flat();
   console.log(`${all.length} texts scanned; average ${(all.reduce((n, f) => n + f.filter(([id]) => !basic.includes(id)).length, 0) / all.length).toFixed(1)} grammar points each (plus basics)`);
 });

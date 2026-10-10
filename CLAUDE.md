@@ -41,6 +41,7 @@ Shared pieces:
 | `data/grammar.json` | N5/N4 + N3–N1: point names/levels/URLs from JLPT Sensei lists; all text and examples original |
 | `data/grammar-kaishi.json` | Kaishi sentences matched to N5/N4 grammar (one-off kuromoji build) |
 | `data/grammar-usage.json` | `node scripts/grammar-usage.cjs` (kuromoji + `scripts/grammar-matchers.cjs`, N5/N4 only) |
+| `public/kaishi/card-grammar.json` | Same script: grammar in each Kaishi card's example sentence, shown as "Grammar in this sentence" on the back of Flashcards cards |
 | `data/word-hints.json` | Kaishi readings + conjugated forms; `node scripts/word-hint-forms.cjs` adds forms used in passages |
 | `data/mistakes.json` | `node scripts/build-mistakes.cjs` (`--print` to review every item) |
 | `kaishi-1.5k/anki-progress.json` (git-ignored, personal) | `npm run kaishi:progress` from a read-only copy of `%APPDATA%/Anki2/User 1/collection.anki2` |

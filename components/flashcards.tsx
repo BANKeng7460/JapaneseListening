@@ -6,12 +6,14 @@ import grammarKaishi from '../data/grammar-kaishi.json';
 import { DEFAULT_SETTINGS, LEARN_AHEAD_MS, NEW_CARD, dayNumber, describeDue, previewAnswers, type CardState, type Rating, type Settings } from '../lib/srs';
 import { speakJapanese } from '../lib/speech';
 import CourseBanner from './course-banner';
+import Link from 'next/link';
 import { courseParam } from '../lib/course';
 
 type Segment = [string, string?, 1?];
 type KaishiCard = { id: string; pos: number; word: string; reading: string; meaning: string; wordFurigana: Segment[]; wordAudio: string | null;
   sentence: Segment[]; sentenceMeaning: string; sentenceAudio: string | null; notes: string; picture: string | null };
 type GrammarPoint = (typeof grammar)[number];
+type CardGrammar = { basic: string[]; cards: Record<string, [string, string][]> };
 type DeckId = 'kaishi' | 'grammar-n5' | 'grammar-n4' | 'grammar-n3' | 'grammar-n2' | 'grammar-n1';
 type DayCount = { day: number; newDone: number; reviewDone: number };
 type Store = { passFail?: boolean; cards: Record<string, CardState>; days: Partial<Record<DeckId, DayCount>>; settings: Partial<Record<DeckId, Partial<Settings>>>;
@@ -58,12 +60,14 @@ export default function Flashcards() {
   const progressFile = useRef<HTMLInputElement>(null);
   // Opened from the course: study only one level's words (?from=221&to=240), without the daily new-card limit.
   const [focus, setFocus] = useState<{ from: number; to: number } | null>(null);
+  const [cardGrammar, setCardGrammar] = useState<CardGrammar | null>(null);
 
   useEffect(() => {
     try { const saved = localStorage.getItem(storeKey); if (saved) setStore({ ...emptyStore, ...JSON.parse(saved) }); } catch {}
     setLoaded(true); setNow(Date.now());
     const from = Number(courseParam('from')), to = Number(courseParam('to'));
     if (from >= 1 && to >= from) setFocus({ from, to });
+    fetch('/kaishi/card-grammar.json').then(r => r.ok ? r.json() : null).then(setCardGrammar).catch(() => {});
     fetch('/kaishi/cards.json').then(r => r.ok ? r.json() : Promise.reject()).then((cards: KaishiCard[]) => setKaishi([...cards].sort((a, b) => a.pos - b.pos))).catch(() => setKaishiError(true));
     const timer = setInterval(() => setNow(Date.now()), 15_000);
     return () => clearInterval(timer);
@@ -158,7 +162,7 @@ export default function Flashcards() {
     if (!deck) return;
     const onKey = (event: KeyboardEvent) => {
       const target = event.target as HTMLElement;
-      if (target.closest('input, select, textarea')) return;
+      if (target.closest('input, select, textarea, summary')) return;
       if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'z') { event.preventDefault(); undoLast(); return; }
       if (!current) return;
       if (event.key === ' ' || event.key === 'Enter') { event.preventDefault(); if (current.shown) answer(3); else reveal(); }
@@ -230,6 +234,7 @@ export default function Flashcards() {
                 {card.picture && <img className="srs-picture" src={media(card.picture)} alt="" />}
                 <p className="srs-sentence" lang="ja"><Ruby segments={card.sentence} /></p>
                 <p className="small">{card.sentenceMeaning}</p>
+                {cardGrammar?.cards[card.id] && <SentenceGrammar items={cardGrammar.cards[card.id]} basic={cardGrammar.basic} />}
                 {card.notes && <p className="small srs-notes">{card.notes}</p>}
                 <div className="reading-controls">
                   <button className="primary secondary" onClick={() => playAudio([card.wordAudio])} disabled={!card.wordAudio}>▶ Word</button>
@@ -319,4 +324,28 @@ function GrammarFace({ point, shown }: { point: GrammarPoint; shown: boolean }) 
       </ul>
     </div>}
   </>;
+}
+
+// Grammar found in a Kaishi card's example sentence (built by scripts/grammar-usage.cjs). Tap a pattern for how it's formed.
+const grammarPoints = new Map(grammar.map(point => [point.id, point]));
+function SentenceGrammar({ items, basic }: { items: [string, string][]; basic: string[] }) {
+  const main = items.filter(([id]) => !basic.includes(id) && grammarPoints.has(id));
+  const basics = items.filter(([id]) => basic.includes(id) && grammarPoints.has(id));
+  return <div className="srs-grammar">
+    <h3>Grammar in this sentence</h3>
+    {main.map(([id, snippet]) => {
+      const point = grammarPoints.get(id)!;
+      return <details key={id}>
+        <summary><span className="grammar-used-pattern" lang="ja">{point.pattern}</span> <span className="grammar-used-level">{point.level}</span> <span className="small">{point.meaning}</span> <span className="grammar-used-snippet" lang="ja">「{snippet}」</span></summary>
+        <p><strong>Form:</strong> <span lang="ja">{point.formation}</span></p>
+        {point.note && <p className="small">{point.note}</p>}
+        <p className="small" lang="ja">{point.examples[0].ja} — <span lang="en">{point.examples[0].en}</span></p>
+        <Link className="small" href={`/grammar#${point.id}`}>Study this pattern →</Link>
+      </details>;
+    })}
+    {basics.length > 0 && <p className="small srs-grammar-basics">{main.length ? 'Also: ' : 'Basics: '}{basics.map(([id], i) => {
+      const point = grammarPoints.get(id)!;
+      return <span key={id}>{i > 0 && ' · '}<Link href={`/grammar#${id}`} lang="ja" title={point.meaning}>{point.pattern}</Link> <span>({point.meaning})</span></span>;
+    })}</p>}
+  </div>;
 }
