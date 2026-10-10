@@ -10,7 +10,7 @@ type Segment = [string, string?, 1?];
 type KaishiCard = { id: string; pos: number; word: string; reading: string; meaning: string; wordFurigana: Segment[]; wordAudio: string | null;
   sentence: Segment[]; sentenceMeaning: string; sentenceAudio: string | null; notes: string; picture: string | null };
 type GrammarPoint = (typeof grammar)[number];
-type DeckId = 'kaishi' | 'grammar-n5' | 'grammar-n4';
+type DeckId = 'kaishi' | 'grammar-n5' | 'grammar-n4' | 'grammar-n3' | 'grammar-n2' | 'grammar-n1';
 type DayCount = { day: number; newDone: number; reviewDone: number };
 type Store = { passFail?: boolean; cards: Record<string, CardState>; days: Partial<Record<DeckId, DayCount>>; settings: Partial<Record<DeckId, Partial<Settings>>>;
   log: { c: string; t: number; r: Rating; p: CardState['phase'] }[] };
@@ -23,6 +23,9 @@ const decks: { id: DeckId; name: string; about: string; defaults: Partial<Settin
   { id: 'kaishi', name: 'Kaishi 1.5k', about: 'Core vocabulary with native word and sentence audio.', defaults: {} },
   { id: 'grammar-n5', name: 'Grammar · N5', about: 'Recall the meaning of each N5 pattern.', defaults: { newPerDay: 5 } },
   { id: 'grammar-n4', name: 'Grammar · N4', about: 'Recall the meaning of each N4 pattern.', defaults: { newPerDay: 5 } },
+  { id: 'grammar-n3', name: 'Grammar · N3', about: 'Recall the meaning of each N3 pattern.', defaults: { newPerDay: 5 } },
+  { id: 'grammar-n2', name: 'Grammar · N2', about: 'Recall the meaning of each N2 pattern.', defaults: { newPerDay: 5 } },
+  { id: 'grammar-n1', name: 'Grammar · N1', about: 'Recall the meaning of each N1 pattern.', defaults: { newPerDay: 5 } },
 ];
 const ratings: { r: Rating; label: string; key: string }[] = [{ r: 1, label: 'Again', key: '1' }, { r: 2, label: 'Hard', key: '2' }, { r: 3, label: 'Good', key: '3' }, { r: 4, label: 'Easy', key: '4' }];
 // Like Anki's PassFail 2 add-on: Fail answers Again, Pass answers Good, and any key but 1 passes.
@@ -65,6 +68,9 @@ export default function Flashcards() {
     kaishi: (kaishi ?? []).map(card => `kaishi:${card.id}`),
     'grammar-n5': grammar.filter(p => p.level === 'N5').map(p => `grammar:${p.id}`),
     'grammar-n4': grammar.filter(p => p.level === 'N4').map(p => `grammar:${p.id}`),
+    'grammar-n3': grammar.filter(p => p.level === 'N3').map(p => `grammar:${p.id}`),
+    'grammar-n2': grammar.filter(p => p.level === 'N2').map(p => `grammar:${p.id}`),
+    'grammar-n1': grammar.filter(p => p.level === 'N1').map(p => `grammar:${p.id}`),
   }), [kaishi]);
   const kaishiById = useMemo(() => new Map((kaishi ?? []).map(card => [`kaishi:${card.id}`, card])), [kaishi]);
   const grammarById = useMemo(() => new Map(grammar.map(point => [`grammar:${point.id}`, point])), []);

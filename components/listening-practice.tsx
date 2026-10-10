@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { listeningTests, type ListeningTest, type TestEntry } from '../data/tests';
 import { useDialogueSpeech } from '../hooks/use-dialogue-speech';
+import GrammarUsed from './grammar-used';
 
 export default function ListeningPractice({ tests = listeningTests, genre = 'kaishi' }: { tests?: TestEntry[]; genre?: 'kaishi' | 'daily' | 'solo' }) {
   const daily = genre === 'daily';
@@ -126,6 +127,7 @@ export default function ListeningPractice({ tests = listeningTests, genre = 'kai
                   <strong>{selected === q.answer ? 'Well done — that’s right!' : 'Keep going — here’s the answer.'}</strong><p>{q.explanation}</p>
                   <details><summary>Show transcript &amp; translation</summary>{q.lines.map((line,i) => <div key={i}><strong>{solo ? 'Narrator' : `Speaker ${line.speaker}`}</strong><p className="transcript" lang="ja">{line.text}</p><p>{line.translation}</p></div>)}</details>
                 </div>}
+                {checked && <GrammarUsed kind="listening" setId={test.id} index={current} />}
                 <div className="actions"><span className="small">{checked ? 'Replay the clip to hear the answer.' : 'Choose one answer.'}</span>
                   {checked ? <button className="primary" type="button" onClick={next}>{answeredCount === test.questions.length ? 'See results →' : 'Next unanswered →'}</button> : <button className="primary" type="submit" disabled={selected === null}>Check answer →</button>}
                 </div>

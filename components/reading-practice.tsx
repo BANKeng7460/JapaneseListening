@@ -2,6 +2,7 @@
 
 import { useRef, useState } from 'react';
 import KanjiHints from './kanji-hints';
+import GrammarUsed from './grammar-used';
 import readingBooks from '../data/reading-passages.json';
 import { listeningTests, type ListeningTest } from '../data/tests';
 
@@ -92,6 +93,7 @@ export default function ReadingPractice() {
               <p className="small">Point at an underlined word for kana and meaning. You can also tap it or focus it with Tab. Hints cover matching Kaishi vocabulary, not every kanji or inflection.</p>
               <article className="reading-dialogue"><p className="reading-line" lang="ja"><KanjiHints key={levelId + '-' + index} text={question.text} /></p></article>
               <details key={levelId + '-' + index}><summary>Show English translation</summary><p>{question.translation}</p></details>
+              <GrammarUsed kind="reading" setId={levelId} index={index} />
               <form onSubmit={e => {e.preventDefault(); if (choice !== null && !checked) setResponses(previous => ({ ...previous, [index]: choice }));}}>
                 <fieldset><legend>{question.question}</legend><div className="choices">{question.choices.map((answer,i) => <div className="choice" key={i}>
                   <input type="radio" id={'read-answer-' + i} name="reading-answer" checked={choice === i} disabled={checked} onChange={() => setChoice(i)} />

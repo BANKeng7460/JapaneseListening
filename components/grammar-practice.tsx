@@ -4,9 +4,9 @@ import { useEffect, useMemo, useState } from 'react';
 import grammar from '../data/grammar.json';
 import kaishiExamples from '../data/grammar-kaishi.json';
 
-type Level = 'N5' | 'N4';
+type Level = 'N5' | 'N4' | 'N3' | 'N2' | 'N1';
 type Point = (typeof grammar)[number];
-const levels: Level[] = ['N5', 'N4'];
+const levels: Level[] = ['N5', 'N4', 'N3', 'N2', 'N1'];
 const learnedKey = 'kiku-grammar-learned';
 const levelKey = 'kiku-grammar-level';
 // Kaishi 1.5k sentences matched to each grammar point; audio lives in public/kaishi/media.
@@ -71,6 +71,7 @@ export default function GrammarPractice() {
   const [learned, setLearned] = useState<Set<string>>(new Set());
   const [quiz, setQuiz] = useState<{ id: string; choices: string[]; picked: string | null } | null>(null);
   const [score, setScore] = useState({ right: 0, total: 0 });
+  const [target, setTarget] = useState<string | null>(null);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [voice, setVoice] = useState('');
 
@@ -78,7 +79,10 @@ export default function GrammarPractice() {
     try {
       setLearned(new Set(JSON.parse(localStorage.getItem(learnedKey) || '[]')));
       const saved = localStorage.getItem(levelKey);
-      if (saved === 'N5' || saved === 'N4') setLevel(saved);
+      if (levels.includes(saved as Level)) setLevel(saved as Level);
+      // Links such as /grammar#n5-72 (from reading and conversation pages) open that point.
+      const linked = grammar.find(point => point.id === decodeURIComponent(location.hash.slice(1)));
+      if (linked) { setLevel(linked.level as Level); setTarget(linked.id); }
     } catch {}
   }, []);
 
@@ -106,6 +110,16 @@ export default function GrammarPractice() {
     try { localStorage.setItem(grammarVoiceKey, key); } catch {}
     speak('こんにちは。一緒に文法を勉強しましょう。');
   }
+
+  useEffect(() => {
+    if (!target) return;
+    const item = document.getElementById(target) as HTMLDetailsElement | null;
+    if (!item) return;
+    item.open = true;
+    item.scrollIntoView({ block: 'center' });
+    item.querySelector('summary')?.focus({ preventScroll: true });
+    setTarget(null);
+  }, [target, level]);
 
   const points = useMemo(() => grammar.filter(point => point.level === level), [level]);
   const byId = useMemo(() => new Map(grammar.map(point => [point.id, point])), []);
@@ -143,9 +157,9 @@ export default function GrammarPractice() {
   return <div className="shell">
     <header><div className="brand"><span className="brand-mark" lang="ja">き</span> kiku.</div><span className="header-note">One pattern at a time.</span></header>
     <main>
-      <div className="eyebrow">JLPT grammar · N5 &amp; N4</div>
+      <div className="eyebrow">JLPT grammar · N5 to N1</div>
       <h1>Learn the patterns behind the sentences.</h1>
-      <p className="intro">Browse every N5 and N4 grammar point with a short explanation and two example sentences you can listen to. Mark points as learned, then quiz yourself.</p>
+      <p className="intro">Browse grammar from N5 up to N1, each point with a short explanation and two example sentences you can listen to. Mark points as learned, then quiz yourself.</p>
       <div className="tip">
         <div className="reading-controls" role="group" aria-label="JLPT level">
           {levels.map(item => <button key={item} className="primary" aria-pressed={level === item} onClick={() => chooseLevel(item)}>{item} · {grammar.filter(point => point.level === item).length} points</button>)}
@@ -197,7 +211,7 @@ export default function GrammarPractice() {
               <label className="small"><input type="checkbox" checked={english} onChange={e => setEnglish(e.target.checked)} /> Show English</label>
             </div>
             {!shown.length && <p className="small">No grammar points match. Try another search or filter.</p>}
-            <ol className="grammar-list">{shown.map(point => <li key={point.id}><details className="grammar-item">
+            <ol className="grammar-list">{shown.map(point => <li key={point.id}><details className="grammar-item" id={point.id}>
               <summary>
                 <span className="grammar-pattern" lang="ja">{point.pattern}</span>
                 <span className="grammar-meaning">{point.meaning}</span>
