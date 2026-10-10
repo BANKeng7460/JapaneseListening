@@ -10840,5 +10840,164 @@
       "reading": "うなずく",
       "meaning": "to nod"
     }
+  ],
+  "出し": [
+    {
+      "word": "出す",
+      "reading": "だす",
+      "meaning": "to take out"
+    }
+  ],
+  "忘れ": [
+    {
+      "word": "忘れる",
+      "reading": "わすれる",
+      "meaning": "to forget"
+    }
+  ],
+  "光って": [
+    {
+      "word": "光る",
+      "reading": "ひかる",
+      "meaning": "to shine, to emit light"
+    }
+  ],
+  "美しくて": [
+    {
+      "word": "美しい",
+      "reading": "うつくしい",
+      "meaning": "beautiful"
+    }
+  ],
+  "寒くて": [
+    {
+      "word": "寒い",
+      "reading": "さむい",
+      "meaning": "cold (temperature)"
+    }
+  ],
+  "震え": [
+    {
+      "word": "震える",
+      "reading": "ふるえる",
+      "meaning": "to tremble, to shake"
+    }
+  ],
+  "使い": [
+    {
+      "word": "使う",
+      "reading": "つかう",
+      "meaning": "use"
+    }
+  ],
+  "聞け": [
+    {
+      "word": "聞く",
+      "reading": "きく",
+      "meaning": "hear"
+    },
+    {
+      "word": "聞く",
+      "reading": "きく",
+      "meaning": "ask"
+    }
+  ],
+  "急いで": [
+    {
+      "word": "急ぐ",
+      "reading": "いそぐ",
+      "meaning": "to hurry"
+    }
+  ],
+  "急い": [
+    {
+      "word": "急ぐ",
+      "reading": "いそぐ",
+      "meaning": "to hurry"
+    }
+  ],
+  "着いて": [
+    {
+      "word": "着く",
+      "reading": "つく",
+      "meaning": "to arrive"
+    }
+  ],
+  "書き": [
+    {
+      "word": "書く",
+      "reading": "かく",
+      "meaning": "to write"
+    }
+  ],
+  "起こっ": [
+    {
+      "word": "起こる",
+      "reading": "おこる",
+      "meaning": "to occur, to happen"
+    }
+  ],
+  "見つから": [
+    {
+      "word": "見つかる",
+      "reading": "みつかる",
+      "meaning": "to be found, to be caught"
+    }
+  ],
+  "伝えよ": [
+    {
+      "word": "伝える",
+      "reading": "つたえる",
+      "meaning": "to convey, to transmit"
+    }
+  ],
+  "叫び": [
+    {
+      "word": "叫ぶ",
+      "reading": "さけぶ",
+      "meaning": "to shout, to yell, to cry out"
+    }
+  ],
+  "楽しみ": [
+    {
+      "word": "楽しむ",
+      "reading": "たのしむ",
+      "meaning": "to enjoy"
+    }
+  ],
+  "寝て": [
+    {
+      "word": "寝る",
+      "reading": "ねる",
+      "meaning": "sleep"
+    }
+  ],
+  "失っ": [
+    {
+      "word": "失う",
+      "reading": "うしなう",
+      "meaning": "to lose, to miss"
+    }
+  ],
+  "諦め": [
+    {
+      "word": "諦める",
+      "reading": "あきらめる",
+      "meaning": "to give up, to abandon"
+    }
+  ],
+  "回り": [
+    {
+      "word": "回る",
+      "reading": "まわる",
+      "meaning": "to rotate, to go around"
+    }
+  ],
+  "取り戻して": [
+    {
+      "word": "取り戻す",
+      "reading": "とりもどす",
+      "meaning": "to take back, to recover"
+    }
   ]
 }

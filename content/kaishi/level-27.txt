@@ -1,0 +1,87 @@
+# Level 27 · words 521–540
+@forms 523=何だか 527=少しで十分 529=学生の頃 532=身につけ 526=確か、 525=眠れなかった
+
+@conversation The cooking class · Friends
+A: この前の料理教室、どうだった？ || How was the cooking class the other day?
+B: 楽しかったよ。卵焼きをふわふわにする方法を教えてもらったんだ。一人暮らしの前に、料理を身につけたくて。 || It was fun. They taught us how to make rolled omelet really fluffy. I want to learn to cook before I live on my own.
+A: すごい。私も食べてみたいな。 || Amazing. I’d like to try it.
+B: はい、これ。…どう？ || Here you go. …How is it?
+A: 正直に言っていい？ちょっと甘すぎるかも。 || Can I be honest? It might be a little too sweet.
+B: やっぱり。砂糖は少しで十分だったね。 || I thought so. A little sugar would have been plenty.
+Q: What does A think of the omelet?
+C: It’s too salty ; It’s a little too sweet ; It’s perfect ; It’s too dry
+ANS: 2
+EXP: 料理 (りょうり) cooking; 方法 (ほうほう) method; 身につける (みにつける) learn, master a skill — 身 means oneself, body. 正直に (しょうじきに) honestly; 甘い (あまい) sweet; 十分 (じゅうぶん) enough, plenty. Extra words: 教室 (きょうしつ), class; 卵焼き (たまごやき), rolled omelet; 一人暮らし (ひとりぐらし), living alone; 砂糖 (さとう), sugar.
+
+@conversation A sleepless night · Family
+A: 昨日、全然眠れなかった。 || I couldn’t sleep at all last night.
+B: どうしたの？ || What happened?
+A: 何だか、明日の試験のことを想像したら、どきどきしちゃって。 || Somehow, when I imagined tomorrow’s exam, my heart started pounding.
+B: お母さんも学生の頃はそうだったよ。今夜は早く寝なさい。 || I was like that too when I was a student. Go to bed early tonight.
+Q: Why couldn’t A sleep?
+C: It was too hot ; A was nervous about an exam ; The neighbors were noisy ; A drank coffee late
+ANS: 2
+EXP: 眠る (ねむる) sleep — 眠れなかった means couldn’t sleep. 何だか (なんだか) somehow; 想像する (そうぞう) imagine; 学生の頃 (ころ) when I was a student. Extra words: 試験 (しけん), exam; どきどきする, heart pounds.
+
+@conversation A pottery shop · Shopping
+A: このお店のお皿、どれも美しいですね。 || All the plates in this shop are beautiful.
+B: 確か、京都の職人さんが作っているんですよ。 || If I remember correctly, they’re made by craftsmen in Kyoto.
+A: 欲しいものがいっぱいあって、困っちゃいます。 || There are so many things I want, I don’t know what to do.
+B: 一つだけ選ぶなら、どれにします？ || If you could choose just one, which would it be?
+Q: Where are the plates made, according to B?
+C: In Tokyo ; In Kyoto ; Abroad ; In the shop
+ANS: 2
+EXP: 店 (みせ) shop; 美しい (うつくしい) beautiful; 確か (たしか) if I remember correctly; いっぱい a lot. Extra words: お皿 (おさら), plate; 職人 (しょくにん), craftsman.
+
+@conversation At immigration · Airport
+A: 旅行の目的は何ですか。 || What is the purpose of your trip?
+B: 観光です。 || Sightseeing.
+A: 何日間、日本にいますか。 || How many days will you be in Japan?
+B: 一週間です。友達の家に泊まります。 || One week. I’ll stay at a friend’s house.
+Q: Where will B stay?
+C: At a hotel ; At a friend’s house ; At a guesthouse ; It isn’t decided
+ANS: 2
+EXP: 目的 (もくてき) purpose. Extra words: 観光 (かんこう), sightseeing; 何日間 (なんにちかん), how many days; 泊まる (とまる), stay overnight.
+
+@conversation The massage chair · Friends
+A: このマッサージチェア、なかなかいいね。 || This massage chair is pretty good.
+B: でしょう？首と肩がすごく楽になるんだ。 || Right? My neck and shoulders feel so much better.
+A: でも、周りの人に見られて、ちょっと恥ずかしい。 || But people around are watching, so it’s a bit embarrassing.
+B: 気にしない、気にしない。 || Don’t worry about it.
+Q: Why does A feel embarrassed?
+C: The chair is noisy ; People around are watching ; A fell asleep ; It’s too expensive
+ANS: 2
+EXP: なかなか means quite, pretty (with a positive). 首 (くび) neck; 周り (まわり) surroundings, people around. Extra words: マッサージチェア, massage chair; 肩 (かた), shoulder; 楽 (らく), comfortable; 気にする, worry about.
+
+@conversation After the movie · Couple
+A: 主人公の感情が、全然分からなかった。 || I didn’t understand the main character’s feelings at all.
+B: 私はむしろ、そこが好きだったな。 || I actually liked that part.
+A: え、どうして？ || Huh, why?
+B: 全部説明しないほうが、自分で考えられるでしょう。 || If they don’t explain everything, you get to think for yourself, right?
+Q: How does B feel about the unclear feelings?
+C: B found them boring ; B actually liked them ; B didn’t notice ; B wanted more explanation
+ANS: 2
+EXP: 感情 (かんじょう) feelings, emotions. むしろ means rather — 私はむしろそこが好きだった means I actually liked that. Extra word: 主人公 (しゅじんこう), main character.
+
+@reading 母の料理
+TEXT: 母の料理は、店の料理よりおいしいと思います。正直、特別な方法はありません。でも母は、家族一人一人の好きな味を覚えていて、少しずつ変えてくれます。子供の頃、熱を出した時に作ってくれた甘い卵のおかゆは、今でも忘れられません。料理には、作る人の気持ちがいっぱい入っているのだと思います。 || I think my mother’s cooking tastes better than restaurant food. Honestly, she has no special method. But she remembers each family member’s favorite flavors and adjusts them a little for each of us. I still can’t forget the sweet egg rice porridge she made when I had a fever as a child. I think cooking is full of the feelings of the person who makes it.
+Q: What does the writer still remember from childhood?
+C: A birthday cake ; Sweet egg rice porridge from a fever ; A cooking class with mother ; A meal at a restaurant
+ANS: 2
+EXP: 熱を出した時に作ってくれた甘い卵のおかゆ gives the answer. 料理 (りょうり) cooking; 店 (みせ) restaurant; 正直 (しょうじき) honestly; 方法 (ほうほう) method; 頃 (ころ) time; 甘い (あまい) sweet; いっぱい full. Extra words: 特別 (とくべつ), special; 味 (あじ), flavor; 熱 (ねつ), fever; おかゆ, rice porridge.
+
+@reading 美しい夜空
+TEXT: 確か小学生の頃、父と山に星を見に行きました。周りには何もなくて、空いっぱいに星が光っていました。あまりに美しくて、私はしばらく何も言えませんでした。その夜は、なかなか眠れませんでした。宇宙はどれくらい大きいのか、ずっと想像していたからです。 || If I remember correctly, it was when I was in elementary school that I went to the mountains with my father to look at the stars. There was nothing around us, and the whole sky was full of shining stars. It was so beautiful that I couldn’t say anything for a while. I couldn’t fall asleep easily that night, because I kept imagining how big the universe is.
+Q: Why couldn’t the writer sleep that night?
+C: They were cold ; They kept imagining how big the universe is ; Their father was snoring ; They were scared of the dark
+ANS: 2
+EXP: 宇宙はどれくらい大きいのか、ずっと想像していたからです gives the reason. 確か (たしか) if I remember correctly; 周り (まわり) around; いっぱい full; 美しい (うつくしい) beautiful; なかなか眠れない can’t fall asleep easily; 想像 (そうぞう) imagine. Extra words: 小学生 (しょうがくせい), elementary school student; 星 (ほし), star; 光る (ひかる), shine; 宇宙 (うちゅう), universe.
+
+@story My first trip abroad
+N: 明日、初めて一人で海外に行きます。旅の目的は、イタリアで本場の料理を食べることです。 || Tomorrow I’m going abroad alone for the first time. The purpose of the trip is to eat real Italian food in Italy.
+N: 荷物の準備はもう十分なのに、何だか眠れません。向こうでの毎日を想像すると、楽しみで胸がいっぱいです。 || My bags are more than ready, but somehow I can’t sleep. When I imagine each day there, my heart is full of excitement.
+N: 正直に言うと、少し不安もあります。でも、むしろその気持ちも楽しもうと思っています。 || To be honest, I’m a little anxious too. But I’m going to try to enjoy that feeling as well.
+Q: What is the purpose of the trip?
+C: To visit a friend ; To eat real Italian food ; To study Italian ; To work abroad
+ANS: 2
+EXP: 旅の目的は、イタリアで本場の料理を食べることです gives the answer. 目的 (もくてき) purpose; 十分 (じゅうぶん) enough; 何だか (なんだか) somehow; 想像する (そうぞう) imagine; いっぱい full; 正直に (しょうじきに) honestly; むしろ rather. Extra words: 海外 (かいがい), abroad; 本場 (ほんば), the real place it comes from; 楽しむ (たのしむ), enjoy.

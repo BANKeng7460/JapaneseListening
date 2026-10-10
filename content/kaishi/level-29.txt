@@ -1,0 +1,86 @@
+# Level 29 · words 561–580
+@forms 562=着よう 566=家族への思い 573=降りたい 574=下りよう 575=切って 579=重い
+
+@conversation On the train · Strangers
+A: すみません、次の駅で降りたいんですが…。 || Excuse me, I’d like to get off at the next station…
+B: あ、どうぞ。急がなくても大丈夫ですよ。 || Oh, go ahead. There’s no need to hurry.
+A: ありがとうございます。よいしょ。 || Thank you. Up I get.
+B: 立ち上がる時、気をつけてください。荷物、重そうですね。持ちましょうか。 || Be careful when you stand up. Your bag looks heavy. Shall I carry it?
+Q: What does B offer to do?
+C: Give up their seat ; Carry the bag ; Call the station staff ; Open the window
+ANS: 2
+EXP: 降りる (おりる) get off; どうぞ go ahead; 急ぐ (いそぐ) hurry; 立ち上がる (たちあがる) stand up; 重い (おもい) heavy. Extra words: 荷物 (にもつ), bag; 気をつける, be careful.
+
+@conversation Almost at the top · Hiking friends
+A: もう少しで頂上だよ。 || We’re almost at the top.
+B: 足が痛い…。でも、せっかくここまで来たから頑張る。 || My legs hurt… But since we’ve come all this way, I’ll keep going.
+A: 帰りは、あっちの楽な道を下りようね。 || On the way back, let’s go down the easier path over there.
+B: 賛成！ || Agreed!
+Q: Why does B decide to keep going?
+C: B isn’t tired ; They’ve already come so far ; The top has a café ; It’s getting dark
+ANS: 2
+EXP: もう少しで means almost; せっかく means since we went to the trouble; 下りる (おりる) go down (a slope, stairs). Extra words: 頂上 (ちょうじょう), summit; 楽 (らく), easy; 賛成 (さんせい), agreed.
+
+@conversation Late-night news · Coworkers
+A: 昨日の夜、駅の近くで事件が起こったそうですよ。 || Apparently something happened near the station last night.
+B: え、何があったんですか。 || What happened?
+A: 男の人が、帰る途中の女性を襲ったらしいです。 || A man attacked a woman on her way home, it seems.
+B: 酷い…。夜は一人で歩かないようにしないと。 || That’s terrible… I’d better not walk alone at night.
+Q: What happened near the station?
+C: A fire broke out ; A woman was attacked ; A train broke down ; A shop was robbed
+ANS: 2
+EXP: 事件 (じけん) incident, case; 起こる (おこる) happen; 襲う (おそう) attack; 酷い (ひどい) terrible. Extra words: 途中 (とちゅう), on the way; 歩く (あるく), walk.
+
+@conversation What to wear · Couple
+A: 今日は何を着ようかな。服が色々あって決められない。 || What should I wear today? I have so many clothes, I can’t decide.
+B: その青いシャツがいいと思うよ。 || I think that blue shirt is good.
+A: そうだね。あ、唇が乾いて痛い…。 || Yeah. Oh, my lips are dry and sore…
+B: はい、リップクリーム。 || Here, lip balm.
+Q: What problem does A have?
+C: A has a headache ; A’s lips are dry ; A lost a shirt ; A is late
+ANS: 2
+EXP: 着る (きる) wear; 色々 (いろいろ) various, lots of; 唇 (くちびる) lips. Extra words: シャツ, shirt; 乾く (かわく), get dry; リップクリーム, lip balm.
+
+@conversation A lost umbrella · Phone call
+A: もしもし、以前そちらで傘を忘れた者ですが…。 || Hello, I’m someone who left an umbrella there before…
+B: はい、どのような傘でしょうか。 || Yes, what kind of umbrella was it?
+A: 黒い傘です。メールの返事がなかったので、お電話しました。 || A black umbrella. I called because I didn’t get a reply to my email.
+B: 申し訳ありません。はい、こちらで見つかっています。 || We’re very sorry. Yes, it has been found here.
+Q: Why did A call?
+C: To ask about opening hours ; Because their email got no reply ; To complain about the staff ; To buy an umbrella
+ANS: 2
+EXP: 以前 (いぜん) before; 返事 (へんじ) reply; 見つかる (みつかる) be found. Extra words: 傘 (かさ), umbrella; 黒い (くろい), black.
+
+@conversation Grandma’s pot · Family
+A: 玉ねぎを切ってくれる？ || Can you cut the onions?
+B: いいよ。それにしても、この鍋、重いね。 || Sure. Wow, this pot is heavy.
+A: おばあさんから、もらった鍋なんだ。家族への思いを込めて、いつも料理していたんだって。 || I got it from my grandmother. She always cooked with love for the family, they say.
+B: じゃあ、今日も心を込めて作ろう。 || Then let’s cook with care today too.
+Q: Who did the pot belong to before?
+C: A’s mother ; A’s grandmother ; A neighbor ; A restaurant
+ANS: 2
+EXP: 切る (きる) cut; 重い (おもい) heavy; 思い (おもい) feelings — 家族への思い means feelings for the family. Extra words: 玉ねぎ (たまねぎ), onion; 鍋 (なべ), pot; 込める (こめる), put in (feelings).
+
+@reading 酷い雨の日
+TEXT: 昨日、会社から帰る途中で、急に酷い雨が降り出しました。傘がなかったので、駅まで急いで走りました。でも、電車を降りると、雨はもうやんでいました。せっかく急いだのに、服は全部ぬれてしまいました。家に着いてから、自分の姿を見て笑ってしまいました。 || Yesterday on the way home from work, it suddenly started pouring. I didn’t have an umbrella, so I hurried to the station. But when I got off the train, the rain had already stopped. Even though I’d hurried so much, all my clothes were soaked. When I got home and saw what I looked like, I couldn’t help laughing.
+Q: What happened when the writer got off the train?
+C: It started raining harder ; The rain had already stopped ; A friend brought an umbrella ; They missed the bus
+ANS: 2
+EXP: 電車を降りると、雨はもうやんでいました gives the answer. 酷い (ひどい) terrible; 急ぐ (いそぐ) hurry; 降りる (おりる) get off; せっかく even though I went to the trouble. Extra words: 途中 (とちゅう), on the way; 降り出す (ふりだす), start raining; 走る (はしる), run; ぬれる, get wet.
+
+@reading 返事のない手紙
+TEXT: 以前、外国の友達に手紙を書きました。でも、何か月たっても返事がありません。何か起こったのではないかと、色々心配しました。先週、やっと友達からメールが届きました。手紙は見つからないまま、どこかに行ってしまったそうです。今度は、もう少し早く届くメールで思いを伝えようと思います。 || Some time ago I wrote a letter to a friend abroad. But even after several months, there was no reply. I worried about all sorts of things, wondering if something had happened. Last week, I finally got an email from my friend. Apparently the letter had gone missing somewhere and was never found. Next time, I think I’ll share my feelings by email, which arrives a little faster.
+Q: What had happened to the letter?
+C: The friend forgot to reply ; It got lost and was never found ; It was sent to the wrong address ; It arrived but was damaged
+ANS: 2
+EXP: 手紙は見つからないまま、どこかに行ってしまったそうです gives the answer. 以前 (いぜん) before; 返事 (へんじ) reply; 起こる (おこる) happen; 色々 (いろいろ) various; 見つかる (みつかる) be found; もう少し a little more; 思い (おもい) feelings. Extra words: 外国 (がいこく), abroad; 何か月 (なんかげつ), several months; 届く (とどく), arrive.
+
+@story A scare on the stairs
+N: 昨日の夜、マンションの階段を下りていると、突然、後ろで大きな音がしました。 || Last night, as I was going down the stairs in my apartment building, there was suddenly a loud noise behind me.
+N: 誰かに襲われるのかと思って、怖くて振り返ることもできませんでした。 || I thought someone was going to attack me, and I was too scared even to turn around.
+N: でも、もう少し待ってから見ると、隣の部屋の猫がごみ袋を倒しただけでした。 || But when I waited a bit and then looked, it was just the cat from next door knocking over a trash bag.
+N: 事件ではなくて、安心しました。猫は何も起こらなかったような顔で、私を見ていました。 || I was relieved it wasn’t an incident. The cat was looking at me as if nothing had happened.
+Q: What made the loud noise?
+C: A neighbor shouting ; A cat knocking over a trash bag ; A door slamming ; Someone falling
+ANS: 2
+EXP: 隣の部屋の猫がごみ袋を倒しただけでした gives the answer. 下りる (おりる) go down; 襲う (おそう) attack; もう少し a little more; 事件 (じけん) incident; 起こる (おこる) happen. Extra words: マンション, apartment building; 階段 (かいだん), stairs; 振り返る (ふりかえる), turn around; ごみ袋 (ごみぶくろ), trash bag.

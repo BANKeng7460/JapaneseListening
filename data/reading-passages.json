@@ -856,5 +856,137 @@
         "explanation": "家族は誰も、弟が本気だとは思いませんでした gives the answer. 本気 (ほんき) serious; 事実 (じじつ) in fact; 頷く (うなずく) nod. Extra words: 一年間 (いちねんかん), a whole year; 起きる (おきる), get up; 自信 (じしん), confidence."
       }
     ]
+  },
+  {
+    "id": "kaishi-1-540",
+    "passages": [
+      {
+        "title": "母の料理",
+        "text": "母の料理は、店の料理よりおいしいと思います。正直、特別な方法はありません。でも母は、家族一人一人の好きな味を覚えていて、少しずつ変えてくれます。子供の頃、熱を出した時に作ってくれた甘い卵のおかゆは、今でも忘れられません。料理には、作る人の気持ちがいっぱい入っているのだと思います。",
+        "translation": "I think my mother’s cooking tastes better than restaurant food. Honestly, she has no special method. But she remembers each family member’s favorite flavors and adjusts them a little for each of us. I still can’t forget the sweet egg rice porridge she made when I had a fever as a child. I think cooking is full of the feelings of the person who makes it.",
+        "question": "What does the writer still remember from childhood?",
+        "choices": [
+          "A birthday cake",
+          "Sweet egg rice porridge from a fever",
+          "A cooking class with mother",
+          "A meal at a restaurant"
+        ],
+        "answer": 1,
+        "explanation": "熱を出した時に作ってくれた甘い卵のおかゆ gives the answer. 料理 (りょうり) cooking; 店 (みせ) restaurant; 正直 (しょうじき) honestly; 方法 (ほうほう) method; 頃 (ころ) time; 甘い (あまい) sweet; いっぱい full. Extra words: 特別 (とくべつ), special; 味 (あじ), flavor; 熱 (ねつ), fever; おかゆ, rice porridge."
+      },
+      {
+        "title": "美しい夜空",
+        "text": "確か小学生の頃、父と山に星を見に行きました。周りには何もなくて、空いっぱいに星が光っていました。あまりに美しくて、私はしばらく何も言えませんでした。その夜は、なかなか眠れませんでした。宇宙はどれくらい大きいのか、ずっと想像していたからです。",
+        "translation": "If I remember correctly, it was when I was in elementary school that I went to the mountains with my father to look at the stars. There was nothing around us, and the whole sky was full of shining stars. It was so beautiful that I couldn’t say anything for a while. I couldn’t fall asleep easily that night, because I kept imagining how big the universe is.",
+        "question": "Why couldn’t the writer sleep that night?",
+        "choices": [
+          "They were cold",
+          "They kept imagining how big the universe is",
+          "Their father was snoring",
+          "They were scared of the dark"
+        ],
+        "answer": 1,
+        "explanation": "宇宙はどれくらい大きいのか、ずっと想像していたからです gives the reason. 確か (たしか) if I remember correctly; 周り (まわり) around; いっぱい full; 美しい (うつくしい) beautiful; なかなか眠れない can’t fall asleep easily; 想像 (そうぞう) imagine. Extra words: 小学生 (しょうがくせい), elementary school student; 星 (ほし), star; 光る (ひかる), shine; 宇宙 (うちゅう), universe."
+      }
+    ]
+  },
+  {
+    "id": "kaishi-1-560",
+    "passages": [
+      {
+        "title": "森の朝",
+        "text": "休みの日、家族で森の中のキャンプ場へ移動しました。朝早く、鳥の声で目が覚めました。外に出ると、とても寒くて、体が震えました。でも、静かな森の中で耳を澄ますと、色々な音が聞こえてきます。期待していた以上に、心が落ち着く場所でした。",
+        "translation": "On our day off, my family went to a campsite in the forest. Early in the morning, I woke up to the sound of birds. When I went outside, it was very cold and I shivered. But when I listened carefully in the quiet forest, I could hear all kinds of sounds. It was an even more calming place than I had expected.",
+        "question": "How did the forest feel to the writer?",
+        "choices": [
+          "Scarier than expected",
+          "More calming than expected",
+          "Too noisy",
+          "Boring"
+        ],
+        "answer": 1,
+        "explanation": "期待していた以上に、心が落ち着く場所でした gives the answer. 森 (もり) forest; 移動する (いどう) travel; 震える (ふるえる) shiver; 耳を澄ます (みみをすます) listen carefully; 期待 (きたい) expectation. Extra words: キャンプ場 (キャンプじょう), campsite; 鳥 (とり), bird; 目が覚める, wake up; 色々 (いろいろ), various."
+      },
+      {
+        "title": "祖母の能力",
+        "text": "私の祖母は八十歳ですが、スマホを上手に使います。メールも写真も、何でもできます。私が「どうしてそんなにできるの？」と聞くと、祖母は「分からないことは、もう一度聞けばいいのよ」と笑いました。新しいことを学ぶ能力に、年は関係ないのだと思いました。",
+        "translation": "My grandmother is eighty, but she uses her smartphone well. Email, photos — she can do anything. When I asked her, “How can you do all that?” she laughed and said, “If you don’t understand something, you just ask again.” I realized age has nothing to do with the ability to learn new things.",
+        "question": "What is the grandmother’s secret?",
+        "choices": [
+          "She took a computer class",
+          "She asks again when she doesn’t understand",
+          "Her grandchild helps her every day",
+          "She reads the manual"
+        ],
+        "answer": 1,
+        "explanation": "分からないことは、もう一度聞けばいいのよ gives the answer. もう一度 (もういちど) once more; 能力 (のうりょく) ability. Extra words: 祖母 (そぼ), grandmother; 歳 (さい), years old; スマホ, smartphone; 学ぶ (まなぶ), learn; 関係ない (かんけいない), unrelated."
+      }
+    ]
+  },
+  {
+    "id": "kaishi-1-580",
+    "passages": [
+      {
+        "title": "酷い雨の日",
+        "text": "昨日、会社から帰る途中で、急に酷い雨が降り出しました。傘がなかったので、駅まで急いで走りました。でも、電車を降りると、雨はもうやんでいました。せっかく急いだのに、服は全部ぬれてしまいました。家に着いてから、自分の姿を見て笑ってしまいました。",
+        "translation": "Yesterday on the way home from work, it suddenly started pouring. I didn’t have an umbrella, so I hurried to the station. But when I got off the train, the rain had already stopped. Even though I’d hurried so much, all my clothes were soaked. When I got home and saw what I looked like, I couldn’t help laughing.",
+        "question": "What happened when the writer got off the train?",
+        "choices": [
+          "It started raining harder",
+          "The rain had already stopped",
+          "A friend brought an umbrella",
+          "They missed the bus"
+        ],
+        "answer": 1,
+        "explanation": "電車を降りると、雨はもうやんでいました gives the answer. 酷い (ひどい) terrible; 急ぐ (いそぐ) hurry; 降りる (おりる) get off; せっかく even though I went to the trouble. Extra words: 途中 (とちゅう), on the way; 降り出す (ふりだす), start raining; 走る (はしる), run; ぬれる, get wet."
+      },
+      {
+        "title": "返事のない手紙",
+        "text": "以前、外国の友達に手紙を書きました。でも、何か月たっても返事がありません。何か起こったのではないかと、色々心配しました。先週、やっと友達からメールが届きました。手紙は見つからないまま、どこかに行ってしまったそうです。今度は、もう少し早く届くメールで思いを伝えようと思います。",
+        "translation": "Some time ago I wrote a letter to a friend abroad. But even after several months, there was no reply. I worried about all sorts of things, wondering if something had happened. Last week, I finally got an email from my friend. Apparently the letter had gone missing somewhere and was never found. Next time, I think I’ll share my feelings by email, which arrives a little faster.",
+        "question": "What had happened to the letter?",
+        "choices": [
+          "The friend forgot to reply",
+          "It got lost and was never found",
+          "It was sent to the wrong address",
+          "It arrived but was damaged"
+        ],
+        "answer": 1,
+        "explanation": "手紙は見つからないまま、どこかに行ってしまったそうです gives the answer. 以前 (いぜん) before; 返事 (へんじ) reply; 起こる (おこる) happen; 色々 (いろいろ) various; 見つかる (みつかる) be found; もう少し a little more; 思い (おもい) feelings. Extra words: 外国 (がいこく), abroad; 何か月 (なんかげつ), several months; 届く (とどく), arrive."
+      }
+    ]
+  },
+  {
+    "id": "kaishi-1-600",
+    "passages": [
+      {
+        "title": "夏の海",
+        "text": "去年の夏、大学の友達と海へ行きました。朝早く駅に集まって、電車で二時間移動しました。海に着くと、みんな子供みたいに叫びながら走り出しました。泳いだり、砂で大きな城を作ったりして、一日中楽しみました。帰りの電車では、全員が途中で寝てしまいました。",
+        "translation": "Last summer I went to the beach with my university friends. We met at the station early in the morning and traveled two hours by train. When we got to the sea, everyone started running and shouting like children. We swam, built a big sandcastle and so on, and enjoyed ourselves all day. On the train home, everyone fell asleep partway.",
+        "question": "What happened on the train home?",
+        "choices": [
+          "They played cards",
+          "Everyone fell asleep",
+          "They missed their stop",
+          "They planned the next trip"
+        ],
+        "answer": 1,
+        "explanation": "帰りの電車では、全員が途中で寝てしまいました gives the answer. 海 (うみ) sea; 集まる (あつまる) gather; 叫ぶ (さけぶ) shout; 楽しむ (たのしむ) enjoy; 途中 (とちゅう) partway. Extra words: 大学 (だいがく), university; 泳ぐ (およぐ), swim; 砂 (すな), sand; 城 (しろ), castle."
+      },
+      {
+        "title": "諦めない王様",
+        "text": "昔、ある国に、戦いで全てを失った王がいました。部下たちは「もう諦めましょう」と言いましたが、王は納得しませんでした。王は必死に小さな村を回り、人々の話を聞きました。逆に、何もない王の姿を見て、村の人たちは力を貸すことにしました。王は少しずつ国を取り戻していきました。",
+        "translation": "Long ago, in a certain country, there was a king who had lost everything in a war. His followers said, “Let’s give up,” but the king wasn’t convinced. He desperately went around the small villages and listened to the people. Seeing the king with nothing, the villagers, on the contrary, decided to lend him their strength. Little by little, the king won his country back.",
+        "question": "Why did the villagers help the king?",
+        "choices": [
+          "He paid them money",
+          "Seeing him with nothing moved them",
+          "He was their relative",
+          "He threatened them"
+        ],
+        "answer": 1,
+        "explanation": "何もない王の姿を見て、村の人たちは力を貸すことにしました gives the reason. 王 (おう) king; 諦める (あきらめる) give up; 納得する (なっとく) accept; 必死に (ひっしに) desperately; 逆に (ぎゃくに) on the contrary. Extra words: 戦い (たたかい), war; 失う (うしなう), lose; 部下 (ぶか), follower; 村 (むら), village; 取り戻す (とりもどす), win back."
+      }
+    ]
   }
 ]

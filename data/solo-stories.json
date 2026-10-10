@@ -1084,6 +1084,132 @@
         ],
         "answer": 1,
         "explanation": "今日は休みですよ and カレンダーは赤い日でした show it was a holiday (red days are holidays on Japanese calendars). 慌てる (あわてる) rush; 通り (とおり) street; ついたまま means left on; 危険 (きけん) dangerous; 事実 (じじつ) in fact. Extra words: 目が覚める (めがさめる), wake up; 迷う (まよう), hesitate; カレンダー, calendar."
+      },
+      {
+        "situation": "Level 27 · My first trip abroad",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "明日、初めて一人で海外に行きます。旅の目的は、イタリアで本場の料理を食べることです。",
+            "translation": "Tomorrow I’m going abroad alone for the first time. The purpose of the trip is to eat real Italian food in Italy."
+          },
+          {
+            "speaker": "A",
+            "text": "荷物の準備はもう十分なのに、何だか眠れません。向こうでの毎日を想像すると、楽しみで胸がいっぱいです。",
+            "translation": "My bags are more than ready, but somehow I can’t sleep. When I imagine each day there, my heart is full of excitement."
+          },
+          {
+            "speaker": "A",
+            "text": "正直に言うと、少し不安もあります。でも、むしろその気持ちも楽しもうと思っています。",
+            "translation": "To be honest, I’m a little anxious too. But I’m going to try to enjoy that feeling as well."
+          }
+        ],
+        "question": "What is the purpose of the trip?",
+        "choices": [
+          "To visit a friend",
+          "To eat real Italian food",
+          "To study Italian",
+          "To work abroad"
+        ],
+        "answer": 1,
+        "explanation": "旅の目的は、イタリアで本場の料理を食べることです gives the answer. 目的 (もくてき) purpose; 十分 (じゅうぶん) enough; 何だか (なんだか) somehow; 想像する (そうぞう) imagine; いっぱい full; 正直に (しょうじきに) honestly; むしろ rather. Extra words: 海外 (かいがい), abroad; 本場 (ほんば), the real place it comes from; 楽しむ (たのしむ), enjoy."
+      },
+      {
+        "situation": "Level 28 · The day my sister was born",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "私が五歳の時、妹が生まれました。その夜、父が私を起こして、「無事に生まれたよ」と言いました。",
+            "translation": "When I was five, my little sister was born. That night, my father woke me up and said, “She was born safely.”"
+          },
+          {
+            "speaker": "A",
+            "text": "次の日、病院で初めて妹に会いました。小さい手が少し動いていて、私は緊張して震えていました。",
+            "translation": "The next day, I met her for the first time at the hospital. Her tiny hands were moving a little, and I was so nervous I was shaking."
+          },
+          {
+            "speaker": "A",
+            "text": "妹が大きくなると、よく私の部屋にやって来て、邪魔をしました。でも今は、一番の友達です。",
+            "translation": "As she grew up, she often came into my room and got in my way. But now she’s my best friend."
+          }
+        ],
+        "question": "Who woke the narrator up that night?",
+        "choices": [
+          "The mother",
+          "The father",
+          "The grandmother",
+          "The baby"
+        ],
+        "answer": 1,
+        "explanation": "父が私を起こして gives the answer. 生まれる (うまれる) be born; 起こす (おこす) wake someone up; 無事に (ぶじに) safely; 動く (うごく) move; 震える (ふるえる) shake; やって来る (やってくる) come over; 邪魔 (じゃま) getting in the way. Extra words: 病院 (びょういん), hospital; 緊張する (きんちょう), be nervous."
+      },
+      {
+        "situation": "Level 29 · A scare on the stairs",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "昨日の夜、マンションの階段を下りていると、突然、後ろで大きな音がしました。",
+            "translation": "Last night, as I was going down the stairs in my apartment building, there was suddenly a loud noise behind me."
+          },
+          {
+            "speaker": "A",
+            "text": "誰かに襲われるのかと思って、怖くて振り返ることもできませんでした。",
+            "translation": "I thought someone was going to attack me, and I was too scared even to turn around."
+          },
+          {
+            "speaker": "A",
+            "text": "でも、もう少し待ってから見ると、隣の部屋の猫がごみ袋を倒しただけでした。",
+            "translation": "But when I waited a bit and then looked, it was just the cat from next door knocking over a trash bag."
+          },
+          {
+            "speaker": "A",
+            "text": "事件ではなくて、安心しました。猫は何も起こらなかったような顔で、私を見ていました。",
+            "translation": "I was relieved it wasn’t an incident. The cat was looking at me as if nothing had happened."
+          }
+        ],
+        "question": "What made the loud noise?",
+        "choices": [
+          "A neighbor shouting",
+          "A cat knocking over a trash bag",
+          "A door slamming",
+          "Someone falling"
+        ],
+        "answer": 1,
+        "explanation": "隣の部屋の猫がごみ袋を倒しただけでした gives the answer. 下りる (おりる) go down; 襲う (おそう) attack; もう少し a little more; 事件 (じけん) incident; 起こる (おこる) happen. Extra words: マンション, apartment building; 階段 (かいだん), stairs; 振り返る (ふりかえる), turn around; ごみ袋 (ごみぶくろ), trash bag."
+      },
+      {
+        "situation": "Level 30 · Learning to swim",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "私は子供の頃、海が怖くて、泳げませんでした。何度練習しても、途中で諦めてしまいました。",
+            "translation": "As a child I was scared of the sea and couldn’t swim. However many times I practiced, I gave up partway."
+          },
+          {
+            "speaker": "A",
+            "text": "大人になって、一応プールに通い始めました。最初は水に慣れるだけで必死でした。",
+            "translation": "As an adult, I started going to a pool, just in case. At first it took everything I had just to get used to the water."
+          },
+          {
+            "speaker": "A",
+            "text": "半年後、初めて二十五メートル泳げた時、思わず叫んでしまいました。",
+            "translation": "Six months later, when I swam twenty-five meters for the first time, I couldn’t help shouting."
+          },
+          {
+            "speaker": "A",
+            "text": "今年の夏は、必ず海で泳ぐつもりです。",
+            "translation": "This summer, I’m definitely going to swim in the sea."
+          }
+        ],
+        "question": "What does the narrator plan to do this summer?",
+        "choices": [
+          "Join a swimming team",
+          "Swim in the sea",
+          "Teach children to swim",
+          "Stop going to the pool"
+        ],
+        "answer": 1,
+        "explanation": "今年の夏は、必ず海で泳ぐつもりです gives the answer. 頃 (ころ) time; 途中 (とちゅう) partway; 諦める (あきらめる) give up; 一応 (いちおう) just in case; 慣れる (なれる) get used to; 必死 (ひっし) desperate; 叫ぶ (さけぶ) shout; 必ず (かならず) definitely. Extra words: 泳ぐ (およぐ), swim; 練習 (れんしゅう), practice; 大人 (おとな), adult; プール, pool; 通う (かよう), go regularly; 半年 (はんとし), six months; メートル, meter."
       }
     ]
   }

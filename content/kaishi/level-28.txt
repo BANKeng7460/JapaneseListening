@@ -1,0 +1,86 @@
+# Level 28 · words 541–560
+@forms 541=もう一度 552=事故を起こさない 553=起こしてくれる 559=要りません 545=やって来た 560=無くなって 542=遅く 544=合わない 550=期待
+
+@conversation Trying on shoes · Shop
+A: すみません、この靴、ちょっとサイズが合わないみたいです。 || Excuse me, these shoes don’t seem to fit.
+B: では、一つ大きいサイズをお持ちしますね。…こちらはいかがですか。 || Then I’ll bring you one size bigger. …How about these?
+A: ちょうどいいです。もう一度歩いてみてもいいですか。 || They’re just right. May I walk in them once more?
+B: もちろんです。 || Of course.
+A: これにします。袋は要りません。 || I’ll take these. I don’t need a bag.
+Q: What does A say at the end?
+C: The shoes are too small ; A doesn’t need a bag ; A wants another color ; A will come back later
+ANS: 2
+EXP: 合う (あう) fit; もう一度 (もういちど) once more; 要る (いる) need — 要りません means I don’t need it. Extra words: 靴 (くつ), shoes; サイズ, size; 袋 (ふくろ), bag.
+
+@conversation Wake me up · Family
+A: 明日、六時に起こしてくれる？ || Can you wake me up at six tomorrow?
+B: いいよ。でも、また遅くまでゲームしないでね。 || Sure. But don’t play games until late again.
+A: 分かってる。あ、そういえば牛乳が無くなってたよ。 || I know. Oh, by the way, we’ve run out of milk.
+B: じゃあ、明日の朝、買ってくるね。 || Then I’ll buy some tomorrow morning.
+Q: What has run out?
+C: Bread ; Milk ; Eggs ; Coffee
+ANS: 2
+EXP: 起こす (おこす) wake someone up — 起こしてくれる？ means will you wake me up? 遅い (おそい) late — 遅くまで until late. 無くなる (なくなる) run out. Extra words: ゲーム, game; 牛乳 (ぎゅうにゅう), milk.
+
+@conversation A winter forest · Friends
+A: この森の中、静かだね。鳥の声しか耳に入らない。 || It’s so quiet in this forest. All I can hear is the birds.
+B: うん。でも寒くて、手が震えてきた。 || Yeah. But it’s cold, and my hands have started shaking.
+A: じゃあ、そろそろ車で移動しようか。 || Then shall we move on by car soon?
+B: 道が凍っているから、事故を起こさないようにゆっくり行こう。 || The road is icy, so let’s go slowly so we don’t cause an accident.
+Q: Why does B want to drive slowly?
+C: B is tired ; The road is icy ; They are early ; It is dark
+ANS: 2
+EXP: 森 (もり) forest; 耳に入る (みみにはいる) hear; 震える (ふるえる) shake; 移動する (いどう) move, travel; 事故を起こす (おこす) cause an accident. Extra words: 鳥 (とり), bird; 寒い (さむい), cold; 凍る (こおる), freeze.
+
+@conversation A new baby · Coworkers
+A: 田中さん、赤ちゃんが生まれたそうですね。 || Tanaka, I heard your baby was born.
+B: はい。昨日の夜、無事に生まれました。 || Yes. The baby was born safely last night.
+A: おめでとうございます！男の子ですか。 || Congratulations! Is it a boy?
+B: 女の子です。みんなが期待していた通り、元気な子です。 || A girl. Just as everyone hoped, she’s a healthy baby.
+Q: When was the baby born?
+C: This morning ; Last night ; Last week ; Not yet
+ANS: 2
+EXP: 生まれる (うまれる) be born; 無事に (ぶじに) safely; 期待する (きたい) expect, hope. Extra words: 赤ちゃん (あかちゃん), baby; おめでとうございます, congratulations.
+
+@conversation Moving the sofa · Family
+A: 子供たちが遊んでいるから、邪魔しないでね。 || The kids are playing, so don’t get in their way.
+B: でも、ソファを動かしたいんだけど。 || But I want to move the sofa.
+A: 後にして。あ、見て。隣の犬がやって来たよ。 || Do it later. Oh look, the neighbor’s dog has come over.
+B: 子供たちが喜ぶね。 || The kids will be happy.
+Q: What does B want to do?
+C: Play with the kids ; Move the sofa ; Walk the dog ; Clean the room
+ANS: 2
+EXP: 遊ぶ (あそぶ) play; 邪魔する (じゃま) get in the way; 動かす (うごかす) move something; やって来る (やってくる) come along. Extra words: ソファ, sofa; 喜ぶ (よろこぶ), be happy.
+
+@conversation Speaking practice · Friends
+A: 英語の会話、上手になったね。 || Your English conversation has gotten good.
+B: ありがとう。でも、まだ聞く能力が足りないんだ。速い英語は分からない。 || Thanks. But my listening ability still isn’t enough. I can’t understand fast English.
+A: それなら、映画を遅いスピードで見るといいよ。 || In that case, try watching movies at a slower speed.
+B: なるほど。やってみる。 || I see. I’ll try it.
+Q: What does A suggest?
+C: Taking a class ; Watching movies at a slower speed ; Reading English books ; Traveling abroad
+ANS: 2
+EXP: 会話 (かいわ) conversation; 能力 (のうりょく) ability; 遅い (おそい) slow. Extra words: 英語 (えいご), English; 足りない (たりない), not enough; 速い (はやい), fast; スピード, speed.
+
+@reading 森の朝
+TEXT: 休みの日、家族で森の中のキャンプ場へ移動しました。朝早く、鳥の声で目が覚めました。外に出ると、とても寒くて、体が震えました。でも、静かな森の中で耳を澄ますと、色々な音が聞こえてきます。期待していた以上に、心が落ち着く場所でした。 || On our day off, my family went to a campsite in the forest. Early in the morning, I woke up to the sound of birds. When I went outside, it was very cold and I shivered. But when I listened carefully in the quiet forest, I could hear all kinds of sounds. It was an even more calming place than I had expected.
+Q: How did the forest feel to the writer?
+C: Scarier than expected ; More calming than expected ; Too noisy ; Boring
+ANS: 2
+EXP: 期待していた以上に、心が落ち着く場所でした gives the answer. 森 (もり) forest; 移動する (いどう) travel; 震える (ふるえる) shiver; 耳を澄ます (みみをすます) listen carefully; 期待 (きたい) expectation. Extra words: キャンプ場 (キャンプじょう), campsite; 鳥 (とり), bird; 目が覚める, wake up; 色々 (いろいろ), various.
+
+@reading 祖母の能力
+TEXT: 私の祖母は八十歳ですが、スマホを上手に使います。メールも写真も、何でもできます。私が「どうしてそんなにできるの？」と聞くと、祖母は「分からないことは、もう一度聞けばいいのよ」と笑いました。新しいことを学ぶ能力に、年は関係ないのだと思いました。 || My grandmother is eighty, but she uses her smartphone well. Email, photos — she can do anything. When I asked her, “How can you do all that?” she laughed and said, “If you don’t understand something, you just ask again.” I realized age has nothing to do with the ability to learn new things.
+Q: What is the grandmother’s secret?
+C: She took a computer class ; She asks again when she doesn’t understand ; Her grandchild helps her every day ; She reads the manual
+ANS: 2
+EXP: 分からないことは、もう一度聞けばいいのよ gives the answer. もう一度 (もういちど) once more; 能力 (のうりょく) ability. Extra words: 祖母 (そぼ), grandmother; 歳 (さい), years old; スマホ, smartphone; 学ぶ (まなぶ), learn; 関係ない (かんけいない), unrelated.
+
+@story The day my sister was born
+N: 私が五歳の時、妹が生まれました。その夜、父が私を起こして、「無事に生まれたよ」と言いました。 || When I was five, my little sister was born. That night, my father woke me up and said, “She was born safely.”
+N: 次の日、病院で初めて妹に会いました。小さい手が少し動いていて、私は緊張して震えていました。 || The next day, I met her for the first time at the hospital. Her tiny hands were moving a little, and I was so nervous I was shaking.
+N: 妹が大きくなると、よく私の部屋にやって来て、邪魔をしました。でも今は、一番の友達です。 || As she grew up, she often came into my room and got in my way. But now she’s my best friend.
+Q: Who woke the narrator up that night?
+C: The mother ; The father ; The grandmother ; The baby
+ANS: 2
+EXP: 父が私を起こして gives the answer. 生まれる (うまれる) be born; 起こす (おこす) wake someone up; 無事に (ぶじに) safely; 動く (うごく) move; 震える (ふるえる) shake; やって来る (やってくる) come over; 邪魔 (じゃま) getting in the way. Extra words: 病院 (びょういん), hospital; 緊張する (きんちょう), be nervous.

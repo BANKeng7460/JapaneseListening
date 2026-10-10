@@ -16,5 +16,9 @@ import level460 from './kaishi-1-460.json';
 import level480 from './kaishi-1-480.json';
 import level500 from './kaishi-1-500.json';
 import level520 from './kaishi-1-520.json';
+import level540 from './kaishi-1-540.json';
+import level560 from './kaishi-1-560.json';
+import level580 from './kaishi-1-580.json';
+import level600 from './kaishi-1-600.json';
 
-export const extraLevels = [level220, level240, level260, level280, level300, level320, level340, level360, level380, level400, level420, level440, level460, level480, level500, level520] as ListeningTest[];
+export const extraLevels = [level220, level240, level260, level280, level300, level320, level340, level360, level380, level400, level420, level440, level460, level480, level500, level520, level540, level560, level580, level600] as ListeningTest[];

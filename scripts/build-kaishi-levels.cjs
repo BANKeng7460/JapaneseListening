@@ -54,8 +54,8 @@ function findForm(entry, lines, override) {
   // Short readings (e.g. さん for 三) would match unrelated words, so readings are only used when long or when the word is kana.
   const useReading = reading && (reading === word || reading.length >= 3);
   const candidates = override ? [override] : [...new Set([word, useReading && reading,
-    // Stems only for verbs and い-adjectives, so 体 (からだ) never matches から.
-    ...[word, useReading && reading].filter(w => w && /[うくぐすつぬぶむるい]$/.test(w) && w.length > 1).map(w => w.slice(0, -1))])].filter(c => c && (c.length > 1 || /[一-龯]/.test(c)));
+    // Stems only for verbs and い-adjectives, judged by the written word: 体 (からだ) never matches から, 期待 (きたい) never matches きた.
+    ...[word, useReading && reading].filter(w => w && /[うくぐすつぬぶむるい]$/.test(word) && w.length > 1).map(w => w.slice(0, -1))])].filter(c => c && (c.length > 1 || /[一-龯]/.test(c)));
   for (const c of candidates) {
     for (let li = 0; li < lines.length; li++) {
       const at = lines[li].text.indexOf(c);

@@ -1,0 +1,86 @@
+# Level 30 · words 581–600
+@forms 581=逆に 586=構わない 597=いくら 590=週の終わり
+
+@conversation A beach trip · Friends
+A: 夏休み、みんなで海に行かない？ || Shall we all go to the beach in the summer holidays?
+B: いいね！何時にどこに集まる？ || Sounds great! Where and what time should we meet?
+A: 駅に九時。必ず遅れないでね。 || The station at nine. Make sure you’re not late.
+B: 分かった。思いきり楽しもう！ || Got it. Let’s have a great time!
+Q: Where will they meet?
+C: At the beach ; At the station ; At A’s house ; At a café
+ANS: 2
+EXP: 海 (うみ) sea, beach; 集まる (あつまる) gather, meet up; 必ず (かならず) without fail; 楽しむ (たのしむ) enjoy. Extra words: 夏休み (なつやすみ), summer holidays; 思いきり (おもいきり), to the fullest.
+
+@conversation A game of shogi · Siblings
+A: ほら、君の王を狙ってるよ。 || Look, I’m going after your king.
+B: まだ諦めないよ。 || I’m not giving up yet.
+A: あれ？逆に、こっちの王が危ない…！ || Huh? Actually it’s my king that’s in danger…!
+B: やった！ || Yes!
+Q: What happens at the end?
+C: A wins easily ; A’s own king is in danger ; B gives up ; They stop playing
+ANS: 2
+EXP: 王 (おう) king; 狙う (ねらう) aim at; 諦める (あきらめる) give up; 逆に (ぎゃくに) on the contrary, the other way around. Extra words: 将棋 (しょうぎ), Japanese chess; 危ない (あぶない), in danger.
+
+@conversation The lottery stand · Festival
+A: すみません、このくじは一回いくらですか。 || Excuse me, how much is one go on this lottery?
+B: 三百円です。一等はゲーム機ですよ。 || Three hundred yen. First prize is a game console.
+A: 当たらないと思いますけど、一応、一回引いてみます。 || I don’t think I’ll win, but I’ll try once anyway.
+B: はい、どうぞ。 || Here you go.
+Q: How much is one try?
+C: One hundred yen ; Three hundred yen ; Five hundred yen ; It’s free
+ANS: 2
+EXP: いくら how much; 一応 (いちおう) just in case, anyway; 引く (ひく) draw — くじを引く means draw a lottery ticket. Extra words: くじ, lottery; 一等 (いっとう), first prize; ゲーム機 (ゲームき), game console; 当たる (あたる), win.
+
+@conversation Getting used to work · Friends
+A: 新しい仕事、もう慣れた？ || Have you gotten used to the new job yet?
+B: まだまだ。説明の途中で、分からない部分が沢山あって。 || Not yet. There are lots of parts I don’t understand partway through explanations.
+A: 最初はみんなそうだよ。 || Everyone’s like that at first.
+B: そうだね。でも、週の終わりにはいつも疲れてる。 || I guess so. But by the end of the week I’m always tired.
+Q: What is hard for B?
+C: Getting to work on time ; Understanding some parts of explanations ; Talking to customers ; Using the computer
+ANS: 2
+EXP: 慣れる (なれる) get used to; 途中 (とちゅう) partway; 部分 (ぶぶん) part; 終わり (おわり) end — 週の終わり means the end of the week. Extra words: 説明 (せつめい), explanation; 最初 (さいしょ), at first; 疲れる (つかれる), be tired.
+
+@conversation A dropped phone · Friends
+A: 昨日、駅でスマホを落としちゃって、思わず叫んだよ。 || Yesterday I dropped my phone at the station and couldn’t help shouting.
+B: え、見つかった？ || Oh no, did you find it?
+A: うん。必死に探したら、ベンチの下にあった。 || Yeah. I searched like crazy and it was under a bench.
+B: よかったね。今日は雨だから、私の傘を使っても構わないよ。 || Good. It’s raining today, so you’re welcome to use my umbrella.
+Q: Where was the phone?
+C: On the train ; Under a bench ; In A’s bag ; At the ticket gate
+ANS: 2
+EXP: 落とす (おとす) drop; 叫ぶ (さけぶ) shout; 必死に (ひっしに) desperately; 構わない (かまわない) it’s fine, I don’t mind — from 構う. Extra words: スマホ, smartphone; ベンチ, bench; 傘 (かさ), umbrella.
+
+@conversation After the meeting · Coworkers
+A: 部長の説明、納得できましたか。 || Were you convinced by the manager’s explanation?
+B: 正直、あまり納得していません。 || Honestly, I’m not really convinced.
+A: 私もです。後で、もう一度聞いてみましょう。 || Me neither. Let’s ask again later.
+B: そうですね。 || Good idea.
+Q: How do they feel about the explanation?
+C: They both agree with it ; They aren’t really convinced ; They didn’t hear it ; They think it was too long
+ANS: 2
+EXP: 納得する (なっとく) be convinced, accept. 正直 (しょうじき) honestly; もう一度 (もういちど) once more. Extra word: 部長 (ぶちょう), manager.
+
+@reading 夏の海
+TEXT: 去年の夏、大学の友達と海へ行きました。朝早く駅に集まって、電車で二時間移動しました。海に着くと、みんな子供みたいに叫びながら走り出しました。泳いだり、砂で大きな城を作ったりして、一日中楽しみました。帰りの電車では、全員が途中で寝てしまいました。 || Last summer I went to the beach with my university friends. We met at the station early in the morning and traveled two hours by train. When we got to the sea, everyone started running and shouting like children. We swam, built a big sandcastle and so on, and enjoyed ourselves all day. On the train home, everyone fell asleep partway.
+Q: What happened on the train home?
+C: They played cards ; Everyone fell asleep ; They missed their stop ; They planned the next trip
+ANS: 2
+EXP: 帰りの電車では、全員が途中で寝てしまいました gives the answer. 海 (うみ) sea; 集まる (あつまる) gather; 叫ぶ (さけぶ) shout; 楽しむ (たのしむ) enjoy; 途中 (とちゅう) partway. Extra words: 大学 (だいがく), university; 泳ぐ (およぐ), swim; 砂 (すな), sand; 城 (しろ), castle.
+
+@reading 諦めない王様
+TEXT: 昔、ある国に、戦いで全てを失った王がいました。部下たちは「もう諦めましょう」と言いましたが、王は納得しませんでした。王は必死に小さな村を回り、人々の話を聞きました。逆に、何もない王の姿を見て、村の人たちは力を貸すことにしました。王は少しずつ国を取り戻していきました。 || Long ago, in a certain country, there was a king who had lost everything in a war. His followers said, “Let’s give up,” but the king wasn’t convinced. He desperately went around the small villages and listened to the people. Seeing the king with nothing, the villagers, on the contrary, decided to lend him their strength. Little by little, the king won his country back.
+Q: Why did the villagers help the king?
+C: He paid them money ; Seeing him with nothing moved them ; He was their relative ; He threatened them
+ANS: 2
+EXP: 何もない王の姿を見て、村の人たちは力を貸すことにしました gives the reason. 王 (おう) king; 諦める (あきらめる) give up; 納得する (なっとく) accept; 必死に (ひっしに) desperately; 逆に (ぎゃくに) on the contrary. Extra words: 戦い (たたかい), war; 失う (うしなう), lose; 部下 (ぶか), follower; 村 (むら), village; 取り戻す (とりもどす), win back.
+
+@story Learning to swim
+N: 私は子供の頃、海が怖くて、泳げませんでした。何度練習しても、途中で諦めてしまいました。 || As a child I was scared of the sea and couldn’t swim. However many times I practiced, I gave up partway.
+N: 大人になって、一応プールに通い始めました。最初は水に慣れるだけで必死でした。 || As an adult, I started going to a pool, just in case. At first it took everything I had just to get used to the water.
+N: 半年後、初めて二十五メートル泳げた時、思わず叫んでしまいました。 || Six months later, when I swam twenty-five meters for the first time, I couldn’t help shouting.
+N: 今年の夏は、必ず海で泳ぐつもりです。 || This summer, I’m definitely going to swim in the sea.
+Q: What does the narrator plan to do this summer?
+C: Join a swimming team ; Swim in the sea ; Teach children to swim ; Stop going to the pool
+ANS: 2
+EXP: 今年の夏は、必ず海で泳ぐつもりです gives the answer. 頃 (ころ) time; 途中 (とちゅう) partway; 諦める (あきらめる) give up; 一応 (いちおう) just in case; 慣れる (なれる) get used to; 必死 (ひっし) desperate; 叫ぶ (さけぶ) shout; 必ず (かならず) definitely. Extra words: 泳ぐ (およぐ), swim; 練習 (れんしゅう), practice; 大人 (おとな), adult; プール, pool; 通う (かよう), go regularly; 半年 (はんとし), six months; メートル, meter.
