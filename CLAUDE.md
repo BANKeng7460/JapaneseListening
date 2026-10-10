@@ -32,6 +32,7 @@ Shared pieces:
 - `hooks/use-dialogue-speech.ts`: browser TTS for conversations, with a voice per speaker.
 - `lib/speech.ts` + `components/voice-select.tsx`: one saved browser voice for grammar, flashcards and the mistake game.
 - `components/grammar-used.tsx`: the "Grammar used here" box under passages and answered conversations.
+- `lib/reading-fix.ts`: every TTS call goes through `toSpeech()`, which swaps kanji that voices misread for kana (明日→あした, 来ます→きます, 十分くらい→じゅっぷん…) and maps positions back for transcript highlighting. Add new misread words there plus a case in `tests/reading-fix.test.cjs`.
 
 ## Data and where it comes from
 | Data | Source / builder |

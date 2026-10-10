@@ -1,5 +1,6 @@
 // Browser text-to-speech for single Japanese sentences, shared by the grammar page, flashcards and the mistake game.
 // One saved voice is used everywhere; it falls back to the voice chosen on the listening pages.
+import { toSpeech } from './reading-fix';
 export const voiceKey = 'kiku-grammar-voice';
 export const voiceId = (voice: SpeechSynthesisVoice) => JSON.stringify([voice.voiceURI, voice.name, voice.lang]);
 
@@ -21,7 +22,7 @@ export function speakJapanese(text: string) {
   const synth = window.speechSynthesis;
   if (!synth) return;
   const voices = japaneseVoices(), saved = savedVoiceId();
-  const utterance = new SpeechSynthesisUtterance(text);
+  const utterance = new SpeechSynthesisUtterance(toSpeech(text).spoken);
   utterance.lang = 'ja-JP';
   utterance.voice = voices.find(v => voiceId(v) === saved) || voices[0] || null;
   synth.cancel();

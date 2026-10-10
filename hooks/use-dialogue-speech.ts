@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { DialogueLine, Speaker } from '../data/tests';
+import { toSpeech } from '../lib/reading-fix';
 
 const voiceKey = (voice: SpeechSynthesisVoice) => JSON.stringify([voice.voiceURI, voice.name, voice.lang]);
 
@@ -87,12 +88,18 @@ export function useDialogueSpeech(solo = false) {
       if (pausedRef.current) { pendingLine.current = () => speakLine(index); return; }
       if (index === lines.length) { stop(); setStatus(solo ? 'Story complete. Press play to listen again.' : 'Conversation complete. Press play to listen again.'); return; }
       const line = lines[index];
-      const speech = new SpeechSynthesisUtterance(line.text.slice(offset));
+      // Speak kana for kanji the voices misread (明日 → あした); origin() maps positions back for highlighting.
+      const { spoken, origin } = toSpeech(line.text.slice(offset));
+      const speech = new SpeechSynthesisUtterance(spoken);
       utterance.current = speech;
       speech.lang = 'ja-JP'; speech.rate = rate;
       speech.voice = voices.find(v => voiceKey(v) === selected[line.speaker]) || null;
       // Word boundaries (Edge / Microsoft voices) move the highlight word by word; other voices highlight the line.
-      speech.onboundary = event => { if (id === generation.current) setPosition({ line: index, char: offset + event.charIndex, length: event.charLength || 1 }); };
+      speech.onboundary = event => {
+        if (id !== generation.current) return;
+        const from = origin(event.charIndex), to = origin(event.charIndex + (event.charLength || 1));
+        setPosition({ line: index, char: offset + from, length: Math.max(1, to - from) });
+      };
       speech.onstart = () => { if (id === generation.current) setPosition({ line: index, char: offset, length: 0 }); if (id === generation.current && !pausedRef.current) setStatus(solo ? 'Narrator speaking…' : `Speaker ${line.speaker} speaking · Line ${index + 1} of ${lines.length}`); };
       speech.onend = () => speakLine(index + 1);
       speech.onerror = event => {
