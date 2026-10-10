@@ -1,0 +1,87 @@
+# Level 24 · words 461–480
+@forms 471=結構です 472=結構痛い 476=子供用 467=止まって
+
+@conversation At the register · Clerk and customer
+A: 袋はお付けしますか。 || Would you like a bag?
+B: いえ、結構です。 || No, thank you.
+B: あと、子供用のスプーンもありますか。 || Also, do you have spoons for children?
+A: はい、こちらにどうぞ。 || Yes, here you are.
+Q: What does the customer ask for?
+C: A bag ; A spoon for children ; A receipt ; Chopsticks
+ANS: 2
+EXP: 結構です means no, thank you. 子供用 (こどもよう) means for children — 用 means for (a use). Extra words: 袋 (ふくろ), bag; スプーン, spoon.
+
+@conversation A new job · Friends
+A: 新しい仕事、どう？ || How’s the new job?
+B: ちょっと不安なんだ。いきなり大事な仕事を任せてもらって。 || I’m a bit anxious. They suddenly gave me an important job.
+A: 凄いじゃない。信頼されてるんだよ。 || That’s great. It means they trust you.
+B: そうだといいんだけど。 || I hope so.
+Q: Why is B anxious?
+C: B might lose the job ; B was suddenly given an important task ; B doesn’t like the boss ; B is always late
+ANS: 2
+EXP: 新しい (あたらしい) new; 不安 (ふあん) anxious; いきなり suddenly; 大事 (だいじ) important; 任せる (まかせる) entrust. Extra word: 信頼 (しんらい), trust.
+
+@conversation A sore back · Family
+A: 背中が痛い…。 || My back hurts…
+B: また壁に寄りかかって寝たの？ || Did you fall asleep leaning against the wall again?
+A: うん。今回は結構痛いんだよね。 || Yeah. This time it hurts quite a lot.
+B: どの程度？病院に行く？ || How bad? Should you go to the hospital?
+A: そこまでじゃないよ。 || It’s not that bad.
+Q: How did A hurt their back?
+C: Lifting something heavy ; Sleeping against the wall ; Playing sports ; Falling down the stairs
+ANS: 2
+EXP: 背中 (せなか) back; 壁 (かべ) wall; 結構 (けっこう) quite; 程度 (ていど) degree — どの程度 means how much. Extra words: 寄りかかる (よりかかる), lean on; 病院 (びょういん), hospital.
+
+@conversation A red morning sky · Couple
+A: 見て、朝の空が赤いよ。 || Look, the morning sky is red.
+B: 本当だ。きれいだね。 || So it is. It’s beautiful.
+A: 朝焼けって言うんだって。 || It’s called a morning glow, apparently.
+B: 早く起きてよかったね。 || Good thing we got up early.
+Q: What are they looking at?
+C: A red car ; The red morning sky ; A sunset ; A fire
+ANS: 2
+EXP: 朝 (あさ) morning; 空 (そら) sky; 赤い (あかい) red. Extra word: 朝焼け (あさやけ), red sky at sunrise.
+
+@conversation A sudden stop · Coworkers
+A: さっき、バスがいきなり止まって、びっくりしました。 || A little while ago my bus stopped all of a sudden — I got such a shock.
+B: 大丈夫でしたか。 || Were you okay?
+A: はい。猫が飛び出したのに、運転手さんがすぐ気付いたんです。 || Yes. A cat ran out, but the driver noticed right away.
+B: 誰もけがをしないで済んで、よかったですね。 || It’s good nobody got hurt.
+Q: Why did the bus stop suddenly?
+C: A car hit it ; A cat ran out in front of it ; It broke down ; A passenger fell
+ANS: 2
+EXP: いきなり suddenly; 止まる (とまる) stop; 気付く (きづく) notice; 済む (すむ) end up — けがをしないで済んだ means it ended without anyone getting hurt. Extra words: バス, bus; 飛び出す (とびだす), run out; 運転手 (うんてんしゅ), driver; けが, injury.
+
+@conversation Important papers · Office
+A: この書類、部長に渡してもらえますか。 || Could you hand these documents to the manager?
+B: はい。部長は会議中なので、机にメモを残しておきますね。 || Sure. The manager is in a meeting, so I’ll leave a note on the desk.
+A: 助かります。この書類は会社の命ですから、なくさないでくださいね。 || Thanks. These documents are the lifeblood of the company, so please don’t lose them.
+B: 分かりました。気を付けます。 || Understood. I’ll be careful.
+Q: What will B leave on the manager’s desk?
+C: The documents only ; A note ; A gift ; The key
+ANS: 2
+EXP: 渡す (わたす) hand over; 残す (のこす) leave; 命 (いのち) life — 会社の命 means extremely important to the company. Extra words: 書類 (しょるい), documents; 部長 (ぶちょう), manager; メモ, note.
+
+@reading 赤い傘
+TEXT: 先週の朝、駅のトイレに新しい赤い傘を忘れてしまいました。気付いたのは、電車に乗った後でした。「もう戻ってこないだろう」と思っていましたが、次の日、駅の人に聞いてみると、傘はちゃんと残っていました。誰かが届けてくれたようです。大事な傘だったので、本当に安心しました。 || One morning last week, I left my new red umbrella in the station restroom. I only noticed after getting on the train. I thought, “It won’t come back,” but the next day when I asked the station staff, the umbrella was still there. It seems someone had handed it in. It was an important umbrella to me, so I was truly relieved.
+Q: Where was the umbrella in the end?
+C: On the train ; Kept at the station ; At a friend’s house ; It was never found
+ANS: 2
+EXP: 駅の人に聞いてみると、傘はちゃんと残っていました gives the answer. 朝 (あさ) morning; 新しい (あたらしい) new; 赤い (あかい) red; 気付く (きづく) notice; 残る (のこる) remain; 大事 (だいじ) important. Extra words: トイレ, restroom; 傘 (かさ), umbrella; 届ける (とどける), hand in.
+
+@reading 命の大事さ
+TEXT: 去年、祖父が急に入院しました。いつも元気だった祖父が、ベッドの上で動けない姿を見て、とても不安になりました。幸い、手術はうまくいって、祖父は一か月で家に帰ることができました。この経験から、命の大事さを強く感じました。今は毎月、祖父に会いに行くようにしています。 || Last year my grandfather was suddenly hospitalized. Seeing him, always so healthy, unable to move in his bed, I became very anxious. Fortunately, the operation went well and he was able to go home after a month. From this experience, I strongly felt how precious life is. Now I make sure to visit him every month.
+Q: What does the writer do now?
+C: Visits the grandfather every month ; Works at a hospital ; Lives with the grandfather ; Calls the grandfather every day
+ANS: 1
+EXP: 今は毎月、祖父に会いに行くようにしています gives the answer. 不安 (ふあん) anxious; 命 (いのち) life; 大事さ (だいじさ) importance. Extra words: 祖父 (そふ), grandfather; 入院 (にゅういん), hospitalization; ベッド, bed; 幸い (さいわい), fortunately; 手術 (しゅじゅつ), operation; 経験 (けいけん), experience.
+
+@story My first big task
+N: 新しい会社に入って三か月目、初めて一人で大事な仕事を任されました。 || In my third month at the new company, I was given an important task to handle on my own for the first time.
+N: 不安で、毎朝早く会社に行って、何度も準備をしました。 || I was anxious, so I went to the office early every morning and prepared again and again.
+N: 発表の日、部長は何も言わずに、最後まで聞いてくれました。 || On the day of the presentation, the manager listened to the end without saying a word.
+N: 終わった後、部長は私の背中を軽くたたいて、「結構よかったよ」と言いました。その一言で、胸の中の不安が消えました。 || When it was over, the manager patted me on the back and said, “That was pretty good.” With those words, the anxiety in my chest disappeared.
+Q: What did the manager do after the presentation?
+C: Asked many questions ; Patted the narrator’s back and praised them ; Said it needed more work ; Left without a word
+ANS: 2
+EXP: 部長は私の背中を軽くたたいて、「結構よかったよ」と言いました gives the answer. 任せる (まかせる) entrust; 不安 (ふあん) anxiety; 背中 (せなか) back; 結構 (けっこう) quite. Extra words: 発表 (はっぴょう), presentation; 部長 (ぶちょう), manager; たたく, pat; 一言 (ひとこと), a word.

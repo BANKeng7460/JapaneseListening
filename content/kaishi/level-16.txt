@@ -1,0 +1,87 @@
+# Level 16 · words 301–320
+@forms 304=発表の日 305=少しの間 306=あっという間
+
+@conversation Asking the way · On the street
+A: すみません、駅はどこですか。 || Excuse me, where is the station?
+B: この道をまっすぐ行って、最初の角を右に曲がってください。 || Go straight along this road and turn right at the first corner.
+A: 右ですね。 || Right, okay.
+B: はい。それから、最後の信号を左です。 || Yes. And then left at the last traffic light.
+Q: Which way should A turn at the last traffic light?
+C: Right ; Left ; Straight on ; Back the way they came
+ANS: 2
+EXP: 最初 (さいしょ) first; 最後 (さいご) last; 右 (みぎ) right; 左 (ひだり) left. Extra words: 道 (みち), road; まっすぐ, straight; 角 (かど), corner; 曲がる (まがる), turn; 信号 (しんごう), traffic light.
+
+@conversation First time in Japan · Friends
+A: 日本は初めて？ || Is this your first time in Japan?
+B: うん、初めて。人が多くてびっくりした。 || Yeah, it’s my first time. I was surprised how many people there are.
+A: 東京はどんな感じ？ || What’s Tokyo like?
+B: 毎日お祭りみたいな感じ！でも、漢字を覚えるのが難しいよ。 || Like a festival every day! But memorizing kanji is hard.
+Q: What does B find difficult?
+C: The crowded trains ; Memorizing kanji ; The food ; Finding a place to live
+ANS: 2
+EXP: 初めて (はじめて) for the first time; 多い (おおい) many; どんな感じ (かんじ) means what’s it like; 覚える (おぼえる) memorize. Extra words: びっくりする, be surprised; 祭り (まつり), festival; 漢字 (かんじ), kanji.
+
+@conversation A forgotten birthday · Couple
+A: ごめん！昨日、君の誕生日だったよね。今、思い出した。 || Sorry! Yesterday was your birthday, wasn’t it? I just remembered.
+B: 別にいいよ。 || It’s fine. Whatever.
+A: 本当にごめん。何か欲しいものある？ || I’m really sorry. Is there anything you want?
+B: 別に…。じゃあ、今夜おいしいご飯に連れていって。 || Not really… Then take me somewhere nice for dinner tonight.
+Q: What does B ask for in the end?
+C: A new bag ; A nice dinner tonight ; Flowers ; Nothing at all
+ANS: 2
+EXP: ごめん is a casual sorry. 思い出す (おもいだす) remember. 別に (べつに) means not really — 別にいいよ can sound a little hurt. 欲しい (ほしい) want. Extra words: 誕生日 (たんじょうび), birthday; 今夜 (こんや), tonight; 連れていく, take someone.
+
+@conversation At the clinic · Doctor and patient
+A: 今日はどうしましたか。 || What brings you in today?
+B: 三日前から胸が痛いんです。 || My chest has hurt since three days ago.
+A: では、少しの間、息を止めてください。…はい、大丈夫ですね。 || Then please hold your breath for a moment. … Okay, that’s fine.
+B: よかった。 || What a relief.
+A: でも、一週間は無理をしないでください。 || But please don’t overdo it for a week.
+Q: What does the doctor tell B?
+C: To go to a big hospital ; Not to push too hard for a week ; To come back tomorrow ; To stop drinking coffee
+ANS: 2
+EXP: 胸 (むね) chest; 少しの間 (あいだ) for a moment; 無理をしない means don’t overdo it. Extra words: 痛い (いたい), hurt; 息を止める (いきをとめる), hold your breath; 一週間 (いっしゅうかん), a week.
+
+@conversation After the movie · Friends
+A: あの映画、最後のところ、どう思った？ || What did you think of the end of that movie?
+B: 主人公の表情がよかったね。 || The main character’s expression was great.
+A: うん。「生きるって何だろう」って考えちゃった。 || Yeah. It made me wonder, “What does it mean to live?”
+B: 本当に。あっという間の二時間だったよ。 || Totally. The two hours flew by.
+Q: How did the two hours feel to B?
+C: Very long ; They passed in a flash ; Boring at the start ; Hard to follow
+ANS: 2
+EXP: 表情 (ひょうじょう) facial expression; 生きる (いきる) live; あっという間 (ま) means in an instant — 間 is read ま here. 最後 (さいご) the end. Extra words: 映画 (えいが), movie; 主人公 (しゅじんこう), main character.
+
+@conversation A class presentation · Classmates
+A: 発表、何について話すの？ || What are you talking about in your presentation?
+B: 日本のお正月について話すつもり。 || I’m going to talk about Japanese New Year.
+A: いいね。発表の日はいつ？ || Nice. When is the presentation day?
+B: 金曜日。最初は緊張すると思うけど、頑張るよ。 || Friday. I think I’ll be nervous at first, but I’ll do my best.
+Q: What is B’s presentation about?
+C: Japanese New Year ; Japanese festivals in summer ; B’s family ; Studying abroad
+ANS: 1
+EXP: について means about. 発表の日 (ひ) means the day of the presentation — 日 is read ひ for “day”. 最初は means at first. Extra words: 発表 (はっぴょう), presentation; お正月 (おしょうがつ), New Year; 金曜日 (きんようび), Friday; 緊張する (きんちょう), be nervous.
+
+@reading 初めての一人旅
+TEXT: 去年の秋、初めて一人で旅行をしました。最初は少し心配でしたが、旅の間に、いろいろな人と話すことができました。道が分からない時は、町の人が優しく教えてくれました。最後の日、駅で会ったおばあさんがお菓子をくれました。今でも、あの時の嬉しい気持ちをよく思い出します。 || Last autumn I traveled alone for the first time. At first I was a bit worried, but during the trip I got to talk with all kinds of people. When I didn’t know the way, local people kindly told me. On the last day, an old woman I met at the station gave me some sweets. Even now I often remember how happy I felt then.
+Q: What happened on the last day of the trip?
+C: The writer got lost ; An old woman gave the writer sweets ; The writer missed the train ; The writer met a friend
+ANS: 2
+EXP: 最後の日、駅で会ったおばあさんがお菓子をくれました gives the answer. 初めて (はじめて) for the first time; 最初 (さいしょ) at first; 旅の間 (あいだ) during the trip; 思い出す (おもいだす) remember. Extra words: 旅行 (りょこう) / 旅 (たび), trip; 道 (みち), way; お菓子 (おかし), sweets.
+
+@reading 名前を覚える方法
+TEXT: 私は人の名前を覚えるのが苦手です。今の会社は人が多くて、最初はみんなの名前を覚えるのは無理だと思いました。そこで、初めて会った日に、相手の名前と顔の感じをノートに書くことにしました。毎晩それを読むと、少しずつ覚えられるようになりました。 || I’m bad at remembering people’s names. My current company has lots of people, and at first I thought remembering everyone’s name was impossible. So I decided to write down each person’s name and what their face looked like in a notebook on the day I first met them. By reading it every night, I gradually became able to remember them.
+Q: What did the writer do to remember names?
+C: Asked coworkers to wear name tags ; Wrote names and face impressions in a notebook ; Took photos of everyone ; Repeated names out loud
+ANS: 2
+EXP: 相手の名前と顔の感じをノートに書くことにしました gives the answer. 覚える (おぼえる) remember; 多い (おおい) many; 無理 (むり) impossible; 感じ (かんじ) impression. Extra words: 苦手 (にがて), bad at; 会社 (かいしゃ), company; ノート, notebook; 毎晩 (まいばん), every night.
+
+@story Grandfather’s words
+N: おじいさんは、私が十歳の時に死にました。 || My grandfather died when I was ten.
+N: 最後に会った日、おじいさんは私の頭に手を置いて、「自分の好きなように生きなさい」と言いました。 || The last day I saw him, he put his hand on my head and said, “Live the way you want to.”
+N: その時の優しい表情を、今でもよく思い出します。 || I still often remember the kind look on his face then.
+N: 仕事で困った時、私はいつもあの言葉を思い出して、胸に手を当てます。 || When I’m in trouble at work, I always remember those words and put my hand on my chest.
+Q: What did the grandfather tell the narrator?
+C: To study hard ; To live the way they want ; To take care of the family ; To become a teacher
+ANS: 2
+EXP: 自分の好きなように生きなさい means live the way you like. 最後 (さいご) last; 表情 (ひょうじょう) expression; 思い出す (おもいだす) remember; 胸 (むね) chest. Extra words: 困る (こまる), be in trouble; 当てる (あてる), put against.

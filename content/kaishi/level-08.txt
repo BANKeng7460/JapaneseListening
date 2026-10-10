@@ -1,0 +1,9 @@
+# Level 8 · words 141–160 (solo story only)
+@story Helping at the bakery
+N: 今度の土曜日、近くのパン屋さんを手伝う約束をしました。お店はとても忙しいそうです。 || I promised to help at the nearby bakery this Saturday. Apparently the shop is very busy.
+N: さっき、お店の人から電話がありました。「この前と同じ時間に来てください」と言われました。 || A little while ago, someone from the shop called. They told me, “Please come at the same time as last time.”
+N: 私はこれから、エプロンを買いに行きます。約束はちゃんと守りたいし、この仕事を続けるのも楽しみです。 || Now I’m going to buy an apron. I want to keep my promise properly, and I’m looking forward to continuing this work.
+Q: What is the narrator going to do now?
+C: Go to the bakery ; Buy an apron ; Call the shop back ; Bake bread at home
+ANS: 2
+EXP: これから、エプロンを買いに行きます gives the answer. 今度 (こんど) this coming; 手伝う (てつだう) help; 約束 (やくそく) promise; 忙しい (いそがしい) busy; さっき a little while ago; 同じ (おなじ) same; これから from now; 守る (まもる) keep; 続ける (つづける) continue. Extra words: 土曜日 (どようび), Saturday; パン屋 (パンや), bakery; エプロン, apron; 楽しみ (たのしみ), something to look forward to.

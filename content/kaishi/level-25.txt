@@ -1,0 +1,86 @@
+# Level 25 · words 481–500
+
+@conversation A new puppy · Friends
+A: 見て、うちの新しい犬。可愛いでしょう。 || Look, our new puppy. Cute, right?
+B: 可愛い！白い毛がふわふわだね。 || So cute! His white fur is so fluffy.
+A: 子供たちがとても喜んでるよ。 || The kids are really happy.
+B: 名前はもう決まった？ || Have you decided on a name yet?
+A: うん。「ゆき」だよ。雪みたいな色だから。 || Yes, “Yuki.” Because he’s the color of snow.
+Q: Why is the dog named Yuki?
+C: It was born in winter ; Its fur is the color of snow ; The kids like snow ; It came from a snowy town
+ANS: 2
+EXP: 可愛い (かわいい) cute; 白い (しろい) white; 喜ぶ (よろこぶ) be delighted; 色 (いろ) color. Extra words: 犬 (いぬ), dog; 毛 (け), fur; ふわふわ, fluffy; 雪 (ゆき), snow.
+
+@conversation The parcel finally arrived · Family
+A: 頼んでいた本、ようやく届いたよ。 || The book I ordered finally arrived.
+B: よかったね。一週間もかかったね。 || Good. It took a whole week.
+A: うん。読むのが楽しみ。今夜から始めるよ。 || Yeah. I can’t wait to read it. I’ll start tonight.
+B: 静かな夜にぴったりだね。 || Perfect for a quiet night.
+Q: How long did it take for the book to arrive?
+C: One day ; Three days ; A whole week ; A month
+ANS: 3
+EXP: ようやく finally; 届く (とどく) arrive; 静か (しずか) quiet. Extra words: 頼む (たのむ) here means order; 一週間 (いっしゅうかん), a week; 楽しみ (たのしみ), looking forward to; ぴったり, perfect.
+
+@conversation A sudden storm · Coworkers
+A: 突然、雨が降ってきましたね。 || It suddenly started raining.
+B: 本当に急ですね。傘を持ってこなかった。 || It really is sudden. I didn’t bring an umbrella.
+A: 向こうのコンビニで、傘が買えますよ。 || You can buy an umbrella at the convenience store over there.
+B: そうします。あ、風で帽子が飛んだ！ || I’ll do that. Oh, the wind blew my hat away!
+Q: What happened to B’s hat?
+C: It got wet ; The wind blew it away ; B left it at work ; Someone took it
+ANS: 2
+EXP: 突然 (とつぜん) suddenly; 急 (きゅう) sudden; 向こう (むこう) over there; 飛ぶ (とぶ) fly — 帽子が飛んだ means the hat blew away. Extra words: 傘 (かさ), umbrella; コンビニ, convenience store; 風 (かぜ), wind; 帽子 (ぼうし), hat.
+
+@conversation The new club · Friends
+A: サークルの仲間、ほとんど初心者なんだって。 || Apparently almost everyone in the club is a beginner.
+B: よかった。私も始まったばかりだから安心した。 || Good. I’ve only just started too, so that’s a relief.
+A: 練習の後、思わず笑っちゃうくらい、みんな下手なんだよ。 || After practice, everyone is so bad you can’t help laughing.
+B: 楽しそう！私も早く仲間に入りたい。 || Sounds fun! I want to join everyone soon.
+Q: What does A say about the club members?
+C: They are all experts ; Almost all of them are beginners ; They are very serious ; They don’t talk much
+ANS: 2
+EXP: 仲間 (なかま) friends, teammates; ほとんど almost all; 始まる (はじまる) begin — 始まったばかり means just started; 思わず (おもわず) without meaning to. Extra words: サークル, club; 初心者 (しょしんしゃ), beginner; 練習 (れんしゅう), practice; 下手 (へた), bad at.
+
+@conversation A stiff shoulder · Office
+A: 最近、肩が痛くて…。 || Lately my shoulders have been hurting…
+B: ずっとパソコンを使ってるからですよ。たまには休んでください。 || It’s because you’re using the computer all the time. Take a break now and then.
+A: 部長に休みを求めたら、認めてもらえるかな。 || If I ask the manager for time off, I wonder if they’ll approve it.
+B: 大丈夫ですよ。あなた自身の体が一番大事ですから。 || I’m sure it’ll be fine. Your own health matters most.
+Q: What is A thinking of asking the manager for?
+C: A raise ; Time off ; A new computer ; A different desk
+ANS: 2
+EXP: 肩 (かた) shoulder; 求める (もとめる) ask for; 認める (みとめる) approve; 自身 (じしん) oneself — あなた自身 means you yourself. Extra words: パソコン, computer; たまに, now and then; 部長 (ぶちょう), manager.
+
+@conversation Meeting again · Old classmates
+A: また会えて嬉しい！再び会えるなんて思わなかった。 || I’m so happy to see you again! I never thought we’d meet again.
+B: 本当に。十年ぶりだね。 || Really. It’s been ten years.
+A: 全然変わってないね。 || You haven’t changed at all.
+B: そっちこそ。次は、みんなで集まろうよ。 || Neither have you. Next time, let’s get everyone together.
+Q: How long has it been since they met?
+C: One year ; Five years ; Ten years ; Twenty years
+ANS: 3
+EXP: 再び (ふたたび) again — more formal than また. 十年ぶり means for the first time in ten years. Extra word: 集まる (あつまる), gather.
+
+@reading 鳥が飛んできた日
+TEXT: 今朝、突然、小さい白い鳥が部屋の中に飛んできました。窓を開けていたからです。鳥は本棚の上に止まって、静かに私を見ていました。私は思わず笑ってしまいました。五分ぐらいすると、鳥は再び窓から外へ飛んでいきました。何でもない朝でしたが、少し嬉しい気持ちになりました。 || This morning, a small white bird suddenly flew into my room, because I’d left the window open. It landed on top of the bookshelf and quietly looked at me. I couldn’t help laughing. After about five minutes, the bird flew out of the window again. It was an ordinary morning, but it made me feel a little happy.
+Q: Why could the bird come into the room?
+C: The door was open ; The window was open ; The writer let it in ; It came down the chimney
+ANS: 2
+EXP: 窓を開けていたからです gives the reason. 突然 (とつぜん) suddenly; 白い (しろい) white; 飛ぶ (とぶ) fly; 静か (しずか) quiet; 思わず (おもわず) without meaning to; 再び (ふたたび) again. Extra words: 鳥 (とり), bird; 窓 (まど), window; 本棚 (ほんだな), bookshelf.
+
+@reading ようやく届いた手紙
+TEXT: 外国に住んでいる友達に手紙を送りましたが、なかなか届きませんでした。一か月後、ようやく友達から返事が来ました。手紙には、友達自身が描いた可愛い絵がありました。友達は「手紙をもらって、とても喜んでいます」と書いていました。メールの時代でも、手紙にはメールにはない温かさがあると思います。 || I sent a letter to a friend living abroad, but it took a long time to arrive. A month later, I finally got a reply. In the letter was a cute drawing that my friend had made themselves. My friend wrote, “I was so happy to get your letter.” Even in the age of email, I think letters have a warmth that email doesn’t.
+Q: What was in the friend’s reply?
+C: A photo ; A cute drawing by the friend ; Some money ; A plane ticket
+ANS: 2
+EXP: 友達自身が描いた可愛い絵がありました gives the answer. 届く (とどく) arrive; ようやく finally; 自身 (じしん) oneself; 可愛い (かわいい) cute; 喜ぶ (よろこぶ) be delighted. Extra words: 外国 (がいこく), abroad; 返事 (へんじ), reply; 描く (かく), draw; 時代 (じだい), era; 温かさ (あたたかさ), warmth.
+
+@story My new teammates
+N: 春から、会社のバレーボールチームに入りました。 || From spring, I joined my company’s volleyball team.
+N: 最初は、ほとんど誰とも話せませんでしたが、仲間はいつも優しく声をかけてくれました。 || At first I could hardly talk to anyone, but my teammates always spoke to me kindly.
+N: 先週、初めて試合に出ました。最後のボールを私が決めた時、みんなが私の肩をたたいて喜んでくれました。 || Last week I played in a match for the first time. When I scored the last point, everyone patted my shoulder and celebrated.
+N: 自分自身が少し認められた気がして、思わず泣いてしまいました。 || I felt like I’d been accepted a little, and I couldn’t help crying.
+Q: What happened when the narrator scored the last point?
+C: The team lost ; The teammates patted their shoulder and celebrated ; The coach got angry ; Nobody noticed
+ANS: 2
+EXP: みんなが私の肩をたたいて喜んでくれました gives the answer. 仲間 (なかま) teammates; ほとんど hardly; 肩 (かた) shoulder; 喜ぶ (よろこぶ) be delighted; 自身 (じしん) oneself; 認める (みとめる) accept; 思わず (おもわず) can’t help. Extra words: バレーボール, volleyball; チーム, team; 声をかける, speak to; 試合 (しあい), match; 決める here means score; 泣く (なく), cry.

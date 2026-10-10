@@ -10,7 +10,7 @@ const grammar = data('grammar.json');
 // Particles and copula that appear in almost every text; the page lists them separately.
 const basic = ['n5-2', 'n5-5', 'n5-11', 'n5-16', 'n5-21', 'n5-34', 'n5-36', 'n5-47', 'n5-48', 'n5-51', 'n5-52', 'n5-59', 'n5-60', 'n5-75', 'n5-79', 'n5-82', 'n5-83'];
 const listening = [
-  ...['1-20', '1-40', '1-60', '1-80', '1-100', '1-120', '1-140', '1-160', '1-180', '1-200'].map(n => data(`kaishi-${n}.json`)),
+  ...fs.readdirSync(path.join(__dirname, '..', 'data')).filter(f => /^kaishi-1-\d+\.json$/.test(f)).map(f => data(f)),
   ...data('daily-life.json'), ...data('solo-stories.json'),
 ];
 

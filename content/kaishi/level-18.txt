@@ -1,0 +1,88 @@
+# Level 18 · words 341–360
+@forms 341=気に入った 354=事故が起きた 355=早く起きて
+
+@conversation Leftover curry · Family
+A: カレーの余り、全部食べてもいい？ || Can I eat all the leftover curry?
+B: いいよ。私は先に頂いたから。 || Sure. I already had some.
+A: やった。じゃあ、頂きます。 || Yes! Then, let’s eat.
+B: 鍋も洗っておいてね。 || Wash the pot afterwards, okay?
+Q: What does B ask A to do?
+C: Make more curry ; Wash the pot ; Save some for later ; Buy rice
+ANS: 2
+EXP: 余り (あまり) leftovers; 全部 (ぜんぶ) all. 先に (さきに) before you, already. 頂く (いただく) is a humble word for eat or receive — 頂きます is said before eating. Extra words: 鍋 (なべ), pot; 洗う (あらう), wash.
+
+@conversation A slow morning · Family
+A: もう七時だよ。早く起きて！ || It’s already seven. Get up!
+B: うーん…あと五分。 || Mmm… five more minutes.
+A: 今起きないと、電車に間に合わないよ。 || If you don’t get up now, you won’t make the train.
+B: 分かった…。今日は駅まで走らないと。 || Okay… I’ll have to run to the station today.
+A: 足は大丈夫？昨日、痛いって言ってたよね。 || Is your leg okay? You said it hurt yesterday.
+Q: What is A worried about?
+C: B’s leg ; The weather ; B’s homework ; The price of the train
+ANS: 1
+EXP: 起きる (おきる) get up. 走る (はしる) run; 足 (あし) leg, foot. 間に合う means make it in time. Extra words: 電車 (でんしゃ), train; 痛い (いたい), hurt.
+
+@conversation An accident by the station · Coworkers
+A: 駅の前で事故が起きたらしいですよ。 || Apparently there was an accident in front of the station.
+B: え、何があったんですか。 || What happened?
+A: 古い看板が落ちたそうです。けがをした人はいないそうですが。 || An old sign fell down, they say. Apparently no one was hurt.
+B: よかった。 || Thank goodness.
+A: 落ちた瞬間を見た人が、警察に説明していました。 || Someone who saw the moment it fell was explaining it to the police.
+Q: What happened in front of the station?
+C: A car crashed ; An old sign fell down ; A fire broke out ; A train stopped
+ANS: 2
+EXP: 起きる (おきる) here means happen. 落ちる (おちる) fall; 瞬間 (しゅんかん) moment; 説明する (せつめい) explain. Extra words: 事故 (じこ), accident; 看板 (かんばん), sign; けが, injury; 警察 (けいさつ), police.
+
+@conversation A fantasy game · Friends
+A: このゲーム、魔法を使って敵と戦うんだ。 || In this game you fight enemies using magic.
+B: 面白そう！どの魔法が一番強いの？ || Sounds fun! Which magic is the strongest?
+A: 光の魔法だよ。でも、覚えるのが難しいんだ。 || Light magic. But it’s hard to learn.
+B: 今度、私にもやらせて。 || Let me play next time.
+Q: Which magic is the strongest in the game?
+C: Fire magic ; Water magic ; Light magic ; Dark magic
+ANS: 3
+EXP: 魔法 (まほう) magic; 敵 (てき) enemy; 戦う (たたかう) fight; 光 (ひかり) light. やらせて means let me do it. Extra word: ゲーム, game.
+
+@conversation Choosing a dress · Shopping
+A: このワンピース、どう？ || How about this dress?
+B: 色もいいし、それに値段も安いね。 || The color is nice, and on top of that it’s cheap.
+A: 気に入ったけど、もう少し考えようかな。 || I like it, but maybe I’ll think about it a little more.
+B: 早く決めないと、他の女性に買われちゃうよ。 || If you don’t decide quickly, another woman will buy it.
+Q: Why does B say A should decide quickly?
+C: The shop is closing ; Someone else might buy the dress ; The price will go up ; They have a train to catch
+ANS: 2
+EXP: それに means on top of that. 気に入る (きにいる) like — 気 is spirit, mood. 決める (きめる) decide; 女性 (じょせい) woman. Extra words: ワンピース, dress; 色 (いろ), color; 値段 (ねだん), price; 安い (やすい), cheap.
+
+@conversation A letter for Grandma · Friends
+A: 何を書いてるの？ || What are you writing?
+B: おばあさんへの手紙。来週、誕生日なんだ。 || A letter to my grandma. Her birthday is next week.
+A: 優しいね。きっと嬉しいと思うよ。 || That’s sweet. I’m sure she’ll be happy.
+B: 字が下手だから、ちょっと恥ずかしいけどね。 || My handwriting is bad, so it’s a little embarrassing though.
+Q: Why is B writing a letter?
+C: For grandma’s birthday ; To say sorry to a friend ; For a school assignment ; To ask for money
+ANS: 1
+EXP: 書く (かく) write. きっと means surely. Extra words: 手紙 (てがみ), letter; 誕生日 (たんじょうび), birthday; 字 (じ), handwriting; 下手 (へた), bad at; 恥ずかしい (はずかしい), embarrassing.
+
+@reading 初めてのマラソン
+TEXT: 先週の日曜日、初めてマラソン大会に出ました。最初は楽しく走っていましたが、二十キロを過ぎた頃から足が痛くなりました。何度も止めようかと思いました。でも、町の人たちが「頑張れ！」と声をかけてくれました。ゴールの瞬間は、本当に嬉しかったです。来年もまた走ると決めました。 || Last Sunday I ran in a marathon for the first time. At first I was running happily, but after passing twenty kilometers my legs started to hurt. Many times I thought about stopping. But people from the town shouted, “Keep going!” The moment I crossed the finish line, I was truly happy. I decided I’ll run again next year.
+Q: What helped the writer keep going?
+C: A friend ran beside them ; People in the town cheered them on ; They drank some water ; They listened to music
+ANS: 2
+EXP: 町の人たちが「頑張れ！」と声をかけてくれました gives the answer. 走る (はしる) run; 足 (あし) legs; 瞬間 (しゅんかん) moment; 決める (きめる) decide. Extra words: マラソン大会 (たいかい), marathon; キロ, kilometer; 痛い (いたい), hurt; 声をかける, call out to; ゴール, finish line.
+
+@reading 母の魔法の言葉
+TEXT: 私の母は、困った時にいつも「大丈夫、何とかなる」と言います。試験に落ちた時も、仕事を止めた時も、母はそう言って笑いました。不思議なことに、母のその言葉を聞くと、気持ちが少し楽になります。それに、本当に何とかなるのです。母の言葉は、私にとって魔法の言葉です。 || Whenever she’s in trouble, my mother always says, “It’s fine, things will work out.” When I failed an exam and when I quit my job, she said that and laughed. Strangely, hearing those words makes me feel a little better. And on top of that, things really do work out. My mother’s words are magic words to me.
+Q: What does the writer call the mother’s words?
+C: Strange words ; Magic words ; Old words ; Kind lies
+ANS: 2
+EXP: 母の言葉は、私にとって魔法の言葉です gives the answer. 落ちる (おちる) fail (an exam); 気持ち feelings; それに on top of that; 魔法 (まほう) magic. Extra words: 試験 (しけん), exam; 不思議 (ふしぎ), strange; 楽 (らく), relieved.
+
+@story A letter from ten years ago
+N: 十年前、学校で「十年後の自分へ」という手紙を書きました。 || Ten years ago, at school, I wrote a letter titled “To myself in ten years.”
+N: 先週、その手紙が家に届きました。開けると、子どもの字で「夢はかなった？」と書いてありました。 || Last week that letter arrived at my home. When I opened it, it said in a child’s handwriting, “Did your dream come true?”
+N: 子どもの時の夢は、絵本を書く人になることでした。でも、今は会社で毎日忙しく働いています。 || My childhood dream was to write picture books. But now I work busily at a company every day.
+N: 手紙を読んだ瞬間、あの頃の気持ちを思い出しました。私はもう一度、夢に向かって頑張ろうと決めました。 || The moment I read the letter, I remembered how I felt back then. I decided to work toward my dream again.
+Q: What was the narrator’s childhood dream?
+C: To work at a company ; To write picture books ; To become a teacher ; To travel the world
+ANS: 2
+EXP: 子どもの時の夢は、絵本を書く人になることでした gives the answer. 書く (かく) write; 瞬間 (しゅんかん) moment; 決める (きめる) decide. Extra words: 手紙 (てがみ), letter; 届く (とどく), arrive; 開ける (あける), open; 字 (じ), handwriting; かなう, come true; 絵本 (えほん), picture book.

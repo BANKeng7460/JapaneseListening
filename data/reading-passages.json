@@ -328,5 +328,500 @@
         "explanation": "家に帰ったら、少し寝るつもりだ means “When I get home, I plan to sleep a little.” Plain style (暇だ, 飲んだ) is natural with 僕 in a diary. Extra words: 公園, park; ベンチ, bench; ときどき, sometimes; 走る, run; けっこう, quite."
       }
     ]
+  },
+  {
+    "id": "kaishi-1-220",
+    "passages": [
+      {
+        "title": "七時の朝",
+        "text": "今朝は七時に家を出ました。いつもは八時に出ますが、今日は仕事が沢山あるからです。会社に入ると、まだ誰もいませんでした。私は一人で仕事を始めました。そして、九時にみんなが来ました。「今日は頑張っているね」と言われて、ちょっと嬉しかったです。",
+        "translation": "This morning I left home at seven. I usually leave at eight, but today I have a lot of work. When I went into the office, nobody was there yet. I started working alone. Then, at nine, everyone arrived. Someone said, “You’re working hard today,” and I was a little happy.",
+        "question": "Why did the writer leave home at seven?",
+        "choices": [
+          "They had a lot of work",
+          "They wanted to meet coworkers",
+          "The train time changed",
+          "They had a meeting at nine"
+        ],
+        "answer": 0,
+        "explanation": "今日は仕事が沢山あるからです gives the reason. 七時 (しちじ) seven o’clock; まだ誰もいませんでした means nobody was there yet; そして means and then. Extra word: 会社 (かいしゃ), company, office."
+      },
+      {
+        "title": "健太くんの誕生日",
+        "text": "昨日は友達の健太くんの誕生日でした。健太くんの家には友達が十人いました。みんなで歌を歌ったり、ゲームをやったりしました。健太くんはとても嬉しそうな顔をしていました。私は夜の十一時に家に帰りました。今も楽しい気持ちが残っています。",
+        "translation": "Yesterday was my friend Kenta’s birthday. There were ten friends at his house. We sang songs, played games and so on. Kenta looked very happy. I got home at eleven at night. I still feel happy now.",
+        "question": "How did Kenta look at the party?",
+        "choices": [
+          "Tired",
+          "Worried",
+          "Very happy",
+          "A little angry"
+        ],
+        "answer": 2,
+        "explanation": "とても嬉しそうな顔をしていました means he looked very happy (顔 = face). 十人 (じゅうにん) ten people; 十一時 (じゅういちじ) eleven o’clock; ゲームをやる means play games. Extra words: 誕生日 (たんじょうび), birthday; 歌 (うた), song; 残る (のこる), remain."
+      }
+    ]
+  },
+  {
+    "id": "kaishi-1-240",
+    "passages": [
+      {
+        "title": "毎年のお祭り",
+        "text": "私の町では、毎年八月にお祭りがあります。多くの人が集まって、とてもにぎやかです。お祭りの日は、道の上に沢山の店が出ます。私はいつも友達と焼きそばを食べます。そして夜には、ただで見られる花火があります。みんな花火を見ながら、嬉しそうに笑っています。",
+        "translation": "In my town, there’s a festival every August. Lots of people gather and it’s very lively. On festival day, many stalls are set up along the road. I always eat yakisoba with my friends. And at night there are fireworks you can watch for free. Everyone smiles happily as they watch.",
+        "question": "What can people enjoy for free at night?",
+        "choices": [
+          "Yakisoba",
+          "Fireworks",
+          "A concert",
+          "A boat ride"
+        ],
+        "answer": 1,
+        "explanation": "ただで見られる花火 means fireworks you can watch for free. 毎年 (まいとし) every year; 多くの人 many people; 店が出る means stalls are set up. Extra words: 祭り (まつり), festival; 集まる (あつまる), gather; 道 (みち), road; 焼きそば (やきそば), fried noodles; 花火 (はなび), fireworks."
+      },
+      {
+        "title": "笑うロボット",
+        "text": "このロボットは、人間のように話したり、笑ったりします。困った時は手伝ってくれるし、ご飯も作ってくれます。でも、ロボットは本当に嬉しいと感じて笑っているのでしょうか。私はそうは思いません。顔は笑っていても、気持ちは人間とは違うと思います。",
+        "translation": "This robot talks and laughs like a person. It helps when you’re in trouble, and it even makes meals. But does the robot really feel happy when it laughs? I don’t think so. Even if its face is smiling, I think its feelings are different from a human’s.",
+        "question": "What does the writer think about the robot?",
+        "choices": [
+          "It feels just like a human",
+          "It can’t really feel happy like a person",
+          "It is bad at cooking",
+          "It never smiles"
+        ],
+        "answer": 1,
+        "explanation": "気持ちは人間とは違うと思います gives the writer’s view. 人間のように means like a human; 感じる (かんじる) feel; 作る (つくる) make. Extra words: ロボット, robot; 困る (こまる), be in trouble."
+      }
+    ]
+  },
+  {
+    "id": "kaishi-1-260",
+    "passages": [
+      {
+        "title": "姉の夢",
+        "text": "私の姉の夢は、世界中を旅行することです。今は毎日忙しく働いていますが、毎月少しずつお金をためています。来年、三か月くらい仕事を休んで、旅に出るつもりだそうです。姉は「今やらないと、ずっとできないと思う」と言います。私も姉のように、自分の夢のために頑張りたいです。",
+        "translation": "My older sister’s dream is to travel all over the world. She works hard every day now, but she saves a little money every month. Apparently she plans to take about three months off work next year and go traveling. She says, “If I don’t do it now, I think I’ll never be able to.” I want to work hard for my own dream, like her.",
+        "question": "What does the older sister plan to do next year?",
+        "choices": [
+          "Change jobs",
+          "Take about three months off to travel",
+          "Move to another country",
+          "Start her own company"
+        ],
+        "answer": 1,
+        "explanation": "三か月くらい仕事を休んで、旅に出るつもりだそうです gives the answer. 世界中 (せかいじゅう) all over the world; ずっと here means forever. Extra words: 旅行 (りょこう) / 旅 (たび), travel; 来年 (らいねん), next year; ためる, save money."
+      },
+      {
+        "title": "妹の質問",
+        "text": "妹はまだ十歳ですが、とても頭がいいです。難しい本を読むのが好きで、分からない言葉があると、自分で調べます。この前、妹に「どうして人間は死ぬの？」と聞かれました。私は何も言えませんでした。妹の質問は、いつも私には難しすぎます。",
+        "translation": "My younger sister is only ten, but she’s very smart. She likes reading difficult books, and when there’s a word she doesn’t know, she looks it up herself. The other day she asked me, “Why do people die?” I couldn’t say anything. Her questions are always too hard for me.",
+        "question": "What question couldn’t the writer answer?",
+        "choices": [
+          "Why people die",
+          "Why the sky is blue",
+          "How books are made",
+          "What a difficult word means"
+        ],
+        "answer": 0,
+        "explanation": "どうして人間は死ぬの？ means why do people die? 頭がいい means smart. 難しすぎます means too difficult. Extra words: 読む (よむ), read; 質問 (しつもん), question."
+      }
+    ]
+  },
+  {
+    "id": "kaishi-1-280",
+    "passages": [
+      {
+        "title": "一年で変わったこと",
+        "text": "去年の今ごろ、私はまだ日本語が全然話せませんでした。駅で道を聞くこともできませんでした。でも、今年は違います。毎日少しずつ勉強を続けて、簡単な話ならちゃんとできるようになりました。来年は、日本の会社の試験を受けるつもりです。一年でこんなに変わるとは、自分でも思いませんでした。",
+        "translation": "Around this time last year, I couldn’t speak Japanese at all. I couldn’t even ask for directions at the station. But this year is different. I kept studying a little every day, and now I can handle simple conversations properly. Next year I plan to take a Japanese company’s exam. I never imagined I could change this much in one year.",
+        "question": "What does the writer plan to do next year?",
+        "choices": [
+          "Take an exam at a Japanese company",
+          "Move back to their country",
+          "Start teaching Japanese",
+          "Travel around Japan"
+        ],
+        "answer": 0,
+        "explanation": "来年は、日本の会社の試験を受けるつもりです gives the answer. 去年 (きょねん) last year; 今年 (ことし) this year; ちゃんと properly; 変わる (かわる) change. Extra words: 道 (みち), way; 会社 (かいしゃ), company; こんなに, this much."
+      },
+      {
+        "title": "夜の音",
+        "text": "私の部屋は、駅から歩いて五分のところにあります。とても便利ですが、夜も電車の音が聞こえます。住み始めた時は、うるさくて寝られませんでした。でも、今はもう全然気になりません。人間の体は、本当にすぐ慣れるものですね。",
+        "translation": "My apartment is a five-minute walk from the station. It’s very convenient, but I can hear the trains even at night. When I first moved in, it was so noisy I couldn’t sleep. But now it doesn’t bother me at all. The human body really does get used to things quickly.",
+        "question": "How does the writer feel about the train noise now?",
+        "choices": [
+          "It still keeps them awake",
+          "It doesn’t bother them anymore",
+          "They plan to move",
+          "They wear earplugs"
+        ],
+        "answer": 1,
+        "explanation": "今はもう全然気になりません means it doesn’t bother me at all now. 歩いて五分 means a five-minute walk; 音が聞こえる means you can hear the sound; 体 (からだ) body. Extra words: 便利 (べんり), convenient; うるさい, noisy; 気になる, bother; 慣れる (なれる), get used to."
+      }
+    ]
+  },
+  {
+    "id": "kaishi-1-300",
+    "passages": [
+      {
+        "title": "春が好きな理由",
+        "text": "どうして日本人は春が好きなのでしょうか。理由の一つは桜です。冬の寒い日が終わって、町中に桜が咲くと、みんな外に出て、花を見ながらご飯を食べます。それに、四月から学校や仕事が始まる人も沢山います。春は、心まで明るくなる季節なのだと思います。",
+        "translation": "Why do Japanese people love spring? One reason is the cherry blossoms. When the cold winter days end and cherry trees bloom all over town, everyone goes outside and eats while looking at the flowers. Also, many people start school or work in April. I think spring is a season that brightens even people’s hearts.",
+        "question": "What does the writer say happens in April?",
+        "choices": [
+          "Many people start school or work in April",
+          "It is the hottest season",
+          "There are many holidays",
+          "Shops have big sales"
+        ],
+        "answer": 0,
+        "explanation": "四月から学校や仕事が始まる人も沢山います gives the answer. 理由 (りゆう) reason; 冬 (ふゆ) winter; 外 (そと) outside; 心 (こころ) heart. Extra words: 桜 (さくら), cherry blossoms; 咲く (さく), bloom; 季節 (きせつ), season; 明るい (あかるい), bright."
+      },
+      {
+        "title": "公園の小さい犬",
+        "text": "昨日、公園で小さい犬が一人で歩いていました。誰かが探しているのではないかと思って、近くの人に聞きましたが、誰も知りませんでした。犬はまるで私を知っているように、ずっと後ろについてきます。一時間後、女の子が走ってきて「チビ！」と呼びました。犬は家から逃げてしまったそうです。",
+        "translation": "Yesterday, a small dog was walking alone in the park. I thought someone might be looking for it, so I asked people nearby, but nobody knew. The dog kept following behind me as if it knew me. An hour later, a girl came running and called, “Chibi!” Apparently the dog had run away from home.",
+        "question": "Who was the dog’s owner?",
+        "choices": [
+          "A girl who came running",
+          "A man in the park",
+          "The writer’s neighbor",
+          "Nobody came"
+        ],
+        "answer": 0,
+        "explanation": "女の子が走ってきて「チビ！」と呼びました shows she owns the dog. 誰か (だれか) someone; まるで…ように as if; 逃げる (にげる) run away. Extra words: 公園 (こうえん), park; 歩く (あるく), walk; 探す (さがす), look for; 近く (ちかく), nearby; 走る (はしる), run."
+      }
+    ]
+  },
+  {
+    "id": "kaishi-1-320",
+    "passages": [
+      {
+        "title": "初めての一人旅",
+        "text": "去年の秋、初めて一人で旅行をしました。最初は少し心配でしたが、旅の間に、いろいろな人と話すことができました。道が分からない時は、町の人が優しく教えてくれました。最後の日、駅で会ったおばあさんがお菓子をくれました。今でも、あの時の嬉しい気持ちをよく思い出します。",
+        "translation": "Last autumn I traveled alone for the first time. At first I was a bit worried, but during the trip I got to talk with all kinds of people. When I didn’t know the way, local people kindly told me. On the last day, an old woman I met at the station gave me some sweets. Even now I often remember how happy I felt then.",
+        "question": "What happened on the last day of the trip?",
+        "choices": [
+          "The writer got lost",
+          "An old woman gave the writer sweets",
+          "The writer missed the train",
+          "The writer met a friend"
+        ],
+        "answer": 1,
+        "explanation": "最後の日、駅で会ったおばあさんがお菓子をくれました gives the answer. 初めて (はじめて) for the first time; 最初 (さいしょ) at first; 旅の間 (あいだ) during the trip; 思い出す (おもいだす) remember. Extra words: 旅行 (りょこう) / 旅 (たび), trip; 道 (みち), way; お菓子 (おかし), sweets."
+      },
+      {
+        "title": "名前を覚える方法",
+        "text": "私は人の名前を覚えるのが苦手です。今の会社は人が多くて、最初はみんなの名前を覚えるのは無理だと思いました。そこで、初めて会った日に、相手の名前と顔の感じをノートに書くことにしました。毎晩それを読むと、少しずつ覚えられるようになりました。",
+        "translation": "I’m bad at remembering people’s names. My current company has lots of people, and at first I thought remembering everyone’s name was impossible. So I decided to write down each person’s name and what their face looked like in a notebook on the day I first met them. By reading it every night, I gradually became able to remember them.",
+        "question": "What did the writer do to remember names?",
+        "choices": [
+          "Asked coworkers to wear name tags",
+          "Wrote names and face impressions in a notebook",
+          "Took photos of everyone",
+          "Repeated names out loud"
+        ],
+        "answer": 1,
+        "explanation": "相手の名前と顔の感じをノートに書くことにしました gives the answer. 覚える (おぼえる) remember; 多い (おおい) many; 無理 (むり) impossible; 感じ (かんじ) impression. Extra words: 苦手 (にがて), bad at; 会社 (かいしゃ), company; ノート, notebook; 毎晩 (まいばん), every night."
+      }
+    ]
+  },
+  {
+    "id": "kaishi-1-340",
+    "passages": [
+      {
+        "title": "駅で困っていた人",
+        "text": "昨日、駅で外国人の女の人が困っている様子でした。日本語が分からなくて、電車の状況が確認できないようでした。私は英語で話しかけて、電車が三十分遅れていることを伝えました。女の人はとても驚いていましたが、最後に「助けてくれて、ありがとう」と笑顔で言ってくれました。",
+        "translation": "Yesterday at the station, a foreign woman looked like she was in trouble. She didn’t understand Japanese and couldn’t seem to check the train situation. I spoke to her in English and told her the train was thirty minutes late. She was very surprised, but at the end she smiled and said, “Thank you for helping me.”",
+        "question": "What did the writer tell the woman?",
+        "choices": [
+          "Where the station was",
+          "That the train was thirty minutes late",
+          "How to buy a ticket",
+          "That the train had already left"
+        ],
+        "answer": 1,
+        "explanation": "電車が三十分遅れていることを伝えました gives the answer. 困る (こまる) be in trouble; 状況 (じょうきょう) situation; 確認 (かくにん) check; 驚く (おどろく) be surprised; 助ける (たすける) help. Extra words: 外国人 (がいこくじん), foreigner; 英語 (えいご), English; 遅れる (おくれる), be late; 笑顔 (えがお), smile."
+      },
+      {
+        "title": "おじいさんの腕時計",
+        "text": "家には、おじいさんの腕時計が一つだけ残っています。四十年以上も前の時計ですが、今も毎日ちゃんと動きます。この時計以外、おじいさんの物は全て人にあげてしまいました。時計を見ると、おじいさんの長い人生を感じます。私はこの時計をずっと大切にするつもりです。",
+        "translation": "Only one thing of my grandfather’s remains at home: his wristwatch. It’s more than forty years old, but it still works properly every day. Apart from this watch, all of his things were given away. When I look at it, I feel his long life. I plan to treasure this watch forever.",
+        "question": "What is left of the grandfather’s things?",
+        "choices": [
+          "Only his wristwatch",
+          "His books and clothes",
+          "All of his belongings",
+          "Nothing at all"
+        ],
+        "answer": 0,
+        "explanation": "腕時計が一つだけ残っています means only the wristwatch remains. 四十年 (よんじゅうねん) forty years; 以外 (いがい) except; 全て (すべて) all; 長い (ながい) long. Extra words: 腕時計 (うでどけい), wristwatch; 人生 (じんせい), life; 大切 (たいせつ), precious."
+      }
+    ]
+  },
+  {
+    "id": "kaishi-1-360",
+    "passages": [
+      {
+        "title": "初めてのマラソン",
+        "text": "先週の日曜日、初めてマラソン大会に出ました。最初は楽しく走っていましたが、二十キロを過ぎた頃から足が痛くなりました。何度も止めようかと思いました。でも、町の人たちが「頑張れ！」と声をかけてくれました。ゴールの瞬間は、本当に嬉しかったです。来年もまた走ると決めました。",
+        "translation": "Last Sunday I ran in a marathon for the first time. At first I was running happily, but after passing twenty kilometers my legs started to hurt. Many times I thought about stopping. But people from the town shouted, “Keep going!” The moment I crossed the finish line, I was truly happy. I decided I’ll run again next year.",
+        "question": "What helped the writer keep going?",
+        "choices": [
+          "A friend ran beside them",
+          "People in the town cheered them on",
+          "They drank some water",
+          "They listened to music"
+        ],
+        "answer": 1,
+        "explanation": "町の人たちが「頑張れ！」と声をかけてくれました gives the answer. 走る (はしる) run; 足 (あし) legs; 瞬間 (しゅんかん) moment; 決める (きめる) decide. Extra words: マラソン大会 (たいかい), marathon; キロ, kilometer; 痛い (いたい), hurt; 声をかける, call out to; ゴール, finish line."
+      },
+      {
+        "title": "母の魔法の言葉",
+        "text": "私の母は、困った時にいつも「大丈夫、何とかなる」と言います。試験に落ちた時も、仕事を止めた時も、母はそう言って笑いました。不思議なことに、母のその言葉を聞くと、気持ちが少し楽になります。それに、本当に何とかなるのです。母の言葉は、私にとって魔法の言葉です。",
+        "translation": "Whenever she’s in trouble, my mother always says, “It’s fine, things will work out.” When I failed an exam and when I quit my job, she said that and laughed. Strangely, hearing those words makes me feel a little better. And on top of that, things really do work out. My mother’s words are magic words to me.",
+        "question": "What does the writer call the mother’s words?",
+        "choices": [
+          "Strange words",
+          "Magic words",
+          "Old words",
+          "Kind lies"
+        ],
+        "answer": 1,
+        "explanation": "母の言葉は、私にとって魔法の言葉です gives the answer. 落ちる (おちる) fail (an exam); 気持ち feelings; それに on top of that; 魔法 (まほう) magic. Extra words: 試験 (しけん), exam; 不思議 (ふしぎ), strange; 楽 (らく), relieved."
+      }
+    ]
+  },
+  {
+    "id": "kaishi-1-380",
+    "passages": [
+      {
+        "title": "電車の中の少女",
+        "text": "今朝、電車の中で小さい少女が一人で泣いていました。お母さんを探しているようでした。私は次の駅で少女と一緒に降りて、駅の人に情報を伝えました。五分後、お母さんが走ってきました。二人はかなり心配していたようです。少女の笑顔を見て、私もとても嬉しくなりました。",
+        "translation": "This morning on the train, a little girl was crying alone. She seemed to be looking for her mother. I got off at the next station with her and passed the information to the station staff. Five minutes later, her mother came running. They both seemed to have been very worried. Seeing the girl smile made me very happy too.",
+        "question": "What did the writer do to help the girl?",
+        "choices": [
+          "Called the police",
+          "Got off with her and told the station staff",
+          "Gave her money for a ticket",
+          "Took her home"
+        ],
+        "answer": 1,
+        "explanation": "少女と一緒に降りて、駅の人に情報を伝えました gives the answer. 少女 (しょうじょ) girl; 探す (さがす) look for; 情報 (じょうほう) information; かなり quite; 笑顔 (えがお) smile. Extra words: 泣く (なく), cry; 降りる (おりる), get off; 走る (はしる), run."
+      },
+      {
+        "title": "先輩の言葉",
+        "text": "会社に入って一年目、私は大きなミスをしました。課長にかなり怒られて、もう会社を止めようかと思いました。その時、先輩が「一度失敗するのは当然だよ。大事なのは、同じことを続けないことだ」と言ってくれました。その言葉のおかげで、私は今も頑張っています。",
+        "translation": "In my first year at the company, I made a big mistake. My section manager got quite angry, and I thought about quitting. Then my senior said to me, “Failing once is natural. What matters is not to keep repeating it.” Thanks to those words, I’m still working hard today.",
+        "question": "What did the senior coworker say was important?",
+        "choices": [
+          "Never making mistakes",
+          "Not repeating the same mistake",
+          "Apologizing to the manager",
+          "Working longer hours"
+        ],
+        "answer": 1,
+        "explanation": "大事なのは、同じことを続けないことだ gives the answer. かなり quite; 怒る (おこる) get angry; 先輩 (せんぱい) senior; 一度 (いちど) once; 当然 (とうぜん) natural. Extra words: ミス, mistake; 課長 (かちょう), section manager; 失敗 (しっぱい), failure; 大事 (だいじ), important."
+      }
+    ]
+  },
+  {
+    "id": "kaishi-1-400",
+    "passages": [
+      {
+        "title": "引っ越しの準備",
+        "text": "来週、新しい部屋に引っ越します。そろそろ準備を始めないと間に合いません。昨日、本棚を片付けていると、奥から子どもの時の写真が現れました。写真の中の私は、泣きながら父の後ろに隠れています。一瞬、手が止まって、その写真をずっと見てしまいました。",
+        "translation": "Next week I’m moving to a new apartment. If I don’t start getting ready soon, I won’t make it in time. Yesterday, while tidying my bookshelf, a photo from my childhood appeared from the back. In the photo, I’m crying and hiding behind my father. For a moment my hands stopped, and I kept looking at the photo.",
+        "question": "What did the writer find while tidying?",
+        "choices": [
+          "A letter from father",
+          "A childhood photo",
+          "Some old money",
+          "A lost book"
+        ],
+        "answer": 1,
+        "explanation": "奥から子どもの時の写真が現れました gives the answer. そろそろ soon; 準備 (じゅんび) preparation; 奥 (おく) the back; 現れる (あらわれる) appear; 一瞬 (いっしゅん) a moment. Extra words: 引っ越す (ひっこす), move house; 本棚 (ほんだな), bookshelf; 片付ける (かたづける), tidy; 隠れる (かくれる), hide oneself."
+      },
+      {
+        "title": "初めての英語の発表",
+        "text": "大学で初めて英語の発表をしました。前に立つと、恥ずかしくて顔が赤くなりました。最初は声も小さかったです。でも、みんなが優しい顔で聞いてくれたので、少しずつ落ち着きました。発表が終わった時、心がとても軽くなりました。",
+        "translation": "At university I gave a presentation in English for the first time. When I stood at the front, I was so embarrassed my face turned red. At first my voice was quiet too. But because everyone listened with kind faces, I gradually calmed down. When the presentation ended, my heart felt very light.",
+        "question": "What helped the writer calm down?",
+        "choices": [
+          "Practicing the night before",
+          "Everyone listening kindly",
+          "Drinking water",
+          "Reading from notes"
+        ],
+        "answer": 1,
+        "explanation": "みんなが優しい顔で聞いてくれたので、少しずつ落ち着きました gives the answer. 恥ずかしい (はずかしい) embarrassed; 落ち着く (おちつく) calm down; 軽い (かるい) light. Extra words: 大学 (だいがく), university; 発表 (はっぴょう), presentation; 赤い (あかい), red."
+      }
+    ]
+  },
+  {
+    "id": "kaishi-1-420",
+    "passages": [
+      {
+        "title": "祖母のアルバム",
+        "text": "昨日、祖母の家で古いアルバムを見つけました。写真の中の祖母はとても若くて、髪が長いです。昔、祖母は町の小さな店で働いていたそうです。祖母は写真をじっと見つめながら、「この時は本当に幸せだったね」と言いました。祖母の記憶の中には、私の知らない話が沢山あるのだと思いました。",
+        "translation": "Yesterday I found an old photo album at my grandmother’s house. In the photos, my grandmother is very young and has long hair. Long ago, she apparently worked at a small shop in town. Staring at the photos, she said, “I was truly happy back then.” I realized her memory holds many stories I don’t know.",
+        "question": "What did the grandmother do long ago?",
+        "choices": [
+          "She was a teacher",
+          "She worked at a small shop",
+          "She lived abroad",
+          "She was a photographer"
+        ],
+        "answer": 1,
+        "explanation": "昔、祖母は町の小さな店で働いていたそうです gives the answer. 髪 (かみ) hair; 昔 (むかし) long ago; 見つめる (みつめる) stare; 幸せ (しあわせ) happy; 記憶 (きおく) memory. Extra words: 祖母 (そぼ), grandmother; アルバム, album; 若い (わかい), young; 働く (はたらく), work; じっと, intently."
+      },
+      {
+        "title": "猫の反応",
+        "text": "私たちの家の猫は、私が帰るとすぐ玄関まで走ってきます。でも、夫が帰った場合は、全然動きません。夫は「勝手な猫だなあ」と笑っています。どうやら、猫は私がいつもご飯をあげる人だと覚えているようです。猫の反応は、とても正直です。",
+        "translation": "When I get home, our cat comes running to the entrance right away. But when my husband comes home, it doesn’t move at all. He laughs and says, “What a selfish cat.” Apparently the cat remembers that I’m the one who always feeds it. A cat’s reactions are very honest.",
+        "question": "Why does the cat greet the writer?",
+        "choices": [
+          "The writer plays with it",
+          "The writer is the one who feeds it",
+          "The writer comes home first",
+          "The husband scolds it"
+        ],
+        "answer": 1,
+        "explanation": "猫は私がいつもご飯をあげる人だと覚えているようです gives the reason. 私たち (わたしたち) we; すぐ right away; 場合 (ばあい) case; 勝手 (かって) selfish; 反応 (はんのう) reaction. Extra words: 猫 (ねこ), cat; 玄関 (げんかん), entrance; 夫 (おっと), husband; 正直 (しょうじき), honest."
+      }
+    ]
+  },
+  {
+    "id": "kaishi-1-440",
+    "passages": [
+      {
+        "title": "電車の席",
+        "text": "最近、電車に乗ると、よく席の近くにお年寄りが立っています。この前も、私の隣に大きい荷物を持ったおばあさんが立っていました。私はしばらく黙って座っていましたが、勇気を出して「どうぞ」と席を譲りました。おばあさんの笑顔を見て、特に何もしていないのに、とても温かい気持ちになりました。",
+        "translation": "Lately, when I ride the train, elderly people are often standing near the seats. The other day too, an old woman with a big bag was standing next to me. I sat quietly for a while, but then I worked up my courage, said “Please,” and gave her my seat. Seeing her smile, I felt very warm, even though I hadn’t done anything special.",
+        "question": "What did the writer do in the end?",
+        "choices": [
+          "Got off the train",
+          "Gave the old woman their seat",
+          "Helped carry her bag",
+          "Kept sitting quietly"
+        ],
+        "answer": 1,
+        "explanation": "勇気を出して「どうぞ」と席を譲りました gives the answer. 最近 (さいきん) lately; 乗る (のる) ride; 隣 (となり) next to; しばらく for a while; 黙る (だまる) be silent; 特に (とくに) especially. Extra words: 席 (せき), seat; お年寄り (おとしより), elderly people; 荷物 (にもつ), bag; 勇気 (ゆうき), courage; 譲る (ゆずる), give up (a seat); 温かい (あたたかい), warm."
+      },
+      {
+        "title": "形のない贈り物",
+        "text": "今年の誕生日、姉は物ではなく、長い手紙をくれました。手紙には、私たちの子どもの時の話や、姉が私をどう思っているかが書いてありました。最初は少し恥ずかしかったですが、何度も読みました。結果、その手紙はどんな物よりも、私の心に深く残りました。",
+        "translation": "For my birthday this year, my older sister didn’t give me a thing — she gave me a long letter. It talked about our childhood and how she thinks of me. At first I was a little embarrassed, but I read it again and again. In the end, the letter stayed in my heart more deeply than any object could.",
+        "question": "What did the sister give for the birthday?",
+        "choices": [
+          "An expensive bag",
+          "A long letter",
+          "A photo album",
+          "Concert tickets"
+        ],
+        "answer": 1,
+        "explanation": "姉は物ではなく、長い手紙をくれました gives the answer. 結果 (けっか) as a result; 深く (ふかく) deeply; 残る (のこる) remain. Extra words: 誕生日 (たんじょうび), birthday; 手紙 (てがみ), letter; 何度も (なんども), many times."
+      }
+    ]
+  },
+  {
+    "id": "kaishi-1-460",
+    "passages": [
+      {
+        "title": "神社の大きな木",
+        "text": "近所の神社には、とても大きな木があります。この木に触れると、病気が治ると言われています。そんなことは信じていませんでしたが、実は去年、祖母が病気になった時、私も木に触れて神様にお願いしました。結局、祖母は元気になりました。不思議ですが、今でもあの木の前を通ると、手を合わせてしまいます。",
+        "translation": "There’s a very big tree at the shrine near my home. They say if you touch it, your illness will be cured. I didn’t believe that, but actually, last year when my grandmother got sick, I touched the tree and prayed to the god too. In the end, she got better. It’s strange, but even now when I pass that tree, I find myself putting my hands together.",
+        "question": "What did the writer do when the grandmother was sick?",
+        "choices": [
+          "Took her to the shrine",
+          "Touched the tree and prayed",
+          "Brought her medicine",
+          "Planted a new tree"
+        ],
+        "answer": 1,
+        "explanation": "私も木に触れて神様にお願いしました gives the answer. 触れる (ふれる) touch; 実は (じつは) actually; 神様 (かみさま) god; 結局 (けっきょく) in the end; 不思議 (ふしぎ) strange. Extra words: 近所 (きんじょ), neighborhood; 神社 (じんじゃ), shrine; 病気 (びょうき), illness; 治る (なおる), be cured; 手を合わせる, put hands together in prayer."
+      },
+      {
+        "title": "小さな行動",
+        "text": "毎朝、駅までの道で、ごみを拾っている男の人がいます。最初は「一体、何のために？」と思いました。ある日、話しかけてみると、「町がきれいだと、みんな安心して歩けるでしょう」と言いました。そもそも、私は町のごみについて考えたこともありませんでした。今は私も、少ない時間ですが、ごみを拾うようにしています。",
+        "translation": "Every morning, on the way to the station, there’s a man picking up litter. At first I thought, “What on earth for?” One day I spoke to him, and he said, “When the town is clean, everyone can walk around feeling safe, right?” In the first place, I had never even thought about the town’s litter. Now I try to pick up litter too, even if I only have a little time.",
+        "question": "Why does the man pick up litter?",
+        "choices": [
+          "It is his job",
+          "So people can walk around feeling safe",
+          "To win a prize",
+          "Because his boss told him to"
+        ],
+        "answer": 1,
+        "explanation": "町がきれいだと、みんな安心して歩けるでしょう gives his reason. 一体 (いったい) what on earth; 安心 (あんしん) feeling safe; そもそも in the first place; 少ない (すくない) little; 行動 (こうどう) action. Extra words: ごみ, litter; 拾う (ひろう), pick up; 話しかける, speak to."
+      }
+    ]
+  },
+  {
+    "id": "kaishi-1-480",
+    "passages": [
+      {
+        "title": "赤い傘",
+        "text": "先週の朝、駅のトイレに新しい赤い傘を忘れてしまいました。気付いたのは、電車に乗った後でした。「もう戻ってこないだろう」と思っていましたが、次の日、駅の人に聞いてみると、傘はちゃんと残っていました。誰かが届けてくれたようです。大事な傘だったので、本当に安心しました。",
+        "translation": "One morning last week, I left my new red umbrella in the station restroom. I only noticed after getting on the train. I thought, “It won’t come back,” but the next day when I asked the station staff, the umbrella was still there. It seems someone had handed it in. It was an important umbrella to me, so I was truly relieved.",
+        "question": "Where was the umbrella in the end?",
+        "choices": [
+          "On the train",
+          "Kept at the station",
+          "At a friend’s house",
+          "It was never found"
+        ],
+        "answer": 1,
+        "explanation": "駅の人に聞いてみると、傘はちゃんと残っていました gives the answer. 朝 (あさ) morning; 新しい (あたらしい) new; 赤い (あかい) red; 気付く (きづく) notice; 残る (のこる) remain; 大事 (だいじ) important. Extra words: トイレ, restroom; 傘 (かさ), umbrella; 届ける (とどける), hand in."
+      },
+      {
+        "title": "命の大事さ",
+        "text": "去年、祖父が急に入院しました。いつも元気だった祖父が、ベッドの上で動けない姿を見て、とても不安になりました。幸い、手術はうまくいって、祖父は一か月で家に帰ることができました。この経験から、命の大事さを強く感じました。今は毎月、祖父に会いに行くようにしています。",
+        "translation": "Last year my grandfather was suddenly hospitalized. Seeing him, always so healthy, unable to move in his bed, I became very anxious. Fortunately, the operation went well and he was able to go home after a month. From this experience, I strongly felt how precious life is. Now I make sure to visit him every month.",
+        "question": "What does the writer do now?",
+        "choices": [
+          "Visits the grandfather every month",
+          "Works at a hospital",
+          "Lives with the grandfather",
+          "Calls the grandfather every day"
+        ],
+        "answer": 0,
+        "explanation": "今は毎月、祖父に会いに行くようにしています gives the answer. 不安 (ふあん) anxious; 命 (いのち) life; 大事さ (だいじさ) importance. Extra words: 祖父 (そふ), grandfather; 入院 (にゅういん), hospitalization; ベッド, bed; 幸い (さいわい), fortunately; 手術 (しゅじゅつ), operation; 経験 (けいけん), experience."
+      }
+    ]
+  },
+  {
+    "id": "kaishi-1-500",
+    "passages": [
+      {
+        "title": "鳥が飛んできた日",
+        "text": "今朝、突然、小さい白い鳥が部屋の中に飛んできました。窓を開けていたからです。鳥は本棚の上に止まって、静かに私を見ていました。私は思わず笑ってしまいました。五分ぐらいすると、鳥は再び窓から外へ飛んでいきました。何でもない朝でしたが、少し嬉しい気持ちになりました。",
+        "translation": "This morning, a small white bird suddenly flew into my room, because I’d left the window open. It landed on top of the bookshelf and quietly looked at me. I couldn’t help laughing. After about five minutes, the bird flew out of the window again. It was an ordinary morning, but it made me feel a little happy.",
+        "question": "Why could the bird come into the room?",
+        "choices": [
+          "The door was open",
+          "The window was open",
+          "The writer let it in",
+          "It came down the chimney"
+        ],
+        "answer": 1,
+        "explanation": "窓を開けていたからです gives the reason. 突然 (とつぜん) suddenly; 白い (しろい) white; 飛ぶ (とぶ) fly; 静か (しずか) quiet; 思わず (おもわず) without meaning to; 再び (ふたたび) again. Extra words: 鳥 (とり), bird; 窓 (まど), window; 本棚 (ほんだな), bookshelf."
+      },
+      {
+        "title": "ようやく届いた手紙",
+        "text": "外国に住んでいる友達に手紙を送りましたが、なかなか届きませんでした。一か月後、ようやく友達から返事が来ました。手紙には、友達自身が描いた可愛い絵がありました。友達は「手紙をもらって、とても喜んでいます」と書いていました。メールの時代でも、手紙にはメールにはない温かさがあると思います。",
+        "translation": "I sent a letter to a friend living abroad, but it took a long time to arrive. A month later, I finally got a reply. In the letter was a cute drawing that my friend had made themselves. My friend wrote, “I was so happy to get your letter.” Even in the age of email, I think letters have a warmth that email doesn’t.",
+        "question": "What was in the friend’s reply?",
+        "choices": [
+          "A photo",
+          "A cute drawing by the friend",
+          "Some money",
+          "A plane ticket"
+        ],
+        "answer": 1,
+        "explanation": "友達自身が描いた可愛い絵がありました gives the answer. 届く (とどく) arrive; ようやく finally; 自身 (じしん) oneself; 可愛い (かわいい) cute; 喜ぶ (よろこぶ) be delighted. Extra words: 外国 (がいこく), abroad; 返事 (へんじ), reply; 描く (かく), draw; 時代 (じだい), era; 温かさ (あたたかさ), warmth."
+      }
+    ]
   }
 ]

@@ -1,0 +1,87 @@
+# Level 13 · words 241–260
+@forms 250=早いですね 251=早く終わる 260=花屋の者
+
+@conversation Brothers and sisters · Friends
+A: 兄弟はいる？ || Do you have any siblings?
+B: うん、姉と弟と妹がいるよ。 || Yeah — an older sister, a younger brother and a younger sister.
+A: 四人兄弟か。みんな仲がいいの？ || Four of you! Do you all get along?
+B: うん。姉とは毎日三十分くらい電話で話すよ。 || Yeah. I talk with my older sister on the phone for about thirty minutes every day.
+Q: How long does B talk with the older sister each day?
+C: About ten minutes ; About thirty minutes ; About an hour ; About three hours
+ANS: 2
+EXP: 姉 (あね) older sister; 弟 (おとうと) younger brother; 妹 (いもうと) younger sister. 三十分くらい means about thirty minutes. Extra words: 兄弟 (きょうだい), siblings; 仲がいい (なかがいい), get along well; 電話 (でんわ), phone.
+
+@conversation The early bird · Coworkers
+A: 山田さん、毎朝早いですね。 || Yamada, you’re early every morning.
+B: 朝は電話が来ないので、仕事が早く終わるんです。 || In the morning nobody calls, so I finish my work quickly.
+A: なるほど。私も明日から早く来るつもりです。 || I see. I’m going to come in early from tomorrow too.
+B: いいですね。一緒に頑張りましょう。 || Great. Let’s both do our best.
+Q: Why does Yamada come in early?
+C: The trains are less crowded ; Nobody calls, so work finishes quickly ; The boss asked her to ; She likes the quiet office view
+ANS: 2
+EXP: 早い (はやい) early; 早く終わる (おわる) means finish quickly. 来るつもりです means I plan to come. なるほど means I see. Extra word: 一緒に (いっしょに), together.
+
+@conversation Back again · Family
+A: あれ？どうして戻ってきたの？ || Huh? Why did you come back?
+B: 財布を忘れたんだ。今日は必要なんだよ。 || I forgot my wallet. I need it today.
+A: やっぱり。机の上にあったよ。 || I knew it. It was on the desk.
+B: ありがとう。じゃ、行ってきます。 || Thanks. Well, I’m off.
+Q: Why did B come back home?
+C: To get a wallet ; To get an umbrella ; Because it started raining ; To say goodbye again
+ANS: 1
+EXP: どうして (why); 戻る (もどる) come back; 必要 (ひつよう) necessary. やっぱり means just as I thought. Extra words: 財布 (さいふ), wallet; 机 (つくえ), desk.
+
+@conversation A hard game · Friends
+A: このゲーム、相手がとても強いんだ。 || In this game, the opponent is really strong.
+B: 力だけじゃなくて、頭を使わないと勝てないよ。 || You can’t win with strength alone — you have to use your head.
+A: もう十回も死んだよ。 || I’ve already died ten times.
+B: 世界で一番難しいゲームって言われてるからね。 || Well, they say it’s the hardest game in the world.
+Q: What does B say you need to win?
+C: Better equipment ; Help from friends ; To use your head as well as strength ; More hours of practice
+ANS: 3
+EXP: 相手 (あいて) opponent; 力 (ちから) strength; 頭を使う (あたまをつかう) use your head. 死ぬ (しぬ) die — here in a game. 世界で一番 means the most in the world. Extra word: 勝つ (かつ), win.
+
+@conversation A delivery · Polite
+A: すみません、田中さんのお宅ですか。 || Excuse me, is this the Tanaka residence?
+B: はい、そうですが…。 || Yes, it is…
+A: 駅前の花屋の者です。お花を持ってきました。 || I’m from the florist by the station. I’ve brought you some flowers.
+B: え、私に？誰からだろう。 || For me? I wonder who from.
+A: 妹さんからです。カードもありますよ。 || From your younger sister. There’s a card too.
+Q: Who sent the flowers?
+C: B’s younger sister ; B’s older sister ; A friend from work ; The florist
+ANS: 1
+EXP: 花屋の者です means I’m from the florist — 者 (もの) is a humble word for person. 妹さん is someone else’s younger sister, said politely. Extra words: お宅 (おたく), someone’s home; 花屋 (はなや), florist; カード, card.
+
+@conversation At the airport · Family
+A: 弟の姿が見えないね。 || I can’t see my brother anywhere.
+B: ずっと待ってるのに、まだ出てこないね。 || We’ve been waiting all this time, and he still hasn’t come out.
+A: あ、あそこ！手を振ってる。 || Oh, over there! He’s waving.
+B: 本当だ。会うのは三年ぶりだね。 || So he is. It’s been three years since we saw him.
+Q: How long has it been since they saw the brother?
+C: Three months ; One year ; Three years ; Ten years
+ANS: 3
+EXP: 姿 (すがた) figure — 姿が見えない means you can’t see him anywhere. ずっと means the whole time. 三年ぶり means for the first time in three years. Extra word: 振る (ふる), wave.
+
+@reading 姉の夢
+TEXT: 私の姉の夢は、世界中を旅行することです。今は毎日忙しく働いていますが、毎月少しずつお金をためています。来年、三か月くらい仕事を休んで、旅に出るつもりだそうです。姉は「今やらないと、ずっとできないと思う」と言います。私も姉のように、自分の夢のために頑張りたいです。 || My older sister’s dream is to travel all over the world. She works hard every day now, but she saves a little money every month. Apparently she plans to take about three months off work next year and go traveling. She says, “If I don’t do it now, I think I’ll never be able to.” I want to work hard for my own dream, like her.
+Q: What does the older sister plan to do next year?
+C: Change jobs ; Take about three months off to travel ; Move to another country ; Start her own company
+ANS: 2
+EXP: 三か月くらい仕事を休んで、旅に出るつもりだそうです gives the answer. 世界中 (せかいじゅう) all over the world; ずっと here means forever. Extra words: 旅行 (りょこう) / 旅 (たび), travel; 来年 (らいねん), next year; ためる, save money.
+
+@reading 妹の質問
+TEXT: 妹はまだ十歳ですが、とても頭がいいです。難しい本を読むのが好きで、分からない言葉があると、自分で調べます。この前、妹に「どうして人間は死ぬの？」と聞かれました。私は何も言えませんでした。妹の質問は、いつも私には難しすぎます。 || My younger sister is only ten, but she’s very smart. She likes reading difficult books, and when there’s a word she doesn’t know, she looks it up herself. The other day she asked me, “Why do people die?” I couldn’t say anything. Her questions are always too hard for me.
+Q: What question couldn’t the writer answer?
+C: Why people die ; Why the sky is blue ; How books are made ; What a difficult word means
+ANS: 1
+EXP: どうして人間は死ぬの？ means why do people die? 頭がいい means smart. 難しすぎます means too difficult. Extra words: 読む (よむ), read; 質問 (しつもん), question.
+
+@story The notebook I forgot
+N: 昨日は会議が早く終わったので、いつもより早い電車で帰りました。 || Yesterday the meeting ended early, so I took an earlier train home than usual.
+N: でも、駅に着いた時、明日の会議に必要なノートを会社に忘れたことに気がつきました。 || But when I got to the station, I realized I’d left the notebook I needed for tomorrow’s meeting at the office.
+N: 私は急いで会社に戻りました。ドアの前で、田中さんがノートを持って立っていました。 || I hurried back to the office. Tanaka was standing in front of the door, holding my notebook.
+N: 「やっぱり戻ってきたね」と田中さんは笑いました。 || “I knew you’d come back,” Tanaka said with a laugh.
+Q: Who was holding the narrator’s notebook?
+C: The narrator’s older sister ; Tanaka ; A station worker ; Nobody — it was on the desk
+ANS: 2
+EXP: 田中さんがノートを持って立っていました gives the answer. 早く終わった means ended early; 必要 (ひつよう) necessary; 戻る (もどる) return; やっぱり means just as I thought. Extra words: 会議 (かいぎ), meeting; 電車 (でんしゃ), train; ノート, notebook; 気がつく, realize; 急ぐ (いそぐ), hurry.

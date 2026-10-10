@@ -1,0 +1,86 @@
+# Level 15 · words 281–300
+@forms 289=他の人 290=他社
+
+@conversation Favorite season · Friends
+A: 季節の中で、どれが一番好き？ || Which season do you like best?
+B: 秋かな。夏は暑すぎるし、冬は寒いから。 || Autumn, I guess. Summer is too hot and winter is cold.
+A: 私は春。桜がきれいだから。 || Spring for me. The cherry blossoms are beautiful.
+B: 普通、みんな春って言うよね。 || Most people say spring, don’t they?
+Q: Why doesn’t B like summer?
+C: It’s too hot ; It rains too much ; There are too many bugs ; It’s too short
+ANS: 1
+EXP: 春 (はる) spring, 夏 (なつ) summer, 秋 (あき) autumn, 冬 (ふゆ) winter. 普通 (ふつう) here means usually. Extra words: 季節 (きせつ), season; 暑い (あつい), hot; 寒い (さむい), cold; 桜 (さくら), cherry blossoms.
+
+@conversation The runaway cat · Family
+A: あっ、猫が外に逃げちゃった！ || Oh no, the cat got outside!
+B: 誰か窓を閉め忘れたんでしょう。 || Somebody must have forgotten to shut the window.
+A: 見て、口に何かくわえてる。 || Look, it’s got something in its mouth.
+B: まさか、今日の夕ご飯の魚？ || Don’t tell me — tonight’s fish?
+Q: What does B suspect the cat has?
+C: A toy ; The fish for dinner ; A bird ; A shoe
+ANS: 2
+EXP: 外に逃げる (そとににげる) run away outside. 誰か (だれか) someone. 口 (くち) mouth. まさか means surely not / don’t tell me. Extra words: 猫 (ねこ), cat; 窓 (まど), window; 閉める (しめる), close; くわえる, hold in the mouth; 魚 (さかな), fish.
+
+@conversation An absence · Teacher and student
+A: 昨日はどうして休んだんですか。理由を教えてください。 || Why were you absent yesterday? Please tell me the reason.
+B: すみません。熱があったんです。 || I’m sorry. I had a fever.
+A: そうですか。宿題の問題は、他の人に聞いてください。 || I see. Ask someone else about the homework questions.
+B: はい。明日は絶対に来ます。 || Yes. I’ll definitely come tomorrow.
+Q: What does the teacher tell B to do?
+C: Bring a doctor’s note ; Ask another student about the homework ; Come to the teacher’s room ; Do extra homework
+ANS: 2
+EXP: 理由 (りゆう) reason; 問題 (もんだい) question, problem; 他の人 (ほかのひと) other people. 絶対に (ぜったいに) definitely. Extra words: 熱 (ねつ), fever; 宿題 (しゅくだい), homework.
+
+@conversation A clever dog · Neighbors
+A: この犬、まるで人間みたいですね。 || This dog is just like a person.
+B: そうなんです。人の心が分かるみたいで。 || It really is. It seems to understand how people feel.
+A: 何歳ですか。 || How old is it?
+B: もう十歳以上なんですよ。 || It’s over ten years old now.
+Q: How old is the dog?
+C: Under five ; About seven ; More than ten ; Exactly ten
+ANS: 3
+EXP: まるで…みたい means just like. 心 (こころ) heart, feelings. 十歳以上 (いじょう) means ten or older. Extra words: 犬 (いぬ), dog; 歳 (さい), years old.
+
+@conversation New rule · Meeting at work
+A: このごろ、遅れて来る人が沢山います。 || Lately, a lot of people have been coming in late.
+B: それで、どうするんですか。 || So what are we going to do?
+A: 今後は、遅れる時は必ず電話してください。 || From now on, please be sure to call when you’re going to be late.
+B: 他社も同じルールなんですか。 || Do other companies have the same rule?
+Q: What is the new rule?
+C: Come in thirty minutes early ; Call when you will be late ; No phones at work ; Write a report when late
+ANS: 2
+EXP: それで means so / and then. 今後 (こんご) from now on. 他社 (たしゃ) other companies — 他 is read た in words like this. Extra words: このごろ, these days; 遅れる (おくれる), be late; 必ず (かならず), be sure to; ルール, rule.
+
+@conversation Weekend plans · Friends
+A: 週末、どこか行く？ || Going anywhere this weekend?
+B: 普通に家にいるよ。外は寒いし。 || I’ll just stay home as usual. It’s cold outside.
+A: えー、冬でも外に出たほうがいいよ。 || Aw, you should get outside even in winter.
+B: 絶対いや。こたつから出られないもん。 || No way. I can’t get out of the kotatsu.
+Q: Why does B want to stay home?
+C: B has work ; It’s cold and B loves the kotatsu ; B is sick ; B is waiting for a visitor
+ANS: 2
+EXP: 普通に means as usual. 外 (そと) outside; 冬 (ふゆ) winter; 絶対いや means absolutely not. Extra words: 週末 (しゅうまつ), weekend; こたつ, a heated table.
+
+@reading 春が好きな理由
+TEXT: どうして日本人は春が好きなのでしょうか。理由の一つは桜です。冬の寒い日が終わって、町中に桜が咲くと、みんな外に出て、花を見ながらご飯を食べます。それに、四月から学校や仕事が始まる人も沢山います。春は、心まで明るくなる季節なのだと思います。 || Why do Japanese people love spring? One reason is the cherry blossoms. When the cold winter days end and cherry trees bloom all over town, everyone goes outside and eats while looking at the flowers. Also, many people start school or work in April. I think spring is a season that brightens even people’s hearts.
+Q: What does the writer say happens in April?
+C: Many people start school or work in April ; It is the hottest season ; There are many holidays ; Shops have big sales
+ANS: 1
+EXP: 四月から学校や仕事が始まる人も沢山います gives the answer. 理由 (りゆう) reason; 冬 (ふゆ) winter; 外 (そと) outside; 心 (こころ) heart. Extra words: 桜 (さくら), cherry blossoms; 咲く (さく), bloom; 季節 (きせつ), season; 明るい (あかるい), bright.
+
+@reading 公園の小さい犬
+TEXT: 昨日、公園で小さい犬が一人で歩いていました。誰かが探しているのではないかと思って、近くの人に聞きましたが、誰も知りませんでした。犬はまるで私を知っているように、ずっと後ろについてきます。一時間後、女の子が走ってきて「チビ！」と呼びました。犬は家から逃げてしまったそうです。 || Yesterday, a small dog was walking alone in the park. I thought someone might be looking for it, so I asked people nearby, but nobody knew. The dog kept following behind me as if it knew me. An hour later, a girl came running and called, “Chibi!” Apparently the dog had run away from home.
+Q: Who was the dog’s owner?
+C: A girl who came running ; A man in the park ; The writer’s neighbor ; Nobody came
+ANS: 1
+EXP: 女の子が走ってきて「チビ！」と呼びました shows she owns the dog. 誰か (だれか) someone; まるで…ように as if; 逃げる (にげる) run away. Extra words: 公園 (こうえん), park; 歩く (あるく), walk; 探す (さがす), look for; 近く (ちかく), nearby; 走る (はしる), run.
+
+@story My promise
+N: 私はよく約束の時間に遅れます。理由はいつも同じで、朝起きられないからです。 || I’m often late for appointments. The reason is always the same: I can’t get up in the morning.
+N: 先週、友達に「時間を守らないのは、相手を大切にしていないのと同じだよ」と言われました。 || Last week a friend told me, “Not being on time is the same as not caring about the other person.”
+N: その言葉を聞いて、心が痛くなりました。私は友達を大切に思っているからです。 || Hearing that hurt, because I really do care about my friends.
+N: 今後は絶対に遅れないように、目覚まし時計を三つ買いました。 || So that I’m never late again, I bought three alarm clocks.
+Q: What did the narrator do after the friend’s words?
+C: Bought three alarm clocks ; Moved closer to the station ; Stopped making plans ; Apologized with a gift
+ANS: 1
+EXP: 目覚まし時計を三つ買いました gives the answer. 理由 (りゆう) reason; 心が痛くなる means it hurt (my heart); 今後 (こんご) from now on; 絶対に (ぜったいに) never, absolutely. Extra words: 遅れる (おくれる), be late; 大切 (たいせつ), precious; 痛い (いたい), painful; 目覚まし時計 (めざましどけい), alarm clock.

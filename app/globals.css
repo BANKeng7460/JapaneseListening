@@ -199,3 +199,18 @@
 .grammar-used p { margin:6px 0 0; }
 .grammar-used-note { font-size:12px !important; }
 .grammar-item:target summary { color:var(--green); }
+
+/* Spot the mistake */
+.mistake-setup select { margin-left:6px; padding:7px; max-width:100%; }
+.mistake-status { font-size:15px; color:#c0392b; letter-spacing:1px; }
+.mistake-lost { color:#d8d8d8; }
+.mistake-sentence { display:flex; flex-wrap:wrap; gap:6px 4px; font-size:24px; line-height:1.4; margin:18px 0 22px; }
+.mistake-chunk { font:inherit; color:var(--ink); background:white; border:1px solid var(--line); border-radius:9px; padding:6px 9px; transition:background .15s,border-color .15s; }
+.mistake-chunk:hover:not(:disabled) { background:#f4f6ef; border-color:#b9cbb6; }
+.mistake-chunk:disabled { opacity:1; cursor:default; }
+.mistake-chunk.found { border-color:#c48a26; background:#fdf3e1; }
+.mistake-chunk.missed { border-color:#be7061; background:#fcf0e9; text-decoration:line-through; }
+.mistake-chunk.fixed { border-color:#398756; background:#e8f3e7; font-weight:700; }
+.feedback .reading-controls { align-items:center; margin-top:12px; }
+.feedback .reading-controls .primary { margin-left:auto; }
+@media(max-width:420px) { .mistake-sentence { font-size:20px; } }

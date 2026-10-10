@@ -1,0 +1,86 @@
+# Level 23 · words 441–460
+@forms 453=では、こちら 445=神様
+
+@conversation Yesterday’s match · Friends
+A: 昨日の試合、どうだった？ || How was yesterday’s match?
+B: 結局、二対三で負けたよ。 || In the end we lost, two to three.
+A: 残念だったね。 || That’s too bad.
+B: 最後に更に一点取られて、もう無理だった。 || They scored one more at the end, and it was over.
+Q: What was the final result?
+C: They won three to two ; They lost two to three ; It was a draw ; The match was canceled
+ANS: 2
+EXP: 結局 (けっきょく) in the end; 負ける (まける) lose; 更に (さらに) further, one more. Extra words: 試合 (しあい), match; 対 (たい), to (in scores); 残念 (ざんねん), too bad; 点 (てん), point.
+
+@conversation Packing for a trip · Family
+A: 旅行の用意、できた？ || Are you ready for the trip?
+B: とりあえず、服だけ入れた。 || For now I’ve just packed clothes.
+A: 服、少なくない？三日間だよ。 || Isn’t that too few clothes? It’s three days.
+B: 大丈夫。ホテルで洗うから。 || It’s fine. I’ll wash them at the hotel.
+Q: Why isn’t B worried about having few clothes?
+C: B will buy more there ; B will wash them at the hotel ; It’s only one day ; B’s friend will lend some
+ANS: 2
+EXP: 用意 (ようい) preparation; とりあえず for now; 服 (ふく) clothes; 少ない (すくない) few. Extra words: 旅行 (りょこう), trip; 三日間 (みっかかん), three days; ホテル, hotel; 洗う (あらう), wash.
+
+@conversation Test results · Doctor and patient
+A: 血の検査の結果ですが、特に問題はありませんでした。 || About your blood test results — there were no particular problems.
+B: よかった。安心しました。 || Good. That’s a relief.
+B: 実は先週、一瞬、意識を失ったんです。 || Actually, last week I lost consciousness for a moment.
+A: そうでしたか。では、念のため、もう一度検査をしましょう。 || I see. Then, just to be safe, let’s do another test.
+Q: What does the doctor decide to do?
+C: Send B home without worry ; Do another test to be safe ; Give B medicine ; Send B to a big hospital
+ANS: 2
+EXP: 血 (ち) blood; 安心 (あんしん) relief; 実は (じつは) actually; 意識 (いしき) consciousness — 意識を失う (うしなう) means lose consciousness. Extra words: 検査 (けんさ), test; 念のため (ねんのため), just in case.
+
+@conversation The sacred tree · Friends
+A: この木には神様がいるって言われてるんだ。 || They say a god lives in this tree.
+B: なんだか不思議な感じがするね。 || It does feel kind of mysterious.
+A: 木に触れると、願いがかなうらしいよ。 || Apparently if you touch the tree, your wish comes true.
+B: じゃ、触れてみよう。 || Then let’s try touching it.
+Q: What happens if you touch the tree, according to A?
+C: You will be healthy ; Your wish will come true ; You will meet a god ; You will have good luck in love
+ANS: 2
+EXP: 神様 (かみさま) god — 神 is god, spirit; 不思議 (ふしぎ) mysterious; 触れる (ふれる) touch. Extra words: 木 (き), tree; 願い (ねがい), wish; かなう, come true.
+
+@conversation The missing cake · Siblings
+A: 一体、誰が私のケーキを食べたの？ || Who on earth ate my cake?
+B: 知らないよ。そもそも、どうして名前を書かなかったの？ || I don’t know. Why didn’t you write your name on it in the first place?
+A: 書いたよ！ほら、ここに。 || I did! Look, right here.
+B: …ごめん。昨日の夜の自分の行動を、今、思い出した。 || …Sorry. I just remembered what I did last night.
+Q: Who ate the cake?
+C: Their mother ; B ; A friend ; Nobody knows
+ANS: 2
+EXP: 一体 (いったい) what on earth; そもそも in the first place; 行動 (こうどう) actions — B remembers eating it. Extra word: ケーキ, cake.
+
+@conversation At the post office · Clerk and customer
+A: この荷物を大阪に送りたいんですが。 || I’d like to send this package to Osaka.
+B: はい。では、こちらに住所とお名前を書いてください。 || Certainly. Then please write the address and your name here.
+A: 明日までに届きますか。 || Will it arrive by tomorrow?
+B: はい、明日の午後には届きます。 || Yes, it will arrive tomorrow afternoon.
+Q: When will the package arrive?
+C: Today ; Tomorrow afternoon ; In three days ; Next week
+ANS: 2
+EXP: 送る (おくる) send; では means then, well (polite). Extra words: 荷物 (にもつ), package; 住所 (じゅうしょ), address; 届く (とどく), arrive; 午後 (ごご), afternoon.
+
+@reading 神社の大きな木
+TEXT: 近所の神社には、とても大きな木があります。この木に触れると、病気が治ると言われています。そんなことは信じていませんでしたが、実は去年、祖母が病気になった時、私も木に触れて神様にお願いしました。結局、祖母は元気になりました。不思議ですが、今でもあの木の前を通ると、手を合わせてしまいます。 || There’s a very big tree at the shrine near my home. They say if you touch it, your illness will be cured. I didn’t believe that, but actually, last year when my grandmother got sick, I touched the tree and prayed to the god too. In the end, she got better. It’s strange, but even now when I pass that tree, I find myself putting my hands together.
+Q: What did the writer do when the grandmother was sick?
+C: Took her to the shrine ; Touched the tree and prayed ; Brought her medicine ; Planted a new tree
+ANS: 2
+EXP: 私も木に触れて神様にお願いしました gives the answer. 触れる (ふれる) touch; 実は (じつは) actually; 神様 (かみさま) god; 結局 (けっきょく) in the end; 不思議 (ふしぎ) strange. Extra words: 近所 (きんじょ), neighborhood; 神社 (じんじゃ), shrine; 病気 (びょうき), illness; 治る (なおる), be cured; 手を合わせる, put hands together in prayer.
+
+@reading 小さな行動
+TEXT: 毎朝、駅までの道で、ごみを拾っている男の人がいます。最初は「一体、何のために？」と思いました。ある日、話しかけてみると、「町がきれいだと、みんな安心して歩けるでしょう」と言いました。そもそも、私は町のごみについて考えたこともありませんでした。今は私も、少ない時間ですが、ごみを拾うようにしています。 || Every morning, on the way to the station, there’s a man picking up litter. At first I thought, “What on earth for?” One day I spoke to him, and he said, “When the town is clean, everyone can walk around feeling safe, right?” In the first place, I had never even thought about the town’s litter. Now I try to pick up litter too, even if I only have a little time.
+Q: Why does the man pick up litter?
+C: It is his job ; So people can walk around feeling safe ; To win a prize ; Because his boss told him to
+ANS: 2
+EXP: 町がきれいだと、みんな安心して歩けるでしょう gives his reason. 一体 (いったい) what on earth; 安心 (あんしん) feeling safe; そもそも in the first place; 少ない (すくない) little; 行動 (こうどう) action. Extra words: ごみ, litter; 拾う (ひろう), pick up; 話しかける, speak to.
+
+@story The race I lost
+N: 先週、町のマラソン大会に出ました。一位になるつもりで、一か月前から用意をしていました。 || Last week I ran in the town marathon. I’d been preparing for a month, aiming for first place.
+N: でも、途中で転んでしまって、ひざから血が出ました。 || But partway through I fell, and my knee started bleeding.
+N: 結局、私は十位で、一緒に練習していた友達に負けました。 || In the end I came tenth and lost to the friend I’d been training with.
+N: でも、友達が「最後まで走ったのは凄いよ」と言ってくれて、少し安心しました。来年は更に練習して、もう一度頑張ります。 || But my friend said, “Running all the way to the end is amazing,” and I felt a bit better. Next year I’ll practice even more and try again.
+Q: What place did the narrator finish in?
+C: First ; Third ; Tenth ; They didn’t finish
+ANS: 3
+EXP: 結局、私は十位で gives the answer. 用意 (ようい) preparation; 血 (ち) blood; 負ける (まける) lose; 安心 (あんしん) relief; 更に (さらに) even more. Extra words: マラソン大会 (たいかい), marathon; 一位 (いちい), first place; 途中 (とちゅう), partway; 転ぶ (ころぶ), fall over; ひざ, knee; 練習 (れんしゅう), practice.

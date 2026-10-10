@@ -1,0 +1,87 @@
+# Level 20 · words 381–400
+@forms 393=点けて 394=付けよう
+
+@conversation Getting ready for the party · Roommates
+A: そろそろパーティーの準備をしよう。 || It’s about time we got ready for the party.
+B: うん。暗いから、まず電気を点けて。 || Yeah. It’s dark, so turn on the light first.
+A: 部屋に飾りも付けようか。 || Shall we put up some decorations too?
+B: いいね。みんな、七時に来るよ。 || Good idea. Everyone’s coming at seven.
+Q: What will they put up in the room?
+C: Photos ; Decorations ; A big sign ; Curtains
+ANS: 2
+EXP: そろそろ means it’s about time. 準備 (じゅんび) preparation. 点ける (つける) turn on (a light); 付ける (つける) attach, put up. Extra words: パーティー, party; 暗い (くらい), dark; 電気 (でんき), light; 飾り (かざり), decorations.
+
+@conversation A twisted ankle · Friends
+A: 大丈夫？足、痛い？ || Are you okay? Does your foot hurt?
+B: うん…すごく痛い。 || Yeah… it really hurts.
+A: 泣かないで。まず落ち着いて。 || Don’t cry. Calm down first.
+B: …うん、少し落ち着いた。 || …Okay, I’ve calmed down a little.
+A: この状態じゃ歩けないね。病院に行こう。 || You can’t walk like this. Let’s go to the hospital.
+Q: What do they decide to do?
+C: Rest at home ; Go to the hospital ; Call B’s parents ; Keep walking slowly
+ANS: 2
+EXP: 痛い (いたい) hurt; 泣く (なく) cry; 落ち着く (おちつく) calm down; 状態 (じょうたい) condition — この状態じゃ means in this state. Extra words: 歩く (あるく), walk; 病院 (びょういん), hospital.
+
+@conversation A borrowed book · Classmates
+A: この前借りた本、返すね。 || Here’s the book I borrowed the other day.
+B: ありがとう。どうだった？ || Thanks. How was it?
+A: 面白かったよ。ごめん、カバンの奥に入れたまま、ずっと忘れてた。 || It was interesting. Sorry, I left it at the bottom of my bag and forgot about it.
+B: 大丈夫。私も読むのに一か月かかったから。 || No problem. It took me a month to read it too.
+Q: Why did A return the book late?
+C: A lost it ; A left it at the bottom of a bag and forgot ; A lent it to someone ; A was reading it slowly
+ANS: 2
+EXP: 返す (かえす) return, give back. 奥 (おく) the back, inside — カバンの奥 means deep in the bag. Extra words: 借りる (かりる), borrow; カバン, bag; 一か月 (いっかげつ), a month.
+
+@conversation A cat in the garden · Family
+A: さっき、庭に知らない猫が現れたよ。 || A cat I didn’t know showed up in the garden a moment ago.
+B: どこ？ || Where?
+A: 何かを木の後ろに隠したみたい。 || It seemed to hide something behind the tree.
+B: 一瞬しか見えなかったけど、黒い猫だったね。 || I only saw it for a second, but it was a black cat.
+Q: What did the cat do?
+C: Hid something behind a tree ; Ate the fish ; Climbed onto the roof ; Came into the house
+ANS: 1
+EXP: 現れる (あらわれる) appear; 後ろ (うしろ) behind; 隠す (かくす) hide; 一瞬 (いっしゅん) a moment. Extra words: 庭 (にわ), garden; 猫 (ねこ), cat; 木 (き), tree; 黒い (くろい), black.
+
+@conversation An office rumor · Coworkers
+A: どうやら、田中さんと山田さん、付き合ってるらしいよ。 || It looks like Tanaka and Yamada are dating.
+B: え、そういう関係なの？ || What? They’re in that kind of relationship?
+A: うん。でも、恥ずかしいから、みんなには隠してるみたい。 || Yeah. But they seem to be hiding it from everyone because they’re embarrassed.
+B: 完全にばれてるけどね。 || Though it’s completely obvious.
+Q: Why are the two keeping it secret?
+C: The boss doesn’t allow it ; They feel embarrassed ; They are not sure yet ; One of them is leaving
+ANS: 2
+EXP: どうやら…らしい means it seems. 関係 (かんけい) relationship; 恥ずかしい (はずかしい) embarrassed; 隠す (かくす) hide; 完全に (かんぜんに) completely. Extra words: 付き合う (つきあう), date; ばれる, be found out.
+
+@conversation Traveling light · Friends
+A: カバン、軽いね。何も入ってないの？ || Your bag is light. Is there nothing in it?
+B: 着替えだけ。旅行は荷物が軽いほうがいいよ。 || Just a change of clothes. When traveling, lighter luggage is better.
+A: なるほど。じゃ、写真を撮るから、こっちに顔を向けて。 || I see. Okay, I’ll take a photo, so turn your face this way.
+B: はい、チーズ。 || Okay — cheese!
+Q: What does B think is better when traveling?
+C: Packing lots of clothes ; Having light luggage ; Taking many photos ; Bringing a big bag
+ANS: 2
+EXP: 軽い (かるい) light; 顔を向ける (むける) turn your face toward. Extra words: 着替え (きがえ), change of clothes; 旅行 (りょこう), trip; 荷物 (にもつ), luggage; 写真を撮る (しゃしんをとる), take a photo.
+
+@reading 引っ越しの準備
+TEXT: 来週、新しい部屋に引っ越します。そろそろ準備を始めないと間に合いません。昨日、本棚を片付けていると、奥から子どもの時の写真が現れました。写真の中の私は、泣きながら父の後ろに隠れています。一瞬、手が止まって、その写真をずっと見てしまいました。 || Next week I’m moving to a new apartment. If I don’t start getting ready soon, I won’t make it in time. Yesterday, while tidying my bookshelf, a photo from my childhood appeared from the back. In the photo, I’m crying and hiding behind my father. For a moment my hands stopped, and I kept looking at the photo.
+Q: What did the writer find while tidying?
+C: A letter from father ; A childhood photo ; Some old money ; A lost book
+ANS: 2
+EXP: 奥から子どもの時の写真が現れました gives the answer. そろそろ soon; 準備 (じゅんび) preparation; 奥 (おく) the back; 現れる (あらわれる) appear; 一瞬 (いっしゅん) a moment. Extra words: 引っ越す (ひっこす), move house; 本棚 (ほんだな), bookshelf; 片付ける (かたづける), tidy; 隠れる (かくれる), hide oneself.
+
+@reading 初めての英語の発表
+TEXT: 大学で初めて英語の発表をしました。前に立つと、恥ずかしくて顔が赤くなりました。最初は声も小さかったです。でも、みんなが優しい顔で聞いてくれたので、少しずつ落ち着きました。発表が終わった時、心がとても軽くなりました。 || At university I gave a presentation in English for the first time. When I stood at the front, I was so embarrassed my face turned red. At first my voice was quiet too. But because everyone listened with kind faces, I gradually calmed down. When the presentation ended, my heart felt very light.
+Q: What helped the writer calm down?
+C: Practicing the night before ; Everyone listening kindly ; Drinking water ; Reading from notes
+ANS: 2
+EXP: みんなが優しい顔で聞いてくれたので、少しずつ落ち着きました gives the answer. 恥ずかしい (はずかしい) embarrassed; 落ち着く (おちつく) calm down; 軽い (かるい) light. Extra words: 大学 (だいがく), university; 発表 (はっぴょう), presentation; 赤い (あかい), red.
+
+@story The wallet that came back
+N: 先週、駅で財布を落としてしまいました。 || Last week I dropped my wallet at the station.
+N: お金もカードも全部入っていたので、泣きたい気持ちでした。 || It had all my money and cards in it, so I felt like crying.
+N: 次の日、警察から電話がありました。どうやら、高校生の男の子が届けてくれたようです。 || The next day the police called me. It seemed a high school boy had handed it in.
+N: 財布は完全に元の状態で返ってきました。私はその男の子に、お礼の手紙を書きました。 || The wallet came back in exactly the same condition. I wrote a thank-you letter to the boy.
+Q: Who found the wallet?
+C: A station worker ; A high school boy ; The narrator’s friend ; A police officer
+ANS: 2
+EXP: 高校生の男の子が届けてくれたようです gives the answer. どうやら…ようです it seems; 完全に (かんぜんに) completely; 状態 (じょうたい) condition; 返る (かえる) come back — related to 返す. Extra words: 財布 (さいふ), wallet; 落とす (おとす), drop; 警察 (けいさつ), police; 高校生 (こうこうせい), high school student; 届ける (とどける), hand in; お礼 (おれい), thanks; 手紙 (てがみ), letter.

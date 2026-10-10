@@ -204,5 +204,845 @@
         "explanation": "携帯を見ない時間を作りたい means want to set aside time without looking at the phone. 携帯 (けいたい): mobile phone; 周り (まわり): surroundings; 鳥 (とり): bird; ばかり: only/all the time."
       }
     ]
+  },
+  {
+    "id": "solo-kaishi-1-5",
+    "label": "Kaishi levels 1–5",
+    "wordCount": 0,
+    "words": [],
+    "questions": [
+      {
+        "situation": "Level 1 · My brother’s books",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "私はアンです。日本語の勉強が好きです。",
+            "translation": "I’m Ann. I like studying Japanese."
+          },
+          {
+            "speaker": "A",
+            "text": "兄がいます。兄は本が好きです。家には兄の本が沢山あります。",
+            "translation": "I have an older brother. He likes books. There are lots of his books at home."
+          },
+          {
+            "speaker": "A",
+            "text": "これも、それも、兄の本です。私は毎日、兄の日本語の本で勉強します。兄はいい人です。",
+            "translation": "This one and that one are my brother’s books too. Every day I study with his Japanese books. My brother is a good person."
+          }
+        ],
+        "question": "What does Ann use to study every day?",
+        "choices": [
+          "Her teacher’s notes",
+          "Her brother’s Japanese books",
+          "A phone app",
+          "Her friend’s books"
+        ],
+        "answer": 1,
+        "explanation": "兄の日本語の本で勉強します means I study with my brother’s Japanese books. 兄 (あに) older brother; 毎日 (まいにち) every day; いい人 (ひと) a good person. Extra words: 家 (いえ), home; 沢山 (たくさん), a lot."
+      },
+      {
+        "situation": "Level 2 · Not much time",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "今、私はあまり時間がありません。毎日、仕事をしています。",
+            "translation": "Right now I don’t have much time. I work every day."
+          },
+          {
+            "speaker": "A",
+            "text": "でも、私は先生になりたいです。だから、夜に少し日本語の本を見ます。",
+            "translation": "But I want to become a teacher. So at night I look at a Japanese book for a little while."
+          },
+          {
+            "speaker": "A",
+            "text": "この本は全然難しくないです。とても面白いです。先生が名前を教えてくれた本です。",
+            "translation": "This book isn’t hard at all. It’s very interesting. It’s a book my teacher told me the name of."
+          }
+        ],
+        "question": "What does the narrator want to become?",
+        "choices": [
+          "A writer",
+          "A teacher",
+          "A doctor",
+          "A shop owner"
+        ],
+        "answer": 1,
+        "explanation": "先生になりたいです means I want to become a teacher. あまり時間がありません means I don’t have much time; 全然 with a negative means not at all; 面白い (おもしろい) interesting; 教える (おしえる) tell, teach. Extra words: 仕事 (しごと), work; 夜 (よる), night; 少し (すこし), a little; 難しい (むずかしい), difficult."
+      },
+      {
+        "situation": "Level 3 · The book left at school",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "アンちゃんは日本の学校に行っています。学校は家の前にあります。",
+            "translation": "Ann goes to a school in Japan. The school is in front of her house."
+          },
+          {
+            "speaker": "A",
+            "text": "今日、アンちゃんは本を学校に置いて、家に帰りました。",
+            "translation": "Today Ann left her book at school and went home."
+          },
+          {
+            "speaker": "A",
+            "text": "明日、また学校に行きます。「私の本はどこですか」と先生に聞くつもりです。先生はきっと知っていると思います。",
+            "translation": "Tomorrow she’ll go to school again. She plans to ask her teacher, “Where is my book?” She thinks the teacher will surely know."
+          }
+        ],
+        "question": "Where did Ann leave her book?",
+        "choices": [
+          "At home",
+          "At school",
+          "On the bus",
+          "At a friend’s house"
+        ],
+        "answer": 1,
+        "explanation": "本を学校に置いて means she left the book at school. 置く (おく) put, leave; 帰る (かえる) go home; 明日 (あした) tomorrow; また again; 知る (しる) know; 思う (おもう) think. Extra words: 聞く (きく), ask; つもり, plan; きっと, surely."
+      },
+      {
+        "situation": "Level 4 · Waiting for a friend",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "昨日、駅の前で友達を待ちました。三十分待ちましたが、友達は来ませんでした。",
+            "translation": "Yesterday I waited for a friend in front of the station. I waited thirty minutes, but my friend didn’t come."
+          },
+          {
+            "speaker": "A",
+            "text": "電話で聞くと、友達は「ごめん、明日だと思っていた」と言いました。",
+            "translation": "When I asked on the phone, my friend said, “Sorry, I thought it was tomorrow.”"
+          },
+          {
+            "speaker": "A",
+            "text": "私はちょっと考えて、「じゃあ、明日また会おう」と話しました。友達は「ありがとう」と言いました。",
+            "translation": "I thought for a moment and said, “Then let’s meet again tomorrow.” My friend said, “Thanks.”"
+          }
+        ],
+        "question": "Why didn’t the friend come?",
+        "choices": [
+          "The friend was sick",
+          "The friend thought it was tomorrow",
+          "The friend forgot the place",
+          "The train was late"
+        ],
+        "answer": 1,
+        "explanation": "明日だと思っていた means I thought it was tomorrow. 待つ (まつ) wait; 昨日 (きのう) yesterday; 聞く (きく) ask; 言う (いう) say; 考える (かんがえる) think; 話す (はなす) say, talk; 会う (あう) meet. Extra words: 駅 (えき), station; 電話 (でんわ), phone; ごめん, sorry; ちょっと, for a moment."
+      },
+      {
+        "situation": "Level 5 · A present from my father",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "先週、父が時計をくれました。町で一番高い店で買ったそうです。",
+            "translation": "Last week my father gave me a watch. Apparently he bought it at the most expensive shop in town."
+          },
+          {
+            "speaker": "A",
+            "text": "私はその時計が大好きになりました。でも、ちょっと高すぎると思います。",
+            "translation": "I came to love that watch. But I think it was a bit too expensive."
+          },
+          {
+            "speaker": "A",
+            "text": "母は「お父さんは本当に君が大好きなのよ」と言いました。今度は私が父に何かあげたいです。",
+            "translation": "My mother said, “Your father really loves you.” Next time, I want to give my father something."
+          }
+        ],
+        "question": "What does the narrator want to do next?",
+        "choices": [
+          "Return the watch",
+          "Give the father something",
+          "Buy another watch",
+          "Visit the shop"
+        ],
+        "answer": 1,
+        "explanation": "今度は私が父に何かあげたいです means next time I want to give my father something. くれる (someone gives to me); あげる (I give); 一番高い the most expensive; 本当に (ほんとうに) really; 大好き (だいすき) love; 君 (きみ) you. Extra words: 先週 (せんしゅう), last week; 時計 (とけい), watch; 店 (みせ), shop; 買う (かう), buy."
+      }
+    ]
+  },
+  {
+    "id": "solo-kaishi-6-10",
+    "label": "Kaishi levels 6–10",
+    "wordCount": 0,
+    "words": [],
+    "questions": [
+      {
+        "situation": "Level 6 · Sunday at Grandpa’s",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "日曜日、家族みんなでおじいさんとおばあさんの家に行きました。",
+            "translation": "On Sunday my whole family went to Grandpa and Grandma’s house."
+          },
+          {
+            "speaker": "A",
+            "text": "家に入ると、おじいさんが大きな声で「よく来たね」と言いました。二人とも、とても元気です。",
+            "translation": "When we went in, Grandpa said in a loud voice, “Welcome!” They’re both very healthy."
+          },
+          {
+            "speaker": "A",
+            "text": "おばあさんは、いつも使っている大きい鍋で、みんなのご飯を作ってくれました。今日も楽しい一日でした。",
+            "translation": "Grandma made food for everyone in the big pot she always uses. Today was another fun day."
+          }
+        ],
+        "question": "What did Grandma do?",
+        "choices": [
+          "Took everyone out to eat",
+          "Cooked for everyone in a big pot",
+          "Showed old photos",
+          "Slept all day"
+        ],
+        "answer": 1,
+        "explanation": "大きい鍋で、みんなのご飯を作ってくれました gives the answer. 家族 (かぞく) family; 入る (はいる) go in; 大きな声 (こえ) loud voice; 元気 (げんき) healthy; いつも always; 使う (つかう) use; 今日 (きょう) today. Extra words: 日曜日 (にちようび), Sunday; 鍋 (なべ), pot; ご飯 (ごはん), meal; 作る (つくる), make."
+      },
+      {
+        "situation": "Level 7 · A word we didn’t know",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "今日、友達が「これ、どんな意味？」と言って、一つの言葉を見せてくれました。",
+            "translation": "Today a friend showed me a word and asked, “What does this mean?”"
+          },
+          {
+            "speaker": "A",
+            "text": "私もその言葉を知りませんでした。二人で私の部屋に行って、沢山の本で調べました。",
+            "translation": "I didn’t know the word either. We went to my room and looked it up in lots of books."
+          },
+          {
+            "speaker": "A",
+            "text": "やっと意味が分かった時、友達はとても嬉しそうな様子でした。誰かと一緒に調べる事は、一人より楽しいです。",
+            "translation": "When we finally understood the meaning, my friend looked really happy. Looking things up with someone is more fun than doing it alone."
+          }
+        ],
+        "question": "What does the narrator say at the end?",
+        "choices": [
+          "Dictionaries are hard to use",
+          "Looking things up together is more fun",
+          "The friend should study more",
+          "The word was easy"
+        ],
+        "answer": 1,
+        "explanation": "誰かと一緒に調べる事は、一人より楽しいです gives the answer. どんな意味 what meaning; 言葉 (ことば) word; 部屋 (へや) room; 沢山 (たくさん) a lot; 調べる (しらべる) look up; 様子 (ようす) appearance; 事 (こと) thing. Extra words: 見せる (みせる), show; やっと, finally; 嬉しい (うれしい), happy; 一緒に (いっしょに), together."
+      },
+      {
+        "situation": "Level 8 · Helping at the bakery",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "今度の土曜日、近くのパン屋さんを手伝う約束をしました。お店はとても忙しいそうです。",
+            "translation": "I promised to help at the nearby bakery this Saturday. Apparently the shop is very busy."
+          },
+          {
+            "speaker": "A",
+            "text": "さっき、お店の人から電話がありました。「この前と同じ時間に来てください」と言われました。",
+            "translation": "A little while ago, someone from the shop called. They told me, “Please come at the same time as last time.”"
+          },
+          {
+            "speaker": "A",
+            "text": "私はこれから、エプロンを買いに行きます。約束はちゃんと守りたいし、この仕事を続けるのも楽しみです。",
+            "translation": "Now I’m going to buy an apron. I want to keep my promise properly, and I’m looking forward to continuing this work."
+          }
+        ],
+        "question": "What is the narrator going to do now?",
+        "choices": [
+          "Go to the bakery",
+          "Buy an apron",
+          "Call the shop back",
+          "Bake bread at home"
+        ],
+        "answer": 1,
+        "explanation": "これから、エプロンを買いに行きます gives the answer. 今度 (こんど) this coming; 手伝う (てつだう) help; 約束 (やくそく) promise; 忙しい (いそがしい) busy; さっき a little while ago; 同じ (おなじ) same; これから from now; 守る (まもる) keep; 続ける (つづける) continue. Extra words: 土曜日 (どようび), Saturday; パン屋 (パンや), bakery; エプロン, apron; 楽しみ (たのしみ), something to look forward to."
+      },
+      {
+        "situation": "Level 9 · My friend’s dream",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "あいつは本当にいい奴です。今まで、何度も私を助けてくれました。",
+            "translation": "He’s a really good guy. Until now, he’s helped me many times."
+          },
+          {
+            "speaker": "A",
+            "text": "あいつの夢は、自分の国で日本語の先生になることです。毎日、夜遅くまで頑張っています。",
+            "translation": "His dream is to become a Japanese teacher in his own country. Every day he works hard until late at night."
+          },
+          {
+            "speaker": "A",
+            "text": "今回、あいつに「試験の勉強を手伝って」と頼まれました。もちろん、嬉しい気持ちで手伝うつもりです。",
+            "translation": "This time, he asked me, “Help me study for the exam.” Of course, I’m happy to help."
+          }
+        ],
+        "question": "What did the friend ask the narrator to do?",
+        "choices": [
+          "Lend him money",
+          "Help him study for an exam",
+          "Teach his class",
+          "Go to his country with him"
+        ],
+        "answer": 1,
+        "explanation": "試験の勉強を手伝って means help me study for the exam. あいつ and 奴 (やつ) are casual words for a guy; 今まで until now; 夢 (ゆめ) dream; 国 (くに) country; 頑張る (がんばる) work hard; 今回 (こんかい) this time; 頼む (たのむ) ask; 嬉しい (うれしい) happy. Extra words: 何度も (なんども), many times; 助ける (たすける), help; 遅く (おそく), late; 試験 (しけん), exam."
+      },
+      {
+        "situation": "Level 10 · A free afternoon",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "僕は今日、暇でした。公園のベンチに座って、水を飲みながら本を読みました。",
+            "translation": "I was free today. I sat on a park bench and read a book while drinking water."
+          },
+          {
+            "speaker": "A",
+            "text": "近くで、男の子と女の子が小さい犬と遊んでいました。犬が全く言うことを聞かないので、二人とも笑っていました。",
+            "translation": "Nearby, a boy and a girl were playing with a small dog. The dog didn’t listen to them at all, so they were both laughing."
+          },
+          {
+            "speaker": "A",
+            "text": "なぜか、僕も楽しい気持ちになりました。難しいことは何も考えない、簡単な一日でした。",
+            "translation": "For some reason, I felt happy too. It was a simple day when I didn’t think about anything difficult."
+          }
+        ],
+        "question": "Why were the boy and girl laughing?",
+        "choices": [
+          "The narrator told a joke",
+          "The dog didn’t listen to them at all",
+          "They won a game",
+          "The dog fell asleep"
+        ],
+        "answer": 1,
+        "explanation": "犬が全く言うことを聞かないので、二人とも笑っていました gives the reason. 僕 (ぼく) I; 暇 (ひま) free; 座る (すわる) sit; 水 (みず) water; 飲む (のむ) drink; 男の子 / 女の子 boy / girl; 小さい (ちいさい) small; 全く (まったく) at all; なぜか for some reason; 難しい (むずかしい) difficult; 簡単 (かんたん) simple. Extra words: 公園 (こうえん), park; ベンチ, bench; 犬 (いぬ), dog; 遊ぶ (あそぶ), play; 笑う (わらう), laugh."
+      }
+    ]
+  },
+  {
+    "id": "solo-kaishi-11-15",
+    "label": "Kaishi levels 11–15",
+    "wordCount": 0,
+    "words": [],
+    "questions": [
+      {
+        "situation": "Level 11 · An hour to myself",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "今朝は六時半に起きました。家族はまだみんな寝ていました。",
+            "translation": "This morning I got up at half past six. My family was still asleep."
+          },
+          {
+            "speaker": "A",
+            "text": "私は一人で顔を洗って、コーヒーを飲みながら本を読みました。",
+            "translation": "On my own, I washed my face and read a book while drinking coffee."
+          },
+          {
+            "speaker": "A",
+            "text": "七時半に母が起きてきて、「今日はどうしたの？」と言いました。私は「朝のこの一時間が好きなんだ」と言いました。",
+            "translation": "At half past seven my mother got up and said, “What’s up today?” I said, “I love this hour in the morning.”"
+          },
+          {
+            "speaker": "A",
+            "text": "そして、八時に家を出ました。誰もいない朝の時間は、私の一番好きな時間です。",
+            "translation": "Then I left home at eight. The morning time when no one is around is my favorite time."
+          }
+        ],
+        "question": "What does the narrator enjoy most?",
+        "choices": [
+          "Breakfast with the family",
+          "Reading late at night",
+          "The quiet hour in the morning",
+          "Leaving home early"
+        ],
+        "answer": 2,
+        "explanation": "朝のこの一時間が好きなんだ and 誰もいない朝の時間は、私の一番好きな時間です give the answer. 六時半 (ろくじはん) half past six; 顔を洗う wash one’s face. Extra words: 起きる (おきる), get up; 朝 (あさ), morning; 洗う (あらう), wash; コーヒー, coffee; 読む (よむ), read."
+      },
+      {
+        "situation": "Level 12 · Grandma’s rice balls",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "私のおばあさんは、毎年、私が遊びに行くと、おにぎりを作ってくれます。",
+            "translation": "Every year, when I visit, my grandmother makes me rice balls."
+          },
+          {
+            "speaker": "A",
+            "text": "おばあさんのおにぎりは少し大きくて、塩の味が強いです。",
+            "translation": "Her rice balls are a little big, and the salt is strong."
+          },
+          {
+            "speaker": "A",
+            "text": "でも、店で買うおにぎりとは全然違います。食べると、おばあさんの優しい気持ちを感じます。",
+            "translation": "But they’re nothing like the ones you buy in shops. When I eat them, I can feel her kindness."
+          },
+          {
+            "speaker": "A",
+            "text": "今度は、私が作り方を教えてもらうつもりです。",
+            "translation": "Next time, I plan to have her teach me how to make them."
+          }
+        ],
+        "question": "What does the narrator plan to do next time?",
+        "choices": [
+          "Buy rice balls at a shop",
+          "Learn how to make the rice balls",
+          "Make curry for grandma",
+          "Visit grandma every month"
+        ],
+        "answer": 1,
+        "explanation": "作り方を教えてもらうつもりです means I plan to have her teach me how to make them. 塩の味が強い means the salt taste is strong. 全然違う means completely different; 感じる (かんじる) feel. Extra words: おにぎり, rice ball; 塩 (しお), salt; 味 (あじ), taste."
+      },
+      {
+        "situation": "Level 13 · The notebook I forgot",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "昨日は会議が早く終わったので、いつもより早い電車で帰りました。",
+            "translation": "Yesterday the meeting ended early, so I took an earlier train home than usual."
+          },
+          {
+            "speaker": "A",
+            "text": "でも、駅に着いた時、明日の会議に必要なノートを会社に忘れたことに気がつきました。",
+            "translation": "But when I got to the station, I realized I’d left the notebook I needed for tomorrow’s meeting at the office."
+          },
+          {
+            "speaker": "A",
+            "text": "私は急いで会社に戻りました。ドアの前で、田中さんがノートを持って立っていました。",
+            "translation": "I hurried back to the office. Tanaka was standing in front of the door, holding my notebook."
+          },
+          {
+            "speaker": "A",
+            "text": "「やっぱり戻ってきたね」と田中さんは笑いました。",
+            "translation": "“I knew you’d come back,” Tanaka said with a laugh."
+          }
+        ],
+        "question": "Who was holding the narrator’s notebook?",
+        "choices": [
+          "The narrator’s older sister",
+          "Tanaka",
+          "A station worker",
+          "Nobody — it was on the desk"
+        ],
+        "answer": 1,
+        "explanation": "田中さんがノートを持って立っていました gives the answer. 早く終わった means ended early; 必要 (ひつよう) necessary; 戻る (もどる) return; やっぱり means just as I thought. Extra words: 会議 (かいぎ), meeting; 電車 (でんしゃ), train; ノート, notebook; 気がつく, realize; 急ぐ (いそぐ), hurry."
+      },
+      {
+        "situation": "Level 14 · Hide and seek",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "子どもの時、弟とかくれんぼをするのが大好きでした。",
+            "translation": "When I was a child, I loved playing hide-and-seek with my little brother."
+          },
+          {
+            "speaker": "A",
+            "text": "ある日、私は押し入れの中に入って、息を殺して待っていました。",
+            "translation": "One day I got into the closet and waited, holding my breath."
+          },
+          {
+            "speaker": "A",
+            "text": "弟の足音がだんだん大きくなります。でも、弟は押し入れの前を通り過ぎて、台所へ行ってしまいました。",
+            "translation": "My brother’s footsteps grew louder. But he walked right past the closet and went off to the kitchen."
+          },
+          {
+            "speaker": "A",
+            "text": "三十分後、弟は母のところへ行って、「お姉ちゃんがどこにもいない」と言いました。今でも家族の楽しい話です。",
+            "translation": "Thirty minutes later, he went to our mother and said, “My sister isn’t anywhere!” It’s still a funny family story."
+          }
+        ],
+        "question": "Where was the narrator hiding?",
+        "choices": [
+          "In the kitchen",
+          "In the closet",
+          "Behind the door",
+          "Under the bed"
+        ],
+        "answer": 1,
+        "explanation": "押し入れの中に入って means went into the closet. 息を殺す (いきをころす) means hold your breath — a common use of 殺す. 足音 (あしおと) footsteps; 通り過ぎる (とおりすぎる) pass by. Extra words: かくれんぼ, hide-and-seek; 押し入れ (おしいれ), closet; 息 (いき), breath; 台所 (だいどころ), kitchen."
+      },
+      {
+        "situation": "Level 15 · My promise",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "私はよく約束の時間に遅れます。理由はいつも同じで、朝起きられないからです。",
+            "translation": "I’m often late for appointments. The reason is always the same: I can’t get up in the morning."
+          },
+          {
+            "speaker": "A",
+            "text": "先週、友達に「時間を守らないのは、相手を大切にしていないのと同じだよ」と言われました。",
+            "translation": "Last week a friend told me, “Not being on time is the same as not caring about the other person.”"
+          },
+          {
+            "speaker": "A",
+            "text": "その言葉を聞いて、心が痛くなりました。私は友達を大切に思っているからです。",
+            "translation": "Hearing that hurt, because I really do care about my friends."
+          },
+          {
+            "speaker": "A",
+            "text": "今後は絶対に遅れないように、目覚まし時計を三つ買いました。",
+            "translation": "So that I’m never late again, I bought three alarm clocks."
+          }
+        ],
+        "question": "What did the narrator do after the friend’s words?",
+        "choices": [
+          "Bought three alarm clocks",
+          "Moved closer to the station",
+          "Stopped making plans",
+          "Apologized with a gift"
+        ],
+        "answer": 0,
+        "explanation": "目覚まし時計を三つ買いました gives the answer. 理由 (りゆう) reason; 心が痛くなる means it hurt (my heart); 今後 (こんご) from now on; 絶対に (ぜったいに) never, absolutely. Extra words: 遅れる (おくれる), be late; 大切 (たいせつ), precious; 痛い (いたい), painful; 目覚まし時計 (めざましどけい), alarm clock."
+      }
+    ]
+  },
+  {
+    "id": "solo-kaishi-16-20",
+    "label": "Kaishi levels 16–20",
+    "wordCount": 0,
+    "words": [],
+    "questions": [
+      {
+        "situation": "Level 16 · Grandfather’s words",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "おじいさんは、私が十歳の時に死にました。",
+            "translation": "My grandfather died when I was ten."
+          },
+          {
+            "speaker": "A",
+            "text": "最後に会った日、おじいさんは私の頭に手を置いて、「自分の好きなように生きなさい」と言いました。",
+            "translation": "The last day I saw him, he put his hand on my head and said, “Live the way you want to.”"
+          },
+          {
+            "speaker": "A",
+            "text": "その時の優しい表情を、今でもよく思い出します。",
+            "translation": "I still often remember the kind look on his face then."
+          },
+          {
+            "speaker": "A",
+            "text": "仕事で困った時、私はいつもあの言葉を思い出して、胸に手を当てます。",
+            "translation": "When I’m in trouble at work, I always remember those words and put my hand on my chest."
+          }
+        ],
+        "question": "What did the grandfather tell the narrator?",
+        "choices": [
+          "To study hard",
+          "To live the way they want",
+          "To take care of the family",
+          "To become a teacher"
+        ],
+        "answer": 1,
+        "explanation": "自分の好きなように生きなさい means live the way you like. 最後 (さいご) last; 表情 (ひょうじょう) expression; 思い出す (おもいだす) remember; 胸 (むね) chest. Extra words: 困る (こまる), be in trouble; 当てる (あてる), put against."
+      },
+      {
+        "situation": "Level 17 · The night the lights went out",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "昨日の夜、家の電気が全て消えました。",
+            "translation": "Last night, all the lights in my house went out."
+          },
+          {
+            "speaker": "A",
+            "text": "一人だったので、とても怖かったです。外を見ると、町の電気も消えていました。",
+            "translation": "I was alone, so I was really scared. When I looked outside, the town’s lights were out too."
+          },
+          {
+            "speaker": "A",
+            "text": "状況が分からなくて困りましたが、スマホで確認すると、町全体で停電していることが分かりました。",
+            "translation": "I didn’t understand what was happening and didn’t know what to do, but when I checked on my phone, I found out the whole town had lost power."
+          },
+          {
+            "speaker": "A",
+            "text": "二時間後に電気がつきました。暗い間に、ろうそくの光で本を読んだのは、ちょっと楽しかったです。",
+            "translation": "Two hours later the power came back. Reading a book by candlelight while it was dark was actually a bit fun."
+          }
+        ],
+        "question": "Why did the lights go out?",
+        "choices": [
+          "The narrator forgot to pay the bill",
+          "The whole town lost power",
+          "A light bulb broke",
+          "Someone turned them off"
+        ],
+        "answer": 1,
+        "explanation": "町全体で停電している means the whole town had a power cut. 全て (すべて) all; 消える (きえる) go out; 怖い (こわい) scary; 状況 (じょうきょう) situation; 確認 (かくにん) check. Extra words: 電気 (でんき), electricity, lights; スマホ, smartphone; 停電 (ていでん), power cut; 暗い (くらい), dark; ろうそく, candle; 光 (ひかり), light."
+      },
+      {
+        "situation": "Level 18 · A letter from ten years ago",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "十年前、学校で「十年後の自分へ」という手紙を書きました。",
+            "translation": "Ten years ago, at school, I wrote a letter titled “To myself in ten years.”"
+          },
+          {
+            "speaker": "A",
+            "text": "先週、その手紙が家に届きました。開けると、子どもの字で「夢はかなった？」と書いてありました。",
+            "translation": "Last week that letter arrived at my home. When I opened it, it said in a child’s handwriting, “Did your dream come true?”"
+          },
+          {
+            "speaker": "A",
+            "text": "子どもの時の夢は、絵本を書く人になることでした。でも、今は会社で毎日忙しく働いています。",
+            "translation": "My childhood dream was to write picture books. But now I work busily at a company every day."
+          },
+          {
+            "speaker": "A",
+            "text": "手紙を読んだ瞬間、あの頃の気持ちを思い出しました。私はもう一度、夢に向かって頑張ろうと決めました。",
+            "translation": "The moment I read the letter, I remembered how I felt back then. I decided to work toward my dream again."
+          }
+        ],
+        "question": "What was the narrator’s childhood dream?",
+        "choices": [
+          "To work at a company",
+          "To write picture books",
+          "To become a teacher",
+          "To travel the world"
+        ],
+        "answer": 1,
+        "explanation": "子どもの時の夢は、絵本を書く人になることでした gives the answer. 書く (かく) write; 瞬間 (しゅんかん) moment; 決める (きめる) decide. Extra words: 手紙 (てがみ), letter; 届く (とどく), arrive; 開ける (あける), open; 字 (じ), handwriting; かなう, come true; 絵本 (えほん), picture book."
+      },
+      {
+        "situation": "Level 19 · My old diary",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "部屋を片付けていると、子供の時の日記を見つけました。",
+            "translation": "While cleaning my room, I found my childhood diary."
+          },
+          {
+            "speaker": "A",
+            "text": "読んでみると、ほとんど毎日「今日も楽しかった」と書いてありました。",
+            "translation": "When I read it, almost every day said, “Today was fun again.”"
+          },
+          {
+            "speaker": "A",
+            "text": "こんなに毎日が楽しかったのかと、少し驚きました。大人になると、仕事や生活が大変で、楽しいことを忘れてしまいます。",
+            "translation": "I was a little surprised that every day had been so much fun. As an adult, work and life are hard, and you forget the fun things."
+          },
+          {
+            "speaker": "A",
+            "text": "それで、今日から私も、一日に一つ楽しかったことを書くことにしました。",
+            "translation": "So from today, I’ve decided to write down one fun thing each day too."
+          }
+        ],
+        "question": "What did the narrator decide to do?",
+        "choices": [
+          "Throw away the old diary",
+          "Write one fun thing every day",
+          "Quit their job",
+          "Call an old friend"
+        ],
+        "answer": 1,
+        "explanation": "一日に一つ楽しかったことを書くことにしました gives the answer. 見つける (みつける) find; 子供 (こども) child; 読む (よむ) read; こんなに this much; 大変 (たいへん) hard. Extra words: 片付ける (かたづける), tidy up; 日記 (にっき), diary; ほとんど, almost; 大人 (おとな), adult; 生活 (せいかつ), life."
+      },
+      {
+        "situation": "Level 20 · The wallet that came back",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "先週、駅で財布を落としてしまいました。",
+            "translation": "Last week I dropped my wallet at the station."
+          },
+          {
+            "speaker": "A",
+            "text": "お金もカードも全部入っていたので、泣きたい気持ちでした。",
+            "translation": "It had all my money and cards in it, so I felt like crying."
+          },
+          {
+            "speaker": "A",
+            "text": "次の日、警察から電話がありました。どうやら、高校生の男の子が届けてくれたようです。",
+            "translation": "The next day the police called me. It seemed a high school boy had handed it in."
+          },
+          {
+            "speaker": "A",
+            "text": "財布は完全に元の状態で返ってきました。私はその男の子に、お礼の手紙を書きました。",
+            "translation": "The wallet came back in exactly the same condition. I wrote a thank-you letter to the boy."
+          }
+        ],
+        "question": "Who found the wallet?",
+        "choices": [
+          "A station worker",
+          "A high school boy",
+          "The narrator’s friend",
+          "A police officer"
+        ],
+        "answer": 1,
+        "explanation": "高校生の男の子が届けてくれたようです gives the answer. どうやら…ようです it seems; 完全に (かんぜんに) completely; 状態 (じょうたい) condition; 返る (かえる) come back — related to 返す. Extra words: 財布 (さいふ), wallet; 落とす (おとす), drop; 警察 (けいさつ), police; 高校生 (こうこうせい), high school student; 届ける (とどける), hand in; お礼 (おれい), thanks; 手紙 (てがみ), letter."
+      }
+    ]
+  },
+  {
+    "id": "solo-kaishi-21-25",
+    "label": "Kaishi levels 21–25",
+    "wordCount": 0,
+    "words": [],
+    "questions": [
+      {
+        "situation": "Level 21 · Meeting my old teacher",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "先週、駅で元担任の先生に会いました。十年ぶりでした。",
+            "translation": "Last week I ran into my former homeroom teacher at the station. It had been ten years."
+          },
+          {
+            "speaker": "A",
+            "text": "先生の髪は白くなっていましたが、笑顔は昔と同じでした。",
+            "translation": "His hair had turned white, but his smile was the same as before."
+          },
+          {
+            "speaker": "A",
+            "text": "「しっかりした大人になったね」と言われて、とても嬉しかったです。",
+            "translation": "He said, “You’ve become a responsible adult,” and I was very happy."
+          },
+          {
+            "speaker": "A",
+            "text": "来月、私たちのクラスのみんなで、先生に会いに行く約束をしました。",
+            "translation": "We promised that our whole class would go to see him next month."
+          }
+        ],
+        "question": "What did the class promise to do?",
+        "choices": [
+          "Visit the teacher next month",
+          "Write letters to the teacher",
+          "Have a reunion at school",
+          "Send the teacher a present"
+        ],
+        "answer": 0,
+        "explanation": "来月、私たちのクラスのみんなで、先生に会いに行く約束をしました gives the answer. 元 (もと) former; 髪 (かみ) hair; 昔 (むかし) before; しっかりした responsible; 来月 (らいげつ) next month. Extra words: 担任 (たんにん), homeroom teacher; 白い (しろい), white; 大人 (おとな), adult; クラス, class."
+      },
+      {
+        "situation": "Level 22 · The door that wouldn’t open",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "昨日、会社の会議室で、全員で会議を行っていました。",
+            "translation": "Yesterday all of us were holding a meeting in the company’s meeting room."
+          },
+          {
+            "speaker": "A",
+            "text": "会議が終わって、扉を開けようとすると、全然開きません。",
+            "translation": "When the meeting ended and we tried to open the door, it wouldn’t open at all."
+          },
+          {
+            "speaker": "A",
+            "text": "しばらくみんな黙っていましたが、隣の部屋の人に電話をして、外から開けてもらいました。",
+            "translation": "For a while everyone was silent, but then we called someone in the next room and had them open it from outside."
+          },
+          {
+            "speaker": "A",
+            "text": "どうやら、古い扉の形が少し変わっていたせいだったようです。今は笑える話ですが、あの時は本当に困りました。",
+            "translation": "Apparently it was because the old door had warped a little. It’s a funny story now, but at the time we were really stuck."
+          }
+        ],
+        "question": "How did they get out of the room?",
+        "choices": [
+          "They broke the door",
+          "Someone in the next room opened it from outside",
+          "They climbed out the window",
+          "The door opened by itself"
+        ],
+        "answer": 1,
+        "explanation": "隣の部屋の人に電話をして、外から開けてもらいました gives the answer. 全員 (ぜんいん) everyone; 行う (おこなう) hold; 扉 (とびら) door; しばらく for a while; 形 (かたち) shape; せい cause. Extra words: 会議室 (かいぎしつ), meeting room; 困る (こまる), be stuck."
+      },
+      {
+        "situation": "Level 23 · The race I lost",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "先週、町のマラソン大会に出ました。一位になるつもりで、一か月前から用意をしていました。",
+            "translation": "Last week I ran in the town marathon. I’d been preparing for a month, aiming for first place."
+          },
+          {
+            "speaker": "A",
+            "text": "でも、途中で転んでしまって、ひざから血が出ました。",
+            "translation": "But partway through I fell, and my knee started bleeding."
+          },
+          {
+            "speaker": "A",
+            "text": "結局、私は十位で、一緒に練習していた友達に負けました。",
+            "translation": "In the end I came tenth and lost to the friend I’d been training with."
+          },
+          {
+            "speaker": "A",
+            "text": "でも、友達が「最後まで走ったのは凄いよ」と言ってくれて、少し安心しました。来年は更に練習して、もう一度頑張ります。",
+            "translation": "But my friend said, “Running all the way to the end is amazing,” and I felt a bit better. Next year I’ll practice even more and try again."
+          }
+        ],
+        "question": "What place did the narrator finish in?",
+        "choices": [
+          "First",
+          "Third",
+          "Tenth",
+          "They didn’t finish"
+        ],
+        "answer": 2,
+        "explanation": "結局、私は十位で gives the answer. 用意 (ようい) preparation; 血 (ち) blood; 負ける (まける) lose; 安心 (あんしん) relief; 更に (さらに) even more. Extra words: マラソン大会 (たいかい), marathon; 一位 (いちい), first place; 途中 (とちゅう), partway; 転ぶ (ころぶ), fall over; ひざ, knee; 練習 (れんしゅう), practice."
+      },
+      {
+        "situation": "Level 24 · My first big task",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "新しい会社に入って三か月目、初めて一人で大事な仕事を任されました。",
+            "translation": "In my third month at the new company, I was given an important task to handle on my own for the first time."
+          },
+          {
+            "speaker": "A",
+            "text": "不安で、毎朝早く会社に行って、何度も準備をしました。",
+            "translation": "I was anxious, so I went to the office early every morning and prepared again and again."
+          },
+          {
+            "speaker": "A",
+            "text": "発表の日、部長は何も言わずに、最後まで聞いてくれました。",
+            "translation": "On the day of the presentation, the manager listened to the end without saying a word."
+          },
+          {
+            "speaker": "A",
+            "text": "終わった後、部長は私の背中を軽くたたいて、「結構よかったよ」と言いました。その一言で、胸の中の不安が消えました。",
+            "translation": "When it was over, the manager patted me on the back and said, “That was pretty good.” With those words, the anxiety in my chest disappeared."
+          }
+        ],
+        "question": "What did the manager do after the presentation?",
+        "choices": [
+          "Asked many questions",
+          "Patted the narrator’s back and praised them",
+          "Said it needed more work",
+          "Left without a word"
+        ],
+        "answer": 1,
+        "explanation": "部長は私の背中を軽くたたいて、「結構よかったよ」と言いました gives the answer. 任せる (まかせる) entrust; 不安 (ふあん) anxiety; 背中 (せなか) back; 結構 (けっこう) quite. Extra words: 発表 (はっぴょう), presentation; 部長 (ぶちょう), manager; たたく, pat; 一言 (ひとこと), a word."
+      },
+      {
+        "situation": "Level 25 · My new teammates",
+        "lines": [
+          {
+            "speaker": "A",
+            "text": "春から、会社のバレーボールチームに入りました。",
+            "translation": "From spring, I joined my company’s volleyball team."
+          },
+          {
+            "speaker": "A",
+            "text": "最初は、ほとんど誰とも話せませんでしたが、仲間はいつも優しく声をかけてくれました。",
+            "translation": "At first I could hardly talk to anyone, but my teammates always spoke to me kindly."
+          },
+          {
+            "speaker": "A",
+            "text": "先週、初めて試合に出ました。最後のボールを私が決めた時、みんなが私の肩をたたいて喜んでくれました。",
+            "translation": "Last week I played in a match for the first time. When I scored the last point, everyone patted my shoulder and celebrated."
+          },
+          {
+            "speaker": "A",
+            "text": "自分自身が少し認められた気がして、思わず泣いてしまいました。",
+            "translation": "I felt like I’d been accepted a little, and I couldn’t help crying."
+          }
+        ],
+        "question": "What happened when the narrator scored the last point?",
+        "choices": [
+          "The team lost",
+          "The teammates patted their shoulder and celebrated",
+          "The coach got angry",
+          "Nobody noticed"
+        ],
+        "answer": 1,
+        "explanation": "みんなが私の肩をたたいて喜んでくれました gives the answer. 仲間 (なかま) teammates; ほとんど hardly; 肩 (かた) shoulder; 喜ぶ (よろこぶ) be delighted; 自身 (じしん) oneself; 認める (みとめる) accept; 思わず (おもわず) can’t help. Extra words: バレーボール, volleyball; チーム, team; 声をかける, speak to; 試合 (しあい), match; 決める here means score; 泣く (なく), cry."
+      }
+    ]
   }
 ]

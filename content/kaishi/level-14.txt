@@ -1,0 +1,86 @@
+# Level 14 · words 261–280
+@forms 261=ご飯の後 266=凄い 271=掛け直し
+
+@conversation Catching up · Old friends
+A: 久しぶり！今年から仕事が変わったんだって？ || Long time no see! I heard you changed jobs this year?
+B: うん。去年までは銀行だったけど、今は学校の先生なんだ。 || Yeah. Until last year I worked at a bank, but now I’m a school teacher.
+A: 凄いね！来年も先生？ || Amazing! Still a teacher next year?
+B: きっとね。子どもたちと毎日楽しくやってるよ。 || Surely. I’m having fun with the kids every day.
+Q: What does B do now?
+C: Works at a bank ; Teaches at a school ; Studies abroad ; Looks for a job
+ANS: 2
+EXP: 今年 (ことし) this year; 去年 (きょねん) last year; 来年 (らいねん) next year. 変わる (かわる) change. 凄い (すごい) amazing. きっと means surely. Extra words: 久しぶり (ひさしぶり), long time no see; 銀行 (ぎんこう), bank.
+
+@conversation An evening walk · Couple
+A: ご飯の後で、少し歩かない？ || After dinner, shall we go for a little walk?
+B: いいね。体にもいいし。 || Sure. It’s good for us, too.
+A: あれ、何の音？ || Huh, what’s that sound?
+B: 川の音だよ。この先に小さい川があるんだ。 || It’s the river. There’s a small river up ahead.
+Q: What is the sound they hear?
+C: Rain ; Cars ; A river ; Music from a house
+ANS: 3
+EXP: 後で (あとで) after; 歩く (あるく) walk; 体 (からだ) body — 体にいい means good for your health. 音 (おと) sound. Extra words: 川 (かわ), river; 先 (さき), ahead.
+
+@conversation Returning a call · Polite
+A: はい、山田です。 || Hello, Yamada speaking.
+B: こちらは田中です。さっきお電話をいただいたので、掛け直しました。 || This is Tanaka. You called me earlier, so I’m calling back.
+A: ありがとうございます。明日の面接ですが、時間が十時に変わりました。 || Thank you. About tomorrow’s interview — the time has changed to ten.
+B: 分かりました。十時ですね。 || Understood. Ten o’clock, then.
+Q: Why did Yamada call Tanaka?
+C: To cancel the interview ; To say the interview time changed ; To ask for a phone number ; To change the place
+ANS: 2
+EXP: こちらは田中です is a polite way to say this is Tanaka on the phone. 掛け直す (かけなおす) means call back — 掛ける is to make a call. 変わる (かわる) change. Extra word: 面接 (めんせつ), interview.
+
+@conversation A voice in the night · Friends
+A: 昨日の夜中、女の人の声が聞こえたんだ。 || Last night, in the middle of the night, I heard a woman’s voice.
+B: え、本当？部屋には誰もいなかったの？ || Really? There was nobody in the room?
+A: うん。幽霊って、本当に存在すると思う？ || No. Do you think ghosts really exist?
+B: きっとテレビの音だよ。消し忘れたんじゃない？ || I bet it was the TV. Didn’t you forget to turn it off?
+Q: What does B think A heard?
+C: A ghost ; A neighbor ; The TV ; A phone call
+ANS: 3
+EXP: 女の人 (おんなのひと) woman; 聞こえる (きこえる) can hear; 存在する (そんざい) exist; きっと means surely. Extra words: 夜中 (よなか), middle of the night; 幽霊 (ゆうれい), ghost; 消す (けす), turn off.
+
+@conversation Last night’s drama · Siblings
+A: 昨日のドラマ、見た？ || Did you watch last night’s drama?
+B: 見たよ。でも、誰が社長を殺したの？ || I did. But who killed the company president?
+A: 秘書だよ。ちゃんと見てなかったの？ || The secretary. Weren’t you watching properly?
+B: 途中で寝ちゃったんだ。 || I fell asleep partway through.
+Q: Why doesn’t B know who the killer was?
+C: B didn’t watch it ; B fell asleep in the middle ; The ending wasn’t shown ; B was on the phone
+ANS: 2
+EXP: 殺す (ころす) kill — common in mystery dramas. ちゃんと means properly. 寝ちゃった is casual for 寝てしまった. Extra words: ドラマ, TV drama; 社長 (しゃちょう), company president; 秘書 (ひしょ), secretary; 途中 (とちゅう), partway.
+
+@conversation Working late · Coworkers
+A: もう十時を過ぎましたよ。まだ帰らないんですか。 || It’s already past ten. Aren’t you going home yet?
+B: 明日、英語の試験を受けるので、少し勉強しているんです。 || I’m taking an English exam tomorrow, so I’m studying a bit.
+A: そうですか。頑張ってください。私は今から駅に向かいます。 || I see. Good luck. I’m heading to the station now.
+B: お疲れさまでした。 || Thanks for your hard work today.
+Q: Why is B staying late?
+C: To finish a report ; To study for an exam ; To wait for a call ; To meet a customer
+ANS: 2
+EXP: 十時を過ぎる (すぎる) means it’s past ten. 試験を受ける (うける) means take an exam. 駅に向かう (むかう) means head to the station. Extra words: 試験 (しけん), exam; 英語 (えいご), English.
+
+@reading 一年で変わったこと
+TEXT: 去年の今ごろ、私はまだ日本語が全然話せませんでした。駅で道を聞くこともできませんでした。でも、今年は違います。毎日少しずつ勉強を続けて、簡単な話ならちゃんとできるようになりました。来年は、日本の会社の試験を受けるつもりです。一年でこんなに変わるとは、自分でも思いませんでした。 || Around this time last year, I couldn’t speak Japanese at all. I couldn’t even ask for directions at the station. But this year is different. I kept studying a little every day, and now I can handle simple conversations properly. Next year I plan to take a Japanese company’s exam. I never imagined I could change this much in one year.
+Q: What does the writer plan to do next year?
+C: Take an exam at a Japanese company ; Move back to their country ; Start teaching Japanese ; Travel around Japan
+ANS: 1
+EXP: 来年は、日本の会社の試験を受けるつもりです gives the answer. 去年 (きょねん) last year; 今年 (ことし) this year; ちゃんと properly; 変わる (かわる) change. Extra words: 道 (みち), way; 会社 (かいしゃ), company; こんなに, this much.
+
+@reading 夜の音
+TEXT: 私の部屋は、駅から歩いて五分のところにあります。とても便利ですが、夜も電車の音が聞こえます。住み始めた時は、うるさくて寝られませんでした。でも、今はもう全然気になりません。人間の体は、本当にすぐ慣れるものですね。 || My apartment is a five-minute walk from the station. It’s very convenient, but I can hear the trains even at night. When I first moved in, it was so noisy I couldn’t sleep. But now it doesn’t bother me at all. The human body really does get used to things quickly.
+Q: How does the writer feel about the train noise now?
+C: It still keeps them awake ; It doesn’t bother them anymore ; They plan to move ; They wear earplugs
+ANS: 2
+EXP: 今はもう全然気になりません means it doesn’t bother me at all now. 歩いて五分 means a five-minute walk; 音が聞こえる means you can hear the sound; 体 (からだ) body. Extra words: 便利 (べんり), convenient; うるさい, noisy; 気になる, bother; 慣れる (なれる), get used to.
+
+@story Hide and seek
+N: 子どもの時、弟とかくれんぼをするのが大好きでした。 || When I was a child, I loved playing hide-and-seek with my little brother.
+N: ある日、私は押し入れの中に入って、息を殺して待っていました。 || One day I got into the closet and waited, holding my breath.
+N: 弟の足音がだんだん大きくなります。でも、弟は押し入れの前を通り過ぎて、台所へ行ってしまいました。 || My brother’s footsteps grew louder. But he walked right past the closet and went off to the kitchen.
+N: 三十分後、弟は母のところへ行って、「お姉ちゃんがどこにもいない」と言いました。今でも家族の楽しい話です。 || Thirty minutes later, he went to our mother and said, “My sister isn’t anywhere!” It’s still a funny family story.
+Q: Where was the narrator hiding?
+C: In the kitchen ; In the closet ; Behind the door ; Under the bed
+ANS: 2
+EXP: 押し入れの中に入って means went into the closet. 息を殺す (いきをころす) means hold your breath — a common use of 殺す. 足音 (あしおと) footsteps; 通り過ぎる (とおりすぎる) pass by. Extra words: かくれんぼ, hide-and-seek; 押し入れ (おしいれ), closet; 息 (いき), breath; 台所 (だいどころ), kitchen.

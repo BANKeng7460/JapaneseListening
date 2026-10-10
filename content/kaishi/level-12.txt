@@ -1,0 +1,87 @@
+# Level 12 · words 221–240
+@forms 229=ただだって 230=ただ毎日 224=座るところ
+
+@conversation Making dinner · Family
+A: 今日のご飯、何にする？ || What shall we have for dinner today?
+B: じゃ、カレーを作ろう。あ、そこの上にある大きいお皿を出して。 || Then let’s make curry. Oh, take out that big plate up there.
+A: これ？少し大きすぎない？ || This one? Isn’t it a bit too big?
+B: 大丈夫。沢山作るから。 || It’s fine. I’m making a lot.
+Q: What does B ask A to do?
+C: Buy curry ; Take out a big plate ; Wash the plates ; Cook the rice
+ANS: 2
+EXP: ご飯 (ごはん) means a meal here. 作る (つくる) make; 上にある means up there / on top. 出す (だす) take out. じゃ means well then. 少し大きすぎない？ means isn’t it a bit too big? Extra word: お皿 (おさら), plate.
+
+@conversation A free concert · Friends
+A: 今度の日曜日、公園でコンサートがあるよ。ただだって。 || There’s a concert in the park this Sunday. Apparently it’s free.
+B: え、ただ？いいね。 || Free? Nice!
+A: 毎年やってるんだけど、多くの人が来るから、座るところがすぐなくなるよ。 || They hold it every year, but lots of people come, so the seats go fast.
+B: じゃ、九時に行こう。 || Then let’s go at nine.
+Q: Why does A suggest going early?
+C: The concert starts at nine ; Many people come and seats run out ; The park is far away ; Tickets are limited
+ANS: 2
+EXP: ただ means free of charge here. 毎年 (まいとし) every year; 多くの人 (おおくのひと) many people; 座るところ means a place to sit — ところ is place. Extra words: 日曜日 (にちようび), Sunday; 公園 (こうえん), park; コンサート, concert.
+
+@conversation Mt. Fuji from the train · Travel
+A: あ、見て！富士山が見えるよ。 || Look! You can see Mt. Fuji.
+B: 本当だ。写真で見るのと全然違うね。 || Wow. It’s totally different from seeing it in photos.
+A: うん。ここから見ると、本当に大きく感じるね。 || Yeah. From here it feels really huge.
+B: どうして笑ってるの？ || Why are you smiling?
+A: ずっと見たかったから、嬉しくて。 || I’ve wanted to see it for ages, so I’m happy.
+Q: What does B say about Mt. Fuji?
+C: It’s smaller than expected ; It’s hard to see today ; It looks the same as in photos ; It’s different from seeing it in photos
+ANS: 4
+EXP: 見える (みえる) means can be seen. 全然違う (ちがう) means completely different. 大きく感じる (かんじる) means it feels big. 笑う (わらう) smile, laugh. Extra words: 富士山 (ふじさん), Mt. Fuji; 写真 (しゃしん), photo; ずっと, for a long time.
+
+@conversation The strongest man · Friends
+A: 健太くん、強いね！ || Kenta, you’re strong!
+B: ただ毎日、少し運動しているだけだよ。 || I just exercise a little every day, that’s all.
+A: でも、あの男の人はもっと強そうだよ。 || But that man looks even stronger.
+B: あの人は人間じゃないよ。プロの選手だもん。 || He’s not human — he’s a pro athlete.
+Q: What does Kenta say he does?
+C: Just exercises a little every day ; Trains with a professional ; Eats a lot of meat ; Lifts weights at a gym
+ANS: 1
+EXP: ただ…だけ means just / simply. 強い (つよい) strong; 男の人 (おとこのひと) man. 人間じゃない (にんげん) is a joke: “he’s not human”. Extra words: 運動 (うんどう), exercise; プロ, professional; 選手 (せんしゅ), athlete.
+
+@conversation Saving for a trip · Coworkers
+A: 毎月、旅行のために少しずつ貯金しているんです。 || Every month I save a little for a trip.
+B: いいですね。どこに行くんですか。 || Nice. Where are you going?
+A: 北海道です。毎年行っているんです。 || Hokkaido. I go every year.
+B: 毎年？北海道が本当に好きなんですね。 || Every year? You must really love Hokkaido.
+Q: What is A saving money for?
+C: A new apartment ; English lessons ; A trip to Hokkaido ; A present for family
+ANS: 3
+EXP: 毎月 (まいつき) every month; 旅行のために means for a trip — ため is purpose. 毎年 (まいとし) every year. Extra words: 旅行 (りょこう), trip; 貯金 (ちょきん), saving money; 北海道 (ほっかいどう), Hokkaido.
+
+@conversation A funny video · Siblings
+A: 何をそんなに笑ってるの？ || What are you laughing at so much?
+B: この動画を見て。犬が人間みたいに歩いてるんだ。 || Look at this video. A dog is walking like a person.
+A: 本当だ！面白い。どうやって作ったんだろう。 || It really is! That’s funny. I wonder how they made it.
+B: 何もしてないって。ただの犬だよ。 || They say they didn’t do anything. It’s just a normal dog.
+Q: What is in the video?
+C: A man laughing ; A dog walking like a person ; A cooking show ; A sleeping dog
+ANS: 2
+EXP: 人間みたいに means like a human. 笑う (わらう) laugh; 作る (つくる) make. ただの犬 means just an ordinary dog. Extra words: 動画 (どうが), video; 犬 (いぬ), dog; 歩く (あるく), walk.
+
+@reading 毎年のお祭り
+TEXT: 私の町では、毎年八月にお祭りがあります。多くの人が集まって、とてもにぎやかです。お祭りの日は、道の上に沢山の店が出ます。私はいつも友達と焼きそばを食べます。そして夜には、ただで見られる花火があります。みんな花火を見ながら、嬉しそうに笑っています。 || In my town, there’s a festival every August. Lots of people gather and it’s very lively. On festival day, many stalls are set up along the road. I always eat yakisoba with my friends. And at night there are fireworks you can watch for free. Everyone smiles happily as they watch.
+Q: What can people enjoy for free at night?
+C: Yakisoba ; Fireworks ; A concert ; A boat ride
+ANS: 2
+EXP: ただで見られる花火 means fireworks you can watch for free. 毎年 (まいとし) every year; 多くの人 many people; 店が出る means stalls are set up. Extra words: 祭り (まつり), festival; 集まる (あつまる), gather; 道 (みち), road; 焼きそば (やきそば), fried noodles; 花火 (はなび), fireworks.
+
+@reading 笑うロボット
+TEXT: このロボットは、人間のように話したり、笑ったりします。困った時は手伝ってくれるし、ご飯も作ってくれます。でも、ロボットは本当に嬉しいと感じて笑っているのでしょうか。私はそうは思いません。顔は笑っていても、気持ちは人間とは違うと思います。 || This robot talks and laughs like a person. It helps when you’re in trouble, and it even makes meals. But does the robot really feel happy when it laughs? I don’t think so. Even if its face is smiling, I think its feelings are different from a human’s.
+Q: What does the writer think about the robot?
+C: It feels just like a human ; It can’t really feel happy like a person ; It is bad at cooking ; It never smiles
+ANS: 2
+EXP: 気持ちは人間とは違うと思います gives the writer’s view. 人間のように means like a human; 感じる (かんじる) feel; 作る (つくる) make. Extra words: ロボット, robot; 困る (こまる), be in trouble.
+
+@story Grandma’s rice balls
+N: 私のおばあさんは、毎年、私が遊びに行くと、おにぎりを作ってくれます。 || Every year, when I visit, my grandmother makes me rice balls.
+N: おばあさんのおにぎりは少し大きくて、塩の味が強いです。 || Her rice balls are a little big, and the salt is strong.
+N: でも、店で買うおにぎりとは全然違います。食べると、おばあさんの優しい気持ちを感じます。 || But they’re nothing like the ones you buy in shops. When I eat them, I can feel her kindness.
+N: 今度は、私が作り方を教えてもらうつもりです。 || Next time, I plan to have her teach me how to make them.
+Q: What does the narrator plan to do next time?
+C: Buy rice balls at a shop ; Learn how to make the rice balls ; Make curry for grandma ; Visit grandma every month
+ANS: 2
+EXP: 作り方を教えてもらうつもりです means I plan to have her teach me how to make them. 塩の味が強い means the salt taste is strong. 全然違う means completely different; 感じる (かんじる) feel. Extra words: おにぎり, rice ball; 塩 (しお), salt; 味 (あじ), taste.

@@ -26,7 +26,8 @@ test('every exercise has valid choices, speaker turns and translations', () => {
   }
 });
 
-for (const count of [20,40,60,80,100,120,140,160,180,200]) {
+const levelCounts = fs.readdirSync('data').map(f => f.match(/^kaishi-1-(\d+)\.json$/)?.[1]).filter(Boolean).map(Number).sort((a, b) => a - b);
+for (const count of levelCounts) {
   test('level ' + count + ' covers every new entry in spoken dialogue', () => {
     const lesson = JSON.parse(fs.readFileSync('data/kaishi-1-' + count + '.json', 'utf8'));
     assert.equal(lesson.words.length, count);

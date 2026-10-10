@@ -1,0 +1,9 @@
+# Level 4 · words 61–80 (solo story only)
+@story Waiting for a friend
+N: 昨日、駅の前で友達を待ちました。三十分待ちましたが、友達は来ませんでした。 || Yesterday I waited for a friend in front of the station. I waited thirty minutes, but my friend didn’t come.
+N: 電話で聞くと、友達は「ごめん、明日だと思っていた」と言いました。 || When I asked on the phone, my friend said, “Sorry, I thought it was tomorrow.”
+N: 私はちょっと考えて、「じゃあ、明日また会おう」と話しました。友達は「ありがとう」と言いました。 || I thought for a moment and said, “Then let’s meet again tomorrow.” My friend said, “Thanks.”
+Q: Why didn’t the friend come?
+C: The friend was sick ; The friend thought it was tomorrow ; The friend forgot the place ; The train was late
+ANS: 2
+EXP: 明日だと思っていた means I thought it was tomorrow. 待つ (まつ) wait; 昨日 (きのう) yesterday; 聞く (きく) ask; 言う (いう) say; 考える (かんがえる) think; 話す (はなす) say, talk; 会う (あう) meet. Extra words: 駅 (えき), station; 電話 (でんわ), phone; ごめん, sorry; ちょっと, for a moment.

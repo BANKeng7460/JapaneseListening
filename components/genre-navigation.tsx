@@ -10,6 +10,7 @@ export default function GenreNavigation() {
     <Link href="/reading" aria-current={pathname === '/reading' ? 'page' : undefined}>Reading practice</Link>
     <Link href="/grammar" aria-current={pathname === '/grammar' ? 'page' : undefined}>Grammar N5–N1</Link>
     <Link href="/flashcards" aria-current={pathname === '/flashcards' ? 'page' : undefined}>Flashcards</Link>
+    <Link href="/mistakes" aria-current={pathname === '/mistakes' ? 'page' : undefined}>Spot the mistake</Link>
     <Link href="/daily-life" aria-current={pathname === '/daily-life' ? 'page' : undefined}>Daily-life conversations</Link>
     <Link href="/solo-stories" aria-current={pathname === '/solo-stories' ? 'page' : undefined}>Solo stories</Link>
     <Link href="/stories" aria-current={pathname === '/stories' ? 'page' : undefined}>Real-life stories</Link>

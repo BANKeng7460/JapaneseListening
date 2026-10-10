@@ -1,0 +1,86 @@
+# Level 19 · words 361–380
+@forms 376=ソファの下 377=もとで 378=何分かかる 379=掛かっている
+
+@conversation The missing key · Roommates
+A: 鍵がないんだけど、どこかで見なかった？ || I can’t find my key. Have you seen it anywhere?
+B: さっき、ソファの下にあったよ。 || It was under the sofa a little while ago.
+A: …ないよ。もう一度探してみる。 || …It’s not there. I’ll look once more.
+B: あ、見つけた！机の上にあるよ。 || Oh, found it! It’s on the desk.
+Q: Where was the key in the end?
+C: Under the sofa ; On the desk ; In A’s bag ; By the door
+ANS: 2
+EXP: 下 (した) under; 一度 (いちど) once — もう一度 means once more. 探す (さがす) look for; 見つける (みつける) find. Extra words: 鍵 (かぎ), key; ソファ, sofa; 机 (つくえ), desk.
+
+@conversation A good senior · Coworkers
+A: 新しい先輩、どう？ || How’s your new senior coworker?
+B: 優しいよ。あの先輩のもとで働けて、本当によかった。 || Kind. I’m really glad I get to work under her.
+A: ミスしたら、怒られない？ || Doesn’t she get angry when you make mistakes?
+B: 当然怒られるよ。でも、いつもちゃんと教えてくれるんだ。 || Of course she does. But she always teaches me properly.
+Q: How does B feel about the senior coworker?
+C: Afraid of her ; Glad to work under her ; Wants to change teams ; Thinks she is too strict
+ANS: 2
+EXP: 先輩 (せんぱい) senior coworker; もとで (下) means under someone’s guidance. 怒る (おこる) get angry; 当然 (とうぜん) naturally, of course. Extra words: 働く (はたらく), work; ミス, mistake.
+
+@conversation A long commute · Friends
+A: 会社まで何分かかるの？ || How many minutes does it take to get to work?
+B: 一時間半。かなり遠いんだ。 || An hour and a half. It’s pretty far.
+A: 毎日大変だね。 || That must be tough every day.
+B: うん。でも、電車で本が読めるから、この生活が続いても、そんなに悪くないよ。 || Yeah. But I can read on the train, so even if this goes on, it’s not that bad.
+Q: Why does B say the commute isn’t so bad?
+C: The train is quiet ; B can read books on the train ; B works from home sometimes ; B sleeps on the train
+ANS: 2
+EXP: かかる means take (time). かなり means quite, pretty. 大変 (たいへん) hard, tough. 読む (よむ) read; 続く (つづく) continue. Extra words: 半 (はん), half; 遠い (とおい), far; 電車 (でんしゃ), train.
+
+@conversation A strange painting · At home
+A: この部屋に掛かっている絵、いいね。 || The painting hanging in this room is nice.
+B: ありがとう。少女が花を持っている絵なんだ。 || Thanks. It’s a picture of a girl holding flowers.
+A: でも、なんだか変な感じがする。 || But somehow it feels a bit strange.
+B: よく見て。少女の目が笑ってないでしょう。 || Look closely. The girl’s eyes aren’t smiling, are they?
+Q: Why does the painting feel strange?
+C: The colors are dark ; The girl’s eyes aren’t smiling ; The flowers are dead ; It is hanging upside down
+ANS: 2
+EXP: 掛かる (かかる) hang — 掛かっている絵 means a painting that’s hanging. 少女 (しょうじょ) girl; 変 (へん) strange. Extra words: 絵 (え), painting; 花 (はな), flowers; なんだか, somehow.
+
+@conversation Studying abroad · Classmates
+A: 何を読んでるの？ || What are you reading?
+B: 留学の情報。こんなに安い学校があるんだって。 || Information about studying abroad. Apparently there’s a school this cheap.
+A: 本当？私にも見せて。 || Really? Show me too.
+B: いいよ。一緒に行けたら楽しいね。 || Sure. It’d be fun if we could go together.
+Q: What is B reading about?
+C: Part-time jobs ; Studying abroad ; Cheap flights ; New apartments
+ANS: 2
+EXP: 読む (よむ) read; 情報 (じょうほう) information; こんなに means this (much). Extra words: 留学 (りゅうがく), studying abroad; 安い (やすい), cheap; 一緒に (いっしょに), together.
+
+@conversation Kids in the park · Neighbors
+A: 公園の子供たち、元気ですね。 || The kids in the park are full of energy.
+B: ええ。みんな、いい笑顔ですね。 || Yes. They all have lovely smiles.
+A: うちの子も、小さい時はよくここで遊んでいました。 || My kids used to play here a lot when they were little.
+B: 時間がたつのは早いですね。 || Time really flies, doesn’t it?
+Q: What does A remember?
+C: Their own childhood at school ; Their children playing in the park ; Building the park ; A fight in the park
+ANS: 2
+EXP: 子供 (こども) children; 笑顔 (えがお) smile. 時間がたつのは早い means time passes quickly. Extra words: 公園 (こうえん), park; 遊ぶ (あそぶ), play; たつ, pass.
+
+@reading 電車の中の少女
+TEXT: 今朝、電車の中で小さい少女が一人で泣いていました。お母さんを探しているようでした。私は次の駅で少女と一緒に降りて、駅の人に情報を伝えました。五分後、お母さんが走ってきました。二人はかなり心配していたようです。少女の笑顔を見て、私もとても嬉しくなりました。 || This morning on the train, a little girl was crying alone. She seemed to be looking for her mother. I got off at the next station with her and passed the information to the station staff. Five minutes later, her mother came running. They both seemed to have been very worried. Seeing the girl smile made me very happy too.
+Q: What did the writer do to help the girl?
+C: Called the police ; Got off with her and told the station staff ; Gave her money for a ticket ; Took her home
+ANS: 2
+EXP: 少女と一緒に降りて、駅の人に情報を伝えました gives the answer. 少女 (しょうじょ) girl; 探す (さがす) look for; 情報 (じょうほう) information; かなり quite; 笑顔 (えがお) smile. Extra words: 泣く (なく), cry; 降りる (おりる), get off; 走る (はしる), run.
+
+@reading 先輩の言葉
+TEXT: 会社に入って一年目、私は大きなミスをしました。課長にかなり怒られて、もう会社を止めようかと思いました。その時、先輩が「一度失敗するのは当然だよ。大事なのは、同じことを続けないことだ」と言ってくれました。その言葉のおかげで、私は今も頑張っています。 || In my first year at the company, I made a big mistake. My section manager got quite angry, and I thought about quitting. Then my senior said to me, “Failing once is natural. What matters is not to keep repeating it.” Thanks to those words, I’m still working hard today.
+Q: What did the senior coworker say was important?
+C: Never making mistakes ; Not repeating the same mistake ; Apologizing to the manager ; Working longer hours
+ANS: 2
+EXP: 大事なのは、同じことを続けないことだ gives the answer. かなり quite; 怒る (おこる) get angry; 先輩 (せんぱい) senior; 一度 (いちど) once; 当然 (とうぜん) natural. Extra words: ミス, mistake; 課長 (かちょう), section manager; 失敗 (しっぱい), failure; 大事 (だいじ), important.
+
+@story My old diary
+N: 部屋を片付けていると、子供の時の日記を見つけました。 || While cleaning my room, I found my childhood diary.
+N: 読んでみると、ほとんど毎日「今日も楽しかった」と書いてありました。 || When I read it, almost every day said, “Today was fun again.”
+N: こんなに毎日が楽しかったのかと、少し驚きました。大人になると、仕事や生活が大変で、楽しいことを忘れてしまいます。 || I was a little surprised that every day had been so much fun. As an adult, work and life are hard, and you forget the fun things.
+N: それで、今日から私も、一日に一つ楽しかったことを書くことにしました。 || So from today, I’ve decided to write down one fun thing each day too.
+Q: What did the narrator decide to do?
+C: Throw away the old diary ; Write one fun thing every day ; Quit their job ; Call an old friend
+ANS: 2
+EXP: 一日に一つ楽しかったことを書くことにしました gives the answer. 見つける (みつける) find; 子供 (こども) child; 読む (よむ) read; こんなに this much; 大変 (たいへん) hard. Extra words: 片付ける (かたづける), tidy up; 日記 (にっき), diary; ほとんど, almost; 大人 (おとな), adult; 生活 (せいかつ), life.

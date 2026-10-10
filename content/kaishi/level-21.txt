@@ -1,0 +1,86 @@
+# Level 21 · words 401–420
+@forms 402=しっかり持って 403=しっかりして 405=元彼
+
+@conversation Moving next month · Friends
+A: 来月、引っ越すんだ。 || I’m moving next month.
+B: え、どこに？ || Oh, where to?
+A: 駅に近いところ。君の家からもすぐだよ。 || Somewhere close to the station. It’s right near your place too.
+B: じゃあ、私たち、もっと会えるね。 || Then we’ll be able to see each other more.
+Q: Why is B happy about the move?
+C: The rent is cheaper ; They can meet more often ; A has a bigger room ; It’s close to B’s office
+ANS: 2
+EXP: 来月 (らいげつ) next month; 近い (ちかい) close; すぐ right away, very near; 私たち (わたしたち) we. Extra word: 引っ越す (ひっこす), move house.
+
+@conversation A new haircut · Friends
+A: 髪、切った？ || Did you get a haircut?
+B: うん。昔みたいに短くしたんだ。 || Yeah. I cut it short like I used to have it.
+A: 似合うよ。そういえば、昨日、元彼が駅で君をずっと見つめてたよ。 || It suits you. By the way, yesterday your ex was staring at you the whole time at the station.
+B: え、本当？全然気がつかなかった。 || Really? I didn’t notice at all.
+Q: What did A see yesterday?
+C: B’s ex-boyfriend staring at B ; B getting a haircut ; B talking with a friend ; B’s ex-boyfriend waving
+ANS: 1
+EXP: 髪 (かみ) hair; 昔 (むかし) the old days — 昔みたいに like before; 元彼 (もとかれ) ex-boyfriend — 元 means former; 見つめる (みつめる) stare. Extra words: 短い (みじかい), short; 似合う (にあう), suit; そういえば, by the way.
+
+@conversation A grown-up boy · Neighbors
+A: 健太くん、しっかりしてますね。一人で買い物に来るなんて。 || Kenta is so responsible. Coming shopping all by himself!
+B: ええ。でも、困った場合は、すぐ電話するように言ってあるんです。 || Yes. But I’ve told him to call right away if he gets into trouble.
+A: それなら安心ですね。 || Then you can feel at ease.
+B: はい。少しずつ大きくなってきました。 || Yes. He’s growing up little by little.
+Q: What has Kenta been told to do if he has a problem?
+C: Go home at once ; Call right away ; Ask a shop worker ; Wait at the station
+ANS: 2
+EXP: しっかりしている means mature, responsible. 場合 (ばあい) case — 困った場合 means if he’s in trouble. すぐ right away. Extra words: 買い物 (かいもの), shopping; 安心 (あんしん), relief.
+
+@conversation A windy day · Parent and child
+A: ドアを開けるよ。風が強いから、しっかり持っててね。 || I’m opening the door. The wind is strong, so hold on tight.
+B: うん！ || Okay!
+A: 帽子が飛ばないように、手で押さえて。 || Hold your hat down with your hand so it doesn’t blow away.
+B: 分かった。 || Got it.
+Q: What does the parent tell the child to hold down?
+C: The door ; A hat ; A bag ; An umbrella
+ANS: 2
+EXP: 開ける (あける) open; しっかり持つ means hold firmly. Extra words: 風 (かぜ), wind; 帽子 (ぼうし), hat; 飛ぶ (とぶ), fly away; 押さえる (おさえる), hold down.
+
+@conversation Practice makes perfect · Gaming friends
+A: 敵の攻撃が速すぎる！ || The enemy’s attacks are too fast!
+B: 動きをよく見て。攻撃の前に、少し止まるでしょう。 || Watch its movements. It pauses a little before attacking, see?
+A: でも、反応が間に合わないよ。 || But I can’t react in time.
+B: とにかく練習だね。練習しないと、何も得られないよ。…あ、勝手にボタンを押さないで！ || Anyway, practice. You won’t gain anything without practice. …Hey, don’t press buttons on your own!
+Q: What is B’s main advice?
+C: Buy a better controller ; Watch the enemy and keep practicing ; Give up and play another game ; Attack first every time
+ANS: 2
+EXP: 攻撃 (こうげき) attack; 動き (うごき) movement; 反応 (はんのう) reaction; とにかく anyway; 得る (える) gain — 得られない means can’t gain; 勝手に (かってに) on your own, without asking. Extra words: 速い (はやい), fast; 間に合う (まにあう), be in time; 練習 (れんしゅう), practice; ボタン, button.
+
+@conversation Earliest memories · Couple
+A: 子どもの時の一番古い記憶って何？ || What’s your earliest childhood memory?
+B: おばあさんの家で、みんなでご飯を食べたこと。幸せだったな。 || Eating with everyone at my grandma’s house. I was happy.
+A: いいね。私は、海で迷子になった記憶。 || Nice. Mine is getting lost at the beach.
+B: え、それは怖かったでしょう。 || Oh, that must have been scary.
+Q: What is A’s earliest memory?
+C: Eating at grandma’s house ; Getting lost at the beach ; A birthday party ; The first day of school
+ANS: 2
+EXP: 記憶 (きおく) memory; 幸せ (しあわせ) happy. Extra words: 古い (ふるい), old; 海 (うみ), sea, beach; 迷子 (まいご), lost child.
+
+@reading 祖母のアルバム
+TEXT: 昨日、祖母の家で古いアルバムを見つけました。写真の中の祖母はとても若くて、髪が長いです。昔、祖母は町の小さな店で働いていたそうです。祖母は写真をじっと見つめながら、「この時は本当に幸せだったね」と言いました。祖母の記憶の中には、私の知らない話が沢山あるのだと思いました。 || Yesterday I found an old photo album at my grandmother’s house. In the photos, my grandmother is very young and has long hair. Long ago, she apparently worked at a small shop in town. Staring at the photos, she said, “I was truly happy back then.” I realized her memory holds many stories I don’t know.
+Q: What did the grandmother do long ago?
+C: She was a teacher ; She worked at a small shop ; She lived abroad ; She was a photographer
+ANS: 2
+EXP: 昔、祖母は町の小さな店で働いていたそうです gives the answer. 髪 (かみ) hair; 昔 (むかし) long ago; 見つめる (みつめる) stare; 幸せ (しあわせ) happy; 記憶 (きおく) memory. Extra words: 祖母 (そぼ), grandmother; アルバム, album; 若い (わかい), young; 働く (はたらく), work; じっと, intently.
+
+@reading 猫の反応
+TEXT: 私たちの家の猫は、私が帰るとすぐ玄関まで走ってきます。でも、夫が帰った場合は、全然動きません。夫は「勝手な猫だなあ」と笑っています。どうやら、猫は私がいつもご飯をあげる人だと覚えているようです。猫の反応は、とても正直です。 || When I get home, our cat comes running to the entrance right away. But when my husband comes home, it doesn’t move at all. He laughs and says, “What a selfish cat.” Apparently the cat remembers that I’m the one who always feeds it. A cat’s reactions are very honest.
+Q: Why does the cat greet the writer?
+C: The writer plays with it ; The writer is the one who feeds it ; The writer comes home first ; The husband scolds it
+ANS: 2
+EXP: 猫は私がいつもご飯をあげる人だと覚えているようです gives the reason. 私たち (わたしたち) we; すぐ right away; 場合 (ばあい) case; 勝手 (かって) selfish; 反応 (はんのう) reaction. Extra words: 猫 (ねこ), cat; 玄関 (げんかん), entrance; 夫 (おっと), husband; 正直 (しょうじき), honest.
+
+@story Meeting my old teacher
+N: 先週、駅で元担任の先生に会いました。十年ぶりでした。 || Last week I ran into my former homeroom teacher at the station. It had been ten years.
+N: 先生の髪は白くなっていましたが、笑顔は昔と同じでした。 || His hair had turned white, but his smile was the same as before.
+N: 「しっかりした大人になったね」と言われて、とても嬉しかったです。 || He said, “You’ve become a responsible adult,” and I was very happy.
+N: 来月、私たちのクラスのみんなで、先生に会いに行く約束をしました。 || We promised that our whole class would go to see him next month.
+Q: What did the class promise to do?
+C: Visit the teacher next month ; Write letters to the teacher ; Have a reunion at school ; Send the teacher a present
+ANS: 1
+EXP: 来月、私たちのクラスのみんなで、先生に会いに行く約束をしました gives the answer. 元 (もと) former; 髪 (かみ) hair; 昔 (むかし) before; しっかりした responsible; 来月 (らいげつ) next month. Extra words: 担任 (たんにん), homeroom teacher; 白い (しろい), white; 大人 (おとな), adult; クラス, class.

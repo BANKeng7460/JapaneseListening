@@ -9,7 +9,9 @@
     "typecheck": "tsc --noEmit",
     "test": "node --test tests/*.test.cjs",
     "kaishi:extract": "node --disable-warning=ExperimentalWarning scripts/kaishi-anki.mjs extract",
-    "kaishi:progress": "node --disable-warning=ExperimentalWarning scripts/kaishi-anki.mjs progress"
+    "kaishi:progress": "node --disable-warning=ExperimentalWarning scripts/kaishi-anki.mjs progress",
+    "levels:build": "node scripts/build-kaishi-levels.cjs && node scripts/word-hint-forms.cjs && node scripts/grammar-usage.cjs && node scripts/build-mistakes.cjs",
+    "levels:check": "node scripts/check-level-vocab.cjs"
   },
   "keywords": [],
   "author": "",

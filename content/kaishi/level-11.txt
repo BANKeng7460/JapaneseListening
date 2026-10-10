@@ -1,0 +1,88 @@
+# Level 11 · words 201–220
+@forms 201=忙しい時 202=何時 206=四人 213=健太くん 215=やった
+
+@conversation Making plans · Friends
+A: 明日、何時に会う？ || What time shall we meet tomorrow?
+B: 十時はどう？ || How about ten?
+A: 悪い、十時はまだ仕事なんだ。一時なら大丈夫。 || Sorry, I’m still at work at ten. One o’clock is fine.
+B: 分かった。じゃあ一時に駅の前で待ってるね。 || Got it. Then I’ll wait in front of the station at one.
+Q: What time will they meet?
+C: At one o’clock ; At ten o’clock ; At nine o’clock ; In the evening
+ANS: 1
+EXP: 十時 (じゅうじ) and 一時 (いちじ): 時 is read じ for clock times. まだ仕事 means still at work. 悪い is a casual “sorry” between friends. Extra word: 駅 (えき), station.
+
+@conversation A late start · Coworkers
+A: 田中さん、今朝はどうしたんですか。 || Tanaka, what happened this morning?
+B: すみません。七時に家を出たんですが、電車がなかなか来なかったんです。 || I’m sorry. I left home at seven, but the train just wouldn’t come.
+A: そうでしたか。顔色が悪いですよ。大丈夫ですか。 || I see. You look pale. Are you all right?
+B: はい、大丈夫です。今から頑張ります。 || Yes, I’m fine. I’ll get to work now.
+Q: Why was Tanaka late?
+C: Tanaka overslept ; The train didn’t come for a long time ; Tanaka felt sick at home ; Tanaka forgot the time
+ANS: 2
+EXP: 今朝 (けさ) means this morning. 家を出る (でる) means leave home. 顔色が悪い (かおいろがわるい) means to look pale — literally “face color is bad”. すみません is a polite apology. Extra word: 電車 (でんしゃ), train.
+
+@conversation A family photo · Friends
+A: これ、誰の写真？ || Whose photo is this?
+B: うちの家族だよ。六人家族なんだ。 || My family. There are six of us.
+A: 六人？大きな家族だね。 || Six? That’s a big family.
+B: うん。父と母と兄が三人、そして私。 || Yeah. My dad, my mom, three older brothers, and then me.
+A: 四人兄弟か。にぎやかでいいね。 || Four kids, huh. Sounds lively — nice.
+Q: How many older brothers does B have?
+C: Two ; Four ; Three ; Six
+ANS: 3
+EXP: 六人 (ろくにん) six people; 兄が三人 (さんにん) three older brothers. そして adds the last item: “and then me”. 四人 is read よにん. Extra words: 写真 (しゃしん), photo; 兄弟 (きょうだい), siblings; にぎやか, lively.
+
+@conversation Homework · Classmates
+A: 健太くん、宿題もうやった？ || Kenta, have you done the homework yet?
+B: まだ。昨日は九時に寝ちゃったんだ。 || Not yet. I fell asleep at nine last night.
+A: 九時？小さい子みたいだね。 || Nine? Like a little kid!
+B: 忙しい時は、夜は何もしたくないんだよ。 || When I’m busy, I don’t want to do anything at night.
+A: 分かる。それなら、今から二人でやろうよ。 || I get it. Then let’s do it together now, the two of us.
+Q: Why hasn’t Kenta done his homework?
+C: He went to bed at nine ; He forgot about it ; He was out with friends ; He didn’t understand it
+ANS: 1
+EXP: くん is a friendly name ending, mostly for boys. やる is a casual する: 宿題をやる means do homework. 九時 (くじ) nine o’clock. 忙しい時 (とき) means when I’m busy. 二人で means the two of us. Extra word: 宿題 (しゅくだい), homework.
+
+@conversation Leaving the office · Polite
+A: 部長、お先に失礼します。 || Excuse me for leaving before you.
+B: お疲れさま。明日は何時に来る？ || Thanks for your work. What time are you coming tomorrow?
+A: 八時に来ます。そして、十時から会議に出ます。 || I’ll come at eight. And from ten I’ll be in a meeting.
+B: 分かった。じゃあ、また明日。 || Got it. See you tomorrow, then.
+Q: What will A do at ten tomorrow?
+C: Arrive at work ; Leave the office ; Meet a customer ; Attend a meeting
+ANS: 4
+EXP: お先に失礼します is said when leaving work before others. 八時 (はちじ) eight o’clock. 会議に出る means attend a meeting — 出る also means take part. Extra words: 部長 (ぶちょう), department manager; 会議 (かいぎ), meeting; お疲れさま, a greeting between coworkers.
+
+@conversation Running late · Phone call
+A: もしもし、今どこ？ || Hello, where are you now?
+B: 今、駅を出たところ。五分で行くよ。 || I just left the station. I’ll be there in five minutes.
+A: 分かった。まだ来ないなら、中に入って待ってるね。 || Okay. If you’re still not here, I’ll wait inside.
+B: うん、すぐ行くから。 || Sure, I’m coming right away.
+Q: Where will A wait if B is late?
+C: At the station ; Inside the shop ; In front of the shop ; At home
+ANS: 2
+EXP: 五分 (ごふん) five minutes. 駅を出たところ means I’ve just left the station. まだ来ないなら means if you still haven’t come. 中に入って待つ means go in and wait. Extra words: もしもし, hello (on the phone); 分 (ふん), minute; すぐ, right away.
+
+@reading 七時の朝
+TEXT: 今朝は七時に家を出ました。いつもは八時に出ますが、今日は仕事が沢山あるからです。会社に入ると、まだ誰もいませんでした。私は一人で仕事を始めました。そして、九時にみんなが来ました。「今日は頑張っているね」と言われて、ちょっと嬉しかったです。 || This morning I left home at seven. I usually leave at eight, but today I have a lot of work. When I went into the office, nobody was there yet. I started working alone. Then, at nine, everyone arrived. Someone said, “You’re working hard today,” and I was a little happy.
+Q: Why did the writer leave home at seven?
+C: They had a lot of work ; They wanted to meet coworkers ; The train time changed ; They had a meeting at nine
+ANS: 1
+EXP: 今日は仕事が沢山あるからです gives the reason. 七時 (しちじ) seven o’clock; まだ誰もいませんでした means nobody was there yet; そして means and then. Extra word: 会社 (かいしゃ), company, office.
+
+@reading 健太くんの誕生日
+TEXT: 昨日は友達の健太くんの誕生日でした。健太くんの家には友達が十人いました。みんなで歌を歌ったり、ゲームをやったりしました。健太くんはとても嬉しそうな顔をしていました。私は夜の十一時に家に帰りました。今も楽しい気持ちが残っています。 || Yesterday was my friend Kenta’s birthday. There were ten friends at his house. We sang songs, played games and so on. Kenta looked very happy. I got home at eleven at night. I still feel happy now.
+Q: How did Kenta look at the party?
+C: Tired ; Worried ; Very happy ; A little angry
+ANS: 3
+EXP: とても嬉しそうな顔をしていました means he looked very happy (顔 = face). 十人 (じゅうにん) ten people; 十一時 (じゅういちじ) eleven o’clock; ゲームをやる means play games. Extra words: 誕生日 (たんじょうび), birthday; 歌 (うた), song; 残る (のこる), remain.
+
+@story An hour to myself
+N: 今朝は六時半に起きました。家族はまだみんな寝ていました。 || This morning I got up at half past six. My family was still asleep.
+N: 私は一人で顔を洗って、コーヒーを飲みながら本を読みました。 || On my own, I washed my face and read a book while drinking coffee.
+N: 七時半に母が起きてきて、「今日はどうしたの？」と言いました。私は「朝のこの一時間が好きなんだ」と言いました。 || At half past seven my mother got up and said, “What’s up today?” I said, “I love this hour in the morning.”
+N: そして、八時に家を出ました。誰もいない朝の時間は、私の一番好きな時間です。 || Then I left home at eight. The morning time when no one is around is my favorite time.
+Q: What does the narrator enjoy most?
+C: Breakfast with the family ; Reading late at night ; The quiet hour in the morning ; Leaving home early
+ANS: 3
+EXP: 朝のこの一時間が好きなんだ and 誰もいない朝の時間は、私の一番好きな時間です give the answer. 六時半 (ろくじはん) half past six; 顔を洗う wash one’s face. Extra words: 起きる (おきる), get up; 朝 (あさ), morning; 洗う (あらう), wash; コーヒー, coffee; 読む (よむ), read.

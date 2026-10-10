@@ -8,6 +8,7 @@ import levelTwo from './kaishi-1-40.json';
 import firstTest from './kaishi-1-60.json';
 import secondTest from './kaishi-1-80.json';
 import thirdTest from './kaishi-1-100.json';
+import { extraLevels } from './kaishi-extra-levels';
 
 export type Speaker = 'A' | 'B';
 export type DialogueLine = { speaker: Speaker; text: string; translation: string };
@@ -28,4 +29,6 @@ export const listeningTests: TestEntry[] = [
   level8 as ListeningTest,
   level9 as ListeningTest,
   level10 as ListeningTest,
+  // Levels 11+ are built from content/kaishi by scripts/build-kaishi-levels.cjs.
+  ...extraLevels,
 ];

@@ -1,0 +1,9 @@
+# Level 6 · words 101–120 (solo story only)
+@story Sunday at Grandpa’s
+N: 日曜日、家族みんなでおじいさんとおばあさんの家に行きました。 || On Sunday my whole family went to Grandpa and Grandma’s house.
+N: 家に入ると、おじいさんが大きな声で「よく来たね」と言いました。二人とも、とても元気です。 || When we went in, Grandpa said in a loud voice, “Welcome!” They’re both very healthy.
+N: おばあさんは、いつも使っている大きい鍋で、みんなのご飯を作ってくれました。今日も楽しい一日でした。 || Grandma made food for everyone in the big pot she always uses. Today was another fun day.
+Q: What did Grandma do?
+C: Took everyone out to eat ; Cooked for everyone in a big pot ; Showed old photos ; Slept all day
+ANS: 2
+EXP: 大きい鍋で、みんなのご飯を作ってくれました gives the answer. 家族 (かぞく) family; 入る (はいる) go in; 大きな声 (こえ) loud voice; 元気 (げんき) healthy; いつも always; 使う (つかう) use; 今日 (きょう) today. Extra words: 日曜日 (にちようび), Sunday; 鍋 (なべ), pot; ご飯 (ごはん), meal; 作る (つくる), make.

@@ -1,0 +1,9 @@
+# Level 1 · words 1–20 (solo story only)
+@story My brother’s books
+N: 私はアンです。日本語の勉強が好きです。 || I’m Ann. I like studying Japanese.
+N: 兄がいます。兄は本が好きです。家には兄の本が沢山あります。 || I have an older brother. He likes books. There are lots of his books at home.
+N: これも、それも、兄の本です。私は毎日、兄の日本語の本で勉強します。兄はいい人です。 || This one and that one are my brother’s books too. Every day I study with his Japanese books. My brother is a good person.
+Q: What does Ann use to study every day?
+C: Her teacher’s notes ; Her brother’s Japanese books ; A phone app ; Her friend’s books
+ANS: 2
+EXP: 兄の日本語の本で勉強します means I study with my brother’s Japanese books. 兄 (あに) older brother; 毎日 (まいにち) every day; いい人 (ひと) a good person. Extra words: 家 (いえ), home; 沢山 (たくさん), a lot.

@@ -1,0 +1,9 @@
+# Level 10 · words 181–200 (solo story only)
+@story A free afternoon
+N: 僕は今日、暇でした。公園のベンチに座って、水を飲みながら本を読みました。 || I was free today. I sat on a park bench and read a book while drinking water.
+N: 近くで、男の子と女の子が小さい犬と遊んでいました。犬が全く言うことを聞かないので、二人とも笑っていました。 || Nearby, a boy and a girl were playing with a small dog. The dog didn’t listen to them at all, so they were both laughing.
+N: なぜか、僕も楽しい気持ちになりました。難しいことは何も考えない、簡単な一日でした。 || For some reason, I felt happy too. It was a simple day when I didn’t think about anything difficult.
+Q: Why were the boy and girl laughing?
+C: The narrator told a joke ; The dog didn’t listen to them at all ; They won a game ; The dog fell asleep
+ANS: 2
+EXP: 犬が全く言うことを聞かないので、二人とも笑っていました gives the reason. 僕 (ぼく) I; 暇 (ひま) free; 座る (すわる) sit; 水 (みず) water; 飲む (のむ) drink; 男の子 / 女の子 boy / girl; 小さい (ちいさい) small; 全く (まったく) at all; なぜか for some reason; 難しい (むずかしい) difficult; 簡単 (かんたん) simple. Extra words: 公園 (こうえん), park; ベンチ, bench; 犬 (いぬ), dog; 遊ぶ (あそぶ), play; 笑う (わらう), laugh.

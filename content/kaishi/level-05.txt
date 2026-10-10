@@ -1,0 +1,9 @@
+# Level 5 · words 81–100 (solo story only)
+@story A present from my father
+N: 先週、父が時計をくれました。町で一番高い店で買ったそうです。 || Last week my father gave me a watch. Apparently he bought it at the most expensive shop in town.
+N: 私はその時計が大好きになりました。でも、ちょっと高すぎると思います。 || I came to love that watch. But I think it was a bit too expensive.
+N: 母は「お父さんは本当に君が大好きなのよ」と言いました。今度は私が父に何かあげたいです。 || My mother said, “Your father really loves you.” Next time, I want to give my father something.
+Q: What does the narrator want to do next?
+C: Return the watch ; Give the father something ; Buy another watch ; Visit the shop
+ANS: 2
+EXP: 今度は私が父に何かあげたいです means next time I want to give my father something. くれる (someone gives to me); あげる (I give); 一番高い the most expensive; 本当に (ほんとうに) really; 大好き (だいすき) love; 君 (きみ) you. Extra words: 先週 (せんしゅう), last week; 時計 (とけい), watch; 店 (みせ), shop; 買う (かう), buy.

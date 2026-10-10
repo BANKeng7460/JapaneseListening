@@ -1,0 +1,87 @@
+# Level 17 · words 321–340
+@forms 322=何時に開きます 323=ページを開いて 327=十年 328=年は
+
+@conversation Store hours · Phone call
+A: すみません、明日は何時に開きますか。 || Excuse me, what time do you open tomorrow?
+B: 明日は十時に開きます。 || We open at ten tomorrow.
+A: セールの服は、まだ残っていますか。 || Are the sale clothes still available?
+B: 少々お待ちください。確認します。…はい、まだ少し残っています。 || One moment, please. I’ll check. … Yes, there are still a few left.
+Q: What does the shop assistant check?
+C: The opening time ; Whether sale clothes are left ; The price of a coat ; The size of a shirt
+ANS: 2
+EXP: 開く (あく) open — a shop opens. 残る (のこる) remain — まだ残っています means some are still left. 確認する (かくにん) check. Extra words: セール, sale; 服 (ふく), clothes; 少々お待ちください, please wait a moment.
+
+@conversation In class · Teacher and students
+A: 教科書の三十ページを開いてください。 || Please open your textbooks to page thirty.
+B: はい。 || Yes.
+A: この問題に答えられる人はいますか。 || Can anyone answer this question?
+B: はい！答えは「三」です。 || Me! The answer is “three”.
+A: よくできました。宿題は、五番以外、全てやってきてください。 || Well done. For homework, please do all of them except number five.
+Q: Which homework problem doesn’t need to be done?
+C: Number one ; Number three ; Number five ; All of them must be done
+ANS: 3
+EXP: 開く (ひらく) open — open a book. 答える (こたえる) answer. 以外 (いがい) except; 全て (すべて) all. Extra words: 教科書 (きょうかしょ), textbook; ページ, page; 宿題 (しゅくだい), homework.
+
+@conversation The haunted house · Friends
+A: お化け屋敷、怖かったね！ || That haunted house was scary!
+B: 怖すぎて、ずっと君の腕をつかんでたよ。 || It was so scary I was holding your arm the whole time.
+A: 私も驚いて、大きい声を出しちゃった。 || I got startled and screamed too.
+B: 次も行くなら、絶対に離れないでね。 || If we go again, don’t you dare leave my side.
+Q: What did B do inside?
+C: Ran away alone ; Held A’s arm the whole time ; Closed their eyes ; Laughed the whole time
+ANS: 2
+EXP: 怖い (こわい) scary; 腕 (うで) arm; 驚く (おどろく) be surprised; 離れる (はなれる) be apart — 離れないで means don’t leave me. Extra words: お化け屋敷 (おばけやしき), haunted house; つかむ, grab.
+
+@conversation An old friend · Friends
+A: 田中さんって、年はいくつ？ || How old is Tanaka?
+B: 私と同じ年だよ。高校からの友達なんだ。 || Same age as me. We’ve been friends since high school.
+A: もう長い付き合いだね。 || You’ve known each other a long time.
+B: うん、もう十年になるね。 || Yeah, it’s been ten years now.
+Q: How long have B and Tanaka been friends?
+C: Three years ; Five years ; Ten years ; Since they were children
+ANS: 3
+EXP: 年 (とし) age, year — 年はいくつ means how old. 十年 (じゅうねん) ten years — 年 is read ねん after numbers. 長い (ながい) long. Extra words: 高校 (こうこう), high school; 付き合い (つきあい), relationship.
+
+@conversation Car trouble · Couple
+A: 困ったな。車が動かない。 || This is a problem. The car won’t move.
+B: あっ、ライトも消えた。 || Oh, the lights went out too.
+A: この状況じゃ、誰かに助けてもらうしかないね。 || In this situation, we’ll have to get someone to help.
+B: じゃあ、荷物を取って、あの店まで歩こう。 || Then let’s get our bags and walk to that shop.
+Q: What do they decide to do?
+C: Wait in the car ; Take their bags and walk to a shop ; Call a taxi ; Fix the car themselves
+ANS: 2
+EXP: 困る (こまる) be in trouble; 消える (きえる) go out; 状況 (じょうきょう) situation; 助ける (たすける) help; 取る (とる) take, get. Extra words: 車 (くるま), car; ライト, lights; 荷物 (にもつ), bags; 歩く (あるく), walk.
+
+@conversation A secret ingredient · Family
+A: カレーに何を入れる？ || What shall we put in the curry?
+B: 肉と野菜。それから、チョコを少し入れるとおいしいよ。 || Meat and vegetables. And if you add a little chocolate, it tastes great.
+A: え、チョコ？本当に？ || Chocolate? Really?
+B: 本当だよ。母に教えてもらったんだ。 || Really. My mom taught me.
+Q: What surprising thing does B put in the curry?
+C: Coffee ; Chocolate ; Honey ; Milk
+ANS: 2
+EXP: 入れる (いれる) put in. それから means and also. Extra words: カレー, curry; 肉 (にく), meat; 野菜 (やさい), vegetables; チョコ, chocolate; おいしい, tasty.
+
+@reading 駅で困っていた人
+TEXT: 昨日、駅で外国人の女の人が困っている様子でした。日本語が分からなくて、電車の状況が確認できないようでした。私は英語で話しかけて、電車が三十分遅れていることを伝えました。女の人はとても驚いていましたが、最後に「助けてくれて、ありがとう」と笑顔で言ってくれました。 || Yesterday at the station, a foreign woman looked like she was in trouble. She didn’t understand Japanese and couldn’t seem to check the train situation. I spoke to her in English and told her the train was thirty minutes late. She was very surprised, but at the end she smiled and said, “Thank you for helping me.”
+Q: What did the writer tell the woman?
+C: Where the station was ; That the train was thirty minutes late ; How to buy a ticket ; That the train had already left
+ANS: 2
+EXP: 電車が三十分遅れていることを伝えました gives the answer. 困る (こまる) be in trouble; 状況 (じょうきょう) situation; 確認 (かくにん) check; 驚く (おどろく) be surprised; 助ける (たすける) help. Extra words: 外国人 (がいこくじん), foreigner; 英語 (えいご), English; 遅れる (おくれる), be late; 笑顔 (えがお), smile.
+
+@reading おじいさんの腕時計
+TEXT: 家には、おじいさんの腕時計が一つだけ残っています。四十年以上も前の時計ですが、今も毎日ちゃんと動きます。この時計以外、おじいさんの物は全て人にあげてしまいました。時計を見ると、おじいさんの長い人生を感じます。私はこの時計をずっと大切にするつもりです。 || Only one thing of my grandfather’s remains at home: his wristwatch. It’s more than forty years old, but it still works properly every day. Apart from this watch, all of his things were given away. When I look at it, I feel his long life. I plan to treasure this watch forever.
+Q: What is left of the grandfather’s things?
+C: Only his wristwatch ; His books and clothes ; All of his belongings ; Nothing at all
+ANS: 1
+EXP: 腕時計が一つだけ残っています means only the wristwatch remains. 四十年 (よんじゅうねん) forty years; 以外 (いがい) except; 全て (すべて) all; 長い (ながい) long. Extra words: 腕時計 (うでどけい), wristwatch; 人生 (じんせい), life; 大切 (たいせつ), precious.
+
+@story The night the lights went out
+N: 昨日の夜、家の電気が全て消えました。 || Last night, all the lights in my house went out.
+N: 一人だったので、とても怖かったです。外を見ると、町の電気も消えていました。 || I was alone, so I was really scared. When I looked outside, the town’s lights were out too.
+N: 状況が分からなくて困りましたが、スマホで確認すると、町全体で停電していることが分かりました。 || I didn’t understand what was happening and didn’t know what to do, but when I checked on my phone, I found out the whole town had lost power.
+N: 二時間後に電気がつきました。暗い間に、ろうそくの光で本を読んだのは、ちょっと楽しかったです。 || Two hours later the power came back. Reading a book by candlelight while it was dark was actually a bit fun.
+Q: Why did the lights go out?
+C: The narrator forgot to pay the bill ; The whole town lost power ; A light bulb broke ; Someone turned them off
+ANS: 2
+EXP: 町全体で停電している means the whole town had a power cut. 全て (すべて) all; 消える (きえる) go out; 怖い (こわい) scary; 状況 (じょうきょう) situation; 確認 (かくにん) check. Extra words: 電気 (でんき), electricity, lights; スマホ, smartphone; 停電 (ていでん), power cut; 暗い (くらい), dark; ろうそく, candle; 光 (ひかり), light.

@@ -1,0 +1,9 @@
+# Level 2 · words 21–40 (solo story only)
+@story Not much time
+N: 今、私はあまり時間がありません。毎日、仕事をしています。 || Right now I don’t have much time. I work every day.
+N: でも、私は先生になりたいです。だから、夜に少し日本語の本を見ます。 || But I want to become a teacher. So at night I look at a Japanese book for a little while.
+N: この本は全然難しくないです。とても面白いです。先生が名前を教えてくれた本です。 || This book isn’t hard at all. It’s very interesting. It’s a book my teacher told me the name of.
+Q: What does the narrator want to become?
+C: A writer ; A teacher ; A doctor ; A shop owner
+ANS: 2
+EXP: 先生になりたいです means I want to become a teacher. あまり時間がありません means I don’t have much time; 全然 with a negative means not at all; 面白い (おもしろい) interesting; 教える (おしえる) tell, teach. Extra words: 仕事 (しごと), work; 夜 (よる), night; 少し (すこし), a little; 難しい (むずかしい), difficult.

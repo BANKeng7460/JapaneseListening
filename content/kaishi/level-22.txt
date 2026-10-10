@@ -1,0 +1,87 @@
+# Level 22 · words 421–440
+@forms 424=私のせい 426=別の人
+
+@conversation Exam results · Classmates
+A: 試験の結果、もう出た？ || Are the exam results out yet?
+B: うん。クラス全員、合格したって。 || Yes. Apparently everyone in the class passed.
+A: よかった！私、点数も上がったよ。 || Great! My score went up too.
+B: 卒業旅行の場所も決まったし、最高だね。 || And the graduation trip destination is decided too. It’s the best.
+Q: What do they learn about the class?
+C: Half of the class failed ; Everyone passed ; The exam was canceled ; Only A passed
+ANS: 2
+EXP: 結果 (けっか) result; 全員 (ぜんいん) everyone; 上がる (あがる) go up; 決まる (きまる) be decided. Extra words: 試験 (しけん), exam; 合格 (ごうかく), pass; 点数 (てんすう), score; 卒業旅行 (そつぎょうりょこう), graduation trip.
+
+@conversation A busy week · Coworkers
+A: 最近、忙しそうですね。 || You seem busy lately.
+B: ええ、特に今週は会議が多くて。 || Yes, especially this week — there are so many meetings.
+A: しばらく休んだほうがいいですよ。 || You should take a break for a while.
+B: そうですね。来週の会議は、別の人に頼んでみます。 || You’re right. I’ll try asking someone else to do next week’s meetings.
+Q: What will B do about next week’s meetings?
+C: Cancel them ; Ask someone else to handle them ; Hold them online ; Move them to the weekend
+ANS: 2
+EXP: 最近 (さいきん) lately; 特に (とくに) especially; しばらく for a while; 別の人 (べつのひと) someone else. Extra words: 会議 (かいぎ), meeting; 今週 (こんしゅう), this week.
+
+@conversation On the bus · Strangers
+A: すみません、隣の席、空いていますか。 || Excuse me, is the seat next to you free?
+B: はい、どうぞ。 || Yes, go ahead.
+A: このバスに乗れば、市役所に行けますか。 || If I take this bus, can I get to city hall?
+B: さあ…。私もこの道は初めてなので、分かりません。 || Hmm… I’m not sure. It’s my first time on this route too.
+Q: Why can’t B answer the question?
+C: B doesn’t speak Japanese ; B has never been on this route ; B is getting off now ; B is asleep
+ANS: 2
+EXP: 隣 (となり) next to; 乗る (のる) ride, take; 道 (みち) road, route. さあ means hmm, I’m not sure. Extra words: 席 (せき), seat; 空く (あく), be free; バス, bus; 市役所 (しやくしょ), city hall.
+
+@conversation The silent treatment · Couple
+A: どうして黙ってるの？ || Why are you so quiet?
+B: 別に。 || No reason.
+A: 私のせいで怒ってる？ || Are you angry because of me?
+B: …深い理由はないよ。ちょっと疲れてるだけ。 || …There’s no deep reason. I’m just a bit tired.
+Q: Why does B say they are quiet?
+C: B is angry at A ; B is just a little tired ; B has bad news ; B lost something
+ANS: 2
+EXP: 黙る (だまる) be silent; 私のせいで means because of me — せい marks a cause, usually bad; 深い (ふかい) deep. Extra word: 疲れる (つかれる), be tired.
+
+@conversation An old temple in Nara · Tour guide and visitor
+A: この寺の扉は、千年以上前のものです。 || This temple’s door is over a thousand years old.
+B: へえ。屋根の形も珍しいですね。 || Wow. The shape of the roof is unusual too.
+A: はい。毎年八月に、ここで大きなお祭りが行われます。 || Yes. Every August a big festival is held here.
+B: あの、鹿にえさを与えてもいいですか。 || Um, is it okay to feed the deer?
+A: はい。あそこで鹿せんべいを買えますよ。 || Yes. You can buy deer crackers over there.
+Q: What does B want to do?
+C: Enter the temple ; Feed the deer ; Join the festival ; Take a photo of the door
+ANS: 2
+EXP: 扉 (とびら) door; 形 (かたち) shape; 行う (おこなう) hold — 行われます means is held; 与える (あたえる) give — えさを与える means feed an animal. Extra words: 寺 (てら), temple; 屋根 (やね), roof; 珍しい (めずらしい), unusual; 鹿 (しか), deer; えさ, food for animals.
+
+@conversation A paper cut · Siblings
+A: 痛っ！紙で指を切っちゃった。 || Ouch! I cut my finger on paper.
+B: 大丈夫？ちょっと見せて。 || Are you okay? Let me see.
+A: 血は少し出てるけど、大丈夫。 || It’s bleeding a little, but I’m fine.
+B: 絆創膏、持ってくるね。 || I’ll get you a bandage.
+Q: What will B bring?
+C: Some water ; A bandage ; Ice ; Medicine
+ANS: 2
+EXP: 指 (ゆび) finger. 見せて means let me see. Extra words: 紙 (かみ), paper; 切る (きる), cut; 血 (ち), blood; 絆創膏 (ばんそうこう), adhesive bandage.
+
+@reading 電車の席
+TEXT: 最近、電車に乗ると、よく席の近くにお年寄りが立っています。この前も、私の隣に大きい荷物を持ったおばあさんが立っていました。私はしばらく黙って座っていましたが、勇気を出して「どうぞ」と席を譲りました。おばあさんの笑顔を見て、特に何もしていないのに、とても温かい気持ちになりました。 || Lately, when I ride the train, elderly people are often standing near the seats. The other day too, an old woman with a big bag was standing next to me. I sat quietly for a while, but then I worked up my courage, said “Please,” and gave her my seat. Seeing her smile, I felt very warm, even though I hadn’t done anything special.
+Q: What did the writer do in the end?
+C: Got off the train ; Gave the old woman their seat ; Helped carry her bag ; Kept sitting quietly
+ANS: 2
+EXP: 勇気を出して「どうぞ」と席を譲りました gives the answer. 最近 (さいきん) lately; 乗る (のる) ride; 隣 (となり) next to; しばらく for a while; 黙る (だまる) be silent; 特に (とくに) especially. Extra words: 席 (せき), seat; お年寄り (おとしより), elderly people; 荷物 (にもつ), bag; 勇気 (ゆうき), courage; 譲る (ゆずる), give up (a seat); 温かい (あたたかい), warm.
+
+@reading 形のない贈り物
+TEXT: 今年の誕生日、姉は物ではなく、長い手紙をくれました。手紙には、私たちの子どもの時の話や、姉が私をどう思っているかが書いてありました。最初は少し恥ずかしかったですが、何度も読みました。結果、その手紙はどんな物よりも、私の心に深く残りました。 || For my birthday this year, my older sister didn’t give me a thing — she gave me a long letter. It talked about our childhood and how she thinks of me. At first I was a little embarrassed, but I read it again and again. In the end, the letter stayed in my heart more deeply than any object could.
+Q: What did the sister give for the birthday?
+C: An expensive bag ; A long letter ; A photo album ; Concert tickets
+ANS: 2
+EXP: 姉は物ではなく、長い手紙をくれました gives the answer. 結果 (けっか) as a result; 深く (ふかく) deeply; 残る (のこる) remain. Extra words: 誕生日 (たんじょうび), birthday; 手紙 (てがみ), letter; 何度も (なんども), many times.
+
+@story The door that wouldn’t open
+N: 昨日、会社の会議室で、全員で会議を行っていました。 || Yesterday all of us were holding a meeting in the company’s meeting room.
+N: 会議が終わって、扉を開けようとすると、全然開きません。 || When the meeting ended and we tried to open the door, it wouldn’t open at all.
+N: しばらくみんな黙っていましたが、隣の部屋の人に電話をして、外から開けてもらいました。 || For a while everyone was silent, but then we called someone in the next room and had them open it from outside.
+N: どうやら、古い扉の形が少し変わっていたせいだったようです。今は笑える話ですが、あの時は本当に困りました。 || Apparently it was because the old door had warped a little. It’s a funny story now, but at the time we were really stuck.
+Q: How did they get out of the room?
+C: They broke the door ; Someone in the next room opened it from outside ; They climbed out the window ; The door opened by itself
+ANS: 2
+EXP: 隣の部屋の人に電話をして、外から開けてもらいました gives the answer. 全員 (ぜんいん) everyone; 行う (おこなう) hold; 扉 (とびら) door; しばらく for a while; 形 (かたち) shape; せい cause. Extra words: 会議室 (かいぎしつ), meeting room; 困る (こまる), be stuck.

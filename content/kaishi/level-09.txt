@@ -1,0 +1,9 @@
+# Level 9 · words 161–180 (solo story only)
+@story My friend’s dream
+N: あいつは本当にいい奴です。今まで、何度も私を助けてくれました。 || He’s a really good guy. Until now, he’s helped me many times.
+N: あいつの夢は、自分の国で日本語の先生になることです。毎日、夜遅くまで頑張っています。 || His dream is to become a Japanese teacher in his own country. Every day he works hard until late at night.
+N: 今回、あいつに「試験の勉強を手伝って」と頼まれました。もちろん、嬉しい気持ちで手伝うつもりです。 || This time, he asked me, “Help me study for the exam.” Of course, I’m happy to help.
+Q: What did the friend ask the narrator to do?
+C: Lend him money ; Help him study for an exam ; Teach his class ; Go to his country with him
+ANS: 2
+EXP: 試験の勉強を手伝って means help me study for the exam. あいつ and 奴 (やつ) are casual words for a guy; 今まで until now; 夢 (ゆめ) dream; 国 (くに) country; 頑張る (がんばる) work hard; 今回 (こんかい) this time; 頼む (たのむ) ask; 嬉しい (うれしい) happy. Extra words: 何度も (なんども), many times; 助ける (たすける), help; 遅く (おそく), late; 試験 (しけん), exam.

@@ -1,0 +1,9 @@
+# Level 7 · words 121–140 (solo story only)
+@story A word we didn’t know
+N: 今日、友達が「これ、どんな意味？」と言って、一つの言葉を見せてくれました。 || Today a friend showed me a word and asked, “What does this mean?”
+N: 私もその言葉を知りませんでした。二人で私の部屋に行って、沢山の本で調べました。 || I didn’t know the word either. We went to my room and looked it up in lots of books.
+N: やっと意味が分かった時、友達はとても嬉しそうな様子でした。誰かと一緒に調べる事は、一人より楽しいです。 || When we finally understood the meaning, my friend looked really happy. Looking things up with someone is more fun than doing it alone.
+Q: What does the narrator say at the end?
+C: Dictionaries are hard to use ; Looking things up together is more fun ; The friend should study more ; The word was easy
+ANS: 2
+EXP: 誰かと一緒に調べる事は、一人より楽しいです gives the answer. どんな意味 what meaning; 言葉 (ことば) word; 部屋 (へや) room; 沢山 (たくさん) a lot; 調べる (しらべる) look up; 様子 (ようす) appearance; 事 (こと) thing. Extra words: 見せる (みせる), show; やっと, finally; 嬉しい (うれしい), happy; 一緒に (いっしょに), together.

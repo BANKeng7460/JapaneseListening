@@ -1,0 +1,9 @@
+# Level 3 · words 41–60 (solo story only)
+@story The book left at school
+N: アンちゃんは日本の学校に行っています。学校は家の前にあります。 || Ann goes to a school in Japan. The school is in front of her house.
+N: 今日、アンちゃんは本を学校に置いて、家に帰りました。 || Today Ann left her book at school and went home.
+N: 明日、また学校に行きます。「私の本はどこですか」と先生に聞くつもりです。先生はきっと知っていると思います。 || Tomorrow she’ll go to school again. She plans to ask her teacher, “Where is my book?” She thinks the teacher will surely know.
+Q: Where did Ann leave her book?
+C: At home ; At school ; On the bus ; At a friend’s house
+ANS: 2
+EXP: 本を学校に置いて means she left the book at school. 置く (おく) put, leave; 帰る (かえる) go home; 明日 (あした) tomorrow; また again; 知る (しる) know; 思う (おもう) think. Extra words: 聞く (きく), ask; つもり, plan; きっと, surely.
