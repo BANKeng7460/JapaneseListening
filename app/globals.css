@@ -139,3 +139,48 @@
 .grammar-kaishi-badge { font-size:11px; padding:2px 9px; background:#f6ead2; color:#7a4f10; }
 .tip .voice-controls { justify-content:flex-start; margin-top:16px; font-size:13px; font-weight:650; }
 #grammar-voice-help { margin-top:6px; }
+
+/* Flashcards (Anki-style SRS) */
+.srs-new { color:#1d6fd8; }
+.srs-learn { color:#c0392b; }
+.srs-review { color:#2e7d4f; }
+.srs-decks { width:100%; border-collapse:collapse; }
+.srs-decks th, .srs-decks td { padding:14px 12px; border-bottom:1px solid var(--line); text-align:center; vertical-align:top; }
+.srs-decks th:first-child, .srs-decks td:first-child { text-align:left; padding-left:24px; }
+.srs-decks td:not(:first-child) { font-weight:700; font-size:17px; padding-top:18px; }
+.srs-decks td p { margin:2px 0 0; font-weight:400; }
+.srs-options summary { margin-top:8px; }
+.srs-options label { display:flex; justify-content:space-between; align-items:center; gap:10px; margin:8px 0; font-size:13px; max-width:300px; }
+.srs-options input { width:80px; font:inherit; font-size:13px; padding:4px 6px; border:1px solid #c9d8c7; border-radius:6px; }
+.srs-message { padding:12px 24px; }
+.srs-topbar { display:flex; flex-wrap:wrap; align-items:center; gap:12px; margin-bottom:16px; }
+.srs-topbar strong { flex:1; }
+.srs-counts { font-weight:700; font-size:18px; }
+.srs-active { text-decoration:underline; text-underline-offset:4px; }
+.srs-card { max-width:760px; margin:0 auto; }
+.srs-face { text-align:center; min-height:260px; }
+.srs-word { font-size:clamp(40px,9vw,64px); line-height:1.5; margin:24px 0 8px; overflow-wrap:anywhere; }
+.srs-word rt { font-size:.32em; }
+.srs-back { border-top:1px solid var(--line); margin-top:12px; padding-top:16px; }
+.srs-back p { margin:8px 0; }
+.srs-back .grammar-examples { text-align:left; max-width:560px; margin:12px auto; }
+.srs-meaning { font-size:22px; font-weight:650; }
+.srs-picture { max-width:min(240px,100%); max-height:200px; border-radius:12px; margin:8px 0; }
+.srs-sentence { font-size:24px; line-height:2.1; white-space:pre-line; }
+.srs-sentence rt { font-size:.45em; }
+.srs-sentence b { color:var(--green); }
+.srs-notes { white-space:pre-line; }
+.srs-back .reading-controls { justify-content:center; }
+.srs-prompt { margin-top:16px; }
+.srs-actions { border-top:1px solid var(--line); padding:16px; display:flex; justify-content:center; }
+.srs-show { min-width:220px; }
+.srs-buttons { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; width:100%; max-width:560px; }
+.srs-rate { display:flex; flex-direction:column; align-items:center; gap:2px; border:0; border-radius:10px; padding:10px 6px; font-weight:650; color:white; }
+.srs-rate-1 { background:#b54434; } .srs-rate-2 { background:#6b7a73; } .srs-rate-3 { background:var(--green); } .srs-rate-4 { background:#1d6fd8; }
+.srs-rate:hover { filter:brightness(.92); }
+.srs-ivl { font-size:12px; font-weight:500; opacity:.9; }
+.srs-key { font-size:11px; font-weight:500; opacity:.7; margin-left:6px; }
+.srs-rate .srs-key { margin-left:0; }
+.srs-help { text-align:center; margin-top:14px; }
+.srs-done { text-align:center; padding:48px 28px; }
+@media(max-width:560px) { .srs-decks th:nth-child(5), .srs-decks td:nth-child(5) { padding-left:4px; } .srs-decks th:first-child, .srs-decks td:first-child { padding-left:14px; } .srs-buttons { gap:6px; } .srs-key { display:none; } }
