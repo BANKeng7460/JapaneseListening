@@ -17,6 +17,8 @@ export function useDialogueSpeech(solo = false) {
   const generation = useRef(0);
   const utterance = useRef<SpeechSynthesisUtterance | null>(null);
   const preferences = useRef<Record<Speaker, string>>({ A: '', B: '' });
+  // What is being spoken right now, for highlighting the transcript: line index and character offset.
+  const [position, setPosition] = useState<{ line: number; char: number; length: number } | null>(null);
 
   const stop = useCallback(() => {
     generation.current++;
@@ -27,6 +29,7 @@ export function useDialogueSpeech(solo = false) {
     setPaused(false);
     utterance.current = null;
     setPlaying(false);
+    setPosition(null);
   }, []);
 
   useEffect(() => {
@@ -68,20 +71,29 @@ export function useDialogueSpeech(solo = false) {
       }
       return;
     }
+    start(lines, 0, 0);
+  };
+
+  /** Plays from a given line and character (clicking the transcript), then continues to the end. */
+  const playFrom = (lines: DialogueLine[], line: number, char = 0) => start(lines, line, char);
+
+  function start(lines: DialogueLine[], fromLine: number, fromChar: number) {
     if (lines.some(line => !selected[line.speaker])) return;
     stop();
     const id = generation.current;
     setPlaying(true);
-    const speakLine = (index: number) => {
+    const speakLine = (index: number, offset = 0) => {
       if (id !== generation.current) return;
       if (pausedRef.current) { pendingLine.current = () => speakLine(index); return; }
       if (index === lines.length) { stop(); setStatus(solo ? 'Story complete. Press play to listen again.' : 'Conversation complete. Press play to listen again.'); return; }
       const line = lines[index];
-      const speech = new SpeechSynthesisUtterance(line.text);
+      const speech = new SpeechSynthesisUtterance(line.text.slice(offset));
       utterance.current = speech;
       speech.lang = 'ja-JP'; speech.rate = rate;
       speech.voice = voices.find(v => voiceKey(v) === selected[line.speaker]) || null;
-      speech.onstart = () => { if (id === generation.current && !pausedRef.current) setStatus(solo ? 'Narrator speaking…' : `Speaker ${line.speaker} speaking · Line ${index + 1} of ${lines.length}`); };
+      // Word boundaries (Edge / Microsoft voices) move the highlight word by word; other voices highlight the line.
+      speech.onboundary = event => { if (id === generation.current) setPosition({ line: index, char: offset + event.charIndex, length: event.charLength || 1 }); };
+      speech.onstart = () => { if (id === generation.current) setPosition({ line: index, char: offset, length: 0 }); if (id === generation.current && !pausedRef.current) setStatus(solo ? 'Narrator speaking…' : `Speaker ${line.speaker} speaking · Line ${index + 1} of ${lines.length}`); };
       speech.onend = () => speakLine(index + 1);
       speech.onerror = event => {
         if (id !== generation.current) return;
@@ -92,8 +104,8 @@ export function useDialogueSpeech(solo = false) {
       setStatus(solo ? 'Loading narrator…' : `Loading Speaker ${line.speaker}…`);
       window.speechSynthesis.speak(speech);
     };
-    speakLine(0);
-  };
+    speakLine(fromLine, fromChar);
+  }
   const chooseVoice = (speaker: Speaker, key: string) => {
     stop(); preferences.current[speaker] = key;
     setSelected(previous => ({ ...previous, [speaker]: key }));
@@ -103,5 +115,5 @@ export function useDialogueSpeech(solo = false) {
   const changeRate = (value: number) => { stop(); setRate(value); setStatus('Speed updated. Press play to restart.'); };
   const reset = () => { stop(); setStatus(voices.length ? 'Press play to listen.' : 'No Japanese voices available.'); };
   const stopPlayback = () => { stop(); setStatus('Playback stopped. Press play to restart.'); };
-  return { voices, selected, rate, playing, paused, status, play, stopPlayback, reset, chooseVoice, changeRate, voiceKey };
+  return { voices, selected, rate, playing, paused, status, position, play, playFrom, stopPlayback, reset, chooseVoice, changeRate, voiceKey };
 }

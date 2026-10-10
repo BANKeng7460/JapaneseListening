@@ -86,7 +86,7 @@ Shared pieces:
 
 ## History
 - **Base site:** Kaishi conversations levels 1–10, daily-life and solo stories, reading page.
-- **Listening:** autoplay; answers saved per test.
+- **Listening:** autoplay; answers saved per test. After answering, the transcript highlights the line (and, with Microsoft voices, the word) being spoken; clicking any character plays from that point (`playFrom` and `position` in `hooks/use-dialogue-speech.ts`).
 - **Reading:** passages rewritten as natural Japanese.
 - **Grammar:** N5/N4 page (216 points) with Kaishi recordings and a voice selector, then N3–N1 (848 points in total).
 - **Kaishi deck:** extracted from the .apkg.

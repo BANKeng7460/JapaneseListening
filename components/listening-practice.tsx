@@ -130,7 +130,18 @@ export default function ListeningPractice({ tests = listeningTests, genre = 'kai
                 </div></fieldset>
                 {checked && <div className={`feedback${selected === q.answer ? '' : ' wrong'}`} role="status">
                   <strong>{selected === q.answer ? 'Well done — that’s right!' : 'Keep going — here’s the answer.'}</strong><p>{q.explanation}</p>
-                  <details><summary>Show transcript &amp; translation</summary>{q.lines.map((line,i) => <div key={i}><strong>{solo ? 'Narrator' : `Speaker ${line.speaker}`}</strong><p className="transcript" lang="ja">{line.text}</p><p>{line.translation}</p></div>)}</details>
+                  <details><summary>Show transcript &amp; translation</summary>
+                    <p className="small">Click any character to play from there. The line being spoken is highlighted.</p>
+                    {q.lines.map((line,i) => {
+                      // Live highlight: the current line, and (when the voice reports word positions) the part already spoken.
+                      const live = speech.playing && speech.position?.line === i;
+                      return <div key={i} className={`transcript-line${live ? ' speaking' : ''}`}>
+                        <strong>{solo ? 'Narrator' : `Speaker ${line.speaker}`}</strong>
+                        <button type="button" className="play-small transcript-play" aria-label={`Play from line ${i + 1}`} onClick={() => speech.playFrom(q.lines, i)}>▶</button>
+                        <p className="transcript" lang="ja">{[...line.text].map((ch, k) => <span key={k} className={live && k < speech.position!.char ? 'spoken' : live && k < speech.position!.char + speech.position!.length ? 'now' : undefined} onClick={() => speech.playFrom(q.lines, i, k)}>{ch}</span>)}</p>
+                        <p>{line.translation}</p>
+                      </div>;
+                    })}</details>
                 </div>}
                 {checked && <GrammarUsed kind="listening" setId={test.id} index={current} />}
                 <div className="actions"><span className="small">{checked ? 'Replay the clip to hear the answer.' : 'Choose one answer.'}</span>

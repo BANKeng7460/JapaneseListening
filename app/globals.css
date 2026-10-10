@@ -257,3 +257,12 @@
 .srs-grammar summary { margin:0; font-weight:400; font-size:14px; display:flex; flex-wrap:wrap; align-items:baseline; gap:2px 8px; }
 .srs-grammar details p { margin:6px 0; font-size:14px; }
 .srs-grammar-basics { margin:8px 0 0 !important; }
+
+/* Live transcript: highlight the line being spoken; click a character to play from it */
+.transcript-line { position:relative; padding:8px 10px; margin:6px 0; border-radius:10px; transition:background .2s; }
+.transcript-line.speaking { background:#fdf3e1; box-shadow:inset 3px 0 0 #c48a26; }
+.transcript-line .transcript span { cursor:pointer; border-radius:3px; }
+.transcript-line .transcript span:hover { background:#dfeeda; }
+.transcript-line .transcript span.spoken { color:var(--green); }
+.transcript-line .transcript span.now { background:#f3d9a8; }
+.transcript-play { width:26px; height:26px; font-size:10px; margin-left:8px; vertical-align:middle; }
