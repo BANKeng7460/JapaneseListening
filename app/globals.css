@@ -266,3 +266,20 @@
 .transcript-line .transcript span.spoken { color:var(--green); }
 .transcript-line .transcript span.now { background:#f3d9a8; }
 .transcript-play { width:26px; height:26px; font-size:10px; margin-left:8px; vertical-align:middle; }
+
+/* Grammar course */
+.gc-lessons { list-style:none; margin:0; padding:0; display:grid; gap:8px; }
+.gc-lesson { display:grid; grid-template-columns:40px 1fr auto; align-items:center; gap:12px; width:100%; text-align:left; font:inherit; color:var(--ink); background:var(--paper); border:1px solid var(--line); border-radius:14px; padding:12px 16px; }
+.gc-lesson:hover { background:#f4f6ef; }
+.gc-lesson.next { border-color:#c48a26; }
+.gc-lesson.passed { background:#eef5e9; border-color:#a9cfa3; }
+.gc-num { display:grid; place-items:center; width:34px; height:34px; border-radius:50%; background:#eef2e8; font-weight:700; color:var(--muted); }
+.gc-lesson.passed .gc-num { background:var(--green); color:white; }
+.gc-title { display:flex; flex-direction:column; gap:2px; }
+.gc-title small { color:var(--muted); font-size:13px; }
+.gc-score { font-size:13px; font-weight:700; color:var(--green); white-space:nowrap; }
+.gc-tabs { margin-top:0; }
+.gc-point { padding:6px 0 18px; border-bottom:1px solid var(--line); margin-bottom:16px; }
+.gc-point h2 { margin:0 0 4px; font-size:26px; }
+.gc-prompt { font-size:17px; margin:0 0 14px; }
+.gc-inline-play { width:26px; height:26px; font-size:10px; margin-left:8px; vertical-align:middle; }

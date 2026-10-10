@@ -22,6 +22,7 @@ Links from the course add `&course=N`, which shows a "← Back to your level" ba
 | `/` | Kaishi conversations: 6–10 listening questions per level, autoplay, answers saved | `components/listening-practice.tsx`, `data/kaishi-1-*.json`, `data/tests.ts` |
 | `/reading` | 2 passages per level, tap-for-reading hints, latest-20 word cards | `components/reading-practice.tsx`, `data/reading-passages.json`, `components/kanji-hints.tsx`, `data/word-hints.json` |
 | `/daily-life`, `/solo-stories` | Same listening component; solo stories has 2 original sets + one story per Kaishi level (sets of five levels) | `data/daily-life.json`, `data/solo-stories.json` |
+| `/grammar-course` | N5 grammar course: 20 lessons in teaching order. Learn (explanation, examples, Kaishi recordings), then 10 practice questions (which sentence uses it / what it means / fix the mistake) generated from Kaishi sentences; pass at 80%, earlier lessons reviewed | `components/grammar-course.tsx`, `lib/grammar-course.ts`, `data/grammar-lessons.ts` |
 | `/grammar` | JLPT N5–N1 (848 points): explanations, examples, quiz, learned marks, `#n5-72` deep links | `components/grammar-practice.tsx`, `data/grammar.json`, `data/grammar-kaishi.json` |
 | `/flashcards` | Anki-style SRS (FSRS-5): Kaishi deck + grammar decks per JLPT level, Pass/Fail buttons, Anki progress import | `components/flashcards.tsx`, `lib/srs.ts` |
 | `/mistakes` | Spot the mistake: tap the wrong word, choose the fix, or "No mistake"; 3 hearts, 10 per round | `components/mistake-game.tsx`, `data/mistakes.json` |
@@ -69,7 +70,7 @@ Shared pieces:
 - No native speaker has checked the Japanese yet. Treat corrections from the user as high priority.
 
 ## Browser storage keys
-`kiku-course` (reading/grammar steps) · `kiku-progress-<genre>-<testId>` (listening/solo answers) · `kiku-last-test-<genre>` · `kiku-mistakes-best` · `kiku-srs-v1` (flashcards) · `kiku-grammar-learned`, `kiku-grammar-level` · `kiku-grammar-voice` (shared voice) · `kiku-voice-A/B`, `kiku-narrator-voice` (listening voices). Changing a key's format loses the user's progress, so migrate instead.
+`kiku-course` (reading/grammar steps) · `kiku-progress-<genre>-<testId>` (listening/solo answers) · `kiku-last-test-<genre>` · `kiku-mistakes-best` · `kiku-srs-v1` (flashcards) · `kiku-grammar-learned`, `kiku-grammar-level`, `kiku-grammar-course` · `kiku-grammar-voice` (shared voice) · `kiku-voice-A/B`, `kiku-narrator-voice` (listening voices). Changing a key's format loses the user's progress, so migrate instead.
 
 ## Gotchas
 - Next.js 16 differs from older versions; read `node_modules/next/dist/docs/` before using framework APIs (see AGENTS.md). Route params are Promises.
@@ -97,6 +98,7 @@ Shared pieces:
 - **Spot the mistake:** 277 planted mistakes + 125 correct sentences, all reviewed.
 - **Shared voice selector** (grammar, flashcards, game).
 - **Course page:** combines every practice type into a six-step path per level.
+- **Grammar course:** 20 N5 lessons, kept simple at the user's request (Learn + Practice). Questions are generated, so they change on every attempt; scores in `kiku-grammar-course`.
 
 ## Next / ideas
 - Levels 31+ (words 601–1,500): same format. Batch size follows the request ("add another level" = 1, "go bigger" = 4).
