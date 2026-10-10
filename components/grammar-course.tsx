@@ -36,7 +36,7 @@ export default function GrammarCourse() {
 
   const next = useMemo(() => grammarLessons.findIndex((_, i) => (best[i] ?? 0) < PASS), [best]);
   function open(i: number) { setLesson(i); setMode('learn'); window.scrollTo({ top: 0 }); }
-  function startPractice() { if (lesson === null) return; setQuestions(makeQuestions(lesson, pool)); setIndex(0); setPicked(null); setScore(0); setMode('practice'); }
+  function startPractice() { if (lesson === null) return; setQuestions(makeQuestions(lesson)); setIndex(0); setPicked(null); setScore(0); setMode('practice'); }
   function choose(i: number) {
     if (picked !== null) return;
     setPicked(i);
@@ -58,7 +58,7 @@ export default function GrammarCourse() {
   if (lesson === null) return <div className="shell">{header}<main>
     <div className="eyebrow">Grammar course · N5 · {grammarLessons.filter((_, i) => (best[i] ?? 0) >= PASS).length} of {grammarLessons.length} lessons passed</div>
     <h1>Learn grammar step by step.</h1>
-    <p className="intro">Each lesson teaches one topic. Read the explanation and examples, then practice with real sentences from your Kaishi deck. Score 80% to pass; earlier lessons come back for review.</p>
+    <p className="intro">Each lesson teaches one topic. Read the explanation and examples, then practice: choose between forms that look almost the same, fill gaps, say the right thing in real situations, and fix mistakes. Score 80% to pass; earlier lessons come back for review.</p>
     <ol className="gc-lessons">{grammarLessons.map((l, i) => {
       const b = best[i];
       return <li key={i}><button className={`gc-lesson${b !== undefined && b >= PASS ? ' passed' : ''}${i === next ? ' next' : ''}`} onClick={() => open(i)}>
@@ -79,7 +79,7 @@ export default function GrammarCourse() {
       <strong>Lesson {lesson + 1}: <span lang="ja">{l.title}</span></strong>
       <div className="reading-controls gc-tabs" role="group" aria-label="Lesson step">
         <button className="primary" aria-pressed={mode === 'learn'} onClick={() => setMode('learn')}>1. Learn</button>
-        <button className="primary" aria-pressed={mode !== 'learn'} onClick={startPractice} disabled={!pool.length}>2. Practice</button>
+        <button className="primary" aria-pressed={mode !== 'learn'} onClick={startPractice}>2. Practice</button>
       </div>
     </div>
 
@@ -101,32 +101,37 @@ export default function GrammarCourse() {
         </article>;
       })}
       <div className="actions"><VoiceSelect id="gc-voice" help="Voice for the green ▶ examples. Orange ▶ plays the original Kaishi recording." /></div>
-      <button className="primary" onClick={startPractice} disabled={!pool.length}>{pool.length ? 'Start practice →' : 'Loading sentences…'}</button>
+      <button className="primary" onClick={startPractice}>Start practice →</button>
     </div></section>}
 
     {mode === 'practice' && q && <section className="card">
       <div className="card-top"><span className="small">Question {index + 1} of {questions.length}</span><span className="badge">Score {score}</span></div>
       <progress value={index} max={questions.length} aria-label="Practice progress" />
       <div className="content">
-        <p className="gc-prompt">{q.kind === 'which' ? <>Which sentence uses <strong lang="ja">{q.point.pattern}</strong> ({q.point.meaning})?</>
-          : q.kind === 'meaning' ? <>What does <strong lang="ja">{q.point.pattern}</strong> mean?</>
-          : <>This sentence has a mistake. Choose the correct form for the highlighted part.</>}</p>
-        {q.kind === 'fix' && <p className="mistake-sentence" lang="ja">{q.chunks.map((c, i) => <span key={i} className={`mistake-chunk${i === q.wrong ? ' found' : ''}`}>{c}</span>)}</p>}
-        <div className="choices" role="group" aria-label="Answers">{(q.kind === 'which' ? q.options.map(s => s.ja) : q.options).map((option, i) => {
+        <p className="gc-kind">{q.kind === 'pair' ? (q.direction === 'en-ja' ? 'Choose the Japanese' : 'What does it mean?') : q.kind === 'gap' ? 'Fill the gap' : q.kind === 'situation' ? 'What would you say?' : 'Fix the mistake'}</p>
+        {q.kind === 'pair' && <p className="gc-prompt" lang={q.direction === 'en-ja' ? 'en' : 'ja'}>{q.prompt}
+          {q.direction === 'ja-en' && <button type="button" className="play-small gc-inline-play" aria-label="Play" onClick={() => speakJapanese(q.ja)}>▶</button>}</p>}
+        {q.kind === 'gap' && <><p className="gc-prompt gc-gap" lang="ja">{q.ja.split('＿＿').map((part, i) => <span key={i}>{i > 0 && <span className="gc-blank">{picked !== null ? q.options[q.answer] : '＿＿'}</span>}{part}</span>)}</p><p className="small">{q.en}</p></>}
+        {q.kind === 'situation' && <p className="gc-prompt">{q.prompt}</p>}
+        {q.kind === 'fix' && <><p className="mistake-sentence" lang="ja">{q.chunks.map((c, i) => <span key={i} className={`mistake-chunk${i === q.wrong ? ' found' : ''}`}>{c}</span>)}</p><p className="small">The highlighted part is wrong. Choose the correct form.</p></>}
+        <div className="choices" role="group" aria-label="Answers">{q.options.map((option, i) => {
           const state = picked === null ? '' : i === q.answer ? 'correct' : i === picked ? 'incorrect' : '';
+          const ja = !(q.kind === 'pair' && q.direction === 'ja-en');
           return <div className="choice" key={i}><button type="button" className={`choice-button ${state}`} disabled={picked !== null} onClick={() => choose(i)}>
-            <span className="letter" aria-hidden="true">{'ABCD'[i]}</span><span lang={q.kind === 'meaning' ? 'en' : 'ja'}>{option}</span>
+            <span className="letter" aria-hidden="true">{'ABCD'[i]}</span><span lang={ja ? 'ja' : 'en'}>{option}</span>
             {state && <span className="answer-mark">{state === 'correct' ? '✓' : '✕'}</span>}
           </button></div>;
         })}</div>
-        {picked !== null && <div className={`feedback${picked === q.answer ? '' : ' wrong'}`} role="status">
-          <strong>{picked === q.answer ? 'Correct!' : 'Not quite.'}</strong>
-          {q.kind === 'which' && <p><span lang="ja">{q.options[q.answer].ja}</span> — {q.options[q.answer].en}
-            <button type="button" className="play-small gc-inline-play" aria-label="Play" onClick={() => play(q.options[q.answer])}>▶</button></p>}
-          {q.kind === 'meaning' && <p><span lang="ja">{q.point.pattern}</span>: {q.point.meaning}. <span lang="ja">{q.point.formation}</span></p>}
-          {q.kind === 'fix' && <p>{q.why} <br /><span className="small">{q.en}</span></p>}
-          <div className="reading-controls"><button className="primary" onClick={advance}>{index + 1 < questions.length ? 'Next →' : 'See result →'}</button></div>
-        </div>}
+        {picked !== null && (() => {
+          // The correct Japanese sentence, to hear after answering.
+          const said = q.kind === 'pair' ? q.ja : q.kind === 'gap' ? q.full : q.kind === 'situation' ? q.options[q.answer] : q.full;
+          return <div className={`feedback${picked === q.answer ? '' : ' wrong'}`} role="status">
+            <strong>{picked === q.answer ? 'Correct!' : 'Not quite.'}</strong>
+            <p><span lang="ja">{said}</span><button type="button" className="play-small gc-inline-play" aria-label="Play the correct sentence" onClick={() => speakJapanese(said)}>▶</button></p>
+            <p>{q.why}{q.kind === 'fix' && <><br /><span className="small">{q.en}</span></>}</p>
+            <div className="reading-controls"><button className="primary" onClick={advance}>{index + 1 < questions.length ? 'Next →' : 'See result →'}</button></div>
+          </div>;
+        })()}
       </div>
     </section>}
 
