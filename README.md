@@ -13,6 +13,14 @@ npm.cmd run dev
 
 Open http://localhost:3000 in Edge. On Windows, npm.cmd avoids PowerShell script restrictions. On other systems use npm.
 
+## Cloud progress and login
+
+Copy `.env.example` to `.env.local` and configure `MONGODB_URI`, `LOGIN_KEY`, and a long random `SESSION_SECRET`. Keep these server-only secrets out of Git. Set the same variables in your hosting provider when deploying, and allow your server's network address in MongoDB Atlas Network Access. Restart the server after changing environment variables.
+
+Enter the shared login key to start. The browser keeps a signed HttpOnly session for 30 days. Progress loads before lessons mount. Existing local values missing from the cloud are imported automatically; cloud values take precedence for existing entries, except for this browser's pending unsynced edits. Writes save locally immediately and sync within about two seconds, with retries after network failures. Logout waits for pending saves. The “เรียนต่อ” link opens the page saved before this session; listening exercises resume at their first unanswered question.
+
+This is one shared learning profile: anyone using the same key shares progress. Simultaneous edits to the same saved section use the last server write. The login endpoint has a basic per-process throttle; public deployments with multiple server instances should use a shared rate limiter if stronger protection is needed.
+
 ## Checks and production
 
 ```powershell

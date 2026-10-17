@@ -1,5 +1,7 @@
 'use client';
 
+import { saveLocal } from '../lib/storage';
+
 import Link from 'next/link';
 import { useEffect, useMemo, useState } from 'react';
 import { grammarLessons } from '../data/grammar-lessons';
@@ -48,7 +50,7 @@ export default function GrammarCourse() {
     if (lesson !== null && result > (best[lesson] ?? -1)) {
       const updated = { ...best, [lesson]: result };
       setBest(updated);
-      try { localStorage.setItem(progressKey, JSON.stringify(updated)); } catch {}
+      try { saveLocal(progressKey, JSON.stringify(updated)); } catch {}
     }
     setMode('done');
   }

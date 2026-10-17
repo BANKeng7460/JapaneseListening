@@ -1,5 +1,7 @@
 'use client';
 
+import { saveLocal } from '../lib/storage';
+
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import grammar from '../data/grammar.json';
 import grammarKaishi from '../data/grammar-kaishi.json';
@@ -72,7 +74,7 @@ export default function Flashcards() {
     const timer = setInterval(() => setNow(Date.now()), 15_000);
     return () => clearInterval(timer);
   }, []);
-  useEffect(() => { if (loaded) try { localStorage.setItem(storeKey, JSON.stringify(store)); } catch {} }, [store, loaded]);
+  useEffect(() => { if (loaded) try { saveLocal(storeKey, JSON.stringify(store)); } catch {} }, [store, loaded]);
 
   const cardIds = useMemo(() => ({
     kaishi: (focus ? (kaishi ?? []).slice(focus.from - 1, focus.to) : kaishi ?? []).map(card => `kaishi:${card.id}`),

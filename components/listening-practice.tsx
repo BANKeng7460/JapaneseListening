@@ -1,5 +1,7 @@
 'use client';
 
+import { saveLocal } from '../lib/storage';
+
 import { useEffect, useRef, useState } from 'react';
 import { listeningTests, type ListeningTest, type TestEntry } from '../data/tests';
 import { useDialogueSpeech } from '../hooks/use-dialogue-speech';
@@ -39,7 +41,7 @@ export default function ListeningPractice({ tests = listeningTests, genre = 'kai
   // Answers are saved per test on this device so progress survives reloads and test switches.
   const progressKey = (id: string) => `kiku-progress-${genre}-${id}`;
   function saveResponses(id: string, saved: Record<number, number>) {
-    try { localStorage.setItem(progressKey(id), JSON.stringify(saved)); } catch {}
+    try { saveLocal(progressKey(id), JSON.stringify(saved)); } catch {}
   }
   function loadResponses(entry: ListeningTest): Record<number, number> {
     try {
@@ -53,7 +55,7 @@ export default function ListeningPractice({ tests = listeningTests, genre = 'kai
     const target = startAt !== undefined && entry.questions[startAt] ? startAt : entry.questions.findIndex((_, i) => saved[i] === undefined);
     speech.reset(); setTest(entry); setResponses(saved);
     setCurrent(Math.max(0, target)); setSelected(target === -1 ? null : saved[target] ?? null); setFinished(target === -1 && startAt === undefined);
-    try { localStorage.setItem(`kiku-last-test-${genre}`, entry.id); } catch {}
+    try { saveLocal(`kiku-last-test-${genre}`, entry.id); } catch {}
   }
   useEffect(() => {
     let lastId: string | null = null;

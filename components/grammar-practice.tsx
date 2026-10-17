@@ -1,5 +1,7 @@
 'use client';
 
+import { saveLocal } from '../lib/storage';
+
 import { useEffect, useMemo, useState } from 'react';
 import grammar from '../data/grammar.json';
 import kaishiExamples from '../data/grammar-kaishi.json';
@@ -97,7 +99,7 @@ export default function GrammarPractice() {
     const next = new Set(learned);
     if (next.has(id)) next.delete(id); else next.add(id);
     setLearned(next);
-    try { localStorage.setItem(learnedKey, JSON.stringify([...next])); } catch {}
+    try { saveLocal(learnedKey, JSON.stringify([...next])); } catch {}
   }
   function nextQuestion(pool = points) {
     const unlearned = pool.filter(point => !learned.has(point.id));
@@ -108,7 +110,7 @@ export default function GrammarPractice() {
   }
   function chooseLevel(next: Level) {
     setLevel(next); setScore({ right: 0, total: 0 });
-    try { localStorage.setItem(levelKey, next); } catch {}
+    try { saveLocal(levelKey, next); } catch {}
     if (mode === 'quiz') nextQuestion(grammar.filter(point => point.level === next));
   }
   function pick(id: string) {

@@ -1,3 +1,4 @@
+import { saveLocal } from './storage';
 // Browser text-to-speech for single Japanese sentences, shared by the grammar page, flashcards and the mistake game.
 // One saved voice is used everywhere; it falls back to the voice chosen on the listening pages.
 import { toSpeech } from './reading-fix';
@@ -15,7 +16,7 @@ export function savedVoiceId() {
 }
 
 export function saveVoice(id: string) {
-  try { localStorage.setItem(voiceKey, id); } catch {}
+  try { saveLocal(voiceKey, id); } catch {}
 }
 
 /** The playback speed chosen on the listening pages (1 if none). */

@@ -1,5 +1,7 @@
 'use client';
 
+import { saveLocal } from '../lib/storage';
+
 import { useCallback, useEffect, useRef, useState } from 'react';
 import type { DialogueLine, Speaker } from '../data/tests';
 import { toSpeech } from '../lib/reading-fix';
@@ -118,10 +120,10 @@ export function useDialogueSpeech(solo = false) {
   const chooseVoice = (speaker: Speaker, key: string) => {
     stop(); preferences.current[speaker] = key;
     setSelected(previous => ({ ...previous, [speaker]: key }));
-    try { localStorage.setItem(solo ? 'kiku-narrator-voice' : `kiku-voice-${speaker}`, key); } catch {}
+    try { saveLocal(solo ? 'kiku-narrator-voice' : `kiku-voice-${speaker}`, key); } catch {}
     setStatus(solo ? 'Narrator updated. Press play to restart the story.' : `Speaker ${speaker} updated. Press play to restart the conversation.`);
   };
-  const changeRate = (value: number) => { stop(); setRate(value); try { localStorage.setItem('kiku-speech-rate', String(value)); } catch {} setStatus('Speed updated. Press play to restart.'); };
+  const changeRate = (value: number) => { stop(); setRate(value); try { saveLocal('kiku-speech-rate', String(value)); } catch {} setStatus('Speed updated. Press play to restart.'); };
   const reset = () => { stop(); setStatus(voices.length ? 'Press play to listen.' : 'No Japanese voices available.'); };
   const stopPlayback = () => { stop(); setStatus('Playback stopped. Press play to restart.'); };
   return { voices, selected, rate, playing, paused, status, position, play, playFrom, stopPlayback, reset, chooseVoice, changeRate, voiceKey };

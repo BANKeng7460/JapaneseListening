@@ -291,3 +291,5 @@
 .reading-listen { margin:4px 0 18px; padding:12px 14px; border:1px solid var(--line); border-radius:12px; background:white; }
 .reading-listen .reading-controls { margin-top:0; }
 .reading-listen .voice-controls { justify-content:flex-start; }
+
+.cloud-bar {display:flex;align-items:center;justify-content:flex-end;gap:16px;padding:10px 24px;background:#eef4e9;font-size:13px;flex-wrap:wrap}.cloud-bar button,.account-card button {padding:10px 18px;border:0;border-radius:10px;background:#31543c;color:white;cursor:pointer}.account-screen {min-height:90vh;display:grid;place-items:center;padding:24px}.account-card {width:100%;max-width:420px;padding:32px;border:1px solid #dde5d8;border-radius:20px;background:white}.account-card h1 {font-size:25px}.account-card p {line-height:1.7;color:#596452}.account-card label {display:block;margin-bottom:8px}.account-card input {box-sizing:border-box;width:100%;padding:12px;border:1px solid #bcc9b6;border-radius:10px;margin-bottom:16px}.account-card button {width:100%}.account-card button:disabled {opacity:.6}

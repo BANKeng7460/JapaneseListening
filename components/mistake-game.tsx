@@ -1,5 +1,7 @@
 'use client';
 
+import { saveLocal } from '../lib/storage';
+
 import Link from 'next/link';
 import { useEffect, useMemo, useState } from 'react';
 import mistakes from '../data/mistakes.json';
@@ -82,7 +84,7 @@ export default function MistakeGame() {
     if (!over || score <= (best[levelId] ?? -1)) return;
     const updated = { ...best, [levelId]: score };
     setBest(updated);
-    try { localStorage.setItem(bestKey, JSON.stringify(updated)); } catch {}
+    try { saveLocal(bestKey, JSON.stringify(updated)); } catch {}
   }, [over]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const corrected = item ? item.chunks.map((c, i) => (i === item.wrong ? item.fix! : c)) : [];

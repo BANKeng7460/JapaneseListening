@@ -1,3 +1,4 @@
+import { saveLocal } from './storage';
 // Course progress for the steps that have no progress of their own (new words, reading, grammar).
 // Listening, story and mistake steps are read from those pages' own saved progress.
 export type CoursePart = 'words' | 'reading' | 'grammar';
@@ -12,7 +13,7 @@ export function loadCourse(): CourseProgress {
 export function markCourse(part: CoursePart, levelId: string, value = 1) {
   const progress = loadCourse();
   progress[part][levelId] = value;
-  try { localStorage.setItem(key, JSON.stringify(progress)); } catch {}
+  try { saveLocal(key, JSON.stringify(progress)); } catch {}
 }
 
 /** The course level a practice page was opened from (?course=12), or null. */
