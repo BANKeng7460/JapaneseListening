@@ -164,11 +164,17 @@ export default function Flashcards() {
     if (!deck) return;
     const onKey = (event: KeyboardEvent) => {
       const target = event.target as HTMLElement;
-      if (target.closest('input, select, textarea, summary')) return;
+      if (event.repeat || target.closest('input, select, textarea, summary, [contenteditable]:not([contenteditable="false"])')) return;
       if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'z') { event.preventDefault(); undoLast(); return; }
+      if (event.ctrlKey || event.metaKey || event.altKey) return;
       if (!current) return;
       if (event.key === ' ' || event.key === 'Enter') { event.preventDefault(); if (current.shown) answer(3); else reveal(); }
-      else if (current.shown && ['1', '2', '3', '4'].includes(event.key)) answer(passFail ? (event.key === '1' ? 1 : 3) : Number(event.key) as Rating);
+      else if (passFail && ['3', '4'].includes(event.key)) {
+        event.preventDefault();
+        const card = kaishiById.get(current.id);
+        if (card && current.shown) playAudio([event.key === '3' ? card.wordAudio : card.sentenceAudio]);
+      }
+      else if (current.shown && ['1', '2', '3', '4'].includes(event.key)) { event.preventDefault(); answer(passFail ? (event.key === '1' ? 1 : 3) : Number(event.key) as Rating); }
       else if (event.key.toLowerCase() === 'r') { const card = kaishiById.get(current.id); if (card && current.shown) playAudio([card.wordAudio, card.sentenceAudio]); }
     };
     window.addEventListener('keydown', onKey);
@@ -239,8 +245,8 @@ export default function Flashcards() {
                 {cardGrammar?.cards[card.id] && <SentenceGrammar items={cardGrammar.cards[card.id]} basic={cardGrammar.basic} />}
                 {card.notes && <p className="small srs-notes">{card.notes}</p>}
                 <div className="reading-controls">
-                  <button className="primary secondary" onClick={() => playAudio([card.wordAudio])} disabled={!card.wordAudio}>▶ Word</button>
-                  <button className="primary secondary" onClick={() => playAudio([card.sentenceAudio])} disabled={!card.sentenceAudio}>▶ Sentence</button>
+                  <button className="primary secondary" onClick={() => playAudio([card.wordAudio])} disabled={!card.wordAudio} aria-keyshortcuts={passFail ? '3' : undefined}>▶ Word{passFail && ' (3)'}</button>
+                  <button className="primary secondary" onClick={() => playAudio([card.sentenceAudio])} disabled={!card.sentenceAudio} aria-keyshortcuts={passFail ? '4' : undefined}>▶ Sentence{passFail && ' (4)'}</button>
                 </div>
               </div>}
             </> : <GrammarFace point={card} shown={current.shown} />}
@@ -253,7 +259,7 @@ export default function Flashcards() {
           </div>
         </>}
       </section>
-      <p className="small srs-help">{passFail ? 'Space or Enter: show answer, then Pass · 1: Fail · 2: Pass' : 'Space or Enter: show answer, then Good · 1–4: Again, Hard, Good, Easy'} · R: replay audio · Ctrl+Z: undo</p>
+      <p className="small srs-help">{passFail ? 'Space or Enter: show answer, then Pass · 1: Fail · 2: Pass · 3: play word · 4: play sentence' : 'Space or Enter: show answer, then Good · 1–4: Again, Hard, Good, Easy'} · R: replay audio · Ctrl+Z: undo</p>
     </main></div>;
   }
 
