@@ -8,7 +8,7 @@ import { toSpeech } from '../lib/reading-fix';
 
 const voiceKey = (voice: SpeechSynthesisVoice) => JSON.stringify([voice.voiceURI, voice.name, voice.lang]);
 
-export function useDialogueSpeech(solo = false) {
+export function useDialogueSpeech(solo = false, onComplete?: () => void) {
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
   const [selected, setSelected] = useState<Record<Speaker, string>>({ A: '', B: '' });
   const [rate, setRate] = useState(1);
@@ -22,6 +22,8 @@ export function useDialogueSpeech(solo = false) {
   const generation = useRef(0);
   const utterance = useRef<SpeechSynthesisUtterance | null>(null);
   const preferences = useRef<Record<Speaker, string>>({ A: '', B: '' });
+  const completion = useRef(onComplete);
+  completion.current = onComplete;
   // What is being spoken right now, for highlighting the transcript: line index and character offset.
   const [position, setPosition] = useState<{ line: number; char: number; length: number } | null>(null);
 
@@ -90,7 +92,7 @@ export function useDialogueSpeech(solo = false) {
     const speakLine = (index: number, offset = 0) => {
       if (id !== generation.current) return;
       if (pausedRef.current) { pendingLine.current = () => speakLine(index); return; }
-      if (index === lines.length) { stop(); setStatus(solo ? 'Story complete. Press play to listen again.' : 'Conversation complete. Press play to listen again.'); return; }
+      if (index === lines.length) { stop(); setStatus(solo ? 'Story complete. Press play to listen again.' : 'Conversation complete. Press play to listen again.'); completion.current?.(); return; }
       const line = lines[index];
       // Speak kana for kanji the voices misread (明日 → あした); origin() maps positions back for highlighting.
       const { spoken, origin } = toSpeech(line.text.slice(offset));

@@ -24,12 +24,49 @@ export default function ListeningPractice({ tests = listeningTests, genre = 'kai
   const [selected, setSelected] = useState<number | null>(null);
   const [responses, setResponses] = useState<Record<number, number>>({});
   const [finished, setFinished] = useState(false);
-  const speech = useDialogueSpeech(solo);
+  const [englishVoices, setEnglishVoices] = useState<SpeechSynthesisVoice[]>([]);
+  const [englishVoice, setEnglishVoice] = useState('');
   const questionHeading = useRef<HTMLLegendElement>(null);
+  const englishVoiceKey = (voice: SpeechSynthesisVoice) => JSON.stringify([voice.voiceURI, voice.name, voice.lang]);
+  const englishKey = useRef(englishVoiceKey);
+  englishKey.current = englishVoiceKey;
+  const currentQuestion = useRef<{ question: string; choices: string[] } | null>(null);
+  const englishVoiceSelection = useRef({ voices: englishVoices, voice: englishVoice });
+  englishVoiceSelection.current = { voices: englishVoices, voice: englishVoice };
+  function readEnglishPrompt() {
+    const question = currentQuestion.current;
+    if (solo || !window.speechSynthesis || !question) return;
+    window.speechSynthesis.cancel();
+    const text = `Question. ${question.question}. ${question.choices.map((choice, index) => `Number ${index + 1}. ${choice}.`).join(' ')}`;
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'en-US';
+    utterance.voice = englishVoiceSelection.current.voices.find(voice => englishKey.current(voice) === englishVoiceSelection.current.voice) || null;
+    window.speechSynthesis.speak(utterance);
+  }
+  const speech = useDialogueSpeech(solo, readEnglishPrompt);
   // Word boundaries for the live transcript (scripts/line-words.cjs), so 明日 hovers and plays as one word.
   const [lineWords, setLineWords] = useState<Record<string, number[]>>({});
   useEffect(() => { fetch('/line-words.json').then(r => r.ok ? r.json() : {}).then(setLineWords).catch(() => {}); }, []);
   const q = test.questions[current];
+  currentQuestion.current = q;
+  useEffect(() => {
+    const synth = window.speechSynthesis;
+    if (!synth) return;
+    const load = () => {
+      const available = synth.getVoices().filter(voice => /^en(?:[-_]|$)/i.test(voice.lang));
+      let saved = '';
+      try { saved = localStorage.getItem('kiku-english-voice') || ''; } catch {}
+      setEnglishVoices(available);
+      setEnglishVoice(value => available.some(voice => englishVoiceKey(voice) === value) ? value : available.some(voice => englishVoiceKey(voice) === saved) ? saved : (available[0] ? englishVoiceKey(available[0]) : ''));
+    };
+    load();
+    synth.addEventListener('voiceschanged', load);
+    return () => synth.removeEventListener('voiceschanged', load);
+  }, []);
+  function chooseEnglishVoice(key: string) {
+    setEnglishVoice(key);
+    try { saveLocal('kiku-english-voice', key); } catch {}
+  }
   const checked = responses[current] !== undefined;
   const answeredCount = Object.keys(responses).length;
   const score = test.questions.filter((question,i) => responses[i] === question.answer).length;
@@ -77,6 +114,28 @@ export default function ListeningPractice({ tests = listeningTests, genre = 'kai
     const target = Array.from({length: test.questions.length}, (_,offset) => (current + offset + 1) % test.questions.length).find(i => responses[i] === undefined);
     if (target !== undefined) jump(target);
   }
+  function submitSelected() {
+    if (selected === null || checked) return;
+    const updated = { ...responses, [current]: selected };
+    setResponses(updated); saveResponses(test.id, updated);
+  }
+  useEffect(() => {
+    function onKeyDown(event: KeyboardEvent) {
+      if (event.altKey || event.ctrlKey || event.metaKey) return;
+      const target = event.target as HTMLElement | null;
+      const typingInput = target?.tagName === 'INPUT' && !['radio', 'checkbox'].includes((target as HTMLInputElement).type);
+      if (target?.isContentEditable || typingInput || ['TEXTAREA', 'SELECT'].includes(target?.tagName || '')) return;
+      if (/^[1-4]$/.test(event.key) && !checked && !finished) {
+        const choice = Number(event.key) - 1;
+        if (q.choices[choice] !== undefined) { event.preventDefault(); setSelected(choice); }
+      } else if (event.key === 'Enter' && !finished) {
+        if (checked) { event.preventDefault(); next(); }
+        else if (selected !== null) { event.preventDefault(); submitSelected(); }
+      }
+    }
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [checked, finished, q, selected, current, responses, answeredCount]);
   return <div className="shell">
     <header><div className="brand"><span className="brand-mark" lang="ja">き</span> kiku.</div><span className="header-note">A little listening, every day.</span></header>
     <main>
@@ -127,15 +186,22 @@ export default function ListeningPractice({ tests = listeningTests, genre = 'kai
                     {speech.voices.map(voice => <option key={speech.voiceKey(voice)} value={speech.voiceKey(voice)}>{voice.name}{voice.localService ? '' : ' · Online'}</option>)}
                   </select>
                 </div>)}
+                {!solo && <div className="audio-controls voice-controls">
+                  <label htmlFor="english-voice">English voice</label>
+                  <select id="english-voice" value={englishVoice} disabled={!englishVoices.length} onChange={event => chooseEnglishVoice(event.target.value)}>
+                    {!englishVoices.length && <option value="">No English voices available</option>}
+                    {englishVoices.map(voice => <option key={englishVoiceKey(voice)} value={englishVoiceKey(voice)}>{voice.name}{voice.localService ? '' : ' · Online'}</option>)}
+                  </select>
+                </div>}
                 <p className="voice-help" id="voice-help">For Microsoft voices, open this page in Edge. Available voices depend on your browser and device; Edge’s Read Aloud voice list may differ.</p>
                 <p id="audio-status" role="status">{speech.status}</p>
               </div>
-              <form onSubmit={e => { e.preventDefault(); if (selected !== null && !checked) { const updated = { ...responses, [current]: selected }; setResponses(updated); saveResponses(test.id, updated); } }}>
+              <form onSubmit={e => { e.preventDefault(); submitSelected(); }}>
                 <fieldset><legend ref={questionHeading} tabIndex={-1}>{q.question}</legend><div className="choices">
                   {q.choices.map((choice,i) => <div className="choice" key={`${current}-${i}`}>
                     <input id={`answer-${i}`} name="answer" type="radio" checked={selected === i} disabled={checked} onChange={() => setSelected(i)} />
                     <label htmlFor={`answer-${i}`} className={checked && i === q.answer ? 'correct' : checked && i === selected ? 'incorrect' : ''}>
-                      <span className="letter" aria-hidden="true">{'ABCD'[i]}</span><span>{choice}</span>
+                      <span className="letter" aria-hidden="true">{i + 1}</span><span>{choice}</span>
                       {checked && (i === q.answer || i === selected) && <span className="answer-mark">{i === q.answer ? '✓ Correct' : '✕ Your answer'}</span>}
                     </label>
                   </div>)}
@@ -160,7 +226,7 @@ export default function ListeningPractice({ tests = listeningTests, genre = 'kai
                     })}</details>
                 </div>}
                 {checked && <GrammarUsed kind="listening" setId={test.id} index={current} />}
-                <div className="actions"><span className="small">{checked ? 'Replay the clip to hear the answer.' : 'Choose one answer.'}</span>
+                <div className="actions"><span className="small">{checked ? 'Press Enter for the next question.' : 'Press 1–4 to choose, then Enter to check.'}</span>
                   {checked ? <button className="primary" type="button" onClick={next}>{answeredCount === test.questions.length ? 'See results →' : 'Next unanswered →'}</button> : <button className="primary" type="submit" disabled={selected === null}>Check answer →</button>}
                 </div>
               </form>
@@ -179,6 +245,6 @@ export default function ListeningPractice({ tests = listeningTests, genre = 'kai
         </aside>
       </div>
     </main>
-    <footer>Audio is generated by your browser. A Japanese text-to-speech voice is required.</footer>
+    <footer>Audio is generated by your browser. Japanese and English speech voices depend on your device.</footer>
   </div>;
 }
