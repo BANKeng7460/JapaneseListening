@@ -8,6 +8,7 @@ export default function GenreNavigation() {
   return <nav className="genre-nav" aria-label="Practice genre">
     <Link href="/course" aria-current={pathname === '/course' ? 'page' : undefined}>Course</Link>
     <Link href="/" aria-current={pathname === '/' ? 'page' : undefined}>Kaishi conversations</Link>
+    <Link href="/numbers" aria-current={pathname === '/numbers' ? 'page' : undefined}>Number listening</Link>
     <Link href="/reading" aria-current={pathname === '/reading' ? 'page' : undefined}>Reading practice</Link>
     <Link href="/grammar-course" aria-current={pathname === '/grammar-course' ? 'page' : undefined}>Grammar course</Link>
     <Link href="/grammar" aria-current={pathname === '/grammar' ? 'page' : undefined}>Grammar N5–N1</Link>
