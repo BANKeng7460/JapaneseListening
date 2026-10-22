@@ -92,7 +92,19 @@ export function useDialogueSpeech(solo = false, onComplete?: () => void) {
     const speakLine = (index: number, offset = 0) => {
       if (id !== generation.current) return;
       if (pausedRef.current) { pendingLine.current = () => speakLine(index); return; }
-      if (index === lines.length) { stop(); setStatus(solo ? 'Story complete. Press play to listen again.' : 'Conversation complete. Press play to listen again.'); completion.current?.(); return; }
+      if (index === lines.length) {
+        // The final utterance has already ended; don't call speechSynthesis.cancel() here.
+        // Some browsers apply cancel asynchronously and can cancel the next queued English prompt.
+        generation.current++;
+        const completedGeneration = generation.current;
+        pausedRef.current = false;
+        pendingLine.current = null;
+        utterance.current = null;
+        setPaused(false); setPlaying(false); setPosition(null);
+        setStatus(solo ? 'Story complete. Press play to listen again.' : 'Conversation complete. Press play to listen again.');
+        if (!solo) window.setTimeout(() => { if (completedGeneration === generation.current) completion.current?.(); }, 100);
+        return;
+      }
       const line = lines[index];
       // Speak kana for kanji the voices misread (明日 → あした); origin() maps positions back for highlighting.
       const { spoken, origin } = toSpeech(line.text.slice(offset));

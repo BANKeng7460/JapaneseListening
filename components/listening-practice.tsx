@@ -36,7 +36,6 @@ export default function ListeningPractice({ tests = listeningTests, genre = 'kai
   function readEnglishPrompt() {
     const question = currentQuestion.current;
     if (solo || !window.speechSynthesis || !question) return;
-    window.speechSynthesis.cancel();
     const text = `Question. ${question.question}. ${question.choices.map((choice, index) => `Number ${index + 1}. ${choice}.`).join(' ')}`;
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = 'en-US';
